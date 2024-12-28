@@ -18,6 +18,13 @@ def load_data(data_name, split, data_dir="./data"):
                 name="main",
                 cache_dir=f"{data_dir}/temp",
             )
+        elif data_name == "math500":
+            dataset = load_dataset(
+                "HuggingFaceH4/MATH-500",
+                split=split,
+                name="default",
+                cache_dir=f"{data_dir}/temp",
+            )
         elif data_name == "gsm8k":
             dataset = load_dataset(data_name, split=split)
         elif data_name == "svamp":
