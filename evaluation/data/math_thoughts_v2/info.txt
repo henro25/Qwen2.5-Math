@@ -1,0 +1,8 @@
+math_thoughts_v2 is math but has thoughts split by:
+
+- ". [A-Z]"
+- ".  "
+- "$ [A-Z]"
+- "\n\n"
+
+(without "\n")
