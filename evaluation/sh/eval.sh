@@ -2,6 +2,7 @@ set -ex
 
 PROMPT_TYPE=$1
 MODEL_NAME_OR_PATH=$2
+OPENAI_API_BASE=$3
 OUTPUT_DIR=${MODEL_NAME_OR_PATH}/math_eval
 
 SPLIT="test"
@@ -14,6 +15,7 @@ python3 -u math_eval_cpu.py \
     --model_name_or_path ${MODEL_NAME_OR_PATH} \
     --data_name ${DATA_NAME} \
     --output_dir ${OUTPUT_DIR} \
+    --openai_api_base ${OPENAI_API_BASE} \
     --split ${SPLIT} \
     --prompt_type ${PROMPT_TYPE} \
     --num_test_sample ${NUM_TEST_SAMPLE} \

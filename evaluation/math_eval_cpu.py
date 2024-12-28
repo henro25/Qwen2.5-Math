@@ -131,6 +131,12 @@ def setup_inference_client(args):
     )
     return client
 
+template = "<start_of_father_id>-1<end_of_father_id><start_of_local_id>0<end_of_local_id><start_of_thought><problem>{content}<end_of_thought><start_of_rating><positive_rating><end_of_rating>\n<start_of_father_id>0<end_of_father_id><start_of_local_id>1<end_of_local_id><start_of_thought><expansion>"
+
+def llama_o1_template(query):
+    text = template.format(content=query)
+    return text
+
 
 def generate_completions_inferencing_endpoint(client, prompts, args):
     """
@@ -143,7 +149,7 @@ def generate_completions_inferencing_endpoint(client, prompts, args):
     
     def run_inference(index, prompt):
         """Worker function that calls the endpoint for a single prompt."""
-        messages = [{"role": "user", "content": prompt}]
+        messages = [{"role": "user", "content":llama_o1_template(prompt)}]
 
         response = client.chat.completions.create(
             model=args.model_name_or_path,
@@ -159,7 +165,7 @@ def generate_completions_inferencing_endpoint(client, prompts, args):
         return index, text_output
 
     # You can tune the number of worker threads if you want
-    max_workers = 100  # Example: 5 threads
+    max_workers = 50  # Example: 5 threads
 
     # Submit tasks
     futures = []
