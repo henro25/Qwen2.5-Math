@@ -132,52 +132,63 @@ def setup_inference_client(args):
     return client
 
 
-def generate_completions_inferencing_endpoint(client, prompts, args):
+def generate_completions_inferencing_endpoint(client, prompts, args, timeout=20, max_retries=3):
     """
     Given a list of input prompts, call the inference endpoint for each one
-    and return a list of generated outputs.
+    with retry and timeout logic and return a list of generated outputs.
     """
-    
-    # This list will hold the final outputs in the correct order
     outputs = [None] * len(prompts)
-    
-    def run_inference(index, prompt):
-        """Worker function that calls the endpoint for a single prompt."""
-        
-        messages = [{"role": "user", "content":prompt}]
 
-        response = client.chat.completions.create(
-            model=args.model_name_or_path,
-            messages=messages,
-            temperature=args.temperature,
-            top_p=args.top_p,
-            max_tokens=args.max_tokens_per_call,
-            n=1,
-            # If your endpoint supports stop sequences, you can add them here:
-            # stop=stop_words
-        )
-        text_output = response.choices[0].message.content.strip()
-        return index, text_output
+    def run_inference_with_retries(index, prompt):
+        """Run inference with retries and timeout logic."""
+        retries = 0
+        while retries < max_retries:
+            try:
+                start_time = time.time()
+                messages = [{"role": "user", "content": prompt}]
+                
+                # Run the inference call
+                response = client.chat.completions.create(
+                    model=args.model_name_or_path,
+                    messages=messages,
+                    temperature=args.temperature,
+                    top_p=args.top_p,
+                    max_tokens=args.max_tokens_per_call,
+                    n=1
+                )
+                
+                # Check if the response exceeds the timeout
+                if time.time() - start_time > timeout:
+                    raise TimeoutError(f"Inference took longer than {timeout} seconds.")
+                
+                # If successful, return the result
+                text_output = response.choices[0].message.content.strip()
+                return index, text_output
 
-    # You can tune the number of worker threads if you want
+            except Exception as e:
+                retries += 1
+                time.sleep(1)  # Optional: Add a short delay before retrying
+
+        # If max retries reached, skip and return None for this index
+        return index, None
+
+    # Define the maximum number of threads
     max_workers = 50
 
     # Submit tasks
     futures = []
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        # Initialize progress bar
         with tqdm(total=len(prompts), desc="Inferencing") as progress_bar:
             for idx, prompt in enumerate(prompts):
-                # Submit a job to the thread pool
-                futures.append(executor.submit(run_inference, idx, prompt))
+                futures.append(executor.submit(run_inference_with_retries, idx, prompt))
 
-            # Iterate over the futures as they complete
             for future in as_completed(futures):
                 index, result = future.result()
                 outputs[index] = result
-                progress_bar.update(1)  # Update the progress bar after each result
+                progress_bar.update(1)  # Update the progress bar
 
     return outputs
+
 
 def is_multi_choice(answer):
     for c in answer:

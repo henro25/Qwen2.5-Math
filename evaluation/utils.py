@@ -78,6 +78,7 @@ def load_prompt(data_name, prompt_type, num_shots):
 
 
 PROMPT_TEMPLATES = {
+    "default": ("{input}\n", "{output}", "\n\n"),
     "direct": ("Question: {input}\nAnswer: ", "{output}", "\n\n"),
     "cot": ("Question: {input}\nAnswer: ", "{output}", "\n\n\n"),
     "pal": ("Question: {input}\n\n", "{output}", "\n---\n"),
@@ -146,6 +147,11 @@ PROMPT_TEMPLATES = {
         "\n\n",
     ),
     "llama-sft-math-cot": (
+        "<start_of_father_id>-1<end_of_father_id><start_of_local_id>0<end_of_local_id><start_of_thought><problem>{input}<end_of_thought><start_of_rating><positive_rating><end_of_rating>\n<start_of_father_id>0<end_of_father_id><start_of_local_id>1<end_of_local_id><start_of_thought><expansion>",
+        "{output}",
+        "\n\n",
+    ),
+    "math_thought": (
         "<start_of_father_id>-1<end_of_father_id><start_of_local_id>0<end_of_local_id><start_of_thought><problem>{input}<end_of_thought><start_of_rating><positive_rating><end_of_rating>\n<start_of_father_id>0<end_of_father_id><start_of_local_id>1<end_of_local_id><start_of_thought><expansion>",
         "{output}",
         "\n\n",
