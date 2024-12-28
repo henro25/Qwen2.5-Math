@@ -151,8 +151,29 @@ PROMPT_TEMPLATES = {
         "{output}",
         "\n\n",
     ),
-    "math_thought": (
-        "<start_of_father_id>-1<end_of_father_id><start_of_local_id>0<end_of_local_id><start_of_thought><problem>{input}<end_of_thought><start_of_rating><positive_rating><end_of_rating>\n<start_of_father_id>0<end_of_father_id><start_of_local_id>1<end_of_local_id><start_of_thought><expansion>",
+    "math_thoughts_256": (
+        "{input}\n\nPlease respond in the following format using at most 256 thoughts:\nThought 1: ...\n\nThought 2: ...\n\n...",
+        "{output}",
+        "\n\n",
+    ),
+    "math_thoughts_256_cot_sys_prompt": (
+        "<|im_start|>system\nPlease reason step by step, and put your final answer within \\boxed{{}}.<|im_end|>\n"
+        "<|im_start|>user\n{input}\n\nPlease respond in the following format using at most 256 thoughts:\nThought 1: ...\n\nThought 2: ...\n\n...<|im_end|>\n"
+        "<|im_start|>assistant\n",
+        "{output}",
+        "\n\n",
+    ),
+    "math_thoughts_2_cot_sys_prompt": (
+        "<|im_start|>system\nPlease reason step by step, and put your final answer within \\boxed{{}}.<|im_end|>\n"
+        "<|im_start|>user\n{input}\n\nPlease respond in the following format using at most 2 thoughts:\nThought 1: ...\n\nThought 2: ...\n\n...<|im_end|>\n"
+        "<|im_start|>assistant\n",
+        "{output}",
+        "\n\n",
+    ),
+    "math_thoughts_16_cot_sys_prompt": (
+        "<|im_start|>system\nPlease reason step by step, and put your final answer within \\boxed{{}}.<|im_end|>\n"
+        "<|im_start|>user\n{input}\n\nPlease respond in the following format using at most 16 thoughts:\nThought 1: ...\n\nThought 2: ...\n\n...<|im_end|>\n"
+        "<|im_start|>assistant\n",
         "{output}",
         "\n\n",
     ),

@@ -132,12 +132,12 @@ def setup_inference_client(args):
     return client
 
 
-def generate_completions_inferencing_endpoint(client, prompts, args, timeout=20, max_retries=3):
+def generate_completions_inferencing_endpoint(client, prompts, args, max_retries=3, loop_timeout=120):
     """
     Given a list of input prompts, call the inference endpoint for each one
     with retry and timeout logic and return a list of generated outputs.
     """
-    outputs = [None] * len(prompts)
+    outputs = [""] * len(prompts)
 
     def run_inference_with_retries(index, prompt):
         """Run inference with retries and timeout logic."""
@@ -157,29 +157,31 @@ def generate_completions_inferencing_endpoint(client, prompts, args, timeout=20,
                     n=1
                 )
                 
-                # Check if the response exceeds the timeout
-                if time.time() - start_time > timeout:
-                    raise TimeoutError(f"Inference took longer than {timeout} seconds.")
-                
                 # If successful, return the result
                 text_output = response.choices[0].message.content.strip()
                 return index, text_output
 
             except Exception as e:
+                print(f"Error in inference: {e}")
                 retries += 1
-                time.sleep(1)  # Optional: Add a short delay before retrying
+                time.sleep(10)  # Optional: Add a short delay before retrying
 
         # If max retries reached, skip and return None for this index
-        return index, None
+        return index, ""
 
     # Define the maximum number of threads
     max_workers = 50
 
     # Submit tasks
     futures = []
+    start_time = time.time()  # Start tracking time
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         with tqdm(total=len(prompts), desc="Inferencing") as progress_bar:
             for idx, prompt in enumerate(prompts):
+                # Check if elapsed time exceeds the limit
+                if time.time() - start_time > loop_timeout:
+                    print("Task submission loop exceeded the time limit of 2 minutes. Exiting...")
+                    break
                 futures.append(executor.submit(run_inference_with_retries, idx, prompt))
 
             for future in as_completed(futures):
@@ -191,6 +193,9 @@ def generate_completions_inferencing_endpoint(client, prompts, args, timeout=20,
 
 
 def is_multi_choice(answer):
+    if not answer:
+        return False
+    
     for c in answer:
         if c not in ["A", "B", "C", "D", "E"]:
             return False
