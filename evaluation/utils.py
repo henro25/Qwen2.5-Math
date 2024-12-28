@@ -145,6 +145,11 @@ PROMPT_TEMPLATES = {
         "{output}",
         "\n\n",
     ),
+    "llama-sft-math-cot": (
+        "<start_of_father_id>-1<end_of_father_id><start_of_local_id>0<end_of_local_id><start_of_thought><problem>{input}<end_of_thought><start_of_rating><positive_rating><end_of_rating>\n<start_of_father_id>0<end_of_father_id><start_of_local_id>1<end_of_local_id><start_of_thought><expansion>",
+        "{output}",
+        "\n\n",
+    ),
     "mathstral": (
         "{input}\nPlease reason step by step, and put your final answer within \\boxed{{}}.",
         "{output}",
@@ -190,7 +195,7 @@ def construct_prompt(example, data_name, args):
         prompt_temp[1],
         prompt_temp[2],
     )
-    if args.prompt_type == "qwen25-math-cot":
+    if args.prompt_type == "qwen25-math-cot" or args.prompt_type == "llama-sft-math-cot":
         # Hotfix to support putting all demos into a single turn
         demo_prompt = splitter.join([q + "\n" + a for q, a in demos])
     else:
@@ -206,7 +211,7 @@ def construct_prompt(example, data_name, args):
     ):
         full_prompt = context
     else:
-        if args.prompt_type == "qwen25-math-cot":
+        if args.prompt_type == "qwen25-math-cot" or args.prompt_type == "llama-sft-math-cot":
             # Hotfix to supportting put all demos into a single turn
             full_prompt = demo_prompt + splitter + example["question"]
             full_prompt = input_template.format(input=full_prompt)
