@@ -4,13 +4,15 @@ PROMPT_TYPE=$1
 MODEL_NAME_OR_PATH=$2
 OPENAI_API_BASE=$3
 NUM_THOUGHT_TURNS=$4
+TEMPERATURE=$5
+LOG_EVERY=$6
 OUTPUT_DIR=${MODEL_NAME_OR_PATH}/math_eval
 
-SPLIT="test"
+SPLIT="train"
 NUM_TEST_SAMPLE=-1
 
 # English open datasets
-DATA_NAME="math500" # math, gsm8k,svamp,asdiv,mawps,carp_en,tabmwp,minerva_math,gaokao2023en,olympiadbench,college_math"
+DATA_NAME="math" # math500, gsm8k,svamp,asdiv,mawps,carp_en,tabmwp,minerva_math,gaokao2023en,olympiadbench,college_math"
 TOKENIZERS_PARALLELISM=false \
 python3 -u math_eval_cpu.py \
     --model_name_or_path ${MODEL_NAME_OR_PATH} \
@@ -21,8 +23,10 @@ python3 -u math_eval_cpu.py \
     --prompt_type ${PROMPT_TYPE} \
     --num_test_sample ${NUM_TEST_SAMPLE} \
     --num_thought_turns ${NUM_THOUGHT_TURNS} \
+    --log_every ${LOG_EVERY} \
     --seed 0 \
-    --temperature 0 \
+    --temperature ${TEMPERATURE} \
+    --log_every ${LOG_EVERY} \
     --n_sampling 1 \
     --top_p 1 \
     --start 0 \
