@@ -3,6 +3,7 @@ set -ex
 PROMPT_TYPE=$1
 MODEL_NAME_OR_PATH=$2
 OPENAI_API_BASE=$3
+NUM_THOUGHT_TURNS=$4
 OUTPUT_DIR=${MODEL_NAME_OR_PATH}/math_eval
 
 SPLIT="test"
@@ -19,6 +20,7 @@ python3 -u math_eval_cpu.py \
     --split ${SPLIT} \
     --prompt_type ${PROMPT_TYPE} \
     --num_test_sample ${NUM_TEST_SAMPLE} \
+    --num_thought_turns ${NUM_THOUGHT_TURNS} \
     --seed 0 \
     --temperature 0 \
     --n_sampling 1 \
