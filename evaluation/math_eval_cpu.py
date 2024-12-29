@@ -3,6 +3,7 @@ import os
 import argparse
 import time
 import json
+import pprint
 from datetime import datetime
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -18,10 +19,13 @@ from parser import parse_question, parse_ground_truth, run_execute
 from trajectory import extract_program
 from data_loader import load_data
 from python_executor import PythonExecutor
+from models import Model, Planner, Assistant
 # Removed: from model_utils import load_hf_lm_and_tokenizer, generate_completions
 
 # Import your inference endpoint client
 from openai import OpenAI
+
+model = None
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -43,6 +47,7 @@ def parse_args():
     parser.add_argument("--save_outputs", action="store_true")
     parser.add_argument("--overwrite", action="store_true")
     parser.add_argument("--num_shots", type=int, default=0)
+    parser.add_argument("--num_thought_turns", type=int, default=100)
     parser.add_argument(
         "--apply_chat_template",
         action="store_true",
@@ -125,14 +130,11 @@ def setup_inference_client(args):
     Initialize the OpenAI client for your custom inference endpoint.
     """
     # Create your endpoint client
-    client = OpenAI(
-        api_key=args.openai_api_key,
-        base_url=args.openai_api_base,
-    )
-    return client
+    model = Model(args.openai_api_key, args.openai_api_base, args.model_name_or_path)
+    return model
 
 
-def generate_completions_inferencing_endpoint(client, prompts, args, max_retries=3, loop_timeout=120):
+def generate_completions_inferencing_endpoint(model, prompts, args, max_retries=3, loop_timeout=120):
     """
     Given a list of input prompts, call the inference endpoint for each one
     with retry and timeout logic and return a list of generated outputs.
@@ -145,21 +147,79 @@ def generate_completions_inferencing_endpoint(client, prompts, args, max_retries
         while retries < max_retries:
             try:
                 start_time = time.time()
-                messages = [{"role": "user", "content": prompt}]
                 
-                # Run the inference call
-                response = client.chat.completions.create(
-                    model=args.model_name_or_path,
-                    messages=messages,
-                    temperature=args.temperature,
-                    top_p=args.top_p,
-                    max_tokens=args.max_tokens_per_call,
-                    n=1
-                )
+                assert(model is not None)
+                planner = Planner(user_message=prompt, model=model)
+                assistant = Assistant(user_message=prompt, model=model)
                 
-                # If successful, return the result
-                text_output = response.choices[0].message.content.strip()
-                return index, text_output
+                task = None
+                assistant_response = None
+                
+                conversation = [{
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": prompt},
+                    ]
+                }]
+                assistant_thoughts = []
+                
+                for _ in range(args.num_thought_turns):
+                    # print(f"\n--- STARTING THOUGHT {len(assistant_thoughts)} ---\n")
+
+                    # print(f"Conversation:")
+                    # pp = pprint.PrettyPrinter(indent=4)
+                    # pp.pprint(conversation)
+                    # print()
+
+                    # 1.0 Update next task
+                    planner_response = planner.continue_planning(assistant_thoughts)
+                    if "task: " in planner_response and "Rating: " in planner_response:
+                        task = planner_response.split("task: ")[1].strip()
+                        rating = planner_response.split("Rating: ")[1].split("\n")[0].strip()
+                    else:
+                        task = "No task provided"
+                        rating = "0"
+                    # print(f"\nNext task: {task}, Rating: {rating}")
+                    if rating == "-": # Only give user feedback if the rating is bad
+                        conversation.append({
+                            "role": "user",
+                            "content": [
+                                {"type": "text", "text": task},
+                            ]
+                        })
+
+                    # 2.0 Assistant executes next task
+                    assistant_response = assistant.continue_thinking(conversation)
+                    conversation.append({
+                        "role": "assistant",
+                        "content": [
+                            {"type": "text", "text": assistant_response},
+                        ]
+                    })
+                    assistant_thoughts.append(assistant_response)
+                
+                full_chain_of_thought = '\n'.join(assistant_thoughts)
+                
+                # print("--- FULL CHAIN OF THOUGHT ---")  # Print the full chain of thought
+                # print(full_chain_of_thought + '\n')
+                
+                return index, full_chain_of_thought
+                
+                # messages = [{"role": "user", "content": prompt}]
+                
+                # # Run the inference call
+                # response = client.chat.completions.create(
+                #     model=args.model_name_or_path,
+                #     messages=messages,
+                #     temperature=args.temperature,
+                #     top_p=args.top_p,
+                #     max_tokens=args.max_tokens_per_call,
+                #     n=1
+                # )
+                
+                # # If successful, return the result
+                # text_output = response.choices[0].message.content.strip()
+                # return index, text_output
 
             except Exception as e:
                 print(f"Error in inference: {e}")
@@ -202,7 +262,7 @@ def is_multi_choice(answer):
     return True
 
 
-def main(client, data_name, args):
+def main(model, data_name, args):
     examples, processed_samples, out_file = prepare_data(data_name, args)
     print("=" * 50)
     print("data:", data_name, " ,remain samples:", len(examples))
@@ -299,7 +359,7 @@ def main(client, data_name, args):
 
         # get all outputs via your inference endpoint
         prompts = [item[1] for item in current_prompts]
-        outputs = generate_completions_inferencing_endpoint(client, prompts, args)
+        outputs = generate_completions_inferencing_endpoint(model, prompts, args)
         assert len(outputs) == len(current_prompts)
 
         remain_prompts = []
@@ -406,13 +466,13 @@ def main(client, data_name, args):
 
 def setup(args):
     # Initialize the client for your inference endpoint.
-    client = setup_inference_client(args)
+    model = setup_inference_client(args)
 
     # Evaluate on all data sets
     data_list = args.data_names.split(",")
     results = []
     for data_name in data_list:
-        results.append(main(client, data_name, args))
+        results.append(main(model, data_name, args))
 
     # Add "avg" result
     data_list.append("avg")
