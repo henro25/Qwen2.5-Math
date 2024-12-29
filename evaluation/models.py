@@ -83,10 +83,10 @@ class Assistant:
         self.system_prompt = f'''You are a helpful assistant'''
         self.model = model
 
-    def continue_thinking(self, conversation):
+    def continue_thinking(self, conversation, temperature=0.0):
         messages = conversation
        
-        assistant_response = self.model.generate(messages, stop="\n\n")
+        assistant_response = self.model.generate(messages, temperature, stop="\n\n")
 
         # print(f"\nAssistant response: {assistant_response}")
 

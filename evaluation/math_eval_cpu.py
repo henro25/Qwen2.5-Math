@@ -39,6 +39,7 @@ def parse_args():
     parser.add_argument("--seed", default=0, type=int)
     parser.add_argument("--start", default=0, type=int)
     parser.add_argument("--end", default=-1, type=int)
+    parser.add_argument("--log_every", default=500, type=int)
     parser.add_argument("--temperature", default=0, type=float)
     parser.add_argument("--n_sampling", default=1, type=int)
     parser.add_argument("--top_p", default=1, type=float)
@@ -93,7 +94,7 @@ def prepare_data(data_name, args):
     dt_string = datetime.now().strftime("%m-%d_%H-%M")
     model_name = "/".join(args.model_name_or_path.split("/")[-2:])
     out_file_prefix = (
-        f"{args.split}_{args.prompt_type}_{args.num_test_sample}_seed{args.seed}_t{args.temperature}_{args.num_thought_turns}thoughts"
+        f"{args.split}_{args.prompt_type}_{args.num_test_sample}_seed{args.seed}_t{args.temperature}_thoughts{args.num_thought_turns}_w_plannerV1"
     )
     output_dir = args.output_dir
     if not os.path.exists(output_dir):
@@ -148,8 +149,7 @@ def generate_completions_inferencing_endpoint(model, prompts, args, max_retries=
             try:
                 start_time = time.time()
                 
-                assert(model is not None)
-                planner = Planner(user_message=prompt, model=model)
+                # planner = Planner(user_message=prompt, model=model)
                 assistant = Assistant(user_message=prompt, model=model)
                 
                 task = None
@@ -171,25 +171,25 @@ def generate_completions_inferencing_endpoint(model, prompts, args, max_retries=
                     # pp.pprint(conversation)
                     # print()
 
-                    # 1.0 Update next task
-                    planner_response = planner.continue_planning(assistant_thoughts)
-                    if "task: " in planner_response and "Rating: " in planner_response:
-                        task = planner_response.split("task: ")[1].strip()
-                        rating = planner_response.split("Rating: ")[1].split("\n")[0].strip()
-                    else:
-                        task = "No task provided"
-                        rating = "0"
-                    # print(f"\nNext task: {task}, Rating: {rating}")
-                    if rating == "-": # Only give user feedback if the rating is bad
-                        conversation.append({
-                            "role": "user",
-                            "content": [
-                                {"type": "text", "text": task},
-                            ]
-                        })
+                    # # 1.0 Update next task
+                    # planner_response = planner.continue_planning(assistant_thoughts)
+                    # if "task: " in planner_response and "Rating: " in planner_response:
+                    #     task = planner_response.split("task: ")[1].strip()
+                    #     rating = planner_response.split("Rating: ")[1].split("\n")[0].strip()
+                    # else:
+                    #     task = "No task provided"
+                    #     rating = "0"
+                    # # print(f"\nNext task: {task}, Rating: {rating}")
+                    # if rating == "-": # Only give user feedback if the rating is bad
+                    #     conversation.append({
+                    #         "role": "user",
+                    #         "content": [
+                    #             {"type": "text", "text": task},
+                    #         ]
+                    #     })
 
                     # 2.0 Assistant executes next task
-                    assistant_response = assistant.continue_thinking(conversation)
+                    assistant_response = assistant.continue_thinking(conversation, args.temperature)
                     conversation.append({
                         "role": "assistant",
                         "content": [
@@ -204,27 +204,11 @@ def generate_completions_inferencing_endpoint(model, prompts, args, max_retries=
                 # print(full_chain_of_thought + '\n')
                 
                 return index, full_chain_of_thought
-                
-                # messages = [{"role": "user", "content": prompt}]
-                
-                # # Run the inference call
-                # response = client.chat.completions.create(
-                #     model=args.model_name_or_path,
-                #     messages=messages,
-                #     temperature=args.temperature,
-                #     top_p=args.top_p,
-                #     max_tokens=args.max_tokens_per_call,
-                #     n=1
-                # )
-                
-                # # If successful, return the result
-                # text_output = response.choices[0].message.content.strip()
-                # return index, text_output
 
             except Exception as e:
                 print(f"Error in inference: {e}")
+                time.sleep(60 * (5**retries))
                 retries += 1
-                time.sleep(10)  # Optional: Add a short delay before retrying
 
         # If max retries reached, skip and return None for this index
         return index, ""
@@ -472,7 +456,12 @@ def setup(args):
     data_list = args.data_names.split(",")
     results = []
     for data_name in data_list:
-        results.append(main(model, data_name, args))
+        examples = load_data(data_name, args.split, args.data_dir)
+        for start in range(0, len(examples), args.log_every):
+            args.start = start
+            args.end = start + args.log_every
+            results.append(main(model, data_name, args))
+
 
     # Add "avg" result
     data_list.append("avg")
