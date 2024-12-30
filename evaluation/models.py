@@ -78,71 +78,39 @@ Next task: <provide the next task for the assistant to think about>'''
 
 
 class Assistant:
-    def __init__(self, user_message, model):
+    def __init__(self, user_message, model, few_shots=0):
         self.user_message = user_message
+        self.few_shots = 0
+        self.few_shot_examples = []
 
-        with open("ciphertext.txt", "r", encoding="utf-8") as f:
-            self.ciphertext_assistant_cot = f.read()
+        example_names = ["cipher", "coding", "math", "crossword", "english", "science", "safety", "health_science"]
 
-        with open("science.txt", "r", encoding="utf-8") as f:
-            self.science_assistant_cot = f.read()
+        for i in range(self.few_shots):
+            name = example_names[i]
+
+            with open(f"evaluation/few_shot_examples/{name}/question.txt", "r", encoding="utf-8") as f:
+                question = f.read()
+
+            with open(f"evaluation/few_shot_examples/{name}/response.txt", "r", encoding="utf-8") as f:
+                response = f.read()
+
+            self.few_shot_examples.append({
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": question},
+                ],
+            }, {
+                "role": "assistant",
+                "content": [
+                    {"type": "text", "text": response},
+                ],
+            })
 
         self.system_prompt =f'''Please reason step by step, and put your final answer within \\boxed{{}}.'''
-        
-# EXAMPLE 1:
-# USER: 
-
-# oyfjdnisdr rtqwainr acxz mynzbhhx -> Think step by step
-
-# Use the example above to decode:
-
-# oyekaijzdf aaptcg suaokybhai ouow aqht mynznvaatzacdfoulxxz
-
-# ASSISTANT:
-
-# {ciphertext_assistant_cot}'''
-
-# EXAMPLE 2:
-# USER: 
-
-# What is the pH of a 0.10 M solution of NH₄F? The Kₐ of NH₄⁺ is 5.6 × 10⁻¹⁰, and the Kₐ of HF is 6.8 × 10⁻⁴.
-
-# ASSISTANT:
-
-# {science_assistant_cot}'''
-        # self.system_prompt = "Please reason step by step, and put your final answer within \\boxed{{}}." # Using the Qwen2.5-Math CoT system prompt  # f'''You are a helpful assistant'''
         self.model = model
 
     def continue_thinking(self, conversation, temperature=0.0, stop="\n\n"):
-        few_shot_examples = [{
-            "role": "user",
-            "content": [
-                {"type": "text", "text": '''oyfjdnisdr rtqwainr acxz mynzbhhx -> Think step by step
-
-Use the example above to decode:
-
-oyekaijzdf aaptcg suaokybhai ouow aqht mynznvaatzacdfoulxxz'''},
-                ],
-        },{
-            "role": "assistant",
-            "content": [
-                {"type": "text", "text": self.ciphertext_assistant_cot}
-            ]
-        }
-        , 
-        {
-            "role": "user",
-            "content": [
-                {"type": "text", "text": '''What is the pH of a 0.10 M solution of NH₄F? The Kₐ of NH₄⁺ is 5.6 × 10⁻¹⁰, and the Kₐ of HF is 6.8 × 10⁻⁴.'''},
-                ],
-        },{
-            "role": "assistant",
-            "content": [
-                {"type": "text", "text": self.science_assistant_cot}
-            ]
-        }
-        ]
-        messages = [{ "role": "system", "content": [{"type": "text", "text": self.system_prompt}] }] + few_shot_examples + conversation
+        messages = [{ "role": "system", "content": [{"type": "text", "text": self.system_prompt}] }] + self.few_shot_examples + conversation
        
         assistant_response = self.model.generate(messages, temperature, stop=stop)
 

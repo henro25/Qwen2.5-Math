@@ -37,6 +37,7 @@ def parse_args():
     parser.add_argument("--split", default="test", type=str)
     parser.add_argument("--num_test_sample", default=-1, type=int)  # -1 for full data
     parser.add_argument("--seed", default=0, type=int)
+    parser.add_argument("--few_shots", default=0, type=int)
     parser.add_argument("--start", default=0, type=int)
     parser.add_argument("--end", default=-1, type=int)
     parser.add_argument("--log_every", default=500, type=int)
@@ -94,7 +95,7 @@ def prepare_data(data_name, args):
     dt_string = datetime.now().strftime("%m-%d_%H-%M")
     model_name = "/".join(args.model_name_or_path.split("/")[-2:])
     out_file_prefix = (
-        f"{args.split}_{args.prompt_type}_{args.num_test_sample}_seed{args.seed}_t{args.temperature}_thoughts{args.num_thought_turns}_two_shot"
+        f"{args.split}_{args.prompt_type}_{args.num_test_sample}_seed{args.seed}_t{args.temperature}_thoughts{args.num_thought_turns}_shots{args.few_shots}"
     )
     output_dir = args.output_dir
     if not os.path.exists(output_dir):
@@ -150,7 +151,7 @@ def generate_completions_inferencing_endpoint(model, prompts, args, max_retries=
                 start_time = time.time()
                 
                 # planner = Planner(user_message=prompt, model=model)
-                assistant = Assistant(user_message=prompt, model=model)
+                assistant = Assistant(user_message=prompt, model=model, few_shots=args.few_shots)
                 
                 task = None
                 assistant_response = None
