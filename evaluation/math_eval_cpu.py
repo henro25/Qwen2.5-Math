@@ -94,7 +94,7 @@ def prepare_data(data_name, args):
     dt_string = datetime.now().strftime("%m-%d_%H-%M")
     model_name = "/".join(args.model_name_or_path.split("/")[-2:])
     out_file_prefix = (
-        f"{args.split}_{args.prompt_type}_{args.num_test_sample}_seed{args.seed}_t{args.temperature}_thoughts{args.num_thought_turns}_two_shot_reasoning"
+        f"{args.split}_{args.prompt_type}_{args.num_test_sample}_seed{args.seed}_t{args.temperature}_thoughts{args.num_thought_turns}_zero_shot_reasoning"
     )
     output_dir = args.output_dir
     if not os.path.exists(output_dir):
@@ -135,7 +135,7 @@ def setup_inference_client(args):
     return model
 
 
-def generate_completions_inferencing_endpoint(model, prompts, args, max_retries=3, loop_timeout=120):
+def generate_completions_inferencing_endpoint(model, prompts, args, max_retries=2, loop_timeout=120):
     """
     Given a list of input prompts, call the inference endpoint for each one
     with retry and timeout logic and return a list of generated outputs.
