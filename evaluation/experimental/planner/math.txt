@@ -1,0 +1,8028 @@
+ We are told that for all integer values of 
+k
+k satisfying 
+1
+≤
+∣
+k
+∣
+≤
+n
+1≤∣k∣≤n,
+
+p
+(
+1
+k
+)
+=
+k
+2
+p( 
+k
+1
+​
+ )=k 
+2
+ 
+
+Our problem is: Given that 
+p
+p is monic of degree 
+2
+n
+2n, and that 
+p
+(
+1
+k
+)
+=
+k
+2
+p( 
+k
+1
+​
+ )=k 
+2
+  for 
+k
+=
+±
+1
+,
+±
+2
+,
+…
+,
+±
+n
+k=±1,±2,…,±n, find all other real numbers 
+x
+x such that 
+p
+(
+1
+x
+)
+=
+x
+2
+p( 
+x
+1
+​
+ )=x 
+2
+ .
+
+In other words, we are to find all real numbers 
+x
+x such that 
+p
+(
+1
+x
+)
+=
+x
+2
+p( 
+x
+1
+​
+ )=x 
+2
+ .
+
+Firstly, note that:
+
+• The monic polynomial 
+p
+(
+x
+)
+p(x) is of degree 
+2
+n
+2n.
+
+• We have 
+2
+n
+2n data points: for 
+k
+=
+±
+1
+k=±1 to 
+±
+n
+±n, 
+p
+(
+1
+k
+)
+=
+k
+2
+p( 
+k
+1
+​
+ )=k 
+2
+ .
+
+But there are 
+2
+n
+2n distinct values of 
+1
+k
+k
+1
+​
+  (since 
+k
+k ranges over integers 
+±
+1
+±1 to 
+±
+n
+±n, and they are distinct).
+
+Thus, we have 
+2
+n
+2n points 
+(
+x
+,
+y
+)
+(x,y) of the form 
+(
+1
+k
+,
+k
+2
+)
+( 
+k
+1
+​
+ ,k 
+2
+ ).
+
+Thus, 
+p
+p is a polynomial of degree 
+2
+n
+2n that satisfies 
+p
+(
+1
+k
+)
+=
+k
+2
+p( 
+k
+1
+​
+ )=k 
+2
+  for 
+2
+n
+2n values of 
+1
+k
+k
+1
+​
+ .
+
+Wait, but 
+p
+(
+1
+x
+)
+−
+x
+2
+=
+0
+p( 
+x
+1
+​
+ )−x 
+2
+ =0.
+
+Our equation is 
+p
+(
+1
+x
+)
+−
+x
+2
+=
+0
+p( 
+x
+1
+​
+ )−x 
+2
+ =0.
+
+Let me define 
+q
+(
+x
+)
+=
+p
+(
+1
+x
+)
+−
+x
+2
+q(x)=p( 
+x
+1
+​
+ )−x 
+2
+ .
+
+Our task is to find all real numbers 
+x
+x such that 
+q
+(
+x
+)
+=
+0
+q(x)=0.
+
+Given the data from the problem, let’s consider that 
+q
+(
+k
+)
+=
+p
+(
+1
+k
+)
+−
+k
+2
+=
+0
+q(k)=p( 
+k
+1
+​
+ )−k 
+2
+ =0 for 
+k
+=
+±
+1
+,
+±
+2
+,
+…
+,
+±
+n
+k=±1,±2,…,±n.
+
+Thus, 
+q
+(
+k
+)
+=
+0
+q(k)=0 for 
+k
+=
+±
+1
+,
+…
+,
+±
+n
+k=±1,…,±n.
+
+Moreover, since 
+p
+p is a polynomial of degree 
+2
+n
+2n, then 
+p
+(
+1
+x
+)
+p( 
+x
+1
+​
+ ) is a rational function of 
+x
+x of degree 
+2
+n
+2n when considered as a function of 
+x
+x.
+
+But we can consider 
+q
+(
+x
+)
+=
+p
+(
+1
+x
+)
+−
+x
+2
+q(x)=p( 
+x
+1
+​
+ )−x 
+2
+ .
+
+Alternatively, let’s consider 
+s
+(
+x
+)
+=
+x
+2
+n
+p
+(
+1
+x
+)
+−
+x
+2
+n
++
+2
+s(x)=x 
+2n
+ p( 
+x
+1
+​
+ )−x 
+2n+2
+ .
+
+Let me explain: We can consider that 
+p
+(
+1
+x
+)
+=
+x
+−
+2
+n
++
+a
+2
+n
+−
+1
+x
+−
+2
+n
++
+1
++
+…
++
+a
+0
+p( 
+x
+1
+​
+ )=x 
+−2n
+ +a 
+2n−1
+​
+ x 
+−2n+1
+ +…+a 
+0
+​
+ .
+
+Then multiplying by 
+x
+2
+n
+x 
+2n
+  gives:
+
+x
+2
+n
+p
+(
+1
+x
+)
+=
+1
++
+a
+2
+n
+−
+1
+x
++
+a
+2
+n
+−
+2
+x
+2
++
+…
++
+a
+0
+x
+2
+n
+x 
+2n
+ p( 
+x
+1
+​
+ )=1+a 
+2n−1
+​
+ x+a 
+2n−2
+​
+ x 
+2
+ +…+a 
+0
+​
+ x 
+2n
+ .
+
+Similarly, 
+x
+2
+n
++
+2
+=
+x
+2
+n
++
+2
+x 
+2n+2
+ =x 
+2n+2
+ .
+
+Thus, define the polynomial 
+s
+(
+x
+)
+=
+x
+2
+n
+p
+(
+1
+x
+)
+−
+x
+2
+n
++
+2
+s(x)=x 
+2n
+ p( 
+x
+1
+​
+ )−x 
+2n+2
+ .
+
+But wait, perhaps it’s better to rearrange.
+
+Let me consider that 
+s
+(
+x
+)
+=
+x
+2
+n
+[
+p
+(
+1
+x
+)
+−
+x
+2
+]
+=
+x
+2
+n
+q
+(
+x
+)
+s(x)=x 
+2n
+ [p( 
+x
+1
+​
+ )−x 
+2
+ ]=x 
+2n
+ q(x).
+
+So 
+s
+(
+x
+)
+=
+x
+2
+n
+q
+(
+x
+)
+s(x)=x 
+2n
+ q(x).
+
+Since 
+q
+(
+k
+)
+=
+0
+q(k)=0 for 
+k
+=
+±
+1
+,
+…
+,
+±
+n
+k=±1,…,±n, we have 
+q
+(
+k
+)
+=
+0
+q(k)=0.
+
+Thus, 
+s
+(
+k
+)
+=
+k
+2
+n
+q
+(
+k
+)
+=
+0
+s(k)=k 
+2n
+ q(k)=0.
+
+Thus, 
+s
+(
+k
+)
+=
+0
+s(k)=0 at 
+x
+=
+±
+1
+,
+±
+2
+,
+…
+,
+±
+n
+x=±1,±2,…,±n.
+
+Thus, 
+s
+(
+x
+)
+s(x) is a polynomial (not a rational function), since 
+x
+2
+n
+q
+(
+x
+)
+x 
+2n
+ q(x) is a polynomial.
+
+Moreover, 
+s
+(
+x
+)
+=
+x
+2
+n
+[
+p
+(
+1
+x
+)
+−
+x
+2
+]
+=
+x
+2
+n
+p
+(
+1
+x
+)
+−
+x
+2
+n
++
+2
+s(x)=x 
+2n
+ [p( 
+x
+1
+​
+ )−x 
+2
+ ]=x 
+2n
+ p( 
+x
+1
+​
+ )−x 
+2n+2
+ .
+
+But 
+x
+2
+n
+p
+(
+1
+x
+)
+=
+[
+x
+2
+n
+]
+[
+p
+(
+1
+x
+)
+]
+=
+p
+∗
+(
+x
+)
+x 
+2n
+ p( 
+x
+1
+​
+ )=[x 
+2n
+ ][p( 
+x
+1
+​
+ )]=p 
+∗
+ (x).
+
+Wait, but 
+x
+2
+n
+p
+(
+1
+x
+)
+x 
+2n
+ p( 
+x
+1
+​
+ ) is the “reciprocal polynomial” of 
+p
+(
+x
+)
+p(x), evaluated at 
+x
+x.
+
+But since 
+p
+(
+x
+)
+p(x) is monic of degree 
+2
+n
+2n, its reciprocal polynomial is monic of degree 
+2
+n
+2n as well.
+
+Thus, set 
+t
+(
+x
+)
+=
+x
+2
+n
+p
+(
+1
+x
+)
+t(x)=x 
+2n
+ p( 
+x
+1
+​
+ ).
+
+Let me write 
+t
+(
+x
+)
+=
+x
+2
+n
+p
+(
+1
+x
+)
+=
+P
+∗
+(
+x
+)
+t(x)=x 
+2n
+ p( 
+x
+1
+​
+ )=P 
+∗
+ (x).
+
+P
+∗
+(
+x
+)
+P 
+∗
+ (x) is the reverse polynomial of 
+p
+(
+x
+)
+p(x).
+
+p
+(
+x
+)
+=
+x
+2
+n
++
+a
+2
+n
+−
+1
+x
+2
+n
+−
+1
++
+…
++
+a
+0
+p(x)=x 
+2n
+ +a 
+2n−1
+​
+ x 
+2n−1
+ +…+a 
+0
+​
+ .
+
+Then 
+t
+(
+x
+)
+=
+x
+2
+n
+p
+(
+1
+x
+)
+=
+x
+2
+n
+[
+(
+1
+x
+)
+2
+n
++
+a
+2
+n
+−
+1
+(
+1
+x
+)
+2
+n
+−
+1
++
+…
++
+a
+0
+]
+=
+1
++
+a
+2
+n
+−
+1
+x
++
+a
+2
+n
+−
+2
+x
+2
++
+…
++
+a
+0
+x
+2
+n
+t(x)=x 
+2n
+ p( 
+x
+1
+​
+ )=x 
+2n
+ [( 
+x
+1
+​
+ ) 
+2n
+ +a 
+2n−1
+​
+ ( 
+x
+1
+​
+ ) 
+2n−1
+ +…+a 
+0
+​
+ ]=1+a 
+2n−1
+​
+ x+a 
+2n−2
+​
+ x 
+2
+ +…+a 
+0
+​
+ x 
+2n
+ .
+
+So 
+t
+(
+x
+)
+=
+p
+∗
+(
+x
+)
+t(x)=p 
+∗
+ (x), the reciprocal polynomial of 
+p
+p.
+
+Thus, 
+s
+(
+x
+)
+=
+t
+(
+x
+)
+−
+x
+2
+n
++
+2
+=
+[
+1
++
+a
+2
+n
+−
+1
+x
++
+a
+2
+n
+−
+2
+x
+2
++
+…
++
+a
+0
+x
+2
+n
+]
+−
+x
+2
+n
++
+2
+s(x)=t(x)−x 
+2n+2
+ =[1+a 
+2n−1
+​
+ x+a 
+2n−2
+​
+ x 
+2
+ +…+a 
+0
+​
+ x 
+2n
+ ]−x 
+2n+2
+ .
+
+But 
+x
+2
+n
++
+2
+=
+x
+2
+n
++
+2
+x 
+2n+2
+ =x 
+2n+2
+ .
+
+Therefore, 
+s
+(
+x
+)
+=
+p
+∗
+(
+x
+)
+−
+x
+2
+n
++
+2
+s(x)=p 
+∗
+ (x)−x 
+2n+2
+ .
+
+We can now write 
+s
+(
+x
+)
+=
+p
+∗
+(
+x
+)
+−
+x
+2
+n
++
+2
+s(x)=p 
+∗
+ (x)−x 
+2n+2
+ .
+
+Alternatively, 
+p
+∗
+(
+x
+)
+−
+x
+2
+n
++
+2
+=
+s
+(
+x
+)
+p 
+∗
+ (x)−x 
+2n+2
+ =s(x).
+
+But 
+t
+(
+x
+)
+=
+p
+∗
+(
+x
+)
+t(x)=p 
+∗
+ (x), and 
+s
+(
+x
+)
+=
+t
+(
+x
+)
+−
+x
+2
+n
++
+2
+s(x)=t(x)−x 
+2n+2
+ .
+
+But our key is that 
+s
+(
+x
+)
+=
+x
+2
+n
+q
+(
+x
+)
+s(x)=x 
+2n
+ q(x).
+
+Recall that 
+q
+(
+k
+)
+=
+0
+q(k)=0 for 
+k
+=
+±
+1
+,
+±
+2
+,
+…
+,
+±
+n
+k=±1,±2,…,±n.
+
+Therefore, 
+s
+(
+k
+)
+=
+0
+s(k)=0 at 
+x
+=
+±
+1
+,
+…
+,
+±
+n
+x=±1,…,±n.
+
+Therefore, 
+s
+(
+x
+)
+s(x) is a polynomial that vanishes at 
+x
+=
+±
+1
+,
+±
+2
+,
+…
+,
+±
+n
+x=±1,±2,…,±n.
+
+s
+(
+x
+)
+s(x) has roots at 
+x
+=
+±
+1
+,
+…
+,
+±
+n
+x=±1,…,±n.
+
+Thus, 
+s
+(
+x
+)
+s(x) must be divisible by the monic polynomial whose roots are 
+±
+1
+,
+±
+2
+,
+…
+,
+±
+n
+±1,±2,…,±n.
+
+Thus, 
+s
+(
+x
+)
+=
+m
+(
+x
+)
+h
+(
+x
+)
+s(x)=m(x)h(x),
+
+Where 
+m
+(
+x
+)
+=
+(
+x
+−
+(
+−
+n
+)
+)
+(
+x
+−
+(
+−
+n
++
+1
+)
+)
+…
+(
+x
+−
+(
+−
+1
+)
+)
+(
+x
+−
+(
+1
+)
+)
+…
+(
+x
+−
+n
+)
+m(x)=(x−(−n))(x−(−n+1))…(x−(−1))(x−(1))…(x−n).
+
+Wait, that is, 
+m
+(
+x
+)
+=
+∏
+k
+=
+1
+n
+(
+x
+−
+k
+)
+(
+x
++
+k
+)
+=
+∏
+k
+=
+1
+n
+(
+x
+2
+−
+k
+2
+)
+m(x)=∏ 
+k=1
+n
+​
+ (x−k)(x+k)=∏ 
+k=1
+n
+​
+ (x 
+2
+ −k 
+2
+ ).
+
+Therefore, 
+m
+(
+x
+)
+=
+∏
+k
+=
+1
+n
+(
+x
+2
+−
+k
+2
+)
+=
+∏
+k
+=
+1
+n
+(
+x
+2
+−
+k
+2
+)
+m(x)=∏ 
+k=1
+n
+​
+ (x 
+2
+ −k 
+2
+ )=∏ 
+k=1
+n
+​
+ (x 
+2
+ −k 
+2
+ ).
+
+Thus, 
+m
+(
+x
+)
+m(x) is a monic polynomial of degree 
+2
+n
+2n.
+
+Similarly, since 
+s
+(
+x
+)
+s(x) is of degree…
+
+Let me compute the degree of 
+s
+(
+x
+)
+s(x):
+
+Since 
+s
+(
+x
+)
+=
+x
+2
+n
+p
+(
+1
+x
+)
+−
+x
+2
+n
++
+2
+s(x)=x 
+2n
+ p( 
+x
+1
+​
+ )−x 
+2n+2
+ ,
+
+Compute 
+t
+(
+x
+)
+=
+x
+2
+n
+p
+(
+1
+x
+)
+t(x)=x 
+2n
+ p( 
+x
+1
+​
+ ).
+
+We have 
+p
+(
+x
+)
+=
+x
+2
+n
++
+a
+2
+n
+−
+1
+x
+2
+n
+−
+1
++
+⋯
++
+a
+0
+p(x)=x 
+2n
+ +a 
+2n−1
+​
+ x 
+2n−1
+ +⋯+a 
+0
+​
+ .
+
+Then 
+t
+(
+x
+)
+=
+x
+2
+n
+p
+(
+1
+x
+)
+=
+x
+2
+n
+[
+(
+1
+x
+)
+2
+n
++
+a
+2
+n
+−
+1
+(
+1
+x
+)
+2
+n
+−
+1
++
+⋯
++
+a
+0
+]
+=
+1
++
+a
+2
+n
+−
+1
+x
++
+a
+2
+n
+−
+2
+x
+2
++
+⋯
++
+a
+0
+x
+2
+n
+t(x)=x 
+2n
+ p( 
+x
+1
+​
+ )=x 
+2n
+ [( 
+x
+1
+​
+ ) 
+2n
+ +a 
+2n−1
+​
+ ( 
+x
+1
+​
+ ) 
+2n−1
+ +⋯+a 
+0
+​
+ ]=1+a 
+2n−1
+​
+ x+a 
+2n−2
+​
+ x 
+2
+ +⋯+a 
+0
+​
+ x 
+2n
+ .
+
+So 
+t
+(
+x
+)
+t(x) is a polynomial of degree 
+2
+n
+2n.
+
+What about 
+x
+2
+n
++
+2
+x 
+2n+2
+ ?
+
+So 
+s
+(
+x
+)
+=
+t
+(
+x
+)
+−
+x
+2
+n
++
+2
+s(x)=t(x)−x 
+2n+2
+ .
+
+Therefore, 
+s
+(
+x
+)
+s(x) is a polynomial of degree 
+max
+⁡
+(
+degree of 
+t
+(
+x
+)
+,
+degree of 
+x
+2
+n
++
+2
+)
+=
+degree
+(
+x
+2
+n
++
+2
+)
+max(degree of t(x),degree of x 
+2n+2
+ )=degree(x 
+2n+2
+ ).
+
+So 
+s
+(
+x
+)
+s(x) is of degree 
+2
+n
++
+2
+2n+2.
+
+But 
+t
+(
+x
+)
+t(x) has degree 
+2
+n
+2n.
+
+So 
+s
+(
+x
+)
+=
+[
+degree 
+2
+n
+ polynomial
+]
+−
+degree 
+(
+2
+n
++
+2
+)
+ monomial
+=
+−
+x
+2
+n
++
+2
++
+[
+degree 
+≤
+2
+n
+ polynomial
+]
+s(x)=[degree 2n polynomial]−degree (2n+2) monomial=−x 
+2n+2
+ +[degree ≤2n polynomial].
+
+So the leading term of 
+s
+(
+x
+)
+s(x) is 
+−
+x
+2
+n
++
+2
+−x 
+2n+2
+ .
+
+Thus, 
+s
+(
+x
+)
+s(x) is a polynomial of degree 
+2
+n
++
+2
+2n+2 with leading coefficient 
+−
+1
+−1.
+
+So 
+s
+(
+x
+)
+=
+−
+x
+2
+n
++
+2
++
+lower degree terms
+s(x)=−x 
+2n+2
+ +lower degree terms.
+
+Similarly, 
+m
+(
+x
+)
+=
+∏
+k
+=
+1
+n
+(
+x
+2
+−
+k
+2
+)
+=
+monic polynomial of degree 
+2
+n
+m(x)=∏ 
+k=1
+n
+​
+ (x 
+2
+ −k 
+2
+ )=monic polynomial of degree 2n.
+
+Therefore, if we factor 
+s
+(
+x
+)
+=
+m
+(
+x
+)
+h
+(
+x
+)
+s(x)=m(x)h(x),
+
+Since 
+s
+(
+x
+)
+s(x) is degree 
+2
+n
++
+2
+2n+2 and 
+m
+(
+x
+)
+m(x) is degree 
+2
+n
+2n, 
+h
+(
+x
+)
+h(x) must be degree 
+2
+2.
+
+Therefore, 
+h
+(
+x
+)
+h(x) is a quadratic polynomial.
+
+Our plan is to write 
+s
+(
+x
+)
+=
+m
+(
+x
+)
+h
+(
+x
+)
+s(x)=m(x)h(x).
+
+Given that 
+s
+(
+x
+)
+s(x) is degree 
+2
+n
++
+2
+2n+2 with leading coefficient 
+−
+1
+−1,
+
+Similarly, 
+m
+(
+x
+)
+m(x) is a degree 
+2
+n
+2n monic polynomial.
+
+Therefore, 
+h
+(
+x
+)
+h(x) must be a degree 
+2
+2 polynomial with leading coefficient 
+−
+1
+−1.
+
+Therefore, 
+h
+(
+x
+)
+h(x) must be of the form 
+h
+(
+x
+)
+=
+−
+x
+2
++
+b
+x
++
+c
+h(x)=−x 
+2
+ +bx+c.
+
+Alternatively, since 
+s
+(
+x
+)
+=
+m
+(
+x
+)
+h
+(
+x
+)
+s(x)=m(x)h(x),
+
+We can write 
+s
+(
+x
+)
+=
+(
+−
+1
+)
+x
+2
+n
++
+2
++
+[lower degree terms]
+s(x)=(−1)x 
+2n+2
+ +[lower degree terms].
+
+Also, 
+m
+(
+x
+)
+=
+x
+2
+n
++
+[lower degree terms]
+m(x)=x 
+2n
+ +[lower degree terms] (since it is monic of degree 
+2
+n
+2n).
+
+Similarly, 
+h
+(
+x
+)
+=
+−
+x
+2
++
+b
+x
++
+c
+h(x)=−x 
+2
+ +bx+c.
+
+Then 
+s
+(
+x
+)
+=
+m
+(
+x
+)
+h
+(
+x
+)
+=
+[
+x
+2
+n
++
+⋯
+ 
+]
+(
+−
+x
+2
++
+b
+x
++
+c
+)
+=
+−
+x
+2
+n
++
+2
++
+[lower degree terms]
+s(x)=m(x)h(x)=[x 
+2n
+ +⋯](−x 
+2
+ +bx+c)=−x 
+2n+2
+ +[lower degree terms].
+
+Therefore, the leading term of 
+s
+(
+x
+)
+s(x) is 
+−
+x
+2
+n
++
+2
+−x 
+2n+2
+ , which matches.
+
+Therefore, our assertion that 
+h
+(
+x
+)
+h(x) is degree 
+2
+2 with leading coefficient 
+−
+1
+−1 is consistent.
+
+Therefore, 
+h
+(
+x
+)
+=
+−
+x
+2
++
+b
+x
++
+c
+h(x)=−x 
+2
+ +bx+c.
+
+Our task now is to find 
+b
+b and 
+c
+c.
+
+So we have:
+
+s
+(
+x
+)
+=
+m
+(
+x
+)
+h
+(
+x
+)
+=
+[
+∏
+k
+=
+1
+n
+(
+x
+2
+−
+k
+2
+)
+]
+(
+−
+x
+2
++
+b
+x
++
+c
+)
+s(x)=m(x)h(x)=[∏ 
+k=1
+n
+​
+ (x 
+2
+ −k 
+2
+ )](−x 
+2
+ +bx+c)
+
+and 
+s
+(
+x
+)
+=
+x
+2
+n
+p
+(
+1
+x
+)
+−
+x
+2
+n
++
+2
+s(x)=x 
+2n
+ p( 
+x
+1
+​
+ )−x 
+2n+2
+ .
+
+Equate the expressions for 
+s
+(
+x
+)
+s(x).
+
+Alternatively, let’s consider that 
+t
+(
+x
+)
+=
+x
+2
+n
+p
+(
+1
+x
+)
+=
+p
+∗
+(
+x
+)
+t(x)=x 
+2n
+ p( 
+x
+1
+​
+ )=p 
+∗
+ (x).
+
+Then 
+s
+(
+x
+)
+=
+t
+(
+x
+)
+−
+x
+2
+n
++
+2
+=
+p
+∗
+(
+x
+)
+−
+x
+2
+n
++
+2
+s(x)=t(x)−x 
+2n+2
+ =p 
+∗
+ (x)−x 
+2n+2
+ .
+
+Therefore, 
+s
+(
+x
+)
+=
+m
+(
+x
+)
+h
+(
+x
+)
+s(x)=m(x)h(x).
+
+Thus, 
+p
+∗
+(
+x
+)
+−
+x
+2
+n
++
+2
+=
+m
+(
+x
+)
+h
+(
+x
+)
+p 
+∗
+ (x)−x 
+2n+2
+ =m(x)h(x).
+
+But 
+p
+∗
+(
+x
+)
+p 
+∗
+ (x) is degree 
+2
+n
+2n and 
+x
+2
+n
++
+2
+x 
+2n+2
+  is degree 
+2
+n
++
+2
+2n+2, so their difference is degree 
+2
+n
++
+2
+2n+2.
+
+Now, remember that 
+p
+∗
+(
+x
+)
+p 
+∗
+ (x) is degree 
+≤
+2
+n
+≤2n.
+
+Therefore, the left-hand side 
+p
+∗
+(
+x
+)
+−
+x
+2
+n
++
+2
+=
+[
+degree
+≤
+2
+n
+]
+−
+[
+degree 
+2
+n
++
+2
+]
+p 
+∗
+ (x)−x 
+2n+2
+ =[degree≤2n]−[degree 2n+2].
+
+Wait, but the 
+x
+2
+n
++
+2
+x 
+2n+2
+  term is of higher degree than 
+p
+∗
+(
+x
+)
+p 
+∗
+ (x), so the leading term of 
+s
+(
+x
+)
+s(x) is 
+−
+x
+2
+n
++
+2
+−x 
+2n+2
+ .
+
+Similarly, the right-hand side 
+m
+(
+x
+)
+h
+(
+x
+)
+=
+[
+degree 
+2
+n
+]
+×
+[
+degree 
+2
+]
+=
+degree 
+2
+n
++
+2
+m(x)h(x)=[degree 2n]×[degree 2]=degree 2n+2.
+
+Now, let’s write 
+s
+(
+x
+)
+=
+−
+x
+2
+n
++
+2
++
+lower degree terms
+s(x)=−x 
+2n+2
+ +lower degree terms.
+
+Similarly, 
+m
+(
+x
+)
+h
+(
+x
+)
+=
+x
+2
+n
+(
+−
+x
+2
++
+b
+x
++
+c
+)
++
+lower degree terms
+m(x)h(x)=x 
+2n
+ (−x 
+2
+ +bx+c)+lower degree terms.
+
+Compute 
+m
+(
+x
+)
+h
+(
+x
+)
+=
+(
+x
+2
+n
++
+lower degree terms
+)
+(
+−
+x
+2
++
+b
+x
++
+c
+)
+m(x)h(x)=(x 
+2n
+ +lower degree terms)(−x 
+2
+ +bx+c).
+
+The product of 
+x
+2
+n
+x 
+2n
+  and 
+−
+x
+2
+−x 
+2
+  gives 
+−
+x
+2
+n
++
+2
+−x 
+2n+2
+ .
+
+Similarly, 
+x
+2
+n
+×
+b
+x
+=
+b
+x
+2
+n
++
+1
+x 
+2n
+ ×bx=bx 
+2n+1
+ ,
+
+And 
+x
+2
+n
+×
+c
+=
+c
+x
+2
+n
+x 
+2n
+ ×c=cx 
+2n
+ .
+
+Thus, we find:
+
+$s(x) = m(x) h(x) = (-x^{2n+2}) + bx^{2n+1} + c x^{2n} + \text{[lower degree terms]}$$.
+
+Similarly, 
+s
+(
+x
+)
+=
+−
+x
+2
+n
++
+2
++
+[lower degree terms]
+s(x)=−x 
+2n+2
+ +[lower degree terms].
+
+Thus, to make the higher-degree terms match, 
+s
+(
+x
+)
+=
+−
+x
+2
+n
++
+2
++
+b
+x
+2
+n
++
+1
++
+c
+x
+2
+n
++
+[lower degree terms]
+s(x)=−x 
+2n+2
+ +bx 
+2n+1
+ +cx 
+2n
+ +[lower degree terms].
+
+Wait, but from the definition of 
+s
+(
+x
+)
+s(x), we have:
+
+s
+(
+x
+)
+=
+[
+t
+(
+x
+)
+]
+−
+x
+2
+n
++
+2
+=
+[
+leading terms of 
+t
+(
+x
+)
+]
+−
+x
+2
+n
++
+2
+s(x)=[t(x)]−x 
+2n+2
+ =[leading terms of t(x)]−x 
+2n+2
+ .
+
+But 
+t
+(
+x
+)
+=
+p
+∗
+(
+x
+)
+=
+1
++
+a
+2
+n
+−
+1
+x
++
+a
+2
+n
+−
+2
+x
+2
++
+⋯
++
+a
+0
+x
+2
+n
+t(x)=p 
+∗
+ (x)=1+a 
+2n−1
+​
+ x+a 
+2n−2
+​
+ x 
+2
+ +⋯+a 
+0
+​
+ x 
+2n
+ .
+
+Thus, 
+t
+(
+x
+)
+=
+polynomial of degree 
+≤
+2
+n
+t(x)=polynomial of degree ≤2n.
+
+Therefore, 
+s
+(
+x
+)
+=
+[
+degree 
+≤
+2
+n
+]
+−
+x
+2
+n
++
+2
+=
+−
+x
+2
+n
++
+2
++
+[
+degree 
+≤
+2
+n
+]
+s(x)=[degree ≤2n]−x 
+2n+2
+ =−x 
+2n+2
+ +[degree ≤2n].
+
+Therefore, the highest degree term of 
+s
+(
+x
+)
+s(x) is 
+−
+x
+2
+n
++
+2
+−x 
+2n+2
+ , and the rest is lower degree terms.
+
+Therefore, 
+s
+(
+x
+)
+=
+−
+x
+2
+n
++
+2
++
+lower degree terms
+s(x)=−x 
+2n+2
+ +lower degree terms.
+
+So matching terms:
+
+From 
+m
+(
+x
+)
+h
+(
+x
+)
+m(x)h(x):
+
+• Leading term of 
+s
+(
+x
+)
+s(x): 
+−
+x
+2
+n
++
+2
+−x 
+2n+2
+ 
+
+• Second term: 
+b
+x
+2
+n
++
+1
+bx 
+2n+1
+ 
+
+• Third term: 
+c
+x
+2
+n
+cx 
+2n
+ .
+
+But from $$s(x) = p^(x) - x^{2n+2}
+,
+a
+n
+d
+,andp^(x)
+h
+a
+s
+d
+e
+g
+r
+e
+e
+hasdegree\leq 2n$$.
+
+Therefore, there is no 
+x
+2
+n
++
+1
+x 
+2n+1
+  term in 
+s
+(
+x
+)
+s(x) unless 
+t
+(
+x
+)
+t(x) contributes, but 
+t
+(
+x
+)
+t(x) is of degree 
+≤
+2
+n
+≤2n.
+
+Given that 
+s
+(
+x
+)
+=
+−
+x
+2
+n
++
+2
++
+[
+degree
+≤
+2
+n
+]
+s(x)=−x 
+2n+2
+ +[degree≤2n],
+
+Therefore, 
+s
+(
+x
+)
+=
+−
+x
+2
+n
++
+2
++
+s
+2
+n
+x
+2
+n
++
+s
+2
+n
+−
+1
+x
+2
+n
+−
+1
++
+⋯
++
+s
+0
+s(x)=−x 
+2n+2
+ +s 
+2n
+​
+ x 
+2n
+ +s 
+2n−1
+​
+ x 
+2n−1
+ +⋯+s 
+0
+​
+ .
+
+Similarly, from the 
+m
+(
+x
+)
+h
+(
+x
+)
+m(x)h(x) computation:
+
+s
+(
+x
+)
+=
+m
+(
+x
+)
+h
+(
+x
+)
+=
+[
+x
+2
+n
++
+⋯
+ 
+]
+⋅
+(
+−
+x
+2
++
+b
+x
++
+c
+)
+=
+−
+x
+2
+n
++
+2
++
+b
+x
+2
+n
++
+1
++
+c
+x
+2
+n
++
+[lower degree terms]
+s(x)=m(x)h(x)=[x 
+2n
+ +⋯]⋅(−x 
+2
+ +bx+c)=−x 
+2n+2
+ +bx 
+2n+1
+ +cx 
+2n
+ +[lower degree terms].
+
+So from the above, the coefficient of 
+x
+2
+n
++
+1
+x 
+2n+1
+  in 
+s
+(
+x
+)
+s(x) is 
+b
+b.
+
+But according to 
+s
+(
+x
+)
+=
+−
+x
+2
+n
++
+2
++
+[
+degree
+≤
+2
+n
+]
+s(x)=−x 
+2n+2
+ +[degree≤2n], the 
+x
+2
+n
++
+1
+x 
+2n+1
+  term is absent (since 
+p
+∗
+(
+x
+)
+p 
+∗
+ (x) has degree 
+≤
+2
+n
+≤2n).
+
+Therefore, 
+s
+(
+x
+)
+s(x) has no 
+x
+2
+n
++
+1
+x 
+2n+1
+  term.
+
+Thus, the coefficient of 
+x
+2
+n
++
+1
+x 
+2n+1
+  in 
+s
+(
+x
+)
+s(x) is zero.
+
+Therefore, 
+b
+=
+0
+b=0.
+
+Similarly, let’s now compare the coefficient of 
+x
+2
+n
+x 
+2n
+  in 
+s
+(
+x
+)
+s(x), which is 
+c
+x
+2
+n
+cx 
+2n
+ .
+
+Similarly, from 
+s
+(
+x
+)
+=
+−
+x
+2
+n
++
+2
++
+s
+2
+n
+x
+2
+n
++
+[
+lower degree terms
+]
+s(x)=−x 
+2n+2
+ +s 
+2n
+​
+ x 
+2n
+ +[lower degree terms],
+
+So the coefficient of 
+x
+2
+n
+x 
+2n
+  in 
+s
+(
+x
+)
+s(x) is 
+s
+2
+n
+=
+c
+s 
+2n
+​
+ =c.
+
+But 
+s
+(
+x
+)
+=
+p
+∗
+(
+x
+)
+−
+x
+2
+n
++
+2
+s(x)=p 
+∗
+ (x)−x 
+2n+2
+ .
+
+So 
+s
+(
+x
+)
+=
+[
+p
+∗
+(
+x
+)
+]
+−
+x
+2
+n
++
+2
+s(x)=[p 
+∗
+ (x)]−x 
+2n+2
+ .
+
+But 
+p
+∗
+(
+x
+)
+p 
+∗
+ (x) has degree 
+≤
+2
+n
+≤2n.
+
+Therefore, the 
+x
+2
+n
+x 
+2n
+  term in 
+s
+(
+x
+)
+s(x) is given by the 
+x
+2
+n
+x 
+2n
+  term in 
+p
+∗
+(
+x
+)
+p 
+∗
+ (x), which is 
+a
+0
+x
+2
+n
+a 
+0
+​
+ x 
+2n
+ .
+
+So 
+s
+(
+x
+)
+=
+(
+−
+x
+2
+n
++
+2
+)
++
+a
+0
+x
+2
+n
++
+[
+lower degree terms
+]
+s(x)=(−x 
+2n+2
+ )+a 
+0
+​
+ x 
+2n
+ +[lower degree terms].
+
+Therefore, comparing coefficients, the coefficient of 
+x
+2
+n
+x 
+2n
+  in 
+s
+(
+x
+)
+s(x) is 
+a
+0
+a 
+0
+​
+ .
+
+Thus, 
+c
+=
+a
+0
+c=a 
+0
+​
+ .
+
+So 
+c
+=
+a
+0
+c=a 
+0
+​
+ .
+
+So we have 
+h
+(
+x
+)
+=
+−
+x
+2
++
+c
+h(x)=−x 
+2
+ +c.
+
+But we already have 
+b
+=
+0
+b=0.
+
+Thus, 
+h
+(
+x
+)
+=
+−
+x
+2
++
+c
+h(x)=−x 
+2
+ +c.
+
+We can now write: 
+s
+(
+x
+)
+=
+m
+(
+x
+)
+[
+−
+x
+2
++
+c
+]
+=
+[
+∏
+k
+=
+1
+n
+(
+x
+2
+−
+k
+2
+)
+]
+(
+−
+x
+2
++
+c
+)
+s(x)=m(x)[−x 
+2
+ +c]=[∏ 
+k=1
+n
+​
+ (x 
+2
+ −k 
+2
+ )](−x 
+2
+ +c).
+
+Similarly, 
+s
+(
+x
+)
+=
+−
+x
+2
+n
++
+2
++
+a
+0
+x
+2
+n
++
+[
+lower degree terms
+]
+s(x)=−x 
+2n+2
+ +a 
+0
+​
+ x 
+2n
+ +[lower degree terms].
+
+We may be able to compute the expression 
+m
+(
+x
+)
+[
+−
+x
+2
++
+c
+]
+m(x)[−x 
+2
+ +c] and match the coefficient of 
+x
+2
+n
+x 
+2n
+ .
+
+Let me first consider 
+m
+(
+x
+)
+=
+x
+2
+n
++
+[
+lower degree terms
+]
+m(x)=x 
+2n
+ +[lower degree terms].
+
+Similarly, 
+m
+(
+x
+)
+⋅
+(
+−
+x
+2
++
+c
+)
+=
+−
+x
+2
+n
++
+2
++
+c
+x
+2
+n
++
+[
+lower degree terms
+]
+m(x)⋅(−x 
+2
+ +c)=−x 
+2n+2
+ +cx 
+2n
+ +[lower degree terms].
+
+Therefore, 
+s
+(
+x
+)
+=
+−
+x
+2
+n
++
+2
++
+c
+x
+2
+n
++
+[
+lower degree terms
+]
+s(x)=−x 
+2n+2
+ +cx 
+2n
+ +[lower degree terms].
+
+But 
+s
+(
+x
+)
+=
+−
+x
+2
+n
++
+2
++
+a
+0
+x
+2
+n
++
+[
+lower degree terms
+]
+s(x)=−x 
+2n+2
+ +a 
+0
+​
+ x 
+2n
+ +[lower degree terms].
+
+Therefore, 
+c
+x
+2
+n
+=
+a
+0
+x
+2
+n
+cx 
+2n
+ =a 
+0
+​
+ x 
+2n
+ .
+
+Therefore, 
+c
+=
+a
+0
+c=a 
+0
+​
+ .
+
+Thus, 
+c
+=
+a
+0
+c=a 
+0
+​
+ .
+
+So we’ve confirmed that 
+c
+=
+a
+0
+c=a 
+0
+​
+ .
+
+But what about the next term? Let’s consider matching the next coefficient.
+
+Compute 
+m
+(
+x
+)
+⋅
+(
+−
+x
+2
++
+c
+)
+=
+−
+x
+2
+n
++
+2
++
+c
+x
+2
+n
++
+[
+lower degree terms
+]
+m(x)⋅(−x 
+2
+ +c)=−x 
+2n+2
+ +cx 
+2n
+ +[lower degree terms].
+
+The term of degree 
+x
+2
+n
+−
+2
+x 
+2n−2
+  in 
+s
+(
+x
+)
+s(x) is due to the products:
+
+• The 
+x
+2
+n
+−
+2
+x 
+2n−2
+  term from 
+m
+(
+x
+)
+m(x) multiplied by 
+−
+x
+2
+−x 
+2
+ 
+
+• The 
+x
+2
+n
+−
+2
+x 
+2n−2
+  term from 
+m
+(
+x
+)
+m(x) multiplied by 
+c
+c.
+
+Let me write 
+m
+(
+x
+)
+=
+x
+2
+n
++
+m
+2
+n
+−
+2
+x
+2
+n
+−
+2
++
+lower terms
+m(x)=x 
+2n
+ +m 
+2n−2
+​
+ x 
+2n−2
+ +lower terms.
+
+Similarly, 
+m
+(
+x
+)
+⋅
+(
+−
+x
+2
+)
+=
+(
+−
+x
+2
+n
++
+2
++
+m
+2
+n
+−
+2
+x
+2
+n
++
+lower terms
+)
+m(x)⋅(−x 
+2
+ )=(−x 
+2n+2
+ +m 
+2n−2
+​
+ x 
+2n
+ +lower terms).
+
+Wait, actually, this may not help us directly without specific terms.
+
+An alternative is to consider the known polynomials.
+
+So 
+m
+(
+x
+)
+=
+∏
+k
+=
+1
+n
+(
+x
+2
+−
+k
+2
+)
+m(x)=∏ 
+k=1
+n
+​
+ (x 
+2
+ −k 
+2
+ ).
+
+Similarly, 
+s
+(
+x
+)
+=
+m
+(
+x
+)
+[
+−
+x
+2
++
+c
+]
+s(x)=m(x)[−x 
+2
+ +c].
+
+Now, consider that 
+s
+(
+x
+)
+=
+[
+−
+x
+2
+n
++
+2
+]
++
+c
+x
+2
+n
++
+[
+lower degree terms
+]
+s(x)=[−x 
+2n+2
+ ]+cx 
+2n
+ +[lower degree terms].
+
+Similarly, expand 
+m
+(
+x
+)
+[
+−
+x
+2
+]
+m(x)[−x 
+2
+ ] and 
+m
+(
+x
+)
+⋅
+c
+m(x)⋅c separately.
+
+Let me compute 
+m
+(
+x
+)
+⋅
+(
+−
+x
+2
+)
+m(x)⋅(−x 
+2
+ ).
+
+Since 
+m
+(
+x
+)
+m(x) is a monic degree 
+2
+n
+2n polynomial, its highest degree term is 
+x
+2
+n
+x 
+2n
+ .
+
+Therefore, 
+m
+(
+x
+)
+⋅
+(
+−
+x
+2
+)
+=
+−
+x
+2
+n
++
+2
++
+lower degree terms
+m(x)⋅(−x 
+2
+ )=−x 
+2n+2
+ +lower degree terms.
+
+Similarly, 
+m
+(
+x
+)
+⋅
+c
+=
+c
+x
+2
+n
++
+lower degree terms
+m(x)⋅c=cx 
+2n
+ +lower degree terms.
+
+Therefore, 
+s
+(
+x
+)
+=
+[
+−
+x
+2
+n
++
+2
+]
++
+c
+x
+2
+n
++
+[
+lower degree terms
+]
+s(x)=[−x 
+2n+2
+ ]+cx 
+2n
+ +[lower degree terms].
+
+Similarly, from the definition of 
+s
+(
+x
+)
+s(x), 
+s
+(
+x
+)
+=
+[
+−
+x
+2
+n
++
+2
+]
++
+s
+2
+n
+x
+2
+n
++
+s
+2
+n
+−
+1
+x
+2
+n
+−
+1
++
+⋯
+s(x)=[−x 
+2n+2
+ ]+s 
+2n
+​
+ x 
+2n
+ +s 
+2n−1
+​
+ x 
+2n−1
+ +⋯.
+
+But from 
+s
+(
+x
+)
+=
+p
+∗
+(
+x
+)
+−
+x
+2
+n
++
+2
+s(x)=p 
+∗
+ (x)−x 
+2n+2
+ .
+
+Since 
+p
+∗
+(
+x
+)
+=
+1
++
+a
+2
+n
+−
+1
+x
++
+a
+2
+n
+−
+2
+x
+2
++
+⋯
++
+a
+0
+x
+2
+n
+p 
+∗
+ (x)=1+a 
+2n−1
+​
+ x+a 
+2n−2
+​
+ x 
+2
+ +⋯+a 
+0
+​
+ x 
+2n
+ ,
+
+Thus, 
+s
+(
+x
+)
+=
+[
+1
++
+a
+2
+n
+−
+1
+x
++
+a
+2
+n
+−
+2
+x
+2
++
+⋯
++
+a
+0
+x
+2
+n
+]
+−
+x
+2
+n
++
+2
+s(x)=[1+a 
+2n−1
+​
+ x+a 
+2n−2
+​
+ x 
+2
+ +⋯+a 
+0
+​
+ x 
+2n
+ ]−x 
+2n+2
+ .
+
+But this seems to contradict our prior assertion that 
+s
+(
+x
+)
+=
+−
+x
+2
+n
++
+2
++
+a
+0
+x
+2
+n
++
+⋯
+s(x)=−x 
+2n+2
+ +a 
+0
+​
+ x 
+2n
+ +⋯.
+
+Wait, perhaps we need to be careful here.
+
+Let me try to rewrite 
+s
+(
+x
+)
+s(x).
+
+Given that 
+t
+(
+x
+)
+=
+p
+∗
+(
+x
+)
+=
+x
+2
+n
+p
+(
+1
+x
+)
+=
+1
++
+a
+2
+n
+−
+1
+x
++
+⋯
++
+a
+0
+x
+2
+n
+t(x)=p 
+∗
+ (x)=x 
+2n
+ p( 
+x
+1
+​
+ )=1+a 
+2n−1
+​
+ x+⋯+a 
+0
+​
+ x 
+2n
+ ,
+
+Therefore, 
+s
+(
+x
+)
+=
+t
+(
+x
+)
+−
+x
+2
+n
++
+2
+=
+[
+1
++
+a
+2
+n
+−
+1
+x
++
+⋯
++
+a
+0
+x
+2
+n
+]
+−
+x
+2
+n
++
+2
+s(x)=t(x)−x 
+2n+2
+ =[1+a 
+2n−1
+​
+ x+⋯+a 
+0
+​
+ x 
+2n
+ ]−x 
+2n+2
+ .
+
+So 
+s
+(
+x
+)
+=
+−
+x
+2
+n
++
+2
++
+a
+0
+x
+2
+n
++
+[
+lower degree terms
+]
+s(x)=−x 
+2n+2
+ +a 
+0
+​
+ x 
+2n
+ +[lower degree terms].
+
+So the constant term of 
+s
+(
+x
+)
+s(x) is $$s(0) = p^(0) - 0 = p^(0) = 1$$.
+
+Similarly, 
+m
+(
+x
+)
+⋅
+h
+(
+x
+)
+m(x)⋅h(x), when evaluated at 
+x
+=
+0
+x=0, becomes 
+m
+(
+0
+)
+⋅
+h
+(
+0
+)
+=
+[
+∏
+k
+=
+1
+n
+(
+−
+k
+2
+)
+]
+[
+−
+0
++
+c
+]
+=
+[
+(
+−
+1
+)
+n
+k
+1
+2
+k
+2
+2
+⋯
+k
+n
+2
+]
+c
+m(0)⋅h(0)=[∏ 
+k=1
+n
+​
+ (−k 
+2
+ )][−0+c]=[(−1) 
+n
+ k 
+1
+2
+​
+ k 
+2
+2
+​
+ ⋯k 
+n
+2
+​
+ ]c.
+
+But since 
+k
+=
+1
+k=1 to 
+n
+n, the product 
+k
+2
+k 
+2
+  is
+
+Wait, sorry, actually, 
+∏
+k
+=
+1
+n
+k
+2
+=
+(
+n
+!
+)
+2
+∏ 
+k=1
+n
+​
+ k 
+2
+ =(n!) 
+2
+ 
+
+So 
+m
+(
+0
+)
+=
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+m(0)=(−1) 
+n
+ (n!) 
+2
+ .
+
+Therefore, 
+m
+(
+0
+)
+h
+(
+0
+)
+=
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+(
+0
++
+c
+)
+=
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+c
+m(0)h(0)=(−1) 
+n
+ (n!) 
+2
+ (0+c)=(−1) 
+n
+ (n!) 
+2
+ c.
+
+Similarly, 
+s
+(
+0
+)
+=
+1
+s(0)=1.
+
+So we have:
+
+s
+(
+0
+)
+=
+m
+(
+0
+)
+h
+(
+0
+)
+s(0)=m(0)h(0).
+
+1
+=
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+c
+1=(−1) 
+n
+ (n!) 
+2
+ c.
+
+Therefore,
+
+c
+=
+1
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+=
+(
+−
+1
+)
+n
+[
+1
+(
+n
+!
+)
+2
+]
+=
+(
+−
+1
+)
+n
+[
+1
+(
+n
+!
+)
+2
+]
+c= 
+(−1) 
+n
+ (n!) 
+2
+ 
+1
+​
+ =(−1) 
+n
+ [ 
+(n!) 
+2
+ 
+1
+​
+ ]=(−1) 
+n
+ [ 
+(n!) 
+2
+ 
+1
+​
+ ].
+
+Wait, but 
+c
+=
+a
+0
+c=a 
+0
+​
+ .
+
+But we previously had 
+c
+=
+a
+0
+c=a 
+0
+​
+ .
+
+Therefore, 
+a
+0
+=
+(
+−
+1
+)
+n
+1
+(
+n
+!
+)
+2
+a 
+0
+​
+ =(−1) 
+n
+  
+(n!) 
+2
+ 
+1
+​
+ .
+
+But since 
+c
+=
+a
+0
+c=a 
+0
+​
+ ,
+
+Thus, we have determined 
+c
+c.
+
+Similarly, perhaps we can find more about 
+p
+∗
+(
+x
+)
+p 
+∗
+ (x).
+
+But perhaps we can do better.
+
+Alternatively, since 
+p
+∗
+(
+x
+)
+−
+x
+2
+n
++
+2
+=
+s
+(
+x
+)
+=
+m
+(
+x
+)
+h
+(
+x
+)
+p 
+∗
+ (x)−x 
+2n+2
+ =s(x)=m(x)h(x),
+
+Given that 
+m
+(
+x
+)
+=
+∏
+k
+=
+1
+n
+(
+x
+2
+−
+k
+2
+)
+=
+x
+2
+n
+−
+(
+sum of squares
+)
+x
+2
+n
+−
+2
++
+⋯
++
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+m(x)=∏ 
+k=1
+n
+​
+ (x 
+2
+ −k 
+2
+ )=x 
+2n
+ −(sum of squares)x 
+2n−2
+ +⋯+(−1) 
+n
+ (n!) 
+2
+ ,
+
+Similarly, 
+t
+(
+x
+)
+=
+p
+∗
+(
+x
+)
+t(x)=p 
+∗
+ (x).
+
+Given 
+p
+∗
+(
+x
+)
+=
+x
+2
+n
+p
+(
+1
+x
+)
+=
+x
+2
+n
+(
+x
+−
+2
+n
++
+a
+2
+n
+−
+1
+x
+−
+2
+n
++
+1
++
+⋯
++
+a
+0
+)
+p 
+∗
+ (x)=x 
+2n
+ p( 
+x
+1
+​
+ )=x 
+2n
+ (x 
+−2n
+ +a 
+2n−1
+​
+ x 
+−2n+1
+ +⋯+a 
+0
+​
+ ),
+
+Therefore, 
+p
+∗
+(
+x
+)
+=
+1
++
+a
+2
+n
+−
+1
+x
++
+a
+2
+n
+−
+2
+x
+2
++
+⋯
++
+a
+0
+x
+2
+n
+p 
+∗
+ (x)=1+a 
+2n−1
+​
+ x+a 
+2n−2
+​
+ x 
+2
+ +⋯+a 
+0
+​
+ x 
+2n
+ .
+
+Thus, 
+p
+∗
+(
+x
+)
+p 
+∗
+ (x) is degree 
+2
+n
+2n.
+
+Similarly, 
+s
+(
+x
+)
+=
+p
+∗
+(
+x
+)
+−
+x
+2
+n
++
+2
+s(x)=p 
+∗
+ (x)−x 
+2n+2
+ .
+
+Now, what if we consider that 
+p
+∗
+(
+x
+)
+=
+x
+2
+n
++
+2
+−
+m
+(
+x
+)
+h
+(
+x
+)
+p 
+∗
+ (x)=x 
+2n+2
+ −m(x)h(x).
+
+Wait, but that seems messy.
+
+Alternatively, since 
+s
+(
+x
+)
+=
+m
+(
+x
+)
+h
+(
+x
+)
+=
+[
+x
+2
+n
++
+⋯
++
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+]
+(
+−
+x
+2
++
+c
+)
+s(x)=m(x)h(x)=[x 
+2n
+ +⋯+(−1) 
+n
+ (n!) 
+2
+ ](−x 
+2
+ +c),
+
+To find 
+p
+∗
+(
+x
+)
+p 
+∗
+ (x), we can write:
+
+p
+∗
+(
+x
+)
+=
+s
+(
+x
+)
++
+x
+2
+n
++
+2
+=
+[
+m
+(
+x
+)
+h
+(
+x
+)
+]
++
+x
+2
+n
++
+2
+p 
+∗
+ (x)=s(x)+x 
+2n+2
+ =[m(x)h(x)]+x 
+2n+2
+ .
+
+Thus, 
+p
+∗
+(
+x
+)
+=
+[
+m
+(
+x
+)
+h
+(
+x
+)
+]
++
+x
+2
+n
++
+2
+p 
+∗
+ (x)=[m(x)h(x)]+x 
+2n+2
+ .
+
+Then, 
+p
+∗
+(
+x
+)
+=
+[
+m
+(
+x
+)
+(
+−
+x
+2
++
+c
+)
+]
++
+x
+2
+n
++
+2
+p 
+∗
+ (x)=[m(x)(−x 
+2
+ +c)]+x 
+2n+2
+ .
+
+So 
+p
+∗
+(
+x
+)
+=
+[
+m
+(
+x
+)
+(
+−
+x
+2
++
+c
+)
+]
++
+x
+2
+n
++
+2
+p 
+∗
+ (x)=[m(x)(−x 
+2
+ +c)]+x 
+2n+2
+ .
+
+But 
+x
+2
+n
++
+2
+=
+x
+2
+x
+2
+n
+x 
+2n+2
+ =x 
+2
+ x 
+2n
+ .
+
+But 
+m
+(
+x
+)
+m(x) is degree 
+2
+n
+2n, and we can write 
+x
+2
+n
++
+2
+=
+x
+2
+x
+2
+n
+x 
+2n+2
+ =x 
+2
+ x 
+2n
+ .
+
+So 
+p
+∗
+(
+x
+)
+=
+−
+m
+(
+x
+)
+x
+2
++
+c
+m
+(
+x
+)
++
+x
+2
+x
+2
+n
+p 
+∗
+ (x)=−m(x)x 
+2
+ +cm(x)+x 
+2
+ x 
+2n
+ .
+
+But 
+m
+(
+x
+)
+x
+2
+=
+x
+2
+m
+(
+x
+)
+=
+x
+2
+(
+x
+2
+n
++
+⋯
+ 
+)
+m(x)x 
+2
+ =x 
+2
+ m(x)=x 
+2
+ (x 
+2n
+ +⋯).
+
+So let’s compute 
+p
+∗
+(
+x
+)
+=
+−
+x
+2
+m
+(
+x
+)
++
+c
+m
+(
+x
+)
++
+x
+2
+n
++
+2
+p 
+∗
+ (x)=−x 
+2
+ m(x)+cm(x)+x 
+2n+2
+ .
+
+But 
+x
+2
+n
++
+2
+=
+x
+2
+x
+2
+n
+x 
+2n+2
+ =x 
+2
+ x 
+2n
+ , so:
+
+p
+∗
+(
+x
+)
+=
+−
+x
+2
+m
+(
+x
+)
++
+c
+m
+(
+x
+)
++
+x
+2
+x
+2
+n
+p 
+∗
+ (x)=−x 
+2
+ m(x)+cm(x)+x 
+2
+ x 
+2n
+ .
+
+Now 
+m
+(
+x
+)
+m(x) is monic degree 
+2
+n
+2n: 
+m
+(
+x
+)
+=
+x
+2
+n
++
+⋯
++
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+m(x)=x 
+2n
+ +⋯+(−1) 
+n
+ (n!) 
+2
+ .
+
+So 
+x
+2
+m
+(
+x
+)
+=
+x
+2
+x
+2
+n
++
+lower degree terms
+x 
+2
+ m(x)=x 
+2
+ x 
+2n
+ +lower degree terms.
+
+Therefore, 
+x
+2
+m
+(
+x
+)
+=
+x
+2
+n
++
+2
++
+lower degree terms
+x 
+2
+ m(x)=x 
+2n+2
+ +lower degree terms.
+
+Similarly, 
+x
+2
+x
+2
+n
+=
+x
+2
+n
++
+2
+x 
+2
+ x 
+2n
+ =x 
+2n+2
+ .
+
+So 
+p
+∗
+(
+x
+)
+=
+−
+x
+2
+m
+(
+x
+)
++
+c
+m
+(
+x
+)
++
+x
+2
+x
+2
+n
+=
+[
+−
+x
+2
+m
+(
+x
+)
++
+x
+2
+x
+2
+n
+]
++
+c
+m
+(
+x
+)
+p 
+∗
+ (x)=−x 
+2
+ m(x)+cm(x)+x 
+2
+ x 
+2n
+ =[−x 
+2
+ m(x)+x 
+2
+ x 
+2n
+ ]+cm(x).
+
+But 
+x
+2
+x
+2
+n
+=
+x
+2
+n
++
+2
+=
+x
+2
+m
+0
+x
+2
+n
+x 
+2
+ x 
+2n
+ =x 
+2n+2
+ =x 
+2
+ m 
+0
+​
+ x 
+2n
+  (since 
+m
+0
+m 
+0
+​
+  is the leading coefficient of 
+m
+(
+x
+)
+m(x), which is 1).
+
+Therefore, 
+−
+x
+2
+m
+(
+x
+)
++
+x
+2
+x
+2
+n
+=
+−
+x
+2
+[
+m
+(
+x
+)
+−
+x
+2
+n
+]
+−x 
+2
+ m(x)+x 
+2
+ x 
+2n
+ =−x 
+2
+ [m(x)−x 
+2n
+ ].
+
+But 
+m
+(
+x
+)
+−
+x
+2
+n
+=
+lower degree terms
+m(x)−x 
+2n
+ =lower degree terms.
+
+Therefore, 
+−
+x
+2
+m
+(
+x
+)
++
+x
+2
+n
++
+2
+=
+−
+x
+2
+[
+m
+(
+x
+)
+−
+x
+2
+n
+]
+−x 
+2
+ m(x)+x 
+2n+2
+ =−x 
+2
+ [m(x)−x 
+2n
+ ].
+
+Thus, 
+p
+∗
+(
+x
+)
+=
+−
+x
+2
+[
+m
+(
+x
+)
+−
+x
+2
+n
+]
++
+c
+m
+(
+x
+)
+p 
+∗
+ (x)=−x 
+2
+ [m(x)−x 
+2n
+ ]+cm(x).
+
+Therefore, 
+p
+∗
+(
+x
+)
+=
+−
+x
+2
+[
+m
+(
+x
+)
+−
+x
+2
+n
+]
++
+c
+m
+(
+x
+)
+p 
+∗
+ (x)=−x 
+2
+ [m(x)−x 
+2n
+ ]+cm(x). But 
+m
+(
+x
+)
+−
+x
+2
+n
+=
+lower degree terms
+m(x)−x 
+2n
+ =lower degree terms.
+
+Similarly, 
+p
+∗
+(
+x
+)
+=
+−
+x
+2
+[
+lower degree terms
+]
++
+c
+m
+(
+x
+)
+p 
+∗
+ (x)=−x 
+2
+ [lower degree terms]+cm(x).
+
+So the term of degree 
+2
+n
++
+1
+2n+1 in 
+p
+∗
+(
+x
+)
+p 
+∗
+ (x) comes from 
+−
+x
+2
+[
+m
+2
+n
+−
+1
+x
+2
+n
+−
+1
+]
+−x 
+2
+ [m 
+2n−1
+​
+ x 
+2n−1
+ ] plus 
+c
+m
+(
+x
+)
+cm(x).
+
+But 
+p
+∗
+(
+x
+)
+p 
+∗
+ (x) has degree 
+≤
+2
+n
+≤2n.
+
+Therefore, the degree of 
+p
+∗
+(
+x
+)
+p 
+∗
+ (x) is 
+≤
+2
+n
+≤2n.
+
+Similarly, the highest degree term in 
+p
+∗
+(
+x
+)
+p 
+∗
+ (x) is 
+x
+2
+n
+x 
+2n
+ .
+
+But from our prior expression, 
+p
+∗
+(
+x
+)
+=
+−
+x
+2
+[
+m
+(
+x
+)
+−
+x
+2
+n
+]
++
+c
+m
+(
+x
+)
+p 
+∗
+ (x)=−x 
+2
+ [m(x)−x 
+2n
+ ]+cm(x).
+
+But after simplification, the leading term is 
+c
+x
+2
+n
+cx 
+2n
+ .
+
+Wait, I think this is getting too messy.
+
+Perhaps I should consider the concrete value of 
+m
+(
+x
+)
+m(x) at 
+x
+=
+0
+x=0.
+
+We already considered
+
+s
+(
+0
+)
+=
+1
+s(0)=1.
+
+Similarly, 
+m
+(
+0
+)
+=
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+m(0)=(−1) 
+n
+ (n!) 
+2
+ .
+
+Therefore, we established that: 
+1
+=
+s
+(
+0
+)
+=
+m
+(
+0
+)
+h
+(
+0
+)
+1=s(0)=m(0)h(0).
+
+But 
+h
+(
+0
+)
+=
+0
++
+c
+=
+c
+h(0)=0+c=c.
+
+So 
+c
+=
+s
+(
+0
+)
+m
+(
+0
+)
+=
+1
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+=
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+c= 
+m(0)
+s(0)
+​
+ = 
+(−1) 
+n
+ (n!) 
+2
+ 
+1
+​
+ = 
+(n!) 
+2
+ 
+(−1) 
+n
+ 
+​
+ .
+
+So 
+c
+=
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+c= 
+(n!) 
+2
+ 
+(−1) 
+n
+ 
+​
+ .
+
+Similarly, we had 
+c
+=
+a
+0
+c=a 
+0
+​
+ .
+
+Therefore, 
+a
+0
+=
+c
+=
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+a 
+0
+​
+ =c= 
+(n!) 
+2
+ 
+(−1) 
+n
+ 
+​
+ .
+
+Therefore, the constant term in 
+p
+∗
+(
+x
+)
+p 
+∗
+ (x) is 
+p
+∗
+(
+0
+)
+=
+1
+p 
+∗
+ (0)=1.
+
+So we have 
+p
+∗
+(
+0
+)
+=
+1
+p 
+∗
+ (0)=1.
+
+Similarly, 
+s
+(
+0
+)
+=
+p
+∗
+(
+0
+)
+−
+0
+=
+1
+s(0)=p 
+∗
+ (0)−0=1.
+
+So consistent.
+
+But perhaps this is as far as we can go without specific computations.
+
+Alternatively, the problem is to find all real numbers 
+x
+x satisfying 
+p
+(
+1
+x
+)
+=
+x
+2
+p( 
+x
+1
+​
+ )=x 
+2
+ .
+
+Given that 
+p
+(
+1
+/
+k
+)
+=
+k
+2
+p(1/k)=k 
+2
+  for 
+k
+=
+±
+1
+,
+±
+2
+,
+…
+,
+±
+n
+k=±1,±2,…,±n
+
+We might conjecture that the only real solutions are 
+x
+=
+±
+(
+n
++
+1
+)
+,
+±
+(
+n
++
+2
+)
+,
+…
+x=±(n+1),±(n+2),…
+
+But since 
+p
+(
+1
+/
+x
+)
+−
+x
+2
+=
+0
+p(1/x)−x 
+2
+ =0 , and 
+p
+(
+1
+/
+x
+)
+p(1/x) is given, perhaps all solutions 
+x
+x satisfy 
+p
+(
+1
+/
+x
+)
+=
+x
+2
+p(1/x)=x 
+2
+ 
+
+But we can express 
+q
+(
+x
+)
+=
+p
+(
+1
+/
+x
+)
+−
+x
+2
+q(x)=p(1/x)−x 
+2
+ 
+
+But 
+q
+(
+x
+)
+q(x) has roots at 
+x
+=
+±
+1
+,
+±
+2
+,
+…
+,
+±
+n
+x=±1,±2,…,±n
+
+Similarly, the solutions we are looking for are zeros of 
+q
+(
+x
+)
+q(x)
+
+Thus, 
+q
+(
+x
+)
+=
+s
+(
+x
+)
+x
+2
+n
+q(x)= 
+x 
+2n
+ 
+s(x)
+​
+ 
+
+But 
+s
+(
+x
+)
+=
+x
+2
+n
+q
+(
+x
+)
+s(x)=x 
+2n
+ q(x)
+
+Similarly, 
+s
+(
+x
+)
+=
+m
+(
+x
+)
+h
+(
+x
+)
+s(x)=m(x)h(x), where 
+h
+(
+x
+)
+=
+−
+x
+2
++
+c
+h(x)=−x 
+2
+ +c
+
+So the zeros of 
+q
+(
+x
+)
+q(x) are zeros of 
+s
+(
+x
+)
+s(x) of degree 
+2
+n
++
+2
+2n+2 minus zeros at 
+x
+=
+0
+x=0 multiplicity 
+2
+n
+2n (since 
+s
+(
+x
+)
+=
+x
+2
+n
+q
+(
+x
+)
+s(x)=x 
+2n
+ q(x))
+
+Therefore, zeros of 
+q
+(
+x
+)
+q(x) are zeros of 
+s
+(
+x
+)
+s(x), excluding 
+x
+=
+0
+x=0
+
+Thus, zeros of 
+q
+(
+x
+)
+q(x) are 
+x
+=
+±
+1
+,
+…
+,
+±
+n
+x=±1,…,±n, and zeros of 
+h
+(
+x
+)
+h(x)
+
+But 
+h
+(
+x
+)
+=
+−
+x
+2
++
+c
+=
+0
+h(x)=−x 
+2
+ +c=0
+
+So the other zeros are solutions of 
+−
+x
+2
++
+c
+=
+0
+−x 
+2
+ +c=0
+
+So solving 
+−
+x
+2
++
+c
+=
+0
+−x 
+2
+ +c=0
+
+That is, 
+x
+2
+=
+c
+x 
+2
+ =c
+
+Thus, 
+x
+=
+±
+c
+x=± 
+c
+​
+ 
+
+But 
+c
+=
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+c= 
+(n!) 
+2
+ 
+(−1) 
+n
+ 
+​
+ 
+
+So 
+c
+=
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+c= 
+(n!) 
+2
+ 
+(−1) 
+n
+ 
+​
+ 
+
+Therefore, 
+c
+>
+0
+c>0 when 
+n
+n is even, since 
+(
+−
+1
+)
+n
+=
+1
+(−1) 
+n
+ =1
+
+Therefore, when 
+n
+n is even, 
+c
+=
+1
+(
+n
+!
+)
+2
+>
+0
+c= 
+(n!) 
+2
+ 
+1
+​
+ >0
+
+Therefore, 
+c
+>
+0
+c>0
+
+Thus, 
+x
+2
+=
+c
+x 
+2
+ =c has real solutions 
+x
+=
+±
+c
+x=± 
+c
+​
+ 
+
+Therefore, the other real solutions of 
+p
+(
+1
+/
+x
+)
+=
+x
+2
+p(1/x)=x 
+2
+  are 
+x
+=
+±
+c
+x=± 
+c
+​
+ 
+
+Similarly, when 
+n
+n is even, 
+c
+>
+0
+c>0
+
+Thus, the other real numbers 
+x
+x satisfying 
+p
+(
+1
+/
+x
+)
+=
+x
+2
+p(1/x)=x 
+2
+  are 
+x
+=
+±
+c
+=
+±
+1
+n
+!
+x=± 
+c
+​
+ =± 
+n!
+1
+​
+ 
+
+Therefore, the other real numbers 
+x
+x are 
+x
+=
+±
+1
+n
+!
+x=± 
+n!
+1
+​
+ 
+
+Wait, wait, 
+x
+2
+=
+c
+x 
+2
+ =c, so 
+x
+=
+±
+1
+(
+n
+!
+)
+2
+=
+±
+1
+n
+!
+x=± 
+(n!) 
+2
+ 
+1
+​
+ 
+​
+ =± 
+n!
+1
+​
+ 
+
+Therefore, the other real numbers 
+x
+x are 
+x
+=
+±
+1
+n
+!
+x=± 
+n!
+1
+​
+ 
+
+So in conclusion, the numbers 
+x
+x satisfying 
+p
+(
+1
+/
+x
+)
+=
+x
+2
+p(1/x)=x 
+2
+  are 
+x
+=
+±
+k
+x=±k for 
+k
+=
+1
+k=1 to 
+n
+n, and 
+x
+=
+±
+1
+n
+!
+x=± 
+n!
+1
+​
+ 
+
+Thus, the other real numbers 
+x
+x are 
+±
+1
+n
+!
+± 
+n!
+1
+​
+ 
+
+So the answer is 
+x
+=
+±
+1
+n
+!
+x=± 
+n!
+1
+​
+  (along with 
+x
+=
+±
+k
+x=±k for 
+k
+=
+1
+k=1 to 
+n
+n)
+
+Wait, but the problem says “Suppose that 
+p
+(
+1
+/
+k
+)
+=
+k
+2
+p(1/k)=k 
+2
+  for all integers 
+k
+k with 
+1
+≤
+∣
+k
+∣
+≤
+n
+1≤∣k∣≤n. Find all other real numbers 
+x
+x for which 
+p
+(
+1
+/
+x
+)
+=
+x
+2
+p(1/x)=x 
+2
+ ”
+
+Thus, apart from 
+x
+=
+±
+k
+x=±k (which have already been given), the other real numbers are 
+x
+=
+±
+1
+n
+!
+x=± 
+n!
+1
+​
+ 
+
+Wait, but when 
+n
+n is even, 
+c
+=
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+=
+1
+(
+n
+!
+)
+2
+c= 
+(n!) 
+2
+ 
+(−1) 
+n
+ 
+​
+ = 
+(n!) 
+2
+ 
+1
+​
+ 
+
+Thus, 
+c
+=
+1
+(
+n
+!
+)
+2
+c= 
+(n!) 
+2
+ 
+1
+​
+ 
+
+Thus, 
+x
+2
+=
+c
+⇒
+x
+=
+±
+1
+n
+!
+x 
+2
+ =c⇒x=± 
+n!
+1
+​
+ 
+
+Thus, the other real numbers are 
+x
+=
+±
+1
+n
+!
+x=± 
+n!
+1
+​
+ 
+
+Answer: The other real numbers 
+x
+x satisfying 
+p
+(
+1
+/
+x
+)
+=
+x
+2
+p(1/x)=x 
+2
+  are 
+x
+=
+±
+1
+n
+!
+x=± 
+n!
+1
+​
+ 
+
+To solve this problem, we need to find all real numbers 
+x
+x such that
+
+p
+(
+1
+x
+)
+=
+x
+2
+,
+p( 
+x
+1
+​
+ )=x 
+2
+ ,
+
+where 
+p
+p is a monic real polynomial of degree 
+2
+n
+2n, and it is given that
+
+p
+(
+1
+k
+)
+=
+k
+2
+p( 
+k
+1
+​
+ )=k 
+2
+ 
+
+for all integers 
+k
+k with 
+1
+≤
+∣
+k
+∣
+≤
+n
+1≤∣k∣≤n.
+
+Understanding the Given Information:
+
+Given Data Points: We have 
+2
+n
+2n data points from 
+k
+=
+±
+1
+,
+±
+2
+,
+…
+,
+±
+n
+k=±1,±2,…,±n, which provide the values 
+p
+(
+1
+k
+)
+=
+k
+2
+p( 
+k
+1
+​
+ )=k 
+2
+ .
+
+Polynomial Function: 
+p
+(
+x
+)
+p(x) is monic of degree 
+2
+n
+2n, which means its highest-degree coefficient is 1.
+
+Defining a New Polynomial:
+
+Let’s define a new function
+
+q
+(
+x
+)
+=
+p
+(
+1
+x
+)
+−
+x
+2
+.
+q(x)=p( 
+x
+1
+​
+ )−x 
+2
+ .
+
+Our goal is to find all real solutions to 
+q
+(
+x
+)
+=
+0
+q(x)=0.
+
+Properties of 
+q
+(
+x
+)
+q(x):
+
+Since 
+p
+p is a polynomial of degree 
+2
+n
+2n, 
+p
+(
+1
+x
+)
+p( 
+x
+1
+​
+ ) can be expressed in powers of 
+x
+x.
+
+The function 
+q
+(
+x
+)
+q(x) has zeros at 
+x
+=
+±
+1
+,
+±
+2
+,
+…
+,
+±
+n
+x=±1,±2,…,±n because 
+q
+(
+k
+)
+=
+p
+(
+1
+k
+)
+−
+k
+2
+=
+0
+q(k)=p( 
+k
+1
+​
+ )−k 
+2
+ =0.
+
+Constructing 
+s
+(
+x
+)
+s(x):
+
+Consider the polynomial
+
+s
+(
+x
+)
+=
+x
+2
+n
+q
+(
+x
+)
+=
+x
+2
+n
+(
+p
+(
+1
+x
+)
+−
+x
+2
+)
+.
+s(x)=x 
+2n
+ q(x)=x 
+2n
+ (p( 
+x
+1
+​
+ )−x 
+2
+ ).
+
+Multiplying through by 
+x
+2
+n
+x 
+2n
+  eliminates denominators, making 
+s
+(
+x
+)
+s(x) a polynomial.
+
+Factoring 
+s
+(
+x
+)
+s(x):
+
+We know that 
+s
+(
+x
+)
+s(x) has roots at 
+x
+=
+±
+1
+,
+±
+2
+,
+…
+,
+±
+n
+x=±1,±2,…,±n. Therefore, 
+s
+(
+x
+)
+s(x) can be expressed as:
+
+s
+(
+x
+)
+=
+m
+(
+x
+)
+h
+(
+x
+)
+,
+s(x)=m(x)h(x),
+
+where 
+m
+(
+x
+)
+=
+∏
+k
+=
+1
+n
+(
+x
+2
+−
+k
+2
+)
+m(x)=∏ 
+k=1
+n
+​
+ (x 
+2
+ −k 
+2
+ ) is a monic polynomial of degree 
+2
+n
+2n whose roots are 
+±
+1
+,
+±
+2
+,
+…
+,
+±
+n
+±1,±2,…,±n, and 
+h
+(
+x
+)
+h(x) is a quadratic polynomial.
+
+Determining 
+h
+(
+x
+)
+h(x):
+
+We consider 
+h
+(
+x
+)
+h(x) to be a quadratic polynomial:
+
+h
+(
+x
+)
+=
+−
+x
+2
++
+c
+,
+h(x)=−x 
+2
+ +c,
+
+where 
+c
+c is a constant to be determined.
+
+Matching Coefficients:
+
+The leading term of 
+s
+(
+x
+)
+s(x) is 
+−
+x
+2
+n
++
+2
+−x 
+2n+2
+ .
+
+The leading term of 
+m
+(
+x
+)
+h
+(
+x
+)
+m(x)h(x) is 
+(
+x
+2
+n
+)
+(
+−
+x
+2
+)
+=
+−
+x
+2
+n
++
+2
+(x 
+2n
+ )(−x 
+2
+ )=−x 
+2n+2
+ , ensuring the degrees match.
+
+Comparing the constant term of 
+s
+(
+x
+)
+s(x) using 
+x
+=
+0
+x=0:
+
+$$ s(0) = p^(0) - 0 = 1 
+,
+w
+h
+e
+r
+e
+,where p^(x) = x^{2n} p\left(\frac{1}{x}\right) $$.
+
+Evaluating 
+m
+(
+0
+)
+m(0) and 
+h
+(
+0
+)
+h(0):
+
+m
+(
+0
+)
+=
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+m(0)=(−1) 
+n
+ (n!) 
+2
+ .
+
+h
+(
+0
+)
+=
+−
+0
++
+c
+=
+c
+h(0)=−0+c=c.
+
+Since 
+s
+(
+0
+)
+=
+m
+(
+0
+)
+h
+(
+0
+)
+s(0)=m(0)h(0):
+
+1
+=
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+c
+,
+1=(−1) 
+n
+ (n!) 
+2
+ c,
+
+which gives:
+
+c
+=
+1
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+=
+(
+−
+1
+)
+n
+(
+n
+!
+)
+2
+.
+c= 
+(−1) 
+n
+ (n!) 
+2
+ 
+1
+​
+ = 
+(n!) 
+2
+ 
+(−1) 
+n
+ 
+​
+ .
+
+For 
+n
+n even (since 
+n
+n is even), 
+(
+−
+1
+)
+n
+=
+1
+(−1) 
+n
+ =1, so 
+c
+>
+0
+c>0.
+
+Finding Additional Solutions:
+
+Solving 
+h
+(
+x
+)
+=
+0
+h(x)=0:
+
+−
+x
+2
++
+c
+=
+0
+  
+⟹
+  
+x
+2
+=
+c
+  
+⟹
+  
+x
+=
+±
+1
+n
+!
+,
+−x 
+2
+ +c=0⟹x 
+2
+ =c⟹x=± 
+n!
+1
+​
+ ,
+
+since 
+c
+=
+1
+(
+n
+!
+)
+2
+c= 
+(n!) 
+2
+ 
+1
+​
+ .
+
+Conclusion:
+
+The additional real numbers 
+x
+x satisfying 
+p
+(
+1
+x
+)
+=
+x
+2
+p( 
+x
+1
+​
+ )=x 
+2
+  are 
+x
+=
+±
+1
+n
+!
+x=± 
+n!
+1

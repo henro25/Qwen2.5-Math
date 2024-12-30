@@ -1,30 +1,39 @@
 First, let’s understand what is being asked.
+
 We need to find the pH of a 0.10 M solution of ammonium fluoride, NH₄F.
 
 Given:
+
 Ka(NH₄⁺) = 5.6×10⁻¹⁰
 
 Note that actually this is Kb(NH₃), but Ka(NH₄⁺) = Kw / Kb(NH₃).
 
 Also given:
+
 Ka(HF) = 6.8×10⁻⁴
 
 First, figure out what ions are present when NH₄F dissolves in water and how they affect the pH.
 
 First, NH₄F dissociates:
+
 NH₄F → NH₄⁺ + F⁻
 
 Now, both NH₄⁺ and F⁻ are ions that can affect the pH.
 
 NH₄⁺ is the conjugate acid of NH₃, so it can act as a weak acid:
+
 NH₄⁺ ⇌ NH₃ + H⁺
+
 Ka(NH₄⁺) = 5.6×10⁻¹⁰ (given).
 
 F⁻ is the conjugate base of HF, which is a weak acid, so F⁻ acts as a weak base:
+
 F⁻ + H₂O ⇌ HF + OH⁻
+
 Kb(F⁻) = Kw / Ka(HF) = 1.0×10⁻¹⁴ / 6.8×10⁻⁴.
 
 So both NH₄⁺ and F⁻ can react with water, affecting the pH.
+
 We have a salt of a weak acid and a weak base.
 
 But we need to calculate the pH of the solution taking into account both.
@@ -32,12 +41,15 @@ But we need to calculate the pH of the solution taking into account both.
 In the presence of both NH₄⁺ and F⁻, the solution’s pH depends on the relative strengths of the conjugate acid NH₄⁺ and conjugate base F⁻.
 
 One standard way to approach this is to compare Ka(NH₄⁺) and Kb(F⁻).
+
 But we may also write an expression for the equilibrium concentrations, set up an equilibrium calculation.
 
 Alternatively, note that for salts of weak acids and weak bases, the pH depends on the Ka and Kb values.
 
 One method is to use the formula:
+
 pH = 7 + 0.5(pKa − pKb).
+
 But this formula works only when concentrations are equal.
 
 Wait, perhaps more accurate to find Kb for F⁻ and compare it to Ka for NH₄⁺.
@@ -45,6 +57,7 @@ Wait, perhaps more accurate to find Kb for F⁻ and compare it to Ka for NH₄�
 Let’s calculate Kb for F⁻.
 
 Given Ka(HF) = 6.8×10⁻⁴.
+
 So Kb(F⁻) = Kw / Ka(HF).
 
 Similarly, for NH₄⁺, we can write Kb(NH₃) = Kw / Ka(NH₄⁺).
@@ -52,41 +65,53 @@ Similarly, for NH₄⁺, we can write Kb(NH₃) = Kw / Ka(NH₄⁺).
 But maybe not necessary.
 
 Alternatively, for a salt of a weak acid and a weak base, the pH is given by:
+
 pH = 7 + 0.5×log(Kb for base / Ka for acid).
 
 But this formula assumes equimolar concentrations.
+
 Wait, but in our case, the weak acid and weak base have the same concentration, because NH₄F dissociates into equal amounts of NH₄⁺ and F⁻.
 
 So let’s compute:
+
 pH = 7 + 0.5×log(Kb / Ka).
 
 Wait, the correct formula is:
+
 pH = 7 + 0.5×log(Ka for acid / Kb for base).
 
 So first compute Kb for F⁻ and Ka for NH₄⁺.
 
 We have:
+
 Ka(NH₄⁺) = 5.6×10⁻¹⁰ (given).
 
 We can compute:
+
 Kb(F⁻) = Kw / Ka(HF) = 1.0×10⁻¹⁴ / 6.8×10⁻⁴ = 1.470588×10⁻¹¹.
 
 Now compute:
+
 pH = 7 + 0.5×log(Ka / Kb).
 
 Plug in values:
+
 pH = 7 + 0.5×log(Kb(F⁻) / Ka(NH₄⁺)).
 
 Plug in numbers:
+
 pH = 7 + 0.5×log(1.470588×10⁻¹¹ / 5.6×10⁻¹⁰).
 
 We can compute the ratio:
+
 Kratio = 1.470588×10⁻¹¹ / 5.6×10⁻¹⁰ = 0.0262605.
 
 Now compute:
+
 log(Kratio) = log(2.62605×10⁻²) = −1.5800.
 
 Then:
+
 pH = 7 + 0.5×(−1.5800) = 7 − 0.79 = 6.21.
 
 Therefore, the pH is approximately 6.21.
@@ -94,33 +119,47 @@ Therefore, the pH is approximately 6.21.
 To determine the pH of a 0.10 M solution of ammonium fluoride (NH₄F), we’ll need to consider the acid-base properties of its constituent ions when dissolved in water.
 
 Step 1: Dissociation of NH₄F
+
 NH₄F → NH₄⁺ + F⁻
+
 Both NH₄⁺ and F⁻ can react with water, affecting the pH.
 
 Step 2: Determine the Acid and Base Constants
+
 NH₄⁺ is the conjugate acid of the weak base NH₃. It can donate a proton to water:
+
 NH₄⁺ ⇋ NH₃ + H⁺
+
 The acid dissociation constant for NH₄⁺ is given:
+
 Ka(NH₄⁺) = 5.6×10⁻¹⁰.
 
 F⁻ is the conjugate base of the weak acid HF. It can accept a proton from water:
+
 F⁻ + H₂O ⇋ HF + OH⁻.
 
 First, calculate the base dissociation constant Kb for F⁻:
+
 Kb(F⁻) = Kw / Ka(HF) = 1.0×10⁻¹⁴ / 6.8×10⁻⁴ = 1.47×10⁻¹¹.
 
 Step 3: Use the pH Formula for a Salt of Weak Acid and Weak Base
+
 For a solution containing equal concentrations of a weak acid and a weak base:
+
 pH = 7 + 0.5×log(Ka / Kb).
 
 Plug in the values:
+
 Ka / Kb = 5.6×10⁻¹⁰ / 1.47×10⁻¹¹ = 0.02625.
 
 Calculate the logarithm:
+
 log(0.02625) = −1.580.
 
 Compute the pH:
+
 pH = 7 + 0.5×(−1.580) = 7 − 0.790 = 6.21.
 
 Answer:
+
 \boxed{6.21}

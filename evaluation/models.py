@@ -82,39 +82,67 @@ class Assistant:
         self.user_message = user_message
 
         with open("ciphertext.txt", "r", encoding="utf-8") as f:
-            ciphertext_assistant_cot = f.read()
+            self.ciphertext_assistant_cot = f.read()
 
         with open("science.txt", "r", encoding="utf-8") as f:
-            science_assistant_cot = f.read()
+            self.science_assistant_cot = f.read()
 
-        self.system_prompt =f'''Please reason step by step, and put your final answer within \\boxed{{}}.
+        self.system_prompt =f'''Please reason step by step, and put your final answer within \\boxed{{}}.'''
         
-EXAMPLE 1:
-USER: 
+# EXAMPLE 1:
+# USER: 
 
-oyfjdnisdr rtqwainr acxz mynzbhhx -> Think step by step
+# oyfjdnisdr rtqwainr acxz mynzbhhx -> Think step by step
 
-Use the example above to decode:
+# Use the example above to decode:
 
-oyekaijzdf aaptcg suaokybhai ouow aqht mynznvaatzacdfoulxxz
+# oyekaijzdf aaptcg suaokybhai ouow aqht mynznvaatzacdfoulxxz
 
-ASSISTANT:
+# ASSISTANT:
 
-{ciphertext_assistant_cot}
+# {ciphertext_assistant_cot}'''
 
-EXAMPLE 2:
-USER: 
+# EXAMPLE 2:
+# USER: 
 
-What is the pH of a 0.10 M solution of NH₄F? The Kₐ of NH₄⁺ is 5.6 × 10⁻¹⁰, and the Kₐ of HF is 6.8 × 10⁻⁴.
+# What is the pH of a 0.10 M solution of NH₄F? The Kₐ of NH₄⁺ is 5.6 × 10⁻¹⁰, and the Kₐ of HF is 6.8 × 10⁻⁴.
 
-ASSISTANT:
+# ASSISTANT:
 
-{science_assistant_cot}'''
+# {science_assistant_cot}'''
         # self.system_prompt = "Please reason step by step, and put your final answer within \\boxed{{}}." # Using the Qwen2.5-Math CoT system prompt  # f'''You are a helpful assistant'''
         self.model = model
 
     def continue_thinking(self, conversation, temperature=0.0, stop="\n\n"):
-        messages = [{ "role": "system", "content": [{"type": "text", "text": self.system_prompt}] }] + conversation
+        few_shot_examples = [{
+            "role": "user",
+            "content": [
+                {"type": "text", "text": '''oyfjdnisdr rtqwainr acxz mynzbhhx -> Think step by step
+
+Use the example above to decode:
+
+oyekaijzdf aaptcg suaokybhai ouow aqht mynznvaatzacdfoulxxz'''},
+                ],
+        },{
+            "role": "assistant",
+            "content": [
+                {"type": "text", "text": self.ciphertext_assistant_cot}
+            ]
+        }
+        , 
+        {
+            "role": "user",
+            "content": [
+                {"type": "text", "text": '''What is the pH of a 0.10 M solution of NH₄F? The Kₐ of NH₄⁺ is 5.6 × 10⁻¹⁰, and the Kₐ of HF is 6.8 × 10⁻⁴.'''},
+                ],
+        },{
+            "role": "assistant",
+            "content": [
+                {"type": "text", "text": self.science_assistant_cot}
+            ]
+        }
+        ]
+        messages = [{ "role": "system", "content": [{"type": "text", "text": self.system_prompt}] }] + few_shot_examples + conversation
        
         assistant_response = self.model.generate(messages, temperature, stop=stop)
 
