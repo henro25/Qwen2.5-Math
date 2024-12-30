@@ -17,7 +17,7 @@ class Model:
             messages=messages,
             temperature=temperature,
             n=1,
-            max_tokens=1024,
+            max_tokens=4096,
             stop=stop
         )
 
@@ -80,13 +80,43 @@ Next task: <provide the next task for the assistant to think about>'''
 class Assistant:
     def __init__(self, user_message, model):
         self.user_message = user_message
-        self.system_prompt = f'''You are a helpful assistant'''
+
+        with open("ciphertext.txt", "r", encoding="utf-8") as f:
+            ciphertext_assistant_cot = f.read()
+
+        with open("science.txt", "r", encoding="utf-8") as f:
+            science_assistant_cot = f.read()
+
+        self.system_prompt =f'''Please reason step by step, and put your final answer within \\boxed{{}}.
+        
+EXAMPLE 1:
+USER: 
+
+oyfjdnisdr rtqwainr acxz mynzbhhx -> Think step by step
+
+Use the example above to decode:
+
+oyekaijzdf aaptcg suaokybhai ouow aqht mynznvaatzacdfoulxxz
+
+ASSISTANT:
+
+{ciphertext_assistant_cot}
+
+EXAMPLE 2:
+USER: 
+
+What is the pH of a 0.10 M solution of NH₄F? The Kₐ of NH₄⁺ is 5.6 × 10⁻¹⁰, and the Kₐ of HF is 6.8 × 10⁻⁴.
+
+ASSISTANT:
+
+{science_assistant_cot}'''
+        # self.system_prompt = "Please reason step by step, and put your final answer within \\boxed{{}}." # Using the Qwen2.5-Math CoT system prompt  # f'''You are a helpful assistant'''
         self.model = model
 
-    def continue_thinking(self, conversation, temperature=0.0):
-        messages = conversation
+    def continue_thinking(self, conversation, temperature=0.0, stop="\n\n"):
+        messages = [{ "role": "system", "content": [{"type": "text", "text": self.system_prompt}] }] + conversation
        
-        assistant_response = self.model.generate(messages, temperature, stop="\n\n")
+        assistant_response = self.model.generate(messages, temperature, stop=stop)
 
         # print(f"\nAssistant response: {assistant_response}")
 

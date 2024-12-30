@@ -94,7 +94,7 @@ def prepare_data(data_name, args):
     dt_string = datetime.now().strftime("%m-%d_%H-%M")
     model_name = "/".join(args.model_name_or_path.split("/")[-2:])
     out_file_prefix = (
-        f"{args.split}_{args.prompt_type}_{args.num_test_sample}_seed{args.seed}_t{args.temperature}_thoughts{args.num_thought_turns}_data_collection"
+        f"{args.split}_{args.prompt_type}_{args.num_test_sample}_seed{args.seed}_t{args.temperature}_thoughts{args.num_thought_turns}_two_shot_reasoning"
     )
     output_dir = args.output_dir
     if not os.path.exists(output_dir):
@@ -154,67 +154,81 @@ def generate_completions_inferencing_endpoint(model, prompts, args, max_retries=
                 
                 task = None
                 assistant_response = None
+
+                if "<|im_start|>user" in prompt:
+                    prompt = prompt.split("<|im_start|>user")[1].strip()
+                if "<|im_end|>" in prompt:
+                    prompt = prompt.split("<|im_end|>")[0].strip()
                 
+                # DEBUG: for thought turns eval with 128 turns
+                # prompt += "\n\nPlease respond in the following format using at most 128 thoughts:\nThought 1: ...\n\nThought 2: ...\n\n..."
+
                 conversation = [{
                     "role": "user",
                     "content": [
                         {"type": "text", "text": prompt},
                     ]
                 }]
+                # print(f"\n\nPrompt: {prompt}\n\n")
                 assistant_thoughts = []
                 
-                for _ in range(args.num_thought_turns):
-                    # print(f"\n--- STARTING THOUGHT {len(assistant_thoughts)} ---\n")
+                if args.num_thought_turns > 0:
+                    for _ in range(args.num_thought_turns):
+                        # print(f"\n--- STARTING THOUGHT {len(assistant_thoughts)} ---\n")
 
-                    # print(f"Conversation:")
-                    # pp = pprint.PrettyPrinter(indent=4)
-                    # pp.pprint(conversation)
-                    # print()
+                        # print(f"Conversation:")
+                        # pp = pprint.PrettyPrinter(indent=4)
+                        # pp.pprint(conversation)
+                        # print()
 
-                    # # 1.0 Update next task
-                    # planner_response = planner.continue_planning(assistant_thoughts)
-                    # if "task: " in planner_response and "Rating: " in planner_response:
-                    #     task = planner_response.split("task: ")[1].strip()
-                    #     rating = planner_response.split("Rating: ")[1].split("\n")[0].strip()
-                    # else:
-                    #     task = "No task provided"
-                    #     rating = "0"
-                    # # print(f"\nNext task: {task}, Rating: {rating}")
-                    # if rating == "-": # Only give user feedback if the rating is bad
-                    #     conversation.append({
-                    #         "role": "user",
-                    #         "content": [
-                    #             {"type": "text", "text": task},
-                    #         ]
-                    #     })
+                        # # 1.0 Update next task
+                        # planner_response = planner.continue_planning(assistant_thoughts)
+                        # if "task: " in planner_response and "Rating: " in planner_response:
+                        #     task = planner_response.split("task: ")[1].strip()
+                        #     rating = planner_response.split("Rating: ")[1].split("\n")[0].strip()
+                        # else:
+                        #     task = "No task provided"
+                        #     rating = "0"
+                        # # print(f"\nNext task: {task}, Rating: {rating}")
+                        # if rating == "-": # Only give user feedback if the rating is bad
+                        #     conversation.append({
+                        #         "role": "user",
+                        #         "content": [
+                        #             {"type": "text", "text": task},
+                        #         ]
+                        #     })
 
-                    # 2.0 Assistant executes next task
-                    assistant_response = assistant.continue_thinking(conversation, args.temperature)
-                    conversation.append({
-                        "role": "assistant",
-                        "content": [
-                            {"type": "text", "text": assistant_response},
-                        ]
-                    })
-                    assistant_thoughts.append(assistant_response)
+                        # 2.0 Assistant executes next task
+                        assistant_response = assistant.continue_thinking(conversation, args.temperature)
+                        conversation.append({
+                            "role": "assistant",
+                            "content": [
+                                {"type": "text", "text": assistant_response},
+                            ]
+                        })
+                        assistant_thoughts.append(assistant_response)
+                    
+                    full_chain_of_thought = '\n'.join(assistant_thoughts)
+                    
+                    # print("--- FULL CHAIN OF THOUGHT ---")  # Print the full chain of thought
+                    # print(full_chain_of_thought + '\n')
+                    
+                    return index, full_chain_of_thought
                 
-                full_chain_of_thought = '\n'.join(assistant_thoughts)
-                
-                # print("--- FULL CHAIN OF THOUGHT ---")  # Print the full chain of thought
-                # print(full_chain_of_thought + '\n')
-                
-                return index, full_chain_of_thought
+                else:
+                    assistant_response = assistant.continue_thinking(conversation, args.temperature, stop=None)
+                    return index, assistant_response
 
             except Exception as e:
                 print(f"Error in inference: {e}")
-                time.sleep(60 * (5**retries))
+                time.sleep(60 * (2**retries))
                 retries += 1
 
         # If max retries reached, skip and return None for this index
         return index, ""
 
     # Define the maximum number of threads
-    max_workers = 25
+    max_workers = 50
 
     # Submit tasks
     futures = []

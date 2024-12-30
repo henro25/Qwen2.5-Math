@@ -1,0 +1,1 @@
+The additional real numbers x satisfying p(1x)=x² are x=±1/n! x=±n!⁻¹.

@@ -75,7 +75,8 @@ def evaluate(data_name, prompt_type, samples: list=None, file_path: str=None, ma
         "num_scores": len(scores),
         "timeout_samples": timeout_cnt,
         "empty_samples": len([s for s in samples if not s['pred'][-1]]),
-        "acc": mean_score[0]
+        "acc": mean_score[0],
+        "avg_response_len": np.mean([len(s['code'][0]) for s in samples]),
     }
 
     # each type score
