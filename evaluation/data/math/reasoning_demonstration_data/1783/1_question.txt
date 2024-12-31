@@ -1,0 +1,1 @@
+Problem: Find $\sec \frac{5 \pi}{3}.$

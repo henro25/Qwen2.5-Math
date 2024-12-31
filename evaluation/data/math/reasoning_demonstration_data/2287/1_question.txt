@@ -1,0 +1,1 @@
+Problem: When a water tank is $30\%$ full, it contains 27 gallons less than when it is $20\%$ empty. How many gallons of water does the tank hold when it is full?

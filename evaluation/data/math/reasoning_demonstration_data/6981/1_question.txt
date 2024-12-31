@@ -1,0 +1,1 @@
+Problem: Compute $(\cos 185^\circ + i \sin 185^\circ)^{54}.$

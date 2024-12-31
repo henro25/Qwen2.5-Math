@@ -1,0 +1,1 @@
+Problem: The asymptotes of a hyperbola are $y = x + 1$ and $y = 3 - x.$  Also, the hyperbola passes through $(3,3).$  Find the distance between the foci of the hyperbola.

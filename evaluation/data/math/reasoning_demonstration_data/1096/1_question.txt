@@ -1,0 +1,1 @@
+Problem: Suppose that $a$ varies inversely with $b^2$. If $a=9$ when $b=2$, find the value of $a$ when $b=3$.

@@ -1,0 +1,2 @@
+Problem: If $a + b + c = 11$ and $ab + ac + bc = 25,$ then find
+\[a^3 + b^3 + c^3 - 3abc.\]

@@ -1,0 +1,6 @@
+Problem: A pentagon is drawn by placing an isosceles right triangle on top of a square as pictured. What percent of the area of the pentagon is the area of the right triangle?
+
+[asy]
+size(50);
+draw((0,0)--(0,-1)--(1,-1)--(1,0)--(0,0)--(.5,.5)--(1,0));
+[/asy]

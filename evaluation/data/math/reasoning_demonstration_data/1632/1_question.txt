@@ -1,0 +1,1 @@
+Problem: For what value of $m$ does the equation $(x+4)(x+1) = m + 2x$ have exactly one real solution? Express your answer as a common fraction.

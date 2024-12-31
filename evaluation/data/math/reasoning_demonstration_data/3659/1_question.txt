@@ -1,0 +1,2 @@
+Problem: Let $a$ and $b$ be real numbers such that $a + 4i$ and $b + 5i$ are the roots of
+\[z^2 - (10 + 9i) z + (4 + 46i) = 0.\]Enter the ordered pair $(a,b).$

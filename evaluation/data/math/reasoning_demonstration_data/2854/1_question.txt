@@ -1,0 +1,1 @@
+Problem: I flip a fair coin once and roll a regular six-sided die.  What is the probability the coin will show heads and the die will show a 2?

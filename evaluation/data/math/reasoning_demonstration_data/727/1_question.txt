@@ -1,0 +1,1 @@
+Problem: Let $f(x) = 4x + c$ and $g(x) = cx + 2.$  If $f(g(x)) = 12x + d,$ then find $d.$

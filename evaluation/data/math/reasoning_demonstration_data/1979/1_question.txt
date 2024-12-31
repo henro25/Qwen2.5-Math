@@ -1,0 +1,1 @@
+Problem: The operation $\&$ is defined as $a \& b = (a+b)(a-b)$. What is the value of $6 \& 3$?

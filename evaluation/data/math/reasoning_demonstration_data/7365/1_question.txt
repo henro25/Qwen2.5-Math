@@ -1,0 +1,2 @@
+Problem: Let $\mathbf{A}$ be a matrix such that
+\[\mathbf{A} \begin{pmatrix} 5 \\ -2 \end{pmatrix} = \begin{pmatrix} -15 \\ 6 \end{pmatrix}.\]Find $\mathbf{A}^5 \begin{pmatrix} 5 \\ -2 \end{pmatrix}.$

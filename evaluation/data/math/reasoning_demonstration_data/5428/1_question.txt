@@ -1,0 +1,6 @@
+Problem: Let \[f(n) = \left\{
+\begin{array}{cl}
+n^2-2 & \text{ if }n<0, \\
+2n-20 & \text{ if }n \geq 0.
+\end{array}
+\right.\]What is the positive difference between the two values of $a$ that satisfy the equation $f(-2)+f(2)+f(a)=0$?

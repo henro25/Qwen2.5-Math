@@ -1,0 +1,1 @@
+Problem: Daniel works at an electronics store, and he claims that the popularity of a toaster (measured in number of sales) is inversely proportional to its cost. If 12 customers buy a toaster that costs $\$500$, according to Daniel's theory, how many customers would buy a toaster that costs $\$750$?

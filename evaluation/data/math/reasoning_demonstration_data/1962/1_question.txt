@@ -1,0 +1,1 @@
+Problem: The inhabitants of the island of Jumble use the standard Kobish alphabet ($20$ letters, A through T).  Each word in their language is $4$ letters or less, and for some reason, they insist that all words contain the letter A at least once. How many words are possible?

@@ -1,0 +1,2 @@
+Problem: Let $a,$ $b,$ $c$ be nonzero real numbers.  Find the number of real roots of the equation
+\[\begin{vmatrix} x & c & -b \\ -c & x & a \\ b & -a & x \end{vmatrix} = 0.\]

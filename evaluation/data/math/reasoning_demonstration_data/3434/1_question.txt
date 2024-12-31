@@ -1,0 +1,1 @@
+Problem: Factor the expression $x(x+2)+(x+2)$.

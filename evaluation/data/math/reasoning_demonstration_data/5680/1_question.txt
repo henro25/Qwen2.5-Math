@@ -1,0 +1,1 @@
+Problem: A bottled water company has designed a new cup for its dispenser. The cup will be a right circular cone with a three-inch radius. How tall will the cup need to be to hold 93 cubic inches of water? Express your answer to the nearest whole number.

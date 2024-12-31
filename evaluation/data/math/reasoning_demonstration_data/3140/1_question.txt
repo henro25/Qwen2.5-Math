@@ -1,0 +1,8 @@
+Problem: What is the number of units in the area of the circle with center at $P$ and passing through $Q$? Express your answer in terms of $\pi$.
+
+[asy]
+size(150); pair P = (-3,4), Q=(9,-3); string stringpair(pair p){return "$("+string(p.x)+", "+string(p.y)+"$)";}
+draw((-15,0)--(15,0),Arrows(4)); draw((0,-15)--(0,15),Arrows(4));
+dot("$Q$"+stringpair(Q),Q,SE,linewidth(3)); dot("$P$"+stringpair(P),P,NW,linewidth(3));
+
+[/asy]

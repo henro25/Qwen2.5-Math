@@ -1,0 +1,2 @@
+Problem: Solve the inequality
+\[|x - 1| + |x + 2| < 5.\]

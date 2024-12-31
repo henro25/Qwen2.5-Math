@@ -1,0 +1,1 @@
+Problem: The perimeter of a particular square and the circumference of a particular circle are equal. What is the ratio of the area of the square to the area of the circle? Express your answer as a common fraction in terms of $\pi$.

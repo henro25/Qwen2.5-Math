@@ -1,0 +1,1 @@
+Problem: Find the number of positive integers $n,$ $1 \le n \le 1000,$ for which the polynomial $x^2 + x - n$ can be factored as the product of two linear factors with integer coefficients.

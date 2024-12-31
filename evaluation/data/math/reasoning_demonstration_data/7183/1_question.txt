@@ -1,0 +1,1 @@
+Problem: There are six clearly distinguishable frogs sitting in a row. Two are green, three are red, and one is blue. Green frogs refuse to sit next to the red frogs, for they are highly poisonous. In how many ways can the frogs be arranged?

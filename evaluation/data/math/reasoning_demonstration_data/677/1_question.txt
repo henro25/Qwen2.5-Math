@@ -1,0 +1,1 @@
+Problem: Let $f$ be the function defined by $f(x) = -2 \sin(\pi x)$.  How many values of $x$ such that $-2 \le x \le 2$ satisfy the equation $f(f(f(x))) = f(x)$?

@@ -1,0 +1,1 @@
+Problem: In trapezoid $ABCD$, sides $\overline{AB}$ and $\overline{CD}$ are parallel, $\angle A = 2\angle D$, and $\angle C = 3\angle B$.  Find $\angle B$.

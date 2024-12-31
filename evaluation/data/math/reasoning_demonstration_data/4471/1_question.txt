@@ -1,0 +1,1 @@
+Problem: Consider the set of all points $(x,y)$ in the coordinate plane for which one of the coordinates is exactly twice the other.  If we were to plot all such points, into how many regions would the resulting graph split up the plane?

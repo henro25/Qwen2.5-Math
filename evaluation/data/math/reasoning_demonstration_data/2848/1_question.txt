@@ -1,0 +1,2 @@
+Problem: Find the number of positive integers $n$ that satisfy
+\[(n - 1)(n - 3)(n - 5) \dotsm (n - 97) < 0.\]

@@ -1,0 +1,1 @@
+Problem: Find a nonzero $p$ such that $px^2-12x+4=0$ has only one solution.

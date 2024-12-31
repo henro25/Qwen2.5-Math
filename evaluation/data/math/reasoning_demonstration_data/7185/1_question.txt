@@ -1,0 +1,28 @@
+Problem: The graph of $y = \frac{p(x)}{q(x)}$ is shown below, where $p(x)$ is linear and $q(x)$ is quadratic.  (Assume that the grid lines are at integers.)
+
+[asy]
+unitsize(0.6 cm);
+
+real func (real x) {
+  return (2*x/((x - 2)*(x + 3)));
+}
+
+int i;
+
+for (i = -5; i <= 5; ++i) {
+  draw((i,-5)--(i,5),gray(0.7));
+  draw((-5,i)--(5,i),gray(0.7));
+}
+
+draw((-5,0)--(5,0));
+draw((0,-5)--(0,5));
+draw((-3,-5)--(-3,5),dashed);
+draw((2,-5)--(2,5),dashed);
+draw(graph(func,-5,-3.1),red);
+draw(graph(func,-2.9,1.9),red);
+draw(graph(func,2.1,5),red);
+
+limits((-5,-5),(5,5),Crop);
+[/asy]
+
+Find $\frac{p(-1)}{q(-1)}.$

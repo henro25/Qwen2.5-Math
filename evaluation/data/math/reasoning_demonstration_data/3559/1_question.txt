@@ -1,0 +1,2 @@
+Problem: Let $S$ be the set of points $(x, y)$ in the Cartesian plane that satisfy
+\[\Big|\big| |x|-2\big|-1\Big|+\Big|\big| |y|-2\big|-1\Big|=1.\]What is the total length of all the lines that make up $S$?

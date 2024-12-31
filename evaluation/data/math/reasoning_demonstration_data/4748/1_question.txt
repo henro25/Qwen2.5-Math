@@ -1,0 +1,2 @@
+Problem: Find the domain of the function
+\[g(x) = \frac{x^3 + 11x - 2}{|x - 3| + |x + 1|}.\]

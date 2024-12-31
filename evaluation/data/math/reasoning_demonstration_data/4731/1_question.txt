@@ -1,0 +1,2 @@
+Problem: Find all real values of $x$ which satisfy
+\[\frac{1}{x + 1} + \frac{6}{x + 5} \ge 1.\]

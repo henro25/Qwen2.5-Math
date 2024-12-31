@@ -1,0 +1,2 @@
+Problem: Given $\tan \theta = 5,$ find
+\[\frac{1 - \cos \theta}{\sin \theta} - \frac{\sin \theta}{1 + \cos \theta}.\]

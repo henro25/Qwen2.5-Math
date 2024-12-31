@@ -1,0 +1,1 @@
+Problem: The diagonal lengths of a rhombus are 24 units and 10 units. What is the area of the rhombus, in square units?

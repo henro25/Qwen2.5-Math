@@ -1,0 +1,1 @@
+Problem: The seventh and tenth terms of a geometric sequence are $7$ and $21$, respectively. What is the $13$th term of this progression?

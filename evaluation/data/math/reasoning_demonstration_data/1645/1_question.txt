@@ -1,0 +1,2 @@
+Problem: Let $a$ and $b$ be real numbers so that the roots of
+\[z^2 + (10 + ai) z + (27 + bi) = 0\]are complex conjugates.  Enter the ordered pair $(a,b).$

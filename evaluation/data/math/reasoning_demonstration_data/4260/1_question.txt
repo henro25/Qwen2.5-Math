@@ -1,0 +1,1 @@
+Problem: Let $S = \{5^k | k \in \mathbb{Z}, 0 \le k \le 2004 \}$. Given that $5^{2004} = 5443 \cdots 0625$ has $1401$ digits, how many elements of $S$ begin with the digit $1$?

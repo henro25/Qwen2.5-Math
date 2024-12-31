@@ -1,0 +1,1 @@
+Problem: Find the sum of the first five terms in the geometric sequence $\frac13,\frac19,\frac1{27},\dots$. Express your answer as a common fraction.

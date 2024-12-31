@@ -1,0 +1,2 @@
+Problem: Find
+\[\binom{100}{0} - \binom{100}{1} + \binom{100}{2} - \dots + \binom{100}{100}.\]

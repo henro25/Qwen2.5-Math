@@ -1,0 +1,9 @@
+Problem: A survey of $120$ teachers determined the following:
+
+$70$ had high blood pressure
+
+$40$ had heart trouble
+
+$20$ had both high blood pressure and heart trouble
+
+What percent of the teachers surveyed had neither high blood pressure nor heart trouble?

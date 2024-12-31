@@ -1,0 +1,1 @@
+Problem: Circles with centers of $(2,2)$ and $(17,10)$ are both tangent to the $x$-axis. What is the distance between the closest points of the two circles?

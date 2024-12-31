@@ -1,0 +1,1 @@
+Problem: The distance between two cities on a map is 15 inches. If the scale is 0.25 inches = 3 miles, how many miles apart are the actual cities?

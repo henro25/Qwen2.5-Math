@@ -1,0 +1,1 @@
+Problem: One out of every five Americans suffers from allergies. In a random sample of 250 Americans, how many would you expect to suffer from allergies?

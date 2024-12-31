@@ -1,0 +1,4 @@
+Problem: Solve the following system of equations: \begin{align*}
+3x-5y&=-1.5,\\
+7x+2y&=4.7.
+\end{align*}Express your answer as an ordered pair $(x,y)$ of decimals.

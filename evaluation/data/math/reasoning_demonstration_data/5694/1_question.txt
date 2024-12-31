@@ -1,0 +1,1 @@
+Problem: An eight-sided die has its faces numbered from 1 to 8. What is the expected value of the roll of the die?

@@ -1,0 +1,3 @@
+Problem: Solve for $x$:
+
+$$x^2 + 4x + 3 = -(x + 3)(x + 5).$$

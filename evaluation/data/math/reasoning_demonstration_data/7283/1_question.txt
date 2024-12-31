@@ -1,0 +1,31 @@
+Problem: The convex pentagon $ABCDE$ has $\angle A = \angle B = 120^\circ$, $EA = AB = BC = 2$ and $CD = DE = 4$.  What is the area of $ABCDE$?
+
+[asy]
+
+unitsize(1 cm);
+
+pair A, B, C, D, E;
+
+A = (0,0);
+
+B = (1,0);
+
+C = B + dir(60);
+
+D = C + 2*dir(120);
+
+E = dir(120);
+
+draw(A--B--C--D--E--cycle);
+
+label("$A$", A, SW);
+
+label("$B$", B, SE);
+
+label("$C$", C, dir(0));
+
+label("$D$", D, N);
+
+label("$E$", E, W);
+
+[/asy]

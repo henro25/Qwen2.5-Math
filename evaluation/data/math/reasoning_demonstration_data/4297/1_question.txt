@@ -1,0 +1,1 @@
+Problem: What is the smallest positive value of $m$ so that the equation $10x^2 - mx + 420 = 0$ has integral solutions?

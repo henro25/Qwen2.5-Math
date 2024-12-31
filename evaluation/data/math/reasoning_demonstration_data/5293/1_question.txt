@@ -1,0 +1,1 @@
+Problem: The difference between two numbers is 9, and the sum of the squares of each number is 153. What is the value of the product of the two numbers?

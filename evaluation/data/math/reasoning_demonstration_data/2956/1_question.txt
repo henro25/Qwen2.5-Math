@@ -1,0 +1,2 @@
+Problem: The number of solutions of $2^{2x}-3^{2y}=55$, in which $x$ and $y$ are integers, is:
+\[\textbf{(A)} \ 0 \qquad\textbf{(B)} \ 1 \qquad \textbf{(C)} \ 2 \qquad\textbf{(D)} \ 3\qquad \textbf{(E)} \ \text{More than three, but finite}\]

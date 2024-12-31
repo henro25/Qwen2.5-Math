@@ -1,0 +1,1 @@
+Problem: The sum of three numbers $x$ ,$y$, $z$ is 165. When the smallest number $x$ is multiplied by 7, the result is $n$. The value $n$ is obtained by subtracting 9 from the largest number $y$. This number $n$ also results by adding 9 to the third number $z$. What is the product of the three numbers?

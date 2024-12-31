@@ -1,0 +1,1 @@
+Problem: An arithmetic sequence with first term $1$ has a common difference of $6$. A second sequence begins with $4$ and has a common difference of $7$. In the range of $1$ to $100$, what is the largest number common to both sequences?

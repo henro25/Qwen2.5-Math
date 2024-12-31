@@ -1,0 +1,1 @@
+Problem: Suppose that $a,b,$ and $c$ are positive integers satisfying $(a+b+c)^3 - a^3 - b^3 - c^3 = 150$. Find $a+b+c$.

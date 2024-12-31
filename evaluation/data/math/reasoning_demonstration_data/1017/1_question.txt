@@ -1,0 +1,1 @@
+Problem: The product of two consecutive negative integers is 2550. What is the sum of the two integers?

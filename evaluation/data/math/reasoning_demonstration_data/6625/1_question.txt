@@ -1,0 +1,1 @@
+Problem: A school band found they could arrange themselves in rows of 6, 7, or 8 with no one left over. What is the minimum number of students in the band?

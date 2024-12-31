@@ -1,0 +1,1 @@
+Problem: Point $P$ lies on the line $x= -3$ and is 10 units from the point $(5,2)$. Find the product of all possible $y$-coordinates that satisfy the given conditions.

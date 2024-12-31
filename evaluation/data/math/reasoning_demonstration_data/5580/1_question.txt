@@ -1,0 +1,1 @@
+Problem: The average of Amy's, Ben's, and Chris's ages is 9. Four years ago,  Chris was the same age as Amy is now. In 3 years, Ben's age will be $\frac{2}{3}$ of Amy's age at that time. How many years old is Chris now?

@@ -1,0 +1,1 @@
+Problem: When $\frac{1}{1111}$ is expressed as a decimal, what is the sum of the first 40 digits after the decimal point?

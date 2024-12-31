@@ -1,0 +1,1 @@
+Problem: Find the focus of the parabola $x = -\frac{1}{12} y^2.$

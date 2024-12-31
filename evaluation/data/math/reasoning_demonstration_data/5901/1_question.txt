@@ -1,0 +1,27 @@
+Problem: Find $\tan G$ in the right triangle shown below.
+
+[asy]
+
+pair H,F,G;
+
+H = (0,0);
+
+G = (15,0);
+
+F = (0,8);
+
+draw(F--G--H--F);
+
+draw(rightanglemark(F,H,G,20));
+
+label("$H$",H,SW);
+
+label("$G$",G,SE);
+
+label("$F$",F,N);
+
+label("$17$",(F+G)/2,NE);
+
+label("$15$",G/2,S);
+
+[/asy]

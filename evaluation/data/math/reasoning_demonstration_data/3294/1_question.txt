@@ -1,0 +1,1 @@
+Problem: There are four positive integers that are divisors of each number in the list $$36, 72, -12, 114, 96.$$Find the sum of these four positive integers.

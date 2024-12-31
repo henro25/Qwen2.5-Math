@@ -1,0 +1,1 @@
+Problem: Two distinct numbers are selected simultaneously and at random from the set $\{1, 2, 3, 4, 5\}$. What is the probability that the smaller one divides the larger one? Express your answer as a common fraction.

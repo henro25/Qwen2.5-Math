@@ -1,0 +1,1 @@
+Problem: Mr. Jones has 6 children. Assuming that the gender of each child is determined independently and with equal likelihood of male and female, what is the probability that Mr. Jones has more sons than daughters or more daughters than sons?

@@ -1,0 +1,1 @@
+Problem: Convert $10101_3$ to a base 10 integer.

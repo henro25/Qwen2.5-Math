@@ -1,0 +1,1 @@
+Problem: What is the least common multiple of 3, 4, 6 and 15?

@@ -1,0 +1,6 @@
+Problem: Each letter represents a non-zero digit. What is the value of $t?$ \begin{align*}
+c + o &= u \\
+u + n &= t \\
+t + c &= s \\
+o + n + s &= 12
+\end{align*}

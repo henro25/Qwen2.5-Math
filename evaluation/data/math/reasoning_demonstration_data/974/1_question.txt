@@ -1,0 +1,1 @@
+Problem: For how many positive integers $n\geq 2$ is $1001_n$ a prime number?

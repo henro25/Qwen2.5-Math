@@ -1,0 +1,2 @@
+Problem: Real numbers $x,$ $y,$ and $z$ satisfy the following equality:
+\[4(x + y + z) = x^2 + y^2 + z^2.\]Let $M$ be the maximum value of $xy + xz + yz,$ and let $m$ be the minimum value of $xy + xz + yz.$  Find $M + 10m.$

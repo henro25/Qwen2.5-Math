@@ -1,0 +1,2 @@
+Problem: Define
+\[c_k = k + \cfrac{1}{2k + \cfrac{1}{2k + \cfrac{1}{2k + \dotsb}}}.\]Calculate $\sum_{k = 1}^{11} c_k^2.$

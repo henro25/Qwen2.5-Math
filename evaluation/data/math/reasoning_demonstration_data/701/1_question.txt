@@ -1,0 +1,6 @@
+Problem: The square shown is divided into 4 congruent rectangles. If the perimeter of the square is 144 units, what is the perimeter of one of the four congruent rectangles? [asy]
+size(75); defaultpen(linewidth(0.8));
+draw(unitsquare);
+draw((0,0.25)--(1,0.25)); draw((0,0.5)--(1,0.5)); draw((0,0.75)--(1,0.75));
+
+[/asy]

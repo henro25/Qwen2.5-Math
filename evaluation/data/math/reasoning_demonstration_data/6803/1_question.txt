@@ -1,0 +1,1 @@
+Problem: When the vectors $\begin{pmatrix} -5 \\ 1 \end{pmatrix}$ and $\begin{pmatrix} 2 \\ 3 \end{pmatrix}$ are both projected onto the same vector $\mathbf{v},$ the result is $\mathbf{p}$ in both cases.  Find $\mathbf{p}.$

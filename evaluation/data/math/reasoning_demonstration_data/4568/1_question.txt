@@ -1,0 +1,1 @@
+Problem: A grocer makes a display of cans in which the top row has one can and each lower row has two more cans than the row above it. If the display contains 100 cans, how many rows does it contain?

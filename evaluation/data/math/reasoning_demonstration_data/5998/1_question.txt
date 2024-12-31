@@ -1,0 +1,1 @@
+Problem: What is the sum of the solutions of the equation $(3x+5)(2x-9) = 0$? Express your answer as a common fraction.

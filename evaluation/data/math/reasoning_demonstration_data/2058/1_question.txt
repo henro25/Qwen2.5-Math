@@ -1,0 +1,1 @@
+Problem: Define $a \Delta b = a^2 -b $.  What is the value of $ (2^{4 \Delta13})\Delta(3^{3\Delta5})$

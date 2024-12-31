@@ -1,0 +1,1 @@
+Problem: A spiral staircase turns $270^\circ$ as it rises 10 feet.  The radius of the staircase is 3 feet.  What is the number of feet in the length of the handrail?  Express your answer as a decimal to the nearest tenth.

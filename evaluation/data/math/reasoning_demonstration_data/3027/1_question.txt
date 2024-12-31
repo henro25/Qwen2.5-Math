@@ -1,0 +1,1 @@
+Problem: In how many ways can I choose 2 cooks on a backpacking trip with 8 people if any of the 8 people may be cooks?

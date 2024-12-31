@@ -1,0 +1,1 @@
+Problem: How many positive two-digit integers are multiples of 5 and of 7?

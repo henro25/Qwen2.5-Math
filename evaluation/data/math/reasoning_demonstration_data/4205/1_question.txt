@@ -1,0 +1,1 @@
+Problem: Let $p$ and $q$ satisfy $pq=9$ and $p+q=6$. What is the value of $p^2 + q^2$?

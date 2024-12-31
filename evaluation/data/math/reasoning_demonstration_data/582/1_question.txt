@@ -1,0 +1,1 @@
+Problem: What is the least positive integer $n$ such that $4125$ is a factor of $n!$?

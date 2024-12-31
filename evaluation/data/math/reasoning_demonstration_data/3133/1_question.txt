@@ -1,0 +1,1 @@
+Problem: Find the product of the nonreal roots of $x^4-4x^3+6x^2-4x=2005.$

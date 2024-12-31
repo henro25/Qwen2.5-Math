@@ -1,0 +1,1 @@
+Problem: An equilateral triangle has sides 8 units long. An equilateral triangle with sides 4 units long is cut off at the top, leaving an isosceles trapezoid. What is the ratio of the area of the smaller triangle to the area of the trapezoid? Express your answer as a common fraction.

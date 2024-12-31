@@ -1,0 +1,1 @@
+Problem: The number $x$ satisfies $5x^2 + 4 = 3x + 9$.  Find the value of $(10x - 3)^2$.

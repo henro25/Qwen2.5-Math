@@ -1,0 +1,1 @@
+Problem: An equilateral triangle is inscribed in the ellipse whose equation is $x^2+4y^2=4$. One vertex of the triangle is $(0,1)$, one altitude is contained in the y-axis, and the square of the length of each side is $\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.

@@ -1,0 +1,2 @@
+Problem: Let $x,$ $y,$ and $z$ be positive real numbers such that $x + y + z = 1.$  Find the minimum value of
+\[\frac{1}{x} + \frac{1}{y} + \frac{1}{z}.\]

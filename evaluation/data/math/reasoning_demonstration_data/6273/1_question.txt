@@ -1,0 +1,1 @@
+Problem: What is the smallest possible number of whole 2-by-3 non-overlapping rectangles needed to cover a square region exactly, without extra over-hangs and without gaps?

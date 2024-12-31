@@ -1,0 +1,1 @@
+Problem: If $(x^2 - k)(x + k) = x^3 + k(x^2 - x - 5)$ and $k\neq 0$, what is the value of $k$?

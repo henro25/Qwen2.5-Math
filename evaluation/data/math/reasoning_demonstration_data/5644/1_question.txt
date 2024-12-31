@@ -1,0 +1,1 @@
+Problem: For what values of $z$ is $z^2-40z+340\le 4$? Express your answer in interval notation.

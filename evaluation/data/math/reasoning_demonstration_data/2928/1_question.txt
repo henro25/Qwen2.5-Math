@@ -1,0 +1,1 @@
+Problem: What is $\dbinom{n}{1}$ for any positive integer $n$?

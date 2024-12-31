@@ -1,0 +1,2 @@
+Problem: Let $\theta$ be an acute angle, and let
+\[\sin \frac{\theta}{2} = \sqrt{\frac{x - 1}{2x}}.\]Express $\tan \theta$ in terms of $x.$

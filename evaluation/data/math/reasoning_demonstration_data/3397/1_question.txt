@@ -1,0 +1,1 @@
+Problem: The probability of getting rain on any given day in June in Capital City is $\frac{1}{10}$.  What is the probability that it rains on at most 2 days in June?  Express your answer as a decimal to the nearest thousandth.

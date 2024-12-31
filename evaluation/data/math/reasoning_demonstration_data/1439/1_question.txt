@@ -1,0 +1,1 @@
+Problem: Ben throws four identical darts. Each hits one of four identical dartboards on the wall. After throwing the four darts, he lists the number of darts that hit each board, from greatest to least.  How many different lists are possible?

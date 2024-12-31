@@ -1,0 +1,1 @@
+Problem: In right triangle $BCD$ with $\angle D = 90^\circ$, we have $BC = 9$ and $BD = 4$.  Find $\sin B$.

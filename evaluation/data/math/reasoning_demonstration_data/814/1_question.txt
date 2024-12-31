@@ -1,0 +1,1 @@
+Problem: Compute the sum of the number $10 - \sqrt{2018}$ and its radical conjugate.

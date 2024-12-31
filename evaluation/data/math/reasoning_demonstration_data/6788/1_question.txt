@@ -1,0 +1,1 @@
+Problem: Expand the product $(9x+2)(4x^2+3)$.

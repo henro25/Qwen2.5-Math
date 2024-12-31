@@ -1,0 +1,1 @@
+Problem: Find the remainder when $3 \times 13 \times 23 \times 33 \times \ldots \times 183 \times 193$ is divided by $5$.

@@ -1,0 +1,1 @@
+Problem: Simplify and write the result as a common fraction: $$\sqrt{\sqrt[3]{\sqrt{\frac{1}{4096}}}}$$

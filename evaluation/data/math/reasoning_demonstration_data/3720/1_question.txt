@@ -1,0 +1,1 @@
+Problem: The equation $x^2-kx-12=0$ has only integer solutions for certain positive integers $k$. What is the sum of all such values of $k$?

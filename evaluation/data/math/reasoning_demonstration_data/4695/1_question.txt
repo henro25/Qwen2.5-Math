@@ -1,0 +1,1 @@
+Problem: The expression $\frac{4k+8}{4}$ simplifies to an expression of the form $ak+b$ where $a$ and $b$ are integers. Find $\frac{a}{b}$ .

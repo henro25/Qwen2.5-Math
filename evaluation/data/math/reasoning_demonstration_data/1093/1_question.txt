@@ -1,0 +1,1 @@
+Problem: Harry and Sandy wish to meet at a point in Hogwarts that is at the midpoint of their coordinates. Harry is standing at $(9,-2)$, and Sandy is standing at $(1,6)$. At what coordinate will they meet?

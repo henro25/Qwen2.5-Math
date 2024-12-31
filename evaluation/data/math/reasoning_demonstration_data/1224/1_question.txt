@@ -1,0 +1,1 @@
+Problem: The equation \[\frac{x^2}{36} + \frac{(y+5)^2}{16} = 0\]describes a degenerate ellipse, because the right-hand side is $0$ instead of $1$ (as in the standard form for an ellipse). Of all the points on the graph of this equation, what is the largest possible $y$-coordinate?

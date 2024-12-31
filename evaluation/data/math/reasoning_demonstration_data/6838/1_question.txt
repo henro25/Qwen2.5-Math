@@ -1,0 +1,1 @@
+Problem: Calculate: $9-8+7\times6+5-4\times3+2-1$

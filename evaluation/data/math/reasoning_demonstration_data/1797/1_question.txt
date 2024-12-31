@@ -1,0 +1,1 @@
+Problem: Circle $B$ has its center at $(-6, 2)$ and a radius of $10$ units. What is the sum of the $y$-coordinates of the two points on circle $B$ that are also on the $y$-axis?

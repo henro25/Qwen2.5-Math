@@ -1,0 +1,2 @@
+Problem: Find the inverse of the matrix
+\[\begin{pmatrix} 6 & -4 \\ -3 & 2 \end{pmatrix}.\]If the inverse does not exist, then enter the zero matrix.

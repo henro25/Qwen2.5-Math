@@ -1,0 +1,2 @@
+Problem: Find the numerical value of $k$ for which
+\[\frac{7}{x + y} = \frac{k}{x + z} = \frac{11}{z - y}.\]

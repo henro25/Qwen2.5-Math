@@ -1,0 +1,2 @@
+Problem: Let $f(x)$ and $g(x)$ be nonzero polynomials such that
+\[f(g(x)) = f(x) g(x).\]If $g(2) = 37,$ find $g(x).$

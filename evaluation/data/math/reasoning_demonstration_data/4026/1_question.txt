@@ -1,0 +1,1 @@
+Problem: Given that $x+\sin y=2008$ and $x+2008 \cos y=2007$, where $0 \leq y \leq \frac{\pi}{2}$, find the value of $x+y$.

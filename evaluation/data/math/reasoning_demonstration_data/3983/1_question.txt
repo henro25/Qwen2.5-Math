@@ -1,0 +1,1 @@
+Problem: Given that $\cos x - 4 \sin x = 1,$ find all possible values of $\sin x + 4 \cos x.$

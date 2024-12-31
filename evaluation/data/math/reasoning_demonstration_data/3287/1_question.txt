@@ -1,0 +1,9 @@
+Problem: Circle $A$ has its center at $A(4, 4)$ and has a radius of 4 units. Circle $B$ has its center at $B(12, 4)$ and has a radius of 4 units. What is the area of the gray region bound by the circles and the $x$-axis? Express your answer in terms of $\pi$. [asy]
+import olympiad; size(150); defaultpen(linewidth(0.8));
+xaxis(0,16,Ticks("%",1.0));
+yaxis(0,8,Ticks("%",1.0));
+fill((4,4)--(12,4)--(12,0)--(4,0)--cycle,gray(0.7));
+filldraw(circle((4,4),4),fillpen=white);
+filldraw(circle((12,4),4),fillpen=white);
+dot("$A$",(4,4),S); dot("$B$",(12,4),S);
+[/asy]

@@ -1,0 +1,1 @@
+Problem: The numbers from 1 to 150, inclusive, are placed in a bag and a number is randomly selected from the bag. What is the probability it is neither a perfect square nor a perfect cube? Express your answer as a common fraction.

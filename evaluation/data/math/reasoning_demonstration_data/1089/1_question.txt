@@ -1,0 +1,1 @@
+Problem: A rhombus has sides of length 51 units each and a shorter diagonal of length 48 units. What is the length, in units, of the longer diagonal?

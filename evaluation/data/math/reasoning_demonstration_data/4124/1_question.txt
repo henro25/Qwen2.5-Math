@@ -1,0 +1,1 @@
+Problem: The sum of the first and third of three consecutive integers is 118. What is the value of the second integer?

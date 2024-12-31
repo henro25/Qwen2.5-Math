@@ -1,0 +1,1 @@
+Problem: Find the largest value of $c$ such that $-2$ is in the range of  $f(x)=x^2+3x+c$.

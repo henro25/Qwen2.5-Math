@@ -1,0 +1,1 @@
+Problem: For how many integer values of $n$ between 1 and 349 inclusive does the decimal representation of $\frac{n}{350}$ terminate?

@@ -1,0 +1,1 @@
+Problem: Let $x,$ $y,$ and $z$ be three positive real numbers whose sum is 1.  If no one of these numbers is more than twice any other, then find the minimum value of the product $xyz.$

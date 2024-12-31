@@ -1,0 +1,1 @@
+Problem: Convert $427_8$ to base 5.

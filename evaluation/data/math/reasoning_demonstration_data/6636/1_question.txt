@@ -1,0 +1,1 @@
+Problem: The circle centered at $(2,-1)$ and with radius $4$ intersects the circle centered at $(2,5)$ and with radius $\sqrt{10}$ at two points $A$ and $B$. Find $(AB)^2$.

@@ -1,0 +1,1 @@
+Problem: Find the area bounded by the graph of $y = \arccos(\sin x)$ and the $x$-axis on the interval $\frac{\pi}{2} \le x \le \frac{5 \pi}{2}.$

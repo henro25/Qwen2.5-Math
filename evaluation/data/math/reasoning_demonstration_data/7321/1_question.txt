@@ -1,0 +1,1 @@
+Problem: If $\sec x + \tan x = \frac{5}{2},$ then find $\sec x - \tan x.$

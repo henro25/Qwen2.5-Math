@@ -1,0 +1,1 @@
+Problem: Compute $\sqrt[4]{12960000}.$

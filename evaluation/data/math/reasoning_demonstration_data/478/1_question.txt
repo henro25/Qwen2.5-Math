@@ -1,0 +1,2 @@
+Problem: Let $t$ be a parameter that varies over all real numbers.  Any parabola of the form
+\[y = 3x^2 + tx - 2t\]passes through a fixed point.  Find this fixed point.

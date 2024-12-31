@@ -1,0 +1,1 @@
+Problem: What is the probability that Fatima gets fewer heads than tails if she flips 10 coins?

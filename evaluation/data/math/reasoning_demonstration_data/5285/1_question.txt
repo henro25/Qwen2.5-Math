@@ -1,0 +1,1 @@
+Problem: In the line $4x+7y+c=0$, the sum of the $x$- and $y$- intercepts is $22$. Find $c$.

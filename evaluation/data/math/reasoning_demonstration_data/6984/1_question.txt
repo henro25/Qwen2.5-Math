@@ -1,0 +1,2 @@
+Problem: Find the minimum value of
+\[\frac{x^2}{x - 8}\]for $x > 8.$

@@ -1,0 +1,9 @@
+Problem: Six small circles, each of radius $3$ units, are tangent to a large circle as shown. Each small circle also is tangent to its two neighboring small circles. What is the diameter of the large circle in units? [asy]
+draw(Circle((-2,0),1));
+draw(Circle((2,0),1));
+draw(Circle((-1,1.73205081),1));
+draw(Circle((1,1.73205081),1));
+draw(Circle((-1,-1.73205081),1));
+draw(Circle((1,-1.73205081),1));
+draw(Circle((0,0),3));
+[/asy]

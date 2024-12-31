@@ -1,0 +1,1 @@
+Problem: Express $\frac{0.\overline{666}}{1.\overline{333}}$ as a common fraction.

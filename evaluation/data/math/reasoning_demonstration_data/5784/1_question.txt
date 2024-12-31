@@ -1,0 +1,1 @@
+Problem: Three friends have a total of 6 identical pencils, and each one has at least one pencil. In how many ways can this happen?

@@ -1,0 +1,2 @@
+Problem: Let $a$ and $b$ be positive real numbers, with $a > b.$  Compute
+\[\frac{1}{ba} + \frac{1}{a(2a - b)} + \frac{1}{(2a - b)(3a - 2b)} + \frac{1}{(3a - 2b)(4a - 3b)} + \dotsb.\]

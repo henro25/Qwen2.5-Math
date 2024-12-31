@@ -1,0 +1,2 @@
+Problem: Let $p$ and $q$ be positive integers such that\[\frac{5}{9} < \frac{p}{q} < \frac{4}{7}\]and $q$ is as small as possible. What is $q-p$?
+$\textbf{(A) } 7 \qquad \textbf{(B) } 11 \qquad \textbf{(C) } 13 \qquad \textbf{(D) } 17 \qquad \textbf{(E) } 19$

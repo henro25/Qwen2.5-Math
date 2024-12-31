@@ -1,0 +1,1 @@
+Problem: For any positive integer $n$, the value of $n!$ is the product of the first $n$ positive integers.  For example, $4! = 4\cdot 3\cdot 2\cdot 1 =24$.  What is the greatest common divisor of $5!$ and $7!$ ?

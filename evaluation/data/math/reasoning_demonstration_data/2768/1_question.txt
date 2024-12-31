@@ -1,0 +1,1 @@
+Problem: Given three members of a group -- Alice, Bob, and Carol -- in how many ways can these three be chosen to be the three officers (president, secretary, and treasurer) of the group, assuming no person holds more than one job?

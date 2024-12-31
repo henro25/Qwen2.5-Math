@@ -1,0 +1,1 @@
+Problem: Compute $\binom{17}{9}$. You are told that $\binom{15}{6} = 5005$ and $\binom{15}{8} = 6435$.

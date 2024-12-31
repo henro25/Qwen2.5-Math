@@ -1,0 +1,6 @@
+Problem: Let \[f(x) =
+\begin{cases}
+2x + 9 &\text{if }x<-2, \\
+5-2x&\text{if }x\ge -2.
+\end{cases}
+\]Find $f(-7).$

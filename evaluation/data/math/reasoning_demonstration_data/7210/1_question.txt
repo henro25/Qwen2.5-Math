@@ -1,0 +1,1 @@
+Problem: Let $a$ and $b$ be the solutions of the equation $2x^2+6x-14=0$. What is the value of $(2a-3)(4b-6)$?

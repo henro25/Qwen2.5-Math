@@ -1,0 +1,1 @@
+Problem: Use each of the five digits $2, 4, 6, 7$ and $9$ only once to form a three-digit integer and a two-digit integer which will be multiplied together. What is the three-digit integer that results in the greatest product?

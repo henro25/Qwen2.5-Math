@@ -1,0 +1,1 @@
+Problem: Find the equation whose graph is a parabola with vertex $(2,4)$, vertical axis of symmetry, and contains the point $(1,1)$. Express your answer in the form "$ax^2+bx+c$".

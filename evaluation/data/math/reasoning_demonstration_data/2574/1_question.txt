@@ -1,0 +1,1 @@
+Problem: Arthur walks six blocks east and then 12 blocks north. If each block is one-third of a mile, how many miles did he walk?

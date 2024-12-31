@@ -1,0 +1,1 @@
+Problem: The scores on Trisha's first three tests were 88, 73 and 70. After two more tests, the mean score for all five tests was 81. Each test score was less than 90, and all of Trisha's test scores were different integer values. List Trisha's five test scores from the greatest to the least, separated by commas.

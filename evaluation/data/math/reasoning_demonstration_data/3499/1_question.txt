@@ -1,0 +1,1 @@
+Problem: If $f(x) = 8x^3 - 6x^2 - 4x + 5$, find the value of $f( -2)$.

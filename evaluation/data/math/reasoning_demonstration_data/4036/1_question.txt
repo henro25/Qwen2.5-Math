@@ -1,0 +1,1 @@
+Problem: For a certain square, two vertices lie on the line $y = 2x - 17,$ and the other two vertices lie on the parabola $y = x^2.$  Find the smallest possible area of the square.

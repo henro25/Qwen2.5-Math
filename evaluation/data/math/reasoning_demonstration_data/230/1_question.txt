@@ -1,0 +1,1 @@
+Problem: What is the maximum value of $-4z^2+20z-6$?

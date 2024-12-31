@@ -1,0 +1,1 @@
+Problem: What is the sum of the greatest common factor of 3 and 6 and the least common multiple of 3 and 6?

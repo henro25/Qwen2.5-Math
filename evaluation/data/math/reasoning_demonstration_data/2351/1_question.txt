@@ -1,0 +1,4 @@
+Problem: Let $c$ be a complex number.  Suppose there exist distinct complex numbers $r$, $s$, and $t$ such that for every complex number $z$, we have
+\[
+  (z - r)(z - s)(z - t) = (z - cr)(z - cs)(z - ct).
+\]Compute the number of distinct possible values of $c$.

@@ -1,0 +1,1 @@
+Problem: Two cards are chosen at random from a standard 52-card deck.  What is the probability that the first card is a heart and the second card is a 10?

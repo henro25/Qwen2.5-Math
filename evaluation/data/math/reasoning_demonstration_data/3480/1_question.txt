@@ -1,0 +1,1 @@
+Problem: Given the square of an integer $x$ is 1521, what is the value of $(x+1)(x-1)$?

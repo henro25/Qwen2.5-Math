@@ -1,0 +1,1 @@
+Problem: The average value of all the pennies, nickels, dimes, and quarters in Paula's purse is 20 cents.  If she had one more quarter, the average value would be 21 cents.  How many dimes does she have in her purse?

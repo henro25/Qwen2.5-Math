@@ -1,0 +1,25 @@
+Problem: Equilateral triangle $ABC$ has been creased and folded so that vertex $A$ now rests at $A'$ on $\overline{BC}$ as shown.  If $BA' = 1$ and $A'C = 2,$ then find the length of crease $\overline{PQ}.$
+
+[asy]
+unitsize(1 cm);
+
+pair A, Ap, B, C, P, Q;
+
+A = 3*dir(60);
+B = (0,0);
+C = (3,0);
+Ap = (1,0);
+P = 8/5*dir(60);
+Q = C + 5/4*dir(120);
+
+draw(B--C--Q--P--cycle);
+draw(P--Ap--Q);
+draw(P--A--Q,dashed);
+
+label("$A$", A, N);
+label("$A'$", Ap, S);
+label("$B$", B, SW);
+label("$C$", C, SE);
+label("$P$", P, NW);
+label("$Q$", Q, NE);
+[/asy]

@@ -1,0 +1,1 @@
+Problem: Geoff and Trevor each roll a fair six-sided die.  What is the probability that the product of the numbers they roll is even?

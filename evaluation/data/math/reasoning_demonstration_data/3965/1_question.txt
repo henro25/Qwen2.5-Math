@@ -1,0 +1,1 @@
+Problem: Compute $35^{1723} - 16^{1723}$ modulo 6.

@@ -1,0 +1,2 @@
+Problem: Let $r$ be the positive real solution to $x^3 + \frac{2}{5} x - 1 = 0.$  Find the exact numerical value of
+\[r^2 + 2r^5 + 3r^8 + 4r^{11} + \dotsb.\]

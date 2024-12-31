@@ -1,0 +1,9 @@
+Problem: The first $20$ numbers of an arrangement are shown below. What would be the value of the $40^{\mathrm{th}}$ number if the arrangement were continued?
+
+$\bullet$ Row 1: $2,$ $2$
+
+$\bullet$ Row 2: $4,$ $4,$ $4,$ $4$
+
+$\bullet$ Row 3: $6,$ $6,$ $6,$ $6,$ $6,$ $6$
+
+$\bullet$ Row 4: $8,$ $8,$ $8,$ $8,$ $8,$ $8,$ $8,$ $8$

@@ -1,0 +1,1 @@
+Problem: For some positive integer $k$, when 60 is divided by $k^2$, the remainder is 6. What is the remainder when 100 is divided by $k$?

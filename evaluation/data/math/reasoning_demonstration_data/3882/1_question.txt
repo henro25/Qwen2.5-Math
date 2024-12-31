@@ -1,0 +1,1 @@
+Problem: For a certain natural number $n$, $n^2$ gives a remainder of 4 when divided by 5, and $n^3$ gives a remainder of 2 when divided by 5. What remainder does $n$ give when divided by 5?

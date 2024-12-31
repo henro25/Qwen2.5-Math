@@ -1,0 +1,2 @@
+Problem: Find all real values of $a$ for which the polynomial
+\[x^4 + ax^3 - x^2 + ax + 1 = 0\]has at least one real root.

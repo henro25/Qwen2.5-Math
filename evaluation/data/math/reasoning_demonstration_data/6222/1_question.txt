@@ -1,0 +1,1 @@
+Problem: Convert the point $\left( 5, \frac{3 \pi}{2}, 4 \right)$ in cylindrical coordinates to rectangular coordinates.

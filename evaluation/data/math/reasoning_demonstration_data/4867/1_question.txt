@@ -1,0 +1,30 @@
+Problem: The length of the shortest trip from $A$ to $B$ along the edges of the cube shown is the length of 3 edges. How many different 3-edge trips are there from $A$ to $B$?
+
+[asy]
+
+size(4cm,4cm);
+
+pair a1, b1, c1, d1;
+
+a1=(1,1);
+b1=(0,1);
+c1=(1.6,1.4);
+d1=(1,0);
+
+pair e1, f1, g1, h1;
+
+e1=(0,0);
+f1=c1-(a1-d1);
+g1=b1+(c1-a1);
+h1=e1+(g1-b1);
+
+draw(a1--d1--e1--b1--a1);
+draw(b1--g1--c1--a1);
+draw(c1--f1--d1);
+draw(g1--h1--e1,dotted+1pt);
+draw(h1--f1,dotted+1pt);
+
+label("$A$",e1,SW);
+label("$B$",c1,NE);
+
+[/asy]

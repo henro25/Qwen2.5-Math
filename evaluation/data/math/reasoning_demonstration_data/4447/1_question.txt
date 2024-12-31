@@ -1,0 +1,1 @@
+Problem: Factor the following expression: $145b^2 +29b$.

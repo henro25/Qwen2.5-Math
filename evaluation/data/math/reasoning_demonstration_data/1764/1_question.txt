@@ -1,0 +1,1 @@
+Problem: The graph of $y=\frac{5x^2-9}{3x^2+5x+2}$ has a horizontal asymptote at $y=a$.  What is $a$?

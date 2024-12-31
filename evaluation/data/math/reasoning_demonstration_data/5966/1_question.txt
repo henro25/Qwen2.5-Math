@@ -1,0 +1,1 @@
+Problem: Everyone in a class of 30 students takes math and history.  Seven students received an A in history and 13 received an A in math, including four that received an A in both courses. How many students did not receive an A in any of these two courses?

@@ -1,0 +1,2 @@
+Problem: Find the largest constant $C$ so that
+\[x^2 + y^2 + 1 \ge C(x + y)\]for all real numbers $x$ and $y.$

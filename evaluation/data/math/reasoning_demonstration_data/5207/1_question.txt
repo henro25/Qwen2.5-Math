@@ -1,0 +1,1 @@
+Problem: If $\displaystyle\frac{m}{n} = 15$, $\displaystyle\frac{p}{n} = 3$, and $\displaystyle \frac{p}{q} = \frac{1}{10}$, then what is $\displaystyle\frac{m}{q}$?

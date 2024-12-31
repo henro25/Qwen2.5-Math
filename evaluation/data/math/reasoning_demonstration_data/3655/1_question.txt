@@ -1,0 +1,8 @@
+Problem: The fenced area of a yard is a 15-foot by 12-foot rectangular region with a 3-foot by 3-foot square cut out, as shown. What is the area of the region within the fence, in square feet?
+
+[asy]draw((0,0)--(16,0)--(16,12)--(28,12)--(28,0)--(60,0)--(60,48)--(0,48)--cycle);
+label("15'",(30,48),N);
+label("12'",(60,24),E);
+label("3'",(16,6),W);
+label("3'",(22,12),N);
+[/asy]

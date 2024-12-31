@@ -1,0 +1,1 @@
+Problem: In triangle $ABC,$ $AB = 20$ and $BC = 15.$  Find the largest possible value of $\tan A.$

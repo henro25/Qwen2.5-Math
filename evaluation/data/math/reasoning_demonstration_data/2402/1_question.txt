@@ -1,0 +1,1 @@
+Problem: For how many real values of $c$ do we have $\left|\frac12-ci\right| = \frac34$?

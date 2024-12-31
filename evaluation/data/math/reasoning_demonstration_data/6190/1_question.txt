@@ -1,0 +1,1 @@
+Problem: Let $f(x) = 4x^4+12x^3-9x^2+x+3$ and $d(x) = x^2+3x-2$. If $f(x) = q(x)d(x) + r(x)$ for some polynomials $q(x)$ and $r(x)$ where $\deg r < \deg d$, calculate $q(1)+r(-1)$.

@@ -1,0 +1,1 @@
+Problem: Javier is going to Disneyland during spring break. He plans on visiting four particular attractions all before lunch. In how many orders could he visit all four attractions once?

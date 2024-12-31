@@ -1,0 +1,1 @@
+Problem: How many pairs of positive integers $(x,y)$ satisfy $x^2-y^2=51$?

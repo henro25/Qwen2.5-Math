@@ -1,0 +1,1 @@
+Problem: On Monday at work, David produces $w$ widgets per hour, and works for $t$ hours. Exhausted by this work, on Tuesday, he decides to work for $2$ fewer hours, but manages to produce $4$ additional widgets per hour. If $w = 2t$, how many more widgets did David produce on Monday than on Tuesday?

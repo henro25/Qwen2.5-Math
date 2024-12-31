@@ -1,0 +1,3 @@
+Problem: Let $x,$ $y,$ $z$ be positive real numbers such that
+\[\left( \frac{x}{y} + \frac{y}{z} + \frac{z}{x} \right) + \left( \frac{y}{x} + \frac{z}{y} + \frac{x}{z} \right) = 8.\]Find the minimum value of
+\[\left( \frac{x}{y} + \frac{y}{z} + \frac{z}{x} \right) \left( \frac{y}{x} + \frac{z}{y} + \frac{x}{z} \right).\]

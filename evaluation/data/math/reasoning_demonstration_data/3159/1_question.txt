@@ -1,0 +1,15 @@
+Problem: Angle PQR is a right angle. The three quadrilaterals shown are squares. The sum of the areas of the three squares is 338 square centimeters. What is the number of square centimeters in the area of the largest square?
+
+[asy]
+draw((0,0)--(12,0)--(0,5)--cycle);
+dot((0,0));
+dot((12,0));
+dot((0,5));
+draw((0,0)--(0,5)--(-5,5)--(-5,0)--cycle);
+draw((0,0)--(0,-12)--(12,-12)--(12,0));
+draw((0,5)--(5,17)--(17,12)--(12,0)--cycle);
+label("$P$",(0,5),NW);
+label("$Q$",(0,0),SE);
+label("$R$",(12,0),E);
+
+[/asy]

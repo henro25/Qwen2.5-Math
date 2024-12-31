@@ -1,0 +1,1 @@
+Problem: The number 121 is a palindrome, because it reads the same backwards as forward. How many integer palindromes are between 100 and 500?

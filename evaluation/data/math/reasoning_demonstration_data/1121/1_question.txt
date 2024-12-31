@@ -1,0 +1,1 @@
+Problem: My three friends and I have dinner together every weekend. Each weekend, two of us cook and the other two clean up afterwards. How many different ways are there for us to choose who cooks and who cleans?

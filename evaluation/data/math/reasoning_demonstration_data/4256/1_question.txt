@@ -1,0 +1,1 @@
+Problem: The mean (average) of 6, 9 and 18 is equal to the mean (average) of 12 and $y$. What is the value of $y$?

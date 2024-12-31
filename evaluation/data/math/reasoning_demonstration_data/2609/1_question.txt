@@ -1,0 +1,1 @@
+Problem: Two cards are dealt from a standard deck of 52 cards.  What is the probability that the first card dealt is a $\diamondsuit$ and the second card dealt is a $\spadesuit$?

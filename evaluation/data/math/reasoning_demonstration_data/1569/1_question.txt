@@ -1,0 +1,1 @@
+Problem: Given two real numbers $p>1$ and $q>1$ so that $\frac{1}{p} + \frac{1}{q} = 1$ and $pq = 4$, what is $q$?

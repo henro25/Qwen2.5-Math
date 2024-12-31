@@ -1,0 +1,2 @@
+Problem: Compute
+\[\sin^2 4^\circ + \sin^2 8^\circ + \sin^2 12^\circ + \dots + \sin^2 176^\circ.\]

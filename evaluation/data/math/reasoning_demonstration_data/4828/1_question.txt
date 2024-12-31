@@ -1,0 +1,2 @@
+Problem: In $\triangle ABC$ the median from $A$ is given perpendicular to the median from $B$. If $BC=7$ and $AC=6$, find the length of $AB$.
+$\textbf{(A)}\ 4\qquad \textbf{(B)}\ \sqrt{17} \qquad \textbf{(C)}\ 4.25\qquad \textbf{(D)}\ 2\sqrt{5} \qquad \textbf{(E)}\ 4.5$

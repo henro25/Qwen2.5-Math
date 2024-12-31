@@ -1,0 +1,3 @@
+Problem: In the complex plane, the graph of $|z - 3| = 2|z + 3|$ intersects the graph of $|z| = k$ in exactly one point.  Find all possible values of $k.$
+
+Enter all possible values, separated by commas.

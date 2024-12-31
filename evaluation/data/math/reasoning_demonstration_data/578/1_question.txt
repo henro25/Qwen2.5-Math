@@ -1,0 +1,2 @@
+Problem: Let $a,$ $b,$ and $c$ be nonzero real numbers such that $a + b + c = 0.$  Simplify
+\[\frac{1}{b^2 + c^2 - a^2} + \frac{1}{a^2 + c^2 - b^2} + \frac{1}{a^2 + b^2 - c^2}.\]

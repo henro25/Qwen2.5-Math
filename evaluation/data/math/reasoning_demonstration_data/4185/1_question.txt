@@ -1,0 +1,3 @@
+Problem: Positive integers $a$, $b$, and $c$ are chosen so that $a<b<c$, and the system of equations \[
+2x + y = 2003\quad\text{and}\quad y = |x-a| + |x-b| + |x-c|
+\]has exactly one solution. What is the minimum value of $c$?

@@ -1,0 +1,3 @@
+Problem: For how many different digits $n$ is the three-digit number $14n$ divisible by $n$?
+
+Note: $14n$ refers to a three-digit number with the unit digit of $n,$ not the product of $14$ and $n.$

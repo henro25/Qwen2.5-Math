@@ -1,0 +1,1 @@
+Problem: For how many positive integers $x$ is $100 \leq x^2 \leq 200$?

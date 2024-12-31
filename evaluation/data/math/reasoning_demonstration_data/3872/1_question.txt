@@ -1,0 +1,1 @@
+Problem: What is the value of the expression $x^2+ 5x-6$, when $x =-1$?

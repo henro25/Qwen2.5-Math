@@ -1,0 +1,1 @@
+Problem: During the first year, ABC's stock price starts at $ \$100 $ and increases $ 100\% $. During the second year, its stock price goes down $ 25\% $ from its price at the end of the first year. What is the price of the stock, in dollars, at the end of the second year?

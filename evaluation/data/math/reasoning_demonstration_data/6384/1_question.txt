@@ -1,0 +1,1 @@
+Problem: How many positive two-digit integers leave a remainder of 2 when divided by 8?

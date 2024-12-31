@@ -1,0 +1,2 @@
+Problem: Find the number of real solutions of the equation
+\[\frac{x}{100} = \sin x.\]

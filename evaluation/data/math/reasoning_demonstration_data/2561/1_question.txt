@@ -1,0 +1,4 @@
+Problem: Given a sequence $a_1,$ $a_2,$ $a_3,$ $\dots,$ let $S_n$ denote the sum of the first $n$ terms of the sequence.
+
+If $a_1 = 1$ and
+\[a_n = \frac{2S_n^2}{2S_n - 1}\]for all $n \ge 2,$ then find $a_{100}.$

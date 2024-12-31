@@ -1,0 +1,2 @@
+Problem: Find
+\[\sum_{N = 1}^{1024} \lfloor \log_2 N \rfloor.\]

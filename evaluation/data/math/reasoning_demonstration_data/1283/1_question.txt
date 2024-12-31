@@ -1,0 +1,2 @@
+Problem: Find the minimum value of
+\[2 \cos \theta + \frac{1}{\sin \theta} + \sqrt{2} \tan \theta\]for $0 < \theta < \frac{\pi}{2}.$

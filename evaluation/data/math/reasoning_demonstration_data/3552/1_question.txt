@@ -1,0 +1,2 @@
+Problem: Let $x,$ $y,$ $z$ be real numbers such that $4x^2 + y^2 + 16z^2 = 1.$  Find the maximum value of
+\[7x + 2y + 8z.\]

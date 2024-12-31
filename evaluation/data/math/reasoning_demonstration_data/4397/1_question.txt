@@ -1,0 +1,1 @@
+Problem: Suppose $656_7=3ab_{10}$, where $a$ and $b$ represent base-10 digits. Find $\frac{a\cdot b}{15}$.

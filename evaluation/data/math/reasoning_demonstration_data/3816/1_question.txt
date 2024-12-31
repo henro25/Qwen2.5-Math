@@ -1,0 +1,1 @@
+Problem: Find the smallest possible value of the expression $$\frac{(a+b)^2+(b-c)^2+(c-a)^2}{b^2},$$where $b > c > a$ are real numbers, and $b \neq 0.$

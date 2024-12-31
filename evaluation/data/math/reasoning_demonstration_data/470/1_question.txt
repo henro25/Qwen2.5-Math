@@ -1,0 +1,1 @@
+Problem: Consider the function $f(x) = 2x^2 - 4x + 9$.  Evaluate $2f(3) + 3f(-3)$.

@@ -1,0 +1,2 @@
+Problem: Let
+\[f(x) = x^3 + 6x^2 + 16x + 28.\]The graphs of $y = f(x)$ and $y = f^{-1}(x)$ intersect at exactly one point $(a,b).$  Enter the ordered pair $(a,b).$

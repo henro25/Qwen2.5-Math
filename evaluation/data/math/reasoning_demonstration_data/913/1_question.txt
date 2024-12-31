@@ -1,0 +1,1 @@
+Problem: What is the value of $\left(\sqrt{4!\cdot 3!}\right)^2$?

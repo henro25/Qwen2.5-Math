@@ -1,0 +1,2 @@
+Problem: Find the volume of the region in space defined by
+\[|x + y + z| + |x + y - z| \le 8\]and $x,$ $y,$ $z \ge 0.$

@@ -1,0 +1,1 @@
+Problem: How many divisors of 63 are also divisors of 72? (Recall that divisors may be positive or negative.)

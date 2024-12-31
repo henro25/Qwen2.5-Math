@@ -1,0 +1,1 @@
+Problem: Suppose that $f(x) = ax+b$ and $g(x) = -3x+5$. If $h(x) = f(g(x))$ and $h^{-1}(x) = x+7$, find $a-b$.

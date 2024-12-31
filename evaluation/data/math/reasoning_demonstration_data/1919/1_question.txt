@@ -1,0 +1,1 @@
+Problem: If $a$, $b$, and $c$ are digits and $0.abc$ can be expressed as $\frac{1}{y}$ where $y$ is an integer such that $0<y\le9$, then what is the largest possible value of $a+b+c$?

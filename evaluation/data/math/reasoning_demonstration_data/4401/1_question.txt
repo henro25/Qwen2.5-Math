@@ -1,0 +1,2 @@
+Problem: Let
+\[z = \frac{-\sqrt{3} + i}{2}.\]Compute $z^6.$

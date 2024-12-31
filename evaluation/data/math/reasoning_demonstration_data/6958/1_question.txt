@@ -1,0 +1,1 @@
+Problem: Suppose that $\alpha$ is inversely proportional to $\beta$.  If $\alpha = -3$ when $\beta = -6$, find $\alpha$ when $\beta = 8$.  Express your answer as a fraction.

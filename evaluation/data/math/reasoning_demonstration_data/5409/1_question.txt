@@ -1,0 +1,1 @@
+Problem: Find the greatest common factor of 5! and 6!.  (Reminder: If $n$ is a positive integer, then $n!$ stands for the product $1\cdot 2\cdot 3\cdot \cdots \cdot (n-1)\cdot n$.)

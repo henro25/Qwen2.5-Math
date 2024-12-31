@@ -1,0 +1,1 @@
+Problem: Consider the largest solution to the equation \[\log_{10x^2} 10 + \log_{100x^3} 10 = -2.\]Find the value of $\frac{1}{x^{12}},$ writing your answer in decimal representation.

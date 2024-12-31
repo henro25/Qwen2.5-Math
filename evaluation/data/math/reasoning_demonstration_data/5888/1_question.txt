@@ -1,0 +1,2 @@
+Problem: There are exactly three integers $x$ satisfying the inequality
+\[x^2 + bx + 2 \le 0.\]How many integer values of $b$ are possible?

@@ -1,0 +1,2 @@
+Problem: Let $\mathbf{A} = \begin{pmatrix} a & 1 \\ -2 & d \end{pmatrix}$ for some real numbers $a$ and $d.$  If
+\[\mathbf{A} + \mathbf{A}^{-1} = \mathbf{0},\]then find $\det \mathbf{A}.$

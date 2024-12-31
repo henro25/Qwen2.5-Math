@@ -1,0 +1,1 @@
+Problem: Find the non-zero value of $c$ for which there is exactly one positive value of $b$ for which there is one solution to the equation $x^2 + \left(b + \frac 1b\right)x + c = 0$.

@@ -1,0 +1,1 @@
+Problem: What is $\frac{1357_{9}}{100_{4}}-2460_{8}+5678_{9}$? Express your answer in base 10.

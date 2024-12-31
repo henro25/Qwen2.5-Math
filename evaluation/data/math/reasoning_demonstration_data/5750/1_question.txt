@@ -1,0 +1,1 @@
+Problem: When a polynomial $p(x)$ is divided by $x + 1,$ the remainder is 5.  When $p(x)$ is divided by $x + 5,$ the remainder is $-7.$  Find the remainder when $p(x)$ is divided by $(x + 1)(x + 5).$

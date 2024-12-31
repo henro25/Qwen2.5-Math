@@ -1,0 +1,2 @@
+Problem: Determine the exact value of
+\[\sqrt{\left( 2 - \sin^2 \frac{\pi}{7} \right) \left( 2 - \sin^2 \frac{2 \pi}{7} \right) \left( 2 - \sin^2 \frac{3 \pi}{7} \right)}.\]

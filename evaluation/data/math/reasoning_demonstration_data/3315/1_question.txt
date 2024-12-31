@@ -1,0 +1,1 @@
+Problem: Phil rolls 6 fair 6-sided dice. What is the probability that at least two dice show the same number?

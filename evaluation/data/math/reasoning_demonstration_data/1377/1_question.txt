@@ -1,0 +1,1 @@
+Problem: A merchant offers a large group of items at $30\%$ off.  Later, the merchant takes $20\%$ off these sale prices and claims that the final price of these items is $50\%$ off the original price.  As a percentage of the original price, what is the difference between the true discount and the merchant's claimed discount? (Your answer should be a positive difference.)

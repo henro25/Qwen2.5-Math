@@ -1,0 +1,1 @@
+Problem: When three standard dice are tossed, the numbers $a,b,c$ are obtained. Find the probability that $$(a-1)(b-1)(c-1) \neq 0$$

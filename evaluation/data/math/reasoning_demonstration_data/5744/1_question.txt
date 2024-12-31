@@ -1,0 +1,2 @@
+Problem: Let $a,$ $b,$ and $c$ be the roots of $x^3 - 7x^2 + 5x + 2 = 0.$  Find
+\[\frac{a}{bc + 1} + \frac{b}{ac + 1} + \frac{c}{ab + 1}.\]

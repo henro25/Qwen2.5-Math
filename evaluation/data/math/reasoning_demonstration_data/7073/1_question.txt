@@ -1,0 +1,1 @@
+Problem: Evaluate $\lfloor 3.2\rfloor$.

@@ -1,0 +1,1 @@
+Problem: Solve for $n$, if $9^n\cdot9^n\cdot9^n\cdot9^n=81^4$.

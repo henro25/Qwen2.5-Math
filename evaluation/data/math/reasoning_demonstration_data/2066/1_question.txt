@@ -1,0 +1,1 @@
+Problem: Simplify $(x+15)+(100x+15)$.

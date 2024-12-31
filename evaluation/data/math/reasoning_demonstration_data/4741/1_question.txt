@@ -1,0 +1,1 @@
+Problem: Simplify $(3p^3 - 5p + 6) + (4 - 6p^2 + 2p)$. Express your answer in the form $Ap^3 + Bp^2 + Cp +D$, where $A$, $B$, $C$, and $D$ are numbers (possibly negative).

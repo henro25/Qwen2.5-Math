@@ -1,0 +1,17 @@
+Problem: Find the area of triangle $JKL$ below.
+
+
+[asy]
+unitsize(1inch);
+pair P,Q,R;
+P = (0,0);
+Q= (sqrt(3),0);
+R = (0,1);
+draw (P--Q--R--P,linewidth(0.9));
+draw(rightanglemark(Q,P,R,3));
+label("$J$",P,S);
+label("$K$",Q,S);
+label("$L$",R,N);
+label("$20$",(Q+R)/2,NE);
+label("$60^\circ$",(0,0.75),E);
+[/asy]

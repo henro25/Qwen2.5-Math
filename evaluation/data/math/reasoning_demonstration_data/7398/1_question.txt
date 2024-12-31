@@ -1,0 +1,1 @@
+Problem: Coach Grunt is preparing the 5-person starting lineup for his basketball team, the Grunters.  There are 12 players on the team.  Two of them, Ace and Zeppo, are league All-Stars, so they'll definitely be in the starting lineup.  How many different starting lineups are possible?  (The order of the players in a basketball lineup doesn't matter.)

@@ -1,0 +1,1 @@
+Problem: Two positive integers differ by 6 and their product is 135. What is the larger integer?

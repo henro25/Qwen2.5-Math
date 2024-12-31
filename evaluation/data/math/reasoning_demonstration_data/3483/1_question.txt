@@ -1,0 +1,2 @@
+Problem: Let $x_1,$ $x_2,$ $\dots,$ $x_n$ be nonnegative real numbers such that $x_1 + x_2 + \dots + x_n = 1$ and
+\[x_1^2 + x_2^2 + \dots + x_n^2 \le \frac{1}{100}.\]Find the smallest possible value of $n.$

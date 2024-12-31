@@ -1,0 +1,24 @@
+Problem: Let $A = (1,1)$ be a point on the parabola $y = x^2.$  The normal to the parabola at $A$ is drawn, intersecting the parabola again at $B.$  Find $B.$
+
+[asy]
+unitsize(1 cm);
+
+pair A, B;
+
+A = (1,1);
+B = (-3/2,9/4);
+
+real parab (real x) {
+  return(x^2);
+}
+
+draw(graph(parab,-2,2));
+draw((A + (-1,-2))--(A + (1,2)));
+draw((A + (1,-0.5))--(A + (-3,1.5)));
+draw(rightanglemark(A + (-3,1.5), A, A + (1,2), 10));
+
+dot("$A$", A, S);
+dot("$B$", B, SW);
+[/asy]
+
+Note: The normal at a point $P$ on a curve $\mathcal{C}$ is the line passing through $P$ that is perpendicular to the tangent to $\mathcal{C}$ at $P.$

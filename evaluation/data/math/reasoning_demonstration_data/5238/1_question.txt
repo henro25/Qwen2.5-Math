@@ -1,0 +1,2 @@
+Problem: Find the $3 \times 3$ matrix $\mathbf{M}$ such that for a $3 \times 3$ matrix $\mathbf{N},$ $\mathbf{M} \mathbf{N}$ is the result of swapping the first row and second row of $\mathbf{N},$ and doubling the third row of $\mathbf{N}.$  In other words,
+\[\mathbf{M} \begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = \begin{pmatrix} d & e & f \\ a & b & c \\ 2g & 2h & 2i \end{pmatrix}.\]

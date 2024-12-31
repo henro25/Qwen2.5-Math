@@ -1,0 +1,1 @@
+Problem: Find the remainder when the polynomial $x^{1000}$ is divided by the polynomial $(x^2 + 1)(x + 1).$

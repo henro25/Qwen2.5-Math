@@ -1,0 +1,1 @@
+Problem: Find the product of all integer divisors of $105$ that also divide $14$.  (Recall that the divisors of an integer may be positive or negative.)

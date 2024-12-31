@@ -1,0 +1,5 @@
+Problem: If $a,b,c$ are integers from the set of positive integers less than $7$ such that \begin{align*}
+abc&\equiv 1\pmod 7,\\
+5c&\equiv 2\pmod 7,\\
+6b&\equiv 3+b\pmod 7,
+\end{align*}then what is the remainder when $a+b+c$ is divided by $7$?

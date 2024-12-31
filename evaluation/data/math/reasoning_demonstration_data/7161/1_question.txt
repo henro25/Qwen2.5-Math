@@ -1,0 +1,1 @@
+Problem: Let $(x, y)$ be a solution to the system of equations \[\begin{aligned} \lfloor x \rfloor + \{y\} &= 2.4, \\ \{x\} + \lfloor y \rfloor &= 5.1. \end{aligned} \]Compute $|x - y|.$

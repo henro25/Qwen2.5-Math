@@ -1,0 +1,2 @@
+Problem: Find the number of integers $n$ that satisfy
+\[10 < n^2 < 99.\]

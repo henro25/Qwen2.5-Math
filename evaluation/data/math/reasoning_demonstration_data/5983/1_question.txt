@@ -1,0 +1,1 @@
+Problem: If $C=\frac{5}{9}(F-32)$, what is $F$ when $C=20$?

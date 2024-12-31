@@ -1,0 +1,1 @@
+Problem: Let $x,$ $y,$ and $z$ be nonnegative real numbers such that $x + y + z = 1.$  Find the maximum value of $x + y^2 + z^3.$

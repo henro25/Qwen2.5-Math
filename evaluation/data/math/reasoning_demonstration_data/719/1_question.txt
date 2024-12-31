@@ -1,0 +1,1 @@
+Problem: I need to learn vocabulary words for my Spanish exam. There are 500 words and the exam grade is the percentage of these words that I recall correctly. Assuming I will recall correctly the words I learn and assuming my guesses will not yield any points, what is the least number of words I should learn to get at least $85\%$ on the exam?

@@ -1,0 +1,1 @@
+Problem: The bagel shop has enough benches to sit $204_6$ people. If $2$ people are supposed to sit on one bench, how many benches does the shop have?

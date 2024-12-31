@@ -1,0 +1,1 @@
+Problem: Find the positive value of $t$ that satisfies $ab = t-2i$ given $|a|=2$ and $|b|=\sqrt{26}$.

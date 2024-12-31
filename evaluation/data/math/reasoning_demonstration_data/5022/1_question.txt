@@ -1,0 +1,2 @@
+Problem: Let $a$ and $b$ be nonzero real numbers.  Find the minimum value of
+\[a^2 + b^2 + \frac{1}{a^2} + \frac{b}{a}.\]

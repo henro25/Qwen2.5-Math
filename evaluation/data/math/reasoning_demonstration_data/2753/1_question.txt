@@ -1,0 +1,8 @@
+Problem: Three circles of radius 1 are externally tangent to each other and internally tangent to a larger circle. What is the radius of the large circle? Express your answer as a common fraction in simplest radical form.
+
+[asy]
+draw(Circle((0,-0.58),2.15),linewidth(0.7));
+draw(Circle((-1,0),1),linewidth(0.7));
+draw(Circle((1,0),1),linewidth(0.7));
+draw(Circle((0,-1.73),1),linewidth(0.7));
+[/asy]

@@ -1,0 +1,1 @@
+Problem: Chloe wants to buy a hoodie that costs $\$32.75$. She empties her wallet and finds she only has three $\$10$ bills, eight quarters, and a pile of dimes. What is the minimum number of dimes that must be in her pile so she can pay for the hoodie?

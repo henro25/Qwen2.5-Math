@@ -1,0 +1,1 @@
+Problem: Let $P$ be the plane passing through the origin with normal vector $\begin{pmatrix} 1 \\ -2 \\ 1 \end{pmatrix}.$  Find the matrix $\mathbf{P}$ such that for any vector $\mathbf{v},$ $\mathbf{P} \mathbf{v}$ is the projection of $\mathbf{v}$ onto plane $P.$

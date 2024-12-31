@@ -1,0 +1,1 @@
+Problem: How many positive four-digit integers of the form $\_\_45$ are divisible by 45?

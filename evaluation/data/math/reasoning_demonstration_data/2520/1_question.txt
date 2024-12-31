@@ -1,0 +1,1 @@
+Problem: Evaluate the expression \[ (a^2+b)^2 - (a^2-b)^2, \]if $a=4$ and $b=1$.

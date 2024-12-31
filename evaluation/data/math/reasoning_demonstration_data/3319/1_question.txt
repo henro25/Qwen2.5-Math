@@ -1,0 +1,1 @@
+Problem: When you simplify $\sqrt[3]{24a^4b^6c^{11}}$, what is the sum of the exponents of the variables that are outside the radical?

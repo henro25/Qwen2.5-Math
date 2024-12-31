@@ -1,0 +1,1 @@
+Problem: The geometric series $a+ar+ar^2+\cdots$ has a sum of $12$, and the terms involving odd powers of $r$ have a sum of $5.$ What is $r$?

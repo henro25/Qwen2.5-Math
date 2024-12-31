@@ -1,0 +1,10 @@
+Problem: What is the area of the parallelogram shown, in square feet?
+
+[asy]
+draw((0,0)--(15,0)--(19,3)--(4,3)--cycle,linewidth(1));
+draw((15,0)--(15,3),dashed);
+draw((15,2.5)--(15.5,2.5)--(15.5,3));
+label("15 ft",(7.5,0),S);
+label("3 ft",(15,1.5),W);
+label("5 ft",(17,1.5),SE);
+[/asy]

@@ -1,0 +1,1 @@
+Problem: There are 20 people in my club.  8 of them are left-handed.  15 of them like jazz music.  2 of them are right-handed and dislike jazz music.  How many club members are left-handed and like jazz music? Assume people are either left-handed or right-handed, but not both.

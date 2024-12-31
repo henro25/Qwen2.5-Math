@@ -1,0 +1,2 @@
+Problem: The set of points with spherical coordinates of the form
+\[(\rho, \theta, \phi) = \left( 1, \theta, \frac{\pi}{6} \right)\]forms a circle.  Find the radius of this circle.

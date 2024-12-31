@@ -1,0 +1,1 @@
+Problem: Calculate $[(12^{12} \div 12^{11})^2 \cdot 4^2] \div 2^4$.

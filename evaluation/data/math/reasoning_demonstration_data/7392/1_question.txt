@@ -1,0 +1,1 @@
+Problem: Four primes $a$, $b$, $c$ and $d$ form an increasing arithmetic sequence with $a > 5$ and common difference 6. What is the ones digit of $a$?

@@ -1,0 +1,1 @@
+Problem: The line $y = 2x + c$ is tangent to the parabola $y^2 = 8x.$  Find $c.$

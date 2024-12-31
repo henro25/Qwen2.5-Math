@@ -1,0 +1,1 @@
+Problem: An insect has just told me that she has laid $154_6$ eggs. In base 10, how many eggs did she lay?

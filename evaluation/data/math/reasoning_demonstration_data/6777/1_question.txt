@@ -1,0 +1,1 @@
+Problem: What is the sum of all positive integer solutions less than or equal to $20$ to the congruence $13(3x-2)\equiv 26\pmod 8$?

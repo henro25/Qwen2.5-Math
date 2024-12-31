@@ -1,0 +1,1 @@
+Problem: A triangle is formed with one vertex at the vertex of the parabola $y=x^2-1$ and the other two vertices at the intersections of the line $y=r$ and the parabola. If the area of the triangle is between $8$ and $64$ inclusive, find all possible values of $r$. Express your answer in interval notation.

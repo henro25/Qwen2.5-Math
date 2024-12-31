@@ -1,0 +1,2 @@
+Problem: Simplify
+\[\frac{1 + \sin x - \cos x}{1 + \sin x + \cos x}.\]The answer will be a trigonometric function of some simple function of $x,$ like "$\cos 2x$" or "$\sin (x^3)$".

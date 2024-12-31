@@ -1,0 +1,1 @@
+Problem: What is the least integer greater than $\sqrt{300}$?

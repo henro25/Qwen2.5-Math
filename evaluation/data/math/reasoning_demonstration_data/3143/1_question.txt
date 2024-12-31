@@ -1,0 +1,1 @@
+Problem: Find the greatest common divisor of $40304$ and $30203$.

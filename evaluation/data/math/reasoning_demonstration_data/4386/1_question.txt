@@ -1,0 +1,1 @@
+Problem: Let $z$ be a complex number satisfying $z^2 = 4z - 19 + 8i$. Given that $|z|$ is an integer, find $z.$

@@ -1,0 +1,1 @@
+Problem: If $f(x)=\frac{16}{5+3x}$, what is the value of $\left[f^{-1}(2)\right]^{-2}$?

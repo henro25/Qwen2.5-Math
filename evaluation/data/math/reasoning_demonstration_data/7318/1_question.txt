@@ -1,0 +1,1 @@
+Problem: What number can be added to both the numerator and denominator of $\frac{3}{5}$ so that the resulting fraction will be equivalent to $\frac{5}{6}$?

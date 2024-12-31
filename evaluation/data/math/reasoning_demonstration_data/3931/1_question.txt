@@ -1,0 +1,6 @@
+Problem: For real numbers $x$, let \[f(x) = \left\{
+\begin{array}{cl}
+x+2 &\text{ if }x>3, \\
+2x+a &\text{ if }x\le 3.
+\end{array}
+\right.\]What must the value of $a$ be to make the piecewise function continuous (which means that its graph can be drawn without lifting your pencil from the paper)?

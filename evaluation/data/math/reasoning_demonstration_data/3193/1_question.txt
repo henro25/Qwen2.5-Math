@@ -1,0 +1,1 @@
+Problem: The sum of 18 consecutive positive integers is a perfect square.  What is the smallest possible value of this sum?

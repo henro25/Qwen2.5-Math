@@ -1,0 +1,1 @@
+Problem: In parallelogram $ABCD$, the measure of angle $ABC$ is 3 times the measure of angle $BCD$. How many degrees are in the measure of angle $ADC$?

@@ -1,0 +1,1 @@
+Problem: The $24^\text{th}$ day of a particular month is a Saturday. On what day of the week was the first day of that month?

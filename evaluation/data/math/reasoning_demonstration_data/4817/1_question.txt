@@ -1,0 +1,1 @@
+Problem: Let $z$ be a nonreal complex number such that $|z| = 1.$  Find the real part of $\frac{1}{1 - z}.$

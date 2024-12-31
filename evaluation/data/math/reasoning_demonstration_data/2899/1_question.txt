@@ -1,0 +1,1 @@
+Problem: Find the intersection of the lines $9x-4y=30$ and $7x+y=11.$ Express your answer as an ordered pair $(x,y).$

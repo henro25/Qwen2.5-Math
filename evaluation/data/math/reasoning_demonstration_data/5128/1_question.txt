@@ -1,0 +1,1 @@
+Problem: Express $43210_{6}-3210_{7}$ in base 10.

@@ -1,0 +1,1 @@
+Problem: What is the sum of the last two digits of this portion of the Fibonacci Factorial Series: $1!+1!+2!+3!+5!+8!+13!+21!+34!+55!+89!$?

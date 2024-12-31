@@ -1,0 +1,8 @@
+Problem: Stuart has drawn a pair of concentric circles, as shown.  He draws chords $\overline{AB}$, $\overline{BC}, \ldots$ of the large circle, each tangent to the small one.  If $m\angle ABC=75^\circ$, then how many segments will he draw before returning to his starting point at $A$? [asy]
+size(100); defaultpen(linewidth(0.8));
+real rad1 = 1/Sin(37.5);
+draw(Circle(origin,1)); draw(Circle(origin,rad1));
+pair A = rad1*dir(190), B = rad1*dir(190 + 105), C = rad1*dir(190 + 2*105), D = rad1*dir(190 + 315);
+draw(A--B--C--D,EndArrow(size=5));
+label("$A$",A,W); label("$B$",B,S); label("$C$",C,E);
+[/asy]

@@ -1,0 +1,1 @@
+Problem: Alli rolls a standard $6$-sided die twice. What is the probability of rolling integers that differ by $2$ on her first two rolls? Express your answer as a common fraction.

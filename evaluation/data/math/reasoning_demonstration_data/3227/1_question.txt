@@ -1,0 +1,1 @@
+Problem: Factor $t^2-49$.

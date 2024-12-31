@@ -1,0 +1,1 @@
+Problem: In the diagram, $BP$ and $BQ$ trisect $\angle ABC$. $BM$ bisects $\angle PBQ$. Find the ratio of the measure of $\angle MBQ$ to the measure of $\angle ABQ$.

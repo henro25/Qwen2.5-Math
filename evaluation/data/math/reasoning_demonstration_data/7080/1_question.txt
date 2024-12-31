@@ -1,0 +1,2 @@
+Problem: Triangles $ABC$ and $AEF$ are such that $B$ is the midpoint of $\overline{EF}.$  Also, $AB = EF = 1,$ $BC = 6,$ $CA = \sqrt{33},$ and
+\[\overrightarrow{AB} \cdot \overrightarrow{AE} + \overrightarrow{AC} \cdot \overrightarrow{AF} = 2.\]Find the cosine of the angle between vectors $\overrightarrow{EF}$ and $\overrightarrow{BC}.$

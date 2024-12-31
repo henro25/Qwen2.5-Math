@@ -1,0 +1,1 @@
+Problem: For all real numbers $r$ and $s$, define the mathematical operation $\#$ such that the following conditions apply: $r\ \#\ 0 = r, r\ \#\ s = s\ \#\ r$, and $(r + 1)\ \#\ s = (r\ \#\ s) + s + 1$. What is the value of $11\ \#\ 5$?

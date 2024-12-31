@@ -1,0 +1,1 @@
+Problem: The least common multiple of $x$, $10$ and $14$ is $70$. What is the greatest possible value of $x$?

@@ -1,0 +1,2 @@
+Problem: Find the range of the function
+\[k(x) = \frac{2x + 7}{x - 3}.\]

@@ -1,0 +1,2 @@
+Problem: If
+\[\sin x + \cos x + \tan x + \cot x + \sec x + \csc x = 7,\]then find $\sin 2x.$

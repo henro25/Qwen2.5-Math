@@ -1,0 +1,1 @@
+Problem: Point $(x,y)$ is randomly picked from the rectangular region with vertices at $(0,0),(2008,0),(2008,2009),$ and $(0,2009)$. What is the probability that $x > 2y$? Express your answer as a common fraction.

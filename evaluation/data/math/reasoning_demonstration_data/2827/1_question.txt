@@ -1,0 +1,1 @@
+Problem: How many three-digit numbers are composed of three distinct digits such that one digit is the average of the other two?

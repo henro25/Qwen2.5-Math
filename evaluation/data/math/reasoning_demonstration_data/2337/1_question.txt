@@ -1,0 +1,1 @@
+Problem: At a state contest, 21 Mathletes stay in the same hotel. Each Mathlete gets his/her own room and the room numbers are 1 through 21. When all the Mathletes have arrived, except the ones staying in rooms 12 and 13, what is the median room number of the other 19 Mathletes?

@@ -1,0 +1,1 @@
+Problem: A trapezoid has one base equal to twice its height, $x$, and the other base is three times as long as the height. Write the expression for the area of the trapezoid as a common fraction in terms of the height $x$.

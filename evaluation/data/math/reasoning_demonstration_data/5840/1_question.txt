@@ -1,0 +1,1 @@
+Problem: If the angle between the vectors $\mathbf{a}$ and $\mathbf{b}$ is $43^\circ,$ what is the angle between the vectors $-\mathbf{a}$ and $\mathbf{b}$?

@@ -1,0 +1,1 @@
+Problem: Solve for $n$: $0.03n + 0.08(20 + n) = 12.6$.

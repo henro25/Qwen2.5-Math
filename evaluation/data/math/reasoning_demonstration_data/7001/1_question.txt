@@ -1,0 +1,1 @@
+Problem: If $\det \mathbf{M} = -2,$ then find $ \det (\mathbf{M}^4).$

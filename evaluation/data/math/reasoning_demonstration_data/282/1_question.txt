@@ -1,0 +1,1 @@
+Problem: The sum of the digits of the year 2004 is 6. What is the first year after 2000 for which the sum of the digits is 12?

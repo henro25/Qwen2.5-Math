@@ -1,0 +1,2 @@
+Problem: Find the range of the function
+\[f(x) = \frac{\sin^3 x + 6 \sin^2 x + \sin x + 2 \cos^2 x - 8}{\sin x - 1},\]as $x$ ranges over all real numbers such that $\sin x \neq 1.$  Enter your answer using interval notation.

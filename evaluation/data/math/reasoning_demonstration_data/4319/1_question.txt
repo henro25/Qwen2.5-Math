@@ -1,0 +1,1 @@
+Problem: Calculate the product $\left(\frac{3}{6}\right)\left(\frac{6}{9}\right)\left(\frac{9}{12}\right)\cdots\left(\frac{2001}{2004}\right)$. Express your answer as a common fraction.

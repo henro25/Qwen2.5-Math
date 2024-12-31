@@ -1,0 +1,1 @@
+Problem: At the beginning of every period of British Literature, Mrs. Crabapple picks a random student to receive a crabapple as a gift, but really, as you might imagine, they are quite bitter and nasty. Given that there are 11 students in her class and her class meets four times a week, how many different sequences of crabapple recipients are possible in a week?

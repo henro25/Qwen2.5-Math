@@ -1,0 +1,19 @@
+Problem: For the ellipse shown below, find the distance between the foci.
+
+[asy]
+unitsize(0.3 cm);
+
+int i, n = 10;
+
+for (i = -n; i <= n; ++i) {
+  draw((i,-n)--(i,n),gray(0.7));
+  draw((-n,i)--(n,i),gray(0.7));
+}
+
+draw((0,-n)--(0,n));
+draw((-n,0)--(n,0));
+
+draw(shift((1,1))*xscale(2)*yscale(6)*Circle((0,0),1),red);
+
+dot((1,1));
+[/asy]

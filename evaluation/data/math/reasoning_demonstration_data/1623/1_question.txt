@@ -1,0 +1,2 @@
+Problem: Find the smallest positive real number $x$ such that
+\[\lfloor x^2 \rfloor - x \lfloor x \rfloor = 6.\]

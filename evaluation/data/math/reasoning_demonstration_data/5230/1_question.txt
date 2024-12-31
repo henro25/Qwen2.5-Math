@@ -1,0 +1,1 @@
+Problem: Write the following expression as a polynomial: $$(2x^2+3x+7)(x+1)-(x+1)(x^2+4x-63)+(3x-14)(x+1)(x+5).$$

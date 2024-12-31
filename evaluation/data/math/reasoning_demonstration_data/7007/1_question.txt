@@ -1,0 +1,1 @@
+Problem: How many different three-letter sets of initials are possible using the letters $A$ through $G$?

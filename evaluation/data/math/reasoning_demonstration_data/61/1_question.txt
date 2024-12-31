@@ -1,0 +1,1 @@
+Problem: In triangle $ABC$, $AB = 13$, $AC = 15$, and $BC = 14$.  Let $I$ be the incenter.  The incircle of triangle $ABC$ touches sides $BC$, $AC$, and $AB$ at $D$, $E$, and $F$, respectively.  Find the length of $BI$.

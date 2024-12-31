@@ -1,0 +1,1 @@
+Problem: Let $b$ and $c$ be real numbers.  If the polynomial $x^2+bx+c$ has exactly one real root and $b=c+1$, find the value of the product of all possible values of $c$.

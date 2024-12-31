@@ -1,0 +1,2 @@
+Problem: Simplify
+\[\cos ^2 x + \cos^2 (x + y) - 2 \cos x \cos y \cos (x + y).\]

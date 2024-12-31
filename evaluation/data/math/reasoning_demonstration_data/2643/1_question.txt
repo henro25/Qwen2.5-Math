@@ -1,0 +1,1 @@
+Problem: A square is drawn such that one of its sides coincides with the line $y = 5$, and so that the endpoints of this side lie on the parabola $y = x^2 + 3x + 2$. What is the area of the square?

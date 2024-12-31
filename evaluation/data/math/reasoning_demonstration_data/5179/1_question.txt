@@ -1,0 +1,1 @@
+Problem: The range of the function $g(x) = \frac{2}{2+4x^2}$ can be written as an interval $(a,b]$. What is $a+b$?

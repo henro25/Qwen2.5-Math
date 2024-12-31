@@ -1,0 +1,1 @@
+Problem: Points $(1,-5)$ and $(11,7)$ are the opposite vertices of a parallelogram.  What are the coordinates of the point where the diagonals of the parallelogram intersect?

@@ -1,0 +1,2 @@
+Problem: Find the maximum value of
+\[\frac{x + 2y + 3}{\sqrt{x^2 + y^2 + 1}}\]over all real numbers $x$ and $y.$

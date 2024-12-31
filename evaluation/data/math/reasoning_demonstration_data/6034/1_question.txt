@@ -1,0 +1,2 @@
+Problem: Let $F_n$ be the Fibonacci sequence, that is, $F_0 = 0$, $F_1 = 1$, and $F_{n+2} = F_{n+1} + F_n$.  Compute
+\[\sum_{n=0}^{\infty} \frac{F_n}{10^n}.\]

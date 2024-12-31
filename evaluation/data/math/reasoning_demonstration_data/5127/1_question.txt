@@ -1,0 +1,2 @@
+Problem: Let $a$ and $b$ be positive real numbers.  Find the maximum value of
+\[2(a - x)(x + \sqrt{x^2 + b^2})\]in terms of $a$ and $b.$

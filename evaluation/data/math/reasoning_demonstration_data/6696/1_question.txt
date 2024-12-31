@@ -1,0 +1,9 @@
+Problem: I have a picture with dimensions $x$ and $y$ (in inches), such that $x$ and $y$ are both integers greater than one. I would like to place this picture in an elongated frame of dimensions $(2x + 3)$ and  $(y+2)$. If I measured the area of the frame to be $34$ square inches, what is the area of the picture in square inches? (Note that by "the area of the frame," we mean the shaded region shown below).  [asy]
+size(5cm);
+defaultpen(linewidth(0.7));
+real eps=0.2;
+filldraw((0,0)--(2,0)--(2,1)--(0,1)--cycle,gray);
+filldraw((0,0)+(eps,eps)--(2,0)+(-eps,eps)--(2,1)+(-eps,-eps)--(0,1)+(eps,-eps)--cycle,white);
+label("picture",(1,0.5));
+label("frame",(1,1-eps/2));
+[/asy]

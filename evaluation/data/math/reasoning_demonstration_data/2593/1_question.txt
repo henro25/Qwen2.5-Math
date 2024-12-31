@@ -1,0 +1,1 @@
+Problem: Find all values of $a$ for which the points $(0,0,0),$ $(1,a,0),$ $(0,1,a),$ and $(a,0,1)$ are coplanar.

@@ -1,0 +1,4 @@
+Problem: Let $f : \mathbb{R} \to \mathbb{R}$ be a function such that
+\[f((x - y)^2) = f(x)^2 - 2xf(y) + y^2\]for all real numbers $x$ and $y.$
+
+Let $n$ be the number of possible values of $f(1),$ and let $s$ be the sum of all possible values of $f(1).$  Find $n \times s.$

@@ -1,0 +1,4 @@
+Problem: Let $f$ be a function taking the nonnegative integers to the nonnegative integers, such that
+\[2f(a^2 + b^2) = [f(a)]^2 + [f(b)]^2\]for all nonnegative integers $a$ and $b.$
+
+Let $n$ be the number of possible values of $f(25),$ and let $s$ be the sum of the possible values of $f(25).$  Find $n \times s.$

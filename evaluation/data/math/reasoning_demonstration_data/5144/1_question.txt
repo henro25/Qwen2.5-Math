@@ -1,0 +1,1 @@
+Problem: Solve for $x$ in the equation $ \frac35 \cdot \frac19 \cdot x = 6$.

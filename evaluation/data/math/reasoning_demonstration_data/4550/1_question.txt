@@ -1,0 +1,1 @@
+Problem: How many different primes are in the prime factorization of $87\cdot89\cdot91\cdot93$?

@@ -1,0 +1,2 @@
+Problem: Compute
+\[\frac{\lfloor \sqrt[4]{1} \rfloor \cdot \lfloor \sqrt[4]{3} \rfloor \cdot \lfloor \sqrt[4]{5} \rfloor \dotsm \lfloor \sqrt[4]{2015} \rfloor}{\lfloor \sqrt[4]{2} \rfloor \cdot \lfloor \sqrt[4]{4} \rfloor \cdot \lfloor \sqrt[4]{6} \rfloor \dotsm \lfloor \sqrt[4]{2016} \rfloor}.\]

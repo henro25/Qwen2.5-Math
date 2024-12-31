@@ -1,0 +1,1 @@
+Problem: Find $\tan \left( -\frac{3 \pi}{4} \right).$

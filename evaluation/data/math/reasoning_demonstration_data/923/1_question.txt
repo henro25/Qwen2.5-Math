@@ -1,0 +1,1 @@
+Problem: The square of $a$ and the square root of $b$ vary inversely. If $a=2$ when $b=81$, then find $b$ when $ab=48$.

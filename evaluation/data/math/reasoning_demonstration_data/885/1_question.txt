@@ -1,0 +1,1 @@
+Problem: Solve for $x$: $$81^{2x} = 27^{3x - 4}.$$

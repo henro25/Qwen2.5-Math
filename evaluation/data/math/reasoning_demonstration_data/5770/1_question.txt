@@ -1,0 +1,22 @@
+Problem: A triangle has side lengths 7, 8, and 9.  There are exactly two lines that simultaneously bisect the perimeter and area of the triangle.  Let $\theta$ be the acute angle between these two lines.  Find $\tan \theta.$
+
+[asy]
+unitsize(0.5 cm);
+
+pair A, B, C, P, Q, R, S, X;
+
+B = (0,0);
+C = (8,0);
+A = intersectionpoint(arc(B,7,0,180),arc(C,9,0,180));
+P = interp(A,B,(12 - 3*sqrt(2))/2/7);
+Q = interp(A,C,(12 + 3*sqrt(2))/2/9);
+R = interp(C,A,6/9);
+S = interp(C,B,6/8);
+X = extension(P,Q,R,S);
+
+draw(A--B--C--cycle);
+draw(interp(P,Q,-0.2)--interp(P,Q,1.2),red);
+draw(interp(R,S,-0.2)--interp(R,S,1.2),blue);
+
+label("$\theta$", X + (0.8,0.4));
+[/asy]

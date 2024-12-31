@@ -1,0 +1,1 @@
+Problem: If $5^x=100$, what is the value of $5^{x+2}$?

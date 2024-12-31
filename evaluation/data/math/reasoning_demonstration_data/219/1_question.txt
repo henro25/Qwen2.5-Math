@@ -1,0 +1,1 @@
+Problem: The average of two 2-digit positive integers is equal to the decimal number obtained by writing one of the two-digit integers before the decimal point and the other two-digit integer after the decimal point. What is the smaller of the two integers?

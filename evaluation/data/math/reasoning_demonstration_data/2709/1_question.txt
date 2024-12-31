@@ -1,0 +1,2 @@
+Problem: Let $z$ be a complex number with $|z| = \sqrt{2}.$  Find the maximum value of
+\[|(z - 1)^2 (z + 1)|.\]

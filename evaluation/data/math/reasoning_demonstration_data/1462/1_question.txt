@@ -1,0 +1,1 @@
+Problem: Given that $a$ is an odd multiple of $7767$, find the greatest common divisor of $6a^2+49a+108$ and $2a+9$.

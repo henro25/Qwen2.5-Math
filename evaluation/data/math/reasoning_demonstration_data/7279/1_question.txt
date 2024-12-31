@@ -1,0 +1,2 @@
+Problem: Suppose that $x^{2017} - 2x + 1 = 0$ and $x \neq 1.$  Find the value of
+\[x^{2016} + x^{2015} + \dots + x + 1.\]

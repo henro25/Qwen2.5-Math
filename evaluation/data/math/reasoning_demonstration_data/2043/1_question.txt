@@ -1,0 +1,14 @@
+Problem: The line with equation $y = x$ is an axis of symmetry of the curve with equation
+\[y = \frac{px + q}{rx + s},\]where $p,$ $q,$ $r,$ $s$ are all nonzero.  Which of the following statements must hold?
+
+(A) $p + q = 0$
+
+(B) $p + r = 0$
+
+(C) $p + s = 0$
+
+(D) $q + r = 0$
+
+(E) $q + s = 0$
+
+(F) $r + s = 0$

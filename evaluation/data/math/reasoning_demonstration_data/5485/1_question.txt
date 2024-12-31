@@ -1,0 +1,1 @@
+Problem: Find $\left \lceil \frac{12}{7} \cdot \frac{-29}{3}\right\rceil - \left\lfloor \frac{12}{7} \cdot \left \lfloor \frac{-29}{3}\right \rfloor \right \rfloor$.

@@ -1,0 +1,1 @@
+Problem: What are the last two digits in the sum of factorials of the first 100 positive integers?

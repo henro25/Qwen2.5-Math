@@ -1,0 +1,1 @@
+Problem: Suppose that $y^3$ varies inversely with $\sqrt[3]{z}$. If $y=2$ when $z=1$, find the value of $z$ when $y=4$. Express your answer in simplest fractional form.

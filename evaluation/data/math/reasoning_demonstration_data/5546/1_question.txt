@@ -1,0 +1,21 @@
+Problem: The number of rounds of golf played by each golfer of an amateur golf association is shown in the chart below. What is the average number of rounds played by each golfer? Express your answer to the nearest whole number. [asy]
+size(150);
+draw((0,7)--(0,0)--(10,0));
+for(int i = 1; i <= 5; ++i){
+
+label((string)i,(2*i,0),S);
+}
+label("Rounds of Golf Played",(0,-1)--(10,-1),S);
+void addDots(int pos, int num){
+
+for(int i = 1; i <= num; ++i){
+
+dot((2*pos,i));
+
+}
+}
+addDots(1,5); addDots(2,2); addDots(3,2); addDots(4,3); addDots(5,5);
+picture perpLabel;
+label(perpLabel,"Number of Golfers");
+add(rotate(90)*perpLabel,(-1,3));
+[/asy]

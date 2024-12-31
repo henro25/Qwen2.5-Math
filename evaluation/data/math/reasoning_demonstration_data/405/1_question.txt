@@ -1,0 +1,1 @@
+Problem: A number $x$ is equal to $7\cdot24\cdot48$. What is the smallest positive integer $y$ such that the product $xy$ is a perfect cube?

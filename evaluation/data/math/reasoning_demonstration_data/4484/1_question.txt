@@ -1,0 +1,2 @@
+Problem: Let $F_n$ be the $n$th Fibonacci number, where as usual $F_1 = F_2 = 1$ and $F_{n + 1} = F_n + F_{n - 1}.$  Then
+\[\prod_{k = 2}^{100} \left( \frac{F_k}{F_{k - 1}} - \frac{F_k}{F_{k + 1}} \right) = \frac{F_a}{F_b}\]for some positive integers $a$ and $b.$  Enter the ordered pair $(a,b).$

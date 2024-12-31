@@ -1,0 +1,1 @@
+Problem: When the square of three times a positive integer is decreased by the integer, the result is $2010$. What is the integer?

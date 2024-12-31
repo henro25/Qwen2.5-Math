@@ -1,0 +1,1 @@
+Problem: The distance from Goteborg to Jonkiping on a map is 88 cm. The scale on the map is 1 cm: 15 km. How far is it between the two city centers, in kilometers?

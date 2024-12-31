@@ -1,0 +1,1 @@
+Problem: Compute $16\left (\frac{125}{2}+\frac{25}{4}+\frac{9}{16}+1\right)$.

@@ -1,0 +1,1 @@
+Problem: A Senate committee has 8 Republicans and 6 Democrats.  In how many ways can we form a subcommittee with 3 Republicans and 2 Democrats?

@@ -1,0 +1,1 @@
+Problem: Let $\theta$ be the smallest acute angle for which $\sin \theta,$ $\sin 2 \theta,$ $\sin 3 \theta$ form an arithmetic progression, in some order.  Find $\cos \theta.$

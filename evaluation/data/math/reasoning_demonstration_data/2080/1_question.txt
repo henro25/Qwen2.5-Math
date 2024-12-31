@@ -1,0 +1,1 @@
+Problem: Find the largest value of $n$ such that $5x^2+nx+48$ can be factored as the product of two linear factors with integer coefficients.

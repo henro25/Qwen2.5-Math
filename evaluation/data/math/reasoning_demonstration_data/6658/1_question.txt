@@ -1,0 +1,1 @@
+Problem: Find $r$ if $3(r-7) = 4(2-2r) + 4$.

@@ -1,0 +1,22 @@
+Problem: In triangle $ABC,$ $AB = 9,$ $BC = 10,$ and $AC = 11.$  If $D$ and $E$ are chosen on $\overline{AB}$ and $\overline{AC}$ so that $AD = 4$ and $AE = 7,$ then find the area of triangle $ADE.$
+
+[asy]
+unitsize (1 cm);
+
+pair A, B, C, D, E;
+
+A = (2,3);
+B = (0,0);
+C = (6,0);
+D = interp(A,B,0.4);
+E = interp(A,C,3/5);
+
+draw(A--B--C--cycle);
+draw(D--E);
+
+label("$A$", A, N);
+label("$B$", B, SW);
+label("$C$", C, SE);
+label("$D$", D, NW);
+label("$E$", E, NE);
+[/asy]

@@ -1,0 +1,1 @@
+Problem: The radius of a sphere is $p$ units and the radius of a hemisphere is $2p$ units. What is the ratio of the volume of the sphere to the volume of the hemisphere?

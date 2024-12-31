@@ -1,0 +1,1 @@
+Problem: Let $\mathbf{D}$ be the $2 \times 2$ matrix corresponding to the dilation, centered at the origin, with scale factor 7.  Find $\det \mathbf{D}.$

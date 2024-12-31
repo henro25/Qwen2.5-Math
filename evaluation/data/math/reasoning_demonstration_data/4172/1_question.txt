@@ -1,0 +1,1 @@
+Problem: The three-digit positive integer $N$ has a ones digit of 3. What is the probability that $N$ is divisible by 3? Express your answer as a common fraction.

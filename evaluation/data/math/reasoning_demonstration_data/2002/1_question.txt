@@ -1,0 +1,1 @@
+Problem: Let $S$ denote the value of the sum\[\sum_{n=0}^{668} (-1)^{n} {2004 \choose 3n}\]Determine the remainder obtained when $S$ is divided by $1000$.

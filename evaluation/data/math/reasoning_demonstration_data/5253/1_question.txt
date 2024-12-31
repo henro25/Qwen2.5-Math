@@ -1,0 +1,2 @@
+Problem: Find the $3 \times 3$ matrix $\mathbf{M}$ such that
+\[\mathbf{M} \mathbf{v} = -4 \mathbf{v}\]for all three-dimensional vectors $\mathbf{v}.$

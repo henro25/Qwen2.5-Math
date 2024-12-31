@@ -1,0 +1,1 @@
+Problem: The quadratic $x^2-4x-14=3x+16$ has two solutions.  What is the sum of these solutions?

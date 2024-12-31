@@ -1,0 +1,1 @@
+Problem: Convert $\rm{A}03_{16}$ to a base 10 integer, where the 'digits' A through F represent the values 10, 11, 12, 13, 14, and 15 in order.

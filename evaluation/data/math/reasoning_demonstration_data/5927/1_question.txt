@@ -1,0 +1,1 @@
+Problem: Find the range of the function $f(x) = \arcsin x + \arccos x + \arctan x.$  All functions are in radians.

@@ -1,0 +1,1 @@
+Problem: Alice and Bob each arrive at a party at a random time between 1:00 and 2:00. If Alice arrives after Bob, what is the probability that Bob arrived before 1:30?

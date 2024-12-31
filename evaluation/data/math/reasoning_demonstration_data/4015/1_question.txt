@@ -1,0 +1,1 @@
+Problem: In right triangle $ABC$ with $\angle A = 90^\circ$, we have $AB =16$ and $BC = 24$.  Find $\sin A$.

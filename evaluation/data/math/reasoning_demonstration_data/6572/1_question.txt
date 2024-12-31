@@ -1,0 +1,2 @@
+Problem: The function $f(x)$ satisfies
+\[xf(y) = yf(x)\]for all real numbers $x$ and $y.$  If $f(15) = 20,$ find $f(3).$

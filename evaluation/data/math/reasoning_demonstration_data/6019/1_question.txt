@@ -1,0 +1,1 @@
+Problem: Find the remainder when $x^{2015} + 1$ is divided by $x^8 - x^6 + x^4 - x^2 + 1.$

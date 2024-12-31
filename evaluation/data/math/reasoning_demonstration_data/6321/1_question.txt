@@ -1,0 +1,2 @@
+Problem: Let $x$ and $y$ be positive real numbers.  Find the minimum value of
+\[\frac{\sqrt{(x^2 + y^2)(3x^2 + y^2)}}{xy}.\]

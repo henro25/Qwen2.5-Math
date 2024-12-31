@@ -1,0 +1,1 @@
+Problem: Let $a$ and $b$ be the roots of the equation $x^2-mx+2=0$. Suppose that $a + \frac{1}{b}$ and $b + \frac{1}{a}$ are the roots of the equation $x^2-px+q=0$. What is $q$?

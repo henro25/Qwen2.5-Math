@@ -1,0 +1,12 @@
+Problem: The measure of angle $ACB$ is 40 degrees. If ray $CA$ is rotated 480 degrees about point $C$ in a clockwise direction, what will be the positive measure of the new acute angle $ACB$, in degrees?
+
+[asy]
+draw((0,0)--dir(40),linewidth(1),Arrow);
+draw((0,0)--dir(0),linewidth(1),Arrow);
+dot(.8dir(40));
+dot(.8dir(0));
+dot((0,0));
+label("A",.8dir(40),NW);
+label("B",.8dir(0),S);
+label("C",(0,0),W);
+[/asy]

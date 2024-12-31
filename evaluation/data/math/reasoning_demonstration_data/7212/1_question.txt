@@ -1,0 +1,3 @@
+Problem: Find the vector $\mathbf{v}$ such that
+\[\operatorname{proj}_{\begin{pmatrix} 2 \\ 1 \end{pmatrix}} \mathbf{v} = \begin{pmatrix} \frac{38}{5} \\ \frac{19}{5} \end{pmatrix}\]and
+\[\operatorname{proj}_{\begin{pmatrix} 2 \\ 3 \end{pmatrix}} \mathbf{v} = \begin{pmatrix} \frac{58}{13} \\ \frac{87}{13} \end{pmatrix}.\]

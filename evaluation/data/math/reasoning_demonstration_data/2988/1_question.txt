@@ -1,0 +1,1 @@
+Problem: Compute the sum of the geometric series $-1 -3-9-27 -81-243-729$.

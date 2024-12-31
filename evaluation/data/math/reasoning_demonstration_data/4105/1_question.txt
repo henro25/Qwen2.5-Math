@@ -1,0 +1,10 @@
+Problem: What is the sum of the number of faces, edges and vertices of a triangular prism?
+
+[asy]
+draw((0,0)--(10,0)--(5,8.7)--cycle);
+draw((0,0)--(20,20),dashed);
+draw((10,0)--(30,20));
+draw((5,8.7)--(25,28.7));
+draw((25,28.7)--(30,20)--(20,20)--cycle,dashed);
+draw((25,28.7)--(30,20));
+[/asy]

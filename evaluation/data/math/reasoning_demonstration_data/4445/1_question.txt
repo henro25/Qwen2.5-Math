@@ -1,0 +1,1 @@
+Problem: Find the largest solution to \[\lfloor x \rfloor = 5 + 100 \{ x \},\]where $\{x\} = x - \lfloor x \rfloor.$

@@ -1,0 +1,1 @@
+Problem: A $2\times 3$ rectangle and a $3\times 4$ rectangle are contained within a square without overlapping at any interior point, and the sides of the square are parallel to the sides of the two given rectangles. What is the smallest possible area of the square?

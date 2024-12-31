@@ -1,0 +1,1 @@
+Problem: Solve for $n$: $\frac{2-n}{n+1} + \frac{2n-4}{2-n} = 1$.

@@ -1,0 +1,1 @@
+Problem: What's the coefficient of the $x^2y^4$ term in the expansion of $(x+y)^6$?

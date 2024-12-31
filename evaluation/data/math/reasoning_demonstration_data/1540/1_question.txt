@@ -1,0 +1,2 @@
+Problem: Find the projection of the vector $\begin{pmatrix} 3 \\ 0 \\ -2 \end{pmatrix}$ onto the line
+\[\frac{x}{2} = y = \frac{z}{-1}.\]

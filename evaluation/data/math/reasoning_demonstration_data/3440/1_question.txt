@@ -1,0 +1,1 @@
+Problem: Ben rolls 5 fair 12-sided dice.  The 12 faces of each die are numbered from 1 to 12. What is the probability that exactly two of the dice show an even number?

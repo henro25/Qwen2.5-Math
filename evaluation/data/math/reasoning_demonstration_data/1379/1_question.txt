@@ -1,0 +1,1 @@
+Problem: Evaluate $\lfloor-2.54\rfloor+\lceil25.4\rceil$.

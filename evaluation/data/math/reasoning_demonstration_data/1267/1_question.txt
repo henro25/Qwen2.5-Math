@@ -1,0 +1,1 @@
+Problem: Let $G$ be the centroid of triangle $ABC.$  If $GA^2 + GB^2 + GC^2 = 58,$ then find $AB^2 + AC^2 + BC^2.$

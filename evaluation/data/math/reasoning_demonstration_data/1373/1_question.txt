@@ -1,0 +1,1 @@
+Problem: A company that sells widgets has to pay $\$500$ in maintenance fees each day and then it pays each worker $\$15$ per hour. Each worker makes 5 widgets per hour, which are sold at $\$3.10$ each. What is the least number of workers the company has to hire in order to make a profit in an 8-hour workday?

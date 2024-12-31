@@ -1,0 +1,1 @@
+Problem: What is the $x$-coordinate of the point on the $x$-axis that is equidistant from points $A( -2, 0)$ and $B(0,4)$?

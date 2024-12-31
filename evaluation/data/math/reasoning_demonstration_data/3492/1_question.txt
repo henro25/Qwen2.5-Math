@@ -1,0 +1,2 @@
+Problem: Compute
+\[\frac{\tan^2 20^\circ - \sin^2 20^\circ}{\tan^2 20^\circ \sin^2 20^\circ}.\]

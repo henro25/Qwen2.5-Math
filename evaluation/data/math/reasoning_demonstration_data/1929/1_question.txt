@@ -1,0 +1,3 @@
+Problem: The triangle $\triangle ABC$ is an isosceles triangle where $AB = 4\sqrt{2}$ and $\angle B$ is a right angle. If $I$ is the incenter of $\triangle ABC,$ then what is $BI$?
+
+Express your answer in the form $a + b\sqrt{c},$ where $a,$ $b,$ and $c$ are integers, and $c$ is not divisible by any perfect square other than $1.$

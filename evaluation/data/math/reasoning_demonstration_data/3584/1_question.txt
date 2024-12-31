@@ -1,0 +1,1 @@
+Problem: Let $a$ and $b$ be the two real values of $x$ for which\[\sqrt[3]{x} + \sqrt[3]{20 - x} = 2\]The smaller of the two values can be expressed as $p - \sqrt{q}$, where $p$ and $q$ are integers. Compute $p + q$.

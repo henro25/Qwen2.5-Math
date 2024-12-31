@@ -1,0 +1,9 @@
+Problem: Let
+\[f(a,b) = \left\{
+\renewcommand{\arraystretch}{3}
+\begin{array}{cl}
+\dfrac{ab - a + 2}{2a} & \text{if $a + b \le 3$}, \\
+\dfrac{ab - b - 2}{-2b} & \text{if $a + b > 3$}.
+\end{array}
+\renewcommand{\arraystretch}{1}
+\right.\]Find $f(2,1) + f(2,4).$

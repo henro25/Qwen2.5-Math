@@ -1,0 +1,1 @@
+Problem: What is $\sqrt[4]{81} \cdot \sqrt[3]{27} \cdot \sqrt{9}$ expressed as a positive integer?

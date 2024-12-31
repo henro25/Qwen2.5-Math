@@ -1,0 +1,1 @@
+Problem: The expansion of $(x+1)^n$ has 3 consecutive terms with coefficients in the ratio $1:2:3$ that can be written in the form\[{n\choose k} : {n\choose k+1} : {n \choose k+2}\]Find the sum of all possible values of $n+k$.

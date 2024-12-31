@@ -1,0 +1,1 @@
+Problem: Suppose that $a$ is inversely proportional to $b$.  Let $a_1,a_2$ be two nonzero values of $a$ such that $\frac{a_1}{a_2}=\frac{2}{3}$.  Let the corresponding $b$ values be $b_1,b_2$.  If $b_1,b_2$ are nonzero, find the value of $\frac{b_1}{b_2}$.

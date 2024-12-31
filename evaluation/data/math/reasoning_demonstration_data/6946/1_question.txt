@@ -1,0 +1,1 @@
+Problem: Define $E(a,b,c) = a \times b^c$. What positive value of $r$ is the solution to the equation $E(r,r,3) = 625$?

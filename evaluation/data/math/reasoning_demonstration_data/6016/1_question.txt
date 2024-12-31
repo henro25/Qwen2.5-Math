@@ -1,0 +1,1 @@
+Problem: Find the matrix that corresponds to rotating about the origin by an angle of $120^\circ$ counter-clockwise.

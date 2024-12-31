@@ -1,0 +1,1 @@
+Problem: Let \[g(x) = \left\{ \begin{aligned} 3x+6 & \quad \text{ if } x < 0 \\ 2x - 13 & \quad \text{ if } x \ge 0 \end{aligned} \right.\]Find all solutions to the equation $g(x) = 3.$

@@ -1,0 +1,1 @@
+Problem: What is the 100th digit to the right of the decimal point in the decimal representation of $\frac{13}{90}$?

@@ -1,0 +1,1 @@
+Problem: Find the value of $x$ such that $\sqrt{x+ 7} = 9$.

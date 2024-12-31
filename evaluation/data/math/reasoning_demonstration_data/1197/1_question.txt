@@ -1,0 +1,2 @@
+Problem: Which of the following could NOT be the lengths of the external diagonals of a right regular prism [a "box"]? (An $\textit{external diagonal}$ is a diagonal of one of the rectangular faces of the box.)
+$\text{(A) }\{4,5,6\} \quad \text{(B) } \{4,5,7\}  \quad \text{(C) } \{4,6,7\} \quad \text{(D) } \{5,6,7\} \quad \text{(E) } \{5,7,8\}$

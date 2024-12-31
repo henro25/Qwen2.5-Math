@@ -1,0 +1,2 @@
+Problem: Let
+\[f(x) = \frac{ax}{x + 1}.\]Find the constant $a$ so that $f(f(x)) = x$ for all $x \neq -1.$

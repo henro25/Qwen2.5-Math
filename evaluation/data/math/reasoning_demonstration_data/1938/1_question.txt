@@ -1,0 +1,1 @@
+Problem: Given two real numbers $1<p<q$ so that $\frac{1}{p} + \frac{1}{q} = 1$ and $pq = \frac{9}{2}$, what is $q$?

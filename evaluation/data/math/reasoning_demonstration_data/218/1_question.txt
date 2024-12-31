@@ -1,0 +1,1 @@
+Problem: Let $f(n)$ be the sum of all the divisors of a positive integer $n$. If $f(f(n)) = n+2$, then call $n$ superdeficient. How many superdeficient positive integers are there?

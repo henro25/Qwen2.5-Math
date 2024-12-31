@@ -1,0 +1,1 @@
+Problem: Let $\mathbf{a}$ and $\mathbf{b}$ be orthogonal vectors.  If $\operatorname{proj}_{\mathbf{a}} \begin{pmatrix} 3 \\ -3 \end{pmatrix} = \begin{pmatrix} -\frac{3}{5} \\ -\frac{6}{5} \end{pmatrix},$ then find $\operatorname{proj}_{\mathbf{b}} \begin{pmatrix} 3 \\ -3 \end{pmatrix}.$

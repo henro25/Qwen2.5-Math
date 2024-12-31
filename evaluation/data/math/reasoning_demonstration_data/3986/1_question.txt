@@ -1,0 +1,1 @@
+Problem: How many of the positive divisors of 3240 are multiples of 3?

@@ -1,0 +1,1 @@
+Problem: Moore's law says that the number of transistors that can be placed inexpensively on a silicon chip doubles every two years. In 1990, a typical CPU contained about $1,\!000,\!000$ transistors. According to Moore's law, how many transistors did a typical CPU contain in the year 2000?

@@ -1,0 +1,1 @@
+Problem: If $g(2x - 5) = 3x + 9$ for all real $x$, then what is $g(1)$?

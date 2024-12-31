@@ -1,0 +1,2 @@
+Problem: Given that
+\[2^{-\frac{3}{2} + 2 \cos \theta} + 1 = 2^{\frac{1}{4} + \cos \theta},\]compute $\cos 2 \theta.$

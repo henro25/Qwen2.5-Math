@@ -1,0 +1,10 @@
+Problem: Two circles of radius $r$ are externally tangent to each other and internally tangent to the ellipse $x^2 + 5y^2 = 6,$ as shown below. Find $r.$
+[asy]
+size(7cm);
+draw(scale(sqrt(6), sqrt(6)/sqrt(5))* unitcircle);
+draw((0,-1.5)--(0,1.7),EndArrow);
+draw((-3,0)--(3,0),EndArrow);
+draw(Circle( (sqrt(0.96),0), sqrt(0.96) ));
+draw(Circle( (-sqrt(0.96),0), sqrt(0.96) ));
+label("$x$",(3,0),E);label("$y$",(0,1.7),N);
+[/asy]

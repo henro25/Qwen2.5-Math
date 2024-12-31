@@ -1,0 +1,1 @@
+Problem: An assortment of 200 pencils is sold through a catalog for $\$19.90$. Shipping is an additional $\$6.95$. Including the charges for both the pencils and the shipping, what is the average cost, in cents, for each pencil? Express your answer rounded to the nearest whole number.

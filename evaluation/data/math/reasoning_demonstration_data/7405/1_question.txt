@@ -1,0 +1,1 @@
+Problem: Let $f(x) = 3x^2 - 7$ and $g(f(4)) = 9$.  What is $g(f(-4))$?

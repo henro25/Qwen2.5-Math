@@ -1,0 +1,7 @@
+Problem: Rodney uses the following clues to try to guess a secret number:
+\begin{tabular}{ c }
+It is a two-digit integer.\\
+The tens digit is odd.\\
+The units digit is even.\\
+The number is greater than 65.
+\end{tabular}If Rodney guesses a number that has each of these properties, what is the probability that Rodney will guess the correct number? Express your answer as a common fraction.

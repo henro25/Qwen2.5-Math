@@ -1,0 +1,1 @@
+Problem: Given that $3x + y = 10$ and $x + 3y = 14$, find $10x^2 + 12xy + 10y^2$.

@@ -1,0 +1,1 @@
+Problem: What is the coefficient of $x^8$ in the expansion of $(x-1)^9$?

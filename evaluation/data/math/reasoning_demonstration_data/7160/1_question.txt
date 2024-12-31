@@ -1,0 +1,1 @@
+Problem: A ball travels on a parabolic path in which the height (in feet) is given by the expression $-16t^2+80t+21$, where $t$ is the time after launch. What is the maximum height of the ball, in feet?

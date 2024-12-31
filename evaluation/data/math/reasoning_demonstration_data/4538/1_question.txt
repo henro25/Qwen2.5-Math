@@ -1,0 +1,2 @@
+Problem: Compute
+\[\cos^6 0^\circ + \cos^6 1^\circ + \cos^6 2^\circ + \dots + \cos^6 90^\circ.\]

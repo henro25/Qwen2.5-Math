@@ -1,0 +1,1 @@
+Problem: If $\sqrt{5 + x} + \sqrt{20 - x} = 7$, what is the value of $(5 + x)(20 - x)$?

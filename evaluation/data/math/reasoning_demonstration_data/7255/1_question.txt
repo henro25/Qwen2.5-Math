@@ -1,0 +1,1 @@
+Problem: Suppose that $f$ is a function and $f^{-1}$ is the inverse of $f$. If $f(3)=4$, $f(5)=1$, and $f(2)=5$, evaluate $f^{-1}\left(f^{-1}(5)+f^{-1}(4)\right)$.

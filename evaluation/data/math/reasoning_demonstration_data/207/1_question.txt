@@ -1,0 +1,2 @@
+Problem: The equation
+\[(x - \sqrt[3]{13})(x - \sqrt[3]{53})(x - \sqrt[3]{103}) = \frac{1}{3}\]has three distinct solutions $r,$ $s,$ and $t.$  Calculate the value of $r^3 + s^3 + t^3.$

@@ -1,0 +1,1 @@
+Problem: Convert the point $\left( 2 \sqrt{3}, \frac{2 \pi}{3} \right)$ in polar coordinates to rectangular coordinates.

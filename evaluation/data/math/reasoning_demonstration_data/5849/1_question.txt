@@ -1,0 +1,1 @@
+Problem: Ten distinct points are identified on the circumference of a circle. How many different convex quadrilaterals can be formed if each vertex must be one of these 10 points?

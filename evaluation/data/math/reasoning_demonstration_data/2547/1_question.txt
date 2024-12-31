@@ -1,0 +1,1 @@
+Problem: Rationalize the denominator of $\displaystyle \frac{1}{\sqrt[3]{3} - \sqrt[3]{2}}$. With your answer in the form $\displaystyle \frac{\sqrt[3]{A} + \sqrt[3]{B} + \sqrt[3]{C}}{D}$, and the fraction in lowest terms, what is $A + B + C + D$?

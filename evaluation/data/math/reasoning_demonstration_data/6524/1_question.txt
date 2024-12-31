@@ -1,0 +1,1 @@
+Problem: To calculate $31^2$, Emily mentally figures the value $30^2$ and adds 61. Emily subtracts a number from $30^2$ to calculate $29^2$. What number does she subtract?

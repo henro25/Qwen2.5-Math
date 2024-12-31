@@ -1,0 +1,1 @@
+Problem: Rationalize the denominator: $\frac{1}{\sqrt{2}-1}$. Express your answer in simplest form.

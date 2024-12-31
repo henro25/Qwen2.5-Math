@@ -1,0 +1,1 @@
+Problem: $x = {1+\frac{\sqrt{2}}{1+\frac{\sqrt{2}}{1+...}}}$. Find $\frac{1}{(x+1)(x-2)}$. When your answer is in the form $\frac{A+\sqrt{B}}{C}$, where $A$, $B$, and $C$ are integers, and $B$ is not divisible by the square of a prime, what is $|A|+|B|+|C|$?

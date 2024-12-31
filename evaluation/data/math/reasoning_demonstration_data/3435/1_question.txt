@@ -1,0 +1,1 @@
+Problem: How many zeroes does $10!$ end with, when $10!$ is written in base 9?

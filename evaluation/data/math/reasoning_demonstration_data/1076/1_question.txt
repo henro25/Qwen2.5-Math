@@ -1,0 +1,4 @@
+Problem: Compute
+\[
+\begin{vmatrix} \cos 1 & \cos 2 & \cos 3 \\ \cos 4 & \cos 5 & \cos 6 \\ \cos 7 & \cos 8 & \cos 9 \end{vmatrix}
+.\]All the angles are in radians.

@@ -1,0 +1,1 @@
+Problem: The expression $729x^3+8$ can be written as $(ax+b)(cx^2+dx+e)$. Find $a+b+c+d+e$.

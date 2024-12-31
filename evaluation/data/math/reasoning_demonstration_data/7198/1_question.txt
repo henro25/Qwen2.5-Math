@@ -1,0 +1,1 @@
+Problem: A palindrome is a number that reads the same forwards and backwards, such as 3003. How many positive four-digit integers are palindromes?

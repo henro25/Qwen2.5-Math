@@ -1,0 +1,1 @@
+Problem: The 3rd and 5th terms of an arithmetic sequence are 17 and 39, respectively. What is the 7th term of the same sequence?

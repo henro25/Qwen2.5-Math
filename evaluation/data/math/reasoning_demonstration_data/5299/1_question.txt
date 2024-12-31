@@ -1,0 +1,1 @@
+Problem: Compute $\arctan \frac{2}{5} + \arctan \frac{5}{2}.$  Express your answer in radians.

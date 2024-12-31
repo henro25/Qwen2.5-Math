@@ -1,0 +1,1 @@
+Problem: Solve for the largest value of $x$ such that $5(9x^2+9x+10) = x(9x-40).$ Express your answer as a simplified common fraction.

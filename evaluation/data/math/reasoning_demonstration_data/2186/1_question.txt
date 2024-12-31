@@ -1,0 +1,2 @@
+Problem: Suppose that the angles of triangle $ABC$ satisfy
+\[\cos 3A + \cos 3B + \cos 3C = 1.\]Two sides of the triangle have lengths 10 and 13.  Find the maximum length of the third side.

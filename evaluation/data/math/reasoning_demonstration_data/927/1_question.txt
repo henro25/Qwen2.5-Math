@@ -1,0 +1,1 @@
+Problem: Simplify $\frac{\sqrt{507}}{\sqrt{48}}-\frac{\sqrt{175}}{\sqrt{112}}$.

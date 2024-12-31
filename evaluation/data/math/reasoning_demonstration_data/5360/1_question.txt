@@ -1,0 +1,1 @@
+Problem: A function $f$ is defined by $f(z) = i\overline{z}$, where $i^2 = -1$ and $\overline{z}$ is the complex conjugate of $z$. How many values of $z$ satisfy both $|z| = 5$ and $f(z) = z$?

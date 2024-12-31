@@ -1,0 +1,1 @@
+Problem: Find the smallest positive angle $x$ that satisfies $\sin 2x \sin 3x = \cos 2x \cos 3x,$ in degrees.

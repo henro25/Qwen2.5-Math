@@ -1,0 +1,1 @@
+Problem: The sides of a triangle have lengths of $15$, $20$, and $25$. Find the length of the shortest altitude.

@@ -1,0 +1,1 @@
+Problem: In triangle $ABC$, the angle bisectors are $AD$, $BE$, and $CF$, which intersect at the incenter $I$.  If $\angle ACB = 38^\circ$, then find the measure of $\angle AIE$, in degrees.

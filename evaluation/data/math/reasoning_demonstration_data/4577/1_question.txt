@@ -1,0 +1,1 @@
+Problem: What is the maximum possible value of the greatest common divisor of two consecutive terms of the sequence $a_n = n! + n$, where $n \ge 0$?

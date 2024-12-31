@@ -1,0 +1,1 @@
+Problem: A square has a diagonal of length $10\sqrt{2}$ centimeters. What is the number of square centimeters in the area of the square?

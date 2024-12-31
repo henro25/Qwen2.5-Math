@@ -1,0 +1,1 @@
+Problem: A triangle has side lengths of 8, 15 and 17 units. What is the area of the triangle, in square units?

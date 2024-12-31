@@ -1,0 +1,1 @@
+Problem: The areas of three squares are 16, 49 and 169.  What is the average (mean) of their side lengths?

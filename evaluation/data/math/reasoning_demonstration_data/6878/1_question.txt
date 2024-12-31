@@ -1,0 +1,1 @@
+Problem: The five-digit number $246\underline{\hspace{5pt}}8$ is divisible by 9. What is the missing digit?

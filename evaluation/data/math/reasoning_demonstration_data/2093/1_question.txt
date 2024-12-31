@@ -1,0 +1,1 @@
+Problem: $f (x) = x + 3$ and $g(x) = x^2 -6$, what is the value of $f (g(2))$?

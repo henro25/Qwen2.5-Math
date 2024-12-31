@@ -1,0 +1,2 @@
+Problem: Let $\alpha$ and $\beta$ be complex numbers such that $|\beta| = 1$ and $\overline{\alpha} \beta \neq 1.$  Find the maximum value of
+\[\left| \frac{\beta - \alpha}{1 - \overline{\alpha} \beta} \right|.\]

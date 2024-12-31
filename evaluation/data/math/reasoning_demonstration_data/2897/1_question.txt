@@ -1,0 +1,1 @@
+Problem: A positive number is called $n$-primable if it is divisible by $n$ and each of its digits is a one-digit prime number. How many 3-primable positive integers are there that are less than 1000?

@@ -1,0 +1,1 @@
+Problem: Find the positive difference between the two solutions to the equation $\displaystyle\sqrt[3]{4 - \frac{x^2}{3}} = -2$.

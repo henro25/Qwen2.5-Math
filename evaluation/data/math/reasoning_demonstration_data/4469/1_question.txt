@@ -1,0 +1,1 @@
+Problem: A regular polygon has an exterior angle that measures $15$ degrees. How many sides does the polygon have?

@@ -1,0 +1,1 @@
+Problem: What is the smallest positive integer $n$ such that $\frac{1}{n}$ is a terminating decimal and $n$ contains the digit 9?

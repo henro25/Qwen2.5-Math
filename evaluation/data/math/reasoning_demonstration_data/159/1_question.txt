@@ -1,0 +1,13 @@
+Problem: Mrs. Riley recorded this information from a recent test taken by all of her students. Using the data, what was the average percent score for these $100$ students?
+
+\begin{tabular}{|c|c|}
+\multicolumn{2}{c}{}\\\hline
+\textbf{$\%$ Score}&\textbf{Number of Students}\\\hline
+100&7\\\hline
+90&18\\\hline
+80&35\\\hline
+70&25\\\hline
+60&10\\\hline
+50&3\\\hline
+40&2\\\hline
+\end{tabular}

@@ -1,0 +1,1 @@
+Problem: How many positive divisors of 30! are prime?

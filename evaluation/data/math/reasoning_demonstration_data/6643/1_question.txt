@@ -1,0 +1,21 @@
+Problem: If the measure of angle $C$ is double the measure of angle $B$, what is the measure of angle $A$ in triangle $ABC$?
+
+[asy]
+
+pair A,B,C;
+
+A=(0,0);
+B=(5,0);
+C=(-0.8,2.5);
+
+draw(A--B--C--A);
+
+label("$A$",A,SW);
+label("$B$",B,SE);
+label("$C$",C,N);
+
+draw((4,0.6)..(3.8,0.4)..(3.9,0.1),ArcArrow);
+
+label("$21^\circ$",(4,0.6),E);
+
+[/asy]

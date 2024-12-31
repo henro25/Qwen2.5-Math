@@ -1,0 +1,27 @@
+Problem: Let $AB$ be a diameter of a circle centered at $O$.  Let $E$ be a point on the circle, and let the tangent at $B$ intersect the tangent at $E$ and $AE$ at $C$ and $D$, respectively.  If $\angle BAE = 43^\circ$, find $\angle CED$, in degrees.
+
+[asy]
+import graph;
+
+unitsize(2 cm);
+
+pair O, A, B, C, D, E;
+
+O = (0,0);
+A = (0,1);
+B = (0,-1);
+E = dir(-6);
+D = extension(A,E,B,B + rotate(90)*(B));
+C = extension(E,E + rotate(90)*(E),B,B + rotate(90)*(B));
+
+draw(Circle(O,1));
+draw(B--A--D--cycle);
+draw(B--E--C);
+
+label("$A$", A, N);
+label("$B$", B, S);
+label("$C$", C, S);
+label("$D$", D, SE);
+label("$E$", E, dir(0));
+dot("$O$", O, W);
+[/asy]

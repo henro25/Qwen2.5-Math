@@ -1,0 +1,2 @@
+Problem: There are four complex numbers $z$ such that
+\[z \overline{z}^3 + \overline{z} z^3 = 350,\]and both the real and imaginary parts of $z$ are integers.  These four complex numbers are plotted in the complex plane.  Find the area of the quadrilateral formed by the four complex numbers as vertices.

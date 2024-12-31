@@ -1,0 +1,1 @@
+Problem: Murtha has decided to start a pebble collection. She collects one pebble the first day and two pebbles on the second day. On each subsequent day she collects one more pebble than the previous day. How many pebbles will she have collected at the end of the twelfth day?

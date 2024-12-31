@@ -1,0 +1,1 @@
+Problem: How many non-congruent triangles with perimeter 7 have integer side lengths?

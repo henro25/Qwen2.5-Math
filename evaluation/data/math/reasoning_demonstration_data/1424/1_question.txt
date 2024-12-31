@@ -1,0 +1,1 @@
+Problem: The sum of two positive integers is 50 and their difference  is 12. What is the value of the positive difference of the squares of the integers?

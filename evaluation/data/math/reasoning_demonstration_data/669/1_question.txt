@@ -1,0 +1,1 @@
+Problem: Find the units digit of $13 \cdot 41$.

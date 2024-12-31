@@ -1,0 +1,1 @@
+Problem: For the graph of a certain quadratic $y = ax^2 + bx + c$, the vertex of the parabola is $(3,7)$ and one of the $x$-intercepts is $(-2,0)$.  What is the $x$-coordinate of the other $x$-intercept?

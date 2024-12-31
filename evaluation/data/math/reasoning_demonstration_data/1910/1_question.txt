@@ -1,0 +1,1 @@
+Problem: How much greater, in square inches, is the area of a circle of radius 20 inches than a circle of diameter 20 inches? Express your answer in terms of $\pi$.

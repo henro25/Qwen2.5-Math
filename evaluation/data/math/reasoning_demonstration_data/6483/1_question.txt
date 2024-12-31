@@ -1,0 +1,1 @@
+Problem: Let $\mathbf{a} = \begin{pmatrix} 3 \\ p \\ -1 \end{pmatrix}$ and $\mathbf{b} = \begin{pmatrix} 2 \\ 1 \\ q \end{pmatrix}$ be vectors that are equal in magnitude, and orthogonal.  Enter the ordered pair $(p,q).$

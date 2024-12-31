@@ -1,0 +1,1 @@
+Problem: Find the shortest distance between the point $(6,12)$ and the parabola given by the equation $x = \frac{y^2}{2}.$

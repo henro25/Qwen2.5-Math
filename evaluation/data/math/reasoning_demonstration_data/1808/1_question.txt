@@ -1,0 +1,1 @@
+Problem: A Mersenne prime is defined to be a prime number of the form $2^n - 1$, where $n$ must itself be a prime. For example, since $2^3 - 1 = 7$, and 3 is a prime number, 7 is a Mersenne prime. What is the largest Mersenne prime less than 200?

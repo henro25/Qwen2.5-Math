@@ -1,0 +1,1 @@
+Problem: For what values of $x$ is $\frac{\log{(3-x)}}{\sqrt{x-1}}$ defined?

@@ -1,0 +1,10 @@
+Problem: For real numbers $t \neq 0,$ the point
+\[(x,y) = \left( \frac{t + 1}{t}, \frac{t - 1}{t} \right)\]is plotted.  All the plotted points lie on what kind of curve?
+
+(A) Line
+(B) Circle
+(C) Parabola
+(D) Ellipse
+(E) Hyperbola
+
+Enter the letter of the correct option.

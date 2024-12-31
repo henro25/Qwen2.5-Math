@@ -1,0 +1,1 @@
+Problem: 8 coins are simultaneously flipped.  What is the probability that heads are showing on at most 2 of them?

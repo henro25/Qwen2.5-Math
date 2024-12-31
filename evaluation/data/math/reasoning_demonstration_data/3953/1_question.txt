@@ -1,0 +1,1 @@
+Problem: The point $A$ $(3,4)$ is reflected over the $x$-axis to $B$. Then $B$ is reflected over the line $y=x$ to $C$. What is the area of triangle $ABC$?

@@ -1,0 +1,1 @@
+Problem: If six people decide to come to a basketball game, but three of them are only 2/5 sure that they will stay for the entire time (the other three are sure they'll stay the whole time), what is the probability that at the end, at least 5 people stayed the entire time?

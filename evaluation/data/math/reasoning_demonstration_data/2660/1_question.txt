@@ -1,0 +1,2 @@
+Problem: Solve the inequality
+\[\frac{8x^2 + 16x - 51}{(2x - 3)(x + 4)} < 3.\]

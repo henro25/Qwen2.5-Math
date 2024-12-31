@@ -1,0 +1,22 @@
+Problem: A ray of light passing through the point $A = (-3,9,11),$ reflects off the plane $x + y + z = 12$ at $B,$ and then passes through the point $C = (3,5,9).$  Find the point $B.$
+
+[asy]
+import three;
+
+size(180);
+currentprojection = perspective(6,3,2);
+
+triple A, B, C;
+
+A = (0,-0.5,0.5*1.5);
+B = (0,0,0);
+C = (0,0.8,0.8*1.5);
+
+draw(surface((-1,-1,0)--(-1,1,0)--(1,1,0)--(1,-1,0)--cycle),paleyellow,nolight);
+draw((-1,-1,0)--(-1,1,0)--(1,1,0)--(1,-1,0)--cycle);
+draw(A--B--C,Arrow3(6));
+
+label("$A$", A, NW);
+label("$B$", B, S);
+label("$C$", C, NE);
+[/asy]

@@ -1,0 +1,1 @@
+Problem: Find the greatest whole number that will satisfy this inequality: $4x-3 < 2 - x $.

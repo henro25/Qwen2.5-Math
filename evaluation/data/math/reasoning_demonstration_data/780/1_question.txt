@@ -1,0 +1,2 @@
+Problem: The function $f$ takes nonnegative integers to real numbers, such that $f(1) = 1,$ and
+\[f(m + n) + f(m - n) = \frac{f(2m) + f(2n)}{2}\]for all nonnnegative integers $m \ge n.$  Find the sum of all possible values of $f(10).$

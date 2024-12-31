@@ -1,0 +1,1 @@
+Problem: If $a \div b = 2$ and $b \div c = \frac{3}{4}$, what is the value of $c \div a$? Express your answer as a common fraction.

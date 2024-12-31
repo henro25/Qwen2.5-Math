@@ -1,0 +1,1 @@
+Problem: Define $a$ $\$$ $b$ to be $a(b + 1) + ab$. What is the value of $(-2)$ $\$$ $3$?

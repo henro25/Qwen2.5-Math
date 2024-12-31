@@ -1,0 +1,1 @@
+Problem: Let $p(x)$ be defined on $2 \le x \le 10$ such that $$p(x) = \begin{cases} x + 1 &\quad \lfloor x \rfloor\text{ is prime} \\ p(y) + (x + 1 - \lfloor x \rfloor) &\quad \text{otherwise} \end{cases}$$ where $y$ is the greatest prime factor of $\lfloor x\rfloor.$ Express the range of $p$ in interval notation.

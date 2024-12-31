@@ -1,0 +1,1 @@
+Problem: For what value of $n$ is the four-digit number $712n$, with units digit $n$, divisible by 18?

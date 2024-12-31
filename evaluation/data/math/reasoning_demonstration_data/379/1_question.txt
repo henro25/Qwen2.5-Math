@@ -1,0 +1,1 @@
+Problem: A five-digit integer will be chosen at random from all possible positive five-digit integers. What is the probability that the number's units digit will be less than 5? Express your answer as a common fraction.

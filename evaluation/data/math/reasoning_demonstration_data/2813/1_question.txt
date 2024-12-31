@@ -1,0 +1,1 @@
+Problem: How many integers $n$ satisfy the inequality $-8\pi\le n\le10\pi$?

@@ -1,0 +1,3 @@
+Problem: When four positive integers are divided by $11$, the remainders are $2,$ $4,$ $6,$ and $8,$ respectively.
+
+When the sum of the four integers is divided by $11$, what is the remainder?

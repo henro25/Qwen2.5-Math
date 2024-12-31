@@ -1,0 +1,1 @@
+Problem: We flip a fair coin 10 times.  What is the probability that we get heads in exactly 8 of the 10 flips?

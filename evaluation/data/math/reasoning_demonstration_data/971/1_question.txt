@@ -1,0 +1,1 @@
+Problem: If $c$ is a constant such that $x^2+100x+c$ is equal to the square of a binomial, then what is $c$?

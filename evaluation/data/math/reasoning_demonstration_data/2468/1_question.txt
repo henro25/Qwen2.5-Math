@@ -1,0 +1,1 @@
+Problem: Suppose $f(z)$ and $g(z)$ are polynomials in $z$, and the degree of $g(z)$ is less than the degree of $f(z)$.  If the degree of $f(z)$ is two, what is the degree of $f(z)+g(z)$?

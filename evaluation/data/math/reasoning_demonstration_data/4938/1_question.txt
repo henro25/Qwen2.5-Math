@@ -1,0 +1,2 @@
+Problem: For a positive integer $n,$ let
+\[a_n = \sum_{k = 0}^n \frac{1}{\binom{n}{k}} \quad \text{and} \quad b_n = \sum_{k = 0}^n \frac{k}{\binom{n}{k}}.\]Simplify $\frac{a_n}{b_n}.$

@@ -1,0 +1,18 @@
+Problem: In the figure below, $ABCD$ is a square piece of paper 6 cm on each side. Corner $C$ is folded over so that it coincides with $E$, the midpoint of $\overline{AD}$. If $\overline{GF}$ represents the crease created by the fold such that $F$ is on $CD,$ what is the length of $\overline{FD}$? Express your answer as a common fraction. [asy]
+import geometry;
+size(150);
+pair A = (0,0), B = (0,1), C = (1,1), D = (1,0);
+path square = A--B--C--D--cycle;
+draw(square);
+label("A",A,SW); label("B",B,NW); label("C",C,NE); label("D",D,SE);
+pair E = midpoint(A--D);
+line CE = line(C,E);
+pair X = midpoint(C--E); line FG = perpendicular(X,CE);
+
+pair[] intwithsquare = intersectionpoints(FG,square);
+pair G = intwithsquare[0];
+pair F = intwithsquare[1];
+draw(F--G,dashed);
+label("F",F,E);
+label("G",G,W);
+[/asy]

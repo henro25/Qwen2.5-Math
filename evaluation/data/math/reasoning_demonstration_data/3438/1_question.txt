@@ -1,0 +1,1 @@
+Problem: Let $x$, $y$, and $z$ be distinct real numbers that sum to $0$. Compute \[ \dfrac {xy+yz+zx}{x^2+y^2+z^2}. \]

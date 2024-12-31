@@ -1,0 +1,1 @@
+Problem: What is $(3+3+5)\div2 - 1\div2$ in simplest terms?

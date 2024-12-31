@@ -1,0 +1,1 @@
+Problem: If $\sin x + \sin y = \frac{96}{65}$ and $\cos x + \cos y = \frac{72}{65}$, then what is the value of $\tan x + \tan y$?

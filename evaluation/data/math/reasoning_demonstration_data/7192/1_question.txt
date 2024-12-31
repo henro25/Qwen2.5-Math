@@ -1,0 +1,2 @@
+Problem: The function $f(x)$ satisfies $f(1) = 1$ and
+\[f(x + y) = 3^y f(x) + 2^x f(y)\]for all real numbers $x$ and $y.$  Find the function $f(x).$

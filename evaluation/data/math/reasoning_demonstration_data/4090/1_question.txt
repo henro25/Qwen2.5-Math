@@ -1,0 +1,1 @@
+Problem: Find the center of the circle with equation $x^2 - 6x + y^2 + 2y = 9$.

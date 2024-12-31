@@ -1,0 +1,1 @@
+Problem: What is the slope of a line perpendicular to the line containing the points $(4,-7)$ and $(-5,-1)$? Express your answer as a common fraction.

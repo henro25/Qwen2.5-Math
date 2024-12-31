@@ -1,0 +1,1 @@
+Problem: Adam and Simon start on bicycle trips from the same point at the same time. Adam travels east at 8mph and Simon travels south at 6mph. After how many hours are they 60 miles apart?

@@ -1,0 +1,1 @@
+Problem: What is the greatest positive integer that must divide the sum of the first ten terms of any arithmetic sequence whose terms are positive integers?

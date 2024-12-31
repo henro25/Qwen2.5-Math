@@ -1,0 +1,1 @@
+Problem: Find the larger of the two distinct solutions to the equation $$x^2 - 11x - 42 = 0.$$

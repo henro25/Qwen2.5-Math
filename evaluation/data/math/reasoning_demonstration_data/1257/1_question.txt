@@ -1,0 +1,1 @@
+Problem: Compute the domain of the function  $$f(x)=\frac{1}{\lfloor x^2-7x+13\rfloor}.$$

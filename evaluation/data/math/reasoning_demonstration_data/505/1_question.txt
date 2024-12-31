@@ -1,0 +1,1 @@
+Problem: What is the sum of all integer values $n$ for which $\binom{26}{13}+\binom{26}{n}=\binom{27}{14}$?

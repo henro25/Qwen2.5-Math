@@ -1,0 +1,1 @@
+Problem: What is the product of all real numbers that are doubled when added to their reciprocals?

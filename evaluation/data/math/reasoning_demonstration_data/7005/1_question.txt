@@ -1,0 +1,2 @@
+Problem: Let $a,$ $b,$ $c,$ $d,$ $e,$ $f$ be positive real numbers such that $a + b + c + d + e + f = 7.$  Find the minimum value of
+\[\frac{1}{a} + \frac{4}{b} + \frac{9}{c} + \frac{16}{d} + \frac{25}{e} + \frac{36}{f}.\]

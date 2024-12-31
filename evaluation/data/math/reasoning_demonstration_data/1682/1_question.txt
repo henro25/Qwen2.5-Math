@@ -1,0 +1,1 @@
+Problem: Darren has borrowed $100$ clams from Ethan at a $10\%$ simple daily interest. Meanwhile, Fergie has borrowed $150$ clams from Gertie at a $5\%$ simple daily interest. In how many days will Darren and Fergie owe the same amounts, assuming that they will not make any repayments in that time period?

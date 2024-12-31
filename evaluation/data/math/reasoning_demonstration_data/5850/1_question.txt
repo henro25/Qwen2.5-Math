@@ -1,0 +1,1 @@
+Problem: A rectangle is called cool if the number of square units in its area is equal to twice the number of units in its perimeter. A cool rectangle also must have integer side lengths. What is the sum of all the different possible areas of cool rectangles?

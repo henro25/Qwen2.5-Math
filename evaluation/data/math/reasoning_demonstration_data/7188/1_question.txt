@@ -1,0 +1,1 @@
+Problem: Solve for $m$: $(m-4)^3 = \left(\frac 18\right)^{-1}$.

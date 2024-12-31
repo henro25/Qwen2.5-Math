@@ -1,0 +1,1 @@
+Problem: Points $P$ and $R$ are located at (2, 1) and (12, 15) respectively. Point $M$ is the midpoint of segment $\overline{PR}$. Segment $\overline{PR}$ is reflected over the $x$-axis. What is the sum of the coordinates of the image of point $M$ (the midpoint of the reflected segment)?

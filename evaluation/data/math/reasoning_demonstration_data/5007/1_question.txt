@@ -1,0 +1,1 @@
+Problem: Given the two functions $f(x)=x^2+1$ and $g(x)=2x-1$, find $f(g(5))$.

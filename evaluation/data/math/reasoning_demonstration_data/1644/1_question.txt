@@ -1,0 +1,1 @@
+Problem: What is \[2-4x-6x^2+8+10x-12x^2-14+16x+18x^2\] in terms of $x$?

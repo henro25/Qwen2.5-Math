@@ -1,0 +1,4 @@
+Problem: Suppose $a,$ $b,$ and $c$ are real numbers such that
+\[\frac{ac}{a + b} + \frac{ba}{b + c} + \frac{cb}{c + a} = -9\]and
+\[\frac{bc}{a + b} + \frac{ca}{b + c} + \frac{ab}{c + a} = 10.\]Compute the value of
+\[\frac{b}{a + b} + \frac{c}{b + c} + \frac{a}{c + a}.\]

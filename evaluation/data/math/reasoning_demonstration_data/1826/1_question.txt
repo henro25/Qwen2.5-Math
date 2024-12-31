@@ -1,0 +1,1 @@
+Problem: The lines $y=2$, $y=5$, $x=1$, and $x=a$ make a square. Find the product of the possible values for $a$.

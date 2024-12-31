@@ -1,0 +1,1 @@
+Problem: Let $S_n$ denote the sum of the first $n$ terms of an arithmetic sequence with common difference 3.  If $\frac{S_{3n}}{S_n}$ is a constant that does not depend on $n,$ for all positive integers $n,$ then find the first term.

@@ -1,0 +1,1 @@
+Problem: What is the sum of all values of $x$ for which $\sqrt{(x+3)^{2}} = 7$?

@@ -1,0 +1,1 @@
+Problem: Find the maximum $y$-coordinate of a point on the graph of $r = \sin 2 \theta.$

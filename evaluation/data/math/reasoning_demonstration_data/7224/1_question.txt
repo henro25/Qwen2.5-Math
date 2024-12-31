@@ -1,0 +1,1 @@
+Problem: The prime numbers are added in order starting with $2$: $2$, $2 + 3$, $2 + 3 + 5$, and so on. How many of the first 12 such sums are also prime?

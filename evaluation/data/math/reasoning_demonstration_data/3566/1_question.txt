@@ -1,0 +1,1 @@
+Problem: The vertices of a cube have coordinates $(0,0,0),$ $(0,0,4),$ $(0,4,0),$ $(0,4,4),$ $(4,0,0),$ $(4,0,4),$ $(4,4,0),$ and $(4,4,4).$  A plane cuts the edges of this cube at the points $P = (0,2,0),$ $Q = (1,0,0),$ $R = (1,4,4),$ and two other points.  Find the distance between these two points.

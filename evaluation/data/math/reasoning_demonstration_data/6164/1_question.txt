@@ -1,0 +1,1 @@
+Problem: The polynomial $x^3 - 2004 x^2 + mx + n$ has integer coefficients and three distinct positive zeros.  Exactly one of these is an integer, and it is the sum of the other two.  How many values of $n$ are possible?

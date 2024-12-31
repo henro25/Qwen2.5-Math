@@ -1,0 +1,6 @@
+Problem: Compute the ordered pair of positive integers $(x,y)$ such that
+
+\begin{align*}
+x^y+1&=y^x,\\
+2x^y&=y^x+7.
+\end{align*}

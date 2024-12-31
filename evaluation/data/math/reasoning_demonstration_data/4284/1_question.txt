@@ -1,0 +1,1 @@
+Problem: If $f(x) = 3x^2-5$, what is the value of $f(f(1))$?

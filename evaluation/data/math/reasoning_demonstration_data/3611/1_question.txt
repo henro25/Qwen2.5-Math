@@ -1,0 +1,8 @@
+Problem: Sector $OAB$ is a quarter of a circle of radius 3 cm. A circle is drawn inside this sector, tangent at three points as shown. What is the number of centimeters in the radius of the inscribed circle? Express your answer in simplest radical form. [asy]
+import olympiad; import geometry; size(100); defaultpen(linewidth(0.8));
+draw(Arc(origin,3,90,180));
+draw((-3,0)--(origin)--(0,3));
+real x = 3/(1 + sqrt(2));
+draw(Circle((-x,x),x)); label("$B$",(0,3),N); label("$A$",(-3,0),W);
+label("$O$",(0,0),SE); label("3 cm",(0,0)--(-3,0),S);
+[/asy]

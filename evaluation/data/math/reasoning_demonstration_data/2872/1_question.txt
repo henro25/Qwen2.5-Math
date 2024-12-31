@@ -1,0 +1,1 @@
+Problem: If $(ax+b)(bx+a)=26x^2+\Box\cdot x+26$, where $a$, $b$, and $\Box$ are distinct integers, what is the minimum possible value of $\Box$, the coefficient of $x$?

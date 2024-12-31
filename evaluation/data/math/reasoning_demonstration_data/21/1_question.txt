@@ -1,0 +1,1 @@
+Problem: Find the value of $r$ such that \[\frac{r^2 - 5r + 4}{r^2-8r+7} = \frac{r^2 - 2r -15}{r^2 -r - 20}.\]

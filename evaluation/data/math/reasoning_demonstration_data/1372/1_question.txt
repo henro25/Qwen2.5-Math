@@ -1,0 +1,1 @@
+Problem: Solve for $Q$ if $\sqrt{Q^3} = 16\sqrt[8]{16}$.

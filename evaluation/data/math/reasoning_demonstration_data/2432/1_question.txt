@@ -1,0 +1,1 @@
+Problem: What is the least value of $y$ such that $3y^2 + 5y + 2 = 4$?

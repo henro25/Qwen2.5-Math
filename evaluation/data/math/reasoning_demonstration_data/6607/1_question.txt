@@ -1,0 +1,3 @@
+Problem: One line is parameterized by
+\[\begin{pmatrix} -1 + s \\ 3 - ks \\ 1 + ks \end{pmatrix}.\]Another line is parameterized by
+\[\begin{pmatrix} t/2 \\ 1 + t \\ 2 - t \end{pmatrix}.\]If the lines are coplanar (i.e. there is a plane that contains both lines), then find $k.$

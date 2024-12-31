@@ -1,0 +1,1 @@
+Problem: If $a + 4b = 33$ and $6a + 3b = 51$, what is the value of $a + b$?

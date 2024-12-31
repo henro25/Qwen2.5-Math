@@ -1,0 +1,1 @@
+Problem: Find the difference between $1000_7$ and $666_7$ in base $7$.

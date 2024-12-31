@@ -1,0 +1,1 @@
+Problem: Alice chose five positive integers and found that their product was even. What is the maximum number of odd integers she could have chosen?

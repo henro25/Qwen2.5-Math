@@ -1,0 +1,1 @@
+Problem: Find the sum of the solutions of the equation $-32x^2 + 84x + 135=0$.

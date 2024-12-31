@@ -1,0 +1,1 @@
+Problem: Find $73^{-1} \pmod{74}$, as a residue modulo 74.  (Give an answer between 0 and 73, inclusive.)

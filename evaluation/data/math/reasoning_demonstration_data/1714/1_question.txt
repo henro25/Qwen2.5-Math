@@ -1,0 +1,1 @@
+Problem: What is the smallest positive multiple of $32$?

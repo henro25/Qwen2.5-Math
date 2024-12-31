@@ -1,0 +1,1 @@
+Problem: Two dice are tossed. What is the probability that the sum is greater than three?

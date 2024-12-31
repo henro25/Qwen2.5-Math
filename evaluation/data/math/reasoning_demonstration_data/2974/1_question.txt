@@ -1,0 +1,1 @@
+Problem: Let $f(x)$ be a polynomial with real, nonnegative coefficients.  If $f(6) = 24$ and $f(24) = 1536,$ find the largest possible value of $f(12).$

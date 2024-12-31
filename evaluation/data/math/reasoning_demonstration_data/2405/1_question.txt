@@ -1,0 +1,35 @@
+Problem: In rectangle $ADEH$, points $B$ and  $C$  trisect $\overline{AD}$, and points $G$ and  $F$ trisect $\overline{HE}$. In addition,  $AH=AC=2$. What is the area of  quadrilateral $WXYZ$ shown in the figure?
+
+[asy]
+unitsize(1cm);
+pair A,B,C,D,I,F,G,H,U,Z,Y,X;
+A=(0,0);
+B=(1,0);
+C=(2,0);
+D=(3,0);
+I=(3,2);
+F=(2,2);
+G=(1,2);
+H=(0,2);
+U=(1.5,1.5);
+Z=(2,1);
+Y=(1.5,0.5);
+X=(1,1);
+draw(A--D--I--H--cycle,linewidth(0.7));
+draw(H--C,linewidth(0.7));
+draw(G--D,linewidth(0.7));
+draw(I--B,linewidth(0.7));
+draw(A--F,linewidth(0.7));
+label("$A$",A,SW);
+label("$B$",B,S);
+label("$C$",C,S);
+label("$D$",D,SE);
+label("$E$",I,NE);
+label("$F$",F,N);
+label("$G$",G,N);
+label("$H$",H,NW);
+label("$W$",U,N);
+label("$X$",X,W);
+label("$Y$",Y,S);
+label("$Z$",Z,E);
+[/asy]

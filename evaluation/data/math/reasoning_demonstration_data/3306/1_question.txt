@@ -1,0 +1,1 @@
+Problem: The Rotokas of Papua New Guinea have twelve letters in their alphabet. The letters are: A, E, G, I, K, O, P, R, S, T, U, and V. Suppose license plates of five letters utilize only the letters in the Rotoka alphabet. How many license plates of five letters are possible that begin with either G or K, end with T, cannot contain S, and have no letters that repeat?

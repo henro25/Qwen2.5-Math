@@ -1,0 +1,7 @@
+Problem: Three coplanar circles intersect as shown. What is the maximum number of points on the circles that a line passing through all three circles can touch?
+
+[asy]import graph;
+draw(Circle((-9,9),15));
+draw(Circle((0,-9),15));
+draw(Circle((9,9),15));
+[/asy]

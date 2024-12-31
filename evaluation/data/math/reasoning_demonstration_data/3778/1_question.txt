@@ -1,0 +1,1 @@
+Problem: If we count by $3\text{'s}$ starting with $1,$ the following sequence is obtained: $1,$ $4,$ $7,$ $10,$ $\dots.$ What is the $100^\text{th}$ number in the sequence?

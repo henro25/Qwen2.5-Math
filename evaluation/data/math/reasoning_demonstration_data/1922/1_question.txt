@@ -1,0 +1,1 @@
+Problem: Find all $c$ which satisfy $$\frac{c}{3} \le 2+c < -2(1+c).$$Express your answer in interval notation, simplifying any fractions which occur in your answer.

@@ -1,0 +1,1 @@
+Problem: A divisor of a number is a proper divisor if it is not equal to the number. What is the sum of the proper divisors of $432$?

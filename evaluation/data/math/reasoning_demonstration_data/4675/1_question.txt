@@ -1,0 +1,3 @@
+Problem: For a polynomial $p(x),$ define its munificence as the maximum value of $|p(x)|$ on the interval $-1 \le x \le 1.$  For example, the munificence of the polynomial $p(x) = -x^2 + 3x - 17$ is 21, since the maximum value of $|-x^2 + 3x - 17|$ for $-1 \le x \le 1$ is 21, occurring at $x = -1.$
+
+Find the smallest possible munificence of a monic quadratic polynomial.

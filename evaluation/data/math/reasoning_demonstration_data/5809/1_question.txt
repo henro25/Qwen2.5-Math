@@ -1,0 +1,12 @@
+Problem: A rectangular prism measures 10-inches by 20-inches by 10-inches. What is the length, in inches, of the diagonal connecting point A and point B? Express your answer in simplest radical form. [asy]
+unitsize(0.75cm);
+defaultpen(linewidth(0.7pt)+fontsize(10pt));
+dotfactor=4;
+
+draw((0,1)--(1,1)--(1,0)--(0,0)--(0,1)--(1,2)--(2,2)--(1,1));
+draw((1,0)--(2,1)--(2,2));
+dot((0,1));
+label("$A$",(0,1),W);
+dot((2,1));
+label("$B$",(2,1),E);
+[/asy]

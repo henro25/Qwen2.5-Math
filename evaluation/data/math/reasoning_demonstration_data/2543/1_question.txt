@@ -1,0 +1,10 @@
+Problem: In the two concentric circles shown, the radius of the outer circle is twice the radius of the inner circle. What is the area of the gray region, in square feet, if the width of the gray region is 2 feet? Express your answer in terms of $\pi$.
+
+[asy]
+filldraw(circle((0,0),4),gray);
+filldraw(circle((0,0),2),white);
+
+draw((2,0)--(4,0),linewidth(1));
+
+label("$2^{\prime}$",(3,0),N);
+[/asy]

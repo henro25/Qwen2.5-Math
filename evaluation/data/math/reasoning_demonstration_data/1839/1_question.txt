@@ -1,0 +1,1 @@
+Problem: Given the three digits 2, 4 and 7, how many different positive two-digit integers can be formed using these digits if a digit may not be repeated in an integer?

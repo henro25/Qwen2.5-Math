@@ -1,0 +1,1 @@
+Problem: If $f(x)=f(2-x)$ for all $x$, then what line is necessarily an axis of symmetry of the graph of $y=f(x)$? (Give the simplest equation of this line.)

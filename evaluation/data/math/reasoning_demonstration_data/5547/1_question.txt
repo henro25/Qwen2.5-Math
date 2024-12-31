@@ -1,0 +1,1 @@
+Problem: Find the radius of the circle with equation $9x^2-18x+9y^2+36y+44=0.$

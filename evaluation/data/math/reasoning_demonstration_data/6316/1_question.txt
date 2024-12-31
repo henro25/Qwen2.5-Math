@@ -1,0 +1,1 @@
+Problem: If $13^{3n}=\left(\frac{1}{13}\right)^{n-24}$, find $n$.

@@ -1,0 +1,1 @@
+Problem: How many cubic centimeters are in the volume of a cone having a diameter of 10cm and a height of 6cm? Express your answer in terms of $\pi$.

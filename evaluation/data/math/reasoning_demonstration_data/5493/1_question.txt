@@ -1,0 +1,1 @@
+Problem: The side length of square $A$ is 36 cm. The side length of square $B$ is 42 cm. What is the ratio of the area of square $A$ to the area of square $B$? Express your answer as a common fraction.

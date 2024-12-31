@@ -1,0 +1,1 @@
+Problem: Two students are having a pie eating contest. The first student eats $\frac{6}{7}$ of one pie. The second student eats $\frac{3}{4}$ of one pie. How much more pie did the first student finish than the second student? Express your answer as a fraction of one pie, reduced to simplest form.

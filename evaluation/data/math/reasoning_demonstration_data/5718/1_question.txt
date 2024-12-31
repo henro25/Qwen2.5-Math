@@ -1,0 +1,1 @@
+Problem: A pyramid with volume 40 cubic inches has a rectangular base. If the length of the base is doubled, the width tripled and the height increased by $50\%$, what is the volume of the new pyramid, in cubic inches?

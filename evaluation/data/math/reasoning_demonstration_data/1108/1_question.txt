@@ -1,0 +1,1 @@
+Problem: Suppose that there exist nonzero complex numbers $a,$ $b,$ $c,$ and $d$ such that $k$ is a root of both the equations $ax^3 + bx^2 + cx + d = 0$ and $bx^3 + cx^2 + dx + a = 0.$  Enter all possible values of $k,$ separated by commas.

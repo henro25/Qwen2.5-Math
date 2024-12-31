@@ -1,0 +1,1 @@
+Problem: There are two concentric spheres of radii 3 units and 6 units. What is the volume, in cubic units, of the region within the larger sphere and not within the smaller sphere? Express your answer in terms of $\pi$.

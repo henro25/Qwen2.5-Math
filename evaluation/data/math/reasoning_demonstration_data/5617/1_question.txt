@@ -1,0 +1,3 @@
+Problem: Let $x$ be a positive integer such that $9x\equiv 1\pmod{25}$.
+
+What is the remainder when $11+x$ is divided by $25$?

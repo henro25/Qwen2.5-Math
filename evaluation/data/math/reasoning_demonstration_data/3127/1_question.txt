@@ -1,0 +1,1 @@
+Problem: In parallelogram $ABCD$, $AB = 38$ cm, $BC = 3y^3$ cm, $CD = 2x +4$ cm, and $AD = 24$ cm. What is the product of $x$ and $y$?

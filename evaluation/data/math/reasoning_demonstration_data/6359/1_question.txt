@@ -1,0 +1,1 @@
+Problem: Factor the following expression: $55z^{17}+121z^{34}$.

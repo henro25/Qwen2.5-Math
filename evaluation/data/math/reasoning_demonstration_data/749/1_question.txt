@@ -1,0 +1,1 @@
+Problem: The terms $x, x + 2, x + 4, \dots, x + 2n$ form an arithmetic sequence, with $x$ an integer. If each term of the sequence is cubed, the sum of the cubes is $-1197$. What is the value of $n$ if $n > 3$?

@@ -1,0 +1,2 @@
+Problem: Find the point on the line
+\[y = -3x + 5\]that is closest to the point $(-4,-2).$

@@ -1,0 +1,1 @@
+Problem: Suppose that $a$ and $b$ are positive integers for which $a$ has $3$ factors and $b$ has $a$ factors. If $b$ is divisible by $a$, then what is the least possible value of $b?$

@@ -1,0 +1,1 @@
+Problem: John recently bought a used car for $\$5000$ for his pizza delivery job. He gets $\$10$ for each pizza he delivers, but he has to spend $\$3$ on gas for each pizza he delivers. What is the minimum whole number of pizzas John must deliver in order to earn back the money he spent on the car he bought?

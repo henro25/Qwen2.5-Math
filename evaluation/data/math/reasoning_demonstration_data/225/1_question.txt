@@ -1,0 +1,5 @@
+Problem: Consider the line parameterized by
+\begin{align*} 
+x&= 4t + 2,\\ 
+y& = t+2.
+\end{align*}Find a vector $\begin{pmatrix}a \\ b \end{pmatrix}$ pointing from the origin to this line that is parallel to $\begin{pmatrix}2 \\1 \end{pmatrix}$.

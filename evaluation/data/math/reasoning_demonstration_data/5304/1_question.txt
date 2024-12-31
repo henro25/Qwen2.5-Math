@@ -1,0 +1,1 @@
+Problem: The graph of the line $x+y=b$ is a perpendicular bisector of the line segment from $(0,3)$ to $(6,9)$. What is the value of b?

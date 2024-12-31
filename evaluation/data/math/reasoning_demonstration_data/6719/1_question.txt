@@ -1,0 +1,2 @@
+Problem: The base of a triangle is of length $b$, and the altitude is of length $h$. A rectangle of height $x$ is inscribed in the triangle with the base of the rectangle in the base of the triangle. The area of the rectangle is:
+$\textbf{(A)}\ \frac{bx}{h}(h-x)\qquad \textbf{(B)}\ \frac{hx}{b}(b-x)\qquad \textbf{(C)}\ \frac{bx}{h}(h-2x)\qquad \textbf{(D)}\ x(b-x)\qquad \textbf{(E)}\ x(h-x)$

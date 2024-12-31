@@ -1,0 +1,25 @@
+Problem: What is the matrix $\mathbf{M}$ that performs the transformation which sends square $ABCD$ to square $A'B'C'D'$?  (In particular, $A$ goes to $A',$ and so on.)
+
+[asy]
+
+size(200);
+import graph;
+
+pair Z=(0,0), A=(2,3), B=(-3,2), C=(-4,1), D=(-1,-4);
+
+Label f; 
+f.p=fontsize(6); 
+xaxis(-1.5,1.5,Ticks(f, 1.0)); 
+yaxis(-0.5,2.5,Ticks(f, 1.0));
+
+draw((0,0)--(1,0)--(1,1)--(0,1)--(0,0),red);
+dot((0,0)); label("$A=A'$", (0,0), SE);
+dot((1,0)); label("$D$", (1,0), NE);
+dot((1,1)); label("$C=D'$", (1,1), E);
+dot((0,1)); label("$B$", (0,1), NE);
+
+draw((0,0)--(1,1)--(0,2)--(-1,1)--(0,0), blue);
+dot((0,2)); label("$C'$", (0,2), NE);
+dot((-1,1)); label("$B'$", (-1,1), W);
+
+[/asy]

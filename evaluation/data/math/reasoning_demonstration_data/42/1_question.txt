@@ -1,0 +1,1 @@
+Problem: Simplify $\sqrt{7\cdot 2}\cdot \sqrt{2^3\cdot 7^3}$.

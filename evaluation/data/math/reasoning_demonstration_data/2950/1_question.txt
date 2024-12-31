@@ -1,0 +1,8 @@
+Problem: Find the curve defined by the equation
+\[r = \frac{1}{1 - \cos \theta}.\](A) Line
+(B) Circle
+(C) Parabola
+(D) Ellipse
+(E) Hyperbola
+
+Enter the letter of the correct option.

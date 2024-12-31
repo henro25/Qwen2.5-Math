@@ -1,0 +1,1 @@
+Problem: What is the remainder when 2007 is divided by 25?

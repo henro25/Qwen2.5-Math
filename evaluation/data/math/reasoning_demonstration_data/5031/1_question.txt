@@ -1,0 +1,1 @@
+Problem: Two sides of an isosceles triangle are 10 inches and 20 inches. If the shortest side of a similar triangle is 50 inches, what is the perimeter of the larger triangle?

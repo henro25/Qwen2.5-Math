@@ -1,0 +1,7 @@
+Problem: Tyler has entered a buffet line in which he chooses one kind of meat, two different vegetables and one dessert.  If the order of food items is not important, how many different meals might he choose?
+
+$\bullet$  Meat: beef, chicken, pork
+
+$\bullet$  Vegetables: baked beans, corn, potatoes, tomatoes
+
+$\bullet$  Dessert: brownies, chocolate cake, chocolate pudding, ice cream

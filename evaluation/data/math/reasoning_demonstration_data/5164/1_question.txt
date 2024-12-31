@@ -1,0 +1,1 @@
+Problem: A regular octagon $ABCDEFGH$ has sides of length two. Find the area of $\bigtriangleup ADG$. Express your answer in simplest radical form.

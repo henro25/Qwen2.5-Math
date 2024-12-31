@@ -1,0 +1,1 @@
+Problem: The equation $x^3 - 9x^2 + 8x +2 = 0$ has three real roots $p$, $q$, $r$.  Find $\frac{1}{p^2} + \frac{1}{q^2} + \frac{1}{r^2}$.

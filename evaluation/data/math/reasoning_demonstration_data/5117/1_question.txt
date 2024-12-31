@@ -1,0 +1,1 @@
+Problem: Find all solutions to the equation $\!\sqrt{2-3z} = 9$.  Express your answer as a common fraction.

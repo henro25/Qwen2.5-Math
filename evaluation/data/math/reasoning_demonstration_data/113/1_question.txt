@@ -1,0 +1,1 @@
+Problem: The line $x = k$ intersects the graph of the parabola $x = -2y^2 - 3y + 5$ at exactly one point.  What is $k$?

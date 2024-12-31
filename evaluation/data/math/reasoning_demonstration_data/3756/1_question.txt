@@ -1,0 +1,1 @@
+Problem: The value $2^8 -1$ is divisible by 3 prime numbers. What is the sum of the three prime numbers?

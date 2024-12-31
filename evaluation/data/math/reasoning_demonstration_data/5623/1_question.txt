@@ -1,0 +1,1 @@
+Problem: How many positive three-digit integers less than 500 have at least two digits that are the same?

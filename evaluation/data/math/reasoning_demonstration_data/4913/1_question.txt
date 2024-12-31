@@ -1,0 +1,9 @@
+Problem: Rational Man and Irrational Man both buy new cars, and they decide to drive around two racetracks from time $t = 0$ to $t = \infty.$  Rational Man drives along the path parameterized by
+\begin{align*}
+x &= \cos t, \\
+y &= \sin t,
+\end{align*}and Irrational Man drives along the path parameterized by
+\begin{align*}
+x &= 1 + 4 \cos \frac{t}{\sqrt{2}}, \\
+y &= 2 \sin \frac{t}{\sqrt{2}}.
+\end{align*}If $A$ is a point on Rational Man's racetrack, and $B$ is a point on Irrational Man's racetrack, then find the smallest possible distance $AB.$

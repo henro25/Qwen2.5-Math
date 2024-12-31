@@ -1,0 +1,1 @@
+Problem: How many distinct solutions are there to the equation $|x-7| = |x+1|$?

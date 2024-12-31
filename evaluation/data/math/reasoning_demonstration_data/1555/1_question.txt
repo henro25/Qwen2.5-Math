@@ -1,0 +1,1 @@
+Problem: Let b be a real number randomly selected from the interval $[-17,17]$. Then, m and n are two relatively prime positive integers such that m/n is the probability that the equation $x^4+25b^2=(4b^2-10b)x^2$ has $\textit{at least}$ two distinct real solutions. Find the value of $m+n$.

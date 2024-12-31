@@ -1,0 +1,1 @@
+Problem: How many diagonals can be drawn for a hexagon?

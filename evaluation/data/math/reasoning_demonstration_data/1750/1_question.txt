@@ -1,0 +1,1 @@
+Problem: Given the nine-sided regular polygon $A_1A_2A_3A_4A_5A_6A_7A_8A_9$, how many distinct equilateral triangles in the plane of the polygon have at least two vertices in the set $\{A_1, A_2, \ldots A_9\}$?

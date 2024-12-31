@@ -1,0 +1,1 @@
+Problem: How many ways are there to put 4 distinguishable balls into 2 indistinguishable boxes?

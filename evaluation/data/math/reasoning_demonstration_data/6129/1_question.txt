@@ -1,0 +1,23 @@
+Problem: One focus of the ellipse $\frac{x^2}{2} + y^2 = 1$ is at $F = (1,0).$  There exists a point $P = (p,0),$ where $p > 0,$ such that for any chord $\overline{AB}$ that passes through $F,$ angles $\angle APF$ and $\angle BPF$ are equal.  Find $p.$
+
+[asy]
+unitsize(2 cm);
+
+pair A, B, F, P;
+path ell = xscale(sqrt(2))*Circle((0,0),1);
+
+F = (1,0);
+A = (sqrt(2)*Cos(80),Sin(80));
+B = intersectionpoint(interp(A,F,0.1)--interp(A,F,5),ell);
+P = (2,0);
+
+draw(ell);
+draw(A--B);
+draw(A--P--B);
+draw(F--P);
+
+dot("$A$", A, N);
+dot("$B$", B, SE);
+dot("$F$", F, SW);
+dot("$P$", P, E);
+[/asy]

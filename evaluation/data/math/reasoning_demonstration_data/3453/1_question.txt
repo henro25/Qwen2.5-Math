@@ -1,0 +1,1 @@
+Problem: Call an integer $n$ oddly powerful if there exist positive integers $a$ and $b$, where $b>1$, $b$ is odd, and $a^b = n$. How many oddly powerful integers are less than $2010$?

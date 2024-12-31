@@ -1,0 +1,1 @@
+Problem: If $f(x) = x^4 + x^2 + 5x$, evaluate $f(5) - f(-5)$.

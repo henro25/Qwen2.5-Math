@@ -1,0 +1,1 @@
+Problem: Points $A$, $B$, $C$, and $T$ are in space such that each of $\overline{TA}$, $\overline{TB}$, and $\overline{TC}$ is perpendicular to the other two.  If $TA = TB = 12$ and $TC = 6$, then what is the distance from $T$ to face $ABC$?

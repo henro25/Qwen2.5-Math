@@ -1,0 +1,1 @@
+Problem: If $x (x+y) = 27$ and $y (x+y) = 54$, what is the value of $(x+y)^2$?

@@ -1,0 +1,1 @@
+Problem: My club has 25 members.  In how many ways can I choose members to form a 4-person executive committee?

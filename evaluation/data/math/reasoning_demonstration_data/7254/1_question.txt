@@ -1,0 +1,1 @@
+Problem: The planning committee at school has 10 members. Exactly four of these members are teachers. A four-person subcommittee with at least one member who is a teacher must be formed from the members of the planning committee. How many distinct subcommittees are possible?

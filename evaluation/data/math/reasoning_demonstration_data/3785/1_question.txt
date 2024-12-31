@@ -1,0 +1,1 @@
+Problem: If $\left|\frac{12}{x}+3\right|=2$, find the product of all possible values of $x$. Express your answer as an improper fraction.

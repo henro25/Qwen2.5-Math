@@ -1,0 +1,1 @@
+Problem: What's the coefficient of the $m^4n^4$ term in the expansion of $(m+n)^8$?

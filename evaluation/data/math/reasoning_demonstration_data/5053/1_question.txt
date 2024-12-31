@@ -1,0 +1,1 @@
+Problem: I am playing a walking game with myself.  On move 1, I do nothing, but on move $n$ where $2 \le n \le 25$, I take one step forward if $n$ is prime and two steps backwards if the number is composite.  After all 25 moves, I stop and walk back to my original starting point.  How many steps long is my walk back?

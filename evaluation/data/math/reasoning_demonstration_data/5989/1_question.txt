@@ -1,0 +1,2 @@
+Problem: Find the number of ordered pairs $(x,y)$ of real numbers such that
+\[16^{x^2 + y} + 16^{x + y^2} = 1.\]

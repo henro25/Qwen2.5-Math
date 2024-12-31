@@ -1,0 +1,1 @@
+Problem: What is the value of $101^{4} - 4 \cdot 101^{3} + 6 \cdot 101^2 - 4 \cdot 101 + 1$?  (No calculators!)

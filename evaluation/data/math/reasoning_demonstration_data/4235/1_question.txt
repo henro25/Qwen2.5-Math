@@ -1,0 +1,1 @@
+Problem: Define $\#N$ by the formula $\#N = .5(N) + 1$. Calculate $\#(\#(\#58))$.

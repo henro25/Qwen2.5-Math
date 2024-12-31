@@ -1,0 +1,1 @@
+Problem: Find $\cot (-60^\circ).$

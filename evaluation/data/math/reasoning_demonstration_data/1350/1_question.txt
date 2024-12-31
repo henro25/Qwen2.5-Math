@@ -1,0 +1,1 @@
+Problem: Divide the product of the first five positive composite integers by the product of the next five composite integers. Express your answer as a common fraction.

@@ -1,0 +1,1 @@
+Problem: Find the smallest composite number that has no prime factors less than 10.

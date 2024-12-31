@@ -1,0 +1,1 @@
+Problem: How many times does the digit 9 appear in the list of all integers from 1 to 500? (The number $ 99 $, for example, is counted twice, because $9$ appears two times in it.)

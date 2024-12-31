@@ -1,0 +1,1 @@
+Problem: Let $\Delta ABC$ be an equilateral triangle. How many squares in the same plane as $\Delta ABC$ share two vertices with the triangle?

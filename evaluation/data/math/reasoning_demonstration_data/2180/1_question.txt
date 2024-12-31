@@ -1,0 +1,3 @@
+Problem: Suppose that $n, n+1, n+2, n+3, n+4$ are five consecutive integers.
+
+Determine a simplified expression for the sum of these five consecutive integers.

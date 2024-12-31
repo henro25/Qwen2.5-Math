@@ -1,0 +1,1 @@
+Problem: What is the least integer value of $x$ such that  $\lvert2x+ 7\rvert\le 16$?

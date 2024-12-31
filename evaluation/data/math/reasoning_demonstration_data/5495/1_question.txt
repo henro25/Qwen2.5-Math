@@ -1,0 +1,1 @@
+Problem: To be eligible for an algebra class a student must have an average of at least $83\%$ over all four quarters in his or her pre-algebra class. If Fisher had an $82\%$, $77\%$, and $75\%$ in the first three quarters, what is the minimum score he must earn in the 4th quarter to move on to algebra?

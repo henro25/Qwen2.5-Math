@@ -1,0 +1,1 @@
+Problem: Solve for $r$: \[\frac{r-45}{2} = \frac{3-2r}{5}.\]

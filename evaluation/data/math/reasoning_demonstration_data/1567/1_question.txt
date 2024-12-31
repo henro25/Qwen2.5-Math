@@ -1,0 +1,2 @@
+Problem: There exist vectors $\mathbf{a}$ and $\mathbf{b}$ such that
+\[\mathbf{a} + \mathbf{b} = \begin{pmatrix} 6 \\ -3 \\ -6 \end{pmatrix},\]where $\mathbf{a}$ is parallel to $\begin{pmatrix} 1 \\ 1 \\ 1 \end{pmatrix},$ and $\mathbf{b}$ is orthogonal to $\begin{pmatrix} 1 \\ 1 \\ 1 \end{pmatrix}.$  Find $\mathbf{b}.$

@@ -1,0 +1,1 @@
+Problem: Let $A$ and $B$ be real numbers such that $\frac{A}{x-5}+B(x+1)=\frac{-3x^2+12x+22}{x-5}$. What is $A+B$?

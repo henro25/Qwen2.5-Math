@@ -1,0 +1,10 @@
+Problem: Shown below are rows 1, 2, and 3 of Pascal's triangle.
+
+\[
+\begin{array}{ccccccc}
+& & 1 & & 1 & & \\
+& 1 & & 2 & & 1 & \\
+1 & & 3 & & 3 & & 1
+\end{array}
+\]Let $(a_i),$ $(b_i),$ $(c_i)$ be the sequence, from left to right, of elements in the 2005th, 2006th, and 2007th rows, respectively, with the leftmost element occurring at $i = 0.$  Compute
+\[\sum_{i = 0}^{2006} \frac{b_i}{c_i} - \sum_{i = 0}^{2005} \frac{a_i}{b_i}.\]

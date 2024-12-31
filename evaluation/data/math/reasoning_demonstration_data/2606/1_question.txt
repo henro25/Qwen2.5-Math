@@ -1,0 +1,3 @@
+Problem: Express as a common fraction in simplest form: $$
+\sqrt{6\frac{1}{4}}
+$$

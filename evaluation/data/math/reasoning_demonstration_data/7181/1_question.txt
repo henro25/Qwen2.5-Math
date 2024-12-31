@@ -1,0 +1,9 @@
+Problem: The figure drawn is not to scale. Which of the five segments shown is the longest? [asy]
+pair A = (-3,0), B=(0,2), C=(3,0), D=(0,-1);
+draw(D(MP("A", A, W))--D(MP("B", B, N))--D(MP("C", C, E))--D(MP("D", D, S))--A);
+draw(B--D);
+MP("55^\circ", (0,-0.75), NW);
+MP("55^\circ", (0,-0.75), NE);
+MP("40^\circ", (0,1.5), SW);
+MP("75^\circ", (0,1.5), SE);
+[/asy]

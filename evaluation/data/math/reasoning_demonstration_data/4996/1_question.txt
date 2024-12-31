@@ -1,0 +1,1 @@
+Problem: Evaluate $3x^y + 4y^x$ when $x=2$ and $y=3$.

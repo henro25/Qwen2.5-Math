@@ -1,0 +1,7 @@
+Problem: A 6 cm by 8 cm rectangle is inscribed in a circle. What is the number of centimeters in the circumference of the circle? Express your answer in terms of $\pi$.
+
+[asy]import graph;
+defaultpen(linewidth(0.7));
+draw(Circle((0,0),20));
+draw((-16,-12)--(16,-12)--(16,12)--(-16,12)--cycle);
+[/asy]

@@ -1,0 +1,1 @@
+Problem: What is the positive difference between $\frac{6^2 + 6^2}{6}$ and $\frac{6^2 \times 6^2}{6}$?

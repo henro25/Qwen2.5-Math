@@ -1,0 +1,1 @@
+Problem: Calculate $5\cdot5! + 4\cdot4!+4!$.

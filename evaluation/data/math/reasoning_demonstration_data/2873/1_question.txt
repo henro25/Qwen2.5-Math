@@ -1,0 +1,1 @@
+Problem: Two rays with common endpoint $O$ form a $30^\circ$ angle. Point $A$ lies on one ray, point $B$ on the other ray, and $AB=1$. What is the maximum possible length of $\overline{OB}$?

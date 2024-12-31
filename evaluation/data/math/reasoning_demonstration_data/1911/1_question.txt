@@ -1,0 +1,17 @@
+Problem: Find $PQ$ in the triangle below.
+
+
+[asy]
+unitsize(1inch);
+pair P,Q,R;
+P = (0,0);
+Q= (sqrt(3),0);
+R = (0,1);
+draw (P--Q--R--P,linewidth(0.9));
+draw(rightanglemark(Q,P,R,3));
+label("$P$",P,S);
+label("$Q$",Q,S);
+label("$R$",R,N);
+label("$9\sqrt{3}$",R/2,W);
+label("$30^\circ$",(1.25,0),N);
+[/asy]

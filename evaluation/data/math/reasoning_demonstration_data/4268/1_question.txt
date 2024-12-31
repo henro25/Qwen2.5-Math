@@ -1,0 +1,4 @@
+Problem: Let $x$ and $y$ be distinct real numbers such that
+\[
+\begin{vmatrix} 1 & 4 & 9 \\ 3 & x & y \\ 3 & y & x \end{vmatrix}
+= 0.\]Find $x + y.$

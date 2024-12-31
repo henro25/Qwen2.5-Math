@@ -1,0 +1,2 @@
+Problem: Line $L$ is the intersection of the planes $x + 2y + 3z = 2$ and $x - y + z = 3.$  A plane $P,$ different from both these planes, contains line $L,$ and has a distance of $\frac{2}{\sqrt{3}}$ from the point $(3,1,-1).$  Find the equation of plane $P.$  Enter your answer in the form
+\[Ax + By + Cz + D = 0,\]where $A,$ $B,$ $C,$ $D$ are integers such that $A > 0$ and $\gcd(|A|,|B|,|C|,|D|) = 1.$

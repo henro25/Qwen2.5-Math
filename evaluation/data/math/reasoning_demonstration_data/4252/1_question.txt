@@ -1,0 +1,2 @@
+Problem: Each successive term in the sequence $2048, 512, 128, x,
+y, 2, \frac 12, \frac 18,...$ is obtained by multiplying the previous term by a constant. What is the value of $x + y$?

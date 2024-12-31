@@ -1,0 +1,1 @@
+Problem: Find the sum of the squares of the solutions of $x^2-13x+4=0$.

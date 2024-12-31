@@ -1,0 +1,1 @@
+Problem: Let $S$ be the set of all positive integers that have four digits in base $2$. What is the sum of all of the elements in $S$, when expressed in base $2$?

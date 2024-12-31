@@ -1,0 +1,1 @@
+Problem: A piece of string fits exactly once around the perimeter of a square whose area is 144.  Rounded to the nearest whole number, what is the area of the largest circle that can be formed from the piece of string?

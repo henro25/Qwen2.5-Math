@@ -1,0 +1,2 @@
+Problem: The polynomial
+\[ax^4 + bx^3 + cx^2 + dx + e = 0\]has coefficients that are all integers, and has roots $-2,$ $5,$ $9,$ and $-1/3.$  If $e$ is a positive integer, then find its smallest possible value.

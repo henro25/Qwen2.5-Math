@@ -1,0 +1,1 @@
+Problem: Triangle $ABC$ has side lengths $AB=5$, $BC=6$, and $AC=7$. Two bugs start simultaneously from $A$ and crawl along the perimeter of the triangle in opposite directions at the same speed. They meet at point $D$. What is $BD$?

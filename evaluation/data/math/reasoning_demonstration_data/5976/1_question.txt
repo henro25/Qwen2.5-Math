@@ -1,0 +1,1 @@
+Problem: Let $p(x) = x^2 + bx + c,$ where $b$ and $c$ are integers.  If $p(x)$ is factor of both $x^4 + 6x^2 + 25$ and $3x^4 + 4x^ 2+ 28x + 5,$ what is $p(1)$?

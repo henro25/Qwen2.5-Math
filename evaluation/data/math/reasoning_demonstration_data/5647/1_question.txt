@@ -1,0 +1,1 @@
+Problem: We call a number a mountain number if its middle digit is larger than any other digit.  For example, 284 is a mountain number.  How many 3-digit mountain numbers are there?

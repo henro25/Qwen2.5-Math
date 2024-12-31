@@ -1,0 +1,2 @@
+Problem: Let
+\[\mathbf{M} = \begin{pmatrix} a & b & c \\ b & c & a \\ c & a & b \end{pmatrix}\]be a matrix with complex entries such that $\mathbf{M}^2 = \mathbf{I}.$  If $abc = 1,$ then find the possible values of $a^3 + b^3 + c^3.$

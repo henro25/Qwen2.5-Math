@@ -1,0 +1,1 @@
+Problem: Compute $\begin{pmatrix} 2 & 3 \\ 7 & -1 \end{pmatrix} \begin{pmatrix} 1 & -5 \\ 0 & 4 \end{pmatrix}.$

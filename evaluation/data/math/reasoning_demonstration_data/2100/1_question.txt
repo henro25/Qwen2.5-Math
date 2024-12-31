@@ -1,0 +1,1 @@
+Problem: A right cylinder with a height of 5 inches has a radius of 2 inches. What is the area of the curved surface of the cylinder, in square inches? Express your answer in terms of $\pi$.

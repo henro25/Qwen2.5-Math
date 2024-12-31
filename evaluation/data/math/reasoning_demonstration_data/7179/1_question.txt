@@ -1,0 +1,1 @@
+Problem: The area of the base of a hemisphere is $100\pi$. What is the total surface area of the hemisphere? Express your answer in terms of $\pi$.

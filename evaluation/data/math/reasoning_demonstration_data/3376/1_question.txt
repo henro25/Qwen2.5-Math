@@ -1,0 +1,1 @@
+Problem: Given that $f(x) = x^k$ where $k > 0$, what is the range of $f(x)$ on the interval $[1, \infty)$?

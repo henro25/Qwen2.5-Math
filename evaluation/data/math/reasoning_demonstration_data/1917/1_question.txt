@@ -1,0 +1,23 @@
+Problem: How many degrees are there in the measure of angle $P?$
+
+[asy]
+size (5cm,5cm);
+pair A,B,C,D,E;
+
+A=(0,1.1);
+B=(4.5,0);
+C=(6.4,1.7);
+D=(4.2,5);
+E=(0.5,4.2);
+
+draw (A--B--C--D--E--A,linewidth(1));
+
+label("$P$",A,SW);
+label("$128^\circ$",shift(0,0.6)*B);
+
+label("$92^\circ$",C,W);
+label("$113^\circ$",shift(-0.3,-0.5)*D);
+label("$111^\circ$",shift(0.5,-0.3)*E);
+draw(anglemark(B,A,E),blue);
+
+[/asy]

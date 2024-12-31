@@ -1,0 +1,1 @@
+Problem: Find the range of $f(x) = \sin^4 x - \sin x \cos x  +\cos^4 x.$

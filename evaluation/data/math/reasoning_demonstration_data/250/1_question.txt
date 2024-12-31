@@ -1,0 +1,1 @@
+Problem: Malcolm can run a race at a speed of 6 minutes per mile, while Joshua runs at 8 minutes per mile. In a 10-mile race, how many minutes after Malcolm crosses the finish line will Joshua cross the finish line if they start the race together?

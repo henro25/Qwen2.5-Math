@@ -1,0 +1,1 @@
+Problem: If $g(x) = x^2$ and $f(x) = 2x - 1$, what is the value of $f(g(2))$?

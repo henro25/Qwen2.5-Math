@@ -1,0 +1,1 @@
+Problem: Let $a_n$ be the integer obtained by writing all the integers from $1$ to $n$ from left to right. For example, $a_3 = 123$ and $a_{11} = 1234567891011$. Compute the remainder when $a_{44}$ is divided by $45$.

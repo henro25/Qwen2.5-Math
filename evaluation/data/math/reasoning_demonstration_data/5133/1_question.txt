@@ -1,0 +1,8 @@
+Problem: A square 10cm on each side has four quarter circles drawn with centers at the four corners. How many square centimeters are in the area of the shaded region? Express your answer in terms of $\pi$.
+
+[asy]
+unitsize (1.5 cm);
+
+draw((-1,-1)--(1,-1)--(1,1)--(-1,1)--cycle);
+filldraw(arc((1,1),1,270,180)--arc((-1,1),1,360,270)--arc((-1,-1),1,90,0)--arc((1,-1),1,180,90)--cycle,gray);
+[/asy]

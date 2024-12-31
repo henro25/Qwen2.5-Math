@@ -1,0 +1,1 @@
+Problem: An isosceles, obtuse triangle has one angle with a degree measure that is 50$\%$ larger than the measure of a right angle. What is the measure, in degrees, of one of the two smallest angles in the triangle? Express your answer as a decimal to the nearest tenth.

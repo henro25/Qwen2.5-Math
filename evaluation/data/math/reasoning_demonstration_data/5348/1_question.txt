@@ -1,0 +1,1 @@
+Problem: What non-zero, real value of $x$ satisfies $(5x)^4= (10x)^3$? Express your answer as a common fraction.

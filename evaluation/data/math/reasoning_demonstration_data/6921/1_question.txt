@@ -1,0 +1,2 @@
+Problem: Determine the sum of all real numbers $x$ satisfying
+\[(x^2-4x+2)^{x^2-5x+2} = 1.\]

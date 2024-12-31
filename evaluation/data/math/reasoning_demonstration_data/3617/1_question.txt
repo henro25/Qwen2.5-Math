@@ -1,0 +1,1 @@
+Problem: Find the domain of the function $\frac{x+1}{x^2+6x+8}$.

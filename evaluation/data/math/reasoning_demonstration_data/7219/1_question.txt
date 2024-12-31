@@ -1,0 +1,2 @@
+Problem: Find
+\[\min_{y \in \mathbb{R}} \max_{0 \le x \le 1} |x^2 - xy|.\]

@@ -1,0 +1,2 @@
+Problem: Consider the function
+\[f(x) = \max \{-11x - 37, x - 1, 9x + 3\}\]defined for all real $x.$  Let $p(x)$ be a quadratic polynomial tangent to the graph of $f$ at three distinct points with $x$-coordinates $x_1,$ $x_2,$ $x_3.$  Find $x_1 + x_2 + x_3.$

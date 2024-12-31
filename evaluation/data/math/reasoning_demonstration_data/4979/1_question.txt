@@ -1,0 +1,1 @@
+Problem: Determine the residue of $-811\pmod{24}$. Your answer should be an integer in the range $0,1,2,\ldots,22,23$.

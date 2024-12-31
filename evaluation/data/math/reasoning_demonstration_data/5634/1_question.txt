@@ -1,0 +1,1 @@
+Problem: Let $f(x) = \left\lceil\dfrac{1}{x+2}\right\rceil$ for $x > -2$, and $f(x) = \left\lfloor\dfrac{1}{x+2}\right\rfloor$ for $x < -2$. ($f(x)$ is not defined at $x = -2$.) Which integer is not in the range of $f(x)$?

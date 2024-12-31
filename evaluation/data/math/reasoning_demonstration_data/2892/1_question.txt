@@ -1,0 +1,1 @@
+Problem: An edge of a square can be expressed as $4x-15$ meters or as $20-3x$ meters. What is its area in square meters?

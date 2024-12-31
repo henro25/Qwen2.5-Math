@@ -1,0 +1,1 @@
+Problem: How many of the 343 smallest positive integers written in base 7 use 4 or 5 (or both) as a digit?

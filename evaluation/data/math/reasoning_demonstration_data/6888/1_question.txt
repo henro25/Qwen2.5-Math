@@ -1,0 +1,9 @@
+Problem: What is the least positive integer that satisfies the following conditions?
+
+a) When divided by 2, the remainder is 1.
+
+b) When divided by 3, the remainder is 2.
+
+c) When divided by 4, the remainder is 3.
+
+d) When divided by 5, the remainder is 4.

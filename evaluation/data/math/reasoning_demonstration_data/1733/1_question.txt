@@ -1,0 +1,1 @@
+Problem: If the probability that a baby born in a certain hospital will speak in the next day is 1/4, what is the probability that at least 2 babies out of a cluster of 5 babies will speak tomorrow?

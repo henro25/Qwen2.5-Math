@@ -1,0 +1,1 @@
+Problem: Compute $1011_2 + 101_2 - 1100_2 + 1101_2$.  Express your answer in base 2.

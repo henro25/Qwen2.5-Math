@@ -1,0 +1,1 @@
+Problem: There are 5 blue chips, 4 red chips and 3 yellow chips in a bag. One chip is drawn from the bag. That chip is placed back into the bag, and a second chip is drawn. What is the probability that the two selected chips are of different colors? Express your answer as a common fraction.

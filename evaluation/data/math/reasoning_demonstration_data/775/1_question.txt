@@ -1,0 +1,1 @@
+Problem: Find the remainder when $x^5-x^4-x^3+x^2+x$ is divided by $(x^2-4)(x+1)$.

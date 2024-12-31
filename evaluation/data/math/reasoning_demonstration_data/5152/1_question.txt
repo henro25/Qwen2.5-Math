@@ -1,0 +1,1 @@
+Problem: Given $\begin{vmatrix} a & b \\ c & d \end{vmatrix} = 5,$ find $\begin{vmatrix} 2a & 2b \\ 2c & 2d \end{vmatrix}.$

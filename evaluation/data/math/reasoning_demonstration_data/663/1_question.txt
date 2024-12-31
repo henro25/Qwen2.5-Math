@@ -1,0 +1,1 @@
+Problem: How many ways are there to put 4 balls in 3 boxes if the balls are not distinguishable but the boxes are?

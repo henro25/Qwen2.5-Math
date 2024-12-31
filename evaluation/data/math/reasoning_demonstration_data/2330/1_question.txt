@@ -1,0 +1,4 @@
+Problem: Let $f$ be a function taking the integers to the integers such that
+\[f(m + n) + f(mn - 1) = f(m) f(n) + 2\]for all integers $m$ and $n.$
+
+Let $n$ be the number of possible values of $f(2),$ and let $s$ be the sum of all possible values of $f(2).$  Find $n \times s.$

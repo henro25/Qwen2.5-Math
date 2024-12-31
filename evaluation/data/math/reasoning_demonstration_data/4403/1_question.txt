@@ -1,0 +1,1 @@
+Problem: Write $x^{10} + x^5 + 1$ as the product of two polynomials with integer coefficients.

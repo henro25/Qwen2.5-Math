@@ -1,0 +1,1 @@
+Problem: 23 people attend a party. Each person shakes hands with at least two other people. What is the minimum possible number of handshakes?

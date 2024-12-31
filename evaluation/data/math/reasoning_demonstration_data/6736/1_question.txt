@@ -1,0 +1,1 @@
+Problem: What is the remainder when $x^2+7x-5$ divides $2x^4+11x^3-42x^2-60x+47$?

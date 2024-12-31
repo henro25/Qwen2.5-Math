@@ -1,0 +1,1 @@
+Problem: For how many digits $C$ is the positive three-digit number $1C3$ a multiple of 3?

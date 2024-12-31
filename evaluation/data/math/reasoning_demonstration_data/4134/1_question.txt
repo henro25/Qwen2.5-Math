@@ -1,0 +1,2 @@
+Problem: The four positive integers $a,$ $b,$ $c,$ $d$ satisfy
+\[a \times b \times c \times d = 10!.\]Find the smallest possible value of $a + b + c + d.$

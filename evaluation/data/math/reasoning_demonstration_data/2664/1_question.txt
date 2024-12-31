@@ -1,0 +1,3 @@
+Problem: If
+\[\frac{\sin^4 \theta}{a} + \frac{\cos^4 \theta}{b} = \frac{1}{a + b},\]then find the value of
+\[\frac{\sin^8 \theta}{a^3} + \frac{\cos^8 \theta}{b^3}\]in terms of $a$ and $b.$

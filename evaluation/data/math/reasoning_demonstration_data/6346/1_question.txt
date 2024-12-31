@@ -1,0 +1,1 @@
+Problem: A math field day competition is held in a room with many tables, and there are 6 stools at each table. Each stool has 3 legs, and each table has 4 legs. If there is a total of 484 legs on all the tables and stools in the room, how many tables are in the room?

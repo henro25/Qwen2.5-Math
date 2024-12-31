@@ -1,0 +1,19 @@
+Problem: Six congruent copies of the parabola $y = x^2$ are arranged in the plane so that each vertex is tangent to a circle, and each parabola is tangent to its two neighbors.  Find the radius of the circle.
+
+[asy]
+unitsize(1 cm);
+
+real func (real x) {
+  return (x^2 + 3/4);
+}
+
+path parab = graph(func,-1.5,1.5);
+
+draw(parab);
+draw(rotate(60)*(parab));
+draw(rotate(120)*(parab));
+draw(rotate(180)*(parab));
+draw(rotate(240)*(parab));
+draw(rotate(300)*(parab));
+draw(Circle((0,0),3/4));
+[/asy]

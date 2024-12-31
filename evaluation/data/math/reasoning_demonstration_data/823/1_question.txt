@@ -1,0 +1,2 @@
+Problem: Let $a_1,$ $a_2,$ $\dots,$ $a_{12}$ be positive real numbers such that $a_1 + a_2 + \dots + a_{12} = 1.$  Find the minimum value of
+\[\frac{1}{a_1} + \frac{1}{a_2} + \dots + \frac{1}{a_{12}}.\]

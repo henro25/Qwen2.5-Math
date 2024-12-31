@@ -1,0 +1,1 @@
+Problem: What is the value of the sum $\frac{2}{3}+\frac{2^2}{3^2}+\frac{2^3}{3^3}+ \ldots +\frac{2^{10}}{3^{10}}$? Express your answer as a common fraction.

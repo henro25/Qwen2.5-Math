@@ -1,0 +1,1 @@
+Problem: John needs to catch a train. The train arrives randomly some time between 2:00 and 3:00, waits for 20 minutes, and then leaves. If John also arrives randomly between 2:00 and 3:00, what is the probability that the train will be there when John arrives?

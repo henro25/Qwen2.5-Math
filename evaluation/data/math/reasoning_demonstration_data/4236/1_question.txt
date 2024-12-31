@@ -1,0 +1,2 @@
+Problem: Find all real numbers $p$ so that
+\[x^4 + 2px^3 + x^2 + 2px + 1 = 0\]has at least two distinct negative real roots.

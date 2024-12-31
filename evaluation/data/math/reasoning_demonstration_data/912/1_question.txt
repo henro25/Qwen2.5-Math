@@ -1,0 +1,1 @@
+Problem: For the ellipse $16x^2 - 64x + y^2 + 4y + 4 = 0,$ find the distance between the foci.

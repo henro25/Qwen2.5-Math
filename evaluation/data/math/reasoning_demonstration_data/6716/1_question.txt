@@ -1,0 +1,12 @@
+Problem: In the diagram, $PQ$ and $RS$ are diameters of a circle with radius 4.  If $PQ$ and $RS$ are perpendicular, what is the area of the shaded region?
+
+[asy]
+size(120);
+import graph;
+fill((-1,-1)--(-1,1)--(1,1)--(1,-1)--cycle,mediumgray);
+fill(Arc((0,0),sqrt(2),45,135)--cycle,mediumgray);fill(Arc((0,0),sqrt(2),225,315)--cycle,mediumgray);
+draw(Circle((0,0),sqrt(2)));
+draw((-1,-1)--(1,1)--(1,-1)--(-1,1)--cycle);
+label("$P$",(-1,1),NW); label("$R$",(1,1),NE); label("$S$",(-1,-1),SW); label("$Q$",(1,-1),SE);
+
+[/asy]

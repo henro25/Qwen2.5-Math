@@ -1,0 +1,1 @@
+Problem: My soccer team has 16 players.  I have to choose a starting lineup of a goalie and 10 regular players (the regular players are interchangeable).  How many different starting lineups can I choose?

@@ -1,0 +1,1 @@
+Problem: If $f(x)=2x^3+4$, find $f^{-1}(58)$.

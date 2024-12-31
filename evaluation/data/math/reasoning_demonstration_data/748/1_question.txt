@@ -1,0 +1,2 @@
+Problem: If $a = \log 9$ and $b = \log 16,$ compute
+\[4^{a/b} + 3^{b/a}.\]

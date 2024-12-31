@@ -1,0 +1,22 @@
+Problem: The parabola with equation $y=ax^2+bx+c$ is graphed below:
+
+[asy]
+xaxis(-3,7);
+
+yaxis(-5,32);
+
+real g(real x)
+
+{
+
+return 4(x-2)^2-4;
+}
+
+draw(graph(g,-1,5));
+dot((2,-4));
+label("Vertex: $(2,-4)$", (2,-4), SE);
+dot((4,12));
+label("$(4,12)$", (4,12), E);
+[/asy]
+
+The zeros of the quadratic $ax^2 + bx + c$ are at $x=m$ and $x=n$, where $m>n$. What is $m-n$?

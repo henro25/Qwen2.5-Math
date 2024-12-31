@@ -1,0 +1,5 @@
+Problem: A club has $5$ members from each of $3$ different schools, for a total of $15$ members. How many possible ways are there to arrange a presidency meeting under the following conditions:
+
+i. The club must choose one of the $3$ schools at which to host the meeting, and
+
+ii. The host school sends $2$ representatives to the meeting, and each of the other two schools sends $1$ representative.

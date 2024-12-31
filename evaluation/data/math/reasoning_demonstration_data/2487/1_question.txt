@@ -1,0 +1,1 @@
+Problem: Given positive integers $x$ and $y$ such that $x\neq y$ and $\frac{1}{x} + \frac{1}{y} = \frac{1}{12}$, what is the smallest possible value for $x + y$?

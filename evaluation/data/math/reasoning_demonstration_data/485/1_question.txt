@@ -1,0 +1,1 @@
+Problem: Solve for $p$: $\frac 56 = \frac n{72} = \frac {m+n}{84}= \frac {p - m}{120}$.

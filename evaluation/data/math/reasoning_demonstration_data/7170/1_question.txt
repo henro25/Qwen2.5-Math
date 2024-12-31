@@ -1,0 +1,1 @@
+Problem: There are four even integers in the top five rows of Pascal's Triangle. How many even integers are in the top 10 rows of the triangle?

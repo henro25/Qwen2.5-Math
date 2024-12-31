@@ -1,0 +1,1 @@
+Problem: Evaluate the product \[ (a-10) \cdot (a-9) \cdot \dotsm \cdot (a-1) \cdot a, \] where $a=2$.

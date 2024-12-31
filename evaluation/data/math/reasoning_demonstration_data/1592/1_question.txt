@@ -1,0 +1,1 @@
+Problem: The diagonals of a rhombus are $10$ inches and $24$ inches. What is the perimeter of the rhombus, in inches?

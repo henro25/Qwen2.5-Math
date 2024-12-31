@@ -1,0 +1,1 @@
+Problem: The square of an integer is 182 greater than the integer itself. What is the sum of all integers for which this is true?

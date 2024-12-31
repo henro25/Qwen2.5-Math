@@ -1,0 +1,1 @@
+Problem: A right pyramid has a square base with perimeter 24 inches. Its apex is 9 inches from each of the other vertices. What is the height of the pyramid from its peak to the center of its square base, in inches?

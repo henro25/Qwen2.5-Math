@@ -1,0 +1,5 @@
+Problem: A function $f:\mathbb{Z} \to \mathbb{Z}$ satisfies
+\begin{align*}
+f(x+4)-f(x) &= 8x+20, \\
+f(x^2-1) &= (f(x)-x)^2+x^2-2
+\end{align*}for all integers $x.$  Enter the ordered pair $(f(0),f(1)).$

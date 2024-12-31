@@ -1,0 +1,1 @@
+Problem: For what values of $j$ does the equation $(2x+7)(x-5) = -43 + jx$ have exactly one real solution? Express your answer as a list of numbers, separated by commas.

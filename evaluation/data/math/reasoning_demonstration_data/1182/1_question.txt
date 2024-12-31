@@ -1,0 +1,8 @@
+Problem: Find the curve defined by the equation
+\[r = 4 \tan \theta \sec \theta.\](A) Line
+(B) Circle
+(C) Parabola
+(D) Ellipse
+(E) Hyperbola
+
+Enter the letter of the correct option.

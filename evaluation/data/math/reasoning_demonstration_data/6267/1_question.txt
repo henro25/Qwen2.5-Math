@@ -1,0 +1,84 @@
+Problem: The graph of $y = f(x)$ is shown below.
+
+[asy]
+unitsize(0.3 cm);
+
+real func(real x) {
+  real y;
+  if (x >= -3 && x <= 0) {y = -2 - x;}
+  if (x >= 0 && x <= 2) {y = sqrt(4 - (x - 2)^2) - 2;}
+  if (x >= 2 && x <= 3) {y = 2*(x - 2);}
+  return(y);
+}
+
+int i, n;
+
+for (i = -8; i <= 8; ++i) {
+  draw((i,-8)--(i,8),gray(0.7));
+  draw((-8,i)--(8,i),gray(0.7));
+}
+
+draw((-8,0)--(8,0),Arrows(6));
+draw((0,-8)--(0,8),Arrows(6));
+
+label("$x$", (8,0), E);
+label("$y$", (0,8), N);
+
+draw(graph(func,-3,3),red);
+
+label("$y = f(x)$", (4,-3), UnFill);
+[/asy]
+
+Which is the graph of $y = f \left( \frac{1 - x}{2} \right)$?
+
+[asy]
+unitsize(0.3 cm);
+
+picture[] graf;
+int i, n;
+
+real func(real x) {
+  real y;
+  if (x >= -3 && x <= 0) {y = -2 - x;}
+  if (x >= 0 && x <= 2) {y = sqrt(4 - (x - 2)^2) - 2;}
+  if (x >= 2 && x <= 3) {y = 2*(x - 2);}
+  return(y);
+}
+
+real funcb(real x) {
+  return(func((1 - x)/2));
+}
+
+for (n = 1; n <= 5; ++n) {
+  graf[n] = new picture;
+  for (i = -8; i <= 8; ++i) {
+    draw(graf[n],(i,-8)--(i,8),gray(0.7));
+    draw(graf[n],(-8,i)--(8,i),gray(0.7));
+  }
+  draw(graf[n],(-8,0)--(8,0),Arrows(6));
+  draw(graf[n],(0,-8)--(0,8),Arrows(6));
+
+  label(graf[n],"$x$", (8,0), E);
+  label(graf[n],"$y$", (0,8), N);
+}
+
+draw(graf[1],shift((-1/2,0))*xscale(1/2)*reflect((0,0),(0,1))*graph(func,-3,3),red);
+draw(graf[2],graph(funcb,-5,7),red);
+draw(graf[3],shift((1,0))*xscale(1/2)*reflect((0,0),(0,1))*graph(func,-3,3),red);
+draw(graf[4],shift((1/2,0))*xscale(2)*reflect((0,0),(0,1))*graph(func,-3,3),red);
+draw(graf[5],shift((1/2,0))*xscale(1/2)*reflect((0,0),(0,1))*graph(func,-3,3),red);
+
+label(graf[1], "A", (0,-10));
+label(graf[2], "B", (0,-10));
+label(graf[3], "C", (0,-10));
+label(graf[4], "D", (0,-10));
+label(graf[5], "E", (0,-10));
+
+add(graf[1]);
+add(shift((20,0))*(graf[2]));
+add(shift((40,0))*(graf[3]));
+add(shift((10,-20))*(graf[4]));
+add(shift((30,-20))*(graf[5]));
+[/asy]
+
+Enter the letter of the graph of $y = f \left( \frac{1 - x}{2} \right).$

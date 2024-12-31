@@ -1,0 +1,1 @@
+Problem: The product of two 2-digit numbers is $3774$. What is the smaller of the two numbers?

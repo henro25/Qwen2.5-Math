@@ -1,0 +1,1 @@
+Problem: The number $m$ is a three-digit positive integer and is the product of the three distinct prime factors $x$, $y$ and $10x+y$, where $x$ and $y$ are each less than 10. What is the largest possible value of $m$?

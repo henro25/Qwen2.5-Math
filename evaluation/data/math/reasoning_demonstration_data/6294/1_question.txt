@@ -1,0 +1,1 @@
+Problem: A parabola has vertex $V = (0,0)$ and focus $F = (0,1).$  Let $P$ be a point in the first quadrant, lying on the parabola, so that $PF = 101.$  Find $P.$

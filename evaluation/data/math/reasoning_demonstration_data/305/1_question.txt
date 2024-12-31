@@ -1,0 +1,1 @@
+Problem: $B$ and $C$ trisect $\overline{AD}$ and $M$ is the midpoint of $\overline{AD}$. $MC = 8$. How many units are in the length of $\overline{AD}$?

@@ -1,0 +1,1 @@
+Problem: The median of a set of consecutive odd integers is 138. If the greatest integer in the set is 145, what is the smallest integer in the set?

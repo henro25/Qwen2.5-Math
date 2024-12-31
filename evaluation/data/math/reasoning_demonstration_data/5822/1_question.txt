@@ -1,0 +1,1 @@
+Problem: Find the product of the least common multiple (LCM) of $8$ and $6$ and the greatest common divisor (GCD) of $8$ and $6$.

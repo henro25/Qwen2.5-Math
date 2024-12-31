@@ -1,0 +1,1 @@
+Problem: The equations $2x+7=3$ and $bx-10=-2$ have the same solution $x$. What is the value of $b$?

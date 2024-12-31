@@ -1,0 +1,1 @@
+Problem: If $m+\frac{1}{m}=8$, then what is the value of $m^{2}+\frac{1}{m^{2}}+4$?

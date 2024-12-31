@@ -1,0 +1,1 @@
+Problem: Find the distance between the vertices of the hyperbola $9x^2 + 54x - y^2 + 10y + 55 = 0.$

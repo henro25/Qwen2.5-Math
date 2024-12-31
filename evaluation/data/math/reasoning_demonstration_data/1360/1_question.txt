@@ -1,0 +1,26 @@
+Problem: In the diagram, point $E$ lies on line segment $AB$, and triangles $AED$ and $BEC$ are isosceles. Also, $\angle DEC$ is twice $\angle ADE$. What is the measure of $\angle EBC$ in degrees? [asy]
+import olympiad;
+import math;
+
+size(7cm);
+
+// Draw triangles
+pair a = (-2 * Cos(70), 0);
+pair b = (1, 0);
+pair c = dir(30);
+pair d = dir(110);
+pair e = (0, 0);
+draw(a--d--e--cycle);
+draw(e--b--c--cycle);
+
+// Labels
+label("$A$", a, W); label("$B$", b, E);
+label("$C$", c, N); label("$D$", d, N);
+label("$E$", e, S); label("$70^\circ$", a, 2 * NE+ 0.5 * E);
+
+// Ticks
+add(pathticks(a--d, s=2));
+add(pathticks(d--e, s=2));
+add(pathticks(e--c, 2, spacing=0.7, s=2));
+add(pathticks(e--b, 2, spacing=0.7, s=2));
+[/asy]

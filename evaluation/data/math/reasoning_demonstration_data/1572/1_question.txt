@@ -1,0 +1,2 @@
+Problem: Let $x$ be a real number, $x > 1.$  Compute
+\[\sum_{n = 0}^\infty \frac{1}{x^{2^n} - x^{-2^n}}.\]

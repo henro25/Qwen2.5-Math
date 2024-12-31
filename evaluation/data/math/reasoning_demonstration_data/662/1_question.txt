@@ -1,0 +1,1 @@
+Problem: Line $a$ is parallel to line $y=2x+4$ and passes through the point $(2,5)$. What is the y-intercept of line $a$?

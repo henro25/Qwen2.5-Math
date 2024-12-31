@@ -1,0 +1,2 @@
+Problem: Let $x,$ $y,$ and $z$ be nonzero complex numbers such that $x + y + z = 20$ and
+\[(x - y)^2 + (x - z)^2 + (y - z)^2 = xyz.\]Find $\frac{x^3 + y^3 + z^3}{xyz}.$

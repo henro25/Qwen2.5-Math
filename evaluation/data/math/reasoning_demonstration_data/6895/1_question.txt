@@ -1,0 +1,1 @@
+Problem: Find the area of the triangle with vertices $(0,7,10),$ $(-1,6,6),$ and $(-4,9,6).$

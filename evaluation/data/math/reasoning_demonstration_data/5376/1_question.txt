@@ -1,0 +1,1 @@
+Problem: As $n$ ranges over the positive integers, what is the sum of all possible values of the greatest common divisor of $3n+4$ and $n$?

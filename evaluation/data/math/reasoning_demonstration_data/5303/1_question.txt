@@ -1,0 +1,1 @@
+Problem: Triangle $ABC$ has vertices at $A(5,8)$, $B(3,-2)$, and $C(6,1)$. The point $D$ with coordinates $(m,n)$ is chosen inside the triangle so that the three small triangles $ABD$, $ACD$ and $BCD$ all have equal areas. What is the value of $10m + n$?

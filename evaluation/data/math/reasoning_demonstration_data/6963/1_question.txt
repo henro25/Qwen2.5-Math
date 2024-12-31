@@ -1,0 +1,1 @@
+Problem: The number $0.428125$ can be written as a fraction $\frac{a}{b}$ for positive integers $a$ and $b$. When this fraction is in simplest terms, what is $a+b$?

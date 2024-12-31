@@ -1,0 +1,1 @@
+Problem: Simplify $\frac{8xy^2}{6x^2y}$ with $x=2$ and $y=3.$

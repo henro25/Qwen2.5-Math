@@ -1,0 +1,1 @@
+Problem: In triangle $ABC,$ $AB = 3,$ $AC = 6,$ and $\cos \angle A = \frac{1}{8}.$  Find the length of angle bisector $\overline{AD}.$

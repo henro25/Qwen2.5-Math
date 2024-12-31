@@ -1,0 +1,1 @@
+Problem: Find the product of the solutions of: $|y|=2(|y|-1)$.

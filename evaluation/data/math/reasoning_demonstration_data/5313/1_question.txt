@@ -1,0 +1,1 @@
+Problem: Let $t(x) = \sqrt{3x+1}$ and $f(x)=5-t(x)$. What is $t(f(5))$?

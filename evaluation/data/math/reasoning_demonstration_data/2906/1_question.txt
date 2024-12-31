@@ -1,0 +1,1 @@
+Problem: Rewrite $\sqrt[3]{2^6\cdot3^3\cdot11^3}$ as an integer.

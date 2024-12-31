@@ -1,0 +1,2 @@
+Problem: Compute the value of $k$ such that the equation
+\[\frac{x + 2}{kx - 1} = x\]has exactly one solution.

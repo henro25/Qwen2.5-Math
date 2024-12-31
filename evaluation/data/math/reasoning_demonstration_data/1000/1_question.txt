@@ -1,0 +1,1 @@
+Problem: Add $101_2 + 11_2 + 1100_2 + 11101_2.$ Express your answer in base $2.$

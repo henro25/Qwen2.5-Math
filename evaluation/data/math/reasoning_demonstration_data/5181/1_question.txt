@@ -1,0 +1,1 @@
+Problem: When the expression $(2x^4+3x^3+x-14)(3x^{10}-9x^7+9x^4+30)-(x^2+5)^7$ is expanded, what is the degree of the resulting polynomial?

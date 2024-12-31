@@ -1,0 +1,1 @@
+Problem: The bacteria in a jar triple every 20 seconds. After three minutes, there are 275,562 bacteria in the jar. How many were in the jar at the beginning of the experiment?

@@ -1,0 +1,1 @@
+Problem: In right triangle $ABC$, $AB=10$, $AC=6$ and $BC=8$ units.  What is the distance from $C$ to the midpoint of segment $AB$?

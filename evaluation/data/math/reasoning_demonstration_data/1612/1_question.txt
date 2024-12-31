@@ -1,0 +1,1 @@
+Problem: For how many three-digit positive integers is the sum of the digits equal to $5?$

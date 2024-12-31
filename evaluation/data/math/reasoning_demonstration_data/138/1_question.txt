@@ -1,0 +1,1 @@
+Problem: How many times do the graphs $r = 4 \cos \theta$ and $r = 8 \sin \theta$ intersect?

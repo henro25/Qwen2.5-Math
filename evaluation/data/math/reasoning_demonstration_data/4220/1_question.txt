@@ -1,0 +1,1 @@
+Problem: Find the equation of the directrix of the parabola $y = -2x^2 + 4x - 8.$

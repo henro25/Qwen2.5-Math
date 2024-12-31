@@ -1,0 +1,1 @@
+Problem: When $555_{10}$ is expressed in this base, it has 4 digits, in the form ABAB, where A and B are two different digits.  What base is it?

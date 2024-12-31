@@ -1,0 +1,2 @@
+Problem: Find the number of 10-tuples $(x_1, x_2, \dots, x_{10})$ of real numbers such that
+\[(1 - x_1)^2 + (x_1 - x_2)^2 + (x_2 - x_3)^2 + \dots + (x_9 - x_{10})^2 + x_{10}^2 = \frac{1}{11}.\]

@@ -1,0 +1,1 @@
+Problem: What is the greatest multiple of 3 that is less than 500 and is also a multiple of 4?

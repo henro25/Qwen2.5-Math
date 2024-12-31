@@ -1,0 +1,1 @@
+Problem: Let $r,$ $s,$ and $t$ be the roots of the equation $x^3 - 20x^2 + 18x - 7 = 0.$ Find the value of $\frac{r}{\frac{1}{r}+st} + \frac{s}{\frac{1}{s}+tr} + \frac{t}{\frac{1}{t}+rs}.$

@@ -1,0 +1,1 @@
+Problem: What is the least three-digit whole number, the product of whose digits is 6?

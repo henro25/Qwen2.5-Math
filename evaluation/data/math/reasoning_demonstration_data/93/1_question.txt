@@ -1,0 +1,1 @@
+Problem: Real numbers $x$ and $y$ satisfy the equation $x^2 + y^2 = 10x - 6y - 34$. What is $x+y$?

@@ -1,0 +1,1 @@
+Problem: The base six number $53_{6}$ is equal to the base $b$ number $113_{b}$. What is the positive value of $b$?

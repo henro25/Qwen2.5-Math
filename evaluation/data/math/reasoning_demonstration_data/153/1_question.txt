@@ -1,0 +1,1 @@
+Problem: When the product $(3x+2y+1)(x+4y+5)$ is expanded, what is the sum of the coefficients of the terms which contain a nonzero power of $y$?

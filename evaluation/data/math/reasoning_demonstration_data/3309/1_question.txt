@@ -1,0 +1,1 @@
+Problem: Six green balls and four red balls are in a bag.  A ball is taken from the bag, its color recorded, then placed back in the bag.  A second ball is taken and its color recorded.  What is the probability the two balls are the same color?

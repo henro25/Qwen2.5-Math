@@ -1,0 +1,1 @@
+Problem: What is the smallest base-10 integer that can be represented as $AA_5$ and $BB_7$, where $A$ and $B$ are valid digits in their respective bases?

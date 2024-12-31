@@ -1,0 +1,1 @@
+Problem: How many perfect squares less than 1000 have a ones digit of 2, 3 or 4?

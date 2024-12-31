@@ -1,0 +1,1 @@
+Problem: Let $f(x) = (x+2)^2-5$. If the domain of $f$ is all real numbers, then $f$ does not have an inverse function, but if we restrict the domain of $f$ to an interval $[c,\infty)$, then $f$ may have an inverse function. What is the smallest value of $c$ we can use here, so that $f$ does have an inverse function?

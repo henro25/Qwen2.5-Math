@@ -1,0 +1,1 @@
+Problem: The local theater has one ticket window. In how many ways can six people line up to buy a ticket?

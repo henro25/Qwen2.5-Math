@@ -1,0 +1,1 @@
+Problem: How many distinct diagonals of a convex heptagon (7-sided polygon) can be drawn?

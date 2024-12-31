@@ -1,0 +1,1 @@
+Problem: Given that $x - \frac{1}{x} = 4$, what is $x^3 - \frac{1}{x^3}$?

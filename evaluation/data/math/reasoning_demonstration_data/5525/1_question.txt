@@ -1,0 +1,1 @@
+Problem: The amount of algae covering the Smith's backyard pond doubled every day until it was completely covered in algae on day $30$ of the month. On what day of that month was $75\%$ of the pond algae-free?

@@ -1,0 +1,1 @@
+Problem: What is the arithmetic mean of the integers from -4 through 5, inclusive? Express your answer as a decimal to the nearest tenth.

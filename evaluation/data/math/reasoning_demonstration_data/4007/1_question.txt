@@ -1,0 +1,1 @@
+Problem: Without using a calculator, find the largest prime factor of $15^4+2\times15^2+1-14^4$.

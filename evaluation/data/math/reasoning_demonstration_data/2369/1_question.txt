@@ -1,0 +1,1 @@
+Problem: The point $(1,1,1)$ is rotated $180^\circ$ about the $y$-axis, then reflected through the $yz$-plane, reflected through the $xz$-plane, rotated $180^\circ$ about the $y$-axis, and reflected through the $xz$-plane.  Find the coordinates of the point now.

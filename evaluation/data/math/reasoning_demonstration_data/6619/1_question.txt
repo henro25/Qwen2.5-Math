@@ -1,0 +1,2 @@
+Problem: Find $A$ and $B$ such that
+\[\frac{5x+2}{x^2-7x-30}=\frac{A}{x-10}+\frac{B}{x+3}.\]Write your answer in the form $(A,B)$.

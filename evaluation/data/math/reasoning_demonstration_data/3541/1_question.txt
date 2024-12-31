@@ -1,0 +1,1 @@
+Problem: Suppose that the number $a$ satisfies the equation $4 = a + a^{ - 1}.$ What is the value of $a^{4} + a^{ - 4}?$

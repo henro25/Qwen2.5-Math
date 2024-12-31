@@ -1,0 +1,1 @@
+Problem: Let $p(x)$ be a monic quartic polynomial such that $p(1) = 2,$ $p(2) = 5,$ $p(3) = 10,$ and $p(4) = 17.$  Find $p(5).$

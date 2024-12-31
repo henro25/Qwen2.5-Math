@@ -1,0 +1,5 @@
+Problem: A running track is the ring formed by two concentric circles. If the circumferences of the two circles differ by $10\pi $ feet, how wide is the track in feet?
+
+[asy]size(100); path g=scale(2)*unitcircle;
+filldraw(unitcircle^^g,evenodd+grey,black);
+[/asy]

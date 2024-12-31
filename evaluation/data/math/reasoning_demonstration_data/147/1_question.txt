@@ -1,0 +1,1 @@
+Problem: A car travels the 120 miles from $A$ to $B$ at 60 miles per hour, and then returns to $A$ on the same road. If the average rate of the round trip is 45 miles per hour, what is the rate, in miles per hour, of the car traveling back from $B$ to $A$?

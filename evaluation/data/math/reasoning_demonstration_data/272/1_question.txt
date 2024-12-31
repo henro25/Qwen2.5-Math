@@ -1,0 +1,10 @@
+Problem: A right circular cone is inscribed in a right prism as shown. What is the ratio of the volume of the cone to the volume of the prism? Express your answer as a common fraction in terms of $\pi$. [asy]
+import three; import graph3;
+defaultpen(linewidth(0.8));
+size(200);
+draw((0,0,0)--(1,0,0)--(1,1,0)--(0,1,0)--cycle);
+draw((0,0,1)--(1,0,1)--(1,1,1)--(0,1,1)--cycle);
+draw((0,0,0)--(0,0,1)); draw((1,0,0)--(1,0,1)); draw((1,1,0)--(1,1,1)); draw((0,1,0)--(0,1,1));
+draw(Circle((0.5,0.5,0),0.5),dashed);
+draw((0.5,0.5,1)--(0.5,0,0),dashed); draw((0.5,0.5,1)--(0.5,1,0),dashed); draw((0.5,0.5,1)--(1,0.5,0),dashed); draw((0.5,0.5,1)--(0,0.5,0),dashed);
+[/asy]

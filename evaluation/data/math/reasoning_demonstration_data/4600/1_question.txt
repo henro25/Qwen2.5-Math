@@ -1,0 +1,4 @@
+Problem: How many points of intersection are there between the graphs of the following equations: \begin{align*}
+y &=|2x + 5|, \\
+y &= -|3x - 2|
+\end{align*}

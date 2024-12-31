@@ -1,0 +1,1 @@
+Problem: The dimensions of a triangle are tripled to form a new triangle. If the area of the new triangle is 54 square feet, how many square feet were in the area of the original triangle?

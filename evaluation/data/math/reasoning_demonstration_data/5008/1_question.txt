@@ -1,0 +1,1 @@
+Problem: The cost of 1 piece of gum is 1 cent.  What is the cost of 1000 pieces of gum, in dollars?

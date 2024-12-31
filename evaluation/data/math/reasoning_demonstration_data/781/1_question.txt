@@ -1,0 +1,1 @@
+Problem: The three points $(3,-5)$, $(-a + 2, 3)$, and $(2a+3,2)$ lie on the same line.  What is $a$?

@@ -1,0 +1,1 @@
+Problem: The ratio of the areas of two squares is $\frac{192}{80}$. After rationalizing the denominator, the ratio of their side lengths can be expressed in the simplified form $\frac{a\sqrt{b}}{c}$ where $a$, $b$, and $c$ are integers. What is the value of the sum $a+b+c$?

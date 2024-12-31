@@ -1,0 +1,1 @@
+Problem: For some constants $x$ and $a$, the third, fourth, and fifth terms in the expansion of $(x + a)^n$ are 84, 280, and 560, respectively.  Find $n.$

@@ -1,0 +1,1 @@
+Problem: What is the probability that a positive integer less than or equal to 24 is a factor of 24? Express your answer as a common fraction.

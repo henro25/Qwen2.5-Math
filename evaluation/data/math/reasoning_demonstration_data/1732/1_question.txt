@@ -1,0 +1,2 @@
+Problem: The four complex roots of
+\[2z^4 + 8iz^3 + (-9 + 9i)z^2 + (-18 - 2i)z + (3 - 12i) = 0,\]when plotted in the complex plane, form a rhombus.  Find the area of the rhombus.

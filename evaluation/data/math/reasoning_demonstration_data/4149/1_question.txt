@@ -1,0 +1,1 @@
+Problem: A right circular cylinder with radius 2 is inscribed in a hemisphere with radius 5 so that its bases are parallel to the base of the hemisphere.  What is the height of this cylinder?

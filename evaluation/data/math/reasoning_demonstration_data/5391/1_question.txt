@@ -1,0 +1,7 @@
+Problem: In a magic square, the sum of the three entries in any row, column, or diagonal is the same value. The figure below shows four of the entries of a magic square. Find $x$.
+[asy]
+size(2cm);
+for (int i=0; i<=3; ++i) draw((i,0)--(i,3)^^(0,i)--(3,i));
+label("$x$",(0.5,2.5));label("$19$",(1.5,2.5));
+label("$96$",(2.5,2.5));label("$1$",(0.5,1.5));
+[/asy]

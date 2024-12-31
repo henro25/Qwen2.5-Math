@@ -1,0 +1,9 @@
+Problem: In triangle $CAT$, we have $\angle{ACT}=\angle{ATC}$ and $\angle{CAT}=36^\circ$. If $\overline{TR}$ bisects $\angle{ATC}$, then how many degrees is $\angle{CRT}$? [asy]
+/* AMC8 2000 #13 Problem */
+draw((0,0)--(.5,1.75)--(1,0)--cycle);
+draw((1,0)--(.15,.5));
+label("$R$", (.15,.5), W);
+label("$C$", (0,0), SW);
+label("$T$", (1,0), SE);
+label("$A$", (.5,1.75), N);
+[/asy]

@@ -1,0 +1,1 @@
+Problem: Given that $x+y = 10$ and $2x+y = 13$, evaluate $x^2-y^2$.

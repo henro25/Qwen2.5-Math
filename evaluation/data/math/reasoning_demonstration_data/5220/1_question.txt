@@ -1,0 +1,8 @@
+Problem: In this square array of 16 dots, four dots are to be chosen at random. What is the probability that the four dots will be collinear? Express your answer as a common fraction.
+
+[asy]
+size(59);
+for(int i = 0; i<4; ++i)
+for(int j = 0; j<4; ++j)
+dot((i,j),linewidth(7));
+[/asy]

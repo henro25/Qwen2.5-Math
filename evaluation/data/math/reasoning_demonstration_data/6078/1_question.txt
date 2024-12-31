@@ -1,0 +1,1 @@
+Problem: The three roots of the equation \[ax^3+bx^2+cx+d=0\]are $1,$ $2,$ and $3.$ Compute $\frac{c}{d}.$

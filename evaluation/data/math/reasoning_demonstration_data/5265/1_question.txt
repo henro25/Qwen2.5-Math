@@ -1,0 +1,2 @@
+Problem: The graph of
+\[r = -2 \cos \theta + 6 \sin \theta\]is a circle.  Find the area of the circle.

@@ -1,0 +1,7 @@
+Problem: The diagonals of a rhombus are 6 inches and 8 inches. What is the perimeter, in inches, of the rhombus below? [asy]
+import geometry; size(150); defaultpen(linewidth(0.8));
+pair A = (0,0),B = (8,6),C = (16,0),D = (8,-6), E = (8,0);
+draw(A--B--C--D--cycle);
+draw(A--C,StickIntervalMarker(2,2,10)); draw(B--D,StickIntervalMarker(2,1,10));
+draw(rightanglemark(A,E,B,30));
+[/asy]

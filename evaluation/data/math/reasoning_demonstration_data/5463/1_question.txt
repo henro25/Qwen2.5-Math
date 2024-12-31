@@ -1,0 +1,1 @@
+Problem: Of the 100 students in the science club, 65 take mathematics, 43 take physics and 10 students take both mathematics and physics. How many science club students take neither mathematics nor physics?

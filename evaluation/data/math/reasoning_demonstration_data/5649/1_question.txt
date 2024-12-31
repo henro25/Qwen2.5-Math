@@ -1,0 +1,1 @@
+Problem: Steve guesses randomly on a 15-question multiple choice test in which each problem has two choices, a correct one and an incorrect one. What is the probability that he gets at least half of the questions correct? Express your answer as a common fraction.

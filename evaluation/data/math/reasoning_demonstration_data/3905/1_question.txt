@@ -1,0 +1,1 @@
+Problem: For real numbers $t,$ the point of intersection of the lines $x + 2y = 7t + 3$ and $x - y = 2t - 2$ is plotted.  All the plotted points lie on a line.  Find the slope of this line.

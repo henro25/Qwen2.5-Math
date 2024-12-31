@@ -1,0 +1,1 @@
+Problem: How many 10-digit positive integers have all digits either 1 or 2, and have two consecutive 1's?

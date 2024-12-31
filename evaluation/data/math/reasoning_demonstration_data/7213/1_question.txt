@@ -1,0 +1,1 @@
+Problem: Rationalize the denominator of $\frac{5}{2+\sqrt{6}}$. The answer can be written as $\frac{A\sqrt{B}+C}{D}$, where $A$, $B$, $C$, and $D$ are integers, $D$ is positive, and $B$ is not divisible by the square of any prime. If the greatest common divisor of $A$, $C$, and $D$ is 1, find $A+B+C+D$.

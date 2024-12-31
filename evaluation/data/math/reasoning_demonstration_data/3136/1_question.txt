@@ -1,0 +1,1 @@
+Problem: Two similar right triangles have areas of 6 square inches and 150 square inches. The length of the hypotenuse of the smaller triangle is 5 inches. What is the sum of the lengths of the legs of the larger triangle?

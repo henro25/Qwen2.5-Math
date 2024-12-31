@@ -1,0 +1,1 @@
+Problem: Let $k$ and $m$ be real numbers, and suppose that the roots of the equation \[x^3 - 7x^2 + kx - m = 0\]are three distinct positive integers. Compute $k + m.$

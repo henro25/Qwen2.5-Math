@@ -1,0 +1,1 @@
+Problem: The polynomial $f(x)$ satisfies $f(x + 1) - f(x) = 6x + 4.$  Find the leading coefficient of $f(x).$

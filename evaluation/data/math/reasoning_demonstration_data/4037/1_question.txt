@@ -1,0 +1,1 @@
+Problem: What is the length of the segment of the number line whose endpoints satisfy $|x-\sqrt[5]{16}|=3$?

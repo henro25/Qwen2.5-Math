@@ -1,0 +1,1 @@
+Problem: If $a$ is a constant such that $4x^2 + 14x + a$ is the square of a binomial, then what is $a$?

@@ -1,0 +1,2 @@
+Problem: Let $x,$ $y,$ and $z$ be nonnegative real numbers such that $x + y + z = 5.$  Find the maximum value of
+\[\sqrt{2x + 1} + \sqrt{2y + 1} + \sqrt{2z + 1}.\]

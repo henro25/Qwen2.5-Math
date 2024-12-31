@@ -1,0 +1,1 @@
+Problem: Define the operation $\spadesuit$ as $a\,\spadesuit\,b = |a- b|$ . What is the value of $2\, \spadesuit\,(4\,\spadesuit\,7)$?

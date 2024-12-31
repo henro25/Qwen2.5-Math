@@ -1,0 +1,1 @@
+Problem: How many integers $n$ satisfy the condition $100 < n < 200$ and the condition $n$ has the same remainder whether it is divided by $6$ or by $8$?

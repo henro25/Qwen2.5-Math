@@ -1,0 +1,2 @@
+Problem: Find the largest constant $m,$ so that for any positive real numbers $a,$ $b,$ $c,$ and $d,$
+\[\sqrt{\frac{a}{b + c + d}} + \sqrt{\frac{b}{a + c + d}} + \sqrt{\frac{c}{a + b + d}} + \sqrt{\frac{d}{a + b + c}} > m.\]

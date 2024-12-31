@@ -1,0 +1,1 @@
+Problem: Three faucets fill a 100-gallon tub in 6 minutes.  How long, in seconds, does it take six faucets to fill a 25-gallon tub?  Assume that all faucets dispense water at the same rate.

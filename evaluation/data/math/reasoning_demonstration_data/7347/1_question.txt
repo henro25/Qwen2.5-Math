@@ -1,0 +1,2 @@
+Problem: Let $f : \mathbb{R} \to \mathbb{R}$ be a function such that
+\[f(f(x - y)) = f(x) f(y) - f(x) + f(y) - xy\]for all $x,$ $y.$  Find the sum of all possible values of $f(1).$

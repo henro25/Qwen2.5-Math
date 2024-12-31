@@ -1,0 +1,2 @@
+Problem: Find all numbers in the range of
+\[f(x) = \arctan x + \arctan \frac{1 - x}{1 + x},\]expressed in radians.  Enter all the numbers, separated by commas.

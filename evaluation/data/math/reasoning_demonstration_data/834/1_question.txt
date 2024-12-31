@@ -1,0 +1,1 @@
+Problem: Given that $M(2,5)$ is the midpoint of $\overline{AB}$ and $A(3,1)$ is one endpoint, what is the product of the coordinates of point $B$?

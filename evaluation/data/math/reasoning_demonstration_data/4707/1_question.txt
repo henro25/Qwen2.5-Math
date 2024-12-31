@@ -1,0 +1,1 @@
+Problem: Sean adds up all the even integers from 2 to 500, inclusive. Julie adds up all the integers from 1 to 250, inclusive. What is Sean's sum divided by Julie's sum?

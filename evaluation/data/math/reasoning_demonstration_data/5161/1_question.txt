@@ -1,0 +1,1 @@
+Problem: If $f(x)=\dfrac{x-3}{x-4}$, then for what value of $x$ is $f^{-1}(x)$ undefined?

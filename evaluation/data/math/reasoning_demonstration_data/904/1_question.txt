@@ -1,0 +1,1 @@
+Problem: Let $a$ and $b$ be positive real numbers such that each of the equations $x^2 + ax + 2b = 0$ and $x^2 + 2bx + a = 0$ has real roots.  Find the smallest possible value of $a + b.$

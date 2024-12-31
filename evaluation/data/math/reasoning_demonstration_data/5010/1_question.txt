@@ -1,0 +1,3 @@
+Problem: In the figure, $AB \perp BC, BC \perp CD$, and $BC$ is tangent to the circle with center $O$ and diameter $AD$. In which one of the following cases is the area of $ABCD$ an integer?
+[asy] pair O=origin, A=(-1/sqrt(2),1/sqrt(2)), B=(-1/sqrt(2),-1), C=(1/sqrt(2),-1), D=(1/sqrt(2),-1/sqrt(2)); draw(unitcircle); dot(O); draw(A--B--C--D--A); label("$A$",A,dir(A)); label("$B$",B,dir(B)); label("$C$",C,dir(C)); label("$D$",D,dir(D)); label("$O$",O,dir(45)); [/asy]
+$\textbf{(A)}\ AB=3, CD=1\qquad \textbf{(B)}\ AB=5, CD=2\qquad \textbf{(C)}\ AB=7, CD=3\qquad\\ \textbf{(D)}\ AB=9, CD=4\qquad \textbf{(E)}\ AB=11, CD=5$

@@ -1,0 +1,9 @@
+Problem: For a constant $c,$ in spherical coordinates $(\rho,\theta,\phi),$ find the shape described by the equation
+\[\theta = c.\](A) Line
+(B) Circle
+(C) Plane
+(D) Sphere
+(E) Cylinder
+(F) Cone
+
+Enter the letter of the correct option.

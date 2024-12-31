@@ -1,0 +1,1 @@
+Problem: The graphs of $y = x^3 - 3x + 2$ and $x + 4y = 4$ intersect in the points $(x_1,y_1),$ $(x_2,y_2),$ and $(x_3,y_3).$  If $x_1 + x_2 + x_3 = A$ and $y_1 + y_2 + y_3 = B,$ compute the ordered pair $(A,B).$

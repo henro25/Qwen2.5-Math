@@ -1,0 +1,1 @@
+Problem: Find all values of $x$ with $0 \le x < 2 \pi$ that satisfy $\sin x + \cos x = \sqrt{2}.$  Enter all the solutions, separated by commas.

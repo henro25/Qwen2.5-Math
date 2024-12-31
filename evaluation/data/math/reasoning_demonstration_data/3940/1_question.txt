@@ -1,0 +1,1 @@
+Problem: A rectangle has a perimeter of 64 inches and each side has an integer length. How many non-congruent rectangles meet these criteria?

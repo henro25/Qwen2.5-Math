@@ -1,0 +1,14 @@
+Problem: Cutting equilateral triangle $BFC$ out of square $ABCD$ and translating it to the left of the square creates the shaded figure $ABFCDE$. The perimeter of square $ABCD$ was 48 inches. What is the perimeter, in inches, of $ABFCDE$?
+
+[asy]
+filldraw((0,0)--(sqrt(3),1)--(sqrt(3)+2,1)--(2,0)--(sqrt(3)+2,-1)--(sqrt(3),-1)--(0,0)--cycle,gray,linewidth(1));
+draw((sqrt(3),1)--(sqrt(3),-1),linewidth(1));
+draw((sqrt(3)+2,-1)--(sqrt(3)+2,1)--(2,0)--(sqrt(3)+2,-1)--cycle,dashed);
+
+label("A",(sqrt(3),1),N);
+label("B",(sqrt(3)+2,1),N);
+label("C",(sqrt(3)+2,-1),S);
+label("D",(sqrt(3),-1),S);
+label("E",(0,0),W);
+label("F",(2,0),N);
+[/asy]

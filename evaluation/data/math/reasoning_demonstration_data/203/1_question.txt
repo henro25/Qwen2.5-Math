@@ -1,0 +1,1 @@
+Problem: Alice buys three burgers and two sodas for $\$3.20$, and Bill buys two burgers and a soda for $\$2.00$. How many cents does a burger cost?

@@ -1,0 +1,1 @@
+Problem: Three different natural numbers $x$, $y$ and $z$ each have exactly three natural-number factors. How many factors does $x^{2}y^{3}z^{4}$ have?

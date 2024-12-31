@@ -1,0 +1,2 @@
+Problem: If $\mathbf{a},$ $\mathbf{b},$ and $\mathbf{c}$ are vectors such that $\|\mathbf{a}\| = \|\mathbf{b}\| = 1,$ $\|\mathbf{a} + \mathbf{b}\| = \sqrt{3},$ and
+\[\mathbf{c} - \mathbf{a} - 2 \mathbf{b} = 3 (\mathbf{a} \times \mathbf{b}),\]then find $\mathbf{b} \cdot \mathbf{c}.$

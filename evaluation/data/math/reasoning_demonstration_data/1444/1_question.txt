@@ -1,0 +1,1 @@
+Problem: For a given positive integer $n > 2^3$, what is the greatest common divisor of $n^3 + 3^2$ and $n + 2$?

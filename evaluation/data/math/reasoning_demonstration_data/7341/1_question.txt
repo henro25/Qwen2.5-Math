@@ -1,0 +1,1 @@
+Problem: Billy's age is twice Joe's age and the sum of their ages is 45. How old is Billy?

@@ -1,0 +1,1 @@
+Problem: If Alex gives Bob a penny, Bob will have three times as many pennies as Alex has. If Bob gives Alex a penny, Bob will have twice as many pennies as Alex has. How many pennies does Bob currently have?

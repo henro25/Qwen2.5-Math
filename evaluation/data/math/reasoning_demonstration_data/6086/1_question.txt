@@ -1,0 +1,2 @@
+Problem: Find the number of functions $f  : \mathbb{R} \to \mathbb{R}$ such that
+\[f(xy) + f(xz) - f(x) f(yz) \ge 1\]for all real numbers $x,$ $y,$ and $z.$

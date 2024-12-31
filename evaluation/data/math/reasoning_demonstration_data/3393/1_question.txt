@@ -1,0 +1,1 @@
+Problem: Let $a_1, a_2, a_3,\dots$ be an increasing arithmetic sequence of integers. If $a_4a_5 = 13$, what is $a_3a_6$?

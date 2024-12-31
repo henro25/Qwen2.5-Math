@@ -1,0 +1,1 @@
+Problem: Find the smallest solution to the equation \[\lfloor x^2 \rfloor - \lfloor x \rfloor^2 = 17.\]

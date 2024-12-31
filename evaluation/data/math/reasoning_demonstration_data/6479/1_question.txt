@@ -1,0 +1,1 @@
+Problem: There is a committee composed of eight women and two men. When they meet, they sit in a row---the women in indistinguishable rocking chairs and the men on indistinguishable stools.  How many distinct ways are there for me to arrange the eight chairs and two stools for a meeting?

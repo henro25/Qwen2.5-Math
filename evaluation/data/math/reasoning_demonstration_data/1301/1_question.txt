@@ -1,0 +1,1 @@
+Problem: Let $\mathcal{P}$ be the parabola in the plane determined by the equation $y = x^2.$  Suppose a circle $\mathcal{C}$ intersects $\mathcal{P}$ at four distinct points.  If three of these points are $(-28,784),$ $(-2,4),$ and $(13,169),$ find the sum of the distances from the focus of $\mathcal{P}$ to all four of the intersection points.

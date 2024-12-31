@@ -1,0 +1,1 @@
+Problem: Find $c,$ given that $\lfloor c\rfloor$ satisfies \[2x^2 + 17x - 55 = 0\]and $\{ c \} = c - \lfloor c \rfloor $ satisfies \[6x^2 - 23x + 7 = 0.\]

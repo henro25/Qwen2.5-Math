@@ -1,0 +1,1 @@
+Problem: The real number $x$ satisfies $x^2 - 5x + 6 < 0.$  Find all possible values of $x^2 + 5x + 6.$

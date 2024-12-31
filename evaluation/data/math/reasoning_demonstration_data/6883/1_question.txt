@@ -1,0 +1,2 @@
+Problem: Suppose that $a$ and $b$ are nonzero integers such that two of the roots of
+\[x^3 + ax^2 + bx + 9a\]coincide, and all three roots are integers.  Find $|ab|.$

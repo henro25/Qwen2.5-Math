@@ -1,0 +1,2 @@
+Problem: Find the smallest positive integer $n$ such that
+\[\begin{pmatrix} \cos 170^\circ & -\sin 170^\circ \\ \sin 170^\circ & \cos 170^\circ \end{pmatrix}^n = \mathbf{I}.\]

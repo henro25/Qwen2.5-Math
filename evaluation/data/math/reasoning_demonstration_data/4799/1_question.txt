@@ -1,0 +1,2 @@
+Problem: If $a,$ $b,$ $c,$ $x,$ $y,$ and $z$ are positive and $a^2 + b^2 + c^2 = 25,$ $x^2 + y^2 + z^2 = 36,$ and $ax + by + cz = 30,$ compute
+\[\frac{a + b + c}{x + y + z}.\]

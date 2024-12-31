@@ -1,0 +1,1 @@
+Problem: For how many values of $a$ is it true that the line $y = x + a$ passes through the vertex of the parabola $y = x^2 + a^2$?

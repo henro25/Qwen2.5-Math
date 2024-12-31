@@ -1,0 +1,1 @@
+Problem: Find the 6-digit repetend in the decimal representation of $\frac 3{13}.$

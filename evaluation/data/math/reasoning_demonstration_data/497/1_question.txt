@@ -1,0 +1,2 @@
+Problem: Find the largest real number $\lambda$ such that
+\[a^2 + b^2 + c^2 + d^2 \ge ab + \lambda bc + cd\]for all nonnegative real numbers $a,$ $b,$ $c,$ $d.$

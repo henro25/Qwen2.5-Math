@@ -1,0 +1,7 @@
+Problem: The function $f$ is defined on positive integers as follows:
+\[f(n) = \left\{
+\begin{array}{cl}
+n + 10 & \text{if $n < 10$}, \\
+f(n - 5) & \text{if $n \ge 10$}.
+\end{array}
+\right.\]Find the maximum value of the function.

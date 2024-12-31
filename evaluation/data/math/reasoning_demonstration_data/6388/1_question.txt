@@ -1,0 +1,1 @@
+Problem: Points $A(3,5)$ and $B(7,10)$ are the endpoints of a diameter of a circle graphed in a coordinate plane. How many square units are in the area of the circle? Express your answer in terms of $\pi$.

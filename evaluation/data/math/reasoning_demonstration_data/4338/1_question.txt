@@ -1,0 +1,2 @@
+Problem: If $5(\cos a + \cos b) + 4(\cos a \cos b + 1) = 0,$ then find all possible values of
+\[\tan \frac{a}{2} \tan \frac{b}{2}.\]Enter all the possible values, separated by commas.

@@ -1,0 +1,1 @@
+Problem: An equilateral triangle and a square have the same perimeter of 12 inches. What is the ratio of the side length of the triangle to the side length of the square? Express your answer as a common fraction.

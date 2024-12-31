@@ -1,0 +1,1 @@
+Problem: The number $839$ can be written as $19q+r$ where $q$ and $r$ are positive integers. What is the greatest possible value of $q-r$?

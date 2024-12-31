@@ -1,0 +1,2 @@
+Problem: Let $\mathbf{a} = \begin{pmatrix} -3 \\ 10 \\ 1 \end{pmatrix},$ $\mathbf{b} = \begin{pmatrix} 5 \\ \pi \\ 0 \end{pmatrix},$ and $\mathbf{c} = \begin{pmatrix} -2 \\ -2 \\ 7 \end{pmatrix}.$  Compute
+\[(\mathbf{a} - \mathbf{b}) \cdot [(\mathbf{b} - \mathbf{c}) \times (\mathbf{c} - \mathbf{a})].\]

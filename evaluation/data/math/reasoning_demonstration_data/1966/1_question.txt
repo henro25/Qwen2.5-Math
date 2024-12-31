@@ -1,0 +1,1 @@
+Problem: What is the units digit of the sum of the nine terms of the sequence $1! + 1, \, 2! + 2, \, 3! + 3, \, ..., \, 8! + 8, \, 9! + 9$?

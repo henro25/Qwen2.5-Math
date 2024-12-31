@@ -1,0 +1,15 @@
+Problem: Find $\tan Y$ in the right triangle shown below.
+
+[asy]
+pair X,Y,Z;
+X = (0,0);
+Y = (24,0);
+Z = (0,7);
+draw(X--Y--Z--X);
+draw(rightanglemark(Y,X,Z,23));
+label("$X$",X,SW);
+label("$Y$",Y,SE);
+label("$Z$",Z,N);
+label("$25$",(Y+Z)/2,NE);
+label("$24$",Y/2,S);
+[/asy]

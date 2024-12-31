@@ -1,0 +1,1 @@
+Problem: Let a sequence $b_1, b_2, \ldots$ be defined as $b_1 = 1$, $b_2 = 2$, and $b_{n+1} = b_n b_{n-1}$.  Calculate $b_{20}$

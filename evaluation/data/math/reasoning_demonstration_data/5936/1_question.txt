@@ -1,0 +1,1 @@
+Problem: Let $a_n$ be the number obtained by writing the integers 1 to $n$ from left to right. Therefore, $a_4 = 1234$ and \[a_{12} = 123456789101112.\]For $1 \le k \le 100$, how many $a_k$ are divisible by 9?

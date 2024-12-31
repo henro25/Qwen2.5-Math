@@ -1,0 +1,1 @@
+Problem: How much money should I invest at an annually compounded interest rate of $5\%$  so that I have $\$500,\!000$ in ten years?  Express your answer as a dollar value rounded to the nearest cent.

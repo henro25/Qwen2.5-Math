@@ -1,0 +1,1 @@
+Problem: What is the value of $0.\overline{789}-0.\overline{456}-0.\overline{123}?$ Express your answer as a fraction in lowest terms.

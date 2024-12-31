@@ -1,0 +1,1 @@
+Problem: What is the sum of the digits of the base-2 expression for $222_{10}$?

@@ -1,0 +1,1 @@
+Problem: Suppose that $f(x)$ and $g(x)$ are functions on $\mathbb{R}$ such that the range of $f$ is $[-5,3]$, and the range of $g$ is $[-2,1]$.  The range of $f(x) \cdot g(x)$ is $[a,b]$.  What is the largest possible value of $b$?

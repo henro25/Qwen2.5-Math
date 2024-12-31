@@ -1,0 +1,1 @@
+Problem: Let $r$ and $s$ be the solutions to $2x^2 - 3x = 11.$  Compute the value of $(4r^3 - 4s^3)(r - s)^{-1}.$

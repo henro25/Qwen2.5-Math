@@ -1,0 +1,1 @@
+Problem: At the grocery store, I bought $4$ different items. I brought $3$ identical bags, and handed them to the cashier. How many ways are there for the cashier to put the items I bought in the $3$ identical bags, assuming he might leave some of the bags empty?

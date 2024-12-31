@@ -1,0 +1,1 @@
+Problem: Let $b$ be a number such that $(2b+5)(b-1)=6b.$ What is the largest possible value of $b$? Express your answer as a common fraction.

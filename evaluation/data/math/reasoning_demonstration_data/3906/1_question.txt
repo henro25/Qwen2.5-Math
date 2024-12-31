@@ -1,0 +1,1 @@
+Problem: The product of three different positive integers is equal to $7^3$. What is the sum of the three integers?

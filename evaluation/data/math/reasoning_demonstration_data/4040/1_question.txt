@@ -1,0 +1,1 @@
+Problem: What is the minimum possible value for $y$ in the equation $y = x^2 + 12x + 5$?

@@ -1,0 +1,1 @@
+Problem: Let $f(x)=16x+3$. Find the sum of all $x$ that satisfy the equation $f^{-1}(x)=f((2x)^{-1})$.

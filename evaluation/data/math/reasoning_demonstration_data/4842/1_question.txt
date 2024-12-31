@@ -1,0 +1,9 @@
+Problem: In rectangle $ABCD$, angle $C$ is trisected by $\overline{CF}$ and $\overline{CE}$, where $E$ is on $\overline{AB}$, $F$ is on $\overline{AD}$, $BE=6$, and $AF=2$. Find the area of $ABCD$.
+
+[asy]
+import olympiad; import geometry; size(150); defaultpen(linewidth(0.8)); dotfactor=4;
+real length = 2 * (6*sqrt(3) - 2), width = 6*sqrt(3);
+draw(origin--(length,0)--(length,width)--(0,width)--cycle);
+draw((length,width)--(0,2)^^(length,width)--(length - 6,0));
+dot("$A$",origin,SW); dot("$B$",(length,0),SE); dot("$C$",(length,width),NE); dot("$D$",(0,width),NW); dot("$F$",(0,2),W); dot("$E$",(length - 6,0),S);
+[/asy]

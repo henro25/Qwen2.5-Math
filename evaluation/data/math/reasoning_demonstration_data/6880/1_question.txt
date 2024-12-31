@@ -1,0 +1,1 @@
+Problem: For $1 \le n \le 100$, how many integers are there such that $\frac{n}{n+1}$ is a repeating decimal?

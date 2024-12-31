@@ -1,0 +1,1 @@
+Problem: If $f(x) = -7x^4 + 3x^3 + x - 5$, and $g(x)$ is a polynomial such that the degree of $f(x) + g(x)$ is 1, then what is the degree of $g(x)$?

@@ -1,0 +1,1 @@
+Problem: Let $f(x) = ax+b$, where $a$ and $b$ are real constants, and $g(x) = 2x - 5$. Suppose that for all $x$, it is true that $g(f(x)) = 3x + 4$. What is $a+b$?

@@ -1,0 +1,1 @@
+Problem: A line segment begins at $(2, 5)$. It is 10 units long and ends at the point $(-6, y)$ where $y > 0$. What is the value of $y$?

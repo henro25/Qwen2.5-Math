@@ -1,0 +1,1 @@
+Problem: A digital music library contains 12 days of music and takes up 16,000 megabytes of disk space. On average, how many megabytes of disk space does one hour of music in this library take up? Express your answer to the nearest whole number.

@@ -1,0 +1,1 @@
+Problem: The sum of three different numbers is 67. The two larger numbers differ by 7 and the two smaller numbers differ by 3. What is the value of the largest number?

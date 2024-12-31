@@ -1,0 +1,1 @@
+Problem: Find $x$ such that $\log_{12}3x=2$.

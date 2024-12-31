@@ -1,0 +1,2 @@
+Problem: The projection of $\begin{pmatrix} 0 \\ 3 \\ z \end{pmatrix}$ onto $\begin{pmatrix} -3 \\ 5 \\ -1 \end{pmatrix}$ is
+\[\frac{12}{35} \begin{pmatrix} -3 \\ 5 \\ -1 \end{pmatrix}.\]Find $z.$

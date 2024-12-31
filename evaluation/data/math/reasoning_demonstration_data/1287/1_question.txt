@@ -1,0 +1,1 @@
+Problem: You have $5$ red shirts, $5$ green shirts, $6$ pairs of pants, $8$ green hats and $8$ red hats, all of which are distinct. How many outfits can you make consisting of one shirt, one pair of pants, and one hat without having the same color of shirts and hats?

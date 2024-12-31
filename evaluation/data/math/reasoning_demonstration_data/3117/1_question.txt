@@ -1,0 +1,2 @@
+Problem: In $\triangle{ABC}$, $\angle ABC=120^\circ,AB=3$ and $BC=4$. If perpendiculars constructed to $\overline{AB}$ at $A$ and to $\overline{BC}$ at $C$ meet at $D$, then $CD=$
+$\text{(A) } 3\quad \text{(B) } \frac{8}{\sqrt{3}}\quad \text{(C) } 5\quad \text{(D) } \frac{11}{2}\quad \text{(E) } \frac{10}{\sqrt{3}}$

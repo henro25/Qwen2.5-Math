@@ -1,0 +1,1 @@
+Problem: Let $m$ and $n$ satisfy $mn=4$ and $m+n=5$. What is $|m-n|$?

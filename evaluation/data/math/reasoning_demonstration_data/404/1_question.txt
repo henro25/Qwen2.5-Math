@@ -1,0 +1,2 @@
+Problem: There exists a real number $k$ such that the equation
+\[\begin{pmatrix} 3 \\ 5 \end{pmatrix} + t \begin{pmatrix} 4 \\ -7 \end{pmatrix} = \begin{pmatrix} 2 \\ -2 \end{pmatrix} + s \begin{pmatrix} -1 \\ k \end{pmatrix}\]does not have any solutions in $t$ and $s$.  Find $k$.

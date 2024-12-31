@@ -1,0 +1,8 @@
+Problem: Milton spilled some ink on his homework paper. He can't read the coefficient of $x$, but he knows that the equation has two distinct negative, integer solutions. What is the sum of all of the distinct possible integers that could be under the ink stain?
+
+[asy]
+draw((0,0)--(3,0)--(3,3)--(0,3)--cycle);
+fill((0,0)--(3,0)--(3,3)--(0,3)--cycle,black);
+label("$x+36=0$",(3,1.5),E);
+label("$x^{2}+$",(0,1.5),W);
+[/asy]

@@ -1,0 +1,4 @@
+Problem: If the system of equations  \begin{align*}
+3x+y&=a,\\
+2x+5y&=2a,
+\end{align*} has a solution $(x,y)$ when $x=2$, compute $a$.

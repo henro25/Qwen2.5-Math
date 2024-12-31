@@ -1,0 +1,1 @@
+Problem: There is a prime number which is a factor of every sum of three  consecutive integers. What is the number?

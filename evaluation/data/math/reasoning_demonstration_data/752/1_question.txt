@@ -1,0 +1,1 @@
+Problem: Given that $\sec x + \tan x = \frac{4}{3},$ enter all possible values of $\sin x.$

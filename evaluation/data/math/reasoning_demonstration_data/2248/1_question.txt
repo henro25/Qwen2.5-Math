@@ -1,0 +1,1 @@
+Problem: What is the ones digit of $7^{35}$ when written as an integer?

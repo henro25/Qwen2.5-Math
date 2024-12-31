@@ -1,0 +1,4 @@
+Problem: Let $x$ and $y$ be real numbers such that
+\[
+  2 < \frac{x - y}{x + y} < 5.
+\]If $\frac{x}{y}$ is an integer, what is its value?

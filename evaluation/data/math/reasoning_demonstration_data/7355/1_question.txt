@@ -1,0 +1,1 @@
+Problem: Engineers use the formula $L=\frac{25T^4}{H^2}$ to find the crushing load for square pillars. If $T = 4$ and $H = 8$, what is the value of $L$?

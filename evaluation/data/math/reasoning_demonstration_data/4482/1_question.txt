@@ -1,0 +1,1 @@
+Problem: Find $4^{-1} \pmod{35}$, as a residue modulo 35.  (Give an answer between 0 and 34, inclusive.)

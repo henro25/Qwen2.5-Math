@@ -1,0 +1,1 @@
+Problem: The third and fourth terms of a geometric sequence are 12 and 16, respectively. What is the first term of the sequence?

@@ -1,0 +1,1 @@
+Problem: Compute the exact value of the expression $\left|\pi - | \pi - 7 | \right|$.  Write your answer using only integers and $\pi$, without any absolute value signs.

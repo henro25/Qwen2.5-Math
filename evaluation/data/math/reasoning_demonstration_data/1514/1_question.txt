@@ -1,0 +1,1 @@
+Problem: Compute $$\sum_{n=1}^{\infty} \frac{3n-1}{2^n}.$$

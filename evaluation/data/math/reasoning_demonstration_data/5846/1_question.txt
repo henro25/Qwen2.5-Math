@@ -1,0 +1,1 @@
+Problem: What is the constant term of the expansion of $\left(6x+\dfrac{1}{3x}\right)^6$?

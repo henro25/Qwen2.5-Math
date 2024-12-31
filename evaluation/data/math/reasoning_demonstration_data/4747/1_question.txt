@@ -1,0 +1,12 @@
+Problem: An isosceles right triangle is removed from each corner of a square piece of paper, as shown, to create a rectangle. If $AB = 12$ units, what is the combined area of the four removed triangles, in square units? [asy]
+unitsize(5mm);
+defaultpen(linewidth(.7pt)+fontsize(8pt));
+
+pair A=(1,4), Ap=(0,3), B=(3,0), Bp=(4,1);
+
+draw((0,0)--(0,4)--(4,4)--(4,0)--cycle);
+draw(A--Ap--B--Bp--cycle,linetype("4 3"));
+
+label("$A$",A,N);
+label("$B$",B,S);
+[/asy]

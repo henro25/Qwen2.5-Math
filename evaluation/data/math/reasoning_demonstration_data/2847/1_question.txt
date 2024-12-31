@@ -1,0 +1,1 @@
+Problem: In the geometric sequence with a first term of $6$ and a second term of $-6$, what is the $205^{th}$ term?

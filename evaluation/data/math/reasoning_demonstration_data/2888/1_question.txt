@@ -1,0 +1,1 @@
+Problem: What is the remainder when $6x^3-15x^2+21x-23$ is divided by $3x-6$?

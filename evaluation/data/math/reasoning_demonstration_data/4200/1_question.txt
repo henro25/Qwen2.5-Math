@@ -1,0 +1,1 @@
+Problem: If $\sqrt{2x^2+1}=\sqrt{19}$, find the average of all the possible values of $x.$

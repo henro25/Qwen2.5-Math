@@ -1,0 +1,1 @@
+Problem: Determine the number of ways to arrange the letters of the word TARTAR.

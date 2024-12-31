@@ -1,0 +1,1 @@
+Problem: The arithmetic mean of four numbers is 15. Two of the numbers are 10 and 18 and the other two are equal. What is the product of the two equal numbers?

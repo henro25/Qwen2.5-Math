@@ -1,0 +1,1 @@
+Problem: Determine the sum of all single-digit replacements for $z$ such that the number ${24{,}z38}$ is divisible by 6.

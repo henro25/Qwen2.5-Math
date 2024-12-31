@@ -1,0 +1,1 @@
+Problem: Evaluate $\left\lfloor \left\lceil \left(\frac{13}{7}\right)^2\right\rceil+\frac{17}{4}\right\rfloor$.

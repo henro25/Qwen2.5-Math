@@ -1,0 +1,1 @@
+Problem: 12 balls numbered 1 through 12 are placed in a bin.  In how many ways can 3 balls be drawn, in order, from the bin, if each ball remains outside the bin after it is drawn?

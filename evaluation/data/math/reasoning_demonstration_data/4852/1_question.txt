@@ -1,0 +1,10 @@
+Problem: In the diagram, $PQRS$ is a trapezoid with an area of $12.$ $RS$ is twice the length of $PQ.$ What is the area of $\triangle PQS?$
+
+[asy]
+draw((0,0)--(1,4)--(7,4)--(12,0)--cycle);
+draw((7,4)--(0,0));
+label("$S$",(0,0),W);
+label("$P$",(1,4),NW);
+label("$Q$",(7,4),NE);
+label("$R$",(12,0),E);
+[/asy]

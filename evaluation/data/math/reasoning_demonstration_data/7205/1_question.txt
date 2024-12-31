@@ -1,0 +1,1 @@
+Problem: In a certain ellipse, the center is at $(-3,1),$ one focus is at $(-3,0),$ and one endpoint of a semi-major axis is at $(-3,3).$  Find the semi-minor axis of the ellipse.

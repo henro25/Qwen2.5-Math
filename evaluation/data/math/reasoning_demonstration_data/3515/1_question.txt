@@ -1,0 +1,2 @@
+Problem: For any real number $k,$ the graph of
+\[y = 7x^2 + kx - 4k\]passes through a fixed point $(a,b).$  Find $(a,b).$

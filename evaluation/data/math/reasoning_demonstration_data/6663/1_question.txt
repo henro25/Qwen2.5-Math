@@ -1,0 +1,1 @@
+Problem: In $\triangle XYZ$, we have $\angle X = 90^\circ$ and $\tan Z = 7$.  If $YZ = 100$, then what is $XY$?

@@ -1,0 +1,1 @@
+Problem: Let $f(x) = x^4 + ax^3 + bx^2 + cx + d$ be a polynomial whose roots are all negative integers.  If $a + b + c + d = 2009,$ find $d.$

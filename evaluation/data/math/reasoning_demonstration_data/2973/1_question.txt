@@ -1,0 +1,1 @@
+Problem: Simplify: $$\dfrac{\sqrt{338}}{\sqrt{288}}+\dfrac{\sqrt{150}}{\sqrt{96}}.$$Express your answer as a common fraction.

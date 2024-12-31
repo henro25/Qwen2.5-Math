@@ -1,0 +1,1 @@
+Problem: Four positive integers $A$, $B$, $C$ and $D$ have a sum of 64. If $A+3 = B-3 = C \times 3 = D \div 3$, what is the value of the product $A \times B \times C \times D$?

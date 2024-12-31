@@ -1,0 +1,1 @@
+Problem: The arithmetic mean of 12 scores is 82. When the highest and lowest scores are  removed, the new mean becomes 84. If the highest of the 12 scores is 98, what is the lowest score?

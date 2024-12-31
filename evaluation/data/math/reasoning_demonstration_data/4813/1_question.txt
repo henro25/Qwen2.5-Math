@@ -1,0 +1,1 @@
+Problem: Evaluate $|\omega^2+6\omega+58|$ if $\omega=9+2i$.

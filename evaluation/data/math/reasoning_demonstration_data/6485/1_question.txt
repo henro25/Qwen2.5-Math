@@ -1,0 +1,1 @@
+Problem: Evaluate $y(y-3x)$ for $x=3$ and $y=0$.

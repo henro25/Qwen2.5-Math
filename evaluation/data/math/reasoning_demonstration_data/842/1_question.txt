@@ -1,0 +1,1 @@
+Problem: Solve for $x$: $$2^x+6=3\cdot2^x-26$$

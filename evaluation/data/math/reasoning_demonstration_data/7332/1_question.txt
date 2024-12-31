@@ -1,0 +1,1 @@
+Problem: Cameron writes down the smallest positive multiple of 20 that is a perfect square, the smallest positive multiple of 20 that is a perfect cube, and all the multiples of 20 between them.  How many integers are in Cameron's list?

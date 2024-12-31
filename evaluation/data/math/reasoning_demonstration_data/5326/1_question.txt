@@ -1,0 +1,1 @@
+Problem: The digits of a four-digit positive integer add up to 14. The sum of the two middle digits is nine, and the thousands digit minus the units digit is one. If the integer is divisible by 11, what is the integer?

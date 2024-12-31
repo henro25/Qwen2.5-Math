@@ -1,0 +1,1 @@
+Problem: What is the sum of the value(s) of $n$ for which $|2n - 7| = 3$?

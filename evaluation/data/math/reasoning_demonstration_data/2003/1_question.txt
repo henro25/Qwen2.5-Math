@@ -1,0 +1,1 @@
+Problem: Find the sum of all possible positive integer values of $b$ such that the quadratic equation $2x^2 + 5x + b = 0$ has rational roots.

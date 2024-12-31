@@ -1,0 +1,1 @@
+Problem: How many positive divisors of $150$ are not divisible by 5?

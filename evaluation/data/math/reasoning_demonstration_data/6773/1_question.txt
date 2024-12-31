@@ -1,0 +1,12 @@
+Problem: Rectangle $ABCD$ is 8 cm by 4 cm. $M$ is the midpoint of $\overline{BC}$ , and $N$ is the midpoint of $\overline{CD}$. What is the number of square centimeters in the area of region $AMCN$?
+
+[asy]
+draw((0,0)--(32,0)--(32,16)--(0,16)--cycle);
+draw((0,16)--(16,0)--(32,8)--cycle);
+label("$A$",(0,16),N);
+label("$B$",(32,16),N);
+label("$C$",(32,0),S);
+label("$D$",(0,0),S);
+label("$N$",(16,0),S);
+label("$M$",(32,8),E);
+[/asy]

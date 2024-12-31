@@ -1,0 +1,22 @@
+Problem: Triangle $ABC$ has a right angle at $B$, and contains a point $P$ for which $PA = 10$, $PB = 6$, and $\angle APB = \angle BPC = \angle CPA$. Find $PC$.
+
+[asy]
+unitsize(0.2 cm);
+
+pair A, B, C, P;
+
+A = (0,14);
+B = (0,0);
+C = (21*sqrt(3),0);
+P = intersectionpoint(arc(B,6,0,180),arc(C,33,0,180));
+
+draw(A--B--C--cycle);
+draw(A--P);
+draw(B--P);
+draw(C--P);
+
+label("$A$", A, NW);
+label("$B$", B, SW);
+label("$C$", C, SE);
+label("$P$", P, NE);
+[/asy]

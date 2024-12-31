@@ -1,0 +1,1 @@
+Problem: Let $a$ and $b$ be constants. Suppose that the equation \[\frac{(x+a)(x+b)(x+12)}{(x+3)^2} = 0\]has exactly $3$ distinct roots, while the equation \[\frac{(x+2a)(x+3)(x+6)}{(x+b)(x+12)} = 0\]has exactly $1$ distinct root. Compute $100a + b.$

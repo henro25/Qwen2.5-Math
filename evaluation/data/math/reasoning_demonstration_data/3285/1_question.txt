@@ -1,0 +1,1 @@
+Problem: The points $A = (3,-4,2),$ $B = (5,-8,5),$ $C = (4,-3,0),$ and $D = (6,-7,3)$ in space form a flat quadrilateral.  Find the area of this quadrilateral.

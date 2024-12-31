@@ -1,0 +1,1 @@
+Problem: What is the range of the function $y=\log_2 (\sqrt{\cos x})$ for $-90^\circ< x < 90^\circ$?

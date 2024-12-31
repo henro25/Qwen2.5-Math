@@ -1,0 +1,1 @@
+Problem: Expand the product ${3(x+4)(x+5)}$.

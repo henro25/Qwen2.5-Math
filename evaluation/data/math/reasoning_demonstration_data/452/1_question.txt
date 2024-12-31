@@ -1,0 +1,1 @@
+Problem: The notation $[x]$ stands for the greatest integer that is less than or equal to $x$. Calculate $[-1.2]$.

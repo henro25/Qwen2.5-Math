@@ -1,0 +1,1 @@
+Problem: In triangle $ABC$, $AB = 7$, $AC = 15$, and the length of median $AM$ is 10.  Find the area of triangle $ABC$.

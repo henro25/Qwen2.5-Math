@@ -1,0 +1,1 @@
+Problem: Determine the number of positive integers $a$ less than $12$ such that the congruence $ax\equiv 1\pmod{12}$ has a solution in $x$.

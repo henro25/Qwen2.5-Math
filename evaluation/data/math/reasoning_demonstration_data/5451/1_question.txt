@@ -1,0 +1,1 @@
+Problem: When Joyce counts the pennies in her bank by fives, she has one left over. When she counts them by threes, there are two left over. What is the least possible number of pennies in the bank?

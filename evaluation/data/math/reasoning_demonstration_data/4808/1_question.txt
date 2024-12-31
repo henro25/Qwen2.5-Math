@@ -1,0 +1,1 @@
+Problem: The side lengths of a triangle are 14 cm, 48 cm and 50 cm. How many square centimeters are in the area of the triangle?

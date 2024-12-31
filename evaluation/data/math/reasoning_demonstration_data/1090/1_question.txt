@@ -1,0 +1,1 @@
+Problem: Twenty tiles are numbered 1 through 20 and are placed into box $A$. Twenty other tiles numbered 11 through 30 are placed into box $B$. One tile is randomly drawn from each box. What is the probability that the tile from box $A$ is less than 15 and the tile from box $B$ is either even or greater than 25? Express your answer as a common fraction.

@@ -1,0 +1,1 @@
+Problem: The graph of a certain quadratic $y = ax^2 + bx + c$ is a parabola with vertex $(-4,0)$ which passes through the point $(1,-75)$.  What is the value of $a$?

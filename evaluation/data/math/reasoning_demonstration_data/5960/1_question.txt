@@ -1,0 +1,1 @@
+Problem: Triangle $ABC$ has an inradius of $5$ and a circumradius of $16$. If $2\cos{B} = \cos{A} + \cos{C}$, then the area of triangle $ABC$ can be expressed as $\frac{a\sqrt{b}}{c}$, where $a, b,$ and $c$ are positive integers such that $a$ and $c$ are relatively prime and $b$ is not divisible by the square of any prime. Compute $a+b+c$.

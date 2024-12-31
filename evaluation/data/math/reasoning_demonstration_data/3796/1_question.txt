@@ -1,0 +1,7 @@
+Problem: A square is inscribed in a circle.  A smaller square has one side coinciding with a side of the larger square and has two vertices on the circle, as shown.  What percent of the area of the larger square is the area of the smaller square?
+
+[asy]
+draw(Circle((0,0),1.4142));
+draw((1,1)--(1,-1)--(-1,-1)--(-1,1)--cycle);
+draw((0.2,1)--(0.2,1.4)--(-0.2,1.4)--(-0.2,1));
+[/asy]

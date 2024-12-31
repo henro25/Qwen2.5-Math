@@ -1,0 +1,15 @@
+Problem: $\triangle ABC$ is similar to $\triangle DEF$ . What is the number of centimeters in the length of $\overline{EF}$ ? Express your answer as a decimal to the nearest tenth.
+
+[asy]
+draw((0,0)--(8,-2)--(5,4)--cycle);
+label("8cm",(2.5,2),NW);
+label("5cm",(6.1,1),NE);
+draw((12,0)--(18,-1.5)--(15.7,2.5)--cycle);
+label("$A$",(8,-2),SE);
+label("3cm",(16.9,0.5),NE);
+label("$B$",(5,4),N);
+label("$C$",(0,0),SW);
+label("$D$",(18,-1.5),SE);
+label("$E$",(15.7,2.5),N);
+label("$F$",(12,0),N);
+[/asy]

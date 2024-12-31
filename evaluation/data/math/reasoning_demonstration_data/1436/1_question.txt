@@ -1,0 +1,1 @@
+Problem: An infinite geometric series has first term $328$ and a sum of $2009$. What is its common ratio?

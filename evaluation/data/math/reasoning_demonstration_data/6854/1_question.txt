@@ -1,0 +1,3 @@
+Problem: When three positive integers are divided by $24$, the remainders are $10,$ $4,$ and $12,$ respectively.
+
+When the sum of the three integers is divided by $24$, what is the remainder?

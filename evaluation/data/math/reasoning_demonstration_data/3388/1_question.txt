@@ -1,0 +1,1 @@
+Problem: What is the constant term in the expansion of $\left(\sqrt{x}+\dfrac5x\right)^{9}$?

@@ -1,0 +1,1 @@
+Problem: A sign painter paints individual numerals for a row of 50 houses. The houses are numbered with consecutive integers from 1 to 50. How many 9s are painted?

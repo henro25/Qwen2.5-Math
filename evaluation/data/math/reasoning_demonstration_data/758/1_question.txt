@@ -1,0 +1,2 @@
+Problem: The function $f(x)$ satisfies
+\[f(2^x) + xf(2^{-x}) = 1\]for all real numbers $x.$  Find $f(2).$

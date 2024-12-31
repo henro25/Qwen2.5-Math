@@ -1,0 +1,1 @@
+Problem: A list of five positive integers has a median of 3 and a mean of 11. What is the maximum possible value of the list's largest element?

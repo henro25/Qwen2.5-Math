@@ -1,0 +1,10 @@
+Problem: Crestview's school colors are purple and gold. The students are designing a flag using three solid-colored horizontal stripes, as shown. Using one or both of the school colors, how many different flags are possible if adjacent stripes may be the same color?
+
+[asy]
+size(75);
+draw((0,0)--(0,12));
+dot((0,12));
+draw((0,12)--(8,12)--(8,11)--(0,11));
+draw((8,11)--(8,9)--(0,9));
+draw((8,9)--(8,6)--(0,6));
+[/asy]

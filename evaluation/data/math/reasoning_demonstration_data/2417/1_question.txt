@@ -1,0 +1,1 @@
+Problem: Find the ones digit of $22^{22(11^{11})}$

@@ -1,0 +1,1 @@
+Problem: Five standard six-sided dice are rolled.  We are told there is no three-of-a-kind, but there is a pair of dice that show the same number.  These two dice are set aside, and the other three dice are re-rolled.  What is the probability that after re-rolling these three dice, at least three of the five dice show the same value?

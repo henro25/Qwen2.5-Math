@@ -1,0 +1,6 @@
+Problem: Let \[p(x,y) =
+\begin{cases} x + y &\quad \text{if } x \ge 0 \text{ and } y \ge 0, \\
+x - 2y &\quad \text{if } x < 0 \text{ and } y < 0, \\
+3x + y &\quad \text{otherwise}.
+\end{cases}
+\]What is $p(p(1,-1),p(-5,-2))$?

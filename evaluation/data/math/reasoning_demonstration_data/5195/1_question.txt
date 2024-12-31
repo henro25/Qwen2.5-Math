@@ -1,0 +1,1 @@
+Problem: Which type of conic section is described by the equation \[\sqrt{x^2 + (y-1)^2} + \sqrt{(x-5)^2 + (y+3)^2} = 10?\]Enter "C" for circle, "P" for parabola, "E" for ellipse, "H" for hyperbola, and "N" for none of the above.

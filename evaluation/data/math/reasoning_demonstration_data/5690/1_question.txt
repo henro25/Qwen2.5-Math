@@ -1,0 +1,11 @@
+Problem: A polynomial of degree four with leading coefficient 1 and integer coefficients has two real zeros, both of which are integers. Which of the following can also be a zero of the polynomial?
+
+(A) $\frac{1 + i \sqrt{11}}{2}$
+
+(B) $\frac{1 + i}{2}$
+
+(C) $\frac{1}{2} + i$
+
+(D) $1 + \frac{i}{2}$
+
+(E) $\frac{1 + i \sqrt{13}}{2}$

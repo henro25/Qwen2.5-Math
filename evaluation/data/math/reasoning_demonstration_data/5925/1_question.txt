@@ -1,0 +1,9 @@
+Problem: The scores on a $110$-point test were organized in the stem-and-leaf plot shown. $9 | 6$ represents $96$ points. What is the mode of the scores? \begin{tabular}{c|lllllll}
+\multicolumn{8}{c}{\underline{Points on the Test}}\\
+5 &0 & 0 & & & & &\\
+6 &3 & & & & & &\\
+7 &7 & 8 & & & & &\\
+8 &2 & 6 & 7 & 9 & 9 & 9 & 9\\
+9 &1 & 4 & 4 & 4 & 6 & &\\
+10 &0 & 0 & 0 & & & &\\
+\end{tabular}

@@ -1,0 +1,1 @@
+Problem: For what digit $d$ is the five-digit number $2345d$ a multiple of 9?

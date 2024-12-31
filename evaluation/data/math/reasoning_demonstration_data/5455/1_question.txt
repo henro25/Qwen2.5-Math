@@ -1,0 +1,1 @@
+Problem: Evaluate the expression \[ \frac{a+2}{a+1} \cdot \frac{b-1}{b-2} \cdot \frac{c + 8}{c+6} , \] given that $c = b-10$, $b = a+2$, $a = 4$, and none of the denominators are zero.

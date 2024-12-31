@@ -1,0 +1,2 @@
+Problem: Let $p,$ $q,$ $r,$ $s$ be real numbers such that $p  +q + r + s = 8$ and
+\[pq + pr + ps + qr + qs + rs = 12.\]Find the largest possible value of $s.$

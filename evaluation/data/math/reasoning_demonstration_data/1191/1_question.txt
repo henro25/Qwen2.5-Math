@@ -1,0 +1,2 @@
+Problem: Find the greatest constant $M,$ so that
+\[\frac{a^2 + b^2}{c^2} > M\]whenever $a,$ $b,$ and $c$ are the sides of a triangle.

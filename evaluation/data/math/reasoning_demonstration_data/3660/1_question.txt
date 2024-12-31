@@ -1,0 +1,1 @@
+Problem: Let $a,b,$ and $c$ be real numbers such that \[a + b + c = 2\]and \[a^2+b^2+c^2=12.\]What is the difference between the maximum and minimum possible values of $c$?

@@ -1,0 +1,1 @@
+Problem: A right circular cylinder with its diameter equal to its height is inscribed in a right circular cone. The cone has diameter 10 and altitude 12, and the axes of the cylinder and cone coincide. Find the radius of the cylinder. Express your answer as a common fraction.

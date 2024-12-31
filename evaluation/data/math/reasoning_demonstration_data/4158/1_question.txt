@@ -1,0 +1,2 @@
+Problem: Let $x_1,$ $x_2,$ $x_3,$ $\dots,$ $x_{100}$ be positive real numbers such that $x_1^2 + x_2^2 + x_3^2 + \dots + x_{100}^2 = 1.$  Find the minimum value of
+\[\frac{x_1}{1 - x_1^2} + \frac{x_2}{1 - x_2^2} + \frac{x_3}{1 - x_3^2} + \dots + \frac{x_{100}}{1 - x_{100}^2}.\]

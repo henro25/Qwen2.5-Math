@@ -1,0 +1,1 @@
+Problem: Compute the smallest positive integer $n$ such that $n + i,$ $(n + i)^2,$ and $(n + i)^3$ are the vertices of a triangle in the complex plane whose area is greater than 2015.

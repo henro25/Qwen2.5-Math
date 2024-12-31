@@ -1,0 +1,2 @@
+Problem: Compute
+\[\begin{vmatrix} -5 & 3 \\ 4 & -4 \end{vmatrix}.\]

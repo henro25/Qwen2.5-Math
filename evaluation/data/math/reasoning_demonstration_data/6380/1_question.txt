@@ -1,0 +1,1 @@
+Problem: Find $x$ so that the vectors $\begin{pmatrix} 2 \\ 5 \end{pmatrix}$ and $\begin{pmatrix} x \\ -3 \end{pmatrix}$ are orthogonal.

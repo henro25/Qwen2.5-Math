@@ -1,0 +1,1 @@
+Problem: Solve the equation $|y-6| + 2y = 9$ for $y$.

@@ -1,0 +1,1 @@
+Problem: A binary operation $\diamondsuit$ has the properties that $a\,\diamondsuit\, (b\,\diamondsuit \,c) = (a\,\diamondsuit \,b)\cdot c$ and that $a\,\diamondsuit \,a=1$ for all nonzero real numbers $a, b,$ and $c$. (Here $\cdot$ represents multiplication). Find the solution to the equation $2016 \,\diamondsuit\, (6\,\diamondsuit\, x)=100.$

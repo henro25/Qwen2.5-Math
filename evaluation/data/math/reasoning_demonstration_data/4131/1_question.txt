@@ -1,0 +1,1 @@
+Problem: From a group of six students, how many different four-student committees can be chosen?

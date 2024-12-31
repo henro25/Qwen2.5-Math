@@ -1,0 +1,2 @@
+Problem: The function $f(x)$ satisfies
+\[3f(x) - 2 f \left( \frac{1}{x} \right) = x\]for all $x \neq 0.$  Find $f(4).$

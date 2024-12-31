@@ -1,0 +1,7 @@
+Problem: Let $f$ be a function taking the positive integers to the positive integers, such that
+
+(i) $f$ is increasing (i.e. $f(n + 1) > f(n)$ for all positive integers $n$)
+(ii) $f(mn) = f(m) f(n)$ for all positive integers $m$ and $n,$ and
+(iii) if $m \neq n$ and $m^n = n^m,$ then $f(m) = n$ or $f(n) = m.$
+
+Find the sum of all possible values of $f(30).$

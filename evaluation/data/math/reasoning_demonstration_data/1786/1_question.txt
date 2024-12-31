@@ -1,0 +1,1 @@
+Problem: What is the coefficient of $x^3$ when $$x^4-3x^3 + 5x^2-6x + 1$$is multiplied by $$2x^3 - 3x^2 + 4x + 7$$and the like terms are combined?

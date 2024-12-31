@@ -1,0 +1,1 @@
+Problem: Find all values of $z$ such that $z^4 - 4z^2 + 3 = 0$.  Enter all the solutions, separated by commas.

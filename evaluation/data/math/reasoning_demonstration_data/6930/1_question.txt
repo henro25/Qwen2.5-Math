@@ -1,0 +1,1 @@
+Problem: Ben rolls four fair 10-sided dice, each numbered with numbers from 1 to 10. What is the probability that exactly two of the dice show a prime number?

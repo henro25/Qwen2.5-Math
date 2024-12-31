@@ -1,0 +1,1 @@
+Problem: The number $n$ is a prime number between 20 and 30. If you divide $n$ by 8, the remainder is 5. What is the value of $n$?

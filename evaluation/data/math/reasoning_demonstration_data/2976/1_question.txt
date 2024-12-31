@@ -1,0 +1,1 @@
+Problem: Find the ordered pair $(j,k)$ that satisfies the equations $5j-42k=1$ and $2k-j=3$.

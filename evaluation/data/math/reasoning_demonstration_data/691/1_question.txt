@@ -1,0 +1,1 @@
+Problem: The vector $\begin{pmatrix} 1 \\ 2 \\ 2 \end{pmatrix}$ is rotated $90^\circ$ about the origin.  During the rotation, it passes through the $x$-axis.  Find the resulting vector.

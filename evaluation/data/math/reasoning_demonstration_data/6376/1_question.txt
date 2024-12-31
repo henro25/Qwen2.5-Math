@@ -1,0 +1,2 @@
+Problem: Find the minimum value of
+\[\sin^4 x + \frac{3}{2} \cos^4 x,\]as $x$ varies over all real numbers.

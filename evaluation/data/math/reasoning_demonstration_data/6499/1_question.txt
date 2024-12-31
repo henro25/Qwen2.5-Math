@@ -1,0 +1,5 @@
+Problem: Let $x, y, z$ be real numbers so that  \begin{align*}
+y+z & = 13, \\
+z+x & = 14, \\
+x+y & = 15.
+\end{align*} Find $\sqrt{xyz(x+y+z)}$.

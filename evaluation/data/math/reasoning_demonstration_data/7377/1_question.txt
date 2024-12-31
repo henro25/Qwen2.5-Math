@@ -1,0 +1,16 @@
+Problem: In the diagram, $AB = 13\text{ cm},$ $DC = 20\text{ cm},$ and $AD = 5\text{ cm}.$ What is the length of $AC,$ to the nearest tenth of a centimeter?
+
+[asy]
+draw((0,0)--(5,12)--(21,12)--(5,0)--cycle,black+linewidth(1));
+draw((5,12)--(5,0),black+linewidth(1));
+draw((0,0)--(21,12),black+linewidth(1));
+draw((5,0)--(5,0.5)--(4.5,0.5)--(4.5,0)--cycle,black+linewidth(1));
+draw((5,12)--(5.5,12)--(5.5,11.5)--(5,11.5)--cycle,black+linewidth(1));
+label("$A$",(0,0),NW);
+label("$B$",(5,12),NW);
+label("$C$",(21,12),E);
+label("$D$",(5,0),SE);
+label("13 cm",(0,0)--(5,12),NW);
+label("5 cm",(0,0)--(5,0),S);
+label("20 cm",(5,0)--(21,12),SE);
+[/asy]

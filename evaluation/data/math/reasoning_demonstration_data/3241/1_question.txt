@@ -1,0 +1,1 @@
+Problem: How many ways can change be made for a quarter using standard U.S. coins?  (Don't count "1 quarter" as making change for a quarter.)

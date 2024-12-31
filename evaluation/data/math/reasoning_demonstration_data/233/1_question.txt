@@ -1,0 +1,1 @@
+Problem: Given that $13^{-1} \equiv 29 \pmod{47}$, find $34^{-1} \pmod{47}$, as a residue modulo 47.  (Give a number between 0 and 46, inclusive.)

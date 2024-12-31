@@ -1,0 +1,1 @@
+Problem: What is $\sqrt[4]{16} \cdot \sqrt[3]{8} \cdot \sqrt{4}$ expressed as a positive integer?

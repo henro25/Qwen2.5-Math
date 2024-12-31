@@ -1,0 +1,1 @@
+Problem: $\sqrt{53+20\sqrt{7}}$ can be written in the form $a+b\sqrt{c}$, where $a,$ $b,$ and $c$ are integers and $c$ has no factors which is a perfect square of any positive integer other than 1. Find $a+b+c$.

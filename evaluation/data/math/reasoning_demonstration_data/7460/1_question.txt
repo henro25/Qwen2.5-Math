@@ -1,0 +1,1 @@
+Problem: Evaluate the expression $a^2\cdot a^5$ if $a= 3$.

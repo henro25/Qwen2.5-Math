@@ -1,0 +1,1 @@
+Problem: A number $n$ has $3$ divisors. How many divisors does $n^2$ have?

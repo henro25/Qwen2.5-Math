@@ -1,0 +1,1 @@
+Problem: Let $f(x) = 2x^4-17x^3+26x^2-24x-60$. Find $f(7)$.

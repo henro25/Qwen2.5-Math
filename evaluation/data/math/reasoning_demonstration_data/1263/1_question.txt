@@ -1,0 +1,1 @@
+Problem: If a regular polygon has a total of nine diagonals, how many sides does it have?

@@ -1,0 +1,1 @@
+Problem: Compute $\sin 6^\circ \sin 42^\circ \sin 66^\circ \sin 78^\circ.$

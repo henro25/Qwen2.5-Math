@@ -1,0 +1,1 @@
+Problem: Joe is studying a bacteria population.  There are 20 bacteria present at 3:00 p.m. and the population doubles every 3 minutes.  Assuming none of the bacteria die, how many bacteria are present at 3:15 p.m. the same day?

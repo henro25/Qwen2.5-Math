@@ -1,0 +1,1 @@
+Problem: The difference when the product of 4 and a number is subtracted from 16 is greater than 10. How many positive integers satisfy the given conditions?

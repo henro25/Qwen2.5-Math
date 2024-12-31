@@ -1,0 +1,2 @@
+Problem: One of the roots of
+\[ax^3 + 3x^2 + bx - 65 = 0,\]is $-2 - 3i,$ where $a$ and $b$ are real numbers.  Find the real root of this cubic polynomial.

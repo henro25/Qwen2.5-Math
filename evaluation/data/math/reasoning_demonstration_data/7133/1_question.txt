@@ -1,0 +1,11 @@
+Problem: Consider two lines: line $l$ parametrized as
+\begin{align*} 
+x &= 1 + 4t,\\
+y &=  4 + 3t
+\end{align*}and the line $m$ parametrized as
+\begin{align*} 
+x &=-5  + 4s\\
+y &=  6 + 3s.
+\end{align*}Let $A$ be a point on line $l$, $B$ be a point on line $m$, and let $P$ be the foot of the perpendicular from $A$ to line $m$.
+
+Then $\overrightarrow{PA}$ is the projection of $\overrightarrow{BA}$ onto some vector $\begin{pmatrix} v_1\\v_2\end{pmatrix}$ such that $v_1+v_2 = 2$. Find $\begin{pmatrix}v_1 \\ v_2 \end{pmatrix}$.

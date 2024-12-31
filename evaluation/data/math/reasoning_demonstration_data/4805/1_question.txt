@@ -1,0 +1,1 @@
+Problem: The diagonals of rectangle $PQRS$ intersect at point $X$.  If $PS = 10$ and $RS=24$, then what is $\cos \angle PXS$?

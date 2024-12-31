@@ -1,0 +1,1 @@
+Problem: How many rows of Pascal's Triangle contain the number $43$?

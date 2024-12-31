@@ -1,0 +1,2 @@
+Problem: Let $ABCD$ be an isosceles trapezoid with bases $AB=92$ and $CD=19$. Suppose $AD=BC=x$ and a circle with center on $\overline{AB}$ is tangent to segments $\overline{AD}$ and $\overline{BC}$. If $m$ is the smallest possible value of $x$, then $m^2$=
+$\text{(A) } 1369\quad \text{(B) } 1679\quad \text{(C) } 1748\quad \text{(D) } 2109\quad \text{(E) } 8825$

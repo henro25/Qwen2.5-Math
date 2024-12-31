@@ -1,0 +1,1 @@
+Problem: Find a positive integer that is divisible by 14 and has a square root between 25 and 25.3.

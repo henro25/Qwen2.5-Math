@@ -1,0 +1,1 @@
+Problem: How many whole numbers are between $\sqrt[3]{10}$ and $\sqrt[3]{200}$?

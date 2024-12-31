@@ -1,0 +1,1 @@
+Problem: One year ago, the number of years in Jane's age was a perfect square, and one year from now, her age will be a perfect cube. How many years old is Jane?

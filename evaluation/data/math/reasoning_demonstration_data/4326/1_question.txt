@@ -1,0 +1,1 @@
+Problem: Mary and James each sit in a row of 7 chairs.  They choose their seats at random.  What is the probability that they don't sit next to each other?

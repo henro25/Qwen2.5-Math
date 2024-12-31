@@ -1,0 +1,1 @@
+Problem: An eight-digit integer is formed by repeating a positive four-digit integer. For example, 25,632,563 or 60,786,078 are integers of this form. What is the greatest common divisor of all eight-digit integers of this form?

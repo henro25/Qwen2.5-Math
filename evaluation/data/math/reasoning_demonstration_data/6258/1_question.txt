@@ -1,0 +1,14 @@
+Problem: A circle centered at $A$ with a radius of $1$ and a circle centered at $B$ with a radius of $4$ are externally tangent. A third circle is tangent to the first two and to one of their common external tangents as shown. What is the radius of the third circle? [asy]
+draw((-3,0)--(7.5,0));
+draw(Circle((-1,1),1),linewidth(0.7));
+draw(Circle((3,4),4),linewidth(0.7));
+draw(Circle((0.33,0.44),0.44),linewidth(0.7));
+dot((-1,1));
+dot((3,4));
+draw((-1,1)--(-2,1));
+draw((3,4)--(7,4));
+label("$A$",(-1,1),E);
+label("$B$",(3,4),W);
+label("1",(-1.5,1),N);
+label("4",(5,4),N);
+[/asy]

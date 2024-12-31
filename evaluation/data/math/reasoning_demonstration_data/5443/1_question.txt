@@ -1,0 +1,1 @@
+Problem: Given that $2+\sqrt{3}$ is a root of the equation \[x^3 + ax^2 + bx + 10 = 0\]and that $a$ and $b$ are rational numbers, compute $b.$

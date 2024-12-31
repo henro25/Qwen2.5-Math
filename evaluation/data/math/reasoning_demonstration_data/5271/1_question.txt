@@ -1,0 +1,1 @@
+Problem: Evaluate $\sqrt{2 -\!\sqrt{2 - \!\sqrt{2 - \!\sqrt{2 - \cdots}}}}$.

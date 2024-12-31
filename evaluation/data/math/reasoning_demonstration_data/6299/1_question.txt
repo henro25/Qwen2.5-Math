@@ -1,0 +1,1 @@
+Problem: What is the largest value of $x$, if $\frac{x}{5} + \frac{1}{5x} = \frac{1}{2}$?

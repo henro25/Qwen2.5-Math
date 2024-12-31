@@ -1,0 +1,1 @@
+Problem: If $x + y = 16$ and $x-y = 2$, what is the value of $x^2 - y^2$?

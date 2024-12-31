@@ -1,0 +1,27 @@
+Problem: Let $\overline{AD},$ $\overline{BE},$ $\overline{CF}$ be the altitudes of acute triangle $ABC.$  If
+\[9 \overrightarrow{AD} + 4 \overrightarrow{BE} + 7 \overrightarrow{CF} = \mathbf{0},\]then compute $\angle ACB,$ in degrees.
+
+[asy]
+unitsize (0.6 cm);
+
+pair A, B, C, D, E, F, H;
+
+A = (2,5);
+B = (0,0);
+C = (8,0);
+D = (A + reflect(B,C)*(A))/2;
+E = (B + reflect(C,A)*(B))/2;
+F = (C + reflect(A,B)*(C))/2;
+
+draw(A--B--C--cycle);
+draw(A--D);
+draw(B--E);
+draw(C--F);
+
+label("$A$", A, N);
+label("$B$", B, SW);
+label("$C$", C, SE);
+label("$D$", D, S);
+label("$E$", E, NE);
+label("$F$", F, NW);
+[/asy]

@@ -1,0 +1,1 @@
+Problem: For what value of $n$ is the five-digit number $\underline{7n933}$ divisible by 33? (Note: the underlining is meant to indicate that the number should be interpreted as a five-digit number whose ten thousands digit is 7, whose thousands digit is $n$, and so on).

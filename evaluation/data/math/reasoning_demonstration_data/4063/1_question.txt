@@ -1,0 +1,2 @@
+Problem: Find the complex number $z$ such that
+\[|z - 1| = |z + 3| = |z - i|.\]

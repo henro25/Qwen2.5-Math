@@ -1,0 +1,1 @@
+Problem: The graph of the parabola $x = 2y^2 - 6y + 3$ has an $x$-intercept $(a,0)$ and two $y$-intercepts $(0,b)$ and $(0,c)$.  Find $a + b + c$.

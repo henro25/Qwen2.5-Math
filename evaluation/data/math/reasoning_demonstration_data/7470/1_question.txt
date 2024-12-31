@@ -1,0 +1,2 @@
+Problem: Let $x$ and $y$ be nonzero real numbers. Let $m$ and $M$ be the minimium value and maximum value of
+\[\frac{|x + y|}{|x| + |y|},\]respectively.  Find $M - m.$

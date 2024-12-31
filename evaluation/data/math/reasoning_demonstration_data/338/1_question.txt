@@ -1,0 +1,1 @@
+Problem: What is the value of $\sqrt{15 - 6\sqrt{6}} + \sqrt{15 + 6\sqrt{6}}$?

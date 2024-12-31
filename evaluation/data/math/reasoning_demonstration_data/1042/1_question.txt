@@ -1,0 +1,1 @@
+Problem: Find the coordinates of the center of the hyperbola \[\frac{(2y-2)^2}{5^2} - \frac{(3x-4)^2}{4^2} = 1.\]

@@ -1,0 +1,13 @@
+Problem: The function $f$ has the property that for each real number $x$ in its domain, $1/x$ is also in its domain and \[
+f(x) + f\left(\frac{1}{x}\right) = x.
+\]What is the largest set of real numbers that can be in the domain of $f$?
+
+(a) ${\{x\mid x\ne0\}}$
+
+(b) ${\{x\mid x<0\}}$
+
+(c) ${\{x\mid x>0\}}$
+
+(d) ${\{x\mid x\ne-1\ \text{and}\ x\ne0\ \text{and}\ x\ne1\}}$
+
+(e) ${\{-1,1\}}$

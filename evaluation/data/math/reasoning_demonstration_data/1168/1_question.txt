@@ -1,0 +1,1 @@
+Problem: Find the domain of the function $f(x) = \tan(\arccos(x^2)).$

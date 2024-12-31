@@ -1,0 +1,1 @@
+Problem: The domain of the function $q(x) = x^4 + 4x^2 + 4$ is $[0,\infty)$. What is the range?

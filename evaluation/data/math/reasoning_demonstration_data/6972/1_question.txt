@@ -1,0 +1,1 @@
+Problem: How many integers between $500$ and $1000$ contain both the digits $3$ and $4$?

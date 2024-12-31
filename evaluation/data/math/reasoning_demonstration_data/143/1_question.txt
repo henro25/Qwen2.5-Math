@@ -1,0 +1,1 @@
+Problem: Mark borrows $10$ dollars from Emily with a simple interest rate of $15\%$ everyday. What is the least integer number of days after which Mark will have to pay her back at least twice as much as he borrowed?

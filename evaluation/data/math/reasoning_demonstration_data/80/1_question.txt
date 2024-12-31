@@ -1,0 +1,1 @@
+Problem: The side of a square has the length $(x-2)$, while a rectangle has a length of $(x-3)$ and a width of $(x+4)$. If the area of the rectangle is twice the area of the square, what is the sum of the possible values of $x$?

@@ -1,0 +1,1 @@
+Problem: Find the polynomial of minimal degree, in $x,$  which has rational coefficients, leading coefficient $1$, and roots $1+\sqrt{2}$ and $1+\sqrt{3}.$ (Write the terms in decreasing order of degree.)

@@ -1,0 +1,2 @@
+Problem: Find all real numbers $a$ such that the roots of the polynomial
+$$x^3 - 6x^2 + 21x + a$$form an arithmetic progression and are not all real.

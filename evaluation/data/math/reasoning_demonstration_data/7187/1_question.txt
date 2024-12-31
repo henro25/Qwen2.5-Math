@@ -1,0 +1,1 @@
+Problem: What is the positive integer $N$ for which $$ 22^2 \times 55^2 = 10^2 \times N^2 \ ? $$

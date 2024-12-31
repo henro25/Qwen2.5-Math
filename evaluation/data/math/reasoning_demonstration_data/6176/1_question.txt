@@ -1,0 +1,2 @@
+Problem: Find the minimum value of
+\[\frac{x^2 + 7}{\sqrt{x^2 + 3}}\]over all real numbers $x.$

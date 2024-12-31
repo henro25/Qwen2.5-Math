@@ -1,0 +1,1 @@
+Problem: How many integers between $100$ and $150$ have three different digits in increasing order? One such integer is $129$.

@@ -1,0 +1,1 @@
+Problem: How many distinct sequences of four letters can be made from the letters in EQUALS if each sequence must begin with L, end with Q, and no letter can appear in a sequence more than once?

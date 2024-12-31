@@ -1,0 +1,1 @@
+Problem: The inverse of $f(x) = \frac{2x-1}{x+5}$ may be written in the form $f^{-1}(x)=\frac{ax+b}{cx+d}$, where $a$, $b$, $c$, and $d$ are real numbers.  Find $a/c$.

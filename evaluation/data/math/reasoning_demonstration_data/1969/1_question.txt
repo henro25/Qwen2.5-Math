@@ -1,0 +1,1 @@
+Problem: Simplify $\tan \frac{\pi}{24} + \tan \frac{7 \pi}{24}.$

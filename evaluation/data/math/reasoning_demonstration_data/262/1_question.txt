@@ -1,0 +1,1 @@
+Problem: At constant temperature, the pressure of a sample of gas is inversely proportional to its volume. I have some oxygen in a 2.28 liter container with a pressure of 5 kPa. If I move all of it to a 5.7 liter container at the same temperature, what will the new pressure be in kPa?

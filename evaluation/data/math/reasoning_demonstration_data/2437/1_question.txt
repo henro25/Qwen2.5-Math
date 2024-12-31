@@ -1,0 +1,1 @@
+Problem: There are two straight lines, each of which passes through four points of the form $(1,0,a), (b,1,0), (0,c,1),$ and $(6d,6d,-d),$ where $a,b,c,$ and $d$ are real numbers, not necessarily in that order.  Enter all possible values of $d,$ separated by commas.

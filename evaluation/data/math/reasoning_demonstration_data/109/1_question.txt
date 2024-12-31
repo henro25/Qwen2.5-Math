@@ -1,0 +1,8 @@
+Problem: In triangle $ABC$, $AX = XY = YB = BC$ and the measure of angle $ABC$ is 120 degrees. What is the number of degrees in the measure of angle $BAC$?
+
+[asy]
+pair A,X,Y,B,C;
+X = A + dir(30); Y = X + dir(0); B = Y + dir(60); C = B + dir(-30);
+draw(B--Y--X--B--C--A--X);
+label("$A$",A,W); label("$X$",X,NW); label("$Y$",Y,S); label("$B$",B,N); label("$C$",C,E);
+[/asy]

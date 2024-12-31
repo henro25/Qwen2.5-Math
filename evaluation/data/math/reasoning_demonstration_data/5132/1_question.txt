@@ -1,0 +1,1 @@
+Problem: A certain collection of numbered indexed cards includes one card with a 1 written on it, two cards with a 2, and so forth up to $n$ cards showing an $n,$ for some positive integer $n$.  Determine $n,$ if the average value of a card in this collection is 2017.

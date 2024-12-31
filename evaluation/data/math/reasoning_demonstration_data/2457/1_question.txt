@@ -1,0 +1,1 @@
+Problem: If $x = \frac34$ and $y = \frac43$ , find the value of $\frac12x^6y^7$.

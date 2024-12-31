@@ -1,0 +1,1 @@
+Problem: In the complex plane, the line segment with end-points $-11 + 3i$ and $3 - 7i$ is plotted in the complex plane.  Find the complex number corresponding to the mid-point of this line segment.

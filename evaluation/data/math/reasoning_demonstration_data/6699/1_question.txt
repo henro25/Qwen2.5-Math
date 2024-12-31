@@ -1,0 +1,2 @@
+Problem: Simplify
+\[\frac{\tan 30^\circ + \tan 40^\circ + \tan 50^\circ + \tan 60^\circ}{\cos 20^\circ}.\]

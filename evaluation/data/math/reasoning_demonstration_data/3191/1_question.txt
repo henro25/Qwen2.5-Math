@@ -1,0 +1,1 @@
+Problem: Find the quadratic polynomial $p(x)$ such that $p(-3) = 10,$ $p(0) = 1,$ and $p(2) = 5.$

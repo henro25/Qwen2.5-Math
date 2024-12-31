@@ -1,0 +1,1 @@
+Problem: How many solutions does the equation \[\frac{(x-1)(x-2)(x-3)\dotsm(x-100)}{(x-1^2)(x-2^2)(x-3^2)\dotsm(x-100^2)} = 0\]have for $x$?

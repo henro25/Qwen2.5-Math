@@ -1,0 +1,1 @@
+Problem: Given $\frac{x}{y}=\frac{10}{4}.$ If $y = 18$, what is the value of $x$?

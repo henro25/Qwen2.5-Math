@@ -1,0 +1,1 @@
+Problem: Let $S$ be the set of all real values of $x$ with $0 < x < \frac{\pi}{2}$ such that $\sin x$, $\cos x$, and $\tan x$ form the side lengths (in some order) of a right triangle.  Compute the sum of $\tan^2 x$ over all $x$ in $S$.

@@ -1,0 +1,1 @@
+Problem: Find the quadratic polynomial, with real coefficients, which has $3 + i$ as a root, and where the coefficient of $x^2$ is 2.

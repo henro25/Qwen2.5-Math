@@ -1,0 +1,1 @@
+Problem: Find the greatest integer value of $b$ for which the expression $\frac{9x^3+4x^2+11x+7}{x^2+bx+8}$ has a domain of all real numbers.

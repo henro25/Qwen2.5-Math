@@ -1,0 +1,1 @@
+Problem: It is now 12:00:00 midnight, as read on a 12-hour digital clock. In 122 hours, 39 minutes and 44 seconds the time will be $A:B:C$. What is the value of $A + B + C$?

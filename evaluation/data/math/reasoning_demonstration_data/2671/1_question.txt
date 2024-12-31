@@ -1,0 +1,12 @@
+Problem: For real numbers $t,$ the point
+\[(x,y) = \left( e^t + e^{-t}, 3 (e^t - e^{-t}) \right)\]is plotted.  All the plotted points lie on what kind of curve?
+
+(A) Line
+(B) Circle
+(C) Parabola
+(D) Ellipse
+(E) Hyperbola
+
+Enter the letter of the correct option.
+
+Note: $e$ is a mathematical constant that is approximately $2.71828.$

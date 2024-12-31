@@ -1,0 +1,1 @@
+Problem: The graph of the equation $y = |x| - 3$ is translated two units to the left and three units down. What are the coordinates of the minimum point of the new graph?

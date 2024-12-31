@@ -1,0 +1,1 @@
+Problem: Amerigo Vespucci has a map of America drawn on the complex plane. The map does not distort distances. Los Angeles corresponds to $0$ on this complex plane, and Boston corresponds to $2600i$. Meanwhile, Knoxville corresponds to the point $780+1040i$. With these city-point correspondences, how far is it from Knoxville to Los Angeles on this complex plane?

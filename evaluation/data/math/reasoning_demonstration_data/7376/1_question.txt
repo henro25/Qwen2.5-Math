@@ -1,0 +1,2 @@
+Problem: Find the number of functions of the form $f(x) = ax^2 + bx + c$ such that
+\[f(x) f(-x) = f(x^2).\]

@@ -1,0 +1,2 @@
+Problem: Let $x,$ $y,$ $z$ be real numbers such that $x + 2y + z = 4.$  Find the maximum value of
+\[xy + xz + yz.\]

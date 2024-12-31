@@ -1,0 +1,1 @@
+Problem: Let $f(x) = Ax + B$ and $g(x) = Bx + A$, where $A \neq B$. If $f(g(x)) - g(f(x)) = B - A$, what is $A + B$?

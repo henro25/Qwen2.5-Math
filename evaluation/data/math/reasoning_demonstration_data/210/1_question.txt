@@ -1,0 +1,1 @@
+Problem: There are four points that are $5$ units from the line $y=13$ and $13$ units from the point $(7,13)$.  What is the sum of the $x$- and $y$-coordinates of all four of these points?

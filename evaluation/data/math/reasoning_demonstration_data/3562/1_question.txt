@@ -1,0 +1,1 @@
+Problem: Add $10_7 + 163_7.$ Express your answer in base 7.

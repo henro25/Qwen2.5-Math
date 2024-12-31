@@ -1,0 +1,2 @@
+Problem: Simplify
+\[\cos \frac{2 \pi}{13} + \cos \frac{6 \pi}{13} + \cos \frac{8 \pi}{13}.\]

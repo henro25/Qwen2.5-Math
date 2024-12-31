@@ -1,0 +1,2 @@
+Problem: A right triangle has legs $a$ and $b$ and hypotenuse $c.$  Find the largest possible value of
+\[\frac{a + b}{c}.\]

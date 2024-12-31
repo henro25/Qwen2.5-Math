@@ -1,0 +1,1 @@
+Problem: Find the quadratic polynomial $p(x)$ such that $p(-7) = 0,$ $p(4) = 0,$ and $p(5) = -36.$

@@ -1,0 +1,1 @@
+Problem: An ellipse has foci at $(0, 2)$ and $(3, 0)$. It has two $x$-intercepts, one of which is the origin. What is the other one? Enter your answer as an ordered pair.

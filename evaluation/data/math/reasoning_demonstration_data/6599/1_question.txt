@@ -1,0 +1,1 @@
+Problem: If $60^a = 3$ and $60^b = 5,$ then find $12^{(1 - a - b)/(2(1 - b))}.$

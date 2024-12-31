@@ -1,0 +1,1 @@
+Problem: For any number $x$, we are told that $x\&=7-x$ and $\&x = x -7$. What is the value of $\&(12\&)$?

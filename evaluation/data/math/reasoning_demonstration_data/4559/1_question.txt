@@ -1,0 +1,5 @@
+Problem: If $(x,y)$ is a solution to the system
+\begin{align*}
+xy &= 6, \\
+x^2 y + xy^2 + x + y &= 63,
+\end{align*}find $x^2 + y^2.$

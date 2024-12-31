@@ -1,0 +1,2 @@
+Problem: Let $a,$ $b,$ $c$ be distinct complex numbers such that
+\[\frac{a}{1 - b} = \frac{b}{1 - c} = \frac{c}{1 - a} = k.\]Find the sum of all possible values of $k.$

@@ -1,0 +1,1 @@
+Problem: Find the sum of all real solutions to the equation \[\frac{x-2}{x^2+4x+1} = \frac{x-5}{x^2-10x}.\]

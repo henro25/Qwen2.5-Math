@@ -1,0 +1,1 @@
+Problem: Mark and Sandy are walking to the convenience store at the midpoint of their coordinates. Mark is standing at $(0,7)$, and Sandy is standing at $(-4,-1)$. At what coordinate will they meet?

@@ -1,0 +1,1 @@
+Problem: Consider the geometric sequence $3$, $\dfrac{9}{2}$, $\dfrac{27}{4}$, $\dfrac{81}{8}$, $\ldots$. Find the eighth term of the sequence.  Express your answer as a common fraction.

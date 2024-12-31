@@ -1,0 +1,1 @@
+Problem: The function $y=\frac{x^3+8x^2+21x+18}{x+2}$ can be simplified into the function $y=Ax^2+Bx+C$, defined everywhere except at $x=D$. What is the sum of the values of $A$, $B$, $C$, and $D$?

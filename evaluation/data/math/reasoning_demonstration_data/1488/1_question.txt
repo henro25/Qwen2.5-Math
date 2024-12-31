@@ -1,0 +1,2 @@
+Problem: Let $f$ be a function defined on the positive integers, such that
+\[f(xy) = f(x) + f(y)\]for all positive integers $x$ and $y.$  Given $f(10) = 14$ and $f(40) = 20,$ find $f(500).$

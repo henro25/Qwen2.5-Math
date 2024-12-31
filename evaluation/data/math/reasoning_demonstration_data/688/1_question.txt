@@ -1,0 +1,1 @@
+Problem: How many distinct $x$-intercepts does the graph of $y = (x-5)(x^2+5x+6)$ have?

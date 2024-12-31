@@ -1,0 +1,5 @@
+Problem: How many four-digit numbers $N = \underline{a}\,\underline{b}\,\underline{c}\,\underline{d}$ satisfy all of the following conditions?
+
+$4000 \le N < 6000.$
+$N$ is a multiple of $5.$
+$3 \le b < c \le 6.$

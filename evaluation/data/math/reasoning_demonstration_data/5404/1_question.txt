@@ -1,0 +1,1 @@
+Problem: Two vertices of an obtuse triangle are $(6,4)$ and $(0,0)$. The third vertex is located on the negative branch of the $x$-axis. What are the coordinates of the third vertex if the area of the triangle is 30 square units?

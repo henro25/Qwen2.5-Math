@@ -1,0 +1,1 @@
+Problem: Let $x$, $y$, and $z$ be positive real numbers such that $(x \cdot y) + z = (x + z) \cdot (y + z)$. What is the maximum possible value of $xyz$?

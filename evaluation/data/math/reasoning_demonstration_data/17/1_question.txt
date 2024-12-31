@@ -1,0 +1,4 @@
+Problem: In the figure, the visible gray area within the larger circle is equal to three times the area of the white circular region. What is the ratio of the radius of the small circle to the radius of the large circle? Express your answer as a common fraction.
+
+[asy]size(101);
+filldraw(Circle((0,0),2)^^Circle((.8,-.3),1),gray(.6)+fillrule(1),black);[/asy]

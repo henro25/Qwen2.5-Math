@@ -1,0 +1,2 @@
+Problem: Compute the smallest positive value of $x,$ in degrees, for which the function
+\[f(x) = \sin \frac{x}{3} + \sin \frac{x}{11}\]achieves its maximum value.

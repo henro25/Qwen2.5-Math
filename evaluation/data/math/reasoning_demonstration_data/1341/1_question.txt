@@ -1,0 +1,10 @@
+Problem: Chuck the llama is tied to the corner of a $2\text{ m}$ by $3\text{ m}$ shed on a $3\text{ m}$ leash. How much area (in square meters) does Chuck have in which to play if he can go only around the outside of the shed? [asy]
+draw((0,0)--(15,0)--(15,10)--(0,10)--cycle,black+linewidth(1));
+draw((15,10)--(27,19),black+linewidth(1));
+dot((27,19));
+label("Shed",(7.5,5));
+label("CHUCK",(27,19),N);
+label("2",(0,0)--(0,10),W);
+label("3",(0,0)--(15,0),S);
+label("3",(15,10)--(27,19),SE);
+[/asy]

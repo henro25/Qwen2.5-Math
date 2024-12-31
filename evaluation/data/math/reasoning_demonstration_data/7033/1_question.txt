@@ -1,0 +1,2 @@
+Problem: Find the number of functions $f(n),$ taking the integers to the integers, such that
+\[f(a + b) + f(ab) = f(a) f(b) + 1\]for all integers $a$ and $b.$

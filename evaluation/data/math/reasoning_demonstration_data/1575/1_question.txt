@@ -1,0 +1,1 @@
+Problem: What is the remainder when $2x^2-17x+47$ is divided by $x-5$?

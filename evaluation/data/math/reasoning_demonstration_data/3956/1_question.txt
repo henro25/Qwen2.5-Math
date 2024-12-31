@@ -1,0 +1,1 @@
+Problem: In a right-angled triangle, the sum of the squares of the three side lengths is 1800.  What is the length of the hypotenuse of this triangle?

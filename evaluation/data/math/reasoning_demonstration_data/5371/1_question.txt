@@ -1,0 +1,1 @@
+Problem: If the graph of the line $y = ax + b$ passes through the points $(4,5)$ and $(8,17)$, what is $a - b$?

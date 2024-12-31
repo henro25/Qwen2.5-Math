@@ -1,0 +1,1 @@
+Problem: What value of $x$ will give the maximum value for $-x^2- 6x + 12$?

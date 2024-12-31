@@ -1,0 +1,22 @@
+Problem: $A$, $B$, $C$, and $D$ are points on a circle, and segments $\overline{AC}$ and $\overline{BD}$ intersect at $P$, such that $AP=8$, $PC=1$, and $BD=6$. Find $BP$, given that $BP < DP.$
+
+[asy]
+
+unitsize(0.6 inch);
+
+draw(circle((0,0),1));
+draw((-0.3,0.94)--(0.3,-0.94));
+draw((-0.7,-0.7)--(0.7,-0.7));
+
+label("$A$",(-0.3,0.94),NW);
+dot((-0.3,0.94));
+label("$B$",(0.7,-0.7),SE);
+dot((0.7,-0.7));
+label("$C$",(0.3,-0.94),SSE);
+dot((0.3,-0.94));
+label("$D$",(-0.7,-0.7),SW);
+dot((-0.7,-0.7));
+dot((0.23,-0.7));
+label("$P$",(0.23,-0.7),NE);
+
+[/asy]

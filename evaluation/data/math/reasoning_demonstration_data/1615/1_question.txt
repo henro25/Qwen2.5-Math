@@ -1,0 +1,16 @@
+Problem: Suppose $\sin N = \frac{2}{3}$ in the diagram below.  What is $LN$?
+
+
+
+[asy]
+pair L,M,N;
+M = (0,0);
+N = (17.89,0);
+L = (0,16);
+draw(L--M--N--L);
+draw(rightanglemark(L,M,N,18));
+label("$M$",M,SW);
+label("$N$",N,SE);
+label("$L$",L,NE);
+label("$16$",L/2,W);
+[/asy]

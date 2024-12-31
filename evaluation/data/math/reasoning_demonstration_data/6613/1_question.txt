@@ -1,0 +1,1 @@
+Problem: A bakery sells three kinds of rolls. How many different combinations of rolls could Jack purchase if he buys a total of six rolls and includes at least one of each kind?

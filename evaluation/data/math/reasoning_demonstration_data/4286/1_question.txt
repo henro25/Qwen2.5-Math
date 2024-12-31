@@ -1,0 +1,1 @@
+Problem: How many ways are there to divide a group of 6 friends among the basketball team, the soccer team, and the track team?  (Each team could have anywhere from 0 to 6 of the friends on it.  Assume the friends are distinguishable.)

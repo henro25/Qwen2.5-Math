@@ -1,0 +1,2 @@
+Problem: For all values of $x$ for which it is defined, $f(x) = \cot \frac{x}{4} - \cot x$ can be written as
+\[f(x) = \frac{\sin kx}{\sin \frac{x}{4} \sin x}.\]Find the value of $k.$

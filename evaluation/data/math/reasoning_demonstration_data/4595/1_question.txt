@@ -1,0 +1,1 @@
+Problem: The volume of a certain rectangular solidis $216\text{ cm}^3$, its total surface area is $288\text{ cm}^2$, and its three dimensions are in geometric progression. Find the sum of the lengths in cm of all the edges of this solid.

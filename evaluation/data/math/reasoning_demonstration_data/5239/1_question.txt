@@ -1,0 +1,1 @@
+Problem: Define the function $f(x) = 2x - 5$. For what value of $x$ is $f(x)$ equal to $f^{-1}(x)$?

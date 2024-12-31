@@ -1,0 +1,5 @@
+Problem: Let \[f(x) = \left\{
+\begin{array}{cl} x^2-4 & \text{ if }x < 7, \\
+x-13 & \text{ if } x \geq 7.
+\end{array}
+\right.\] What is $f(f(f(17)))$?

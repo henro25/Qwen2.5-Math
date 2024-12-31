@@ -1,0 +1,1 @@
+Problem: Compute $55^2 - 45^2$ in your head.

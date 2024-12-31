@@ -1,0 +1,5 @@
+Problem: If $a,b,c$ are non-negative integers less than $7$ such that \begin{align*}
+a+2b+3c&\equiv 0\pmod 7,\\
+2a+3b+c&\equiv 4\pmod 7,\\
+3a+b+2c&\equiv 4\pmod 7,
+\end{align*}then determine the remainder when $abc$ is divided by $7$.

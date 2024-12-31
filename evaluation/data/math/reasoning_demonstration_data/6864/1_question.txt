@@ -1,0 +1,1 @@
+Problem: Calculate the whole number remainder when 987,670 is divided by 128.

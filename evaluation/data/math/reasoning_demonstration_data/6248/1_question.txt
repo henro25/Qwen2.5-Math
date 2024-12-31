@@ -1,0 +1,1 @@
+Problem: A line is described by the equation $y-4=4(x-8)$. What is the sum of its $x$-intercept and $y$-intercept?

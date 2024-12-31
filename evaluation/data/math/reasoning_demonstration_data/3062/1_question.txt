@@ -1,0 +1,1 @@
+Problem: Given that $\binom{23}{3}=1771$, $\binom{23}{4}=8855$, and $\binom{23}{5}=33649$, find $\binom{25}{5}$.

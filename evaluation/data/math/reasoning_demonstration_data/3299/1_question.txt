@@ -1,0 +1,1 @@
+Problem: What is the domain of the function $$w(x) = \sqrt{x-2} + \sqrt[3]{x-3}~?$$ Express your answer in interval notation.

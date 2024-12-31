@@ -1,0 +1,1 @@
+Problem: What is the 100th letter in the pattern ABCABCABC...?

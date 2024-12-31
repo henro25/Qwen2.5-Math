@@ -1,0 +1,2 @@
+Problem: The function $f(x)$ satisfies
+\[f(x + f(x)) = 4f(x)\]for all $x,$ and $f(1) = 4.$  Find $f(21).$

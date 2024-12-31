@@ -1,0 +1,1 @@
+Problem: If $x + \frac{1}{x} = \sqrt{3}$, then find $x^{18}$.

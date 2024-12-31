@@ -1,0 +1,1 @@
+Problem: A rectangle has a perimeter of 30 units and its dimensions are whole numbers. What is the maximum possible area of the rectangle in square units?

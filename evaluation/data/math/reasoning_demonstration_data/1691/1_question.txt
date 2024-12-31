@@ -1,0 +1,1 @@
+Problem: A regular polygon has interior angles of 162 degrees. How many sides does the polygon have?

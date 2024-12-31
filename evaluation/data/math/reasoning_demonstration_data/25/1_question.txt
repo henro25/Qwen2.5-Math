@@ -1,0 +1,52 @@
+Problem: To be able to walk to the center $C$ of a circular fountain, a repair crew places a 16-foot plank from $A$ to $B$ and then a 10-foot plank from $D$ to $C$, where $D$ is the midpoint of $\overline{AB}$ . What is the area of the circular base of the fountain? Express your answer in terms of $\pi$. [asy]
+
+size(250); import olympiad; import geometry; defaultpen(linewidth(0.8));
+
+draw((-10,0)..(-5,0.8)..(0,1)..(5,0.8)..(10,0)^^(10,0)..(5,-0.8)..(0,-1)..(-5,-0.8)..(-10,0));
+
+draw((-10,0)--(-10,-2)^^(10,-2)..(5,-2.8)..(0,-3)..(-5,-2.8)..(-10,-2)^^(10,-2)--(10,0));
+
+draw(origin..(-1,5)..(-4,8));
+
+draw(origin..(1,5)..(4,8));
+
+draw(origin..(-0.5,5)..(-2,8));
+
+draw(origin..(0.5,5)..(2,8));
+
+draw(origin..(-0.2,6)..(-1,10));
+
+draw(origin..(0.2,6)..(1,10));
+
+label("Side View",(0,-2),3*S);
+
+pair C = (25,8);
+
+draw(Circle(C,10));
+
+pair A = C + 10*dir(80);
+
+pair B = C + 10*dir(20);
+
+pair D = midpoint(A--B);
+
+draw(A--B);
+
+draw(C--D);
+
+dot(Label("$A$",align=SW),A);
+
+dot(Label("$B$",align=SE),B);
+
+dot(Label("$C$",align=S),C);
+
+dot(Label("$D$",align=S),D);
+
+for(int i = 0; i < 5; ++i){
+
+draw(C--(C + 5*dir(72*i)));
+
+}
+
+label("Top View",(25,-2),3*S);
+[/asy]

@@ -1,0 +1,2 @@
+Problem: Evaluate
+\[\log_{10}(\tan 1^{\circ})+\log_{10}(\tan 2^{\circ})+\log_{10}(\tan 3^{\circ})+\cdots+\log_{10}(\tan 88^{\circ})+\log_{10}(\tan 89^{\circ}).\]

@@ -1,0 +1,1 @@
+Problem: A point $(x,y)$ is a distance of 12 units from the $x$-axis. It is a distance of 10 units from the point $(1,6)$. It is a distance $n$ from the origin. Given that $x>1$, what is $n$?

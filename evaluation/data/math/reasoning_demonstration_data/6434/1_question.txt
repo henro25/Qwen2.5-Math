@@ -1,0 +1,2 @@
+Problem: Compute the smallest positive angle $x,$ in degrees, such that
+\[\tan 4x = \frac{\cos x - \sin x}{\cos x + \sin x}.\]

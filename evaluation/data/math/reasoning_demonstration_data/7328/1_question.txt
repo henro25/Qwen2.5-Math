@@ -1,0 +1,1 @@
+Problem: A pizza parlor offers six toppings. What is the greatest number of four-topping pizzas that can be made such that no two pizzas have the same topping combination?

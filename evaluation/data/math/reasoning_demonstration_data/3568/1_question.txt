@@ -1,0 +1,28 @@
+Problem: Let $A$ and $B$ be two points on the parabola $y = x^2,$ such that when the tangents at $A$ and $B$ drawn, they are perpendicular.  Then for any such pair of tangents, the $y$-coordinate of their point of intersection $P$ is always the same.  Find this $y$-coordinate.
+
+[asy]
+unitsize(1.5 cm);
+
+real parab (real x) {
+  return(x^2);
+}
+
+pair A, B, P;
+real a, b;
+
+a = 1;
+b = (-1/4)/a;
+A = (a,a^2);
+B = (b,b^2);
+P = extension(A, A + (1,2*a), B, B + (1,2*b));
+
+draw(graph(parab,-1.5,1.5));
+draw(interp(A,P,-0.8)--interp(A,P,1.2));
+draw(interp(B,P,-1)--interp(B,P,1.5));
+draw(rightanglemark(A,P,B,5));
+
+label("$P$", P, S);
+
+dot("$A$", A, SE);
+dot("$B$", B, S);
+[/asy]

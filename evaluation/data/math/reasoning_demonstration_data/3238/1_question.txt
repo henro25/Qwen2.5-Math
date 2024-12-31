@@ -1,0 +1,1 @@
+Problem: A cat has found $432_{9}$ methods in which to extend each of her nine lives.  How many methods are there in base 10?

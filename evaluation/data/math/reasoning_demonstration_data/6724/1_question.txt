@@ -1,0 +1,1 @@
+Problem: Alex has 5 pieces of paper, each with a different math problem. In how many ways can he give these problems to his 10 friends (he can give each friend more than one problem)?

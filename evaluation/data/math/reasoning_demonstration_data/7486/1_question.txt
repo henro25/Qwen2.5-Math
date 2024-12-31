@@ -1,0 +1,1 @@
+Problem: Let $\mathbf{R}$ be the matrix for rotating about the origin counter-clockwise by an angle of $58^\circ.$  Find $\det \mathbf{R}.$

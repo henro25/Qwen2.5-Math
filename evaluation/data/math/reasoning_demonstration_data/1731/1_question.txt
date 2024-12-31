@@ -1,0 +1,2 @@
+Problem: Find the projection of the vector $\begin{pmatrix} 4 \\ -4 \\ -1 \end{pmatrix}$ onto the line
+\[2x = -3y = z.\]

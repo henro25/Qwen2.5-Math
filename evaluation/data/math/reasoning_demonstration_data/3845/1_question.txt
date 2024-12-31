@@ -1,0 +1,2 @@
+Problem: Find the point of intersection of the asymptotes of the graph of
+\[y = \frac{x^2 - 4x + 3}{x^2 - 4x + 4}.\]

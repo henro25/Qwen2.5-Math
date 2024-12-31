@@ -1,0 +1,1 @@
+Problem: The terms $140, a, \frac{45}{28}$ are the first, second and third terms, respectively, of a geometric sequence. If $a$ is positive, what is the value of $a$?

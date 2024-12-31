@@ -1,0 +1,1 @@
+Problem: John is thinking of a number. He gives the following 3 clues. ``My number has 125 as a factor. My number is a multiple of 30. My number is between 800 and 2000.'' What is John's number?

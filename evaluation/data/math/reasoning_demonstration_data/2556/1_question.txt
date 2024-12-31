@@ -1,0 +1,2 @@
+Problem: Let $p(x)$ be a polynomial of degree 6 such that
+\[p(2^n) = \frac{1}{2^n}\]for $n = 0,$ 1, 2, $\dots,$ 6.  Find $p(0).$

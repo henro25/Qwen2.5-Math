@@ -1,0 +1,1 @@
+Problem: A lattice point in the $x,y$-plane is a point both of whose coordinates are integers (not necessarily positive).  How many lattice points lie on the graph of the equation $x^2-y^2=47$?

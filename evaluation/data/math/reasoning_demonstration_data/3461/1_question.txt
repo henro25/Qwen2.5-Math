@@ -1,0 +1,1 @@
+Problem: Let $P(x)$ be a polynomial such that when $P(x)$ is divided by $x-17$, the remainder is $14$, and when $P(x)$ is divided by $x-13$, the remainder is $6$. What is the remainder when $P(x)$ is divided by $(x-13)(x-17)$?

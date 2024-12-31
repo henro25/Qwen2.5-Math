@@ -1,0 +1,1 @@
+Problem: Cindy wishes to arrange her coins into $X$ piles, each consisting of the same number of coins, $Y$. Each pile will have more than one coin and no pile will have all the coins. If there are 13 possible values for $Y$ given all of the restrictions, what is the smallest number of coins she could have?

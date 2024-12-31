@@ -1,0 +1,1 @@
+Problem: If $\Phi$ and $\varphi$ are the two distinct solutions to the equation $x^2=x+1$, then what is the value of $(\Phi-\varphi)^2$?

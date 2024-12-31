@@ -1,0 +1,1 @@
+Problem: A round-robin tennis tournament consists of each player playing every other player exactly once.  How many matches will be held during an 8-person round-robin tennis tournament?

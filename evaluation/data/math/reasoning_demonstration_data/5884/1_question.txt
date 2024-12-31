@@ -1,0 +1,1 @@
+Problem: If the three lines $3y-2x=1$, $x+2y=2$ and $4x-6y=5$ are drawn in the plane, how many points will lie at the intersection of at least two of the three lines?

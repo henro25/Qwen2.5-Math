@@ -1,0 +1,14 @@
+Problem: In the diagram, points $U$, $V$, $W$, $X$, $Y$, and $Z$ lie on a straight line with $UV=VW=WX=XY=YZ=5$.  Semicircles with diameters $UZ$, $UV$, $VW$, $WX$, $XY$, and $YZ$ create the shape shown.  What is the area of the shaded region?
+[asy]
+size(5cm); defaultpen(fontsize(9));
+pair one = (1, 0);
+pair u = (0, 0); pair v = u + one; pair w = v + one; pair x = w + one; pair y = x + one; pair z = y + one;
+path region = u{up}..{down}z..{up}y..{down}x..{up}w..{down}v..{up}u--cycle;
+filldraw(region, gray(0.75), linewidth(0.75));
+draw(u--z, dashed + linewidth(0.75));
+
+// labels
+label("$U$", u, W); label("$Z$", z, E);
+label("$V$", v, 0.8 * SE); label("$X$", x, 0.8 * SE);
+label("$W$", w, 0.8 * SW); label("$Y$", y, 0.8 * SW);
+[/asy]

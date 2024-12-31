@@ -1,0 +1,20 @@
+Problem: In any isosceles triangle $ABC$ with $AB=AC$, the altitude $AD$ bisects the base $BC$ so that $BD=DC$.
+
+Determine the area of $\triangle ABC$.
+
+[asy]
+draw((0,0)--(14,0)--(7,24)--cycle,black+linewidth(1));
+draw((7,24)--(7,0),black+linewidth(1)+dashed);
+draw((7,0)--(7,1)--(6,1)--(6,0)--cycle,black+linewidth(1));
+draw((5.5,-4)--(0,-4),black+linewidth(1));
+draw((5.5,-4)--(0,-4),EndArrow);
+draw((8.5,-4)--(14,-4),black+linewidth(1));
+draw((8.5,-4)--(14,-4),EndArrow);
+label("$A$",(7,24),N);
+label("$B$",(0,0),SW);
+label("$C$",(14,0),SE);
+label("$D$",(7,0),S);
+label("25",(0,0)--(7,24),NW);
+label("25",(7,24)--(14,0),NE);
+label("14",(7,-4));
+[/asy]

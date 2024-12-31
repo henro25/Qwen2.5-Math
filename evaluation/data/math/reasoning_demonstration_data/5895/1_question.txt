@@ -1,0 +1,12 @@
+Problem: How many different routes are there from point $A$ to point $B$ if you can only move to the right or down along the drawn segments?
+
+[asy]
+unitsize(0.09inch);
+draw((0,0)--(10,0)--(10,10)--(0,10)--cycle);
+draw((5,0)--(5,10));
+draw((0,5)--(10,5));
+dot((0,10));
+dot((10,0));
+label("$A$",(0,10),NW);
+label("$B$",(10,0),SE);
+[/asy]

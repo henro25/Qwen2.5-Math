@@ -1,0 +1,2 @@
+Problem: Let $a_0=-2,b_0=1$, and for $n\geq 0$, let
+\begin{align*}a_{n+1}&=a_n+b_n+\sqrt{a_n^2+b_n^2},\\b_{n+1}&=a_n+b_n-\sqrt{a_n^2+b_n^2}.\end{align*}Find $\frac{1}{a_{2012}} + \frac{1}{b_{2012}}.$

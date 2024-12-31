@@ -1,0 +1,1 @@
+Problem: Compute without using a calculator: $\dfrac{9!}{6!3!}$

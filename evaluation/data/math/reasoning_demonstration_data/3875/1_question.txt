@@ -1,0 +1,29 @@
+Problem: $ABCDEFGH$ shown below is a cube with volume 1.  Find the volume of pyramid $ABCH$.
+
+[asy]
+import three;
+triple A,B,C,D,EE,F,G,H;
+A = (0,0,0);
+B = (1,0,0);
+C = (1,1,0);
+D= (0,1,0);
+EE = (0,0,1);
+F = B+EE;
+G = C + EE;
+H = D + EE;
+draw(B--C--D);
+draw(B--A--D,dashed);
+draw(EE--F--G--H--EE);
+draw(A--EE,dashed);
+draw(B--F);
+draw(C--G);
+draw(D--H);
+label("$A$",A,S);
+label("$B$",B,W);
+label("$C$",C,S);
+label("$D$",D,E);
+label("$E$",EE,N);
+label("$F$",F,W);
+label("$G$",G,SW);
+label("$H$",H,E);
+[/asy]

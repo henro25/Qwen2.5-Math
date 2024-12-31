@@ -1,0 +1,6 @@
+Problem: Let \[f(x) = \left\{
+\begin{array}{cl}
+-x - 3 & \text{if } x \le 1, \\
+\frac{x}{2} + 1 & \text{if } x > 1.
+\end{array}
+\right.\]Find the sum of all values of $x$ such that $f(x) = 0$.

@@ -1,0 +1,1 @@
+Problem: The points $(0,4)$ and $(1,3)$ lie on a circle whose center is on the $x$-axis. What is the radius of the circle?

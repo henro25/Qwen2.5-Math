@@ -1,0 +1,1 @@
+Problem: What is the sum of the values of $x$ that satisfy the equation $x^2-5x+5=9$?

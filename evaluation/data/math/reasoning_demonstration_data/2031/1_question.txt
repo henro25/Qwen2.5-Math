@@ -1,0 +1,8 @@
+Problem: A dealer sold 200 cars, and the data for some of those sales are recorded in this table. If the rest of the cars she sold were Hondas, how many Hondas did she sell?
+
+\begin{tabular}{ |c | c|}
+\hline \textbf{Type of Car} & \textbf{$\%$ of Total Cars Sold} \\ \hline
+Audi & $15\%$ \\ \hline
+Toyota & $22\%$ \\ \hline
+Acura & $28\%$ \\ \hline
+\end{tabular}

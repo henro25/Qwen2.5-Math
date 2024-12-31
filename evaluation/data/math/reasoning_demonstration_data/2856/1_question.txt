@@ -1,0 +1,1 @@
+Problem: If Greg rolls four fair six-sided dice, what is the probability that he rolls more 1's than 6's?

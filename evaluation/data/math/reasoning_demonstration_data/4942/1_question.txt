@@ -1,0 +1,1 @@
+Problem: For how many positive integers $n$ does $\frac{1}{n}$ yield a terminating decimal with a non-zero hundredths digit?

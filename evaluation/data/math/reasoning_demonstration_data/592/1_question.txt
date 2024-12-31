@@ -1,0 +1,2 @@
+Problem: Let $z$ be a complex number such that $|z - 5 - i| = 5.$  Find the minimum value of
+\[|z - 1 + 2i|^2 + |z - 9 - 4i|^2.\]

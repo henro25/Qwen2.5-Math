@@ -1,0 +1,1 @@
+Problem: Find the remainder when $r^{13} + 1$ is divided by $r - 1$.

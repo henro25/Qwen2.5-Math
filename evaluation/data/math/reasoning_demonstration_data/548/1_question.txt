@@ -1,0 +1,3 @@
+Problem: When three positive integers are divided by $47$, the remainders are $25$, $20$, and $3$, respectively.
+
+When the sum of the three integers is divided by $47$, what is the remainder?

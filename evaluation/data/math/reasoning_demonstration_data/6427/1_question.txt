@@ -1,0 +1,1 @@
+Problem: At Academic Academy, to pass an algebra test you must score at least $80\%$. If there are 35 problems on the test, what is the greatest number you can miss and still pass?

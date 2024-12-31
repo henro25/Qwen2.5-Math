@@ -1,0 +1,6 @@
+Problem: Let \[f(x) =
+\begin{cases}
+x/2 &\quad \text{if } x \text{ is even}, \\
+3x+1 &\quad \text{if } x \text{ is odd}.
+\end{cases}
+\]What is $f(f(f(f(1))))$?

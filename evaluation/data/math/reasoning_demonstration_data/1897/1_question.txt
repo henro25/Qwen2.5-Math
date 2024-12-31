@@ -1,0 +1,1 @@
+Problem: For what value of $n$ is $5 \times 8 \times 2 \times n = 7!$?

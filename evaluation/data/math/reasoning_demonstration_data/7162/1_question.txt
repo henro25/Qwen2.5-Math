@@ -1,0 +1,3 @@
+Problem: If $x$, $y$, and $z$ are positive numbers satisfying \[
+x+\frac{1}{y}=4,\ \ \ y+\frac{1}{z}=1,\text{ and }z+\frac{1}{x}=\frac{7}{3},
+\]find the value of $xyz$.

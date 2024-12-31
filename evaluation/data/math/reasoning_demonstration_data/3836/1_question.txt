@@ -1,0 +1,1 @@
+Problem: If Jeff picks one letter randomly from the alphabet, what is the probability that the letter is in the word `PROBABILITY'?

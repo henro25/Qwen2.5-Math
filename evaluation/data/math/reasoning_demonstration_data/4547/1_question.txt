@@ -1,0 +1,1 @@
+Problem: Karl was attempting to calculate economic figures. He found the following equation to be true:\[fp-w=10000\]If $f=5$ and $w=5+125i$, what is $p$?

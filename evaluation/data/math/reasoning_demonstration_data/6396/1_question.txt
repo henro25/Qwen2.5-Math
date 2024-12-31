@@ -1,0 +1,1 @@
+Problem: Two cross sections of a right hexagonal pyramid are obtained by cutting the pyramid with planes parallel to the hexagonal base. The areas of the cross sections are $216\sqrt{3}$ square feet and $486\sqrt{3}$ square feet. The two planes are $8$ feet apart. How far from the apex of the pyramid is the larger cross section, in feet?

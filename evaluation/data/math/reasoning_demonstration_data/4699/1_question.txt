@@ -1,0 +1,1 @@
+Problem: A box contains tiles, numbered 1, 2, 3,..., 49, 50. Only tiles which are marked with a number congruent to $2 \pmod{5}$ are blue. One tile is chosen randomly from the box. What is the probability that the tile is blue?

@@ -1,0 +1,1 @@
+Problem: Given that $\triangle+q=59$ and $(\triangle+q)+q=106$, what is the value of $\triangle$?

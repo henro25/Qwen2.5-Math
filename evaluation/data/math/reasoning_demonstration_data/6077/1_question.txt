@@ -1,0 +1,1 @@
+Problem: The cards of a standard 52-card deck are dealt out in a circle. What is the expected number of pairs of adjacent cards which are both black? Express your answer as a common fraction.

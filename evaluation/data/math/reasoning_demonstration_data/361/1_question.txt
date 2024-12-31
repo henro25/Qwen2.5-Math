@@ -1,0 +1,2 @@
+Problem: Let $a,$ $b,$ $c$ be nonnegative real numbers such that $a + b + c = 1.$  Find the maximum value of
+\[\frac{ab}{a + b} + \frac{ac}{a + c} + \frac{bc}{b + c}.\]

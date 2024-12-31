@@ -1,0 +1,1 @@
+Problem: An ellipse is drawn with major and minor axes of lengths 10 and 8 respectively.  Using one focus as a center, a circle is drawn that is tangent to the ellipse, with no part of the circle being outside the ellipse.  Compute the radius of the circle.

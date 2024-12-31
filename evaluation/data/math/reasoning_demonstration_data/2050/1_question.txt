@@ -1,0 +1,1 @@
+Problem: What is the largest integer $n$ for which $\binom{8}{3} + \binom{8}{4} = \binom{9}{n}$?

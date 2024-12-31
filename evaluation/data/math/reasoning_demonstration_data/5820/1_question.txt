@@ -1,0 +1,1 @@
+Problem: Anthony made $5$ of his first $12$ free throw attempts. If he makes $2/3$ of his next $24$ attempts, by how many percentage points will he increase his overall success rate percentage? Express your answer to the nearest whole number.

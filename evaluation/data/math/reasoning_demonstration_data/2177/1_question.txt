@@ -1,0 +1,1 @@
+Problem: Set $B = \{55, 57, 58, 59, 61\}.$  Which number in set B has the smallest prime factor?

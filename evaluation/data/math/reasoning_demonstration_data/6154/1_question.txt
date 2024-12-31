@@ -1,0 +1,1 @@
+Problem: Let $\mathbf{A} = \begin{pmatrix} 2 & 3 \\ 0 & 1 \end{pmatrix}.$  Find $\mathbf{A}^{20} - 2 \mathbf{A}^{19}.$

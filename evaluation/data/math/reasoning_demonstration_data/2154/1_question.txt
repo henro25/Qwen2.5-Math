@@ -1,0 +1,1 @@
+Problem: The perimeter of a rectangle is 24 inches. What is the number of square inches in the maximum possible area for this rectangle?

@@ -1,0 +1,9 @@
+Problem: Let $a$ and $b$ be real numbers.  Consider the following five statements:
+
+$\frac{1}{a} < \frac{1}{b}$
+$a^2 > b^2$
+$a < b$
+$a < 0$
+$b < 0$
+
+What is the maximum number of these statements that can be true for any values of $a$ and $b$?

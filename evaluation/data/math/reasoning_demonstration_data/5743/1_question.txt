@@ -1,0 +1,1 @@
+Problem: If $a @ b$ is defined as $a @ b$ = $3a - 3b$, what is the value of $3 @ 5$?

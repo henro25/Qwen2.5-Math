@@ -1,0 +1,6 @@
+Problem: Let \[f(x) =
+\begin{cases}
+3x + 5 &\text{if }x<-3, \\
+7-4x&\text{if }x\ge -3.
+\end{cases}
+\]Find $f(5)$.

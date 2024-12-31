@@ -1,0 +1,1 @@
+Problem: The numbers 2, 4, 6, and 8 are a set of four consecutive even numbers. Suppose the sum of five consecutive even numbers is 320. What is the smallest of the five numbers?

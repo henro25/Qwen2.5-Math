@@ -1,0 +1,1 @@
+Problem: The greatest common divisor of two positive integers is $(x+5)$ and their least common multiple is $x(x+5)$, where $x$ is a positive integer. If one of the integers is 50, what is the smallest possible value of the other one?

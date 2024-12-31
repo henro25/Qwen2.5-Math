@@ -1,0 +1,10 @@
+Problem: Two circles of radius 10 cm overlap such that each circle passes through the center of the other, as shown. How long, in cm, is the common chord (dotted segment) of the two circles? Express your answer in simplest radical form.
+
+[asy]
+draw(Circle((0,0),10),linewidth(1));
+draw(Circle((10,0),10),linewidth(1));
+dot((0,0));
+dot((10,0));
+draw((5,8.66)--(5,-8.66),linetype("0 4")+linewidth(1));
+
+[/asy]

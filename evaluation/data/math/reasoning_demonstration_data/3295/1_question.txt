@@ -1,0 +1,1 @@
+Problem: The product of two inches and the circumference of a circle, in inches, is equal to the circle's area. What is the length of the radius of the circle, in inches?

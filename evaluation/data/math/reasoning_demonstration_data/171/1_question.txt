@@ -1,0 +1,1 @@
+Problem: If $\mathbf{v} \times \mathbf{w} = \begin{pmatrix} 5 \\ -2 \\ 4 \end{pmatrix},$ then find $(\mathbf{v} + \mathbf{w}) \times (\mathbf{v} + \mathbf{w}).$

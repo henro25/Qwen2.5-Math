@@ -1,0 +1,1 @@
+Problem: The values of $x$ and $y$ are always positive, and $x^2$ and $y$ vary inversely. If $y$ is 10 when $x$ is 2, then find $x$ when $y$ is 4000.

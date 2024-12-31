@@ -1,0 +1,1 @@
+Problem: The graph of the quadratic $y = ax^2 + bx + c$ has the following properties: (1) The maximum value of $y = ax^2 + bx + c$ is 5, which occurs at $x = 3$. (2) The graph passes through the point $(0,-13)$. If the graph passes through the point $(4,m)$, then what is the value of $m$?

@@ -1,0 +1,1 @@
+Problem: The endpoints of a line segment are (2, 3) and (8, 15). What is the sum of the coordinates of the midpoint of the segment?

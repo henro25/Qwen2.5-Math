@@ -1,0 +1,1 @@
+Problem: If $\mathbf{A}^{-1} = \begin{pmatrix} -4 & 1 \\ 0 & 2 \end{pmatrix},$ then find the inverse of $\mathbf{A}^2.$

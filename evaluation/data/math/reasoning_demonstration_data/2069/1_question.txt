@@ -1,0 +1,1 @@
+Problem: If $A\ \clubsuit\ B$ is defined as $A\ \clubsuit\ B = 3A + 2B + 5$, what is the value of $A$ for which $A\ \clubsuit\ 4 = 58$?

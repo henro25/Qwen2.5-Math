@@ -1,0 +1,1 @@
+Problem: If the quadratic $x^2+4mx+m$ has exactly one real root, find the positive value of $m$.

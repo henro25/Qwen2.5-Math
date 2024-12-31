@@ -1,0 +1,12 @@
+Problem: What is the probability of spinning the spinner pictured and getting a prime number? Express your answer as a common fraction. [asy]
+import olympiad; defaultpen(linewidth(0.8)); size(100); dotfactor=4;
+draw(Circle((0,0),1));
+string[] labels = {"3","6","1","4","5","2"};
+for(int i = 0; i < 6; ++i){
+
+label(labels[i],0.7*dir(60*i));
+
+draw((0,0)--dir(60*i - 30));
+}
+draw((0,0)--0.7*dir(130),linewidth(2.0),EndArrow(size=6));
+[/asy]

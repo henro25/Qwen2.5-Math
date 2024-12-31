@@ -1,0 +1,1 @@
+Problem: Find a quadratic with rational coefficients and quadratic term $x^2$ that has $\sqrt{3}-2$ as a root.

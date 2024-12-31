@@ -1,0 +1,3 @@
+Problem: In triangle $ABC,$ $b = 5,$ $c = 4,$ and $\cos (B - C) = \frac{31}{32}.$  Find $a.$
+
+Note: $a$ is the side length opposite $\angle A,$ etc.

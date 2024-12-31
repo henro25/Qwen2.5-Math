@@ -1,0 +1,1 @@
+Problem: What three-digit number with units digit 2 and hundreds digit 4 is divisible by 9?

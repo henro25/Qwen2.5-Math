@@ -1,0 +1,1 @@
+Problem: If $x^2 + \frac{1}{x^2} = A,$ and $x - \frac{1}{x} = B,$ where $A$ and $B$ are positive numbers, find the minimum possible numerical value for $\frac{A}{B}.$

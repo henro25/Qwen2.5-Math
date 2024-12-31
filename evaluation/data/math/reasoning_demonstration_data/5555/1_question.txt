@@ -1,0 +1,1 @@
+Problem: What is the sum of all the solutions of $x = \left|2x-|60-2x|\right|$?

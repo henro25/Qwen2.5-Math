@@ -1,0 +1,2 @@
+Problem: Let $a_0 = 2,$ $b_0 = 3,$ and
+\[a_{n + 1} = \frac{a_n^2}{b_n} \quad \text{and} \quad b_{n + 1} = \frac{b_n^2}{a_n}\]for all $n \ge 0.$  Then $b_8 = \frac{3^m}{2^n}$ for some integers $m$ and $n.$  Enter the ordered pair $(m,n).$

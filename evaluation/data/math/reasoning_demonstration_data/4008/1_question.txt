@@ -1,0 +1,1 @@
+Problem: Find the domain of the function $z(x) = \sqrt[3]{x - 1} + \sqrt[3]{8 - x}.$

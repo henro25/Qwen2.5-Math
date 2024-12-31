@@ -1,0 +1,1 @@
+Problem: What is $(a^3+b^3)\div(a^2-ab+b^2)$ when $a=5$ and $b=4$?

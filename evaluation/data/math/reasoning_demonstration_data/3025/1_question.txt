@@ -1,0 +1,1 @@
+Problem: Find the $r$ that satisfies $\log_{16} (r+16) = \frac{5}{4}$.

@@ -1,0 +1,6 @@
+Problem: Let $x,$ $y,$ and $z$ be angles such that
+\begin{align*}
+\cos x &= \tan y, \\
+\cos y &= \tan z, \\
+\cos z &= \tan x.
+\end{align*}Find the largest possible value of $\sin x.$

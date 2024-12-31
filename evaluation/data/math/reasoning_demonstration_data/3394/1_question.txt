@@ -1,0 +1,1 @@
+Problem: The admission fee for an exhibition is $ \$25$ per adult and $ \$12$ per child.  Last Tuesday, the exhibition collected $ \$1950$ in admission fees from at least one adult and at least one child.  Of all the possible ratios of adults to children at the exhibition last Tuesday, which one is closest to $ 1$?

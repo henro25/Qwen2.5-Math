@@ -1,0 +1,1 @@
+Problem: The average of the five numbers in a list is 54. The average of the first two numbers is 48. What is the average of the last three numbers?

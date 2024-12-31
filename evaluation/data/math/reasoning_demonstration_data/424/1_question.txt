@@ -1,0 +1,1 @@
+Problem: Compute $10^{-1}\pmod{1001}$. Express your answer as a residue from $0$ to $1000$, inclusive.

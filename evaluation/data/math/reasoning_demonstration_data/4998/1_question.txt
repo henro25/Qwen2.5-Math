@@ -1,0 +1,1 @@
+Problem: Roberto has four pairs of trousers, seven shirts, and three jackets. How many different outfits can he put together if an outfit consists of a pair of trousers, a shirt, and a jacket?

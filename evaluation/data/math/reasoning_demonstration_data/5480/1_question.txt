@@ -1,0 +1,34 @@
+Problem: If $\overline{AD} \| \overline{FG}$, how many degrees are in angle $EFG$?
+
+[asy]
+import olympiad;
+
+pair A = (-15,20);
+pair B = (-12,35);
+pair C = (35,50);
+pair D = (35,20);
+pair E = (14,20);
+pair F = (0,0);
+pair G = (40,0);
+
+draw(F--G);
+draw(F--C);
+draw(A--D);
+draw(B--E);
+
+label("F", F, W);
+label("G", G, ENE);
+label("C", C, N);
+label("A", A, W);
+label("D", D, ENE);
+label("E", E, SE);
+label("B", B, NW);
+
+draw(scale(20)*anglemark(G, F, C));
+draw(shift(E)*scale(35)*shift(-E)*anglemark(B, E, A));
+draw(shift(E)*scale(20)*shift(-E)*anglemark(C, E, B));
+
+label("$x$", (6,20), NW);
+label("$2x$", (13,25), N);
+label("$1.5x$", (5,0), NE);
+[/asy]

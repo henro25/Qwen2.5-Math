@@ -1,0 +1,1 @@
+Problem: In triangle $ABC,$ $AB = 3,$ $AC = 6,$ $BC = 8,$ and $D$ lies on $\overline{BC}$ such that $\overline{AD}$ bisects $\angle BAC.$  Find $\cos \angle BAD.$

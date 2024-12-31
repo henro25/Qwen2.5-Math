@@ -1,0 +1,1 @@
+Problem: Acme T-Shirt Company charges a $\$50$ set-up fee plus $\$9$ for  each shirt printed. Beta T-shirt Company has no set up fee, but charges $\$14$ per shirt. What is the minimum number of shirts for which a customer saves money by using Acme?

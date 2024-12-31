@@ -1,0 +1,12 @@
+Problem: Two concentric circles with radii of 19 and 29 units bound a shaded region. A third circle will be drawn with area equal to that of the shaded area. What must the radius of the third circle be? Express your answer in simplest radical form.
+
+[asy]
+filldraw(circle((0,0),29),gray);
+filldraw(circle((0,0),19),white);
+
+dot((0,0));
+
+draw((0,0)--19dir(45),linewidth(1));
+
+label("19",9.5dir(45),NW);
+[/asy]

@@ -1,0 +1,1 @@
+Problem: What is the sum of the digits of the base $7$ representation of $777_{10}$?

@@ -1,0 +1,1 @@
+Problem: When $1000^{100}$ is expanded out, the result is $1$ followed by how many zeros?

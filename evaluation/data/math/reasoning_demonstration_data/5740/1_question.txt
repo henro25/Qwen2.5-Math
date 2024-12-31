@@ -1,0 +1,1 @@
+Problem: What is the largest base-4 number that has four digits?  Express your answer in base 10.

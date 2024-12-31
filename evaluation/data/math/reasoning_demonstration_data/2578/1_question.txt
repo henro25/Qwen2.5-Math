@@ -1,0 +1,2 @@
+Problem: Find the ordered pair $(a,b)$ of integers such that
+\[\sqrt{9 - 8 \sin 50^\circ} = a + b \csc 50^\circ.\]

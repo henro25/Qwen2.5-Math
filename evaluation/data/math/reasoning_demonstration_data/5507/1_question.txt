@@ -1,0 +1,1 @@
+Problem: Find the largest negative integer $x$ which satisfies the congruence $34x+6\equiv 2\pmod {20}$.

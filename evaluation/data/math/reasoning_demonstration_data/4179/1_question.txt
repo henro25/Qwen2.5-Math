@@ -1,0 +1,1 @@
+Problem: Let $\triangle ABC$ be a right triangle such that $B$ is a right angle. A circle with diameter of $BC$ meets side $AC$ at $D.$ If the area of $\triangle ABC$ is $150$ and $AC = 25,$ then what is $BD$?

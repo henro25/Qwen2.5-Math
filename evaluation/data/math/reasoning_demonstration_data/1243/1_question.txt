@@ -1,0 +1,1 @@
+Problem: In how many ways can Michael choose 3 out of 8 math classes to take?

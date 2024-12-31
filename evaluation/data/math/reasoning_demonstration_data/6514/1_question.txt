@@ -1,0 +1,1 @@
+Problem: Find $n$ if $n\cdot n! + n! = 720$, where $n! = n\cdot (n-1)\cdot (n-2)\cdots 2\cdot 1$.

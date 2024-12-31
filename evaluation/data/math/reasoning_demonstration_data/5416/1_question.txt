@@ -1,0 +1,1 @@
+Problem: Find the center of the circle with equation $x^2 - 2x + y^2 - 4y - 28 = 0$.

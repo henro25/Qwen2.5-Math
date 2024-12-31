@@ -1,0 +1,1 @@
+Problem: What is the sum of all of the two-digit primes that are greater than 12 but less than 99 and are still prime when their two digits are interchanged?

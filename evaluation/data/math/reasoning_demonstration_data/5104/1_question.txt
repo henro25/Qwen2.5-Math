@@ -1,0 +1,1 @@
+Problem: The number of inches in the perimeter of an equilateral triangle equals the number of square inches in the area of its circumscribed circle. What is the radius, in inches, of the circle? Express your answer in terms of pi and in simplest radical form.

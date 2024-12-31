@@ -1,0 +1,2 @@
+Problem: Find the ordered pair $(m,n)$, where $m,n$ are positive integers satisfying the following equation:
+$$14mn = 55 - 7m - 2n$$

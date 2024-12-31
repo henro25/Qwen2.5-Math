@@ -1,0 +1,1 @@
+Problem: When the expression $4(x^2-2x+2)-7(x^3-3x+1)$ is fully simplified, what is the sum of the squares of the coefficients of the terms?

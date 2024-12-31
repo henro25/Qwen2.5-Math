@@ -1,0 +1,1 @@
+Problem: How many distinct sequences of four letters can be made from the letters in PROBLEM if each letter can be used only once and each sequence must begin with L and not end with P?

@@ -1,0 +1,1 @@
+Problem: A bag has 4 red marbles, 5 white marbles, and 6 blue marbles.  Three marbles are drawn from the bag (without replacement).  What is the probability that they are all the same color?

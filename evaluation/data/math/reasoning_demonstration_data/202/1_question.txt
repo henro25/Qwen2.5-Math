@@ -1,0 +1,1 @@
+Problem: Three of the four vertices of a rectangle are $(5, 11)$, $(16, 11)$ and $(16, -2)$. What is the area of the intersection of this rectangular region and the region inside the graph of the equation $(x - 5)^2 + (y + 2)^2 = 9$? Express your answer in terms of $\pi$.

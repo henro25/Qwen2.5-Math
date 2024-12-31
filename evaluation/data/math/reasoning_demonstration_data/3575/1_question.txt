@@ -1,0 +1,1 @@
+Problem: In equilateral triangle $ABC,$ let points $D$ and $E$ trisect $\overline{BC}$.  Find $\sin \angle DAE.$

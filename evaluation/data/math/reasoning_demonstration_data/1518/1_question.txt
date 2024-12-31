@@ -1,0 +1,1 @@
+Problem: Evaluate $\left\lceil3\left(6-\frac12\right)\right\rceil$.

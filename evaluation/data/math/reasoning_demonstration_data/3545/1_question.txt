@@ -1,0 +1,1 @@
+Problem: What value of $k$ will make $x^2 - 16x + k$ the square of a binomial?

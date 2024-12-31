@@ -1,0 +1,1 @@
+Problem: There exists a positive real number $x$ such that $ \cos (\arctan (x)) = x $. Find the value of $x^2$.

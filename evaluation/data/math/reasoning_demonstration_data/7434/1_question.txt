@@ -1,0 +1,1 @@
+Problem: The product of the positive integer divisors of a positive integer $n$ is 729. Find $n$.

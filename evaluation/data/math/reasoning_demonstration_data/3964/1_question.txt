@@ -1,0 +1,1 @@
+Problem: How many positive integers $n$ satisfy $200 < n^2 < 900$?

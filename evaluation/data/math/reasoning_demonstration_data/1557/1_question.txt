@@ -1,0 +1,1 @@
+Problem: The hypotenuse of a right triangle whose legs are consecutive whole numbers is 29 units. What is the sum of the lengths of the two legs?

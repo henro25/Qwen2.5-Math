@@ -1,0 +1,1 @@
+Problem: We have that $\lceil x \rceil - \lfloor x \rfloor = 0.$ Then, what is $\lceil x \rceil - x$?

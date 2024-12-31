@@ -1,0 +1,1 @@
+Problem: Let $P$ be a plane passing through the origin.  When $\begin{pmatrix} 5 \\ 3 \\ 5 \end{pmatrix}$ is projected onto plane $P,$ the result is $\begin{pmatrix} 3 \\ 5 \\ 1 \end{pmatrix}.$  When $\begin{pmatrix} 4 \\ 0 \\ 7 \end{pmatrix}$ is projected onto plane $P,$ what is the result?

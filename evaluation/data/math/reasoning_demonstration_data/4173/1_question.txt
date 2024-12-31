@@ -1,0 +1,1 @@
+Problem: In right triangle $DEF$, we have $\angle D = 25^\circ$, $\angle E = 90^\circ$, and $EF = 9$.  Find $DE$ to the nearest tenth.  You may use a calculator for this problem.

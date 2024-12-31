@@ -1,0 +1,2 @@
+Problem: There are infinitely many positive integers $k$ which satisfy the equation
+\[\cos^2 (k^2 + 6^2)^\circ = 1.\]Enter the two smallest solutions, separated by commas.

@@ -1,0 +1,1 @@
+Problem: Find the remainder when $2 \times 12 \times 22 \times 32 \times \ldots \times 72 \times 82 \times 92$ is divided by $5$.

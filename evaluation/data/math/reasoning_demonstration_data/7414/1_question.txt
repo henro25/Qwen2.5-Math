@@ -1,0 +1,3 @@
+Problem: Express $\sqrt{x} \div\sqrt{y}$ as a common fraction, given:
+
+$\frac{ {\left( \frac{1}{2} \right)}^2 + {\left( \frac{1}{3} \right)}^2 }{ {\left( \frac{1}{4} \right)}^2 + {\left( \frac{1}{5} \right)}^2} = \frac{13x}{41y} $

@@ -1,0 +1,2 @@
+Problem: Compute
+\[\left( 1 + \cos \frac {\pi}{8} \right) \left( 1 + \cos \frac {3 \pi}{8} \right) \left( 1 + \cos \frac {5 \pi}{8} \right) \left( 1 + \cos \frac {7 \pi}{8} \right).\]

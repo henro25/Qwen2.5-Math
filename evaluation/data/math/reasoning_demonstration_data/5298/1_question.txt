@@ -1,0 +1,1 @@
+Problem: Find the quadratic polynomial, with real coefficients, which has $-2 - 3i$ as a root, and where the coefficient of $x$ is $-4$.

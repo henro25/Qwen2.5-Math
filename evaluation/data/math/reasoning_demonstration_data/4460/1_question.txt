@@ -1,0 +1,39 @@
+Problem: For the data whose frequency histogram is shown, by how many days is the mean number of days missed per student greater than the median number of days missed per student for the 15 students? Express your answer as a common fraction.
+
+[asy]
+draw((0,0)--(0,6),linewidth(2));
+draw((0,0)--(6,0),linewidth(2));
+
+draw((0,0)--(1,0)--(1,3)--(0,3)--(0,0)--cycle,linewidth(2));
+draw((1,0)--(2,0)--(2,1)--(1,1)--(1,0)--cycle,linewidth(2));
+draw((2,0)--(3,0)--(3,4)--(2,4)--(2,0)--cycle,linewidth(2));
+draw((3,0)--(4,0)--(4,1)--(3,1)--(3,0)--cycle,linewidth(2));
+draw((4,0)--(5,0)--(5,1)--(4,1)--(4,0)--cycle,linewidth(2));
+draw((5,0)--(6,0)--(6,5)--(5,5)--(5,0)--cycle,linewidth(2));
+
+draw((0,1)--(6,1),dashed);
+draw((0,2)--(6,2),dashed);
+draw((0,3)--(6,3),dashed);
+draw((0,4)--(6,4),dashed);
+draw((0,5)--(6,5),dashed);
+
+label("0",(.5,0),S);
+label("1",(1.5,0),S);
+label("2",(2.5,0),S);
+label("3",(3.5,0),S);
+label("4",(4.5,0),S);
+label("5",(5.5,0),S);
+
+label("1",(0,1),W);
+label("2",(0,2),W);
+label("3",(0,3),W);
+label("4",(0,4),W);
+label("5",(0,5),W);
+
+label("Number of School Days Missed",(2.5,8));
+label("by Mr. Clark's Students",(2.5,7));
+
+label("$\#$ of Days of School Missed",(3,-2));
+
+label(rotate(90)*"$\#$ of Students",(-2,2));
+[/asy]

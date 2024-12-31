@@ -1,0 +1,1 @@
+Problem: Sides $\overline{AH}$ and $\overline{CD}$ of regular octagon $ABCDEFGH$ are extended to meet at point $P$. What is the degree measure of angle $P$?

@@ -1,0 +1,1 @@
+Problem: How many natural numbers between 150 and 300 are divisible by 9?

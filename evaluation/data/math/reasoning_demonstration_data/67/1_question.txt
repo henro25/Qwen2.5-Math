@@ -1,0 +1,7 @@
+Problem: There are positive integers that have these properties:
+
+$\bullet$ I. The sum of the squares of their digits is $50,$ and
+
+$\bullet$ II. Each digit is larger than the one on its left.
+
+What is the product of the digits of the largest integer with both properties?

@@ -1,0 +1,2 @@
+Problem: Find the value of the sum
+\[\binom{99}{0} - \binom{99}{2} + \binom{99}{4} - \dots - \binom{99}{98}.\]

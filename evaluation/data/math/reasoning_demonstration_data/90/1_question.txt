@@ -1,0 +1,7 @@
+Problem: A parabola with equation $y=ax^2+bx+c$ is reflected about the $x$-axis. The parabola and its reflection are translated horizontally five units in opposite directions to become the graphs of $y=f(x)$ and $y=g(x)$, respectively. Which of the following describes the graph of $y=(f+g)(x)$?
+
+(A) a parabola tangent to the $x$-axis
+(B) a parabola not tangent to the $x$-axis
+(C) a horizontal line
+(D) a non-horizontal line
+(E) the graph of a cubic function

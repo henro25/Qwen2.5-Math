@@ -1,0 +1,1 @@
+Problem: A non-square rectangle has integer dimensions. The number  of square units in its area is numerically equal to the number of units in its perimeter. What is the number of units in the perimeter of this rectangle?

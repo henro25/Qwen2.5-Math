@@ -1,0 +1,1 @@
+Problem: The 5 a.m. temperatures for seven consecutive days were $-7^{\circ}$, $-4^{\circ}$, $-4^{\circ}$, $-5^{\circ}$, $1^{\circ}$, $3^{\circ}$ and $2^{\circ}$ Celsius. What is the mean 5 a.m. temperature for the week in degrees Celsius?

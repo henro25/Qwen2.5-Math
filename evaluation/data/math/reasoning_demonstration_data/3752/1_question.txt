@@ -1,0 +1,2 @@
+Problem: Simplify
+\[\frac{\sin{10^\circ}+\sin{20^\circ}}{\cos{10^\circ}+\cos{20^\circ}}.\]Enter your answer is a trigonometric function evaluated at an integer, such as "sin 7".  (The angle should be positive and as small as possible.)

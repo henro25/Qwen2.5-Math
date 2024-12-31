@@ -1,0 +1,6 @@
+Problem: The lattice shown is continued for $9$ rows. What will be the third number in the $9$th row? \begin{tabular}{rccccc}
+Row 1: & 1 & 2 & 3 & 4 & 5 \\
+Row 2: & 6 & 7 & 8 & 9 & 10 \\
+Row 3: & 11 & 12 & 13 & 14 & 15 \\
+Row 4: & 16 & 17 & 18 & 19 & 20
+\end{tabular}

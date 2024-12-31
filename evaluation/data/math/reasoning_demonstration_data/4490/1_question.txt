@@ -1,0 +1,1 @@
+Problem: The set of vectors $\left\{ \begin{pmatrix} 1 \\ 2 \end{pmatrix}, \begin{pmatrix} 3 \\ k \end{pmatrix} \right\}$ is linearly dependent.  Find all possible values of $k.$  Enter all the possible values, separated by commas.

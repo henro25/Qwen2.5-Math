@@ -1,0 +1,1 @@
+Problem: The number $2^{1993}+3^{1993}$ is a multiple of $5.$ What is the units digit of the quotient $\frac{2^{1993}+3^{1993}}{5}?$

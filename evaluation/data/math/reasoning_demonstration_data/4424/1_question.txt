@@ -1,0 +1,1 @@
+Problem: When Carlos divides his marbles into groups of six, seven, or eight, he has one marble left over. Assuming Carlos has more than one marble, what is the smallest possible number of marbles in Carlos's collection?

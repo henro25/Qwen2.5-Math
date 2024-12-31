@@ -1,0 +1,1 @@
+Problem: Four prime numbers are randomly selected without replacement from the first ten prime numbers. What is the probability that the sum of the four selected numbers is odd? Express your answer as a common fraction.

@@ -1,0 +1,2 @@
+Problem: Let $\omega$ be a nonreal root of $x^3 = 1.$  Compute
+\[(1 - \omega + \omega^2)^4 + (1 + \omega - \omega^2)^4.\]

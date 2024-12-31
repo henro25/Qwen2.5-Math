@@ -1,0 +1,1 @@
+Problem: In how many ways can I choose a 4-person committee from a club of 9 people?

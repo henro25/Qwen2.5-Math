@@ -1,0 +1,2 @@
+Problem: Compute
+\[\sum_{k = 1}^\infty \frac{6^k}{(3^k - 2^k)(3^{k + 1} - 2^{k + 1})}.\]

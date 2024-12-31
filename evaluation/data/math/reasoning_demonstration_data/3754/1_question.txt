@@ -1,0 +1,1 @@
+Problem: A stock investment went up $25\%$ in 2006. Starting at this increased value, what percent would it have to go down in 2007 to be back to its original price at the beginning of 2006?

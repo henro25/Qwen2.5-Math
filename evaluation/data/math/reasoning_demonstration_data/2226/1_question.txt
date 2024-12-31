@@ -1,0 +1,2 @@
+Problem: Let
+\[x^8 - 98x^4 + 1 = p(x) q(x),\]where $p(x)$ and $q(x)$ are monic, non-constant polynomials with integer coefficients.  Find $p(1) + q(1).$

@@ -1,0 +1,2 @@
+Problem: Let $a$ and $b$ be real numbers.  One of the roots of
+\[x^3 + ax^2 - x + b = 0\]is $1 - 2i.$  Enter the ordered pair $(a,b).$

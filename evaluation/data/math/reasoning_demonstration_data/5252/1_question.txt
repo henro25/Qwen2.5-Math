@@ -1,0 +1,1 @@
+Problem: Find the value(s) of $x$ such that $8xy-12y+2x-3=0$ is true for all values of $y$.

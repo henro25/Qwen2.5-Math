@@ -1,0 +1,1 @@
+Problem: Given that $a-b=5$ and $a^2+b^2=35$, find $a^3-b^3$.

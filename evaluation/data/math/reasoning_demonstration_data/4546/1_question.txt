@@ -1,0 +1,1 @@
+Problem: Solve for $x$: $x+2x = 400-(3x+4x)$.

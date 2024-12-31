@@ -1,0 +1,1 @@
+Problem: For what real value of $b$ is the expression $\frac{1}{2}b^2 + 5b - 3$ minimized?

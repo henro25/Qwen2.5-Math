@@ -1,0 +1,1 @@
+Problem: The number of cans in the layers of a display in a supermarket form an arithmetic sequence. The bottom layer has 28 cans; the next layer has 25 cans and so on until there is one can at the top of the display. How many cans are in the entire display?

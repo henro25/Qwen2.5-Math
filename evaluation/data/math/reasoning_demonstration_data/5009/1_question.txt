@@ -1,0 +1,1 @@
+Problem: A bag contains 5 red, 6 green, 7 yellow, and 8 blue jelly beans.   A jelly bean is selected at random.  What is the probability that it is blue?

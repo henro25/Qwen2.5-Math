@@ -1,0 +1,1 @@
+Problem: One interior angle of a convex polygon is 160 degrees. The rest of the interior angles of the polygon are each 112 degrees. How many sides does the polygon have?

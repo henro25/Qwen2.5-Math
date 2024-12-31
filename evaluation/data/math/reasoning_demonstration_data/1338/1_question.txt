@@ -1,0 +1,2 @@
+Problem: A park is in the shape of a regular hexagon $2$ km on a side. Starting at a corner, Alice walks along the perimeter of the park for a distance of $5$ km. How many kilometers is she from her starting point?
+$\textbf{(A)}\ \sqrt{13}\qquad \textbf{(B)}\ \sqrt{14}\qquad \textbf{(C)}\ \sqrt{15}\qquad \textbf{(D)}\ \sqrt{16}\qquad \textbf{(E)}\ \sqrt{17}$

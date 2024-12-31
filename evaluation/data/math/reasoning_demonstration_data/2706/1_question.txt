@@ -1,0 +1,1 @@
+Problem: The integers $r$ and $k$ are randomly selected, where $-3 < r < 6$ and $1 < k < 8$. What is the probability that the division $r \div k$ is an integer value? Express your answer as a common fraction.

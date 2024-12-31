@@ -1,0 +1,4 @@
+Problem: The values of a function $f(x)$ are given in the table below.
+
+\begin{tabular}{|c||c|c|c|c|c|} \hline $x$ & 1 & 2 & 3 & 4 & 5 \\ \hline $f(x)$ & 3 & 1 & 5 & 4 & 2 \\ \hline
+\end{tabular}If $f^{-1}$ exists, then what is $f^{-1}(f^{-1}(f^{-1}(1)))$?

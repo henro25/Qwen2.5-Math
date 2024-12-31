@@ -1,0 +1,1 @@
+Problem: The interior of a right, circular cone is 8 inches tall with a 2-inch radius at the opening. The interior of the cone is filled with ice cream, and the cone has a hemisphere of ice cream exactly covering the opening of the cone. What is the volume of ice cream? Express your answer in terms of $\pi$.

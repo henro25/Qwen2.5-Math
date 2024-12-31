@@ -1,0 +1,6 @@
+Problem: Let \[f(x) = \left\{
+\begin{array}{cl}
+2x + 7 & \text{if } x < -2, \\
+-x^2 - x + 1 & \text{if } x \ge -2.
+\end{array}
+\right.\]Find the sum of all values of $x$ such that $f(x) = -5.$

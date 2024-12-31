@@ -1,0 +1,2 @@
+Problem: Compute
+\[\prod_{n = 1}^{20} \frac{n + 3}{n}.\]

@@ -1,0 +1,1 @@
+Problem: Find the smallest two-digit prime number such that reversing the digits of the number produces a composite number.

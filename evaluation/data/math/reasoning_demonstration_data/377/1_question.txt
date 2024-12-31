@@ -1,0 +1,1 @@
+Problem: What is the product of the least common multiple and the greatest common factor of $20$ and $90$?

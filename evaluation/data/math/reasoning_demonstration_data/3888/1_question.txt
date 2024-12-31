@@ -1,0 +1,1 @@
+Problem: Two triangles are similar. The ratio of their areas is 1:4. If the height of the smaller triangle is 3 cm, how long is the corresponding height of the larger triangle, in centimeters?

@@ -1,0 +1,1 @@
+Problem: What is the length of the diagonal of a square with side length $50\sqrt{2}$ cm? Express your answer in simplest form.

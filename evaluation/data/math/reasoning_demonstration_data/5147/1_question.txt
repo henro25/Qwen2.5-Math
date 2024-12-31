@@ -1,0 +1,1 @@
+Problem: Let $A$ be a point on the parabola $y = x^2 - 9x + 25,$ and let $B$ be a point on the line $y = x - 8.$  Find the shortest possible distance $AB.$

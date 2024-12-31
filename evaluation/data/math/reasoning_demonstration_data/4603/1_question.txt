@@ -1,0 +1,1 @@
+Problem: How many of the 200 smallest positive integers are congruent to 1 (mod 9)?

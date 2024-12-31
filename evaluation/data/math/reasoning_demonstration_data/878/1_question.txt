@@ -1,0 +1,1 @@
+Problem: In a right triangle with integer length sides, the hypotenuse has length 39 units. How many units is the length of the shorter leg?

@@ -1,0 +1,2 @@
+Problem: The matrices
+\[\begin{pmatrix} a & 1 & b \\ 2 & 2 & 3 \\ c & 5 & d \end{pmatrix} \quad \text{and} \quad \begin{pmatrix} -5 & e & -11 \\ f & -13 & g \\ 2 & h & 4 \end{pmatrix}\]are inverses.  Find $a + b + c + d + e + f + g + h.$

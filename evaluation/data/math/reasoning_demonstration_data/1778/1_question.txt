@@ -1,0 +1,1 @@
+Problem: Solve for $n$: $5^{2n + 1} = \frac{1}{25}$. Express your answer as a common fraction.

@@ -1,0 +1,1 @@
+Problem: A triangular region is bounded by the two coordinate axes and the line given by the equation $2x + y = 6$. What is the area of the region, in square units?

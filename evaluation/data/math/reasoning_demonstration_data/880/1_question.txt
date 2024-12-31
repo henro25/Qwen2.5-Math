@@ -1,0 +1,20 @@
+Problem: In $\triangle ABC$ points $D$ and $E$ lie on $\overline{BC}$ and $\overline{AC}$, respectively.  If $\overline{AD}$ and $\overline{BE}$ intersect at $T$ so that $AT/DT=3$ and $BT/ET=4$, what is $CD/BD$?
+
+[asy]
+pair A,B,C,D,I,T;
+A=(0,0);
+B=(6,8);
+C=(11,0);
+D=(9.33,2.66);
+I=(7.5,0);
+T=(6.5,2);
+label("$T$",T,NW);
+label("$D$",D,NE);
+label("$E$",I,S);
+label("$A$",A,S);
+label("$C$",C,S);
+label("$B$",B,N);
+draw(A--B--C--cycle,linewidth(0.7));
+draw(A--D,linewidth(0.7));
+draw(B--I,linewidth(0.7));
+[/asy]

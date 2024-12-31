@@ -1,0 +1,2 @@
+Problem: Let $a_1 = a_2 = a_3 = 1.$  For $n > 3,$ let $a_n$ be the number of real numbers $x$ such that
+\[x^4 - 2a_{n - 1} x^2 + a_{n - 2} a_{n - 3} = 0.\]Compute the sum $a_1 + a_2 + a_3 + \dots + a_{1000}.$

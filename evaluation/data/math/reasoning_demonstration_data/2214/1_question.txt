@@ -1,0 +1,1 @@
+Problem: Compute: $\left(\frac{1}{2} \right)^{3} \cdot \left(\frac{1}{7} \right)$.

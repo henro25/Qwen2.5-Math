@@ -1,0 +1,2 @@
+Problem: Find a monic cubic polynomial $P(x)$ with integer coefficients such that
+\[P(\sqrt[3]{2} + 1) = 0.\](A polynomial is monic if its leading coefficient is 1.)

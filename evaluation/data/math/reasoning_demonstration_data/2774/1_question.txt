@@ -1,0 +1,1 @@
+Problem: What is the largest three-digit integer whose digits are distinct and form a geometric sequence?

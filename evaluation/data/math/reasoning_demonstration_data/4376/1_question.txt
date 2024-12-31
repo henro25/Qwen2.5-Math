@@ -1,0 +1,1 @@
+Problem: Let $P(x) = 0$ be the polynomial equation of least possible degree, with rational coefficients, having $\sqrt[3]{7} + \sqrt[3]{49}$ as a root.  Compute the product of all of the roots of $P(x) = 0.$

@@ -1,0 +1,1 @@
+Problem: The length of a rectangular playground exceeds twice its width by 25 feet, and the perimeter of the playground is 650 feet. What is the area of the playground in square feet?

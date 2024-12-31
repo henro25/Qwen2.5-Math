@@ -1,0 +1,1 @@
+Problem: What is the period of $y = \tan x + \cot x$?

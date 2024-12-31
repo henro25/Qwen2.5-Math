@@ -1,0 +1,1 @@
+Problem: The area of an equilateral triangle is numerically equal to the length of one of its sides. What is the perimeter of the triangle, in units? Express your answer in simplest radical form.

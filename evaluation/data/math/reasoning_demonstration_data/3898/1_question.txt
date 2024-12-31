@@ -1,0 +1,1 @@
+Problem: The graphs of $y=|x|$ and $y=-x^2-3x-2$ are drawn.  For every $x$, a vertical segment connecting these two graphs can be drawn as well.  Find the smallest possible length of one of these vertical segments.

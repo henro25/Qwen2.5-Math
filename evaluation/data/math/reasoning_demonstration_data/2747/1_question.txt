@@ -1,0 +1,1 @@
+Problem: Suppose $f(x) = x^2,$ and $g(x)$ is a polynomial such that $f(g(x)) = 4x^2 + 4x + 1$. Enter all possible polynomials $g(x),$ separated by commas.

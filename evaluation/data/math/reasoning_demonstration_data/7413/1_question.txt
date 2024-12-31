@@ -1,0 +1,1 @@
+Problem: Suppose that $a$ and $b$ are positive integers such that $(a+bi)^2 = 3+4i$. What is $a+bi$?

@@ -1,0 +1,1 @@
+Problem: Find the fifth term of the geometric sequence with first term $2$ and second term $\frac{1}{4}$.

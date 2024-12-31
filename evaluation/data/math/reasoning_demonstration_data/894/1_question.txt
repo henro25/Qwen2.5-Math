@@ -1,0 +1,2 @@
+Problem: Find the sum of all real values of $x$ that satisfy
+\[x = 1 - x + x^2 - x^3 + x^4 - x^5 + \dotsb.\]

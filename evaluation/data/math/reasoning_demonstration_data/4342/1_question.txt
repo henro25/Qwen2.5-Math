@@ -1,0 +1,1 @@
+Problem: An abundant number is a positive integer such that the sum of its proper divisors is greater than the number itself. The number 12 is an abundant number since $1 + 2 + 3 + 4 + 6 > 12$. What is the smallest abundant number that is not a multiple of 6?

@@ -1,0 +1,2 @@
+Problem: Let $\mathbf{D}$ be a matrix representing a dilation with scale factor $k > 0,$ and let $\mathbf{R}$ be a matrix representing a rotation about the origin by an angle of $\theta$ counter-clockwise.  If
+\[\mathbf{R} \mathbf{D} = \begin{pmatrix} 8 & -4 \\ 4 & 8 \end{pmatrix},\]then find $\tan \theta.$

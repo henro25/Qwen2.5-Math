@@ -1,0 +1,1 @@
+Problem: All the complex roots of $(z + 1)^5 = 32z^5,$ when plotted in the complex plane, lie on a circle.  Find the radius of this circle.

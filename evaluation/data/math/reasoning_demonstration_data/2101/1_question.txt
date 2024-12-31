@@ -1,0 +1,1 @@
+Problem: Convert $3206_7$ to a base 10 integer.

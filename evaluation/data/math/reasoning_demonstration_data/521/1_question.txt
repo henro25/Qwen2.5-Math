@@ -1,0 +1,1 @@
+Problem: If we express $2x^2 + 6x + 11$ in the form $a(x - h)^2 + k$, then what is $h$?

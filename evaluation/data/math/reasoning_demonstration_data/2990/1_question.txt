@@ -1,0 +1,1 @@
+Problem: $ABCD$ is a regular tetrahedron (right triangular pyramid).  If $M$ is the midpoint of $\overline{CD}$, then what is $\cos \angle AMB$?

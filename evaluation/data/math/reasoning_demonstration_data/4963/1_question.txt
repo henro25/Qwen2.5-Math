@@ -1,0 +1,1 @@
+Problem: Find the remainder when $3^{3^{3^3}}$ is divided by 1000.

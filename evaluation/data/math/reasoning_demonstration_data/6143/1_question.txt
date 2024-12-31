@@ -1,0 +1,1 @@
+Problem: Find $\left(\sqrt{(\sqrt3)^3}\right)^4$.

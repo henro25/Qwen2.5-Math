@@ -1,0 +1,2 @@
+Problem: Let $z$ be a complex number such that
+\[|z^2 + 4| = |z(z + 2i)|.\]Find the smallest possible value of $|z + i|.$

@@ -1,0 +1,1 @@
+Problem: Real numbers $x$ and $y$ have an arithmetic mean of 18 and a geometric mean of $\sqrt{92}$. Find $x^2+y^2$.

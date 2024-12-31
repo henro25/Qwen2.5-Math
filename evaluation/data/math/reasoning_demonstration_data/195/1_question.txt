@@ -1,0 +1,1 @@
+Problem: Let $p$ and $q$ be the two distinct solutions to the equation $$(x-3)(x+3) = 21x - 63.$$If $p > q$, what is the value of $p - q$?

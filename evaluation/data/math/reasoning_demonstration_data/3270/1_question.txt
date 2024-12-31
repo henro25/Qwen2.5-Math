@@ -1,0 +1,6 @@
+Problem: A small square is entirely contained in a larger square, as shown. The side length of the small square is 3 units and the side length of the larger square is 7 units. What is the number of square units in the area of the black region?
+
+[asy]
+fill((0,0)--(21,0)--(21,21)--(0,21)--cycle,black);
+fill((9,4)--(9,13)--(18,13)--(18,4)--cycle,white);
+[/asy]

@@ -1,0 +1,1 @@
+Problem: How many units are in the sum of the lengths of the two longest altitudes in a triangle with sides $8,$ $15,$ and $17$?

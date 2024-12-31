@@ -1,0 +1,1 @@
+Problem: Define the operation $a\nabla b = 2 + b^a$. What is the value of $(1\nabla 2) \nabla 3$?

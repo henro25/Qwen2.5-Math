@@ -1,0 +1,1 @@
+Problem: Amy and Belinda each roll a sheet of 6-inch by 8-inch paper to form a cylindrical tube. Amy tapes the two 8-inch sides together without overlap. Belinda tapes the two 6-inch sides together without overlap. What is $\pi$ times the positive difference of the volumes of the two tubes?

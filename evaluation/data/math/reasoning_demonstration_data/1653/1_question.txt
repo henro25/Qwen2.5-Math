@@ -1,0 +1,1 @@
+Problem: A projection takes $\begin{pmatrix} 4 \\ 4 \end{pmatrix}$ to $\begin{pmatrix} \frac{60}{13} \\ \frac{12}{13} \end{pmatrix}.$  Which vector does the projection take $\begin{pmatrix} -2 \\ 2 \end{pmatrix}$ to?

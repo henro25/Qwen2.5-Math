@@ -1,0 +1,1 @@
+Problem: What is the value of $\displaystyle\frac{109^2-100^2}{9}$?

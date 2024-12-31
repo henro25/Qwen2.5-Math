@@ -1,0 +1,1 @@
+Problem: Let $A = (1,0)$ and $B = (5,4).$  Let $P$ be a point on the parabola $y^2 = 4x.$  Find the smallest possible value of $AP + BP.$

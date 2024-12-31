@@ -1,0 +1,2 @@
+Problem: Find the largest positive integer $n$ such that
+\[\sin^n x + \cos^n x \ge \frac{1}{n}\]for all real numbers $x.$

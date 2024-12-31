@@ -1,0 +1,3 @@
+Problem: For each positive integer $n$, let $n!$ denote the product $1\cdot 2\cdot 3\cdot\,\cdots\,\cdot (n-1)\cdot n$.
+
+What is the remainder when $9!$ is divided by $11$?

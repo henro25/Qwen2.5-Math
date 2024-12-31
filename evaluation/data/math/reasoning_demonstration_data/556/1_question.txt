@@ -1,0 +1,1 @@
+Problem: What is the sum of the roots of the equation $(x - 5)^2 = 9$?

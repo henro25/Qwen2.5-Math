@@ -1,0 +1,3 @@
+Problem: The complete graph of $y=f(x)$, which consists of five line segments, is shown in red below. (On this graph, the distance between grid lines is $1$.)
+
+What is the sum of the $x$-coordinates of all points where $f(x) = x+1$?

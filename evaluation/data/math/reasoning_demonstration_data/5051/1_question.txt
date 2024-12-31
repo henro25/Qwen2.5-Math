@@ -1,0 +1,1 @@
+Problem: What is the shortest distance from the origin to the circle defined by $x^2-24x +y^2+10y +160=0$?

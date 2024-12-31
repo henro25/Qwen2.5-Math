@@ -1,0 +1,4 @@
+Problem: For how many integers $n$ with $1 \le n \le 2012$ is the product
+\[
+  \prod_{k=0}^{n-1} \left( \left( 1 + e^{2 \pi i k / n} \right)^n + 1 \right) 
+\]equal to zero?

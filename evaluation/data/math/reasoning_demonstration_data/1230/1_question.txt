@@ -1,0 +1,7 @@
+Problem: The vertical drop of a roller coaster is the largest difference in height between any high point and the next low point. The vertical drops of five roller coasters at Mandelbrot Amusement Park are shown in the table. \begin{tabular}{|l|c|} \hline
+The Parabola & 165 feet \\ \hline
+The G Force & 119 feet \\ \hline
+The Mean Streak & 138 feet \\ \hline
+The Tower of Power & 300 feet \\ \hline
+The Maximum Ride & 198 feet \\ \hline
+\end{tabular} What is the positive difference between the mean and the median of these values?

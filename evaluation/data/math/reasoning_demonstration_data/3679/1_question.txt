@@ -1,0 +1,9 @@
+Problem: At the mall's food court, Crystal wants to buy a meal consisting of one entree, one drink and one dessert. The table below lists Crystal's favorite foods in the food court. How many distinct possible meals can she buy from these options?
+
+\begin{tabular}{ |c | c | c | }
+\hline \textbf{Entrees} & \textbf{Drinks}&\textbf{Desserts} \\ \hline
+Pizza & Lemonade & Frozen Yogurt \\ \hline
+Chicken Teriyaki & Root Beer & Chocolate Chip Cookie \\ \hline
+Corn Dog& & \\ \hline
+Fish and Chips& & \\ \hline
+\end{tabular}

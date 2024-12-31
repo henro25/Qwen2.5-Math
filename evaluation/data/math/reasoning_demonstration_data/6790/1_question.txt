@@ -1,0 +1,5 @@
+Problem: The line segment connecting $(-2,7)$ and $(3,11)$ can be parameterized by the equations
+\begin{align*}
+x &= at + b, \\
+y &= ct + d,
+\end{align*}where $0 \le t \le 1,$ and $t = 0$ corresponds to the point $(-2,7).$  Find $a^2 + b^2 + c^2 + d^2.$

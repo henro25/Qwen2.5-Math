@@ -1,0 +1,1 @@
+Problem: What is the greatest integer $x$ for which $\frac79 > \frac{x}{13}$?

@@ -1,0 +1,2 @@
+Problem: A child has a set of 96 distinct blocks. Each block is one of 2 materials (plastic, wood), 3 sizes (small, medium, large), 4 colors (blue, green, red, yellow), and 4 shapes (circle, hexagon, square, triangle). How many blocks in the set differ from the 'plastic medium red circle' in exactly 2 ways? (The 'wood medium red square' is such a block)
+(A) 29 (B) 39 (C) 48 (D) 56 (E) 62

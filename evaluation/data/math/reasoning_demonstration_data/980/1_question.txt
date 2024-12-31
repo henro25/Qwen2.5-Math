@@ -1,0 +1,1 @@
+Problem: The second and fifth terms of an arithmetic sequence are 17 and 19, respectively. What is the eighth term?

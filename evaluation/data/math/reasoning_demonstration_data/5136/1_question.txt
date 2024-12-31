@@ -1,0 +1,1 @@
+Problem: A math conference is presenting a lecture series with six different lecturers. If Dr. Smith's lecture depends on Dr. Jones's lecture, so that Dr. Smith must be scheduled at some time after Dr. Jones, in how many orders can the six lecturers be scheduled?

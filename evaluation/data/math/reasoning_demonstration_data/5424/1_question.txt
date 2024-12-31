@@ -1,0 +1,1 @@
+Problem: How many different positive, six-digit integers can be formed using the digits 2, 2, 5, 5, 9 and 9?

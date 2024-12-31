@@ -1,0 +1,7 @@
+Problem: We know the following to be true:
+
+$\bullet$ 1.  $Z$ and $K$ are integers with $500 < Z < 1000$ and $K > 1;$
+
+$\bullet$ 2.  $Z$ = $K \times K^2.$
+
+What is the value of $K$ for which $Z$ is a perfect square?

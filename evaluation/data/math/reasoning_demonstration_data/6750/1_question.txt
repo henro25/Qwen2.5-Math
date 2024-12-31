@@ -1,0 +1,5 @@
+Problem: Let $a,b,c,d,e,f,g$ and $h$ be distinct elements in the set \[
+\{-7,-5,-3,-2,2,4,6,13\}.
+\]What is the minimum possible value of \[
+(a+b+c+d)^{2} + (e+f+g+h)^{2}?
+\]

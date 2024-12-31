@@ -1,0 +1,1 @@
+Problem: Let $C$ be the circle with equation $x^2+2y-9=-y^2+18x+9$. If $(a,b)$ is the center of $C$ and $r$ is its radius, what is the value of $a+b+r$?

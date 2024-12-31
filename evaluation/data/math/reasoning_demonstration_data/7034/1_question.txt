@@ -1,0 +1,1 @@
+Problem: What is the largest integer that must divide the product of any $4$ consecutive integers?

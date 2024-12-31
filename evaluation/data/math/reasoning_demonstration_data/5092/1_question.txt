@@ -1,0 +1,1 @@
+Problem: What is the range of the function $$r(x) = \frac{1}{(1-x)^2}~?$$ Express your answer in interval notation.

@@ -1,0 +1,1 @@
+Problem: A certain integer has $4$ digits when written in base $8$. The same integer has $d$ digits when written in base $2$. What is the sum of all possible values of $d$?

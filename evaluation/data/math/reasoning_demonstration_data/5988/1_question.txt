@@ -1,0 +1,5 @@
+Problem: Let $m$ and $n$ be positive integers satisfying the conditions
+$\quad\bullet\ \gcd(m+n,210)=1,$
+$\quad\bullet\ m^m$ is a multiple of $n^n,$ and
+$\quad\bullet\ m$ is not a multiple of $n.$
+Find the least possible value of $m+n.$

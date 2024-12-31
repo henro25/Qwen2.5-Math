@@ -1,0 +1,2 @@
+Problem: The cubic polynomial $p(x)$ satisfies $p(2) = 1,$ $p(7) = 19,$ $p(15) = 11,$ and $p(20) = 29.$  Find
+\[p(1) + p(2) + p(3) + \dots + p(21).\]

@@ -1,0 +1,8 @@
+Problem: Circle $A$ is in the interior of circle $B$. The diameter of circle $B$ is 16 cm. What is the diameter of circle $A$ for which the ratio of the shaded area to the area of circle $A$ is 3:1?
+
+[asy]size(101);
+import graph;
+pair B = (0,0);
+pair A = (1,-3);
+filldraw(Circle(B,10)^^Circle(A,5),gray(.6)+fillrule(1),linewidth(1.5));
+dot("$B$",B,ENE,linewidth(5)); dot("$A$",A,SW,linewidth(5));[/asy]

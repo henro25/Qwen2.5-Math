@@ -1,0 +1,20 @@
+Problem: What is the area, in square units, of triangle $ABC$? [asy]
+unitsize(1.5mm);
+defaultpen(linewidth(.7pt)+fontsize(8pt));
+dotfactor=4;
+
+pair A=(-3,1), B=(7,1), C=(5,-3);
+pair[] dots={A,B,C};
+real[] xticks={-4,-3,-2,-1,1,2,3,4,5,6,7,8};
+real[] yticks={3,2,1,-1,-2,-3,-4,-5,-6,-7};
+
+draw(A--B--C--cycle);
+dot(dots);
+
+label("A(-3,1)",A,N);
+label("B(7,1)",B,N);
+label("C(5,-3)",C,S);
+
+xaxis(-5,9,Ticks(" ", xticks, 3),Arrows(4));
+yaxis(-8,4,Ticks(" ", yticks, 3),Arrows(4));
+[/asy]

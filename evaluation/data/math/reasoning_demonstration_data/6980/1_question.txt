@@ -1,0 +1,1 @@
+Problem: The graph of the equation \[ x^2 + 4y^2 - 10x + 56y = k\]is a non-degenerate ellipse if and only if $k > a.$ What is $a?$

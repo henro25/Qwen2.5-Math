@@ -1,0 +1,1 @@
+Problem: A school is arranging chairs in rows for an assembly. $11$ chairs make a complete row, and right now there are $110$ chairs total. The school wants to have as few empty seats as possible, but all rows of chairs must be complete. If $70$ students will attend the assembly, how many chairs should be removed?

@@ -1,0 +1,2 @@
+Problem: Compute
+$$\sum_{k=1}^{1000} k(\lceil \log_{\sqrt{2}}{k}\rceil- \lfloor\log_{\sqrt{2}}{k} \rfloor).$$

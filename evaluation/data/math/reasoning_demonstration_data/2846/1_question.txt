@@ -1,0 +1,2 @@
+Problem: Compute the number of degrees in the smallest positive angle $x$ such that
+\[8 \sin x \cos^5 x - 8 \sin^5 x \cos x = 1.\]

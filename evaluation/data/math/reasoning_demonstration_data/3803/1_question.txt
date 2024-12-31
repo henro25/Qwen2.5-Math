@@ -1,0 +1,1 @@
+Problem: The graph of the parabola defined by the equation $y=(x-2)^2+3$ is rotated 180 degrees about its vertex, then shifted 3 units to the left, then shifted 2 units down. The resulting parabola has zeros at $x=a$ and $x=b$. What is $a+b$?

@@ -1,0 +1,11 @@
+Problem: The isosceles triangle and the square shown here have the same area in square units. What is the height of the triangle, $h$, in terms of the side length of the square, $s$?
+
+[asy]
+draw((0,0)--(0,10)--(10,10)--(10,0)--cycle);
+fill((0,0)--(17,5)--(0,10)--cycle,white);
+draw((0,0)--(17,5)--(0,10)--cycle);
+label("$s$",(5,10),N);
+label("$h$",(6,5),N);
+draw((0,5)--(17,5),dashed);
+draw((0,5.5)--(0.5,5.5)--(0.5,5));
+[/asy]

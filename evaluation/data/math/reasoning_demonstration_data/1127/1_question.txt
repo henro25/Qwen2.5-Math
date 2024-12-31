@@ -1,0 +1,1 @@
+Problem: Let $x$ and $y$ be two positive real numbers such that $x + y = 35.$  Enter the ordered pair $(x,y)$ for which $x^5 y^2$ is maximized.

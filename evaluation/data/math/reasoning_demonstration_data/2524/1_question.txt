@@ -1,0 +1,1 @@
+Problem: Find the ones digit of the largest power of $2$ that divides into $(2^4)!$.

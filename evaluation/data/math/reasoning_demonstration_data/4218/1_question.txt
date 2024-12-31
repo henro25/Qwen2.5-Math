@@ -1,0 +1,1 @@
+Problem: The legs of a right triangle have lengths $\log_4 27$ and $\log_2 9.$ If the length of the hypotenuse is $h,$ compute $4^h.$

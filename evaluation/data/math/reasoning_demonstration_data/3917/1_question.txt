@@ -1,0 +1,1 @@
+Problem: Evaluate $\cfrac{\left\lceil\cfrac{17}{7}-\left\lceil\cfrac{27}{17}\right\rceil\right\rceil}{\left\lceil\cfrac{27}{7}+\left\lceil\cfrac{7\cdot17}{27}\right\rceil\right\rceil}$

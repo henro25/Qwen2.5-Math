@@ -1,0 +1,2 @@
+Problem: Triangles $ABC$ and $ADC$ are isosceles with $AB=BC$ and $AD=DC$. Point $D$ is inside $\triangle ABC$, $\angle ABC = 40^\circ$, and $\angle ADC = 140^\circ$.  What is the degree measure of $\angle
+BAD$?

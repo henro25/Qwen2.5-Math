@@ -1,0 +1,3 @@
+Problem: Let $a,$ $b,$ $c$ be distinct real numbers such that
+\[\frac{a}{b - c} + \frac{b}{c - a} + \frac{c}{a - b} = 0.\]Find all possible values of
+\[\frac{a}{(b - c)^2} + \frac{b}{(c - a)^2} + \frac{c}{(a - b)^2}.\]Enter all the possible values, separated by commas.

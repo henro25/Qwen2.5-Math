@@ -1,0 +1,1 @@
+Problem: Fifty cards, numbered 1-50, are placed in a box. One card is randomly selected. What is the probability that the number on the card is prime and is a multiple of 7? Express your answer as a common fraction.

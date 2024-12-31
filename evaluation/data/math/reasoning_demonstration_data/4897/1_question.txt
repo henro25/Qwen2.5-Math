@@ -1,0 +1,2 @@
+Problem: Let $x = \sqrt{\frac{\sqrt{53}}{2} + \frac{3}{2}}.$  There exist unique positive integers $a,$ $b,$ $c$ such that
+\[x^{100} = 2x^{98} + 14x^{96} + 11x^{94} - x^{50} + ax^{46} + bx^{44} + cx^{40}.\]Find $a + b + c.$

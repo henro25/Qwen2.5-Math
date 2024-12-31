@@ -1,0 +1,1 @@
+Problem: The solution of $8x+1\equiv 5 \pmod{12}$ is $x\equiv a\pmod{m}$ for some positive integers $m\geq 2$ and $a<m$. Find $a+m$.

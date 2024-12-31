@@ -1,0 +1,1 @@
+Problem: The graph of the equation \[\sqrt{x^2+y^2} + |y-1| = 3\]consists of portions of two different parabolas. Compute the distance between the vertices of the parabolas.

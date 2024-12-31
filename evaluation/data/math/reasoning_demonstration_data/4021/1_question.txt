@@ -1,0 +1,1 @@
+Problem: The Lucas numbers $L_n$ are given by the recursion $L_0 = 2, L_1 = 1$, and $L_n = L_{n-1} + L_{n-2}$. Find the units digit of $L_{L_{10}}$.

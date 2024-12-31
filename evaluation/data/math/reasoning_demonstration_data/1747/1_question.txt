@@ -1,0 +1,1 @@
+Problem: Let $\alpha$ and $\beta$ be conjugate complex numbers such that $\frac{\alpha}{\beta^2}$ is a real number and $|\alpha - \beta| = 2 \sqrt{3}.$  Find $|\alpha|.$

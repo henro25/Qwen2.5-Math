@@ -1,0 +1,12 @@
+Problem: The circular region of the sign (below, left) has an area of 154 square inches. Vanessa would like to place a tiny ribbon (shaded) around the circle's edge. To be sure she has enough ribbon, she decides to buy 2 inches more of the ribbon than the original circle's circumference. How many inches of ribbon will Vanessa need to buy if she estimates $\pi = \frac{22}{7}$?
+
+[asy]import graph;
+size(125,72.5);
+picture p;
+draw(p,unitsquare);
+filldraw(p,Circle((.5,.5),.3),white);
+label(p,"Enter",(.5,.5),ZapfChancery("m","n"));
+add(p);
+filldraw(Circle((2,.5),.4),gray(.6));
+add(shift(1.5*right)*p);
+draw((1.1,.5)--(1.4,.5),EndArrow(5,25));[/asy]

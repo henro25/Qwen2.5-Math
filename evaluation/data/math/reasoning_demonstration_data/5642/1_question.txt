@@ -1,0 +1,1 @@
+Problem: Two circles of radius 2 are centered at $(2,0)$ and at $(0,2)$. What is the area of the intersection of the interiors of the two circles? Express your answer in fully expanded form in terms of $\pi$.

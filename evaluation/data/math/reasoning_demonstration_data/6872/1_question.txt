@@ -1,0 +1,9 @@
+Problem: The stem and leaf plot represents the heights, in inches, of the players on the Spring Vale Middle School girls' basketball team. What is the mean height of the players on the team? (Note: $5|3$ represents 53 inches.)
+
+Height of the Players on the Basketball Team (inches)
+
+$4|9$
+
+$5|2\;3\;5\;8\;8\;9$
+
+$6|0\;1\;1\;2\;6\;8\;9\;9$

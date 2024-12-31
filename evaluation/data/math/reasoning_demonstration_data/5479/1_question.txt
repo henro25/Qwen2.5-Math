@@ -1,0 +1,1 @@
+Problem: Simplify $t^3\cdot t^4$.

@@ -1,0 +1,2 @@
+Problem: Let $x,$ $y,$ and $z$ be positive real numbers such that $x + y + z = 6.$  Find the minimum value of
+\[\frac{x^2 + y^2}{x + y} + \frac{x^2 + z^2}{x + z} + \frac{y^2 + z^2}{y + z}.\]

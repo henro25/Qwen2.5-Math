@@ -1,0 +1,1 @@
+Problem: Suppose that a parabola has vertex $\left(\frac{1}{4},-\frac{9}{8}\right)$ and equation $y = ax^2 + bx + c$, where $a > 0$ and $a + b + c$ is an integer.  Find the smallest possible value of $a.$

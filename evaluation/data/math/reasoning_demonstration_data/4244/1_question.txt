@@ -1,0 +1,1 @@
+Problem: How many 0's are located to the right of the decimal point and before the first non-zero digit in the terminating decimal representation of $\frac{1}{2^5\cdot5^8}$?

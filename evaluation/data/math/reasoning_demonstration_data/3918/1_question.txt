@@ -1,0 +1,2 @@
+Problem: Let $z$ be a complex number such that
+\[|z - 12| + |z - 5i| = 13.\]Find the smallest possible value of $|z|.$

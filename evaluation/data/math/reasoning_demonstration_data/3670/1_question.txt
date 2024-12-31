@@ -1,0 +1,1 @@
+Problem: What is the domain of the function $$u(x) = \frac{1}{\sqrt x}~?$$ Express your answer in interval notation.

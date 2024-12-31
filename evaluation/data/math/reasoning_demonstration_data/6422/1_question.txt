@@ -1,0 +1,1 @@
+Problem: Find the sum of the real roots of $x^4 - 4x - 1 = 0.$

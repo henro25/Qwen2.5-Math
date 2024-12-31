@@ -1,0 +1,1 @@
+Problem: $n$ coins are simultaneously flipped.  The probability that at most one of them shows tails is $\frac{3}{16}$.  Find $n$.

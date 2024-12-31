@@ -1,0 +1,1 @@
+Problem: How many distinct digits can appear as the units digit of an integral perfect-square number?

@@ -1,0 +1,1 @@
+Problem: The sum of 49 consecutive integers is $7^5$. What is their median?

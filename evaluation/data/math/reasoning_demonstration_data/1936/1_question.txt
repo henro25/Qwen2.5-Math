@@ -1,0 +1,1 @@
+Problem: For how many bases between two and nine inclusive does the representation of $576_{10}$ have a final digit of 1?

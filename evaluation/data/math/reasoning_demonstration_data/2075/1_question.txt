@@ -1,0 +1,1 @@
+Problem: Medians $\overline{AD}$ and $\overline{BE}$ of $\triangle ABC$ are perpendicular.  If $AD= 15$ and $BE = 20$, then what is the area of $\triangle ABC$?

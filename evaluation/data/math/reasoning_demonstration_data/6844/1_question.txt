@@ -1,0 +1,1 @@
+Problem: What is the sum of the last two digits of $8^{25} + 12^{25}?$

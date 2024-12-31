@@ -1,0 +1,1 @@
+Problem: Rewrite the expression $6j^2 - 4j + 12$ in the form $c(j + p)^2 + q$, where $c$, $p$, and $q$ are constants. What is $\frac{q}{p}$?

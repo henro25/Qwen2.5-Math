@@ -1,0 +1,11 @@
+Problem: In the diagram, what is the value of $y$?
+
+[asy]
+draw((0,0)--(18,0),black+linewidth(1));
+draw((18,0)--(18,-6),black+linewidth(1));
+draw((0,0)--(4,6)--(18,-6),black+linewidth(1));
+draw((18,0)--(18,-0.5)--(17.5,-0.5)--(17.5,0)--cycle,black+linewidth(1));
+label("$80^{\circ}$",(4.5,5),S);
+label("$60^{\circ}$",(1,0),NE);
+label("$y^{\circ}$",(18.25,-5),NW);
+[/asy]

@@ -1,0 +1,1 @@
+Problem: How many of the numbers from the set $\{1,\ 2,\ 3,\ldots,\ 50\}$ have a perfect square factor other than one?

@@ -1,0 +1,1 @@
+Problem: A nonzero polynomial with rational coefficients has all of the numbers \[1+\sqrt{2}, \; 2+\sqrt{3}, \;3+\sqrt{4},\; \dots, \;1000+\sqrt{1001}\]as roots. What is the smallest possible degree of such a polynomial?

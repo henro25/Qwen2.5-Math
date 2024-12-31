@@ -1,0 +1,1 @@
+Problem: Express $\sin 4x + \sin 6x$ as a product of trigonometric functions.

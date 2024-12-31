@@ -1,0 +1,1 @@
+Problem: If $a \text{ Y } b$ is defined as $a \text{ Y } b = a^2 - 2ab + b^2$, what is the value of $3 \text{ Y } 2$?

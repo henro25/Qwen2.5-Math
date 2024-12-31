@@ -1,0 +1,2 @@
+Problem: The matrix
+\[\begin{pmatrix} a & \frac{15}{34} \\ c & \frac{25}{34} \end{pmatrix}\]corresponds to a projection.  Enter the ordered pair $(a,c).$

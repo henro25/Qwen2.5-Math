@@ -1,0 +1,2 @@
+Problem: Let $x = (2 + \sqrt{3})^{1000},$ let $n = \lfloor x \rfloor,$ and let $f = x - n.$  Find
+\[x(1 - f).\]

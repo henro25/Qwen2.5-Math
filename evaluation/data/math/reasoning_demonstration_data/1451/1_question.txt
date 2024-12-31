@@ -1,0 +1,1 @@
+Problem: How many digits does the smallest repeating block in the decimal expansion of $\frac{5}{7}$ contain?

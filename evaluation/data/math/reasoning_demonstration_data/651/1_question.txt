@@ -1,0 +1,2 @@
+Problem: Find the value of $k$ so that
+\[3 + \frac{3 + k}{4} + \frac{3 + 2k}{4^2} + \frac{3 + 3k}{4^3} + \dotsb = 8.\]

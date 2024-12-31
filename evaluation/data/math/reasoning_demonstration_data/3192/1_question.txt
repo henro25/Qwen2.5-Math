@@ -1,0 +1,1 @@
+Problem: What is the greatest integer less than 100 for which the greatest common factor of that integer and 18 is 3?

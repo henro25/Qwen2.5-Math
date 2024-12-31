@@ -1,0 +1,1 @@
+Problem: If the consecutive integers from $50$ to $1$ were written as $$5049484746...,$$ what would be the $67^{\text{th}}$ digit to be written?

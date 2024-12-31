@@ -1,0 +1,1 @@
+Problem: The arithmetic mean, geometric mean, and harmonic mean of $a$, $b$, $c$ are $8$, $5$, $3$ respectively. What is the value of $a^2+b^2+c^2$?

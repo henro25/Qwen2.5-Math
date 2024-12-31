@@ -1,0 +1,1 @@
+Problem: Let the operation $\#$ be defined as $\#(a, b, c) = b^2 - 4ac$, for all real numbers $a, b$ and $c$. What is the value of $\#(1, 2, 3)$?

@@ -1,0 +1,1 @@
+Problem: The circumference of a particular circle is 18 cm. In square centimeters, what is the area of the circle? Express your answer as a common fraction in terms of $\pi$.

@@ -1,0 +1,1 @@
+Problem: What is the smallest positive integer $n$ for which $n^2$ is divisible by 18 and $n^3$ is divisible by 640?

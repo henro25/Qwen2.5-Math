@@ -1,0 +1,1 @@
+Problem: The volume of the parallelepiped determined by the three-dimensional vectors $\mathbf{a}$, $\mathbf{b}$, and $\mathbf{c}$ is 4.  Find the volume of the parallelepiped determined by the vectors $\mathbf{a} + \mathbf{b},$ $\mathbf{b} + 3 \mathbf{c},$ and $\mathbf{c} - 7 \mathbf{a}.$

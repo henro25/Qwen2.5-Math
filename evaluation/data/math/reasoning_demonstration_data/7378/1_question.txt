@@ -1,0 +1,1 @@
+Problem: Find the largest integer $n$ for which $12^n$ evenly divides $20!$.

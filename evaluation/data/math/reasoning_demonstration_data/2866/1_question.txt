@@ -1,0 +1,1 @@
+Problem: Simplify $(576)^\frac{1}{4}(216)^\frac{1}{2}$.

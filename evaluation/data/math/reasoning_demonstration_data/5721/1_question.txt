@@ -1,0 +1,1 @@
+Problem: What is the integer value of $y$ in the arithmetic sequence $2^2, y, 2^4$?

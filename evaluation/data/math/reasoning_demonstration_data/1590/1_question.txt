@@ -1,0 +1,1 @@
+Problem: A triangle has vertices at $(-3,2),(6,-2),(3,5)$. How many square units are in the area of the triangle? Express your answer as a decimal to the nearest tenth.

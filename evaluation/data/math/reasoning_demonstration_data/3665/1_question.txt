@@ -1,0 +1,1 @@
+Problem: Four people can paint a house in six hours. How many hours would it take three people to paint the same house, assuming everyone works at the same rate?

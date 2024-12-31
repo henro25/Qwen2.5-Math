@@ -1,0 +1,2 @@
+Problem: Solve
+\[\arctan \frac{1}{x} + \arctan \frac{1}{x^3} = \frac{\pi}{4}.\]

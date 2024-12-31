@@ -1,0 +1,5 @@
+Problem: Suppose $a$, $b,$ and $c$ are positive numbers satisfying: \begin{align*}
+a^2/b &= 1, \\
+b^2/c &= 2, \text{ and}\\
+c^2/a &= 3.
+\end{align*} Find $a$.

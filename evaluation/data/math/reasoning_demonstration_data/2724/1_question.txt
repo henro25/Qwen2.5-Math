@@ -1,0 +1,2 @@
+Problem: Find all solutions $x$ (real and otherwise) to the equation
+\[x^4+64=0.\]Enter all the solutions, separated by commas.

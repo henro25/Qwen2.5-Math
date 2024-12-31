@@ -1,0 +1,1 @@
+Problem: The endpoints of a diameter of circle $M$ are $(-1,-4)$ and $(-7,6)$. What are the coordinates of the center of circle $M$? Express your answer as an ordered pair.

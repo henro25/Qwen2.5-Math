@@ -1,0 +1,20 @@
+Problem: The equation of the ellipse shown below can be written as
+\[\frac{(x - h)^2}{a^2} + \frac{(y - k)^2}{b^2} = 1.\]Find $h + k + a + b.$
+
+[asy]
+unitsize(0.3 cm);
+
+int i, n = 10;
+
+for (i = -n; i <= n; ++i) {
+  draw((i,-n)--(i,n),gray(0.7));
+  draw((-n,i)--(n,i),gray(0.7));
+}
+
+draw((0,-n)--(0,n));
+draw((-n,0)--(n,0));
+
+draw(shift((-4,2))*xscale(5)*yscale(3)*Circle((0,0),1),red);
+
+dot((-4,2));
+[/asy]

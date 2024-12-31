@@ -1,0 +1,1 @@
+Problem: In how many ways can I choose 3 captains from a team of 11 people?

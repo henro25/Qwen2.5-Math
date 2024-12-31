@@ -1,0 +1,1 @@
+Problem: An infinite geometric series has a first term of $12$ and a second term of $4.$ A second infinite geometric series has the same first term of $12,$ a second term of $4+n,$ and a sum of four times that of the first series. Find the value of $n.$

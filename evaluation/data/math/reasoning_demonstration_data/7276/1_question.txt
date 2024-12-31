@@ -1,0 +1,1 @@
+Problem: The four-member math team at Pecanridge Middle School is chosen from the math club, which has three girls and five boys. How many different teams made up of two girls and two boys could be chosen?

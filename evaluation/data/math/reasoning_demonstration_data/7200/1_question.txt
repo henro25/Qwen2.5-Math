@@ -1,0 +1,1 @@
+Problem: Let $S$ be the sum of all the real coefficients of the expansion of ${(1+ix)}^{2009}$.  What is $\log_{2}(S)$?

@@ -1,0 +1,1 @@
+Problem: Find the smallest positive four-digit number that is divisible by each of the four smallest prime numbers.

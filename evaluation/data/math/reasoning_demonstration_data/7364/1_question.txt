@@ -1,0 +1,2 @@
+Problem: Let $\mathbf{M}$ be a matrix, and let $\mathbf{v}$ and $\mathbf{w}$ be vectors, such that
+\[\mathbf{M} \mathbf{v} = \begin{pmatrix} 2 \\ 3 \end{pmatrix} \quad \text{and} \quad \mathbf{M} \mathbf{w} = \begin{pmatrix} -2 \\ -5 \end{pmatrix}.\]Compute $\mathbf{M} (\mathbf{v} + 3 \mathbf{w}).$

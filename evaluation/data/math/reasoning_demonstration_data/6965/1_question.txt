@@ -1,0 +1,1 @@
+Problem: For a designer suit, Daniel must specify his waist size in centimeters. If there are $12$ inches in a foot and $30.5$ centimeters in a foot, then what size should Daniel specify, in centimeters, if his waist size in inches is $34$ inches?  (You may use a calculator on this problem; answer to the nearest tenth.)

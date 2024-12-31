@@ -1,0 +1,3 @@
+Problem: The partial fraction decomposition of
+\[\frac{x^2 - 19}{x^3 - 2x^2 - 5x + 6}\]is
+\[\frac{A}{x - 1} + \frac{B}{x + 2} + \frac{C}{x - 3}.\]Find the product $ABC.$

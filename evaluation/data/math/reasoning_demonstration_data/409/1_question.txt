@@ -1,0 +1,17 @@
+Problem: Which of the cones below can be formed from a $252^{\circ}$ sector of a circle of radius 10 by aligning the two straight sides?
+
+[asy]
+draw((5.8,8.1)..(-10,0)--(0,0)--(3.1,-9.5)..cycle);
+label("10",(-5,0),S);
+label("$252^{\circ}$",(0,0),NE);
+[/asy]
+
+A. base radius = 6, slant =10
+
+B. base radius = 6, height =10
+
+C. base radius = 7, slant =10
+
+D. base radius = 7, height =10
+
+E. base radius = 8, slant = 10

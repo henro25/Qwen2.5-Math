@@ -1,0 +1,2 @@
+Problem: Let $a,$ $b,$ $c$ be three distinct positive real numbers such that $a,$ $b,$ $c$ form a geometric sequence, and
+\[\log_c a, \ \log_b c, \ \log_a b\]form an arithmetic sequence.  Find the common difference of the arithmetic sequence.

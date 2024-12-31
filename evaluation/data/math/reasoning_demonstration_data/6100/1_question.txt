@@ -1,0 +1,1 @@
+Problem: Let $x^2-mx+24$ be a quadratic with roots $x_1$ and $x_2$. If $x_1$ and $x_2$ are integers, how many different values of $m$ are possible?

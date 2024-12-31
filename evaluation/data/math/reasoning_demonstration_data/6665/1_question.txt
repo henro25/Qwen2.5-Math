@@ -1,0 +1,12 @@
+Problem: The graph of a parabola has the following properties:
+
+$\bullet$ It passes through the point $(1,5).$
+
+$\bullet$ The $y$-coordinate of the focus is 3.
+
+$\bullet$ Its axis of symmetry is parallel to the $x$-axis.
+
+$\bullet$ Its vertex lies on the $y$-axis.
+
+Express the equation of the parabola in the form
+\[ax^2 + bxy + cy^2 + dx + ey + f = 0,\]where $a,$ $b,$ $c,$ $d,$ $e,$ $f$ are integers, $c$ is a positive integer, and $\gcd(|a|,|b|,|c|,|d|,|e|,|f|) = 1.$

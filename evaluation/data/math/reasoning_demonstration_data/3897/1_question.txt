@@ -1,0 +1,1 @@
+Problem: Find the point in the plane $3x - 4y + 5z = 30$ that is closest to the point $(1,2,3).$

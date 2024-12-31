@@ -1,0 +1,1 @@
+Problem: Find the sum of all real solutions to the equation \[\sqrt{x} + \sqrt{\frac{4}{x}} + \sqrt{x + \frac{4}{x}} = 6.\]

@@ -1,0 +1,35 @@
+Problem: In the figure, $PA$ is tangent to semicircle $SAR$, $PB$ is tangent to semicircle $RBT$, and $SRT$ is a straight line.  If arc $AS$ is $58^\circ$ and arc $BT$ is $37^\circ$, then find $\angle APB$, in degrees.
+
+[asy]
+import graph;
+
+unitsize(1.5 cm);
+
+pair A, B, P, R, S, T;
+pair[] O;
+real[] r;
+
+r[1] = 1;
+r[2] = 0.8;
+
+S = (-2*r[1],0);
+O[1] = (-r[1],0);
+R = (0,0);
+O[2] = (r[2],0);
+T = (2*r[2],0);
+A = O[1] + dir(180 - 58)*r[1];
+B = O[2] + dir(37)*r[2];
+P = extension(A, A + rotate(90)*(A - O[1]), B, B + rotate(90)*(B - O[2]));
+
+draw(S--T);
+draw(arc(O[1],r[1],0,180));
+draw(arc(O[2],r[2],0,180));
+draw(A--P--B);
+
+label("$A$", A, NW);
+label("$B$", B, NE);
+label("$P$", P, N);
+label("$R$", R, dir(270));
+label("$S$", S, SW);
+label("$T$", T, SE);
+[/asy]

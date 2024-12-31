@@ -1,0 +1,1 @@
+Problem: Let $A$ be a point on the circle $x^2 + y^2 - 12x + 31 = 0,$ and let $B$ be a point on the parabola $y^2 = 4x.$  Find the smallest possible distance $AB.$

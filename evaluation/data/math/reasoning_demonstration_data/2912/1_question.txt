@@ -1,0 +1,5 @@
+Problem: A parametric graph is given by
+\begin{align*}
+x &= \cos t + \frac{t}{2}, \\
+y &= \sin t.
+\end{align*}How many times does the graph intersect itself between $x = 1$ and $x = 40$?

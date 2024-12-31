@@ -1,0 +1,1 @@
+Problem: What is the sum of all integer values $n$ for which $\binom{20}{n}+\binom{20}{10}=\binom{21}{11}$?

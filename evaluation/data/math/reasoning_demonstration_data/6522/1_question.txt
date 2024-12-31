@@ -1,0 +1,1 @@
+Problem: When the base-12 integer $1531_{12}$ is divided by $8$, what is the remainder?

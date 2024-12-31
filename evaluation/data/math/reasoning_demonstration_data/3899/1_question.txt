@@ -1,0 +1,1 @@
+Problem: For what values of $x$ is $2x^2+8x\le-6$? Express your answer in interval notation.

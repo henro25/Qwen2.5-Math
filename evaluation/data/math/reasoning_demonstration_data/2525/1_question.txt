@@ -1,0 +1,1 @@
+Problem: The sides of an isosceles triangle are $\cos x,$ $\cos x,$ and $\cos 7x,$ and its vertex angle is $2x.$  (All angle measurements are in degrees.)  Enter all possible values of $x,$ separated by commas.

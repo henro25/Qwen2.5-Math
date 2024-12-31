@@ -1,0 +1,1 @@
+Problem: Sarah's bowling score was 40 points more than Greg's, and the average of their two scores was 102. What was Sarah's score? (Recall that the average of two numbers is their sum divided by 2.)

@@ -1,0 +1,1 @@
+Problem: If $(3,17)$ and $(9,-4)$ are the coordinates of two opposite vertices of a rectangle, what is the sum of the $y$-coordinates of the other two vertices?

@@ -1,0 +1,1 @@
+Problem: Find the product of all positive integral values of $n$ such that $n^2-35n+306= p$ for some prime number $p$. Note that there is at least one such $n$.

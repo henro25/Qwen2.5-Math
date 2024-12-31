@@ -1,0 +1,1 @@
+Problem: If we let $f(n)$ denote the sum of all the positive divisors of the integer $n$, how many integers $i$ exist such that $1 \le i \le 2010$ and $f(i) = 1 + \sqrt{i} + i$?

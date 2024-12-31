@@ -1,0 +1,2 @@
+Problem: The numbers $a,$ $b,$ $c,$ $d$ are equal to 1, 2, 3, 4, in some order.  Find the largest possible value of
+\[ab + bc + cd + da.\]

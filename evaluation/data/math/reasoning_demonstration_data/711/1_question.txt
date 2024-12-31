@@ -1,0 +1,1 @@
+Problem: What is the 125th digit beyond the decimal point in the decimal representation of $\frac47$?

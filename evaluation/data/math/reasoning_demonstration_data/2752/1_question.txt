@@ -1,0 +1,2 @@
+Problem: Find the distance between the foci of the ellipse
+\[\frac{x^2}{20} + \frac{y^2}{4} = 7.\]

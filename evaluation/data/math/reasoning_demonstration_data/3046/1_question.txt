@@ -1,0 +1,1 @@
+Problem: What is the value of $x$ in the equation $9^4+9^4+9^4=3^x$?

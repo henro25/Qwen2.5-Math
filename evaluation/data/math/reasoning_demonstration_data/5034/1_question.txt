@@ -1,0 +1,1 @@
+Problem: Simplify the following: $(2y-1)\cdot(4y^{10}+2y^9+4y^8+2y^7).$  Express your answer as a polynomial with the degrees of the terms in decreasing order.

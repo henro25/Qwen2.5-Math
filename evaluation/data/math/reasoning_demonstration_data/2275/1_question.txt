@@ -1,0 +1,1 @@
+Problem: If 2 cards from a standard deck are selected randomly, what is the probability that either two kings or at least 1 ace occurs? (There are 4 Aces, 4 kings and 52 total cards in a standard deck.)

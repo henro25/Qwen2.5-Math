@@ -1,0 +1,1 @@
+Problem: If I roll a fair, regular six-sided die four times, what is the probability that I will roll the number $1$ exactly three times?

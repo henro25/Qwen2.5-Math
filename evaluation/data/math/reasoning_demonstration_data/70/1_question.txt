@@ -1,0 +1,1 @@
+Problem: If $$1+6+11+16+21+26+\cdots+91+96+101 \equiv n\pmod{15},$$where $0\le n<15$, what is the value of $n$?

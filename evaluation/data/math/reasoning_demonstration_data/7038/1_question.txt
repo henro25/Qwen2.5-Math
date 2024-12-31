@@ -1,0 +1,1 @@
+Problem: The probability of snow for each of the next three days is $\frac{2}{3}$. What is the probability that it will snow at least once during those three days? Express your answer as a common fraction.

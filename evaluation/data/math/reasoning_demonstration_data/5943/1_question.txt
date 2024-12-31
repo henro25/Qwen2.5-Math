@@ -1,0 +1,1 @@
+Problem: If the average of six numbers is 4.1, what is the sum of the six numbers?

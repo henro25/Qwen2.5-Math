@@ -1,0 +1,4 @@
+Problem: Consider the given functions: $$\begin{array}{ccc}
+f(x) & = & 5x^2 - \frac{1}{x}+ 3\\
+g(x) & = & x^2-k
+\end{array}$$If $f(2) - g(2) = 2$, what is the value of $k$?

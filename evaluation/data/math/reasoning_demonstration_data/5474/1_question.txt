@@ -1,0 +1,22 @@
+Problem: The graph of $y=ax^2+bx+c$ is given below, where $a$, $b$, and $c$ are integers.  Find $a$.
+
+[asy]
+size(140);
+Label f;
+
+f.p=fontsize(4);
+
+xaxis(-3,3,Ticks(f, 1.0));
+
+yaxis(-4,4,Ticks(f, 1.0));
+
+real f(real x)
+
+{
+
+return -2x^2+4x+1;
+
+}
+
+draw(graph(f,-.7,2.7),linewidth(1),Arrows(6));
+[/asy]

@@ -1,0 +1,3 @@
+Problem: Suppose $173\cdot 927\equiv n\pmod{50}$, where $0\le n< 50$.
+
+What is the value of $n$?

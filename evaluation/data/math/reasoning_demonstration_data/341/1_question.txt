@@ -1,0 +1,1 @@
+Problem: What is the sum of the greatest common divisor of 30 and 81 and the least common multiple of 36 and 12?

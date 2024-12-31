@@ -1,0 +1,1 @@
+Problem: The hyperbola given by the equation \[\frac{x^2}{100} - \frac{y^2}{64} = 1\]has asymptotes $y = \pm mx,$ where $m$ is positive. Find $m.$

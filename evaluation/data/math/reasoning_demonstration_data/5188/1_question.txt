@@ -1,0 +1,1 @@
+Problem: At Beaumont High School, there are 20 players on the basketball team.  All 20 players are taking at least one of biology or chemistry.  (Biology and chemistry are two different science courses at the school.)  If there are 8 players taking biology and 4 players are taking both sciences, how many players are taking chemistry?

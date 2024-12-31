@@ -1,0 +1,1 @@
+Problem: What is the sum of the integers that are both greater than 3 and less than 12?

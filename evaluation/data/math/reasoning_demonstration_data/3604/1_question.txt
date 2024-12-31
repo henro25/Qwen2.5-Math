@@ -1,0 +1,1 @@
+Problem: Define $A\star B$ as $A\star B = \frac{(A+B)}{3}$. What is the value of $(2\star 10) \star 5$?

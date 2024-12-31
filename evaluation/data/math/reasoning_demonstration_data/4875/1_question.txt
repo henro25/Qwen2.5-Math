@@ -1,0 +1,1 @@
+Problem: Find all real numbers $x$ which satisfy \[\frac{x-1}{x-3} \ge 2.\](Give your answer in interval notation.)

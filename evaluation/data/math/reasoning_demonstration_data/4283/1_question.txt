@@ -1,0 +1,1 @@
+Problem: If $f(1)=5$, $f(2)=8$ and $f(x)=ax+bx+2$, what is the value of $f(3)$?

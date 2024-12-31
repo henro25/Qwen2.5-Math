@@ -1,0 +1,1 @@
+Problem: $3^n = 3 \cdot 9^3 \cdot 81^2$. What is the value of $n$?

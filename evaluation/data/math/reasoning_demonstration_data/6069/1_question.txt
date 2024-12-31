@@ -1,0 +1,33 @@
+Problem: In the diagram below, $\overline{AB}\parallel \overline{CD}$ and $\angle AXF= 118^\circ$.  Find $\angle FYD$.
+
+[asy]
+unitsize(1inch);
+pair A,B,C,D,X,Y,EE,F;
+A = (0,0);
+B=(1,0);
+C = (0,0.8);
+D=(1,0.8);
+EE = (0.35,-0.3);
+F = (0.8,1.1);
+draw(EE--F);
+draw(A--B);
+draw(C--D);
+dot(A);
+dot(B);
+dot(C);
+dot(D);
+dot(EE);
+dot(F);
+label("$E$",EE,S);
+label("$F$",F,N);
+X = intersectionpoint(A--B,EE--F);
+Y = intersectionpoint(C--D,EE--F);
+label("$X$",X,NNW);
+label("$Y$",Y,NNW);
+label("$A$",A,W);
+label("$B$",B,E);
+label("$C$",C,W);
+label("$D$",D,E);
+dot(X);
+dot(Y);
+[/asy]

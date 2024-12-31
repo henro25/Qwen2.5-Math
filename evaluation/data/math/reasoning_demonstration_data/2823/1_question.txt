@@ -1,0 +1,4 @@
+Problem: Is
+\[f(x) = \frac{5^x - 1}{5^x + 1}\]an even function, odd function, or neither?
+
+Enter "odd", "even", or "neither".

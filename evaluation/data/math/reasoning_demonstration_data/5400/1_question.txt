@@ -1,0 +1,1 @@
+Problem: Find the units digit of the following within the indicated number base: $52_7 + 62_7$

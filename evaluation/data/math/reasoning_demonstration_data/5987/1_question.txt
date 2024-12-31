@@ -1,0 +1,2 @@
+Problem: Let $\mathbf{v}$ be a vector such that
+\[\left\| \mathbf{v} + \begin{pmatrix} 3 \\ -1 \end{pmatrix} \right\| = 8.\]Find the smallest possible value of $\|\mathbf{v}\|.$

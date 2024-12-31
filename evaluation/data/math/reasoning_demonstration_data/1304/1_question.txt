@@ -1,0 +1,1 @@
+Problem: The graph of the rational function $\frac{2x^6+3x^5 - x^2 - 1}{q(x)}$  has a horizontal asymptote. What is the smallest possible degree of $q(x)$?

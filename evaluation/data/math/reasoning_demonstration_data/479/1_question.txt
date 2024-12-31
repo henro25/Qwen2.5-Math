@@ -1,0 +1,6 @@
+Problem: Find the ordered pair $(x,y)$ if
+
+\begin{align*}
+x+y&=(5-x)+(5-y),\\
+x-y&=(x-1)+(y-1).
+\end{align*}

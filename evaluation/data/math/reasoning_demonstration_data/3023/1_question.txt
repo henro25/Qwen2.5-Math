@@ -1,0 +1,2 @@
+Problem: Each of $a_1,$ $a_2,$ $\dots,$ $a_{100}$ is equal to $1$ or $-1.$  Find the minimum positive value of
+\[\sum_{1 \le i < j \le 100} a_i a_j.\]

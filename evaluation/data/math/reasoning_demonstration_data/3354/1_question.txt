@@ -1,0 +1,1 @@
+Problem: A coin is flipped eight times, and the sequence of heads and tails occurring is recorded. How many distinct sequences are possible?

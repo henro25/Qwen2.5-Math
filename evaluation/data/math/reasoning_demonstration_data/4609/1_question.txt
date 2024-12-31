@@ -1,0 +1,1 @@
+Problem: April has four different basil plants and four different tomato plants. In how many ways can she arrange the plants in a row if she puts all the tomato plants next to each other?

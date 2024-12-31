@@ -1,0 +1,1 @@
+Problem: The positive integers $A, B$ and $C$ form an arithmetic sequence while the integers $B, C$ and $D$ form a geometric sequence. If $\frac CB = \frac 53,$ what is the smallest possible value of $A + B + C + D$?

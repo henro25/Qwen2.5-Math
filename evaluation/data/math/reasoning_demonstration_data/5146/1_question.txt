@@ -1,0 +1,1 @@
+Problem: If $(x+2)(x-3)=14$, find the product of the possible values of $x$.

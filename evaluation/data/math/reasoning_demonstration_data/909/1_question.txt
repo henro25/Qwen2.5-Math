@@ -1,0 +1,11 @@
+Problem: Let
+\[f(x) = \frac{x^2 - 6x + 6}{2x - 4}\]and
+\[g(x) = \frac{ax^2 + bx + c}{x - d}.\]You are given the following properties:
+
+$\bullet$ The graphs of $f(x)$ and $g(x)$ have the same vertical asymptote.
+
+$\bullet$ The oblique asymptotes of $f(x)$ and $g(x)$ are perpendicular, and they intersect on the $y$-axis.
+
+$\bullet$ The graphs of $f(x)$ and $g(x)$ have two intersection points, one of which is on the line $x = -2.$
+
+Find the point of intersection of the graphs of $f(x)$ and $g(x)$ that does not lie on the line $x = -2.$

@@ -1,0 +1,1 @@
+Problem: The expression $64x^6-729y^6$ can be factored as $(ax+by)(cx^2+dxy+ey^2)(fx+gy)(hx^2+jxy+ky^2)$. If $a$, $b$, $c$, $d$, $e$, $f$, $g$, $h$, $j$, and $k$ are all integers, find their sum.

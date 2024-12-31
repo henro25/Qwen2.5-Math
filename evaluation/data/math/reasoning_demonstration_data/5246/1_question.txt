@@ -1,0 +1,11 @@
+Problem: The table shown is partially filled in with the results of a survey done by the radio station KMAT. How many of the females surveyed listen to this station?
+
+\begin{tabular}{| l | c | r |}
+\hline
+& listen & don't listen \\
+\hline
+males & 62 & \\ \hline
+females & & 102 \\ \hline
+total & 130 & 150 \\
+\hline
+\end{tabular}

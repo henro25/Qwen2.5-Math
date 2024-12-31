@@ -1,0 +1,2 @@
+Problem: For a certain hyperbola
+\[\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1,\]where $a > b,$ the angle between the asymptotes is $60^\circ.$  Find $\frac{a}{b}.$

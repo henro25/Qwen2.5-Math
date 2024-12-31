@@ -1,0 +1,2 @@
+Problem: Let $a$ and $b$ be nonzero complex numbers such that $a^2 + ab + b^2 = 0.$  Evaluate
+\[\frac{a^9 + b^9}{(a + b)^9}.\]

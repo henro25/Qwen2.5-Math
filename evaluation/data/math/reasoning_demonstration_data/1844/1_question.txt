@@ -1,0 +1,1 @@
+Problem: If the odds for pulling a prize out of the box are $3:4$, what is the probability of not pulling the prize out of the box? Express your answer as a common fraction.

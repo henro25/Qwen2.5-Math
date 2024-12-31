@@ -1,0 +1,1 @@
+Problem: How many possible distinct arrangements are there of the letters in the word DOG?

@@ -1,0 +1,1 @@
+Problem: If $m$ and $n$ are positive integers such that $\gcd(m,n) = 12$, then what is the smallest possible value of $\gcd(10m,15n)$?

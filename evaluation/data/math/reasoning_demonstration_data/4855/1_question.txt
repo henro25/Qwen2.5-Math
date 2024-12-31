@@ -1,0 +1,6 @@
+Problem: Let $f$ be defined by  \[f(x) = \left\{
+\begin{array}{cl}
+2-x & \text{ if } x \leq 1, \\
+2x-x^2 & \text{ if } x>1.
+\end{array}
+\right.\]Calculate $f^{-1}(-3)+f^{-1}(0)+f^{-1}(3)$.

@@ -1,0 +1,1 @@
+Problem: The remainders when three positive integers are divided by 5 are 1, 2, and 3.  Find the remainder when their product is divided by 5.

@@ -1,0 +1,17 @@
+Problem: Figure $ABCD$ is a square. Inside this square three smaller squares are drawn with side lengths as labeled. What is the area of the shaded $\text L$-shaped region? [asy]
+/* AMC8 2000 #6 Problem */
+draw((0,0)--(5,0)--(5,5)--(0,5)--cycle);
+draw((1,5)--(1,1)--(5,1));
+draw((0,4)--(4,4)--(4,0));
+fill((0,4)--(1,4)--(1,1)--(4,1)--(4,0)--(0,0)--cycle);
+label("$A$", (5,5), NE);
+label("$B$", (5,0), SE);
+label("$C$", (0,0), SW);
+label("$D$", (0,5), NW);
+label("1",(.5,5), N);
+label("1",(1,4.5), E);
+label("1",(4.5,1), N);
+label("1",(4,.5), E);
+label("3",(1,2.5), E);
+label("3",(2.5,1), N);
+[/asy]

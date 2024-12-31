@@ -1,0 +1,1 @@
+Problem: If $a$, $b$, $c$, $d$, $e$, and $f$ are integers for which  $1000x^3+27= (ax^2 + bx +c )(d x^2 +ex + f)$ for all $x$, then what is $a^2+b^2+c^2+d^2+e^2+f^2$?

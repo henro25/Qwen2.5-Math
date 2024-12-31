@@ -1,0 +1,1 @@
+Problem: Let $p$ be the largest prime with 2010 digits. What is the smallest positive integer $k$ such that $p^2 - k$ is divisible by 12?

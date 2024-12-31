@@ -1,0 +1,2 @@
+Problem: Enter all the solutions to
+\[ \sqrt{4x-3}+\frac{10}{\sqrt{4x-3}}=7,\]separated by commas.

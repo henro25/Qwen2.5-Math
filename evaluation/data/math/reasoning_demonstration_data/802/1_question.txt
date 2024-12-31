@@ -1,0 +1,1 @@
+Problem: What is the 5th term of an arithmetic sequence of 20 terms with first and last terms of 2 and 59, respectively?

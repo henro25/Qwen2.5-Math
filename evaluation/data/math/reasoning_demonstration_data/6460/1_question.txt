@@ -1,0 +1,2 @@
+Problem: Find constants $A,$ $B,$ and $C$ so that
+\[\frac{x^2 - 7}{(x - 2)(x - 3)(x - 5)} = \frac{A}{x - 2} + \frac{B}{x - 3} + \frac{C}{x - 5}.\]Enter the ordered triple $(A,B,C).$

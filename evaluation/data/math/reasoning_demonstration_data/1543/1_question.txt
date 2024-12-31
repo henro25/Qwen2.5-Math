@@ -1,0 +1,1 @@
+Problem: Let $f(x)=-3x^2+x-4$, $g(x)=-5x^2+3x-8$, and $h(x)=5x^2+5x+1$. Express $f(x)+g(x)+h(x)$ as a single polynomial, with the terms in order by decreasing degree.

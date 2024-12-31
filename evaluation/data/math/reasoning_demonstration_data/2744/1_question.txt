@@ -1,0 +1,1 @@
+Problem: Calculate $\sqrt{75x} \cdot \sqrt{2x} \cdot \sqrt{14x}$ . Express your answer in simplest radical form in terms of $x$.

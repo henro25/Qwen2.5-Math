@@ -1,0 +1,1 @@
+Problem: During her birthday, her parents have decided to give Laura and her 2 younger brothers new cellphones. However, they are confused between the innumerable service providers. Assuming no child wants a provider that another sibling has, and that there are 20 service providers,  in how many ways can the parents grant the children their phones?

@@ -1,0 +1,2 @@
+Problem: Let $a$ and $b$ be real numbers such that
+\[a^3 - 15a^2 + 20a - 50 = 0 \quad \text{and} \quad 8b^3 - 60b^2 - 290b + 2575 = 0.\]Compute $a + b.$

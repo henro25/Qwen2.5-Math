@@ -1,0 +1,1 @@
+Problem: If $F(a, b, c, d) = a^b + c \times d$, what is the value of $x$ such that $F(2, x, 4, 11) = 300$?

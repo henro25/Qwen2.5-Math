@@ -1,0 +1,3 @@
+Problem: Suppose $x-3$ and $y+3$ are multiples of $7$.
+
+What is the smallest positive integer, $n,$ for which $x^2+xy+y^2+n$ is a multiple of $7$?

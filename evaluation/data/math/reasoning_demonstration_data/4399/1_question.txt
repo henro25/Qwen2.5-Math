@@ -1,0 +1,18 @@
+Problem: Thirty identical toothpicks were used to create the figure below. There are over 25 triangles in the figure. What is the fewest number of toothpicks that could be removed so that no triangles remain?
+
+[asy]
+draw((0,0)--(8,0), linewidth(1));
+draw(2dir(60)--(2dir(60)+(6,0)), linewidth(1));
+draw(4dir(60)--(4dir(60)+(4,0)), linewidth(1));
+draw(6dir(60)--(6dir(60)+(2,0)), linewidth(1));
+
+draw((0,0)--8dir(60),linewidth(1));
+draw((2,0)--(6dir(60)+(2,0)),linewidth(1));
+draw((4,0)--(4dir(60)+(4,0)),linewidth(1));
+draw((6,0)--(2dir(60)+(6,0)),linewidth(1));
+
+draw(2dir(60)--(2,0),linewidth(1));
+draw(4dir(60)--(4,0),linewidth(1));
+draw(6dir(60)--(6,0),linewidth(1));
+draw(8dir(60)--(8,0),linewidth(1));
+[/asy]

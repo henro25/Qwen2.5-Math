@@ -1,0 +1,2 @@
+Problem: Find the solutions to
+\[\frac{13x - x^2}{x + 1} \left( x + \frac{13 - x}{x + 1} \right) = 42.\]Enter all the solutions, separated by commas.

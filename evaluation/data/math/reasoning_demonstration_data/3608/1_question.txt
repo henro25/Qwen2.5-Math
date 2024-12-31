@@ -1,0 +1,15 @@
+Problem: What percent of square $ABCD$ is shaded?  All angles in the diagram are right angles. [asy]
+import graph;
+defaultpen(linewidth(0.7));
+
+xaxis(0,5,Ticks(1.0,NoZero));
+yaxis(0,5,Ticks(1.0,NoZero));
+
+fill((0,0)--(1,0)--(1,1)--(0,1)--cycle);
+fill((2,0)--(3,0)--(3,3)--(0,3)--(0,2)--(2,2)--cycle);
+fill((4,0)--(5,0)--(5,5)--(0,5)--(0,4)--(4,4)--cycle);
+
+label("$A$",(0,0),SW);
+label("$B$",(0,5),N);
+label("$C$",(5,5),NE);
+label("$D$",(5,0),E);[/asy]

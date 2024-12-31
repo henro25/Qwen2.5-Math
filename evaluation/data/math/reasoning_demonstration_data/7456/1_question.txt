@@ -1,0 +1,3 @@
+Problem: There is a unique two-digit positive integer $t$ for which the last two digits of $11\cdot t$ are $36$.
+
+What is $t$?

@@ -1,0 +1,2 @@
+Problem: Let $a,$ $b,$ $c,$ be nonzero real numbers such that $a + b + c = 0.$  Find all possible values of
+\[\frac{a^2 b^2}{(a^2 - bc)(b^2 - ac)} + \frac{a^2 c^2}{(a^2 - bc)(c^2 - ab)} + \frac{b^2 c^2}{(b^2 - ac)(c^2 - ab)}.\]Enter all possible values, separated by commas.

@@ -1,0 +1,29 @@
+Problem: According to the graph, what is the average monthly balance, in dollars, of David's savings account during the four-month period shown? [asy]
+draw((0,0)--(13,0)--(13,8)--(0,8)--cycle,linewidth(1));
+draw((0,2)--(13,2),linewidth(1));
+draw((0,4)--(13,4),linewidth(1));
+draw((0,6)--(13,6),linewidth(1));
+draw((1,0)--(1,2)--(3,2)--(3,0)--cycle, linewidth(1));
+fill((1,0)--(1,2)--(3,2)--(3,0)--cycle,lightgray);
+draw((4,0)--(4,4)--(6,4)--(6,0)--cycle, linewidth(1));
+fill((4,0)--(4,4)--(6,4)--(6,0)--cycle,lightgray);
+draw((7,0)--(7,3)--(9,3)--(9,0)--cycle, linewidth(1));
+fill((7,0)--(7,3)--(9,3)--(9,0)--cycle,lightgray);
+draw((10,0)--(10,3)--(12,3)--(12,0)--cycle, linewidth(1));
+fill((10,0)--(10,3)--(12,3)--(12,0)--cycle,lightgray);
+label("J",(2,0),S);
+label("F",(5,0),S);
+label("M",(8,0),S);
+label("A",(11,0),S);
+label("100",(2,2),S);
+label("200",(5,4),S);
+label("150",(8,3),S);
+label("150",(11,3),S);
+label("100",(0,2),W);
+label("200",(0,4),W);
+label("300",(0,6),W);
+label(rotate(90)*Label("Account Balance",(-4,4)));
+label(rotate(90)*Label("(in dollars)",(-3,4)));
+label("David's Savings Account Balance",(6,11));
+label("Month",(6,-3));
+[/asy]

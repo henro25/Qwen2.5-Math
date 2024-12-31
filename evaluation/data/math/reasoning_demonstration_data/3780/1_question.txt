@@ -1,0 +1,1 @@
+Problem: What is the smallest positive four-digit integer equivalent to 6 mod 7?

@@ -1,0 +1,1 @@
+Problem: We have a triangle $\triangle ABC$ such that $AB = AC = 8$ and $BC = 10.$ What is the length of the median $AM$?

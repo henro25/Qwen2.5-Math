@@ -1,0 +1,1 @@
+Problem: Juan, Carlos and Manu take turns flipping a coin in their respective order. The first one to flip heads wins. What is the probability that Manu will win? Express your answer as a common fraction.

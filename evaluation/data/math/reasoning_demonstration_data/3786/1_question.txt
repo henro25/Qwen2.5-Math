@@ -1,0 +1,1 @@
+Problem: Let $x$ be a value such that $8x^2 + 7x - 1 = 0$ and $24x^2+53x-7 = 0.$ What is the value of $x$? Express your answer as a simplified common fraction.

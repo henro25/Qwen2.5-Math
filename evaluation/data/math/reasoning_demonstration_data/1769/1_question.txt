@@ -1,0 +1,1 @@
+Problem: Find the only real number that can be expressed in the form \[(a + bi)^3 - 107i,\]where $i^2 = -1,$ and $a$ and $b$ are positive integers.

@@ -1,0 +1,1 @@
+Problem: Find $10110_2\times10100_2\div10_2$. Express your answer in base 2.

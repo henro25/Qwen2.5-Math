@@ -1,0 +1,2 @@
+Problem: In triangle $ABC,$ $\angle C = \frac{\pi}{2}.$  Find
+\[\arctan \left( \frac{a}{b + c} \right) + \arctan \left( \frac{b}{a + c} \right).\]

@@ -1,0 +1,1 @@
+Problem: Let $ABCDEF$ be a regular hexagon, and let $G,H,I$ be the midpoints of sides $AB,CD,EF$ respectively. If the area of $\triangle GHI$ is $225$, what is the area of hexagon $ABCDEF$?

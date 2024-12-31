@@ -1,0 +1,5 @@
+Problem: Let  \begin{align*}
+f(x) &= 2x + 5 \\
+g(x) &= \sqrt{f(x)} - 2 \\
+h(x) &= f(g(x))
+\end{align*} What is $h(2)$?

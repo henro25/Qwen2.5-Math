@@ -1,0 +1,1 @@
+Problem: Given that 10 is the arithmetic mean of the set $\{6, 13, 18, 4, x\}$, what is the value of $x$?

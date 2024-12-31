@@ -1,0 +1,2 @@
+Problem: Find $A$ and $B$ such that
+\[\frac{3x+5}{x^2-x-42}=\frac{A}{x-7}+\frac{B}{x+6}.\]Write your answer in the form $(A,B)$.

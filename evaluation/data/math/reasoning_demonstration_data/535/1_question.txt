@@ -1,0 +1,1 @@
+Problem: For what base is the representation of $285_{10}$ a four digit number whose final digit is odd?

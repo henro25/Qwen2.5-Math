@@ -1,0 +1,1 @@
+Problem: A chess team has $26$ members. However, only $16$ members attended the last meeting: half of the girls attended but all of the boys attended. How many boys are on the chess team?

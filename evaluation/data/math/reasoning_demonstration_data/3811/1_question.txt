@@ -1,0 +1,1 @@
+Problem: Bryan has some 3 cent stamps and some 4 cent stamps. What is the least number of stamps he can combine so the value of the stamps is 33 cents?

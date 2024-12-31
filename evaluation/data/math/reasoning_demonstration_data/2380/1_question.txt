@@ -1,0 +1,2 @@
+Problem: Find the maximum of
+\[\sqrt{x + 27} + \sqrt{13 - x} + \sqrt{x}\]for $0 \le x \le 13.$

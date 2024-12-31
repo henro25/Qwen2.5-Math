@@ -1,0 +1,1 @@
+Problem: What is the value of $b$ if $-x^2+bx-5<0$ only when $x\in (-\infty, 1)\cup(5,\infty)$?

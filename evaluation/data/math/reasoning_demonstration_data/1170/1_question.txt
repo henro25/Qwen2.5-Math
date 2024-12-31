@@ -1,0 +1,1 @@
+Problem: Let $f(x) = x|x|.$  Find $f^{-1}(4) + f^{-1}(-100).$

@@ -1,0 +1,1 @@
+Problem: The four zeros of the polynomial $x^4 + jx^2 + kx + 225$ are distinct real numbers in arithmetic progression.  Compute the value of $j.$

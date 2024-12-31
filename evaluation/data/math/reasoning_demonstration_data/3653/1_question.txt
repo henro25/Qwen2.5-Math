@@ -1,0 +1,2 @@
+Problem: Simplify
+\[\frac{1}{\log_{15} 2 + 1} + \frac{1}{\log_{10} 3 + 1} + \frac{1}{\log_6 5 + 1}.\]

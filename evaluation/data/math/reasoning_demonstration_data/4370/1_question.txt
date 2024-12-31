@@ -1,0 +1,2 @@
+Problem: The matrices
+\[\begin{pmatrix} a & 2 \\ 1 & 4 \end{pmatrix} \quad \text{and} \quad \begin{pmatrix} -\frac{2}{7} & \frac{1}{7} \\ b & \frac{3}{14} \end{pmatrix}\]are inverses.  Enter the ordered pair $(a,b).$

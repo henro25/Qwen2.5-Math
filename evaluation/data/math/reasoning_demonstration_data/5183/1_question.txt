@@ -1,0 +1,1 @@
+Problem: Find the value of $x,$ if \[|x-20| + |x-18| = |2x-36|.\]

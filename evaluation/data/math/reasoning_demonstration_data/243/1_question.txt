@@ -1,0 +1,1 @@
+Problem: What is the remainder when the sum $1 + 7 + 13 + 19 + \cdots + 253 + 259$ is divided by $6$?

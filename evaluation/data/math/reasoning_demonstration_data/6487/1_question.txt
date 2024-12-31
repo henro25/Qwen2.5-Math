@@ -1,0 +1,1 @@
+Problem: How many ordered pairs of real numbers $(x,y)$ satisfy the following system of equations? \[\left\{ \begin{aligned} x+3y&=3 \\ \left| |x| - |y| \right| &= 1 \end{aligned}\right.\]

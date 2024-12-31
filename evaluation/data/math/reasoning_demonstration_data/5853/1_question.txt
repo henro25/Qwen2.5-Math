@@ -1,0 +1,1 @@
+Problem: In right triangle $ABC$ with $\angle B = 90^\circ$, we have $$2\sin A = 3\cos A.$$What is $\sin A$?

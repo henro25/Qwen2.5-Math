@@ -1,0 +1,1 @@
+Problem: Crestwood Elementary School has an active four-square league, consisting of ten players, including Justin and Tim. Each day at recess, the ten players split into two four-square games, each with five players in no relevant order. Over the course of a semester, each possible match-up of five players occurs once. How many times did Justin play in the same game as Tim?

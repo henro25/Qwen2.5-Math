@@ -1,0 +1,1 @@
+Problem: Two angles of a triangle measure 30 and 45 degrees. If the side of the triangle opposite the 30-degree angle measures $6\sqrt2$ units, what is the sum of the lengths of the two remaining sides? Express your answer as a decimal to the nearest tenth.

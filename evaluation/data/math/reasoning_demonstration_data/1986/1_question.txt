@@ -1,0 +1,2 @@
+Problem: The function $f(x)$ satisfies
+\[f(x) + 2f(1 - x) = 3x^2\]for all real numbers $x.$  Find $f(3).$

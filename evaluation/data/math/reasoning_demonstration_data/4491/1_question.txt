@@ -1,0 +1,1 @@
+Problem: Solve for $n$, if $8^n\cdot8^n\cdot8^n=64^3$.

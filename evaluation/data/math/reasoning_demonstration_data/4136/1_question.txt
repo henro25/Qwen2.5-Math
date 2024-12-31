@@ -1,0 +1,1 @@
+Problem: For what value of $x$ will $\frac{3+x}{5+x}$ and $\frac{1+x}{2+x}$ be equal?

@@ -1,0 +1,1 @@
+Problem: Find the area of the region enclosed by the graph of $|x-60|+|y|=\left|\frac{x}{4}\right|.$

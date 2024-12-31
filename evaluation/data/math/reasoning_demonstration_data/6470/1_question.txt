@@ -1,0 +1,1 @@
+Problem: The graph of the rational function $\frac{q(x)}{2x^5+x^4-7x^2+1}$ has a horizontal asymptote. What is the largest possible degree of $q(x)$?

@@ -1,0 +1,1 @@
+Problem: The product of three even consecutive positive integers is twenty times their sum. What is the sum of the three integers?

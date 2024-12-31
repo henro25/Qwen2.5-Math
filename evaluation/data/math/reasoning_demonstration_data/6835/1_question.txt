@@ -1,0 +1,1 @@
+Problem: Suppose $a$ is an integer such that $0 \le a \le 14$, and $235935623_{74}-a$ is a multiple of $15$. What is $a$?

@@ -1,0 +1,1 @@
+Problem: A triangle in a Cartesian coordinate plane has vertices (5, -2), (10, 5) and (5, 5). How many square units are in the area of the triangle? Express your answer as a decimal to the nearest tenth.

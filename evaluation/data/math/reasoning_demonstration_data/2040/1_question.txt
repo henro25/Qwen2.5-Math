@@ -1,0 +1,1 @@
+Problem: The positive number $a$ is chosen such that the terms $20, a, \frac{5}{4}$ are the first, second and third terms, respectively, of a geometric sequence. What is the value of $a$, if $a$ is positive?

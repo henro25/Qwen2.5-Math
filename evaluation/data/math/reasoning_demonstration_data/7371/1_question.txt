@@ -1,0 +1,1 @@
+Problem: A positive two-digit number is even and is a multiple of 11. The product of its digits is a perfect cube. What is this two-digit number?

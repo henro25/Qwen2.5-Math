@@ -1,0 +1,2 @@
+Problem: Let $a$ and $b$ be nonzero real numbers such that
+\[(2 - 7i)(a + bi)\]is pure imaginary.  Find $\frac{a}{b}.$

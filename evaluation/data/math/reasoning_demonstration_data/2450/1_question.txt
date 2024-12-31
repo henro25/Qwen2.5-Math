@@ -1,0 +1,1 @@
+Problem: The radius of a cylinder is doubled and its height is tripled. If its original volume was 10 cubic feet, what is its volume now, in cubic feet?

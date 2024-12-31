@@ -1,0 +1,1 @@
+Problem: Let $a\oplus b=3a+4b$ for all real numbers $a$ and $b$.  Find $3\oplus 1$.

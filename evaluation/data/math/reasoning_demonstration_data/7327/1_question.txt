@@ -1,0 +1,1 @@
+Problem: The longest side of a right triangle is 5 meters and the shortest side is 3 meters. What is the area of the triangle in square meters?

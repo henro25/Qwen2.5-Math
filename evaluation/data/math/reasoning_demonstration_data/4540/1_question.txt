@@ -1,0 +1,1 @@
+Problem: What is the units digit of $\frac{20 \cdot 21 \cdot 22 \cdot 23 \cdot 24 \cdot 25}{1000}$?

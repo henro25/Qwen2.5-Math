@@ -1,0 +1,1 @@
+Problem: What is the largest five-digit integer whose digits have a product equal to the product $(7)(6)(5)(4)(3)(2)(1)$?

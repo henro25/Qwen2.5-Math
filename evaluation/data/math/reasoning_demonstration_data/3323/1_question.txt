@@ -1,0 +1,1 @@
+Problem: In a certain city the rate of taxation is the following: $x\%$ tax is collected for an income of $x$ thousand dollars. What income, in dollars, will yield the greatest take home pay? (Take-home pay  is the income minus the tax on that income.)

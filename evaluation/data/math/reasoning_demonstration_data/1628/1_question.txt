@@ -1,0 +1,1 @@
+Problem: Compute $95^2$ in your head.

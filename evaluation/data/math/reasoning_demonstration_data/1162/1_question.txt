@@ -1,0 +1,6 @@
+Problem: If
+\begin{align*}
+a + b + c &= 1, \\
+a^2 + b^2 + c^2 &= 2, \\
+a^3 + b^3 + c^3 &= 3,
+\end{align*}find $a^4 + b^4 + c^4.$

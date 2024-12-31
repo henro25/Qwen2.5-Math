@@ -1,0 +1,1 @@
+Problem: What is the probability that the same number will be facing up on each of three standard six-sided dice that are tossed simultaneously? Express your answer as a common fraction.

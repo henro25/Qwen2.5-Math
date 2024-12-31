@@ -1,0 +1,1 @@
+Problem: If $a$ is three times $b$, $b$ is twice $c$, and $c$ is four times $d$, what is the value of $\frac{a\cdot c}{b\cdot d}$?

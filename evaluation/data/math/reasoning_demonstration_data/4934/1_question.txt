@@ -1,0 +1,1 @@
+Problem: Define $a * b$ as $2a - b^2$. If $a * 5 = 9$, what is the value of $a$?

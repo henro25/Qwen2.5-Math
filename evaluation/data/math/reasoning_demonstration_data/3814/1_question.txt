@@ -1,0 +1,1 @@
+Problem: Given that $\frac 1n - \frac{1}{n+1} < \frac{1}{10}$, what is the least possible positive integer value of $n$?

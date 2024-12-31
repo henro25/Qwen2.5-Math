@@ -1,0 +1,1 @@
+Problem: Solve $\log_4 x + \log_2 x^2 = 10$.

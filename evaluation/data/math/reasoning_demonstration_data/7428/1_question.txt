@@ -1,0 +1,6 @@
+Problem: Allie and Betty play a game where they take turns rolling a standard die. If a player rolls $n$, she is awarded $f(n)$ points, where  \[f(n) = \left\{
+\begin{array}{cl} 6 & \text{ if }n\text{ is a multiple of 2 and 3}, \\
+2 & \text{ if }n\text{ is only a multiple of 2}, \\
+0 & \text{ if }n\text{ is not a multiple of 2}.
+\end{array}
+\right.\]Allie rolls the die four times and gets a 5, 4, 1, and 2. Betty rolls and gets 6, 3, 3, and 2. What is the product of Allie's total points and Betty's total points?

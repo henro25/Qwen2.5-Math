@@ -1,0 +1,1 @@
+Problem: The average of $x+6$, $6x+2$, and $2x+7$ is $4x-7$. What is $x$?

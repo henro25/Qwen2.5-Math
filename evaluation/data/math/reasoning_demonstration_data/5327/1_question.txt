@@ -1,0 +1,1 @@
+Problem: Given that $\theta$ and $\phi$ are acute angles such that $\tan \theta = \frac{1}{7}$ and $\sin \phi = \frac{1}{\sqrt{10}},$ find $\theta + 2 \phi,$ measured in radians.

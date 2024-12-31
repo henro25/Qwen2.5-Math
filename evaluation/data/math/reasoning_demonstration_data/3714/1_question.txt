@@ -1,0 +1,1 @@
+Problem: Find a positive integer that is divisible by 18 and whose cube root is a number between 8 and 8.1.

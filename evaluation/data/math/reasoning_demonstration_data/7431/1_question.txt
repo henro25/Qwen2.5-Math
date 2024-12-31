@@ -1,0 +1,6 @@
+Problem: Let \[f(x) =
+\begin{cases}
+3x^2 + 2&\text{if } x\le 3, \\
+ax - 1 &\text{if } x>3.
+\end{cases}
+\]Find $a$ if the graph of $y=f(x)$ is continuous (which means the graph can be drawn without lifting your pencil from the paper).

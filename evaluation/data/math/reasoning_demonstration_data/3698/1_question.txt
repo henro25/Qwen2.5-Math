@@ -1,0 +1,3 @@
+Problem: Marina solved the quadratic equation $9x^2-18x-720=0$ by completing the square. In the process, she came up with the equivalent equation $$(x+r)^2 = s,$$where $r$ and $s$ are constants.
+
+What is $s$?

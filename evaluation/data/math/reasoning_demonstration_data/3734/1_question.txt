@@ -1,0 +1,2 @@
+Problem: By partial fractions,
+\[\frac{1}{x(x + 1)(x + 2)(x + 3)(x + 4)} = \frac{A}{x} + \frac{B}{x + 1} + \frac{C}{x + 2} + \frac{D}{x + 3} + \frac{E}{x + 4}\]for some constants $A,$ $B,$ $C,$ $D,$ and $E.$  Find $A + B + C + D + E.$

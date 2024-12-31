@@ -1,0 +1,1 @@
+Problem: A right triangle with legs $10$ and $8$ is similar to another right triangle with corresponding legs $x$ and $5$, respectively. What is the value of $x$? Express your answer as a decimal to the nearest hundredth.

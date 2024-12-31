@@ -1,0 +1,1 @@
+Problem: A piece of cheese is located at $(12,10)$ in a coordinate plane.  A mouse is at $(4,-2)$ and is running  up  the line $y=-5x+18$.  At the point $(a,b)$ the mouse starts getting farther from the cheese rather than closer to it. What is $a + b$?

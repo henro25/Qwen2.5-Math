@@ -1,0 +1,1 @@
+Problem: A fair coin is tossed six times and the sequence of heads and tails is recorded. What is the probability that the sequence contains exactly two heads? Express your answer as a common fraction.

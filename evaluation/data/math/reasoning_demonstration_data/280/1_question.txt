@@ -1,0 +1,4 @@
+Problem: Is
+\[f(x) = \log (x + \sqrt{1 + x^2})\]an even function, odd function, or neither?
+
+Enter "odd", "even", or "neither".

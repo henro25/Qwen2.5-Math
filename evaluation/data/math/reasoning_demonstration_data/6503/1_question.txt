@@ -1,0 +1,1 @@
+Problem: A swimming pool can be filled by any of three hoses A, B or C. Hoses A and B together take 4 hours to fill the pool. Hoses A and C together take 5 hours to fill the pool. Hoses B and C together take 6 hours to fill the pool. How many hours does it take hoses A, B and C working together to fill the pool? Express your answer as a decimal to the nearest hundredth.

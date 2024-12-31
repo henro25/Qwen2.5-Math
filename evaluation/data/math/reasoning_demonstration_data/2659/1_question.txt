@@ -1,0 +1,31 @@
+Problem: An equilateral triangle and a square are inscribed in a circle as shown. $ABC$ is isosceles. The triangle and square share a common vertex. What is the number of degrees in the measure of the angle indicated by the question mark?
+
+[asy]
+
+import markers; defaultpen(linewidth(0.8));
+
+pair A,B,C,D,E,F,G;
+
+draw(unitcircle);
+
+A=(-1,0);
+B=(0,-1);
+C=(1,0);
+D=(0,1);
+
+draw(A--B--C--D--A);
+
+E=(-0.9,-0.45);
+F=(0.9,-0.45);
+
+draw(D--E--F--D);
+
+G=(-0.76,-0.23);
+
+markangle(Label("?"),n=1,radius=10,D,G,A,marker(stickframe(n=0),true));
+
+label("$A$",(-0.5,-0.34));
+label("$B$",(0.5,-0.34));
+label("$C$",B,S);
+
+[/asy]

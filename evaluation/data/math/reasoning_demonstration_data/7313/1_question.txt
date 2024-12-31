@@ -1,0 +1,2 @@
+Problem: Simplify
+\[\frac{\cos x}{1 + \sin x} + \frac{1 + \sin x}{\cos x}.\]

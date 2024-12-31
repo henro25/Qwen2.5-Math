@@ -1,0 +1,1 @@
+Problem: Find the remainder when $x^{44} + x^{33} + x^{22} + x^{11} + 1$ is divided by $x^4 + x^3 + x^2 + x + 1.$

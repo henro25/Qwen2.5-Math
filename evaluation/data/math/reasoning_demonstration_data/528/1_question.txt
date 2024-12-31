@@ -1,0 +1,1 @@
+Problem: How many prime numbers between 30 and 65 have a prime remainder when divided by 10?

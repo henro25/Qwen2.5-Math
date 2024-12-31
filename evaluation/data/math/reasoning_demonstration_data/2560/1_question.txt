@@ -1,0 +1,1 @@
+Problem: How many different positive integers can be represented as a difference of two distinct members of the set $\{1, 2, 3, 4, 5, 6 \}$?

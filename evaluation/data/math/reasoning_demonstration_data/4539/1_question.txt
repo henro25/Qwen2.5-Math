@@ -1,0 +1,9 @@
+Problem: A cylinder has a height of $10$ and a radius of $3.$ Determine the total surface area, including the two ends, of the cylinder. [asy]
+draw(ellipse((5,0),5,2),black+linewidth(1));
+draw(ellipse((5,10),5,2),black+linewidth(1));
+draw((1,8.95)--(5,10),black+linewidth(1));
+draw((0,0)--(0,10),black+linewidth(1));
+draw((10,0)--(10,10),black+linewidth(1));
+label("3",(1,8.95)--(5,10),NW);
+label("10",(0,0)--(0,10),W);
+[/asy]

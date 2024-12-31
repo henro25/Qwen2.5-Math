@@ -1,0 +1,1 @@
+Problem: A function $f$ is defined on the complex numbers by $f(z)=(a+bi)z,$ where $a$ and $b$ are positive numbers. This function has the property that for each complex number $z$, $f(z)$ is equidistant from both $z$ and the origin. Given that $|a+bi|=8$, find $b^2.$

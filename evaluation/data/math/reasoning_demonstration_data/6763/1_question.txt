@@ -1,0 +1,1 @@
+Problem: If $A=4-3i$, $M=-4+i$, $S=i$, and $P=2$, find $A-M+S-P$.

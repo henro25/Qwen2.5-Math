@@ -1,0 +1,1 @@
+Problem: How many positive three-digit integers with each digit greater than 4 are divisible by 6?

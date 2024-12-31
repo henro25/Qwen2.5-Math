@@ -1,0 +1,3 @@
+Problem: Let $\mathbf{w} = \begin{pmatrix} 2 \\ -1 \\ 2 \end{pmatrix}.$  The set of vectors $\mathbf{v}$ such that
+\[\operatorname{proj}_{\mathbf{w}} \mathbf{v} = \begin{pmatrix} 4 \\ -2 \\ 4 \end{pmatrix}\]lie on a plane.  Enter the equation of this plane in the form
+\[Ax + By + Cz + D = 0,\]where $A,$ $B,$ $C,$ $D$ are integers such that $A > 0$ and $\gcd(|A|,|B|,|C|,|D|) = 1.$

@@ -1,0 +1,1 @@
+Problem: Consider the function $g(x)=3x-4$.  For what value of $a$ is $g(a)=0$?

@@ -1,0 +1,21 @@
+Problem: The ellipse whose equation is
+\[\frac{x^2}{25} + \frac{y^2}{9} = 1\]is graphed below.  The chord $\overline{AB}$ passes through a focus $F$ of the ellipse.  If $AF = \frac{3}{2},$ then find $BF.$
+
+[asy]
+unitsize (0.6 cm);
+
+pair A, B, F;
+
+F = (4,0);
+A = (35/8,3*sqrt(15)/8);
+B = (55/16,-9*sqrt(15)/16);
+
+draw(xscale(5)*yscale(3)*Circle((0,0),1));
+draw(A--B);
+draw((-6,0)--(6,0));
+draw((0,-4)--(0,4));
+
+dot("$A$", A, NE);
+dot("$B$", B, SE);
+dot("$F$", F, NW);
+[/asy]

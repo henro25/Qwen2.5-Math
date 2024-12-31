@@ -1,0 +1,1 @@
+Problem: Express $\frac{165_7}{11_2}+\frac{121_6}{21_3}$ in base 10.

@@ -1,0 +1,1 @@
+Problem: Calculate: $\frac53\times\frac{6}{10}\times\frac{15}{9}\times\frac{12}{20}\times\frac{25}{15}\times\frac{18}{30}\times\frac{35}{21}\times\frac{24}{40}$

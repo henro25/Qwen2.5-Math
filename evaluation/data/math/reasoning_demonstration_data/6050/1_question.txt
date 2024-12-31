@@ -1,0 +1,1 @@
+Problem: What is $\log_{7}{2400}$ rounded to the nearest integer?

@@ -1,0 +1,1 @@
+Problem: The sum of an infinite geometric series is $27$ times the series that results if the first three terms of the original series are removed. What is the value of the series' common ratio?

@@ -1,0 +1,1 @@
+Problem: $x$ is a real number with the property that $x+\tfrac1x = 3$. Let $S_m = x^m + \tfrac{1}{x^m}$. Determine the value of $S_7$.

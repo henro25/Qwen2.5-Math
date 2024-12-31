@@ -1,0 +1,1 @@
+Problem: How many real solutions are there for $x$ in the following equation: $$(x - 5x + 12)^2 + 1 = -|x|$$

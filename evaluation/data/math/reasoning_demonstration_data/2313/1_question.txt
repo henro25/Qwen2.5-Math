@@ -1,0 +1,1 @@
+Problem: For integers $a$ and $T,$ $T \neq 0,$ a parabola whose general equation is $y = ax^2 + bx + c$ passes through the points $A = (0,0),$ $B = (2T,0),$ and $C = (2T + 1,28).$  Let $N$ be the sum of the coordinates of the vertex point.  Determine the largest value of $N.$

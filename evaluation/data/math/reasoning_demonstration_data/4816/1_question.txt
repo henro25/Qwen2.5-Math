@@ -1,0 +1,2 @@
+Problem: A polynomial with integer coefficients is of the form
+\[x^3 + a_2 x^2 + a_1 x - 11 = 0.\]Enter all the possible integer roots of this polynomial, separated by commas.

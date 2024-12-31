@@ -1,0 +1,2 @@
+Problem: Simplify
+\[\frac{\tan^3 75^\circ + \cot^3 75^\circ}{\tan 75^\circ + \cot 75^\circ}.\]

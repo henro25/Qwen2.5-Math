@@ -1,0 +1,1 @@
+Problem: In a certain ellipse, the endpoints of the major axis are $(-11,4)$ and $(9,4).$  Also, the ellipse passes through the point $(7,7).$  Find the area of the ellipse.

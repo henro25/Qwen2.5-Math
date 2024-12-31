@@ -1,0 +1,2 @@
+Problem: Let $x$ and $y$ be real numbers such that
+\[xy - \frac{x}{y^2} - \frac{y}{x^2} = 3.\]Find the sum of all possible values of $(x - 1)(y - 1).$

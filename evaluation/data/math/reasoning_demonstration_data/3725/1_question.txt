@@ -1,0 +1,1 @@
+Problem: A circle is circumscribed about an equilateral triangle with side lengths of $9$ units each.  What is the area of the circle, in square units? Express your answer in terms of $\pi$.

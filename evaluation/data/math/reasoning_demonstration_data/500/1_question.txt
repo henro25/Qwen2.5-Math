@@ -1,0 +1,2 @@
+Problem: Let $z$ be a complex number that satisfies
+\[|z - 3i| + |z - 4| = 5.\]Find the minimum value of $|z|.$

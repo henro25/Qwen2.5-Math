@@ -1,0 +1,1 @@
+Problem: Define $f(x)=3x-8$. If $f^{-1}$ is the inverse of $f$, find the value(s) of $x$ for which $f(x)=f^{-1}(x)$.

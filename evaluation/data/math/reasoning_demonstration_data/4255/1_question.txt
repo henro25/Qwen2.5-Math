@@ -1,0 +1,1 @@
+Problem: What three-digit integer is equal to the sum of the factorials of its digits?

@@ -1,0 +1,1 @@
+Problem: Simplify: $x(3x^2-2)-5(x^2-2x+7)$. Express your answer in the form $Ax^3+Bx^2+Cx+D.$

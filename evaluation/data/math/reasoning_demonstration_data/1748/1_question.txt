@@ -1,0 +1,1 @@
+Problem: From the following infinite list of numbers, how many are integers? $$\sqrt{4096},\sqrt[3]{4096},\sqrt[4]{4096},\sqrt[5]{4096},\sqrt[6]{4096},\ldots$$

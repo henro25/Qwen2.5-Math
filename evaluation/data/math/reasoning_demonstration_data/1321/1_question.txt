@@ -1,0 +1,1 @@
+Problem: What is the value of \[\frac{x^1\cdot x^2\cdot x^3\cdots x^{15}}{x^2\cdot x^4 \cdot x^6 \cdots x^{20}}\]if $x=2$?

@@ -1,0 +1,1 @@
+Problem: The first term of a given sequence is 1, and each successive term is the sum of all the previous terms of the sequence. What is the value of the first term which exceeds 5000?

@@ -1,0 +1,1 @@
+Problem: When the binary number $100101110010_2$ is divided by 4, what is the remainder (give your answer in base 10)?

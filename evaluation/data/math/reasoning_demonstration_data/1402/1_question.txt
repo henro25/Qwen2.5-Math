@@ -1,0 +1,1 @@
+Problem: A point has rectangular coordinates $(-5,-7,4)$ and spherical coordinates $(\rho, \theta, \phi).$  Find the rectangular coordinates of the point with spherical coordinates $(\rho, \theta, -\phi).$

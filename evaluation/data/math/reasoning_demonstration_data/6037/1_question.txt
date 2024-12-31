@@ -1,0 +1,1 @@
+Problem: The midpoint of a line segment is located at $(1, -2)$. If one of the endpoints is $(4, 5)$, what is the other endpoint? Express your answer as an ordered pair.

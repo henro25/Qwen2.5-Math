@@ -1,0 +1,1 @@
+Problem: What is the smallest positive integer that has exactly eight distinct positive factors?

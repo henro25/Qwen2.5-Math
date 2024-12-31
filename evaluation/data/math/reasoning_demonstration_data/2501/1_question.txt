@@ -1,0 +1,1 @@
+Problem: For all composite integers $n$, what is the largest integer that always divides into the difference between $n$ and the cube of $n$?

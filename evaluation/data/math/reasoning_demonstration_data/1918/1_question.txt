@@ -1,0 +1,15 @@
+Problem: An equilateral triangle $ABC$ shares a common side $BC$ with a square $BCDE,$ as pictured. What is the number of degrees in $\angle DAE$ (not pictured)? [asy]
+pair pA, pB, pC, pD, pE;
+pA = (0, 0);
+pB = pA + dir(300);
+pC = pA + dir(240);
+pD = pC + dir(270);
+pE = pB + dir(270);
+draw(pA--pB--pC--pA);
+draw(pB--pC--pD--pE--pB);
+label("$A$", pA, N);
+label("$B$", pB, E);
+label("$C$", pC, W);
+label("$D$", pD, SW);
+label("$E$", pE, SE);
+[/asy]

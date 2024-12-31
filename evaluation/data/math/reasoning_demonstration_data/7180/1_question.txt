@@ -1,0 +1,1 @@
+Problem: The quadratic $ax^2 + bx + c$ can be expressed in the form $2(x - 4)^2 + 8$.  When the quadratic $3ax^2 + 3bx + 3c$ is expressed in the form $n(x - h)^2 + k$, what is $h$?

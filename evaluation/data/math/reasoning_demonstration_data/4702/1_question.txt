@@ -1,0 +1,1 @@
+Problem: The probability of rain tomorrow is $\frac{3}{10}$.  What is the probability that it will not rain tomorrow?  Express your answer as a common fraction.

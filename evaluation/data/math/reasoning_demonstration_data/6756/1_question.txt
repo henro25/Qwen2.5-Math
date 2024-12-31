@@ -1,0 +1,1 @@
+Problem: What is the slope of the line containing the midpoint of the segment with endpoints at (0, 0) and (2, 3) and the midpoint of the segment with endpoints at (5, 0) and (6, 3)? Express your answer in simplest form.

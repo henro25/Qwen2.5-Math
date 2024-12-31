@@ -1,0 +1,6 @@
+Problem: Two transformations are applied to the complex number $-3 - 8i$:
+
+A $45^\circ$ rotation around the origin in the counter-clockwise direction.
+A dilation, centered at the origin, with scale factor $\sqrt{2}.$
+
+What is the resulting complex number?

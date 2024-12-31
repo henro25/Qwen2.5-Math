@@ -1,0 +1,2 @@
+Problem: The function $f(x)$ satisfies
+\[f(x + y) = f(x) f(y)\]for all real numbers $x$ and $y.$  If $f(2) = 3,$ find $f(6).$

@@ -1,0 +1,1 @@
+Problem: What is the smallest number of people that can be broken up both into 15 groups of equal membership and into 48 groups of equal membership?

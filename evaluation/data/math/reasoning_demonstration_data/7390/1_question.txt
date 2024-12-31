@@ -1,0 +1,2 @@
+Problem: Given that $a$, $b$, and $c$ are nonzero real numbers, find all possible values of the expression
+\[\frac{a}{|a|} + \frac{b}{|b|} + \frac{c}{|c|} + \frac{abc}{|abc|}.\]Enter all possible values, separated by commas.

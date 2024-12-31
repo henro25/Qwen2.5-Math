@@ -1,0 +1,1 @@
+Problem: Jane's quiz scores were 98, 97, 92, 85 and 93. What was her mean score?

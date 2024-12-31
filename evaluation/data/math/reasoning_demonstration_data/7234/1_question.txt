@@ -1,0 +1,1 @@
+Problem: Let $f$ be a function satisfying $f(xy) = f(x)/y$ for all positive real numbers $x$ and $y$. If $f(500) = 3$, what is the value of $f(600)$?

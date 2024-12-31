@@ -1,0 +1,1 @@
+Problem: When $f(x) = ax^3 - 6x^2 + bx - 5$ is divided by $x - 1,$ the remainder is $-5.$  When $f(x)$ is divided by $x + 2,$ the remainder is $-53.$  Find the ordered pair $(a,b).$

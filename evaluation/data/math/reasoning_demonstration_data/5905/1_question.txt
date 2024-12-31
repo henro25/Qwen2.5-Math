@@ -1,0 +1,2 @@
+Problem: Find all real numbers $k$ for which there exists a nonzero, 2-dimensional vector $\mathbf{v}$ such that
+\[\begin{pmatrix} 1 & 8 \\ 2 & 1 \end{pmatrix} \mathbf{v} = k \mathbf{v}.\]Enter all the solutions, separated by commas.

@@ -1,0 +1,1 @@
+Problem: Find the sum of all positive integral values of $n$ for which $\frac{n+6}{n}$ is an integer.

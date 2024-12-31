@@ -1,0 +1,1 @@
+Problem: How many diagonals does a regular seven-sided polygon contain?

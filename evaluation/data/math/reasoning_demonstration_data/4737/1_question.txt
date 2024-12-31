@@ -1,0 +1,1 @@
+Problem: A hyperbola has its two foci at $(5, 0)$ and $(9, 4).$ Find the coordinates of its center.

@@ -1,0 +1,1 @@
+Problem: The graphs of a function $f(x)=3x+b$ and its inverse function $f^{-1}(x)$ intersect at the point $(-3,a)$. Given that $b$ and $a$ are both integers, what is the value of $a$?

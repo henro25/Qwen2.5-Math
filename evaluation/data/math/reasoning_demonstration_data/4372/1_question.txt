@@ -1,0 +1,1 @@
+Problem: If $|x-2|=p$, where $x<2$, then what is $x-p$ in terms of $p$?

@@ -1,0 +1,1 @@
+Problem: Triangle $ABC$ has sides of $6$ units, $8$ units, and $10$ units. The width of a rectangle, whose area is equal to the area of the triangle, is $4$ units. What is the perimeter of this rectangle, in units?

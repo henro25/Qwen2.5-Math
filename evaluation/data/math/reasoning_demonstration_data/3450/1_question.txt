@@ -1,0 +1,1 @@
+Problem: Evaluate $(a^b)^a - (b^a)^b$ for $a = 2$ and $b = 3$.

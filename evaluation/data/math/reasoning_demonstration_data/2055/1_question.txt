@@ -1,0 +1,1 @@
+Problem: The first term of a geometric sequence is 729, and the 7th term is 64. What is the positive, real value for the 5th term?

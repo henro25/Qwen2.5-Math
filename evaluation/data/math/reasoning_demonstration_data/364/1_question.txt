@@ -1,0 +1,1 @@
+Problem: A board game spinner is divided into three regions labeled $A$, $B$ and $C$.  The probability of the arrow stopping on region $A$ is $\frac{1}{2}$ and on region $B$ is $\frac{1}{5}$.  What is the probability of the arrow stopping on region $C$?  Express your answer as a common fraction.

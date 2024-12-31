@@ -1,0 +1,1 @@
+Problem: What integer $n$ satisfies $0\le n<19$ and $$-200\equiv n\pmod{19}~?$$

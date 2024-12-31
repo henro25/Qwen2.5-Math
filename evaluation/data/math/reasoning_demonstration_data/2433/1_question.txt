@@ -1,0 +1,1 @@
+Problem: For what value of $k$ does the line represented by the equation $-\frac{1}{2}-2kx = 5y$ contain the point $\left(\frac{1}{4},-6\right)$?

@@ -1,0 +1,1 @@
+Problem: Compute $\cos 0^\circ$.

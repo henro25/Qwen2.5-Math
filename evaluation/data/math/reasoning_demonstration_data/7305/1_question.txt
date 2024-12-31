@@ -1,0 +1,4 @@
+Problem: How many complex numbers $z$ such that $\left| z \right| < 30$ satisfy the equation
+\[
+  e^z = \frac{z - 1}{z + 1} \, ?
+\]

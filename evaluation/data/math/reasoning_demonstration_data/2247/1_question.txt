@@ -1,0 +1,1 @@
+Problem: A circle passes through the three vertices of an isosceles triangle that has two sides of length 3  and a base of length 2. What is the area of this circle? Express your answer in terms of $\pi$.

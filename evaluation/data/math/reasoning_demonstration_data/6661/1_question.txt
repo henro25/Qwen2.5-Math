@@ -1,0 +1,1 @@
+Problem: Let $\mathbf{p}$ and $\mathbf{q}$ be two three-dimensional unit vectors such that the angle between them is $30^\circ.$  Find the area of the parallelogram whose diagonals correspond to $\mathbf{p} + 2 \mathbf{q}$ and $2 \mathbf{p} + \mathbf{q}.$

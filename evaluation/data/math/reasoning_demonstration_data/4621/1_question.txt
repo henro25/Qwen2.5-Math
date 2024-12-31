@@ -1,0 +1,1 @@
+Problem: What is the sum of the digits of the decimal representation of $2^{2005} \times 5^{2007} \times 3$?

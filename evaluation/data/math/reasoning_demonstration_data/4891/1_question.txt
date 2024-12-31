@@ -1,0 +1,1 @@
+Problem: Let $p(x) = 2x - 7$ and $q(x) = 3x - b$.  If $p(q(4)) = 7$, what is $b$?

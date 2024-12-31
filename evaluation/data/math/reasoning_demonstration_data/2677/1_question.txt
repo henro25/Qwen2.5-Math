@@ -1,0 +1,1 @@
+Problem: If 52 cards are dealt to 8 people as evenly as possible, how many people will end up with fewer than 7 cards?

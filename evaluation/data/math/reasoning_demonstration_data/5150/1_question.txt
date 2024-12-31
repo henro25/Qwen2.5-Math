@@ -1,0 +1,1 @@
+Problem: What is the area, in square units, of a trapezoid bounded by the lines $y = x$, $y = 10$, $y = 5$ and the $y$-axis? Express your answer as a decimal to the nearest tenth.

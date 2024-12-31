@@ -1,0 +1,1 @@
+Problem: What is the least whole number that is divisible by 7, but leaves a remainder of 1 when divided by any integer 2 through 6?

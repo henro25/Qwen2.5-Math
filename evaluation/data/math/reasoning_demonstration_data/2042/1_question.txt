@@ -1,0 +1,1 @@
+Problem: If $z=3+4i$, find $z^2$. (Note that $i^2 = -1.$)

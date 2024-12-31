@@ -1,0 +1,1 @@
+Problem: Solve for $r$: $r = \displaystyle\frac{\sqrt{5^2+12^2}}{\sqrt{16+9}}$. Express as a common fraction.

@@ -1,0 +1,1 @@
+Problem: I have a bag with blue marbles and yellow marbles in it. At the moment, the ratio of blue marbles to yellow marbles is 8:5. If I remove 12 blue marbles and add 21 yellow marbles, the ratio will be 1:3. How many blue marbles were in the bag before I removed some?

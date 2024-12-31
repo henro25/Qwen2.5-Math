@@ -1,0 +1,1 @@
+Problem: Find the sum of the coefficients in the polynomial $-2(x^7 - x^4 + 3x^2 - 5) + 4(x^3 + 2x) - 3(x^5 - 4)$.

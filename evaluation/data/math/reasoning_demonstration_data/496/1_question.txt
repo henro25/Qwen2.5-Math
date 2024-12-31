@@ -1,0 +1,1 @@
+Problem: There are 8 sprinters in the Olympic 100-meter finals. Three of the sprinters are Americans.  The gold medal goes to first place, silver to second, and bronze to third.   In how many ways can the medals be awarded if at most one American gets a medal?

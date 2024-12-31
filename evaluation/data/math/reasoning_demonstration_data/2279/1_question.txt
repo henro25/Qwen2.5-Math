@@ -1,0 +1,13 @@
+Problem: The altitude to the hypotenuse of a triangle with angles of 30 and 60 degrees is 3 units. What is the area of the triangle, in square units? Express your answer in simplest radical form. [asy]
+unitsize(6mm);
+defaultpen(linewidth(.7pt)+fontsize(8pt));
+
+real r=2*sqrt(3);
+
+pair A=r*dir(0), B=r*dir(60), C=r*dir(180);
+pair F=foot(B,A,C);
+draw(A--B--C--cycle);
+draw(rightanglemark(A,B,C,8));
+draw(B--F,linetype("4 2"));
+label("3 units",waypoint(B--F,0.6),W);
+[/asy]

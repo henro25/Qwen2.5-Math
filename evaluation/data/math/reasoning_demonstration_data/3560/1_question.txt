@@ -1,0 +1,1 @@
+Problem: For how many positive integers $x$ is $x^2 + 6x + 9$ between 20 and 40?

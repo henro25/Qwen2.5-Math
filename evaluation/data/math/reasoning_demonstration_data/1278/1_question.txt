@@ -1,0 +1,1 @@
+Problem: An ordinary $6$-sided die has a number on each face from $1$ to $6$ (each number appears on one face). How many ways can I paint two faces of a die red, so that the numbers on the red faces don't add up to $7$?

@@ -1,0 +1,2 @@
+Problem: If $\begin{vmatrix} a & b \\ c & d \end{vmatrix} = 4,$ then find
+\[\begin{vmatrix} a & 7a + 3b \\ c & 7c  +3d \end{vmatrix}.\]

@@ -1,0 +1,1 @@
+Problem: An ice cream cone has radius 1 inch and height 4 inches, What is the number of inches in the radius of a sphere of ice cream which has the same volume as the cone?

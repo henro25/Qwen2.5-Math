@@ -1,0 +1,1 @@
+Problem: Define $E(a,b,c) = a \cdot b^2 + c$. What value of $a$ is the solution to the equation $E(a,4,5) = E(a,6,7)$?

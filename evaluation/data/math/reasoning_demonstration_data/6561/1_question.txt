@@ -1,0 +1,1 @@
+Problem: Simplify $(22a+60b)+(10a+29b)-(9a+50b).$

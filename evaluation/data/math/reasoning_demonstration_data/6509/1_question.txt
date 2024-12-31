@@ -1,0 +1,1 @@
+Problem: Find the angle between the vectors $\begin{pmatrix} 2 \\ -1 \\ 1 \end{pmatrix}$ and $\begin{pmatrix} -1 \\ 1 \\ 0 \end{pmatrix},$ in degrees.

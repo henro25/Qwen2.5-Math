@@ -1,0 +1,1 @@
+Problem: A rectangular tile measures 3 inches by 4 inches. What is the fewest number of these tiles that are needed to completely cover a rectangular region that is 2 feet by 5 feet?

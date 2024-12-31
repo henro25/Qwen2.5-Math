@@ -1,0 +1,1 @@
+Problem: The fraction $\frac{a}{a+27}$, where $a$ is a positive integer, equals $0.865$.  What is the value of $a$?

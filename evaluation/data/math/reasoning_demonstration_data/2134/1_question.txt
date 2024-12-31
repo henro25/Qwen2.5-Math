@@ -1,0 +1,1 @@
+Problem: Compute $\sqrt{54}\cdot\sqrt{32}\cdot \sqrt{6}$.

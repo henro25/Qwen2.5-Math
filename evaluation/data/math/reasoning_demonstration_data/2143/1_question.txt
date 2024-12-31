@@ -1,0 +1,1 @@
+Problem: When rolling a fair 6-sided die, what is the probability of a 2 or 4 being rolled?

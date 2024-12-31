@@ -1,0 +1,1 @@
+Problem: Find the domain of the real-valued function $$f(x)=\sqrt{-10x^2-11x+6}.$$ Give the endpoints in your answer as common fractions, not mixed numbers or decimals.

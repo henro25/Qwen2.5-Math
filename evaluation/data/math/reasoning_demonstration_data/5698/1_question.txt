@@ -1,0 +1,1 @@
+Problem: Compute $\dbinom{7}{4}$.

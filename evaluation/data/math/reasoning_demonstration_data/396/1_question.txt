@@ -1,0 +1,2 @@
+Problem: If
+\[\tan x = \frac{2ab}{a^2 - b^2},\]where $a > b > 0$ and $0^\circ < x < 90^\circ,$ then find $\sin x$ in terms of $a$ and $b.$

@@ -1,0 +1,1 @@
+Problem: What is the value of the sum $-1 + 2 - 3 + 4 - 5 + 6 - 7 +\dots+ 10,\!000$?

@@ -1,0 +1,1 @@
+Problem: In how many ways can 5 people be seated around a round table?  (Two seatings are considered the same if one is a rotation of the other.)

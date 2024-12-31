@@ -1,0 +1,27 @@
+Problem: In triangle $ABC,$ points $D$ and $E$ are on $\overline{AB}$ and $\overline{AC},$ respectively, and angle bisector $\overline{AT}$ intersects $\overline{DE}$ at $F.$  If $AD = 1,$ $DB = 3,$ $AE = 2,$ and $EC = 4,$ compute $\frac{AF}{AT}.$
+
+[asy]
+unitsize(1 cm);
+
+pair A, B, C, D, E, F, T;
+
+B = (0,0);
+C = (5,0);
+A = intersectionpoint(arc(B,4,0,180),arc(C,6,0,180));
+D = interp(A,B,1/4);
+E = interp(A,C,2/6);
+T = extension(A, incenter(A,B,C), B, C);
+F = extension(A, T, D, E);
+
+draw(A--B--C--cycle);
+draw(A--T);
+draw(D--E);
+
+label("$A$", A, N);
+label("$B$", B, SW);
+label("$C$", C, SE);
+label("$D$", D, W);
+label("$E$", E, NE);
+label("$F$", F, SW);
+label("$T$", T, S);
+[/asy]

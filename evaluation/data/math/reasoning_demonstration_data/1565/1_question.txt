@@ -1,0 +1,1 @@
+Problem: What is the greatest possible sum of two consecutive integers whose product is less than 400?

@@ -1,0 +1,1 @@
+Problem: We have that $2a + 1 = 1$ and $b - a = 1.$ What is the value of $b$?

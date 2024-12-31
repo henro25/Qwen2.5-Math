@@ -1,0 +1,16 @@
+Problem: In the diagram below, we have $AB = 24$ and $\angle ADB =90^\circ$.  If $\sin A = \frac23$ and $\sin C = \frac13$, then what is $DC$?
+
+
+[asy]
+pair A,B,C,D;
+A = (0,0);
+B = (8*sqrt(5),16);
+D = (8*sqrt(5),0);
+C = (8*sqrt(5) + 32*sqrt(2),0);
+draw(D--B--A--C--B);
+label("$A$",A,SW);
+label("$B$",B,N);
+label("$C$",C,SE);
+label("$D$",D,S);
+draw(rightanglemark(B,D,A,63));
+[/asy]

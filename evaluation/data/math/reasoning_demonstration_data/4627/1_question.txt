@@ -1,0 +1,1 @@
+Problem: Let $f$, $g$, and $h$ be polynomials such that $h(x) = f(x)\cdot g(x)$.  If the constant term of $f(x)$ is $-4$ and the constant term of $h(x)$ is 3, what is $g(0)$?

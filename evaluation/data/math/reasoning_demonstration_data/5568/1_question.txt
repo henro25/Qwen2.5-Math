@@ -1,0 +1,6 @@
+Problem: In $\Delta ABC$, $AC = BC$, $m\angle DCB = 40^{\circ}$, and $CD \parallel AB$. What is the number of degrees in $m\angle ECD$?
+
+[asy] pair A,B,C,D,E; B = dir(-40); A = dir(-140); D = (.5,0); E = .4 * dir(40);
+draw(C--B--A--E,EndArrow); draw(C--D,EndArrow);
+label("$A$",A,W); label("$C$",C,NW);label("$B$",B,E);label("$D$",D,E);label("$E$",E,E);
+[/asy]

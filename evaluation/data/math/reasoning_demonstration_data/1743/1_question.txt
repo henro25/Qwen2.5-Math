@@ -1,0 +1,1 @@
+Problem: One of the roots of $z^2 = -55 + 48i$ is $3 + 8i.$  What is the other root?

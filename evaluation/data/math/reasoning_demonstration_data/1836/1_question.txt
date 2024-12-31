@@ -1,0 +1,2 @@
+Problem: Let $a,$ $b,$ $c$ be the roots of $x^3 + px + q = 0.$  Express
+\[\begin{vmatrix} 1 + a & 1 & 1 \\ 1 & 1 + b & 1 \\ 1 & 1 & 1 + c \end{vmatrix}\]in terms of $p$ and $q.$

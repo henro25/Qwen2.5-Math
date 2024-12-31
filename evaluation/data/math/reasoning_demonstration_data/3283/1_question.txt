@@ -1,0 +1,1 @@
+Problem: Let $a, b, c$ be complex numbers, with $a$ real, such that \[a+b+c=ab+bc+ca=abc=3.\]Find $a$.

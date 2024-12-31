@@ -1,0 +1,1 @@
+Problem: What is the smallest integer $x$ for which $x<2x-7$ ?

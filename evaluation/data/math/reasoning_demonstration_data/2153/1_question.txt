@@ -1,0 +1,11 @@
+Problem: In the diagram, each of the three identical circles touch the other two.  The circumference of each circle is 36.  What is the perimeter of the shaded region? [asy]
+
+defaultpen(1);
+
+path p = (1, 0){down}..{-dir(30)}dir(-60){dir(30)}..{dir(-30)}((2, 0) + dir(-120)){-dir(-30)}..{up}(1, 0)--cycle;
+fill(p, gray(0.75));
+
+draw(unitcircle);
+draw(shift(2 * dir(-60)) * unitcircle);
+draw(shift(2) * unitcircle);
+[/asy]

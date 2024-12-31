@@ -1,0 +1,1 @@
+Problem: If $(w+13)^2=(3w+7)(2w+4)$, find $w^2$. Express your answer as a decimal.

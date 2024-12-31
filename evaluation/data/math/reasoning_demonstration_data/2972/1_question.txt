@@ -1,0 +1,3 @@
+Problem: The equation \[\frac{x}{x+1} + \frac{x}{x+2} = kx\]has exactly two complex roots. Find all possible complex values for $k.$
+
+Enter all the possible values, separated by commas.

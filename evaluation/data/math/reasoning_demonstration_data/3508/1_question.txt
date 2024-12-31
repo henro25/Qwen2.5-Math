@@ -1,0 +1,1 @@
+Problem: Find the least common multiple of 36 and 132.

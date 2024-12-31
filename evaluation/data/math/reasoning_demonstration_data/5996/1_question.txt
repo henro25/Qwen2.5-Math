@@ -1,0 +1,1 @@
+Problem: Compute \[\sum_{k=2}^{63} \log_2\left(1 + \frac{1}{k}\right) \log_k 2 \log_{k+1} 2.\]

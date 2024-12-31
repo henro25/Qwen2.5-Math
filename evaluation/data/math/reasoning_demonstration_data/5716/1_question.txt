@@ -1,0 +1,1 @@
+Problem: Find the sum of all solutions to the equation $(x-6)^2=25$.

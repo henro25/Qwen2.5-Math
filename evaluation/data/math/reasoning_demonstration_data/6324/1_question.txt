@@ -1,0 +1,1 @@
+Problem: How many numbers in the set $\{3,13,23,33, \ldots\}$ can be written as the difference of two primes?

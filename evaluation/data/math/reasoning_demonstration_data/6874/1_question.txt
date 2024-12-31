@@ -1,0 +1,14 @@
+Problem: On an indoor circular track of circumference 50 feet, Joneal starts at point $S$, runs in a counterclockwise direction, and then stops when he has run exactly one mile (5280 feet). On which quarter of the circle, $A$, $B$, $C$ or $D$, did Joneal stop?
+
+[asy]
+import graph;
+draw(Circle((0,0),20));
+draw((-25,0)--(25,0));
+draw((0,-25)--(0,25));
+dot((20,0));
+label("$S$",(20,0),SE);
+label("$A$",(17,17),E);
+label("$B$",(-17,17),W);
+label("$C$",(-17,-17),W);
+label("$D$",(17,-17),E);
+[/asy]

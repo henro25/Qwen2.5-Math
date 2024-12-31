@@ -1,0 +1,1 @@
+Problem: After traveling 50 miles by taxi, Ann is charged a fare of $\$120$. Assuming the taxi fare is directly proportional to distance traveled, how much would Ann be charged (in dollars) if she had traveled 70 miles?

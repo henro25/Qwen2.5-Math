@@ -1,0 +1,1 @@
+Problem: Given that $x - \frac{1}{x} = i \sqrt{2},$ find $x^{2187} - \frac{1}{x^{2187}}.$

@@ -1,0 +1,1 @@
+Problem: Evaluate: $5-7\left(8-3^2\right)4.$

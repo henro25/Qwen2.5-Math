@@ -1,0 +1,14 @@
+Problem: In triangle $\triangle JKL$ shown, $\tan K = \frac{3}{2}$. What is $KL$?
+
+[asy]
+pair J,K,L;
+L = (0,0);
+J = (0,3);
+K = (2,3);
+draw(L--J--K--L);
+draw(rightanglemark(L,J,K,7));
+label("$L$",L,SW);
+label("$J$",J,NW);
+label("$K$",K,NE);
+label("$2$",(J+K)/2,N);
+[/asy]

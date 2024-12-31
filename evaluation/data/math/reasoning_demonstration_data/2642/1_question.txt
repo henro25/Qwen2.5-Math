@@ -1,0 +1,2 @@
+Problem: Let $\mathbf{v}$ and $\mathbf{w}$ be vectors such that
+\[\operatorname{proj}_{\mathbf{w}} \mathbf{v} = \begin{pmatrix} 3 \\ 2 \end{pmatrix}.\]Compute $\operatorname{proj}_{\mathbf{w}} (5 \mathbf{v}).$

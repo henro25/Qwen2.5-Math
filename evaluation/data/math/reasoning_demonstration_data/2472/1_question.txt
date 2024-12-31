@@ -1,0 +1,1 @@
+Problem: The function $f$ is linear and satisfies $f(d+1)-f(d) = 3$ for all real numbers $d$. What is $f(3)-f(5)$?

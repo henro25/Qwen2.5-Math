@@ -1,0 +1,1 @@
+Problem: Let $z$ and $w$ be complex numbers such that $|z + 1 + 3i| = 1$ and $|w - 7 - 8i| = 3.$  Find the smallest possible value of $|z - w|.$

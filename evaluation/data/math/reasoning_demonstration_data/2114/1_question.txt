@@ -1,0 +1,21 @@
+Problem: Below is the graph of an ellipse. (Assume that tick marks are placed every $1$ unit along the axes.)
+[asy]
+size(8cm);
+
+int x, y;
+for (y = -4; y <= 2; ++y) {
+  draw((-1,y)--(7,y),gray(0.7));
+}
+for (x = -1; x <= 7; ++x) {
+  draw((x,-4)--(x,2),gray(0.7));
+}
+
+draw(shift((3,-1))*xscale(1.5)*shift((-3,1))*Circle((3,-1),2));
+draw((-1,0)--(7,0),EndArrow);
+draw((0,-4)--(0,2),EndArrow);
+//for (int i=-3; i<=1; ++i)
+	//draw((-0.15,i)--(0.15,i));
+//for (int i=0; i<=6; ++i)
+	//draw((i,0.15)--(i,-0.15));
+[/asy]
+Compute the coordinates of the focus of the ellipse with the greater $x$-coordinate.

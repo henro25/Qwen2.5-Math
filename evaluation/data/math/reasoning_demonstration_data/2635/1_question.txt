@@ -1,0 +1,1 @@
+Problem: When the height of a cylinder is doubled and its radius is increased by $200\%$, the cylinder's volume is multiplied by a factor of $X$. What is the value of $X$?

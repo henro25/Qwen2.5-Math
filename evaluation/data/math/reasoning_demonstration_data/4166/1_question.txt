@@ -1,0 +1,1 @@
+Problem: Consider a regular octagon.  How many triangles can be formed whose vertices are the vertices of the octagon?

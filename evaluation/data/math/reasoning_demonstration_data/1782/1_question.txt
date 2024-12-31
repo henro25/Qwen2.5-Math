@@ -1,0 +1,4 @@
+Problem: Let $b_1$, $b_2$, $b_3$, $c_1$, $c_2$, and $c_3$ be real numbers such that for every real number $x$, we have
+\[
+  x^6 - x^5 + x^4 - x^3 + x^2 - x + 1 = (x^2 + b_1 x + c_1)(x^2 + b_2 x + c_2)(x^2 + b_3 x + c_3). 
+\]Compute $b_1 c_1 + b_2 c_2 + b_3 c_3$.

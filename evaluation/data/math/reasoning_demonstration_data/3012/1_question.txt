@@ -1,0 +1,9 @@
+Problem: For real numbers $t,$ the point of intersection of the lines $tx - 2y - 3t = 0$ and $x - 2ty + 3 = 0$ is plotted.  All the plotted points lie on what kind of curve?
+
+(A) Line
+(B) Circle
+(C) Parabola
+(D) Ellipse
+(E) Hyperbola
+
+Enter the letter of the correct option.

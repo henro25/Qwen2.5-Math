@@ -1,0 +1,9 @@
+Problem: Let $
+f(n) =
+\begin{cases}
+n^2+1 & \text{if }n\text{ is odd} \\
+\dfrac{n}{2} & \text{if }n\text{ is even}
+\end{cases}.
+$
+
+For how many integers $n$ from 1 to 100, inclusive, does $f ( f (\dotsb f (n) \dotsb )) = 1$ for some number of applications of $f$?

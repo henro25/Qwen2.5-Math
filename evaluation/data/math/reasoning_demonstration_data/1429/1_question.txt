@@ -1,0 +1,1 @@
+Problem: Find the coordinates of the point halfway between the points $(3,7)$ and $(5,1)$.

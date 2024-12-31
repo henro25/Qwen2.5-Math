@@ -1,0 +1,1 @@
+Problem: Simplify $(r^2 + 3r - 2) - (r^2 + 7r - 5)$.

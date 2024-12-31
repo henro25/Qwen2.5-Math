@@ -1,0 +1,1 @@
+Problem: What is the remainder when $2^{2005}$ is divided by 7?

@@ -1,0 +1,1 @@
+Problem: Juan takes a number, adds $2$ to it, multiplies the answer by $2$, subtracts $2$ from the result, and finally divides that number by $2$. If his answer is $7$, what was the original number?

@@ -1,0 +1,1 @@
+Problem: Suppose $\sqrt{1 + \sqrt{2y-3}} = \sqrt{6}$; find $y$.

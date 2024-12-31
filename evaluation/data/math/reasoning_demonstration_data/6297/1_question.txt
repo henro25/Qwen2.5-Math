@@ -1,0 +1,1 @@
+Problem: Let $A = (-3, 0),$ $B=(-2,1),$ $C=(2,1),$ and $D=(3,0).$ Suppose that point $P$ satisfies \[PA + PD = PB + PC = 8.\]Then the $y-$coordinate of $P,$ when simplified, can be expressed in the form $\frac{-a + b \sqrt{c}}{d},$ where $a,$ $b,$ $c,$ $d$ are positive integers.  Find $a + b + c + d.$

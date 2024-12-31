@@ -1,0 +1,1 @@
+Problem: The positive four-digit integers that use each of the four digits $1,$ $2,$ $3,$ and $4$ exactly once are ordered from least to greatest. What is the $15^{\text{th}}$ integer in the list?

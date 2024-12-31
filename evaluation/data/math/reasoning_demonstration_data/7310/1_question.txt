@@ -1,0 +1,2 @@
+Problem: Find the maximum value of
+\[\cos \theta_1 \sin \theta_2 + \cos \theta_2 \sin \theta_3 + \cos \theta_3 \sin \theta_4 + \cos \theta_4 \sin \theta_5 + \cos \theta_5 \sin \theta_1,\]over all real numbers $\theta_1,$ $\theta_2,$ $\theta_3,$ $\theta_4,$ and $\theta_5.$

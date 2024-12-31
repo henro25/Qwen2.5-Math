@@ -1,0 +1,1 @@
+Problem: A club has 10 members, 5 boys and 5 girls.  Two of the members are chosen at random.  What is the probability that they are both girls?

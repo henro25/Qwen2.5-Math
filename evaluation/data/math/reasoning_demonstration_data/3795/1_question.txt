@@ -1,0 +1,1 @@
+Problem: How many positive two-digit integers are there in which each of the two digits is prime?

@@ -1,0 +1,1 @@
+Problem: What is the sum of all values of $y$ for which the expression $\frac{y+6}{y^2-5y+4}$ is undefined?

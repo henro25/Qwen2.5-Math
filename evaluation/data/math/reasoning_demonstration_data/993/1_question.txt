@@ -1,0 +1,1 @@
+Problem: The sum of a negative integer $N$ and its square is 6. What is the value of $N$?

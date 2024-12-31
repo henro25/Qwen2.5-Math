@@ -1,0 +1,1 @@
+Problem: The difference between two perfect squares is 133.  What is the smallest possible sum of the two perfect squares?

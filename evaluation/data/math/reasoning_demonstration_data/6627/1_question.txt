@@ -1,0 +1,1 @@
+Problem: What is the diameter of the circle inscribed in triangle $ABC$ if $AB = 11,$ $AC=6,$ and $BC=7$? Express your answer in simplest radical form.

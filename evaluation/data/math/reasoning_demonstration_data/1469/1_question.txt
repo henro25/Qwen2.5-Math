@@ -1,0 +1,1 @@
+Problem: What numeral is in the 100th decimal place in the decimal representation of $\frac{6}{7}$?

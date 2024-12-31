@@ -1,0 +1,1 @@
+Problem: Find $\cos \frac{5 \pi}{4}.$

@@ -1,0 +1,1 @@
+Problem: What is the volume of the region in three-dimensional space defined by the inequalities $|x|+|y|+|z|\le1$ and $|x|+|y|+|z-1|\le1$?

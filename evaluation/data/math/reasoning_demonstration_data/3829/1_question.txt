@@ -1,0 +1,1 @@
+Problem: The quantity $\sqrt{45} - 2\sqrt{5} + \frac{\sqrt{360}}{\sqrt{2}}$ can be expressed as $\sqrt{N}$, where $N$ is an integer. Find $N$.

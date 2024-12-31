@@ -1,0 +1,1 @@
+Problem: In any month with five Mondays, a school declares the fifth Monday a Marvelous Monday. School begins on Monday, September 4. What is the date of the first Marvelous Monday after school starts? (If you abbreviate, do not use a dot in the abbreviation.)

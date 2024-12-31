@@ -1,0 +1,1 @@
+Problem: Suppose that $x,$ $y,$ and $z$ are three positive numbers that satisfy the equations $xyz = 1,$ $x + \frac {1}{z} = 5,$ and $y + \frac {1}{x} = 29.$ Find $z + \frac {1}{y}.$

@@ -1,0 +1,1 @@
+Problem: A polynomial $p(x)$ is called self-centered if it has integer coefficients and $p(100) = 100.$  If $p(x)$ is a self-centered polynomial, what is the maximum number of integer solutions $k$ to the equation $p(k) = k^3$?

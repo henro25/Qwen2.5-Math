@@ -1,0 +1,1 @@
+Problem: Sarah is trying to fence a rectangular area containing at least 100 sq. ft while using the least amount of material to build the fence. The length of the rectangular area should be 15 ft longer than the width. What should the width, in ft, be?

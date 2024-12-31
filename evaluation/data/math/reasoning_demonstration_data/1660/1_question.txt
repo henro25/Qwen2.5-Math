@@ -1,0 +1,2 @@
+Problem: Let $a_1,$ $a_2,$ $\dots$ be a sequence of positive real numbers such that
+\[a_n = 11a_{n - 1} - n\]for all $n > 1.$  Find the smallest possible value of $a_1.$

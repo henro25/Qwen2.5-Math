@@ -1,0 +1,2 @@
+Problem: Find all values of $x > 4$ which satisfy
+\[\sqrt{x - 4 \sqrt{x - 4}} + 2 = \sqrt{x + 4 \sqrt{x - 4}} - 2.\]

@@ -1,0 +1,1 @@
+Problem: How many non-similar triangles have angles whose degree measures are distinct positive integers in  arithmetic progression?

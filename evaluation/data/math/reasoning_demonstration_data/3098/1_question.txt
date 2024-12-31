@@ -1,0 +1,2 @@
+Problem: Compute
+\[\frac{(1 + 17) \left( 1 + \dfrac{17}{2} \right) \left( 1 + \dfrac{17}{3} \right) \dotsm \left( 1 + \dfrac{17}{19} \right)}{(1 + 19) \left( 1 + \dfrac{19}{2} \right) \left( 1 + \dfrac{19}{3} \right) \dotsm \left( 1 + \dfrac{19}{17} \right)}.\]

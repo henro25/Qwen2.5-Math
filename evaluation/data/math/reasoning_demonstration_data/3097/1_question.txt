@@ -1,0 +1,1 @@
+Problem: If $a+b = 6$ and $a - b = 2$, what is the value of $a^2 - b^2$?

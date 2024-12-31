@@ -1,0 +1,1 @@
+Problem: What is the value of $\displaystyle\frac{235^2-221^2}{14}$?

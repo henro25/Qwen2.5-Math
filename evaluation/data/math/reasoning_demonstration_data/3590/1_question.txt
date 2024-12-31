@@ -1,0 +1,1 @@
+Problem: Let $p$ and $q$ be the two distinct solutions to the equation $$\frac{4x-12}{x^2+2x-15}=x+2.$$If $p > q$, what is the value of $p - q$?

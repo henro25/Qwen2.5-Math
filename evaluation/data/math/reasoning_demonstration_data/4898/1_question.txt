@@ -1,0 +1,1 @@
+Problem: Jamie has a jar of coins containing the same number of nickels, dimes and quarters. The total value of the coins in the jar is $\$$13.20. How many nickels does Jamie have?

@@ -1,0 +1,1 @@
+Problem: For what positive value of $t$ is $|{-4+ti}| = 2\sqrt{13}$?

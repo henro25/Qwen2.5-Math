@@ -1,0 +1,13 @@
+Problem: The region between the graph of $y = f (x)$ and the $x$-axis, shaded in this figure, has an area of 10 square units. What will be the area between the graph of $y = 3f (x -2)$ and the $x$-axis?
+
+[asy]
+defaultpen(linewidth(0.75));
+fill((10,0)..(30,20)..(40,15)--(50,40)..(58,39)--(70,0)--cycle,gray(.7));
+draw((10,0)..(30,20)..(40,15)--(50,40)..(58,39)--(70,0)--cycle);
+draw((-15,0)--(80,0),Arrow);
+draw((0,-10)--(0,50),Arrow);
+draw((10,0)--(8.5,-7),Arrow);
+draw((70,0)--(72,-7),Arrow);
+label("$y = f(x)$",(5,65),S);
+label("$x$",(80,-8));
+[/asy]

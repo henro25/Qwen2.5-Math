@@ -1,0 +1,2 @@
+Problem: Find $k$ if
+\[(\sin \alpha + \csc \alpha)^2 + (\cos \alpha + \sec \alpha)^2 = k + \tan^2 \alpha + \cot^2 \alpha.\]

@@ -1,0 +1,2 @@
+Problem: Let $x$ and $y$ be positive real numbers such that $3x + 4y < 72.$  Find the maximum value of
+\[xy (72 - 3x - 4y).\]

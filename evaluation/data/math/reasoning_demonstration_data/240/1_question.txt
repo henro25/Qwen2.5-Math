@@ -1,0 +1,1 @@
+Problem: If we write $\sqrt{5}+\frac{1}{\sqrt{5}} + \sqrt{7} + \frac{1}{\sqrt{7}}$ in the form $\dfrac{a\sqrt{5} + b\sqrt{7}}{c}$ such that $a$, $b$, and $c$ are positive integers and $c$ is as small as possible, then what is $a+b+c$?

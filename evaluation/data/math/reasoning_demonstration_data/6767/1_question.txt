@@ -1,0 +1,1 @@
+Problem: Find the monic quadratic polynomial, in $x,$ with real coefficients, which has $-2 - i \sqrt{5}$ as a root.

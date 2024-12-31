@@ -1,0 +1,1 @@
+Problem: Interior numbers begin in the third row of Pascal's Triangle. The sum of the interior numbers in the fourth row is 6. The sum of the interior numbers of the fifth row is 14. What is the sum of the interior numbers of the seventh row?

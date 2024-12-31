@@ -1,0 +1,1 @@
+Problem: Solve \[\frac{2x+4}{x^2+4x-5}=\frac{2-x}{x-1}\]for $x$.

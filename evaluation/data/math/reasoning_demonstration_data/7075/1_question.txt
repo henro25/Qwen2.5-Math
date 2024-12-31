@@ -1,0 +1,1 @@
+Problem: What is the smallest four-digit positive integer that is divisible by 47?

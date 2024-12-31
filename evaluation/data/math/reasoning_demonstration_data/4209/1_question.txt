@@ -1,0 +1,1 @@
+Problem: What is the remainder when $5^{207}$ is divided by 7?

@@ -1,0 +1,1 @@
+Problem: The sum of the squares of three consecutive positive integers is 7805. What is the sum of the cubes of the three original integers?

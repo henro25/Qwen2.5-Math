@@ -1,0 +1,1 @@
+Problem: Three positive integers are each greater than $1$, have a product of $ 27000 $, and are pairwise relatively prime. What is their sum?

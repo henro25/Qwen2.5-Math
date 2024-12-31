@@ -1,0 +1,6 @@
+Problem: Let $g(x)$ be a function piecewise defined as \[g(x) = \left\{
+\begin{array}{cl}
+-x & x\le 0, \\
+2x-41 & x>0.
+\end{array}
+\right.\] If $a$ is negative, find $a$ so that $g(g(g(10.5)))=g(g(g(a)))$.

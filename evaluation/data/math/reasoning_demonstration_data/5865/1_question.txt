@@ -1,0 +1,2 @@
+Problem: Find all the solutions to
+\[\sqrt[3]{15x - 1} + \sqrt[3]{13x + 1} = 4 \sqrt[3]{x}.\]Enter all the solutions, separated by commas.

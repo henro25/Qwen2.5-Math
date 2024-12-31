@@ -1,0 +1,1 @@
+Problem: Let $x$ be a positive real number such that $x + \frac{1}{x} = 98.$  Find\[\sqrt{x} + \frac{1}{\sqrt{x}}.\]

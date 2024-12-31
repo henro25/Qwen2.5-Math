@@ -1,0 +1,1 @@
+Problem: The number 74 can be factored as 2(37), so 74 is said to have two distinct prime factors. How many distinct prime factors does 210 have?

@@ -1,0 +1,3 @@
+Problem: [asy] draw(circle((0,6sqrt(2)),2sqrt(2)),black+linewidth(.75)); draw(circle((0,3sqrt(2)),sqrt(2)),black+linewidth(.75)); draw((-8/3,16sqrt(2)/3)--(-4/3,8sqrt(2)/3)--(0,0)--(4/3,8sqrt(2)/3)--(8/3,16sqrt(2)/3),dot); MP("B",(-8/3,16*sqrt(2)/3),W);MP("B'",(8/3,16*sqrt(2)/3),E); MP("A",(-4/3,8*sqrt(2)/3),W);MP("A'",(4/3,8*sqrt(2)/3),E); MP("P",(0,0),S); [/asy]
+Two circles are externally tangent. Lines $\overline{PAB}$ and $\overline{PA'B'}$ are common tangents with $A$ and $A'$ on the smaller circle $B$ and $B'$ on the larger circle. If $PA=AB=4$, then the area of the smaller circle is
+$\text{(A) } 1.44\pi\quad \text{(B) } 2\pi\quad \text{(C) } 2.56\pi\quad \text{(D) } \sqrt{8}\pi\quad \text{(E) } 4\pi$

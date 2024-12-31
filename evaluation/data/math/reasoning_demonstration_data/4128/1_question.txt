@@ -1,0 +1,2 @@
+Problem: We can write
+\[\sum_{k = 1}^{100} (-1)^k \cdot \frac{k^2 + k + 1}{k!} = \frac{a}{b!} - c,\]where $a,$ $b,$ and $c$ are positive integers.  Find the smallest possible value of $a + b + c.$

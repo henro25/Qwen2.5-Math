@@ -1,0 +1,2 @@
+Problem: The curve $y = \sin x$ cuts the line whose equation is $y = \sin 70^\circ$ into segments having the successive ratios
+\[\dots p : q : p : q \dots\]with $p < q.$  Compute the ordered pair of relatively prime positive integers $(p,q).$

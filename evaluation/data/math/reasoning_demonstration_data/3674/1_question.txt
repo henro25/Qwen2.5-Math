@@ -1,0 +1,2 @@
+Problem: Find the matrix $\mathbf{M}$ such that
+\[\mathbf{M} \mathbf{v} = \begin{pmatrix} 5 \\ 2 \\ -8 \end{pmatrix} \times \mathbf{v}\]for all vectors $\mathbf{v}.$

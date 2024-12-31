@@ -1,0 +1,10 @@
+Problem: In the diagram, each circle is divided into two equal areas and $O$ is the center of the larger circle. The area of the larger circle is $64\pi.$ What is the total area of the shaded regions? [asy]
+size(100);
+import graph;
+fill(Arc((0,0),2,180,360)--cycle,mediumgray);fill(Arc((0,1),1,0,180)--cycle,mediumgray);
+draw(Circle((0,0),2));
+draw(Circle((0,1),1));
+
+dot((0,0)); label("$O$",(0,0),N);
+draw((-2,0)--(2,0)); draw((-1,1)--(1,1));
+[/asy]

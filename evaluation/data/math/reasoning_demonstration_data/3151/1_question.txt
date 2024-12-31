@@ -1,0 +1,1 @@
+Problem: How many four-digit numbers $N$ have the property that the three-digit number obtained by removing the leftmost digit is one ninth of $N$?

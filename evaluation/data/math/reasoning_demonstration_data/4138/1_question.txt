@@ -1,0 +1,1 @@
+Problem: Find the sum of all integral values of $c$ with $c\le 25$ for which the equation $y=x^2-7x-c$ has two rational roots.

@@ -1,0 +1,2 @@
+Problem: Find the smallest positive real number $c,$ such that for all nonnegative real numbers $x$ and $y,$
+\[\sqrt{xy} + c |x - y| \ge \frac{x + y}{2}.\]

@@ -1,0 +1,1 @@
+Problem: The base $9$ representation of a positive integer is $AB$ and its base $7$ representation is $BA$. What is the integer expressed in base $10$?

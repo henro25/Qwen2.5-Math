@@ -1,0 +1,1 @@
+Problem: You are given that $3^{400}\equiv 1\pmod{1000}$. What are the last three digits of $3^{12000}$?

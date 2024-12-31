@@ -1,0 +1,1 @@
+Problem: The Gnollish language consists of 3 words, ``splargh,'' ``glumph,'' and ``amr.''  In a sentence, ``splargh'' cannot come directly before ``glumph''; all other sentences are grammatically correct (including sentences with repeated words).  How many valid 3-word sentences are there in Gnollish?

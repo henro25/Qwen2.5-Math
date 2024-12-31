@@ -1,0 +1,3 @@
+Problem: Let $m$ be the product of all positive integers less than $4!$ which are invertible modulo $4!$. Find the remainder when $m$ is divided by $4!$.
+
+(Here $n!$ denotes $1\times\cdots\times n$ for each positive integer $n$.)

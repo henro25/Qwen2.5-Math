@@ -1,0 +1,1 @@
+Problem: What is the smallest integer $n$, greater than $1$, such that $n^{-1}\pmod{1050}$ is defined?

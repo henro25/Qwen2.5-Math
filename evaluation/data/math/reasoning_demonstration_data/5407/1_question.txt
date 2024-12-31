@@ -1,0 +1,1 @@
+Problem: Mr. Sanchez's students were asked to add two positive integers. Juan subtracted by mistake and got 2. Maria mistakenly multiplied and got 120. What was the correct answer?

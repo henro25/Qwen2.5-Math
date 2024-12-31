@@ -1,0 +1,2 @@
+Problem: Suppose that $f(x)$ is a function such that
+\[f(xy) + x = xf(y) + f(x)\]for all real numbers $x$ and $y.$  If $f(-1) = 5$ then compute $f(-1001).$

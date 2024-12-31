@@ -1,0 +1,1 @@
+Problem: Max picks two different cards without replacement from a standard 52-card deck. What is the probability that the cards are of different suits?

@@ -1,0 +1,1 @@
+Problem: Find all values of $x$ that satisfy the equation $|x-3|=2x+4$. Express your answers in simplest fractional form.

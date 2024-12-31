@@ -1,0 +1,1 @@
+Problem: How many different two-person sub-committees can be selected from a committee of six people (the order of choosing the people does not matter)?

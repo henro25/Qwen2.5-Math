@@ -1,0 +1,1 @@
+Problem: How many integers are solutions to the equation $$(x-2)^{(25-x^2)}=1?$$

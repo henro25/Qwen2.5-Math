@@ -1,0 +1,1 @@
+Problem: What is the period of $y = \tan \frac{x}{2}$?

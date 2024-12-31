@@ -1,0 +1,1 @@
+Problem: If $2x+7$ is a factor of $6x^3+19x^2+cx+35$, find $c$.

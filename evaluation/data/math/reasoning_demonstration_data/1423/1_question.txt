@@ -1,0 +1,1 @@
+Problem: How many positive integers smaller than $1{,}000{,}000$ are powers of $2$, but are not powers of $8$? You may find it useful to consider that $2^{10}=1024$.

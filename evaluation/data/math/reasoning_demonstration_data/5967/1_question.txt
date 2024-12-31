@@ -1,0 +1,1 @@
+Problem: Compute the sum of the geometric series $-1 + 2 - 4 + 8 - \cdots + 512$.

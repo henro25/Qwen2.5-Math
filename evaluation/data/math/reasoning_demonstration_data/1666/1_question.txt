@@ -1,0 +1,1 @@
+Problem: Among all triangles $ABC,$ find the maximum value of $\sin A + \sin B \sin C.$

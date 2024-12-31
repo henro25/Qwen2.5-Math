@@ -1,0 +1,1 @@
+Problem: Find $\left|\left(1+i\right)^6\right|$.

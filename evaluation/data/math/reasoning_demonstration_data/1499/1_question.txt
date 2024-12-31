@@ -1,0 +1,2 @@
+Problem: Among all the roots of
+\[z^8 - z^6 + z^4 - z^2 + 1 = 0,\]the maximum imaginary part of a root can be expressed as $\sin \theta,$ where $-90^\circ \le \theta \le 90^\circ.$  Find $\theta.$

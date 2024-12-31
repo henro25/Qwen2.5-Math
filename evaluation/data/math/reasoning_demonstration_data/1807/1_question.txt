@@ -1,0 +1,2 @@
+Problem: Find all complex numbers $z$ such that
+\[z^2 = -77 - 36i.\]Enter all complex numbers, separated by commas.

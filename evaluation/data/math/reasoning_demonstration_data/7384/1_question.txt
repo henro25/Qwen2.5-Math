@@ -1,0 +1,1 @@
+Problem: What is the least four-digit positive integer, with all different digits, that is divisible by each of its digits?

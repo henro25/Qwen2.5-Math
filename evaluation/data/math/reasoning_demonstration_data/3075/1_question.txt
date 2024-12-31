@@ -1,0 +1,1 @@
+Problem: What is the ones digit of $1^{2009} + 2^{2009} + 3^{2009} + \cdots + 2009^{2009}?$

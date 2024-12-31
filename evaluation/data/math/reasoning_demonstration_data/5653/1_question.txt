@@ -1,0 +1,2 @@
+Problem: Five people are sitting at a round table. Let $f\geq 0$ be the number of people sitting next to at least 1 female and $m\geq0$ be the number of people sitting next to at least one male. The number of possible ordered pairs $(f,m)$ is
+$\mathrm{(A) \ 7 } \qquad \mathrm{(B) \ 8 } \qquad \mathrm{(C) \ 9 } \qquad \mathrm{(D) \ 10 } \qquad \mathrm{(E) \ 11 }$

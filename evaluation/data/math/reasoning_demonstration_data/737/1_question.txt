@@ -1,0 +1,3 @@
+Problem: If $\mathbf{a}$ and $\mathbf{b}$ are vectors such that $\|\mathbf{a}\| = 7$ and $\|\mathbf{b}\| = 11$, then find all possible values of $\mathbf{a} \cdot \mathbf{b}$.
+
+Submit your answer in interval notation.

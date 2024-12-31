@@ -1,0 +1,1 @@
+Problem: Simplify $(3-2i)^2$. (Your answer should be of the form $a+bi$.)

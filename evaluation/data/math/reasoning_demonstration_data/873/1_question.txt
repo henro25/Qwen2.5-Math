@@ -1,0 +1,12 @@
+Problem: If $\angle A=20^\circ$ and $\angle AFG=\angle AGF,$ then how many degrees is $\angle B+\angle D?$ [asy]
+/* AMC8 2000 #24 Problem */
+pair A=(0,80), B=(46,108), C=(100,80), D=(54,18), E=(19,0);
+draw(A--C--E--B--D--cycle);
+label("$A$", A, W);
+label("$B$ ", B, N);
+label("$C$", shift(7,0)*C);
+label("$D$", D, SE);
+label("$E$", E, SW);
+label("$F$", (23,43));
+label("$G$", (35, 86));
+[/asy]

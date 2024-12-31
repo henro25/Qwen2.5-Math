@@ -1,0 +1,1 @@
+Problem: If $n$ is $1$ less than a multiple of $50$, then what is the remainder when $n^2+2n+3$ is divided by $50$?

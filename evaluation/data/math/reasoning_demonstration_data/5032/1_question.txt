@@ -1,0 +1,11 @@
+Problem: A circular spinner for a game has a radius of 5 cm. The probability of winning on one spin of this spinner is $\frac{2}{5}$. What is the area, in sq cm, of the WIN sector? Express your answer in terms of $\pi$.
+
+[asy]import graph;
+draw(Circle((0,0),25),black);
+draw((0,0)--(7,18),Arrow);
+draw((0,0)--(0,25));
+draw((0,0)--(15,-20));
+label("WIN",(10,10),S);
+label("LOSE",(-8,-8),N);
+dot((0,0));
+[/asy]

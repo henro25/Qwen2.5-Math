@@ -1,0 +1,2 @@
+Problem: There exists a scalar $c$ so that
+\[\mathbf{i} \times (\mathbf{v} \times \mathbf{i}) + \mathbf{j} \times (\mathbf{v} \times \mathbf{j}) + \mathbf{k} \times (\mathbf{v} \times \mathbf{k}) = c \mathbf{v}\]for all vectors $\mathbf{v}.$  Find $c.$

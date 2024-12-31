@@ -1,0 +1,1 @@
+Problem: What is the total volume in cubic feet of three boxes if each box is a cube with edge length 4 feet?

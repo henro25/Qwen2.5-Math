@@ -1,0 +1,1 @@
+Problem: If $x \diamondsuit y = 3x + 5y$ for all $x$ and $y$, then what is the value of $2 \diamondsuit 7$?

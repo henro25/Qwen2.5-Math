@@ -1,0 +1,1 @@
+Problem: $f(x)$ is a monic polynomial such that $f(0)=4$ and $f(1)=10$. If $f(x)$ has degree $2$, what is $f(x)$? Express your answer in the form $ax^2+bx+c$, where $a$, $b$, and $c$ are real numbers.

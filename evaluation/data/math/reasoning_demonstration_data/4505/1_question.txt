@@ -1,0 +1,14 @@
+Problem: In the diagram, $\triangle XYZ$ is right-angled at $X,$ with $YX=60$ and $XZ=80.$ The point $W$ is on $YZ$ so that $WX$ is perpendicular to $YZ.$ Determine the length of $WZ.$ [asy]
+pair X, Y, Z, W;
+Y=(0,0);
+X=(36,48);
+Z=(100,0);
+W=(36,0);
+draw(X--Y--Z--X--W);
+label("Y", Y, SW);
+label("X", X, N);
+label("W", W, S);
+label("Z", Z, SE);
+label("60", (X+Y)/2, NW);
+label("80", (X+Z)/2, NE);
+[/asy]

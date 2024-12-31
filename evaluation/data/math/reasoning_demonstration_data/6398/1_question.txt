@@ -1,0 +1,1 @@
+Problem: On the refrigerator, MATHEMATICS is spelled out with $11$ magnets, one letter per magnet. Two vowels and four consonants fall off and are put away in a bag. If the T's, M's, and A's are indistinguishable, how many distinct possible collections of letters could be put in the bag?

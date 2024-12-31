@@ -1,0 +1,1 @@
+Problem: In Chemistry class, Samantha finds that she can make a certain solution by mixing $.04$ liters of chemical A with $.02$ liters of water (this gives her $.06$ liters of the solution). She wants to make a total of $.48$ liters of this new solution.  To do so, how many liters of water will she use?

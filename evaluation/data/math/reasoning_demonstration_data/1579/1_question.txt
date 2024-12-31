@@ -1,0 +1,1 @@
+Problem: All positive integers whose digits add up to 11 are listed in increasing order:  $29, 38, 47, ...$. What is the eleventh number in that list?

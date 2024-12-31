@@ -1,0 +1,1 @@
+Problem: The number of gallons of coffee a mathematician drinks on any given day is inversely proportional to how much sleep he gets the night before. On Monday, he got 9 hours of sleep and drank 2 gallons of coffee. On Tuesday, he got 6 hours of sleep. How many gallons of coffee did he drink?

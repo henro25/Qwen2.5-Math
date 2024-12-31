@@ -1,0 +1,1 @@
+Problem: A triangle has three different integer side lengths and a perimeter of 20 units. What is the maximum length of any one side?

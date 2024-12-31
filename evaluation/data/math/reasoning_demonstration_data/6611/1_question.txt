@@ -1,0 +1,1 @@
+Problem: What is the coefficient of $x^5$ in the expansion of $(2x+3)^7$?

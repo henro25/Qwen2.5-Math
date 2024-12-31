@@ -1,0 +1,20 @@
+Problem: Part of the graph of $f(x) = ax^3 + bx^2 + cx + d$ is shown. What is $b$?
+
+[asy]
+unitsize(1.5 cm);
+
+real func(real x) {
+  return((x + 1)*(x - 1)*(x - 2));
+}
+
+draw(graph(func,-1.1,1.5));
+draw((-1.5,0)--(1.5,0),Arrows(6));
+draw((0,-1)--(0,2.5),Arrows(6));
+
+label("$x$", (1.5,0), E);
+label("$f(x)$", (0,2.5), N);
+
+dot("$(-1,0)$", (-1,0), SE, fontsize(10));
+dot("$(1,0)$", (1,0), SW, fontsize(10));
+dot("$(0,2)$", (0,2), NE, fontsize(10));
+[/asy]

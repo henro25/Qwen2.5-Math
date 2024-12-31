@@ -1,0 +1,1 @@
+Problem: The volume of a given sphere is $36\pi$ cubic inches. How many square inches are in its surface area? Express your answer in terms of $\pi$.

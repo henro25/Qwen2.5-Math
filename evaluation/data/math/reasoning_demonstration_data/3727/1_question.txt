@@ -1,0 +1,1 @@
+Problem: If $x^2+x+4 = y - 4$ and $x = -7$, what is the value of $y$?

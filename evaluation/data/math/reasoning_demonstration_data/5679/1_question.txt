@@ -1,0 +1,1 @@
+Problem: An infinite geometric series has common ratio $-1/5$ and sum $16.$  What is the first term of the series?

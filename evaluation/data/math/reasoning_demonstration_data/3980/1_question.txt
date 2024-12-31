@@ -1,0 +1,1 @@
+Problem: Given that the graphs of $y=h(x)$ and $y=j(x)$ intersect at $(2,2),$ $(4,6),$ $(6,12),$ and $(8,12),$ there is one point where the graphs of $y=h(2x)$ and $y=2j(x)$ must intersect. What is the sum of the coordinates of that point?

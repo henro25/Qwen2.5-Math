@@ -1,0 +1,1 @@
+Problem: Compute $\arccos (\sin 2).$  All functions are in radians.

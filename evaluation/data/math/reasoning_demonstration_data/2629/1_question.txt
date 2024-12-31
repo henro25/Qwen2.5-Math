@@ -1,0 +1,2 @@
+Problem: Let $f(x)$ be a polynomial such that
+\[f(x^2 + 1) = x^4 + 4x^2.\]Find $f(x^2 - 1).$

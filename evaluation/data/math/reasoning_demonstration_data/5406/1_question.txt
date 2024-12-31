@@ -1,0 +1,1 @@
+Problem: The equation of the line that passes through the points $(-3,5)$ and $(0,-4)$ can be expressed in the form $y=mx+b$. What is the value of $m+b$?

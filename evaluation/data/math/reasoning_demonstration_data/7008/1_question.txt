@@ -1,0 +1,1 @@
+Problem: Find $a$ such that $ax^2+12x+9$ is the square of a binomial.

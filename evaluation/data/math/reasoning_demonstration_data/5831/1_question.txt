@@ -1,0 +1,1 @@
+Problem: What is the volume, in cubic inches, of a rectangular box, whose faces have areas of $24$ square inches, $16$ square inches and $6$ square inches?

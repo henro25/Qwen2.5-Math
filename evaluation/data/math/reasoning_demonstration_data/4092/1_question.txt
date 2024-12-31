@@ -1,0 +1,2 @@
+Problem: Let $x$ and $y$ be positive real numbers.  Find the minimum value of
+\[\left( x + \frac{1}{y} \right) \left( x + \frac{1}{y} - 2018 \right) + \left( y + \frac{1}{x} \right) \left( y + \frac{1}{x} - 2018 \right).\]

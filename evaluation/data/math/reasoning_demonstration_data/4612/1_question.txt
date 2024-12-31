@@ -1,0 +1,1 @@
+Problem: What is the largest value of $x$ that satisfies the equation $\sqrt{2x}=4x$? Express your answer in simplest fractional form.

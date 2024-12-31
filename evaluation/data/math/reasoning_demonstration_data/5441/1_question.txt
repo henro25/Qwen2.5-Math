@@ -1,0 +1,16 @@
+Problem: Let $x$ and $y$ be two distinct positive real numbers.  We define three sequences $(A_n),$ $(G_n),$ and $(H_n)$ as follows.  First, $A_1,$ $G_1,$ and $H_1$ are the arithmetic mean, geometric mean, and harmonic mean of $x$ and $y,$ respectively.  Then for $n \ge 2,$ $A_n,$ $G_n,$ $H_n$ are the arithmetic mean, geometric mean, and harmonic mean of $A_{n - 1}$ and $H_{n - 1},$ respectively.
+
+Consider the following statements:
+
+1. $A_1 > A_2 > A_3 > \dotsb.$
+2. $A_1 = A_2 = A_3 = \dotsb.$
+4. $A_1 < A_2 < A_3 < \dotsb.$
+8. $G_1 > G_2 > G_3 > \dotsb.$
+16. $G_1 = G_2 = G_3 = \dotsb.$
+32. $G_1 < G_2 < G_3 < \dotsb.$
+64. $H_1 > H_2 > H_3 > \dotsb.$
+128. $H_1 = H_2 = H_3 = \dotsb.$
+256. $H_1 < H_2 < H_3 < \dotsb.$
+
+
+Enter the labels of the statements that must hold.  For example, if you think the statements labeled 2, 8, and 64 are true, enter $2 + 8 + 64 = 74.$

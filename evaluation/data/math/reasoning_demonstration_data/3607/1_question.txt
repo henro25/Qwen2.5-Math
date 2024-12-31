@@ -1,0 +1,1 @@
+Problem: What is the smallest possible real value of $x^2 + 8x$?

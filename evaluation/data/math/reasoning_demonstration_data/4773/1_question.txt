@@ -1,0 +1,1 @@
+Problem: Two different  numbers are selected simultaneously and at random from the set $\{1, 2, 3, 4, 5, 6, 7\}$. What is the probability that the positive difference between the two numbers is $2$ or greater? Express your answer as a common fraction.

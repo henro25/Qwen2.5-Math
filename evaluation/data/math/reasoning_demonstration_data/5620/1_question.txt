@@ -1,0 +1,1 @@
+Problem: Four distinct points, $A$, $B$, $C$, and $D$, are to be selected from $1996$ points evenly spaced around a circle. All quadruples are equally likely to be chosen. What is the probability that the chord $\overline{AB}$ intersects the chord $\overline{CD}$?

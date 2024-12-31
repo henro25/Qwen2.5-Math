@@ -1,0 +1,1 @@
+Problem: What is the smallest positive integer $n$ such that $531n \equiv 1067n \pmod{24}?$

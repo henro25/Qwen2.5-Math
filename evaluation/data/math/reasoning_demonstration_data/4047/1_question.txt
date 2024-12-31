@@ -1,0 +1,1 @@
+Problem: If $0.8= \frac{y}{186+x}$, find the smallest value of $x$, if $x$ and $y$ are positive integers.

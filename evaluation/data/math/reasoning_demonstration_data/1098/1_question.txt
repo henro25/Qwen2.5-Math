@@ -1,0 +1,1 @@
+Problem: Suppose that $\alpha$ is inversely proportional to $\beta$.  If $\alpha = 4$ when $\beta = 9$, find $\alpha$ when $\beta = -72$.

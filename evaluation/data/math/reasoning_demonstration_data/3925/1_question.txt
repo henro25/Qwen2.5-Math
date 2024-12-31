@@ -1,0 +1,25 @@
+Problem: Sandy's daughter has a playhouse in the back yard. She plans to cover the one shaded exterior wall and the two rectangular faces of the roof, also shaded, with a special siding to resist the elements. The siding is sold only in 8-foot by 12-foot sections that cost $\$27.30$ each. If Sandy can cut the siding when she gets home, how many dollars will be the cost of the siding Sandy must purchase?
+
+[asy]
+import three;
+size(101);
+currentprojection=orthographic(1/3,-1,1/2);
+real w = 1.5;
+real theta = pi/4;
+string dottedline = "2 4";
+draw(surface((0,0,0)--(8,0,0)--(8,0,6)--(0,0,6)--cycle),gray(.7)+opacity(.5));
+draw(surface((0,0,6)--(0,5cos(theta),6+5sin(theta))--(8,5cos(theta),6+5sin(theta))--(8,0,6)--cycle),gray(.7)+opacity(.5));
+draw(surface((0,5cos(theta),6+5sin(theta))--(8,5cos(theta),6+5sin(theta))--(8,10cos(theta),6)--(0,10cos(theta),6)--cycle),gray
+
+(.7)+opacity(.5));
+draw((0,0,0)--(8,0,0)--(8,0,6)--(0,0,6)--cycle,black+linewidth(w));
+draw((0,0,6)--(0,5cos(theta),6+5sin(theta))--(8,5cos(theta),6+5sin(theta))--(8,0,6)--cycle,black+linewidth(w));
+draw((8,0,0)--(8,10cos(theta),0)--(8,10cos(theta),6)--(8,5cos(theta),6+5sin(theta)),linewidth(w));
+draw((0,0,0)--(0,10cos(theta),0)--(0,10cos(theta),6)--(0,0,6),linetype(dottedline));
+draw((0,5cos(theta),6+5sin(theta))--(0,10cos(theta),6)--(8,10cos(theta),6)--(8,0,6),linetype(dottedline));
+draw((0,10cos(theta),0)--(8,10cos(theta),0),linetype(dottedline));
+label("8' ",(4,5cos(theta),6+5sin(theta)),N);
+label("5' ",(0,5cos(theta)/2,6+5sin(theta)/2),NW);
+label("6' ",(0,0,3),W);
+label("8' ",(4,0,0),S);
+[/asy]

@@ -1,0 +1,3 @@
+Problem: Find the roots of $z^2 - z = 5 - 5i.$
+
+Enter the roots, separated by commas.

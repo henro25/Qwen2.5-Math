@@ -1,0 +1,1 @@
+Problem: The sequence 1,000,000; 500,000; 250,000 and so on, is made by repeatedly dividing by 2. What is the last integer in this sequence?

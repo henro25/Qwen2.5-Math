@@ -1,0 +1,1 @@
+Problem: Using the digits 1, 2, 3, 4, 5, how many even three-digit numbers less than 500 can be formed if each digit can be used more than once?

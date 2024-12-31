@@ -1,0 +1,1 @@
+Problem: A valid license plate in Xanadu consists of two letters followed by three digits. How many valid license plates are possible?

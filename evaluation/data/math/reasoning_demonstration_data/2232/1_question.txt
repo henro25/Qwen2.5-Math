@@ -1,0 +1,1 @@
+Problem: The longer leg of a right triangle is $1$ foot shorter than twice the length of the shorter leg. The area of the triangle is $60$ square feet. What is the length of the hypotenuse, in feet?

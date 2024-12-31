@@ -1,0 +1,1 @@
+Problem: How many even three-digit integers  have the property that their digits, read left to right, are in strictly increasing order (each digit is greater than the previous digit)?

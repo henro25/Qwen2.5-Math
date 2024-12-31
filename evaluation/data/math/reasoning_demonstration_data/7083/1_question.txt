@@ -1,0 +1,1 @@
+Problem: There are constants $\alpha$ and $\beta$ such that $\frac{x-\alpha}{x+\beta} = \frac{x^2-80x+1551}{x^2+57x-2970}$. What is $\alpha+\beta$?

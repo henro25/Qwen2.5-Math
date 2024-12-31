@@ -1,0 +1,1 @@
+Problem: Find the greatest natural number $n$ such that $n\leq 2008$ and $(1^2+2^2+3^2+\cdots + n^2)\left[(n+1)^2+(n+2)^2+(n+3)^2+\cdots + (2n)^2\right]$ is a perfect square.

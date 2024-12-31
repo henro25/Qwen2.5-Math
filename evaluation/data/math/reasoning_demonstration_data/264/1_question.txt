@@ -1,0 +1,1 @@
+Problem: What is $35_8-74_8?$ Express your answer in base 8.

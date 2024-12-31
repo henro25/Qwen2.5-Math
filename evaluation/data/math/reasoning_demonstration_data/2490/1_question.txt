@@ -1,0 +1,1 @@
+Problem: There are two pairs $(x,y)$ of real numbers that satisfy the equation $x+y = 3xy = 4$. Given that the solutions $x$ are in the form $x = \frac{a \pm b\sqrt{c}}{d}$ where $a$, $b$, $c$, and $d$ are positive integers and the expression is completely simplified, what is the value of $a + b + c + d$?

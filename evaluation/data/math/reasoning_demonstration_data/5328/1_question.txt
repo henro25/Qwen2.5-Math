@@ -1,0 +1,1 @@
+Problem: If $\Diamond4_7=\Diamond1_{8}$ and $\Diamond$ represents a digit, solve for $\Diamond$.

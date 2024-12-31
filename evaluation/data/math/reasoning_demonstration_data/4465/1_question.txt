@@ -1,0 +1,1 @@
+Problem: A rectangle measures 6 meters by 10 meters. Drawn on each side of the rectangle is a semicircle that has the endpoints of its diameter on the vertices of the rectangle. What percent larger is the area of the large semicircles than the area of the small semicircles? Express your answer to the nearest whole number.

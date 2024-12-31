@@ -1,0 +1,1 @@
+Problem: Suppose $f(x)=\frac{3}{2-x}$. If $g(x)=\frac{1}{f^{-1}(x)}+9$, find $g(3)$.

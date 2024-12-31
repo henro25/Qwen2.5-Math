@@ -1,0 +1,1 @@
+Problem: The equation $x^2-4x+7=19$ has two solutions, $a$ and $b$, with $a\geq b$. What is the value of $2a+b$?

@@ -1,0 +1,1 @@
+Problem: How many square units are in the area of the triangle whose vertices are the $x$ and $y$ intercepts of the curve $y = (x-3)^2 (x+2)$?

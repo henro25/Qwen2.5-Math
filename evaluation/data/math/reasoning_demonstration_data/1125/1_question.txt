@@ -1,0 +1,1 @@
+Problem: Find the distance between the points (0,15) and (8,0).

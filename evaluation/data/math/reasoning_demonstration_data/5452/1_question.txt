@@ -1,0 +1,1 @@
+Problem: Expand the product ${(2x+3)(x+5)}$.

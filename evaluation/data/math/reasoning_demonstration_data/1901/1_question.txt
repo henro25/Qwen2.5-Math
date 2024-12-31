@@ -1,0 +1,1 @@
+Problem: Find \[\left|\left(3 + \sqrt{7}i\right)^3\right|\]

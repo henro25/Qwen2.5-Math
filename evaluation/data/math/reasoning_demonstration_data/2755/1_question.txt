@@ -1,0 +1,1 @@
+Problem: Given that $x$ is a multiple of $15336$, what is the greatest common divisor of $f(x)=(3x+4)(7x+1)(13x+6)(2x+9)$ and $x$?

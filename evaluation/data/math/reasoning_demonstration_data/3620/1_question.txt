@@ -1,0 +1,1 @@
+Problem: How many of the natural numbers from 1 to 600, inclusive, contain the digit 5 at least once? (The numbers 152 and 553 are two natural numbers that contain the digit 5 at least once, but 430 is not.)

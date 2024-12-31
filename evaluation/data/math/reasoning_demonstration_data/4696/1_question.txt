@@ -1,0 +1,1 @@
+Problem: What is the 39th number in the row of Pascal's triangle that has 41 numbers?

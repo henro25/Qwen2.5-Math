@@ -1,0 +1,1 @@
+Problem: When flipping a fair coin, what is the probability that the first two flips are both heads? Express your answer as a common fraction.

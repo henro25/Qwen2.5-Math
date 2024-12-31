@@ -1,0 +1,2 @@
+Problem: The function $f : \mathbb{R} \to \mathbb{R}$ satisfies
+\[f(x) + 2f(1 - x) = 3x^2\]for all $x.$  Find $f(4).$

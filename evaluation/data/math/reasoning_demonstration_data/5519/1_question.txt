@@ -1,0 +1,3 @@
+Problem: Let $P$ be a point on the line
+\[\begin{pmatrix} 3 \\ -1 \\ 2 \end{pmatrix} + t \begin{pmatrix} 2 \\ -2 \\ 1 \end{pmatrix}\]and let $Q$ be a point on the line
+\[\begin{pmatrix} 0 \\ 0 \\ 4 \end{pmatrix} + s \begin{pmatrix} 1 \\ 2 \\ -1 \end{pmatrix}.\]Find the shortest possible distance $PQ.$

@@ -1,0 +1,1 @@
+Problem: Find the domain of the expression $\frac{\sqrt{x-2}}{\sqrt{5-x}}$.

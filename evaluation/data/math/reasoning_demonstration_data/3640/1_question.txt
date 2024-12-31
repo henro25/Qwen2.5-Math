@@ -1,0 +1,1 @@
+Problem: If $f(n) = n^2 + n + 17$, what is the value of $f(11)$?

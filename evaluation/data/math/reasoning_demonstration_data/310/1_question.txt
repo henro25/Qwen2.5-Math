@@ -1,0 +1,1 @@
+Problem: Let $a\star b = ab+2b-a$. If $5\star x = 37$, find the value of $x$.

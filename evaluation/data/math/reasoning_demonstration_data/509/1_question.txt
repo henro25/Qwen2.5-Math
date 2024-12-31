@@ -1,0 +1,1 @@
+Problem: What is the least four-digit whole number that is both a perfect square and a perfect cube?

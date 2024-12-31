@@ -1,0 +1,17 @@
+Problem: Angle $EAB$ is a right angle, and $BE=9$ units. What is the number of square units in the sum of the areas of the two squares $ABCD$ and $AEFG$?
+
+[asy]
+draw((0,0)--(1,1)--(0,2)--(-1,1)--cycle);
+draw((0,2)--(2,4)--(0,6)--(-2,4)--cycle);
+draw((1,1)--(2,4));
+draw((-1,1)--(-2,4));
+
+label("A", (0,2), S);
+label("B", (1,1), SE);
+label("C", (0,0), S);
+label("D", (-1,1), SW);
+label("E", (2,4), NE);
+label("F", (0,6), N);
+label("G", (-2,4), NW);
+label("9", (1.5, 2.5), SE);
+[/asy]

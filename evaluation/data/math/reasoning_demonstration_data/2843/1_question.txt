@@ -1,0 +1,2 @@
+Problem: The value of
+\[\frac{n}{2} + \frac{18}{n}\]is smallest for which positive integer $n$?

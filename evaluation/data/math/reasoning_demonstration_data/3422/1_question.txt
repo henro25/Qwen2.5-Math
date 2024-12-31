@@ -1,0 +1,1 @@
+Problem: In the equation $w^3+x^3+y^3=z^3$, $w^3$, $x^3$, $y^3$, and $z^3$ are distinct, consecutive positive perfect cubes listed in ascending order. What is the smallest possible value of $z$?

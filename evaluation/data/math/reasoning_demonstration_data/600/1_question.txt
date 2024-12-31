@@ -1,0 +1,1 @@
+Problem: What is the largest integer less than $\log_2 \frac{2}{1} + \log_2 \frac{3}{2} + \cdots + \log_2 \frac{2009}{2008} + \log_2 \frac{2010}{2009}$?

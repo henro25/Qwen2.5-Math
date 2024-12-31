@@ -1,0 +1,1 @@
+Problem: A cylinder has a radius of 3 cm and a height of 8 cm. What is the longest segment, in centimeters, that would fit inside the cylinder?

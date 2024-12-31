@@ -1,0 +1,1 @@
+Problem: What is the shortest distance between the circles defined by $x^2-10x +y^2-4y-7=0$ and $x^2+14x +y^2+6y+49=0$?

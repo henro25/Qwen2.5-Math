@@ -1,0 +1,1 @@
+Problem: What is the product of all the coordinates of all the points of intersection of the two circles defined by $x^2-2x +y^2-10y+25=0$ and $x^2-8x+y^2-10y+37=0$?

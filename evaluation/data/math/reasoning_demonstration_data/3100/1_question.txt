@@ -1,0 +1,1 @@
+Problem: Express $(4-5i)(-5+5i)$ in the form $a+bi$, where $a$ and $b$ are integers and $i^2 = -1.$

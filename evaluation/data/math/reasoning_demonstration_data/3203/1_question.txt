@@ -1,0 +1,1 @@
+Problem: The probability it will rain on Saturday is $60\%$, and the probability it will rain on Sunday is $25\%$. If the probability of rain on a given day is independent of the weather on any other day, what is the probability it will rain on both days, expressed as a percent?

@@ -1,0 +1,1 @@
+Problem: The fifth and eighth terms of a geometric sequence of real numbers are $7!$ and $8!$ respectively. What is the first term?

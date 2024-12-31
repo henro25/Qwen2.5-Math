@@ -1,0 +1,2 @@
+Problem: Simplify
+\[\frac{\sin x + \sin 2x}{1 + \cos x + \cos 2x}.\]

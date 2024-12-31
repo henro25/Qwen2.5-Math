@@ -1,0 +1,1 @@
+Problem: A large sphere has a volume of $288\pi$ cubic units.  A smaller sphere has a volume which is $12.5\%$ of the volume of the larger sphere.  What is the ratio of the radius of the smaller sphere to the radius of the larger sphere? Express your answer as a common fraction.

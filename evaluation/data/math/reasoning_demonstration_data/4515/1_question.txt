@@ -1,0 +1,1 @@
+Problem: Find $x$, where $x$ is a square number which is divisible by four, and between 39 and 80.

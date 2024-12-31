@@ -1,0 +1,2 @@
+Problem: Two solutions of
+\[x^4 - 3x^3 + 5x^2 - 27x - 36 = 0\]are pure imaginary.  Enter these solutions, separated by commas.

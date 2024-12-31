@@ -1,0 +1,18 @@
+Problem: A 4-inch by 6-inch picture is enlarged for framing  by tripling its dimensions.  A 2-inch-wide border  is then placed around each side of the enlarged  picture, as shown.  Thin metal framing is sold only  in increments of one foot.  What is the minimum  number of linear feet of framing that must be  purchased to go around the perimeter of the border?
+
+[asy]
+
+draw((0,0)--(14,0)--(14,20)--(0,20)--cycle,linewidth(2));
+
+draw((4,4)--(10,4)--(10,16)--(4,16)--cycle);
+
+label("border",(7,17),N);
+
+label("picture",(7,8),N);
+
+label("frame",(14,5),E);
+
+draw((17.5,7.5)--(14.5,7.5),Arrow);
+draw((10.5,7.5)--(13.5,7.5),Arrow);
+
+[/asy]

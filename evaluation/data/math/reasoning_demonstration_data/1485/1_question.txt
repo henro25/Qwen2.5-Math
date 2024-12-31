@@ -1,0 +1,1 @@
+Problem: Find the sum of $327_8$ and $73_8$ in base $8$.

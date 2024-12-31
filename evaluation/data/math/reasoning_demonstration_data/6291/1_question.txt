@@ -1,0 +1,1 @@
+Problem: On Monday, Jessica told two friends a secret. On Tuesday, each of those friends told the secret to two other friends. Each time a student heard the secret, he or she told the secret to two other friends the following day. On what day of the week will 1023 students know the secret?

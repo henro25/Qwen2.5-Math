@@ -1,0 +1,3 @@
+Problem: A function $f(x)$ is defined for all real numbers $x$. For all non-zero values $x$, we have
+\[2f\left(x\right) + f\left(\frac{1}{x}\right) = 5x + 4\]
+Let $S$ denote the sum of all of the values of $x$ for which $f(x) = 2004$. Compute the integer nearest to $S$.

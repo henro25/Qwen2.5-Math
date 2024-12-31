@@ -1,0 +1,1 @@
+Problem: Compute $\sqrt{2^2\cdot 3^4}$.

@@ -1,0 +1,1 @@
+Problem: Find $\tan \frac{9 \pi}{4}.$

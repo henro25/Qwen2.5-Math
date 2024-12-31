@@ -1,0 +1,1 @@
+Problem: Ten standard 6-sided dice are rolled.  What is the probability that exactly one of the dice shows a 1?  Express your answer as a decimal rounded to the nearest thousandth.

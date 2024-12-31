@@ -1,0 +1,2 @@
+Problem: The matrix
+\[\begin{pmatrix} a & 3 \\ -8 & d \end{pmatrix}\]is its own inverse, for some real numbers $a$ and $d.$  Find the number of possible pairs $(a,d).$

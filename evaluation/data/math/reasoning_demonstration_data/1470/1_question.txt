@@ -1,0 +1,1 @@
+Problem: I have 10 distinguishable socks in my drawer: 4 white, 4 brown, and 2 blue.  In how many ways can I choose a pair of socks, provided that I get two socks of the same color?

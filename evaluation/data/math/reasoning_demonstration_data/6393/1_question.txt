@@ -1,0 +1,9 @@
+Problem: Wei has designed a logo for his new company using circles and a large square, as shown.  Each circle is tangent to two sides of the square and its two adjacent circles.  If he wishes to create a version of this logo that is 20 inches on each side, how many square inches will be shaded?
+
+[asy]
+size(100);
+draw((0,0)--(4,0)--(4,4)--(0,4)--cycle);
+fill((0,0)--(4,0)--(4,4)--(0,4)--cycle,grey);
+draw(circle((1,1),1)); draw(circle((3,1),1)); draw(circle((1,3),1)); draw(circle((3,3),1));
+fill(circle((1,1),1),white); fill(circle((3,1),1),white); fill(circle((1,3),1),white); fill(circle((3,3),1),white);
+[/asy]

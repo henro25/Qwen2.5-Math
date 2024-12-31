@@ -1,0 +1,2 @@
+Problem: Let $f(x)$ be a polynomial of degree 2006 with real coefficients, and let its roots be $r_1,$ $r_2,$ $\dots,$ $r_{2006}.$  There are exactly 1006 distinct values among
+\[|r_1|, |r_2|, \dots, |r_{2006}|.\]What is the minimum number of real roots that $f(x)$ can have?

@@ -1,0 +1,1 @@
+Problem: A collection of five positive integers has mean 4.4, unique mode 3 and median 4. If an 8 is added to the collection, what is the new median? Express your answer as a decimal to the nearest tenth.

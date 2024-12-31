@@ -1,0 +1,5 @@
+Problem: Let $n$ represent the smallest integer that satisfies the following conditions:
+$\frac n2$ is a perfect square.
+$\frac n3$ is a perfect cube.
+$\frac n5$ is a perfect fifth.
+How many divisors does $n$ have that are not multiples of 10?

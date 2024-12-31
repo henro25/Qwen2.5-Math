@@ -1,0 +1,21 @@
+Problem: Quadrilateral $ABCD$ is a square. A circle with center $D$ has arc $AEC$. A circle with center $B$ has arc $AFC$. If $AB = 2$ cm, what is the total number of square centimeters in the football-shaped area of regions II and III combined? Express your answer as a decimal to the nearest tenth.
+
+[asy]
+path a=(7,13)..(0,0)--(20,20)..cycle;
+path b=(13,7)..(0,0)--(20,20)..cycle;
+draw(a);
+draw(b);
+dot((8.6,3.5));
+label("F",(8.6,3.5),SE);
+label("E",(11.4,16.5),NW);
+dot((11.4,16.5));
+draw((0,0)--(20,0)--(20,20)--(0,20)--cycle);
+label("$A$",(0,0),SW);
+label("$B$",(0,20),NW);
+label("$C$",(20,20),NE);
+label("$D$",(20,0),SE);
+label("I",(2,19),S);
+label("II",(9,13),S);
+label("III",(11,7),N);
+label("IV",(18,1),N);
+[/asy]

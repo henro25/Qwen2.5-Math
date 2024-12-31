@@ -1,0 +1,1 @@
+Problem: Margaret started a stamp collection. She collected 8 stamps the first day. Each subsequent day she collected 8 more stamps than she had collected the previous day. If she collected stamps for 5 consecutive days, what was the average number of stamps collected per day?

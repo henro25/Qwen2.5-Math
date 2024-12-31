@@ -1,0 +1,2 @@
+Problem: The matrix
+\[\begin{pmatrix} \frac{4}{29} & -\frac{10}{29} \\ -\frac{10}{29} & \frac{25}{29} \end{pmatrix}\]corresponds to projecting onto a certain vector $\begin{pmatrix} x \\ y \end{pmatrix}.$  Find $\frac{y}{x}.$

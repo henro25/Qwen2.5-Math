@@ -1,0 +1,1 @@
+Problem: A bowl contains 10 jellybeans (four red, one blue and five white). If you pick three jellybeans from the bowl at random and without replacement, what is the probability that exactly two will be red? Express your answer as a common fraction.

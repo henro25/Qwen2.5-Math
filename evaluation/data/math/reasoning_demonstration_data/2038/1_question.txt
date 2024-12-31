@@ -1,0 +1,1 @@
+Problem: Polygon $ABCDEF$ is a regular hexagon. What is the measure in degrees of angle $ABF$?

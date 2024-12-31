@@ -1,0 +1,3 @@
+Problem: Alice and Bob are playing the Smallest Positive Integer Game. Alice says, "My number is 24." Bob says, "What kind of silly smallest number is that? Every prime factor of your number is also a prime factor of my number."
+
+What is the smallest possible number that Bob could have? (Remember that Bob's number has to be a positive integer!)

@@ -1,0 +1,1 @@
+Problem: A geometric sequence of positive integers is formed for which the first term is 2 and the fifth term is 162. What is the sixth term of the sequence?

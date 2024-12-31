@@ -1,0 +1,2 @@
+Problem: There is an angle $\theta$ in the range $0^\circ < \theta < 45^\circ$ which satisfies
+\[\tan \theta + \tan 2 \theta + \tan 3 \theta = 0.\]Calculate $\tan \theta$ for this angle.

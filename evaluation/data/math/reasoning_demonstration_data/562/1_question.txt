@@ -1,0 +1,2 @@
+Problem: Let $x = \cos \frac{2 \pi}{7} + i \sin \frac{2 \pi}{7}.$  Compute the value of
+\[(2x + x^2)(2x^2 + x^4)(2x^3 + x^6)(2x^4 + x^8)(2x^5 + x^{10})(2x^6 + x^{12}).\]

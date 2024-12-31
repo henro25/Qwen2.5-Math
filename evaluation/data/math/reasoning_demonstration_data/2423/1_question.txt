@@ -1,0 +1,10 @@
+Problem: In the figure, triangles $ABC$ and $BCD$ are equilateral triangles. What is the value of $AD \div BC$ when expressed in simplest radical form?
+
+[asy]
+draw((0,0)--(5,8.7)--(10,0)--cycle);
+draw((10,0)--(15,8.7)--(5,8.7));
+label("$A$",(0,0),SW);
+label("$B$",(5,8.7),N);
+label("$C$",(10,0),SE);
+label("$D$",(15,8.7),NE);
+[/asy]

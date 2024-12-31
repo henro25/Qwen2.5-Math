@@ -1,0 +1,7 @@
+Problem: Let
+\[f(x) = \left\{
+\begin{array}{cl}
+x + 3 & \text{if $x < 20$}, \\
+2x - 2 & \text{if $x \ge 20$}.
+\end{array}
+\right.\]Find $f^{-1}(7) + f^{-1}(46).$

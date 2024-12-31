@@ -1,0 +1,1 @@
+Problem: Among all pairs of real numbers $(x, y)$ such that $\sin \sin x = \sin \sin y$ with $-10 \pi \le x, y \le 10 \pi$, Oleg randomly selected a pair $(X, Y)$.  Compute the probability that $X = Y$.

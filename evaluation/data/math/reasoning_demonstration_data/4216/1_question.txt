@@ -1,0 +1,2 @@
+Problem: The function $f(x)$ satisfies
+\[f(x + y) = f(x) + f(y)\]for all real numbers $x$ and $y,$ and $f(4) = 5.$  Find $f(5).$

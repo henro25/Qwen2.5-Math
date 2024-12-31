@@ -1,0 +1,1 @@
+Problem: Harry, Ron and Neville are having a race on their broomsticks.  If there are no ties, in how many different possible orders can they finish?

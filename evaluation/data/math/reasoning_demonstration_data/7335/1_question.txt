@@ -1,0 +1,1 @@
+Problem: One day Max says to Liz, "Out of the 25 people taking either English or French, you and I are the only two taking both.'' Liz, being mathematically inclined, responds by pointing out that there are exactly twice as many people in the English class as there are in the French class. How many people are taking English but not French?

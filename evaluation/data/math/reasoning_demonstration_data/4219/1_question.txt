@@ -1,0 +1,3 @@
+Problem: Functions that aren't invertible can be made invertible by restricting their domains. For example, the function $x^2$ is invertible if we restrict $x$ to the interval $[0,\infty)$, or to any subset of that interval. In that case, the inverse function is $\sqrt x$. (We could also restrict $x^2$ to the domain $(-\infty,0]$, in which case the inverse function would be $-\sqrt{x}$.)
+
+Similarly, by restricting the domain of the function $f(x) = 2x^2-4x-5$ to an interval, we can make it invertible. What is the largest such interval that includes the point $x=0$?

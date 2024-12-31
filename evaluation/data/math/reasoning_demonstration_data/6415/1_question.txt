@@ -1,0 +1,1 @@
+Problem: In isosceles triangle $\triangle ABC$ we have $AB=AC=4$.  The altitude from $B$ meets $\overline{AC}$ at $H$.  If $AH=3(HC)$ then determine $BC$.

@@ -1,0 +1,1 @@
+Problem: A line is parameterized by a parameter $t,$ so that the vector on the line at $t = 2$ is $\begin{pmatrix} 1 \\ 4 \end{pmatrix},$ and the vector on the line at $t = 3$ is $\begin{pmatrix} 3 \\ -4 \end{pmatrix}.$  Find the vector on the line at $t = -7.$

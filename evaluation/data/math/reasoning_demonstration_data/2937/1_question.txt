@@ -1,0 +1,1 @@
+Problem: Simplify $\frac{\sqrt{2}}{\sqrt{3}} \cdot \frac{\sqrt{4}}{\sqrt{5}} \cdot \frac{\sqrt{6}}{\sqrt{7}}$ and rationalize the denominator of the resulting fraction.

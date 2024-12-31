@@ -1,0 +1,1 @@
+Problem: When two fair 6-sided dice are tossed, the numbers $a$ and $b$ are obtained. What is the probability that the two digit number $ab$ (where $a$ and $b$ are digits) and $a$ and $b$ are all divisible by 3?

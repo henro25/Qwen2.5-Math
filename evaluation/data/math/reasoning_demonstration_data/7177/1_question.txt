@@ -1,0 +1,1 @@
+Problem: What is the area, in square units, of the interior region formed by the lines $y = 2x - 4, y = -3x +16$ and the $y$-axis?

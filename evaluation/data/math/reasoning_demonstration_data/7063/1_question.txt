@@ -1,0 +1,5 @@
+Problem: Cedric has deposited $\$12,\!000$ into an account that pays $5\%$ interest compounded annually.
+
+Daniel has deposited $\$12,\!000$ into an account that pays $7\%$ simple annual interest.
+
+In $15$ years Cedric and Daniel compare their respective balances. To the nearest dollar, what is the positive difference between their balances?

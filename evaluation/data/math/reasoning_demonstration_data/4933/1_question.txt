@@ -1,0 +1,1 @@
+Problem: There are $20n$ members in the Trumpington marching band, and when they line up in rows of 26, there are 4 band members left over. If $n$ is an integer and there are fewer than 1000 band members, what is the maximum number of people that could be in the Trumpington marching band?

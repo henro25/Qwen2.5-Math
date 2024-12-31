@@ -1,0 +1,1 @@
+Problem: A fair 6-sided die is rolled.  If the roll is even, then you win that amount of dollars (so that, for example, if you roll 4, then you win $\$4$).  If the roll is odd, you win nothing.  What is the expected value of your winnings? Express your answer as a dollar value.

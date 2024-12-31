@@ -1,0 +1,15 @@
+Problem: A circle passes through the point $(0,1),$ and is tangent to the parabola $y = x^2$ at $(2,4).$  Find the center of the circle.
+
+[asy]
+unitsize(0.4 cm);
+
+real parab (real x) {
+  return(x^2);
+}
+
+draw(graph(parab,-3.5,3.5));
+draw(Circle((-16/5,53/10),13*sqrt(17)/10));
+
+dot((0,1));
+dot("$(2,4)$", (2,4), E);
+[/asy]

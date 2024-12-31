@@ -1,0 +1,8 @@
+Problem: The figure shown represents a plot of land and is drawn using a scale in which 1 cm equals 2 miles. One square mile is 640 acres. How large is the actual plot of land, in acres? [asy]
+draw((0,0)--(15,0)--(10,10)--(0,10)--cycle);
+draw((0,1)--(1,1)--(1,0));
+draw((0,9)--(1,9)--(1,10));
+label("15 cm",(7.5,0),S);
+label("10 cm",(0,5),W);
+label("10 cm",(5,10),N);
+[/asy]

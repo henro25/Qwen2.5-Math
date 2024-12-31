@@ -1,0 +1,1 @@
+Problem: Eight women of different heights are at a party. Each woman decides to only shake hands with women shorter than herself. How many handshakes take place?

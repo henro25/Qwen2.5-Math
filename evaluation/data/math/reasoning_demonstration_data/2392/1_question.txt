@@ -1,0 +1,1 @@
+Problem: Find the sum of the $x$-coordinates of the solutions to the system of equations $y=|x^2-6x+5|$ and $y=\frac{29}{4}-x$.

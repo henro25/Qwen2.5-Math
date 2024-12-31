@@ -1,0 +1,2 @@
+Problem: How many different rectangles with sides parallel to the grid can be formed by connecting four of the dots in a $4\times 4$ square array of dots, as in the figure below?
+[asy]size(2cm,2cm); for (int i=0; i<4; ++i) { for (int j=0; j<4; ++j) { filldraw(Circle((i, j), .05), black, black); } } [/asy] (Two rectangles are different if they do not share all four vertices.)

@@ -1,0 +1,1 @@
+Problem: A car is averaging 50 miles per hour. If the car maintains this speed, how many minutes less would a 450-mile trip take than a 475-mile trip?

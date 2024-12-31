@@ -1,0 +1,2 @@
+Problem: Find all real numbers $k$ such that
+\[\left\| k \begin{pmatrix} 2 \\ -3 \end{pmatrix} - \begin{pmatrix} 4 \\ 7 \end{pmatrix} \right\| = 2 \sqrt{13}.\]Enter all the solutions, separated by commas.

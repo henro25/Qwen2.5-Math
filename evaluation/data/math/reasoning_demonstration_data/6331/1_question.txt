@@ -1,0 +1,1 @@
+Problem: If $x$, $y$, and $z$ are positive with $xy=20\sqrt[3]{2}$, $xz = 35\sqrt[3]{2}$, and $yz=14\sqrt[3]{2}$, then what is $xyz$?

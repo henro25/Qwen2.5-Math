@@ -1,0 +1,1 @@
+Problem: What is the value of $-a-b^3+ab$ if $a=-3$ and $b=2$?

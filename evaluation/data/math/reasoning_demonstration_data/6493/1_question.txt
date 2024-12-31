@@ -1,0 +1,6 @@
+Problem: According to the data shown, how much cheaper, in cents, is the cheaper store's price for Camera $X$ compared to the more expensive? \begin{tabular}{|l|l|}
+\hline
+\textbf{Store}& \textbf{Sale Price for Camera $X$} \\ \hline
+Super Savers & $\$9$~off the list price~$\$39.96$ \\ \hline
+Penny Wise & $25\%$~off the list price~$\$39.96$ \\ \hline
+\end{tabular}

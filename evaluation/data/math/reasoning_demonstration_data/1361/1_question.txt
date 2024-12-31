@@ -1,0 +1,1 @@
+Problem: How many distinct, natural-number factors does $4^3 \cdot 5^4 \cdot 6^2$ have?

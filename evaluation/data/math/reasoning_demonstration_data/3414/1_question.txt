@@ -1,0 +1,1 @@
+Problem: What is the greatest possible positive integer value of $x$ if $\displaystyle\frac{x^4}{x^2} < 10$?

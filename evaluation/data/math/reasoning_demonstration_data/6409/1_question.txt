@@ -1,0 +1,26 @@
+Problem: Square $ABCD$ is inscribed in the region bound by the parabola $y = x^2 - 8x + 12$ and the $x$-axis, as shown below.  Find the area of square $ABCD.$
+
+[asy]
+unitsize(0.8 cm);
+
+real parab (real x) {
+  return(x^2 - 8*x + 12);
+}
+
+pair A, B, C, D;
+real x = -1 + sqrt(5);
+
+A = (4 - x,0);
+B = (4 + x,0);
+C = (4 + x,-2*x);
+D = (4 - x,-2*x);
+
+draw(graph(parab,1.5,6.5));
+draw(A--D--C--B);
+draw((1,0)--(7,0));
+
+label("$A$", A, N);
+label("$B$", B, N);
+label("$C$", C, SE);
+label("$D$", D, SW);
+[/asy]

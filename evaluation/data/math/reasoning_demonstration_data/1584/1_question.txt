@@ -1,0 +1,1 @@
+Problem: The integer $x$ has 12 positive factors. The numbers 12 and 15 are factors of $x$. What is $x$?

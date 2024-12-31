@@ -1,0 +1,2 @@
+Problem: The expression
+\[a^3 (b^2 - c^2) + b^3 (c^2 - a^2) + c^3 (a^2 - b^2)\]can be factored into the form  $(a - b)(b - c)(c - a) p(a,b,c),$ for some polynomial $p(a,b,c).$  Find $p(a,b,c).$

@@ -1,0 +1,1 @@
+Problem: What is the value of $\frac{14!}{5!9!}$ ?

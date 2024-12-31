@@ -1,0 +1,1 @@
+Problem: Find $a$ if the remainder is constant when $10x^3-7x^2+ax+6$ is divided by $2x^2-3x+1$.

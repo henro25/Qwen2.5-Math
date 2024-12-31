@@ -1,0 +1,1 @@
+Problem: What is the value of $x^2+y^2-z^2+2xy$ when $x=-3$, $y=5$, and $z=-4$?

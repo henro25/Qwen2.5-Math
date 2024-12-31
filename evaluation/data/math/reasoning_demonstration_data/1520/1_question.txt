@@ -1,0 +1,1 @@
+Problem: If $\log_{25}(x-4)=\frac{1}{2}$, find $\frac{1}{\log_{x}3}$.

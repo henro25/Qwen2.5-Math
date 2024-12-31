@@ -1,0 +1,1 @@
+Problem: The surface area of a particular sphere is $324\pi\text{ cm}^2$. What is the volume, in cubic centimeters, of the sphere? Express your answer in terms of $\pi$.

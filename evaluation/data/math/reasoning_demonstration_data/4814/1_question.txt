@@ -1,0 +1,1 @@
+Problem: A sphere is inscribed in a cube. Given that one edge of the cube is 6 inches, how many cubic inches are in the volume of the inscribed sphere? Express your answer in terms of $\pi$.

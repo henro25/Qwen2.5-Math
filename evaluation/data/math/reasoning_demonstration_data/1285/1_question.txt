@@ -1,0 +1,2 @@
+Problem: Find the minimum value of
+\[x^2 + 8x + \frac{64}{x^3}\]for $x > 0.$

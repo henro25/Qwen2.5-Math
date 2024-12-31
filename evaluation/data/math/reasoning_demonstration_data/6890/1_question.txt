@@ -1,0 +1,3 @@
+Problem: Let $x$ and $y$ be real numbers such that
+\[\frac{\sin x}{\cos y} + \frac{\sin y}{\cos x} = 1 \quad \text{and} \quad \frac{\cos x}{\sin y} + \frac{\cos y}{\sin x} = 6.\]Compute
+\[\frac{\tan x}{\tan y} + \frac{\tan y}{\tan x}.\]

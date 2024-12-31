@@ -1,0 +1,9 @@
+Problem: An 8-foot by 10-foot floor is tiled with square tiles of size 1 foot by 1 foot. Each tile has a pattern consisting of four white quarter circles of radius 1/2 foot centered at each corner of the tile. The remaining portion of the tile is shaded. How many square feet of the floor are shaded?
+[asy]
+fill((5,5)--(5,-5)--(-5,-5)--(-5,5)--cycle,gray(0.7));
+fill(Circle((-5,5),5),white);
+fill(Circle((5,5),5),white);
+fill(Circle((-5,-5),5),white);
+fill(Circle((5,-5),5),white);
+draw((-5,5)--(-5,-5)--(5,-5)--(5,5)--cycle);
+[/asy]

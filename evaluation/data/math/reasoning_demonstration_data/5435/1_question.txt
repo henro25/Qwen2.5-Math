@@ -1,0 +1,1 @@
+Problem: Let $P$ be the parabola with equation $y=x^2$ and let $Q = (20, 14)$. There are real numbers $r$ and $s$ such that the line through $Q$ with slope $m$ does not intersect $P$ if and only if $r < m < s.$  What is $r + s$?

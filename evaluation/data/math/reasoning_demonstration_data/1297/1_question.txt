@@ -1,0 +1,1 @@
+Problem: A student accidentally added five to both the numerator and denominator of a fraction, changing the fraction's value to $\frac12$. If the original numerator was a 2, what was the original denominator?

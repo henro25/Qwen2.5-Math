@@ -1,0 +1,1 @@
+Problem: The line $y = 3$ intersects the graph of $y = 4x^2 + x - 1$ at the points $A$ and $B$. The distance between $A$ and $B$ can be written as $\frac{\sqrt{m}}{n}$, where $m$ and $n$ are positive integers that do not share any factors other than one. Find the value of $m - n$.

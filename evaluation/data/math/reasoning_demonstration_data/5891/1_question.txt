@@ -1,0 +1,2 @@
+Problem: Let $x$ and $y$ be real numbers such that $x + y = 3.$  Find the maximum value of
+\[x^4 y + x^3 y + x^2 y + xy + xy^2 + xy^3 + xy^4.\]

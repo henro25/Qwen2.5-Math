@@ -1,0 +1,1 @@
+Problem: Find the $1314^{\text{th}}$ digit past the decimal point in the decimal expansion of $\dfrac{5}{14}$.

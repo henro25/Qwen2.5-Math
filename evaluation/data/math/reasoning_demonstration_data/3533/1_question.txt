@@ -1,0 +1,1 @@
+Problem: Let $a,$ $b,$ and $c$ be constants, and suppose that the inequality \[\frac{(x-a)(x-b)}{x-c} \le 0\]is true if and only if either $x < -4$ or $|x-25| \le 1.$ Given that $a < b,$ find the value of $a + 2b + 3c.$

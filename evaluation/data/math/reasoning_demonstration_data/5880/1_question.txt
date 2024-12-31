@@ -1,0 +1,3 @@
+Problem: In a certain warehouse, there are $1335$ boxes, each containing $39$ books.
+
+Melvin's boss orders him to unpack all the books and repack them so that there are $40$ books in each box. After packing as many such boxes as possible, Melvin has how many books left over?

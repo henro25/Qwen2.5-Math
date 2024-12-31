@@ -1,0 +1,11 @@
+Problem: According to the table below, how many dollars are in the median value of the 59 salaries paid to this company's employees?
+
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Position Title}&\textbf{\# with Title}&\textbf{Salary}\\\hline
+President&1&$\$130{,}000$\\\hline
+Vice-President&5&$\$90{,}000$\\\hline
+Director&10&$\$75{,}000$\\\hline
+Associate Director&6&$\$50{,}000$\\\hline
+Administrative Specialist&37&$\$23{,}000$\\\hline
+\end{tabular}

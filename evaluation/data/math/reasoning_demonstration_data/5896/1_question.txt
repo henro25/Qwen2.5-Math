@@ -1,0 +1,1 @@
+Problem: The greatest common divisor of two integers is $(x+2)$ and their least common multiple is $x(x+2)$, where $x$ is a positive integer. If one of the integers is 24, what is the smallest possible value of the other one?

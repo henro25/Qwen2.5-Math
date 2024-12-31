@@ -1,0 +1,1 @@
+Problem: Find a monic polynomial of degree $4,$ in $x,$ with rational coefficients such that $\sqrt{2} +\sqrt{3}$ is a root of the polynomial.

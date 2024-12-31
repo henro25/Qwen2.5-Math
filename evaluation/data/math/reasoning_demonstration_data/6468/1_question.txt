@@ -1,0 +1,1 @@
+Problem: Solve for $x>0$ in the following arithmetic sequence: $1^2, x^2, 3^2, \ldots$.

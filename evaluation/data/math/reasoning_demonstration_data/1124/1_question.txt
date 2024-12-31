@@ -1,0 +1,1 @@
+Problem: What is the area enclosed by the region defined by the equation $x^2+y^2+6x+8y=0$?

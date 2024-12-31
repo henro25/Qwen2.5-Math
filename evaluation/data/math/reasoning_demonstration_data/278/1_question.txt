@@ -1,0 +1,1 @@
+Problem: Compute the sum of the squares of the roots of the equation \[x^{2018} +44x^{2015} + 3x^3 + 404 = 0.\]

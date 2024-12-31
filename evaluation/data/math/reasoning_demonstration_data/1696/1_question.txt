@@ -1,0 +1,1 @@
+Problem: A line contains the points $(-1, 6)$, $(6, k)$ and $(20, 3)$. What is the value of $k$?

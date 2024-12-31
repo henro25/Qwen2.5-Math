@@ -1,0 +1,1 @@
+Problem: Express $\sin (a + b) - \sin (a - b)$ as the product of trigonometric functions.

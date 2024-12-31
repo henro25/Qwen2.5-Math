@@ -1,0 +1,1 @@
+Problem: What is the value of $a$ if the lines $2y - 2a = 6x$ and $y + 1 = (a + 6)x$ are parallel?

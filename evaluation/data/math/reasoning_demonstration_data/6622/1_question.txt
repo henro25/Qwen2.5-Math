@@ -1,0 +1,1 @@
+Problem: Find the product of all positive integer values of $c$ such that $8x^2+15x+c=0$ has two real roots.

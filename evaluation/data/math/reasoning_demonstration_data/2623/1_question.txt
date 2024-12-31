@@ -1,0 +1,1 @@
+Problem: Completely factor the expression: $$x^8-256$$

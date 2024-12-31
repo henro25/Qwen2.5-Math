@@ -1,0 +1,9 @@
+Problem: Sets $A$ and $B$, shown in the Venn diagram, are such that the total number of elements in set $A$ is twice the total number of elements in set $B$. Altogether, there are 3011 elements in the union of $A$ and $B$, and their intersection has 1000 elements. What is the total number of elements in set $A$?
+
+[asy]
+label("$A$", (2,67));
+label("$B$", (80,67));
+draw(Circle((30,45), 22));
+draw(Circle((58, 45), 22));
+label("1000", (44, 45));
+[/asy]

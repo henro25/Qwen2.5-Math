@@ -1,0 +1,1 @@
+Problem: Find the number of ordered 17-tuples $(a_1, a_2, a_3, \dots, a_{17})$ of integers, such that the square of any number in the 17-tuple is equal to the sum of the other 16 numbers.

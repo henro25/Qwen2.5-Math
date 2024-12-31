@@ -1,0 +1,1 @@
+Problem: A paperboy delivers newspapers to 10 houses along Main Street. Wishing to save effort, he doesn't always deliver to every house, but to avoid being fired he never misses three consecutive houses. Compute the number of ways the paperboy could deliver papers in this manner.

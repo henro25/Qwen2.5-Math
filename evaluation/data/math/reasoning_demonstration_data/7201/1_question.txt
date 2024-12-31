@@ -1,0 +1,13 @@
+Problem: In the diagram, rectangle $PQRS$ is divided into three identical squares. If $PQRS$ has perimeter 120 cm, what is its area, in square centimeters? [asy]
+
+size(4cm);
+
+pair p = (0, 1); pair q = (3, 1); pair r = (3, 0); pair s = (0, 0);
+
+draw(p--q--r--s--cycle);
+
+draw(shift(1) * (p--s)); draw(shift(2) * (p--s));
+
+label("$P$", p, NW); label("$Q$", q, NE); label("$R$", r, SE); label("$S$", s, SW);
+
+[/asy]

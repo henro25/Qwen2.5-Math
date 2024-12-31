@@ -1,0 +1,1 @@
+Problem: Find all $x$ such that $x^2+5x<6$. Express your answer in interval notation.

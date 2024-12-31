@@ -1,0 +1,11 @@
+Problem: The planet Xavier follows an elliptical orbit with its sun at one focus.  At its nearest point (perigee), it is 2 astronomical units (AU) from the sun, while at its furthest point (apogee) it is 12 AU away.  When Xavier is midway along its orbit, as shown, how far is it from the sun, in AU?
+
+[asy]
+unitsize(1 cm);
+
+path ell = xscale(2)*arc((0,0),1,-85,265);
+
+filldraw(Circle((0,-1),0.1));
+filldraw(Circle((-1.4,0),0.2),yellow);
+draw(ell,Arrow(6));
+[/asy]

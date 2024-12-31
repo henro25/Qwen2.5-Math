@@ -1,0 +1,1 @@
+Problem: Suppose that $a$ and $b$ are positive integers such that $a-b=6$ and $\text{gcd}\left(\frac{a^3+b^3}{a+b}, ab\right) = 9$. Find the smallest possible value of $b$.

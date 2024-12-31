@@ -1,0 +1,1 @@
+Problem: Suppose that $a$ and $b$ are nonzero real numbers, and that the equation $x^2+ax+b=0$ has solutions $a$ and $b$.  Find the ordered pair $(a,b).$

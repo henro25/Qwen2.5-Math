@@ -1,0 +1,1 @@
+Problem: What is the value of $y$ in the equation $\frac{30}{50}=\sqrt{\frac{y}{50}}$?

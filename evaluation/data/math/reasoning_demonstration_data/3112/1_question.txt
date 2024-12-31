@@ -1,0 +1,22 @@
+Problem: Arc $AC$ is a quarter-circle with center $B$. The shaded region $ABC$ is "rolled" along a straight board $PQ$ until it reaches its original orientation for the first time with point $B$ landing at point $B^{\prime}$. If $BC = \frac{2}{\pi}$ cm, what is the length of the path that point $B$ travels? Express your answer in simplest form.
+
+[asy]
+
+filldraw((0,0)--(-1,0)..dir(135)..(0,1)--(0,0)--cycle,gray,linewidth(2));
+draw((0,1)..dir(45)..(1,0),dashed);
+
+draw((1-7/25,24/25)--(1+17/25,31/25)..(1-7/25,24/25)+dir(-30)..(1,0)--(1-7/25,24/25)--cycle,dashed);
+
+draw((3.5,0)--(2.5,0)..(3.5,0)+dir(135)..(3.5,1)--(3.5,0)--cycle,dashed);
+
+draw((-1.5,0)--(4,0),linewidth(2));
+
+label("P",(-1.5,0),W);
+label("A",(-1,0),S);
+label("B",(0,0),S);
+label("C",(0,1),N);
+
+label("A$^{\prime}$",(2.5,0),S);
+label("B$^{\prime}$",(3.5,0),S);
+label("Q",(4,0),E);
+[/asy]

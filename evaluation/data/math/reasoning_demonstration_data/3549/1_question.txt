@@ -1,0 +1,1 @@
+Problem: What is the least three-digit positive integer that has 2, 5 and 7 as factors?

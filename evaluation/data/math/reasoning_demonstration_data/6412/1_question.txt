@@ -1,0 +1,1 @@
+Problem: There are 2011 positive numbers with both their sum and the sum of their reciprocals equal to 2012.  Let $x$ be one of these numbers.  Find the maximum value of $x + \frac{1}{x}.$

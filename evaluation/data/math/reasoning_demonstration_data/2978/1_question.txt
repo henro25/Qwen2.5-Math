@@ -1,0 +1,1 @@
+Problem: The product of two positive three-digit palindromes is 436,995. What is their sum?

@@ -1,0 +1,1 @@
+Problem: Define a function $A(m, n)$ by \[ A(m,n) = \left\{ \begin{aligned} &n+1& \text{ if } m = 0 \\ &A(m-1, 1) & \text{ if } m > 0 \text{ and } n = 0 \\ &A(m-1, A(m, n-1))&\text{ if } m > 0 \text{ and } n > 0. \end{aligned} \right.\]Compute $A(2, 1).$

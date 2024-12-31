@@ -1,0 +1,1 @@
+Problem: Find the units digit of $n$ given that $mn = 21^6$ and $m$ has a units digit of 7.

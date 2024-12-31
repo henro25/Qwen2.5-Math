@@ -1,0 +1,2 @@
+Problem: Find the polynomial $p(x),$ with real coefficients, such that $p(2) = 5$ and
+\[p(x) p(y) = p(x) + p(y) + p(xy) - 2\]for all real numbers $x$ and $y.$

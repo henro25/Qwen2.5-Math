@@ -1,0 +1,17 @@
+Problem: A region is bounded by semicircular arcs constructed on the side of a square whose sides measure $2/\pi$, as shown. What is the perimeter of this region? [asy]
+path a=(10,0)..(5,5)--(5,-5)..cycle;
+path b=(0,10)..(5,5)--(-5,5)..cycle;
+path c=(-10,0)..(-5,5)--(-5,-5)..cycle;
+path d=(0,-10)..(-5,-5)--(5,-5)..cycle;
+path e=(5,5)--(5,-5)--(-5,-5)--(-5,5)--cycle;
+fill(e,gray(0.6));
+fill(a,gray(0.8));
+fill(b,gray(0.8));
+fill(c,gray(0.8));
+fill(d,gray(0.8));
+draw(a,linewidth(0.7));
+draw(b,linewidth(0.7));
+draw(c,linewidth(0.7));
+draw(d,linewidth(0.7));
+draw(e,linewidth(0.7));
+[/asy]

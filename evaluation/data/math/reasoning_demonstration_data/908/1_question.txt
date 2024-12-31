@@ -1,0 +1,2 @@
+Problem: Let $a$ and $b$ be angles such that $\cos a + \cos b = \frac{1}{2}$ and $\sin a + \sin b = \frac{3}{11}.$  Find
+\[\tan \left( \frac{a + b}{2} \right).\]

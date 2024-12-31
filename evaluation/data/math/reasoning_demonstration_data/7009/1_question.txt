@@ -1,0 +1,1 @@
+Problem: If $x - y = 12$ and $x + y = 6$, what is the value of $y$?

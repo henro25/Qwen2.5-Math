@@ -1,0 +1,1 @@
+Problem: Express $1.\overline{03}$ as a reduced fraction, given that $0.\overline{01}$ is $\frac{1}{99}$.

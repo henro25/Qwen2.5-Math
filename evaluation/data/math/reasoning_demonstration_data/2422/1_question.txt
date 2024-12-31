@@ -1,0 +1,1 @@
+Problem: What real number is equal to the expression $2 + \frac{4}{1 + \frac{4}{2 + \frac{4}{1 + \cdots}}}$, where the $1$s and the $2$s alternate?

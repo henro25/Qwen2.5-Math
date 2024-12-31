@@ -1,0 +1,24 @@
+Problem: The orthocenter of triangle $ABC$ divides altitude $\overline{CF}$ into segments with lengths $HF = 6$ and $HC = 15.$  Calculate $\tan A \tan B.$
+
+[asy]
+unitsize (1 cm);
+
+pair A, B, C, D, E, F, H;
+
+A = (0,0);
+B = (5,0);
+C = (4,4);
+D = (A + reflect(B,C)*(A))/2;
+E = (B + reflect(C,A)*(B))/2;
+F = (C + reflect(A,B)*(C))/2;
+H = extension(A,D,B,E);
+
+draw(A--B--C--cycle);
+draw(C--F);
+
+label("$A$", A, SW);
+label("$B$", B, SE);
+label("$C$", C, N);
+label("$F$", F, S);
+dot("$H$", H, W);
+[/asy]

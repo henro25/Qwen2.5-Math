@@ -1,0 +1,1 @@
+Problem: The value of the expression  \[(3^{1001}+4^{1002})^2-(3^{1001}-4^{1002})^2\]is $k\cdot12^{1001}$ for some positive integer $k$. What is $k$?

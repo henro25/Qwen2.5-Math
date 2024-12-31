@@ -1,0 +1,1 @@
+Problem: If $a$,$b$, and $c$ are positive real numbers such that $a(b+c) = 152$, $b(c+a) = 162$, and $c(a+b) = 170$, then find $abc.$

@@ -1,0 +1,1 @@
+Problem: There are four distinct positive integers $a,b,c,d$ less than $8$ which are invertible modulo $8$. Find the remainder when $(abc+abd+acd+bcd)(abcd)^{-1}$ is divided by $8$.

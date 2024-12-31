@@ -1,0 +1,2 @@
+Problem: Find the domain of the function
+\[f(x) = \sqrt{1 - \sqrt{2 - \sqrt{3 - x}}}.\]

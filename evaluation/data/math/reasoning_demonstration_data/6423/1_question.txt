@@ -1,0 +1,3 @@
+Problem: A positive real number $x$ is such that \[
+\sqrt[3]{1-x^3} + \sqrt[3]{1+x^3} = 1.
+\]Find $x^6.$

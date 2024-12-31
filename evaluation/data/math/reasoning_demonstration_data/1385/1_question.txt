@@ -1,0 +1,2 @@
+Problem: Find the maximum value of
+\[y = \tan \left( x + \frac{2 \pi}{3} \right) - \tan \left( x + \frac{\pi}{6} \right) + \cos \left( x + \frac{\pi}{6} \right)\]for $-\frac{5 \pi}{12} \le x \le -\frac{\pi}{3}.$

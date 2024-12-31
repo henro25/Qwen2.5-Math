@@ -1,0 +1,1 @@
+Problem: Calculate $\frac{1}{4} \cdot \frac{2}{5} \cdot \frac{3}{6} \cdot \frac{4}{7} \cdots \frac{49}{52} \cdot \frac{50}{53}$. Express your answer as a common fraction.

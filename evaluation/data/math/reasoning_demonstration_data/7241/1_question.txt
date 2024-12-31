@@ -1,0 +1,1 @@
+Problem: A number is chosen at random from the set of consecutive natural numbers $\{1, 2, 3, \ldots, 24\}$. What is the probability that the number chosen is a factor of $4!$? Express your answer as a common fraction.

@@ -1,0 +1,1 @@
+Problem: Find the last two digits of the following sum: $$5! + 10! + 15! + \cdots + 100!$$

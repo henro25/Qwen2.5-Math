@@ -1,0 +1,1 @@
+Problem: The line $y - x \sqrt{3} + 3 = 0$ intersects the parabola $2y^2 = 2x + 3$ at points $A$ and $B.$  Let $P = (\sqrt{3},0).$  Find $|AP - BP|.$

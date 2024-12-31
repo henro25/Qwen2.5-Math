@@ -1,0 +1,1 @@
+Problem: Given that $-7$ is a solution to $x^2 + bx -28 = 0$, what is the value of $b$?

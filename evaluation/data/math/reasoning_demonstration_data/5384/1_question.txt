@@ -1,0 +1,6 @@
+Problem: For some constants $a$ and $b,$ let \[f(x) = \left\{
+\begin{array}{cl}
+ax + b & \text{if } x < 2, \\
+8 - 3x & \text{if } x \ge 2.
+\end{array}
+\right.\]The function $f$ has the property that $f(f(x)) = x$ for all $x.$ What is $a + b?$

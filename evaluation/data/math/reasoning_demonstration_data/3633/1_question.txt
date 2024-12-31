@@ -1,0 +1,1 @@
+Problem: The quadratic $-6x^2+36x+216$ can be written in the form $a(x+b)^2+c$, where $a$, $b$, and $c$ are constants. What is $a+b+c$?

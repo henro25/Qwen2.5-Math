@@ -1,0 +1,1 @@
+Problem: For which value of $x$ does the function $f(x) = \frac{2x^2 - 5x - 7}{x^2 - 4x + 1}$ cross its horizontal asymptote?

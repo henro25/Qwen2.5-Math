@@ -1,0 +1,1 @@
+Problem: When $n$ is divided by 6, a remainder of 1 is given. What is the remainder when $n+2010$ is divided by 6?

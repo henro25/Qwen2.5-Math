@@ -1,0 +1,1 @@
+Problem: Determine the smallest positive integer $n$ such that $5^n\equiv n^5\pmod 3$.

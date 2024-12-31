@@ -1,0 +1,3 @@
+Problem: Captain Zarnin of Planet Hvan has four job openings for his battle station: Assistant Engineer, Weapons Maintenance, Field Technician, and Radio Specialist. Zarnin has received 24 resumes and found himself less than thrilled about half of them and does not hire them. The rest, he thinks, could fill any of the open posts. In how many ways can Zarnin staff his battle station?
+
+Note: A candidate can fill at most one job opening.

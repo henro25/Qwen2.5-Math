@@ -1,0 +1,1 @@
+Problem: Kyle knows that $4 = 2^{5r+1}$. What is the value of $r$? Express your answer as a common fraction.

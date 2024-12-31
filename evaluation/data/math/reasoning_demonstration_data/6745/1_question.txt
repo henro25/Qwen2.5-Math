@@ -1,0 +1,1 @@
+Problem: When an integer is divided by 15, the remainder is 7. Find the sum of the remainders when the same integer is divided by 3 and by 5.

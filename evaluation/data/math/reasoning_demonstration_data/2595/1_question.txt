@@ -1,0 +1,2 @@
+Problem: Determine the exact value of the series
+\[\frac{1}{5 + 1} + \frac{2}{5^2 + 1} + \frac{4}{5^4 + 1} + \frac{8}{5^8 + 1} + \frac{16}{5^{16} + 1} + \dotsb.\]

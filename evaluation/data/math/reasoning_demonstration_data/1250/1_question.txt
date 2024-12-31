@@ -1,0 +1,1 @@
+Problem: What is the smallest possible value of $x$ such that $2x^2+24x-60=x(x+13)$?

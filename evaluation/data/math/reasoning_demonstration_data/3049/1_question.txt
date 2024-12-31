@@ -1,0 +1,2 @@
+Problem: Find the four roots of
+\[2x^4 + x^3 - 6x^2 + x + 2 = 0.\]Enter the four roots (counting multiplicity), separated by commas.

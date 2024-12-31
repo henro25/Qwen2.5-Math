@@ -1,0 +1,1 @@
+Problem: Let $h(4x-1) = 2x + 7$.  For what value of $x$ is $h(x) = x$?

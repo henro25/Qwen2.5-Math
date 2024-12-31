@@ -1,0 +1,4 @@
+Problem: Let $f : \mathbb{R} \to \mathbb{R}$ be a function such that $f(1) = 1$ and
+\[f(xy + f(x)) = xf(y) + f(x)\]for all real numbers $x$ and $y.$
+
+Let $n$ be the number of possible values of $f \left( \frac{1}{2} \right),$ and let $s$ be the sum of all possible values of $f \left( \frac{1}{2} \right).$  Find $n \times s.$

@@ -1,0 +1,1 @@
+Problem: In right triangle $XYZ$ with $\angle YXZ = 90^\circ$, we have $XY = 24$ and $YZ = 25$.  Find $\tan Y$.

@@ -1,0 +1,1 @@
+Problem: How many positive factors of 72 are perfect cubes?

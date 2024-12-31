@@ -1,0 +1,1 @@
+Problem: For each positive integer $n$, the mean of the first $n$ terms of a sequence is $n$. What is the 2008th term of the sequence?

@@ -1,0 +1,2 @@
+Problem: If $x + \frac{1}{x} = 5,$ then compute the value of
+\[(x - 2)^2 + \frac{25}{(x - 2)^2}.\]

@@ -1,0 +1,1 @@
+Problem: Compute the largest integer $k$ such that $2004^k$ divides $2004!$.

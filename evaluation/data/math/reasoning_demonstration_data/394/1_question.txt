@@ -1,0 +1,3 @@
+Problem: Billy wants to determine the average number of cookies in a package of cookies. He purchases 7 packages of cookies, opens them, and counts the number of cookies in each one. He finds that the packages have 8, 10, 12, 15, 16, 17, and 20 cookies. Based on these observations, what is the average number of cookies in a package?
+
+(Note: the average of a list of numbers is the sum of the numbers divided by how many numbers there are.)

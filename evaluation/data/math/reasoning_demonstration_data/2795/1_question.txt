@@ -1,0 +1,1 @@
+Problem: We have a rectangle of dimensions $x - 2$ by $2x + 5$ such that its area is $8x - 6$. What is the value of $x$?

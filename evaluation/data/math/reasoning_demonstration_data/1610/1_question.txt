@@ -1,0 +1,1 @@
+Problem: Let $a$ and $b$ be integers such that $ab = 100.$  Find the minimum value of $a + b.$

@@ -1,0 +1,1 @@
+Problem: A right pyramid with a square base has total surface area 432 square units.  The area of each triangular face is half the area of the square face. What is the volume of the pyramid in cubic units?

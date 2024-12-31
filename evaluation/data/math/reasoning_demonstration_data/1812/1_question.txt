@@ -1,0 +1,2 @@
+Problem: Find the number of ordered pairs $(a,b)$ of complex numbers such that
+\[a^3 b^5 = a^7 b^2 = 1.\]

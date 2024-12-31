@@ -1,0 +1,1 @@
+Problem: One piece of string is 1.5 inches long and another piece of string is 4.5 inches long. What is the average length, in inches, of these two pieces of string?

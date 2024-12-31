@@ -1,0 +1,1 @@
+Problem: How many different counting numbers will each leave a remainder of 5 when divided into 47?

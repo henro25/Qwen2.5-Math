@@ -1,0 +1,1 @@
+Problem: Let $z$ and $w$ be complex numbers such that $|2z - w| = 25$, $|z + 2w| = 5$, and $|z + w| = 2$.  Find $|z|$.

@@ -1,0 +1,9 @@
+Problem: A circular dartboard is divided into regions with various central angles, as shown. The probability of a dart randomly landing in a particular region is $\frac16$. What is the corresponding measure, in degrees, of the central angle of this section of the dartboard? [asy]
+unitsize(1.5cm);
+defaultpen(linewidth(.7pt));
+
+pair O=(0,0);
+draw(Circle(O,1));
+draw(dir(0)--O--dir(90));
+draw(dir(150)--O--dir(225));
+[/asy]

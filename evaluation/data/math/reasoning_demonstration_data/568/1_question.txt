@@ -1,0 +1,1 @@
+Problem: Find the absolute value of the difference of the solutions of $x^2-5x+5=0$.

@@ -1,0 +1,24 @@
+Problem: In the diagram below, $\|\overrightarrow{OA}\| = 1,$ $\|\overrightarrow{OB}\| = 1,$ and $\|\overrightarrow{OC}\| = \sqrt{2}.$  Also, $\tan \angle AOC = 7$ and $\angle BOC = 45^\circ.$
+
+[asy]
+unitsize(2 cm);
+
+pair A, B, C, O;
+
+A = (1,0);
+B = (-0.6,0.8);
+C = (0.2,1.4);
+O = (0,0);
+
+draw(O--A,Arrow(6));
+draw(O--B,Arrow(6));
+draw(O--C,Arrow(6));
+
+label("$A$", A, E);
+label("$B$", B, NW);
+label("$C$", C, N);
+label("$O$", O, S);
+[/asy]
+
+There exist constants $m$ and $n$ so that
+\[\overrightarrow{OC} = m \overrightarrow{OA} + n \overrightarrow{OB}.\]Enter the ordered pair $(m,n).$

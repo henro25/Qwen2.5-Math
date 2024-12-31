@@ -1,0 +1,1 @@
+Problem: What is the greatest integer less than 100 for which the greatest common divisor of that integer and 12 is 4?

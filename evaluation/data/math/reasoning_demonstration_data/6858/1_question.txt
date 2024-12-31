@@ -1,0 +1,1 @@
+Problem: The perimeter of a rectangle is 48.  What is the largest possible area of the rectangle?

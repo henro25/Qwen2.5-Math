@@ -1,0 +1,1 @@
+Problem: How many three digit numbers are left if we exclude all three digit numbers in which there are exactly two digits the same, but these two digits are not adjacent?

@@ -1,0 +1,1 @@
+Problem: Suppose that $a$ is a nonzero constant for which the equation $ax^2+20x+7=0$ has only one solution. Find this solution.

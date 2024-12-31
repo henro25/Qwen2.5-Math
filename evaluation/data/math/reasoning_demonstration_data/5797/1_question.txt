@@ -1,0 +1,6 @@
+Problem: Let \[f(x) =
+\begin{cases}
+9x+16 &\text{if }x<2, \\
+2x-14&\text{if }x\ge2.
+\end{cases}
+\]If $f(x)=-2$, find the sum of all possible values of $x$.

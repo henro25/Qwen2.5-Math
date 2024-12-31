@@ -1,0 +1,1 @@
+Problem: 8 people attend a party. During the party everyone shakes hands with everyone else. How many handshakes take place at the party?

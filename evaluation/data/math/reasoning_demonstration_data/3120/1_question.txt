@@ -1,0 +1,1 @@
+Problem: How many miles can a car travel in 20 minutes if it travels $ \, \frac{3}{4} \, $ as fast as a train going 80 miles per hour?

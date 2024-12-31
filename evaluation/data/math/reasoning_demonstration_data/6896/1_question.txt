@@ -1,0 +1,1 @@
+Problem: I have 5 red plates and 4 blue plates. If I randomly select two plates to serve dinner on, what is the probability that they're both the same color?

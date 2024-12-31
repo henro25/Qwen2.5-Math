@@ -1,0 +1,1 @@
+Problem: The sum of four positive integers that form an arithmetic sequence is 46. Of all such possible sequences, what is the greatest possible third term?

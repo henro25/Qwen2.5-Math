@@ -1,0 +1,1 @@
+Problem: For all positive integers $n$, let $f(n)=\log_{2002} n^2$. Find $f(11)+f(13)+f(14)$.

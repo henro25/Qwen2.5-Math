@@ -1,0 +1,1 @@
+Problem: A geometric sequence starts $16$, $-24$, $36$, $-54$. What is the common ratio of this sequence?

@@ -1,0 +1,1 @@
+Problem: How many pairs of positive integers $(m,n)$ satisfy $m^2 + n < 22?$

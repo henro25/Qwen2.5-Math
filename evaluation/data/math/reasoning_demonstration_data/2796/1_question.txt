@@ -1,0 +1,1 @@
+Problem: Suppose that $f(x)=\frac{1}{2x+b}$. For what value of $b$ does $f^{-1}(x)=\frac{1-2x}{2x}$?

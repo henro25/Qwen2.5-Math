@@ -1,0 +1,1 @@
+Problem: Find the integer $n$, $0 \le n \le 9$, that satisfies \[n \equiv -2187 \pmod{10}.\]

@@ -1,0 +1,1 @@
+Problem: Carla rotated point $A$ 420 degrees clockwise about point $B$ and it landed at point $C$. Devon rotated the original point $A$ $x$ degrees counterclockwise about point $B$ and it also landed at point $C$. If $x<360$, what is the value of $x$?

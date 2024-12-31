@@ -1,0 +1,1 @@
+Problem: Jason is trying to remember the five digit combination to his safe.  He knows that he only used digits 1 through 5 (possibly repeated), that every even digit was followed by an odd digit, and every odd digit was followed by an even digit.  How many possible combinations does Jason need to try?

@@ -1,0 +1,1 @@
+Problem: Joe wants to find all the four-letter words that begin and end with the same letter. How many combinations of letters satisfy this property?

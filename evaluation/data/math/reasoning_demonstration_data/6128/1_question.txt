@@ -1,0 +1,1 @@
+Problem: At time $t=0,$ a ball is thrown downward at 24 feet per second from a height of 160 feet above the ground.  The equation $h = -16t^2 - 24t +160$ describes the height (in feet) of the ball. In how many seconds will the ball hit the ground? Express your answer as a decimal.

@@ -1,0 +1,21 @@
+Problem: In the figure below, a 3-inch by 3-inch square adjoins a 10-inch by 10-inch square. What is the area of the shaded region? Express your answer in square inches as a common fraction. [asy]
+unitsize(2mm);
+defaultpen(linewidth(0.7pt)+fontsize(12pt));
+
+pair H=(0,0), A=(0,10), B=(10,10), C=(10,3), G=(10,0), E=(13,3), F=(13,0);
+pair D=extension(A,F,B,G);
+
+draw(A--B--G--H--cycle);
+fill(D--C--E--F--cycle, black);
+draw(A--F);
+draw(G--F--E--C);
+
+label("$A$",A,NW);
+label("$H$",H,SW);
+label("$B$",B,NE);
+label("$C$",C,NE);
+label("$G$",G,S);
+label("$D$",D,WSW);
+label("$E$",E,NE);
+label("$F$",F,SE);
+[/asy]

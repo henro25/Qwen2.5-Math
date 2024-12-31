@@ -1,0 +1,1 @@
+Problem: Find the cubic polynomial $p(x)$ such that $p(1) = -7,$ $p(2) = -9,$ $p(3) = -15,$ and $p(4) = -31.$

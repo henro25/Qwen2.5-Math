@@ -1,0 +1,1 @@
+Problem: What is the greatest possible three-digit number that is divisible by 3 and divisible by 6?

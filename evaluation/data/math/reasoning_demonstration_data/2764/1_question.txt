@@ -1,0 +1,6 @@
+Problem: Let \[f(x) =
+\begin{cases}
+x^2+2 &\text{if } x<n, \\
+2x+5 &\text{if }x\ge{n}.
+\end{cases}
+\]If the graph $y=f(x)$ is continuous, find the sum of all possible values of $n$.

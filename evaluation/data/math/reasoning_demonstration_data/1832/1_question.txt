@@ -1,0 +1,2 @@
+Problem: Let $a$ and $b$ be the roots of $x^2 - 4x + 5 = 0.$  Compute
+\[a^3 + a^4 b^2 + a^2 b^4 + b^3.\]

@@ -1,0 +1,2 @@
+Problem: Let $a$ and $b$ be positive real numbers such that $a^3 + b^3 = a + b.$  Simplify
+\[\frac{a}{b} + \frac{b}{a} - \frac{1}{ab}.\]

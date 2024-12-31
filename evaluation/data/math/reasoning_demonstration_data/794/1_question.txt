@@ -1,0 +1,1 @@
+Problem: In triangle $ABC,$ $AC = BC = 7.$  Let $D$ be a point on $\overline{AB}$ so that $AD = 8$ and $CD = 3.$  Find $BD.$

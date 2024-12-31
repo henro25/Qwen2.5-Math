@@ -1,0 +1,1 @@
+Problem: The values of $a$, $b$, $c$ and $d$ are 1, 2, 3 and 4, but not necessarily in that order. What is the largest possible value of the sum of the four products $ab$, $bc$, $cd$ and $da$?

@@ -1,0 +1,1 @@
+Problem: If $\sqrt{5+n}=7$, then what is the value of $n$?

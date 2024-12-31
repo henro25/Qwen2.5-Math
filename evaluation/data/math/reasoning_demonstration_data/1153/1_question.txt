@@ -1,0 +1,1 @@
+Problem: Find $a+b+c$ if the graph of the equation $y=ax^2+bx+c$ is a parabola with vertex $(5,3)$, vertical axis of symmetry, and contains the point $(2,0)$.

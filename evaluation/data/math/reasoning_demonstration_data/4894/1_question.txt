@@ -1,0 +1,1 @@
+Problem: A rectangle having integer length and width has a perimeter of 100 units. What is the number of square units in the least possible area?

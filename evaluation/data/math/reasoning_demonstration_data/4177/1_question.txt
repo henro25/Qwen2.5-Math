@@ -1,0 +1,1 @@
+Problem: Two standard dice are rolled. What is the expected number of 1's obtained? Express your answer as a common fraction.

@@ -1,0 +1,1 @@
+Problem: In terms of $\pi$, what is the area of the circle defined by the equation $2x^2+2y^2+10x-6y-18=0$?

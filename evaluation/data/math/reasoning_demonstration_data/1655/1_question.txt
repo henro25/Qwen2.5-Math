@@ -1,0 +1,2 @@
+Problem: Find $x$ if
+\[1 + 5x + 9x^2 + 13x^3 + \dotsb = 85.\]

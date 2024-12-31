@@ -1,0 +1,1 @@
+Problem: In how many ways can 7 people be seated in a row of chairs if two of the people, Wilma and Paul, refuse to sit next to each other?

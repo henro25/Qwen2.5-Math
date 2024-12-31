@@ -1,0 +1,1 @@
+Problem: Consider the following function $g(x)$ defined as\[(x^{2^{2008}-1}-1)g(x) = (x+1)(x^2+1)(x^4+1)\cdots (x^{2^{2007}}+1) - 1\]Find $g(2)$.

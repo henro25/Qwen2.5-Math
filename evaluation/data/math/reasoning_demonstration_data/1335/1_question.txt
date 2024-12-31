@@ -1,0 +1,18 @@
+Problem: What is the number of degrees in the smaller angle formed by the hour and minute hands of a clock at 8:15? Express your answer as a decimal to the nearest tenth.
+[asy]
+size(200);
+draw(Circle((0,0),5),linewidth(1.2));
+pair[] mins;
+for(int i = 0; i < 60; ++i){
+
+mins[i] = 4.5*dir(-6*i + 90);
+
+dot(mins[i]);
+}
+for(int i = 1; i <= 12; ++i){
+
+label((string)i,mins[5*i % 60],dir(-30*i - 90));
+}
+
+fill(Circle((0,0),0.25));
+[/asy]

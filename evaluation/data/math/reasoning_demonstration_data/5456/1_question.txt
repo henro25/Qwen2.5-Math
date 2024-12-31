@@ -1,0 +1,1 @@
+Problem: The function \[f(x) = \left\{ \begin{aligned} x-2 & \quad \text{ if } x < 4 \\ \sqrt{x} & \quad \text{ if } x \ge 4 \end{aligned} \right.\]has an inverse $f^{-1}.$ Find the value of $f^{-1}(-5) + f^{-1}(-4) + \dots + f^{-1}(4) + f^{-1}(5).$

@@ -1,0 +1,1 @@
+Problem: The sum of the first four terms of an arithmetic sequence is $10$. If the fifth term is $5$, what is the sixth term?

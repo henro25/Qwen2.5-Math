@@ -1,0 +1,1 @@
+Problem: Evaluate $\log_2\frac{1}{16}$.

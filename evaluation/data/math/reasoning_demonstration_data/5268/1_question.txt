@@ -1,0 +1,1 @@
+Problem: Convert the point $\left( 8, \frac{\pi}{4}, \sqrt{3} \right)$ in cylindrical coordinates to rectangular coordinates.

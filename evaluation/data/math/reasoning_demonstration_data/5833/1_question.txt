@@ -1,0 +1,1 @@
+Problem: What is the value of $(9! \cdot 5! \cdot 2!) / (8! \cdot 6!)$?

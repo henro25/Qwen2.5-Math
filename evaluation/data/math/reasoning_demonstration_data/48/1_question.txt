@@ -1,0 +1,26 @@
+Problem: In the adjoining figure, $CD$ is the diameter of a semicircle with center $O$.  Point $A$ lies on the extension of $DC$ past $C$; point $E$ lies on the semicircle, and $B$ is the point of intersection (distinct from $E$) of line segment $AE$ with the semicircle.  If length $AB$ equals length $OD$, and the measure of $\angle EOD$ is $45^\circ$, then find the measure of $\angle BAO$, in degrees.
+
+[asy]
+import graph;
+
+unitsize(2 cm);
+
+pair O, A, B, C, D, E;
+
+O = (0,0);
+C = (-1,0);
+D = (1,0);
+E = dir(45);
+B = dir(165);
+A = extension(B,E,C,D);
+
+draw(arc(O,1,0,180));
+draw(D--A--E--O);
+
+label("$A$", A, W);
+label("$B$", B, NW);
+label("$C$", C, S);
+label("$D$", D, S);
+label("$E$", E, NE);
+label("$O$", O, S);
+[/asy]

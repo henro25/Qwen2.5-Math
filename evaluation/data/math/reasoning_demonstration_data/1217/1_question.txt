@@ -1,0 +1,2 @@
+Problem: Let $x,$ $y,$ and $z$ be positive real numbers.  Find the minimum value of
+\[\frac{(x^2 + 3x + 1)(y^2 + 3y + 1)(z^2 + 3z + 1)}{xyz}.\]

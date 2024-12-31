@@ -1,0 +1,2 @@
+Problem: Let $x,$ $y,$ $z$ be positive real numbers.  Find the set of all possible values of
+\[f(x,y,z) = \frac{x}{x + y} + \frac{y}{y + z} + \frac{z}{z + x}.\]

@@ -1,0 +1,1 @@
+Problem: There are integers $b,c$ for which both roots of the polynomial $x^2-x-1$ are also roots of the polynomial $x^5-bx-c$. Determine the product $bc$.

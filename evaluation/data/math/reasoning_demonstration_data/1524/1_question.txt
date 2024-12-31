@@ -1,0 +1,2 @@
+Problem: Let $z_1$, $z_2$, $z_3$, $\dots$, $z_{12}$ be the 12 zeroes of the polynomial $z^{12} - 2^{36}$. For each $j$, let $w_j$ be one of $z_j$ or $iz_j$.  Find the maximum possible value of the real part of
+\[\sum_{j = 1}^{12} w_j.\]

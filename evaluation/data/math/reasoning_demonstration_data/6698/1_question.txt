@@ -1,0 +1,1 @@
+Problem: If $\left\lfloor n^2/4 \right\rfloor - \lfloor n/2 \rfloor^2 = 2$, then find all integer values of $n$.

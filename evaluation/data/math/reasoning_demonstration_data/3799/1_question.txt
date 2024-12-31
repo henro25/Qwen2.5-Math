@@ -1,0 +1,1 @@
+Problem: Expand $(2z^2 + 5z - 6)(3z^3 - 2z + 1)$.

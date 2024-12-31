@@ -1,0 +1,2 @@
+Problem: A tetrahedron with four equilateral triangular faces has a sphere inscribed within it and a sphere circumscribed about it. For each of the four faces, there is a sphere tangent externally to the face at its center and to the circumscribed sphere. A point $P$ is selected at random inside the circumscribed sphere. The probability that $P$ lies inside one of the five small spheres is closest to
+$\mathrm{(A) \ }0 \qquad \mathrm{(B) \ }0.1 \qquad \mathrm{(C) \ }0.2 \qquad \mathrm{(D) \ }0.3 \qquad \mathrm{(E) \ }0.4$

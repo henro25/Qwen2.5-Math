@@ -1,0 +1,1 @@
+Problem: What is the least positive multiple of 25 for which the product of its digits is also a positive multiple of 25?

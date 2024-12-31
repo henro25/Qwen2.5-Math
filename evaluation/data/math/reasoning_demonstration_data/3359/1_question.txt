@@ -1,0 +1,2 @@
+Problem: Find the minimum value of
+\[x^2 + xy + y^2\]over all real numbers $x$ and $y.$

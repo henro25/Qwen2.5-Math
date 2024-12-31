@@ -1,0 +1,27 @@
+Problem: The line $y = b-x$ with $0 < b < 4$ intersects the $y$-axis at $P$ and the line $x=4$ at $S$. If the ratio of the area of triangle $QRS$ to the area of triangle $QOP$ is 9:25, what is the value of $b$? Express the answer as a decimal to the nearest tenth.
+
+[asy]
+draw((0,-3)--(0,5.5),Arrows);
+draw((4,-3.5)--(4,5),Arrows);
+
+draw((-2,0)--(6,0),Arrows);
+
+draw((-2,4.5)--(6,-3.5),Arrows);
+
+dot((0,0));
+dot((2.5,0));
+dot((4,0));
+dot((4,-1.5));
+dot((0,2.5));
+
+label("O",(0,0),SW);
+label("P",(0,2.5),NE);
+label("Q",(2.5,0),NE);
+label("R",(4,0),NE);
+label("S",(4,-1.5),SW);
+
+label("$y$-axis",(0,5.5),N);
+label("$x=4$",(4,5),N);
+label("$x$-axis",(6,0),E);
+label("$y=b-x$",(6,-3.5),SE);
+[/asy]

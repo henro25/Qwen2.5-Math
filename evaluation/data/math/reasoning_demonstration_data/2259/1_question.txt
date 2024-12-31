@@ -1,0 +1,1 @@
+Problem: Triangle $ABC$ has a perimeter of 2007 units. The sides have lengths that are all integer values with $AB< BC \leq AC$. What is the smallest possible value of $BC - AB$?

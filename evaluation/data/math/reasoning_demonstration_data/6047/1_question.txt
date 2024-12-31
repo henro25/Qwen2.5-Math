@@ -1,0 +1,1 @@
+Problem: The graphs of $2y + x + 3 = 0$  and $3y + ax + 2 = 0$ are perpendicular. Solve for $a.$

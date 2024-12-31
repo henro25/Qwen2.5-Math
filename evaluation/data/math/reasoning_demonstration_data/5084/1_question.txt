@@ -1,0 +1,1 @@
+Problem: If $\log_6 (4x)=2$, find $\log_x 27$. Express your answer in simplest fractional form.

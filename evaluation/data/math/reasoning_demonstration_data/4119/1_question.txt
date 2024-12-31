@@ -1,0 +1,1 @@
+Problem: Find the smallest positive integer that is both an integer power of 11 and is not a palindrome.

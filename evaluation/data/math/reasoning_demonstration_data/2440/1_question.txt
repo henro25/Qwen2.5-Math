@@ -1,0 +1,1 @@
+Problem: Johnny has 7 different colored marbles in his bag.  In how many ways can he choose three different marbles from his bag to play a game?

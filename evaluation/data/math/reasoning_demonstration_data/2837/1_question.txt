@@ -1,0 +1,1 @@
+Problem: Let $C$ be the circle with equation $x^2-6y-3=-y^2-4x$. If $(a,b)$ is the center of $C$ and $r$ is its radius, what is the value of $a+b+r$?

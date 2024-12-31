@@ -1,0 +1,1 @@
+Problem: The number of diagonals of a regular polygon is subtracted from the number of sides of the polygon and the result is zero. What is the number of sides of this polygon?

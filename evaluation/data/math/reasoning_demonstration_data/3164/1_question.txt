@@ -1,0 +1,1 @@
+Problem: A pentagon is formed by cutting a triangular corner from a rectangular piece of paper. The five sides of the pentagon have lengths $13,$ $19,$ $20,$ $25$ and $31,$ in some order. Find the area of the pentagon.

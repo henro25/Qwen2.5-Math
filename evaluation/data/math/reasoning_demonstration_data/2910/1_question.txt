@@ -1,0 +1,1 @@
+Problem: Evaluate $\lfloor -4 -.5 \rfloor \cdot \lceil 4 +.5 \rceil \cdot \lfloor -3 -.5 \rfloor \cdot \lceil 3 +.5 \rceil \cdot \dots \cdot \lfloor -.5 \rfloor \cdot \lceil .5 \rceil$.

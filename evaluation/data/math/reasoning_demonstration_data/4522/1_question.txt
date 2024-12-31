@@ -1,0 +1,1 @@
+Problem: Let $S = 1 - 2 + 3 - 4 + \cdots + 2009 - 2010$. What is the residue of $S$, modulo 2010?

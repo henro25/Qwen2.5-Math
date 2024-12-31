@@ -1,0 +1,1 @@
+Problem: If $\cos \theta + \sin \theta = \frac{5}{4},$ then find $\sin 2 \theta.$

@@ -1,0 +1,1 @@
+Problem: Three marbles are randomly selected, without replacement, from a bag containing two red, two blue and two green marbles. What is the probability that one marble of each color is selected? Express your answer as a common fraction.

@@ -1,0 +1,1 @@
+Problem: In triangle $ABC$, $AB = 10$ and $AC = 17$.  Let $D$ be the foot of the perpendicular from $A$ to $BC$.  If $BD:CD = 2:5$, then find $AD$.

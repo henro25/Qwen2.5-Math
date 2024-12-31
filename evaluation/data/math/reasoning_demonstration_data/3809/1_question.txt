@@ -1,0 +1,1 @@
+Problem: You have three shirts and four pairs of pants.  How many outfits consisting of one shirt and one pair of pants can you make?

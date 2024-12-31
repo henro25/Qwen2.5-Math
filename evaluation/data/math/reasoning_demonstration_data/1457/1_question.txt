@@ -1,0 +1,4 @@
+Problem: Let $f : \mathbb{R} \to \mathbb{R}$ be a function such that
+\[f(x^2 + yf(z)) = xf(x) + zf(y)\]for all real numbers $x,$ $y,$ and $z.$
+
+Let $n$ be the number of possible values of $f(5),$ and let $s$ be the sum of all possible values of $f(5).$  Find $n \times s.$

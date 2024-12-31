@@ -1,0 +1,1 @@
+Problem: What is the value of $x$ for which $|3x+5|$ is not positive? Express your answer as a common fraction.

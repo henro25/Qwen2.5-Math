@@ -1,0 +1,1 @@
+Problem: What value of $x$ will give the minimum value of $2x^2 - 12x + 3$?

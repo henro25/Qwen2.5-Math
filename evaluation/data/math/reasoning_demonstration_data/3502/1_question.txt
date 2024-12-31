@@ -1,0 +1,2 @@
+Problem: If $f(x)$ is defined for all integers $x \ge 0,$ $f(1) = 1,$ and
+\[f(a + b) = f(a) + f(b) - 2f(ab)\]for all integers $a,$ $b \ge 0,$ compute $f(1986).$

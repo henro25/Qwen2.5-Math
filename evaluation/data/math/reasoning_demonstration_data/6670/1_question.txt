@@ -1,0 +1,1 @@
+Problem: Positive real numbers $r,s$ satisfy the equations $r^2 + s^2 = 1$ and $r^4 + s^4= \frac{7}{8}$.  Find $rs$.

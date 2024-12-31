@@ -1,0 +1,1 @@
+Problem: What is the only integer whose square is less than its double?

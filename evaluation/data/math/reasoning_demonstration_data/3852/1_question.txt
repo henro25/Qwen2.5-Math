@@ -1,0 +1,1 @@
+Problem: What is the value of the expression $[ a-(b-c) ] - [(a-b) - c ]$ when $a = 17$, $b=21$ and $c=5$?

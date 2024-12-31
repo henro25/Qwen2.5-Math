@@ -1,0 +1,1 @@
+Problem: What is the arithmetic mean of 14, 22 and 36?

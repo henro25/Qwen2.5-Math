@@ -1,0 +1,1 @@
+Problem: Let\[S=\sqrt{1+\dfrac1{1^2}+\dfrac1{2^2}}+\sqrt{1+\dfrac1{2^2}+\dfrac1{3^2}}+\cdots+\sqrt{1+\dfrac1{2007^2}+\dfrac1{2008^2}}.\]Compute $\lfloor S^2\rfloor$.

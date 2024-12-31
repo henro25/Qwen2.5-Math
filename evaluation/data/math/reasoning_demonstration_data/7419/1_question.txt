@@ -1,0 +1,1 @@
+Problem: Suppose that we have a right triangle $ABC$ with the right angle at $B$ such that $AC = \sqrt{61}$ and $AB = 5.$ A circle is drawn with its center on $AB$ such that the circle is tangent to $AC$ and $BC.$ If $P$ is the point where the circle and side $AC$ meet, then what is $CP$?

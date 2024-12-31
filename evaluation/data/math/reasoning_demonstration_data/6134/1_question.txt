@@ -1,0 +1,1 @@
+Problem: Given that $\sin A+\sin B=1$ and $\cos A+\cos B= \frac{3}{2}$, what is the value of $\cos(A-B)$?

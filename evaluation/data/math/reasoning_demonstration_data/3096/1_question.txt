@@ -1,0 +1,2 @@
+Problem: Compute
+\[e^{2 \pi i/13} + e^{4 \pi i/13} + e^{6 \pi i/13} + \dots + e^{24 \pi i/13}.\]

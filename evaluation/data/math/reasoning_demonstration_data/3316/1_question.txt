@@ -1,0 +1,1 @@
+Problem: For integers $a$, $b$, $c$, and $d$, $(x^2+ax+b)(x^2+cx+d)=x^4+x^3-2x^2+17x-5$. What is the value of $a+b+c+d$?

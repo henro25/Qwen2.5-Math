@@ -1,0 +1,1 @@
+Problem: What is the maximum number of consecutive positive integers  that can be added together before the sum exceeds 400?

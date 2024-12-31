@@ -1,0 +1,3 @@
+Problem: Find the value of the following expression:
+
+$$\left| \, |{ -|{-1 + 1}| - 1 }| + 1\right|.$$

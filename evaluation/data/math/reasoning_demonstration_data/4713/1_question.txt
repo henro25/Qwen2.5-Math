@@ -1,0 +1,1 @@
+Problem: Find the area of the triangle bounded by the $y$-axis and the lines $y-3x=-2$ and $3y+x=12$.

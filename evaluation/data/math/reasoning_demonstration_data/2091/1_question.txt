@@ -1,0 +1,2 @@
+Problem: For positive integers $n$, define $S_n$ to be the minimum value of the sum
+\[\sum_{k=1}^n \sqrt{(2k-1)^2+a_k^2},\]where $a_1,a_2,\ldots,a_n$ are positive real numbers whose sum is $17$. Find the unique positive integer $n$ for which $S_n$ is also an integer.

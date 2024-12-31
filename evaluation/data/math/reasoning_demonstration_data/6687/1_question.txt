@@ -1,0 +1,1 @@
+Problem: Find the coefficient of $x^2$ when $3(x^2 - x^3) +2(x - 2x^2 + 3x^5) -(4x^3 - x^2)$ is simplified.

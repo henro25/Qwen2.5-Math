@@ -1,0 +1,1 @@
+Problem: Find the positive value of $n$ such that the equation $9x^2+nx+1=0$ has exactly one solution in $x$.

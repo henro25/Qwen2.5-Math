@@ -1,0 +1,1 @@
+Problem: The median of the set of numbers $\{$12, 38, 45, $x$, 14$\}$ is five less than the mean. If $x$ is a negative integer, what is the value of $x$?

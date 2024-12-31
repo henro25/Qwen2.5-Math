@@ -1,0 +1,9 @@
+Problem: For the opening home game of the baseball season, the Madd Batters minor league baseball team offered the following incentives to its fans:
+
+Every 75th fan who entered the stadium got a coupon for a free hot dog.
+
+Every 30th fan who entered the stadium got a coupon for a free cup of soda.
+
+Every 50th fan who entered the stadium got a coupon for a free bag of popcorn.
+
+The stadium holds 4000 fans and was completely full for this game. How many of the fans at the game were lucky enough to receive all three free items?

@@ -1,0 +1,2 @@
+Problem: In tetrahedron $ABCD,$
+\[\angle ADB = \angle ADC = \angle BDC = 90^\circ.\]Also, $x = \sin \angle CAD$ and $y = \sin \angle CBD.$  Express $\cos \angle ACB$ in terms of $x$ and $y.$

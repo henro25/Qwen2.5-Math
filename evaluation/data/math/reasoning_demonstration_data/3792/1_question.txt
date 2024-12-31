@@ -1,0 +1,1 @@
+Problem: The four points $A(-4,0), B(0,-4), X(0,8),$ and $Y(14,k)$ are grouped on the Cartesian plane. If segment $AB$ is parallel to segment $XY$ what is the value of $k$?

@@ -1,0 +1,2 @@
+Problem: Solve
+\[\frac{x - 4}{(x - 2)^2} < 0.\]Enter your answer using interval notation.

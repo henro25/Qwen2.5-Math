@@ -1,0 +1,1 @@
+Problem: Let $A,B$ be the points on the coordinate plane with coordinates $(t-4,-1)$ and $(-2,t+3)$, respectively. The square of the distance between the midpoint of $\overline{AB}$ and an endpoint of $\overline{AB}$ is equal to $t^2/2$. What is the value of $t$?

@@ -1,0 +1,1 @@
+Problem: Rural School USA has 105 students enrolled. There are 60 boys and 45 girls. If $\frac{1}{10}$ of the boys and $\frac{1}{3}$ of the girls are absent on one day, what percent of the total student population is absent?

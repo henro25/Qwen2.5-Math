@@ -1,0 +1,1 @@
+Problem: Zachary paid for a $\$1$ burger with 32 coins and received no change. Each coin was either a penny or a nickel. What was the number of nickels Zachary used?

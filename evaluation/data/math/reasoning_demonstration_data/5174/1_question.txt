@@ -1,0 +1,2 @@
+Problem: Solve
+\[(x^3 + 3x^2 \sqrt{2} + 6x + 2 \sqrt{2}) + (x + \sqrt{2}) = 0.\]Enter all the solutions, separated by commas.

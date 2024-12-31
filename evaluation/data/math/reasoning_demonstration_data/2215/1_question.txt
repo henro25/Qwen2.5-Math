@@ -1,0 +1,1 @@
+Problem: In how many ways is it possible to arrange the digits of 1150 to get a four-digit multiple of 5?

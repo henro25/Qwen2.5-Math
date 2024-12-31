@@ -1,0 +1,1 @@
+Problem: A rectangular box has interior dimensions 6-inches by 5-inches by 10-inches. The box is filled with as many solid 3-inch cubes as possible, with all of the cubes entirely inside the rectangular box. What percent of the volume of the box is taken up by the cubes?

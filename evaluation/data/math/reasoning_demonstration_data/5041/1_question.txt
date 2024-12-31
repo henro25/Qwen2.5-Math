@@ -1,0 +1,1 @@
+Problem: Let $S$ be the sum of all positive integers $n$ such that $n^2+12n-2007$ is a perfect square. Find the remainder when $S$ is divided by $1000.$

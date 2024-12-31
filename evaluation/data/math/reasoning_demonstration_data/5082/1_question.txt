@@ -1,0 +1,1 @@
+Problem: What is the value of $\frac12\cdot\frac41\cdot\frac18\cdot\frac{16}{1} \dotsm \frac{1}{512}\cdot\frac{1024}{1}$?

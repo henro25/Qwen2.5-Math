@@ -1,0 +1,1 @@
+Problem: A proposal will make years that end in double zeroes a leap year only if the year leaves a remainder of 200 or 600 when divided by 900. Under this proposal, how many leap years will there be that end in double zeroes between 1996 and 4096?

@@ -1,0 +1,1 @@
+Problem: If $\|\mathbf{a}\| = 3$ and $\|\mathbf{b}\| = 6,$ then find $(\mathbf{a} + \mathbf{b}) \cdot (\mathbf{a} - \mathbf{b}).$

@@ -1,0 +1,1 @@
+Problem: How many different 7-digit positive integers exist? (Note that we don't allow "7-digit" integers that start with 0, such as 0123456; this is actually a 6-digit integer.)

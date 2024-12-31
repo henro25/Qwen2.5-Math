@@ -1,0 +1,1 @@
+Problem: Line $m$ has the equation $y = 3x + 5$.  Line $n$ has the equation  $y = kx - 7$.  Lines $m$ and $n$ intersect at the point $(-4, -7)$.  What is the value of $k$?

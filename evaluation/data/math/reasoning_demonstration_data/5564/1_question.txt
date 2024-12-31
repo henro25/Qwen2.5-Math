@@ -1,0 +1,1 @@
+Problem: For how many integers $n$ between 1 and 100 is the greatest common divisor of 15 and $n$ equal to 3?

@@ -1,0 +1,1 @@
+Problem: A point is chosen at random on the number line between 0 and 1, and the point is colored green. Then, another point is chosen at random on the number line between 0 and 1, and this point is colored purple. What is the probability that the number of the purple point is greater than the number of the green point, but less than twice the number of the green point?

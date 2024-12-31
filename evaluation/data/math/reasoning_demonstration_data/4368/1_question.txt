@@ -1,0 +1,1 @@
+Problem: How many two-digit prime numbers can be formed by choosing two different digits from the set $\{2, 7, 8, 9\}$ to be used as the tens digit and units digit?

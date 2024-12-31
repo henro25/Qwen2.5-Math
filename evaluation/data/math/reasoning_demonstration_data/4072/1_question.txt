@@ -1,0 +1,1 @@
+Problem: Let $z$ be a complex number such that $|z| = 13.$  Find $z \times \overline{z}.$

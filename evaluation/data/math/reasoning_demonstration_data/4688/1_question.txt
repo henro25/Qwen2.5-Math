@@ -1,0 +1,1 @@
+Problem: Let $a_1,$ $a_2,$ $a_3$ be the first three terms of a geometric sequence.  If $a_1 = 1,$ find the smallest possible value of $4a_2 + 5a_3.$

@@ -1,0 +1,23 @@
+Problem: What is the perimeter of pentagon $ABCDE$ in this diagram? [asy]
+pair cis(real r,real t) { return (r*cos(t),r*sin(t)); }
+pair a=(0,0);
+pair b=cis(1,-pi/2);
+pair c=cis(sqrt(2),-pi/4);
+pair d=cis(sqrt(3),-pi/4+atan(1/sqrt(2)));
+pair e=cis(2,-pi/4+atan(1/sqrt(2))+atan(1/sqrt(3)));
+dot(a); dot(b); dot(c); dot(d); dot(e);
+draw(a--b--c--d--e--a);
+draw(a--c); draw(a--d);
+draw(0.86*b--0.86*b+0.14*(c-b)--b+0.14*(c-b));
+draw(0.9*c--0.9*c+0.14*(d-c)--c+0.14*(d-c));
+draw(0.92*d--0.92*d+0.14*(e-d)--d+0.14*(e-d));
+label("$A$",a,NW);
+label("$B$",b,SW);
+label("$C$",c,SSE);
+label("$D$",d,ESE);
+label("$E$",e,NE);
+label("1",(a+b)/2,W);
+label("1",(b+c)/2,S);
+label("1",(c+d)/2,SE);
+label("1",(d+e)/2,E);
+[/asy]

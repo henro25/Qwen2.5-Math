@@ -1,0 +1,1 @@
+Problem: When the polynomial $x^4 - 6x^3 + 16x^ 2 - 25x + 10$ is divided by $x^2 - 2x + k,$ the remainder is $x + a.$  Enter the ordered pair $(k,a).$

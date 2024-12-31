@@ -1,0 +1,1 @@
+Problem: There are 4 representatives from each of 4 companies at a convention. At the start of the convention, every person shakes hands once with every person except the other representatives from their company. How many handshakes are there?

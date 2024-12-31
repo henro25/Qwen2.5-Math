@@ -1,0 +1,1 @@
+Problem: Compute $\frac{x^8+12x^4+36}{x^4+6}$ when $x=5$.

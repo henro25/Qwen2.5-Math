@@ -1,0 +1,1 @@
+Problem: Sami remembers that the digits in her new three-digit area code contain a 9, 8, and 7, but she can't recall the order. How many possibilities are there for her to try?

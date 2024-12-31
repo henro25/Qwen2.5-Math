@@ -1,0 +1,1 @@
+Problem: For all positive integers $n$, the $n$th triangular number $T_n$ is defined as $T_n = 1+2+3+ \cdots + n$. What is the greatest possible value of the greatest common divisor of $4T_n$ and $n-1$?

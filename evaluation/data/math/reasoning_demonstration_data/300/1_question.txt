@@ -1,0 +1,2 @@
+Problem: Find the value of $x$ for which the matrix
+\[\begin{pmatrix} 1 + x & 7 \\ 3 - x & 8 \end{pmatrix}\]is not invertible.

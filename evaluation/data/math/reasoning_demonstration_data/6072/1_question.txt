@@ -1,0 +1,1 @@
+Problem: The expression $12y^2-65y+42$ can be written as $(Ay-14)(By-3),$ where $A$ and $B$ are integers. What is $AB + A$?

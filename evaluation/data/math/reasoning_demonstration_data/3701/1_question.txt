@@ -1,0 +1,7 @@
+Problem: Let $a_1, a_2, \ldots$ be a sequence with the following properties.
+
+(i) $a_1 = 1$, and
+
+(ii) $a_{2n}=n\cdot a_n$ for any positive integer $n$.
+
+What is the value of $a_{2^{100}}$?

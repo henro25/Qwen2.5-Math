@@ -1,0 +1,1 @@
+Problem: The bacteria in a lab dish double in number every four hours. If 500 bacteria cells are in the dish now, in how many hours will there be exactly 32,000 bacteria?

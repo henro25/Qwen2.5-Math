@@ -1,0 +1,1 @@
+Problem: What is the 100th digit after the decimal point of the decimal representation of 1/7?

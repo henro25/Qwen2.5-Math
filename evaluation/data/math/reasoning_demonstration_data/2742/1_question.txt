@@ -1,0 +1,1 @@
+Problem: Billy and Bobbi each selected a positive integer less than 200. Billy's number is a multiple of 18, and Bobbi's number is a multiple of 24. What is the probability that they selected the same number? Express your answer as a common fraction.

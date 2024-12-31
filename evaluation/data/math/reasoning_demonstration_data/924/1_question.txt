@@ -1,0 +1,3 @@
+Problem: Simplify the following expression:
+
+$$5x + 6 - x + 12$$

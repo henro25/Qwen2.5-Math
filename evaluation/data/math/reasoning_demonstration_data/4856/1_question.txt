@@ -1,0 +1,1 @@
+Problem: The equation $y = -16t^2 + 60t$ describes the height (in feet) of a projectile launched from the ground at 60 feet per second upward. In how many seconds will the projectile first reach 56 feet in height? Express your answer as a decimal rounded to the nearest hundredth.

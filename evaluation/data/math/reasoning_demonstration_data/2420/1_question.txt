@@ -1,0 +1,1 @@
+Problem: Determine $\sqrt[6]{1061520150601}$ without a calculator.

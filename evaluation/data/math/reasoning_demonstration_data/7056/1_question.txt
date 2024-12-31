@@ -1,0 +1,1 @@
+Problem: Find the value of $a$ that satisfies the equation $293_{a}+468_{a}=73B_{a}$, where $B_{a}=11_{10}$.

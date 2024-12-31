@@ -1,0 +1,1 @@
+Problem: Let $r(\theta) = \frac{1}{1-\theta}$. What is $r(r(r(r(r(r(30))))))$ (where $r$ is applied $6$ times)?

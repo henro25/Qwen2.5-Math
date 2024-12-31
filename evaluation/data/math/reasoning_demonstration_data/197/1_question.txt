@@ -1,0 +1,2 @@
+Problem: Find the positive solution to
+\[\sqrt[3]{x + \sqrt[3]{x + \sqrt[3]{x + \dotsb}}} = \sqrt[3]{x \sqrt[3]{x \sqrt[3]{x \dotsm}}}.\]

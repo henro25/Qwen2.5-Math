@@ -1,0 +1,2 @@
+Problem: Solve
+\[-1 < \frac{x^2 - 14x + 11}{x^2 - 2x + 3} < 1.\]

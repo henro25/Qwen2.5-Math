@@ -1,0 +1,1 @@
+Problem: Compute $\sqrt{(31)(30)(29)(28)+1}.$

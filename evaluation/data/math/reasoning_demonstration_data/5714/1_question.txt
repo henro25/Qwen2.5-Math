@@ -1,0 +1,1 @@
+Problem: Evaluate $(2-w)(2-w^2)\cdots(2-w^{10})$ where $w=e^{2\pi i/11}.$

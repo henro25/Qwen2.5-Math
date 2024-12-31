@@ -1,0 +1,1 @@
+Problem: For how many integers $n$ between 1 and 11 (inclusive) is $\frac{n}{12}$ a repeating decimal?

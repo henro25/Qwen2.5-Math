@@ -1,0 +1,1 @@
+Problem: If $x+\frac1x=-5$, what is $x^3+\frac1{x^3}$?

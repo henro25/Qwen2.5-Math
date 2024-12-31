@@ -1,0 +1,1 @@
+Problem: The midpoints of the sides of a triangle with area $T$ are joined to form a triangle with area $M$. What is the ratio of $M$ to $T$? Express your answer as a common fraction.

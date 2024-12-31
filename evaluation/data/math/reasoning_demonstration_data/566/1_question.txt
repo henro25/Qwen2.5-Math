@@ -1,0 +1,1 @@
+Problem: A jar contains quarters (worth $\$0.25$ each), nickels (worth $\$0.05$ each) and pennies (worth $\$0.01$ each). The value of the quarters is $\$10.00.$ The value of the nickels is $\$10.00.$ The value of the pennies is $\$10.00.$ If Judith randomly chooses one coin from the jar, what is the probability that it is a quarter?

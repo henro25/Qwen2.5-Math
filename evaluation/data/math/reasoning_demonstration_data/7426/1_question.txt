@@ -1,0 +1,1 @@
+Problem: There are three pairs of real numbers $(x_1,y_1)$, $(x_2,y_2)$, and $(x_3,y_3)$ that satisfy both $x^3-3xy^2=2005$ and $y^3-3x^2y=2004$. Compute $\left(1-\frac{x_1}{y_1}\right)\left(1-\frac{x_2}{y_2}\right)\left(1-\frac{x_3}{y_3}\right)$.

@@ -1,0 +1,1 @@
+Problem: Compute the product of the roots of the equation \[3x^3 - x^2 - 20x + 27 = 0.\]

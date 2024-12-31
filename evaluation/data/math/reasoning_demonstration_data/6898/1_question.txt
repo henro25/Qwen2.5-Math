@@ -1,0 +1,2 @@
+Problem: Let $S$ be a region in the plane with area 4.  When we apply the matrix
+\[\begin{pmatrix} 2 & -1 \\ 7 & 2 \end{pmatrix}\]to $S,$ we obtain the region $S'.$  Find the area of $S'.$

@@ -1,0 +1,12 @@
+Problem: Given that $BDEF$ is a square and $AB = BC = 1$, find the number of square units in the area of the regular octagon.
+
+[asy]
+real x = sqrt(2);
+pair A,B,C,D,E,F,G,H;
+F=(0,0); E=(2,0); D=(2+x,x); C=(2+x,2+x);
+B=(2,2+2x); A=(0,2+2x); H=(-x,2+x); G=(-x,x);
+draw(A--B--C--D--E--F--G--H--cycle);
+draw((-x,0)--(2+x,0)--(2+x,2+2x)--(-x,2+2x)--cycle);
+label("$B$",(-x,2+2x),NW); label("$D$",(2+x,2+2x),NE); label("$E$",(2+x,0),SE); label("$F$",(-x,0),SW);
+label("$A$",(-x,x+2),W); label("$C$",(0,2+2x),N);
+[/asy]

@@ -1,0 +1,1 @@
+Problem: Jeff decides to play with a Magic 8 Ball. Each time he asks it a question, it has a 2/5 chance of giving him a positive answer. If he asks it 5 questions, what is the probability that it gives him exactly 2 positive answers?

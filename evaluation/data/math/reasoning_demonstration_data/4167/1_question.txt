@@ -1,0 +1,2 @@
+Problem: Each of the numbers $a_1,$ $a_2,$ $\dots,$ $a_{95}$ is $\pm 1.$  Find the smallest possible positive value of
+\[\sum_{1 \le i < j \le 95} a_i a_j.\]

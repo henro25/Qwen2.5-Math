@@ -1,0 +1,1 @@
+Problem: How many different triangles can be formed having a perimeter of 7 units if each side must have integral length?

@@ -1,0 +1,2 @@
+Problem: Simplify
+\[\frac{3 + 5i}{3 - 5i} + \frac{3 - 5i}{3 + 5i}.\]

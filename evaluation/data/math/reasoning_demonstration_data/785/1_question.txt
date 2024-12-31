@@ -1,0 +1,1 @@
+Problem: Let $z$ be a complex number such that $|z| = 2.$  Find the largest possible distance between $(3 + 4i)z^3$ and $z^5$ when plotted in the complex plane.

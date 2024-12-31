@@ -1,0 +1,1 @@
+Problem: $r(x)$ has domain $\{-1,0,1,2\}$ and range $\{0,2,4,6\}$. $s(x)$ has domain $\{1,2,3,4\}$ and is defined by $s(x)=x+1$. What is the sum of all possible values of $s(r(x))$?

@@ -1,0 +1,1 @@
+Problem: How many degrees are in each interior angle of a regular hexagon?

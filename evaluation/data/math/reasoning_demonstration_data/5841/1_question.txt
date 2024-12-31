@@ -1,0 +1,1 @@
+Problem: Compute $2 \times 2^5 - 8^{58} \div 8^{56}$

@@ -1,0 +1,2 @@
+Problem: Find all solutions to
+\[x^2 + 4x + 4x \sqrt{x + 3} = 13.\]Enter all the solutions, separated by commas.

@@ -1,0 +1,1 @@
+Problem: If $\log_2 x^2 + \log_{1/2} x = 5,$ compute $x.$

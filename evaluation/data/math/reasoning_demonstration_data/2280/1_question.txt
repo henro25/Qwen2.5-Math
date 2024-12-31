@@ -1,0 +1,9 @@
+Problem: Let $S$ be the set of all nonzero real numbers.  The function $f : S \to S$ satisfies the following two properties:
+
+(i) First,
+\[f \left( \frac{1}{x} \right) = xf(x)\]for all $x \in S.$
+
+(ii) Second,
+\[f \left( \frac{1}{x} \right) +  f \left( \frac{1}{y} \right) = 1 + f \left( \frac{1}{x + y} \right)\]for all $x \in S$ and $y \in S$ such that $x + y \in S.$
+
+Let $n$ be the number of possible values of $f(1),$ and let $s$ be the sum of all possible values of $f(1).$  Find $n \times s.$

@@ -1,0 +1,1 @@
+Problem: An isosceles triangle has side lengths 8 cm, 8 cm and 10 cm.  The longest side of a similar triangle is 25 cm. What is the perimeter of the larger triangle, in centimeters?

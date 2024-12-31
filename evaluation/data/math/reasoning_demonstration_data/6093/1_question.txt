@@ -1,0 +1,25 @@
+Problem: In the diagram below, $WXYZ$ is a trapezoid such that $\overline{WX}\parallel \overline{ZY}$ and $\overline{WY}\perp\overline{ZY}$.  If $YZ = 12$, $\tan Z = 1.5$, and $\tan X = 2$, then what is $XY$?
+
+[asy]
+
+pair WW,X,Y,Z;
+
+Z = (0,0);
+
+Y = (12,0);
+
+WW = (12,18);
+
+X= (18,18);
+
+draw(WW--X--Y--Z--WW);
+
+label("$W$",WW,N);
+
+label("$X$",X,N);
+
+label("$Y$",Y,S);
+
+label("$Z$",Z,S);
+
+[/asy]

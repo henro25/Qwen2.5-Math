@@ -1,0 +1,1 @@
+Problem: Let $a$ and $b$ be angles such that $\sin (a + b) = \frac{3}{4}$ and $\sin (a - b) = \frac{1}{2}.$  Find $\frac{\tan a}{\tan b}.$

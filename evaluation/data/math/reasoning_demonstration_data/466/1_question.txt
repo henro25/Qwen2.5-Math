@@ -1,0 +1,1 @@
+Problem: What is the total number of digits used when the first 2002 positive even integers are written?

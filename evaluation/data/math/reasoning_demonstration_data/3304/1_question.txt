@@ -1,0 +1,1 @@
+Problem: In trapezoid $ABCD$ the lengths of the bases $AB$ and $CD$ are 8 and 17 respectively. The legs of the trapezoid are extended beyond $A$ and $B$ to meet at point $E$. What is the ratio of the area of triangle $EAB$ to the area of trapezoid $ABCD$? Express your answer as a common fraction.

@@ -1,0 +1,2 @@
+Problem: The vectors $\mathbf{a},$ $\mathbf{b},$ and $\mathbf{c}$ satisfy $\|\mathbf{a}\| = \|\mathbf{b}\| = 1,$ $\|\mathbf{c}\| = 2,$ and
+\[\mathbf{a} \times (\mathbf{a} \times \mathbf{c}) + \mathbf{b} = \mathbf{0}.\]If $\theta$ is the angle between $\mathbf{a}$ and $\mathbf{c},$ then find all possible values of $\theta,$ in degrees.

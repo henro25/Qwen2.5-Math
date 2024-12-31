@@ -1,0 +1,1 @@
+Problem: Suppose $f(x) = \frac{x}{5} + 3$ and $g(x) = 4-x$. If $f(g(a)) = 5$, find $a$.

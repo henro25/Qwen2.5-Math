@@ -1,0 +1,1 @@
+Problem: For each value of $x,$ $f(x)$ is defined to be the minimum value of the three numbers $2x + 2,$ $\frac{1}{2} x + 1,$ and $-\frac{3}{4} x + 7.$  Find the maximum value of $f(x).$

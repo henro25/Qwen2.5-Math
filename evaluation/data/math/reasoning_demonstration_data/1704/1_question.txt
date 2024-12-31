@@ -1,0 +1,2 @@
+Problem: The function $f$ is not defined for $x = 0,$ but for all non-zero real numbers $x,$
+\[f(x) + 2f \left( \frac{1}{x} \right) = 3x.\]Find the real solutions to $f(x) = f(-x).$  Enter the real solutions, separated by commas.

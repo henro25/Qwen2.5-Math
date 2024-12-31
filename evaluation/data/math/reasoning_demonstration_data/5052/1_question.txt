@@ -1,0 +1,1 @@
+Problem: A geometric sequence of positive integers is formed for which the first term is 3 and the fourth term is 192. What is the third term of the sequence?

@@ -1,0 +1,1 @@
+Problem: For how many values of the digit $A$ is it true that $63$ is divisible by $A$ and $273{,}1A2$ is divisible by $4$?

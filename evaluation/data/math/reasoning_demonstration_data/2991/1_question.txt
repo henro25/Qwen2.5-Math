@@ -1,0 +1,1 @@
+Problem: By starting with a million and alternatively dividing by 2 and multiplying by 5, Anisha created a sequence of integers that starts 1000000, 500000, 2500000, 1250000, and so on. What is the last integer in her sequence? Express your answer in the form $a^b$, where $a$ and $b$ are positive integers and $a$ is as small as possible.

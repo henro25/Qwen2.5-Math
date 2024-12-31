@@ -1,0 +1,28 @@
+Problem: An $\textit{annulus}$ is the region between two concentric circles. The concentric circles in the figure have radii $b$ and $c$, with $b>c$. Let $\overline{OX}$ be a radius of the larger circle, let $\overline{XZ}$ be tangent to the smaller circle at $Z$, and let $\overline{OY}$ be the radius of the larger circle that contains $Z$.  Let $a=XZ$, $d=YZ$, and $e=XY$. What is the area of the annulus? Express your answer in terms of $\pi$ and at most one of the variables $a,b,c,d,e$.
+
+[asy]
+pair O,X,Y,Z;
+O=(0,0);
+X=(16,12);
+Y=(0,20);
+Z=(0,12);
+fill(Circle(0,20),gray(0.7));
+fill(Circle(0,12),white);
+draw(Circle(O,20),linewidth(0.7));
+draw(Circle(O,12),linewidth(0.7));
+dot(O);
+dot(X);
+dot(Y);
+dot(Z);
+draw(O--X--Y--cycle,linewidth(0.7));
+draw(Z--X,linewidth(0.7));
+label("$b$",(8,6),SE);
+label("$a$",(8,12),S);
+label("$e$",(8,16),SW);
+label("$c$",(0,6),W);
+label("$d$",(0,16),W);
+label("$O$",O,S);
+label("$X$",X,NE);
+label("$Y$",Y,N);
+label("$Z$",Z,SW);
+[/asy]

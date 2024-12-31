@@ -1,0 +1,1 @@
+Problem: How many square units are in the area of the parallelogram with vertices at (0, 0), (6, 0), (2, 8) and (8, 8)?

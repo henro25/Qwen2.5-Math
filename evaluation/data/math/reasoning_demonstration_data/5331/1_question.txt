@@ -1,0 +1,2 @@
+Problem: Let $O$ be the origin, and let $(a,b,c)$ be a fixed point.  A plane passes through $(a,b,c)$ and intersects the $x$-axis, $y$-axis, and $z$-axis at $A,$ $B,$ and $C,$ respectively, all distinct from $O.$  Let $(p,q,r)$ be the center of the sphere passing through $A,$ $B,$ $C,$ and $O.$  Find
+\[\frac{a}{p} + \frac{b}{q} + \frac{c}{r}.\]

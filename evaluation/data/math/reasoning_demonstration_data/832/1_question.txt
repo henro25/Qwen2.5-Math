@@ -1,0 +1,1 @@
+Problem: Find the smallest positive integer $b$ for which $x^2 + bx + 2008$ factors into a product of two polynomials, each having integer coefficients.

@@ -1,0 +1,2 @@
+Problem: Find the maximum number of real roots to a polynomial of the form
+\[x^n + x^{n - 1} + \dots + x + 1 = 0,\]where $n$ is a positive integer.

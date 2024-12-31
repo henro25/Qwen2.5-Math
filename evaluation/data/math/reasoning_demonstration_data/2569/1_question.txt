@@ -1,0 +1,1 @@
+Problem: Compute the square of 1017 without a calculator.

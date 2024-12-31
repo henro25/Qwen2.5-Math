@@ -1,0 +1,1 @@
+Problem: For $y=\frac{1-x}{2x+3}$ and $x\neq-\frac{3}{2}$, what is the value of $y$ that is not attainable? Express your answer as a common fraction.

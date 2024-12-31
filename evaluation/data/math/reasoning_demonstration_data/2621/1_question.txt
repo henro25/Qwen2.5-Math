@@ -1,0 +1,1 @@
+Problem: When the value of $y$ is doubled and then this increased value is divided by 5, the result is 10. What is the value of $y$?

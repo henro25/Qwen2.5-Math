@@ -1,0 +1,9 @@
+Problem: In the diagram, the smaller circles touch the larger circle and touch each other at the center of the larger circle. The radius of the larger circle is $6.$ What is the area of the shaded region?
+
+[asy]
+size(100);
+import graph;
+filldraw(Circle((0,0),2),mediumgray);
+filldraw(Circle((-1,0),1),white);
+filldraw(Circle((1,0),1),white);
+[/asy]

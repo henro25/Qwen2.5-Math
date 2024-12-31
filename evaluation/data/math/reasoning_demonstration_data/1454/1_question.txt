@@ -1,0 +1,1 @@
+Problem: If the six solutions of $x^6=-64$ are written in the form $a+bi$, where $a$ and $b$ are real, find the product of those solutions with $a>0.$

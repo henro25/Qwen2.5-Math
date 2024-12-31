@@ -1,0 +1,1 @@
+Problem: The least common multiple of two integers is 36 and 6 is their greatest common divisor. What is the product of the two numbers?

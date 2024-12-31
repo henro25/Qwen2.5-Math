@@ -1,0 +1,15 @@
+Problem: A floor decoration is a circle with eight rays pointing from the center.  The rays form eight congruent central angles.  One of the rays points due north.  What is the measure in degrees of the smaller angle formed between the ray pointing East and the ray pointing Southwest?
+
+[asy]
+
+size(3cm,3cm);
+
+draw(unitcircle);
+
+draw((0,0.8)--(0,-0.8),Arrows(HookHead));
+draw((-0.8,0)--(0.8,0),Arrows(HookHead));
+
+draw((-0.55,0.55)--(0.55,-0.55),Arrows(HookHead));
+draw((-0.55,-0.55)--(0.55,0.55),Arrows(HookHead));
+
+[/asy]

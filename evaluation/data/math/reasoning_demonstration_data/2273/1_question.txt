@@ -1,0 +1,1 @@
+Problem: As $n$ ranges over the positive integers, what is the maximum possible value for the greatest common divisor of $11n+3$ and $6n+1$?

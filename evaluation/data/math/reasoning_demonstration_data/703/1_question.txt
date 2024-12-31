@@ -1,0 +1,2 @@
+Problem: Find the polynomial $p(x),$ with real coefficients, such that
+\[p(x^3) - p(x^3 - 2) = [p(x)]^2 + 12\]for all real numbers $x.$

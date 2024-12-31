@@ -1,0 +1,1 @@
+Problem: If $y<0$, find the range of all possible values of $y$ such that $\lceil{y}\rceil\cdot\lfloor{y}\rfloor=110$.  Express your answer using interval notation.

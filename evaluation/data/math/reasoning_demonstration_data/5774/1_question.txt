@@ -1,0 +1,1 @@
+Problem: A $\textit{palindrome}$ is a number which reads the same forward as backward, for example 313 or 1001. Ignoring the colon, how many different palindromes are possible on a 12-hour digital clock displaying only the hours and minutes? (Notice a zero may not be inserted before a time with a single-digit hour value. Therefore, 01:10 may not be used.)

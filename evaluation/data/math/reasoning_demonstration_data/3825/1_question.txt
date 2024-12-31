@@ -1,0 +1,1 @@
+Problem: Suppose that for some $a,b,c$ we have $a+b+c = 1$, $ab+ac+bc = abc = -4$. What is $a^3+b^3+c^3$?

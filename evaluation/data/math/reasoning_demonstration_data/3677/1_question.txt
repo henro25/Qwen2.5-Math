@@ -1,0 +1,2 @@
+Problem: Find the domain of the function
+\[h(x) = \frac{3x - 1}{\sqrt{x - 5}}.\]

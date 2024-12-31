@@ -1,0 +1,1 @@
+Problem: The four consecutive digits $a$, $b$, $c$ and $d$ are used to form the four-digit numbers $abcd$ and $dcba$. What is the greatest common divisor of all numbers of the form $abcd+dcba$?

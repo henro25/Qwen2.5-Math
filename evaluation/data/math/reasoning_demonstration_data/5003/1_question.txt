@@ -1,0 +1,1 @@
+Problem: For $y=\frac{x+2}{5x-7}$, at what $x$-value is there a vertical asymptote?

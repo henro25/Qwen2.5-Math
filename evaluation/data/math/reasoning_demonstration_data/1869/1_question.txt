@@ -1,0 +1,23 @@
+Problem: In triangle $ABC,$ $a = 7,$ $b = 9,$ and $c = 4.$  Let $I$ be the incenter.
+
+[asy]
+unitsize(0.8 cm);
+
+pair A, B, C, D, E, F, I;
+
+B = (0,0);
+C = (7,0);
+A = intersectionpoint(arc(B,4,0,180),arc(C,9,0,180));
+I = incenter(A,B,C);
+
+draw(A--B--C--cycle);
+draw(incircle(A,B,C));
+
+label("$A$", A, N);
+label("$B$", B, SW);
+label("$C$", C, SE);
+dot("$I$", I, NE);
+[/asy]
+
+Then
+\[\overrightarrow{I} = x \overrightarrow{A} + y \overrightarrow{B} + z \overrightarrow{C},\]where $x,$ $y,$ and $z$ are constants such that $x + y + z = 1.$  Enter the ordered triple $(x,y,z).$

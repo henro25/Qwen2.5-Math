@@ -1,0 +1,1 @@
+Problem: A lattice point is a point whose coordinates are both integers. How many lattice points are on the boundary or inside the region bounded by $y=|x|$ and $y=-x^2+6$?

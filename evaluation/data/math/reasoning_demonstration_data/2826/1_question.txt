@@ -1,0 +1,1 @@
+Problem: Find the integer $n$, $0 \le n \le 6$, such that \[n \equiv 100000 \pmod{7}.\]

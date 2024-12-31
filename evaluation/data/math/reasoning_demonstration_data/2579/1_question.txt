@@ -1,0 +1,1 @@
+Problem: We roll a fair 6-sided die 5 times.  What is the probability that we get an odd number in exactly 4 of the 5 rolls?

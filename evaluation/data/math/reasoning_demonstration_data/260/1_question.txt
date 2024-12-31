@@ -1,0 +1,1 @@
+Problem: A sequence of ten $0$s and/or $1$s is randomly generated. If the probability that the sequence does not contain two consecutive $1$s can be written in the form $\dfrac{m}{n}$, where $m,n$ are relatively prime positive integers, find $m+n$.

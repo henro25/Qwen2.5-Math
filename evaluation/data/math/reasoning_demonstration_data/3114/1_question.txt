@@ -1,0 +1,1 @@
+Problem: You have a whole pizza in the refrigerator. On your first trip to the refrigerator, you eat half the pizza. On each successive trip, you eat half of the remaining pizza. After five trips to the refrigerator, what fractional part of the pizza have you eaten?

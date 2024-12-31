@@ -1,0 +1,1 @@
+Problem: If $n = 2^{10} \cdot 3^{14} \cdot 5^{8}$, how many of the natural-number factors of $n$ are multiples of 150?

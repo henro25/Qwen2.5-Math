@@ -1,0 +1,1 @@
+Problem: A particular novel contains $40,\!000$ words. If the author completed the novel in $80$ hours, on average how many words per hour did she write?

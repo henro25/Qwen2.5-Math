@@ -1,0 +1,1 @@
+Problem: If $\lceil{\sqrt{x}}\rceil=15$, how many possible integer values of $x$ are there?

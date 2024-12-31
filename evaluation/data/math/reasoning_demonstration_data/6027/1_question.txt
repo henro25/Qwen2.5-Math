@@ -1,0 +1,6 @@
+Problem: In the figure with circle $Q$, angle $KAT$ measures 42 degrees. What is the measure of minor arc $AK$ in degrees? [asy]
+import olympiad; size(150); defaultpen(linewidth(0.8)); dotfactor=4;
+draw(unitcircle);
+draw(dir(84)--(-1,0)--(1,0));
+dot("$A$",(-1,0),W); dot("$K$",dir(84),NNE); dot("$T$",(1,0),E); dot("$Q$",(0,0),S);
+[/asy]

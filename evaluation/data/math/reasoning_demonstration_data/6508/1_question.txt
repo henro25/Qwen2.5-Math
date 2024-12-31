@@ -1,0 +1,1 @@
+Problem: Compute $\arcsin \frac{1}{\sqrt{2}}.$  Express your answer in radians.

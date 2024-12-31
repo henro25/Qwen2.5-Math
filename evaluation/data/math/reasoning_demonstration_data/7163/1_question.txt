@@ -1,0 +1,3 @@
+Problem: If
+\[\frac{\cos^4 \alpha}{\cos^2 \beta} + \frac{\sin^4 \alpha}{\sin^2 \beta} = 1,\]then find the sum of all possible values of
+\[\frac{\sin^4 \beta}{\sin^2 \alpha} + \frac{\cos^4 \beta}{\cos^2 \alpha}.\]

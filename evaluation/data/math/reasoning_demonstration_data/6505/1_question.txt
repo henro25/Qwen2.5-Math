@@ -1,0 +1,1 @@
+Problem: The area of a triangle is 600 square feet. Find the altitude, in feet, of the triangle if the length of the corresponding base is 30 feet.

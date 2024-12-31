@@ -1,0 +1,2 @@
+Problem: Find the distance between the foci of the hyperbola
+\[\frac{y^2}{18} - \frac{x^2}{2} = 1.\]

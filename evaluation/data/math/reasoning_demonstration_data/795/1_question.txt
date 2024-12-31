@@ -1,0 +1,1 @@
+Problem: Compute $\arccos (\cos 7).$  All functions are in radians.

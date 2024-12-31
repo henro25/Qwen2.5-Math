@@ -1,0 +1,11 @@
+Problem: A square is inscribed in the ellipse
+\[\frac{x^2}{3} + \frac{y^2}{6} = 1,\]so that its sides are parallel to the coordinate axes.  Find the area of the square.
+
+[asy]
+unitsize(1 cm);
+
+draw(xscale(sqrt(3))*yscale(sqrt(6))*Circle((0,0),1));
+draw((sqrt(2),sqrt(2))--(-sqrt(2),sqrt(2))--(-sqrt(2),-sqrt(2))--(sqrt(2),-sqrt(2))--cycle);
+draw((-2,0)--(2,0));
+draw((0,-3)--(0,3));
+[/asy]

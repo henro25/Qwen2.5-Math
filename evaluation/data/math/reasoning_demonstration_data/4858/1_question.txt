@@ -1,0 +1,2 @@
+Problem: There exists a complex number of the form $z = x + yi,$ where $x$ and $y$ are positive integers, such that
+\[z^3 = -74 + ci,\]for some integer $c.$  Find $z.$

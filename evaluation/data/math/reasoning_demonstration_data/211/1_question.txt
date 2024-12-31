@@ -1,0 +1,17 @@
+Problem: The base of a triangular piece of paper $ABC$ is $12\text{ cm}$ long. The paper is folded down over the base, with the crease $DE$ parallel to the base of the paper. The area of the triangle that projects below the base is $16\%$ that of the area of the triangle $ABC.$ What is the length of $DE,$ in cm?
+
+[asy]
+draw((0,0)--(12,0)--(9.36,3.3)--(1.32,3.3)--cycle,black+linewidth(1));
+draw((1.32,3.3)--(4,-3.4)--(9.36,3.3),black+linewidth(1));
+draw((1.32,3.3)--(4,10)--(9.36,3.3),black+linewidth(1)+dashed);
+draw((0,-5)--(4,-5),black+linewidth(1));
+draw((8,-5)--(12,-5),black+linewidth(1));
+draw((0,-4.75)--(0,-5.25),black+linewidth(1));
+draw((12,-4.75)--(12,-5.25),black+linewidth(1));
+label("12 cm",(6,-5));
+label("$A$",(0,0),SW);
+label("$D$",(1.32,3.3),NW);
+label("$C$",(4,10),N);
+label("$E$",(9.36,3.3),NE);
+label("$B$",(12,0),SE);
+[/asy]

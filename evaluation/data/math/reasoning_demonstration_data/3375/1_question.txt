@@ -1,0 +1,1 @@
+Problem: A right circular cone has a volume of $12\pi$ cubic centimeters. The height of the cone is 4 cm. How many centimeters is the circumference of the base of the cone, in terms of $\pi$?

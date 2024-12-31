@@ -1,0 +1,21 @@
+Problem: Below is the graph of $y = a \sin bx$ for some constants $a < 0$ and $b > 0.$  Find $a.$
+
+[asy]import TrigMacros;
+
+size(400);
+
+real g(real x)
+{
+	return (-2*sin(x/3));
+}
+
+draw(graph(g,-3*pi,3*pi,n=700,join=operator ..),red);
+trig_axes(-3*pi,3*pi,-3,3,pi/2,1);
+layer();
+rm_trig_labels(-5, 5, 2);
+
+label("$1$", (0,1), E);
+label("$2$", (0,2), E);
+label("$-1$", (0,-1), E);
+label("$-2$", (0,-2), E);
+[/asy]

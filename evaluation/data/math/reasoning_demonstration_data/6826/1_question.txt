@@ -1,0 +1,2 @@
+Problem: A polynomial with integer coefficients is of the form
+\[x^4 + a_3 x^3 + a_2 x^2 + a_1 x + 18.\]You are told that the integer $r$ is a double root of this polynomial.  (In other words, the polynomial is divisible by $(x - r)^2.$)  Enter all the possible values of $r,$ separated by commas.

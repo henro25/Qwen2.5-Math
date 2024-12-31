@@ -1,0 +1,1 @@
+Problem: Two sides of a right triangle have the lengths 4 and 5. What is the product of the possible lengths of the third side? Express the product as a decimal rounded to the nearest tenth.

@@ -1,0 +1,2 @@
+Problem: Find the positive root of
+\[x^3 - 3x^2 - x - \sqrt{2} = 0.\]

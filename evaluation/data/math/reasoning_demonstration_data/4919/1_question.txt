@@ -1,0 +1,1 @@
+Problem: What is the value of $\frac{2013^3-2 \cdot 2013^2 \cdot 2014+3 \cdot 2013 \cdot 2014^2-2014^3+1}{2013 \cdot 2014}$?

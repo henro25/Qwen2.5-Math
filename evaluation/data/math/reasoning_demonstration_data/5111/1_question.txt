@@ -1,0 +1,1 @@
+Problem: What is the sum of three consecutive even integers if the sum of the first and third integers is $128$?

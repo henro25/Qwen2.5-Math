@@ -1,0 +1,2 @@
+Problem: Find the numerical value of
+\[\frac{\sin 18^\circ \cos 12^\circ + \cos 162^\circ \cos 102^\circ}{\sin 22^\circ \cos 8^\circ + \cos 158^\circ \cos 98^\circ}.\]

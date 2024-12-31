@@ -1,0 +1,1 @@
+Problem: A cylindrical water tank is $\frac{1}{5}$ full. If three liters were added, the tank would be $\frac{1}{4}$ full. How many liters does the tank hold when it is full?

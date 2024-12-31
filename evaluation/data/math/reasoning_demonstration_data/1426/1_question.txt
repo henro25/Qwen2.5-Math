@@ -1,0 +1,1 @@
+Problem: Mahmoud tosses three coins. What is the probability that he will get at least one head?

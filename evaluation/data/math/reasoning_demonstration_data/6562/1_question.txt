@@ -1,0 +1,1 @@
+Problem: Two congruent cones with radius 12 cm and height 12 cm are enclosed within a cylinder. The base of each cone is a base of the cylinder, and the height of the cylinder is 24 cm. What is the number of cubic centimeters in the volume of the cylinder not occupied by the cones? Express your answer in terms of $\pi$.

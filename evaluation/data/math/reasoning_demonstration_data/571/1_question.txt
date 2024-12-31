@@ -1,0 +1,1 @@
+Problem: Suppose that $a$ and $b$ are integers such that   $$3b = 8 - 2a.$$How many of the first six positive integers must be divisors of $2b + 12$?

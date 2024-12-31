@@ -1,0 +1,1 @@
+Problem: Find $ 8^8 \cdot 4^4 \div 2^{28}$.

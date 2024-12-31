@@ -1,0 +1,1 @@
+Problem: Given that $z$ is a complex number such that $z+\frac 1z=2\cos 3^\circ$, find $z^{2000}+\frac 1{z^{2000}}$.

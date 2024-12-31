@@ -1,0 +1,1 @@
+Problem: Find the value of the first term in the geometric sequence $a,b,c,32,64$.

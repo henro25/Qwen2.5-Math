@@ -1,0 +1,1 @@
+Problem: For two real values of $n$, the equation $4x^2+nx+25=0$ has exactly one solution in $x$. What is the positive value of $n$?

@@ -1,0 +1,2 @@
+Problem: Solve the inequality
+\[\frac{x^2 - 25}{x + 5} < 0.\]

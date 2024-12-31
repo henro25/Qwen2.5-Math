@@ -1,0 +1,1 @@
+Problem: A function $f$ is defined recursively by $f(1)=f(2)=1$ and \[f(n)=f(n-1)-f(n-2)+n\]for all integers $n \geq 3$. What is $f(2018)$?

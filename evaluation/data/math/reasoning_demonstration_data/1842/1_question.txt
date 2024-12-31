@@ -1,0 +1,1 @@
+Problem: Expand $-(3-c)(c+2(3-c))$. What is the sum of the coefficients of the expanded form?

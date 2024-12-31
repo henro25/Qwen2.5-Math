@@ -1,0 +1,6 @@
+Problem: Let \[f(x) =
+\begin{cases}
+9x+4 &\text{if }x\text{ is an integer}, \\
+\lfloor{x}\rfloor+5 &\text{if }x\text{ is not an integer}.
+\end{cases}
+\]Find $f(\sqrt{29})$.

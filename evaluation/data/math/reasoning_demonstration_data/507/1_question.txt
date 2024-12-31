@@ -1,0 +1,1 @@
+Problem: What is the smallest positive integer $n$ for which $9n-2$ and $7n + 3$ share a common factor greater than $1$?

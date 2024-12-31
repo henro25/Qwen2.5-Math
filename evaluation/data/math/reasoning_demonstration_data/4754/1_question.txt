@@ -1,0 +1,1 @@
+Problem: What is the 20th digit after the decimal point of the sum of the decimal equivalents for the fractions $\frac{1}{7}$ and $\frac{1}{3}$?

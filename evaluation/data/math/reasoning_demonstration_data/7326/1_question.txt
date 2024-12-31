@@ -1,0 +1,1 @@
+Problem: Let $x$ and $y$ be positive real numbers such that $x + y = 10.$  Find the minimum value of $\frac{1}{x} + \frac{1}{y}.$

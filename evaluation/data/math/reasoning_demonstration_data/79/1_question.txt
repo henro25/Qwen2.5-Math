@@ -1,0 +1,1 @@
+Problem: If $a$ and $b$ are integers with $a > b$, what is the smallest possible positive value of $\frac{a+b}{a-b} + \frac{a-b}{a+b}$?

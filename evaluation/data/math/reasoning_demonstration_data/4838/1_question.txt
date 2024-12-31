@@ -1,0 +1,1 @@
+Problem: If $a + b = c$ and $b+ c = 5$ and $c = 3$, what is the value of $a$?

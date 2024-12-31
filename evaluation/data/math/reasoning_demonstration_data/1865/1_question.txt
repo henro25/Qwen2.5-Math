@@ -1,0 +1,17 @@
+Problem: In the figure, $\overline{DC}$ is parallel to $\overline{AB}$. We have $\angle DCA = 40^\circ$ and $\angle ABC = 73^\circ$.  Find $\angle ACB$.
+
+[asy]
+pair A,B,C,D;
+A = (0,0);
+B= (1,0);
+D = (-0.1,0.6);
+C = (0.8,0.6);
+draw((-0.2,0)--(1.2,0));
+draw((-0.2,0.6)--(1.2,0.6));
+draw(A--C--B);
+label("$A$",A,S);
+label("$B$",B,S);
+label("$C$",C,N);
+label("$D$",D,N);
+dot(A);dot(B);dot(C);dot(D);
+[/asy]

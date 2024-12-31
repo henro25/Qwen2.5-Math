@@ -1,0 +1,1 @@
+Problem: What is the smallest possible perimeter, in units, of a triangle whose side-length measures are consecutive integer values?

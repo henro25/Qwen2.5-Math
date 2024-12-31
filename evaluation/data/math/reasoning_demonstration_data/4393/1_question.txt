@@ -1,0 +1,1 @@
+Problem: One leg of a right triangle is 12 inches, and the measure of the angle opposite that leg is $30^\circ$. What is the number of inches in the hypotenuse of the triangle?

@@ -1,0 +1,11 @@
+Problem: What is the measure of angle 4 if $m\angle 1 = 76^{\circ}, m\angle 2 = 27^{\circ}$ and $m\angle 3 = 17^{\circ}$?
+
+[asy]
+draw((0,0)--(4,8)--(10,0)--cycle,linewidth(1));
+draw((0,0)--(5,3)--(10,0),linewidth(1));
+label("2",(1,1.2));
+label("1",(4,7.75),S);
+label("4",(5,3),S);
+label("3",(8,1.8));
+
+[/asy]

@@ -1,0 +1,1 @@
+Problem: Expand the following expression: $(9x+4)\cdot 2x^2$

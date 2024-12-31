@@ -1,0 +1,1 @@
+Problem: Regular hexagon $ABCDEF$ has vertices $A$ and $C$ at $(0,0)$ and $(7,1)$, respectively. What is its area?

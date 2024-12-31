@@ -1,0 +1,1 @@
+Problem: A pizza parlor has six different toppings. How many different one- and two-topping pizzas can you order?

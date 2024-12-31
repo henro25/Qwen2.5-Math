@@ -1,0 +1,1 @@
+Problem: What is the slope of the line determined by any two solutions to the equation $\frac{2}{x}+\frac{3}{y} = 0$? Express your answer as a common fraction.

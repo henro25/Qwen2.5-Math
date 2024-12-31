@@ -1,0 +1,1 @@
+Problem: Find the distance between the planes $x - 3y + 3z = 8$ and $2x - 6y + 6z = 2.$

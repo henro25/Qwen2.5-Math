@@ -1,0 +1,1 @@
+Problem: Four people can mow a lawn in 6 hours. How many more people will be needed to mow the lawn in 4 hours, assuming each person mows at the same rate?

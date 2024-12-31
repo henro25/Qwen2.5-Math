@@ -1,0 +1,40 @@
+Problem: The graph shows the total  distance Sam drove from    6 a.m to 11 a.m.  How many  miles per hour is the car's  average speed for the period  from 6 a.m. to 11 a.m.?
+
+[asy]
+unitsize(0.2inch);
+draw((0,0)--(5.5,0));
+draw((0,0)--(0,8.5));
+draw((1,0)--(1,8.5));
+draw((2,0)--(2,8.5));
+draw((3,0)--(3,8.5));
+draw((4,0)--(4,8.5));
+draw((5,0)--(5,8.5));
+draw((0,1)--(5.5,1));
+draw((0,8)--(5.5,8));
+draw((0,7)--(5.5,7));
+draw((0,6)--(5.5,6));
+draw((0,5)--(5.5,5));
+draw((0,4)--(5.5,4));
+draw((0,3)--(5.5,3));
+draw((0,2)--(5.5,2));
+draw((0,0)--(1,2)--(2,3)--(3,5)--(4,6)--(5,8));
+dot((0,0));
+dot((1,2));
+dot((2,3));
+dot((3,5));
+dot((4,6));
+dot((5,8));
+label("6",(0,-0.5),S);
+label("7",(1,-0.5),S);
+label("8",(2,-0.5),S);
+label("9",(3,-0.5),S);
+label("10",(4,-0.5),S);
+label("11",(5,-0.5),S);
+label("0",(-0.5,0),W);
+label("40",(-0.5,2),W);
+label("80",(-0.5,4),W);
+label("120",(-0.5,6),W);
+label("160",(-0.5,8),W);
+label("Time of Day (a.m.)",(2.7,-2),S);
+label("Total distance",(-0.5,9),N);
+[/asy]

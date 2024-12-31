@@ -1,0 +1,4 @@
+Problem: If $a,b,c$ satisfy the system of equations  \begin{align*}b + c &= 12-3a \\
+a+c &= -14 - 3b \\
+a+b &= 7 - 3c,
+\end{align*} what is $2a + 2b + 2c$?

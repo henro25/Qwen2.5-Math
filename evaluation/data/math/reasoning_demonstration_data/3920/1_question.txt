@@ -1,0 +1,1 @@
+Problem: Find the residue of $182\cdot 12 - 15\cdot 7 + 3\pmod{14}$.

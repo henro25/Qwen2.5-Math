@@ -1,0 +1,1 @@
+Problem: Triangle $ABC$ is isosceles with angle $A$ congruent to angle $B$. The measure of angle $C$ is 30 degrees more than the measure of angle $A$. What is the number of degrees in the measure of angle $C$?

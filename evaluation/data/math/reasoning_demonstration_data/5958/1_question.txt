@@ -1,0 +1,1 @@
+Problem: Three aluminum cans can be recycled to make a new can. How many new cans can eventually be made from 243 aluminum cans? (Remember that the first new cans that are made can then be recycled into even newer cans!)  Do not include the original 243 cans in your count.

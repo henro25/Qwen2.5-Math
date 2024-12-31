@@ -1,0 +1,1 @@
+Problem: A triangle has sides of length 5 and 6 units. The length of the third side is $x$ units, where $x$ is an integer. What is the largest possible perimeter of the triangle?

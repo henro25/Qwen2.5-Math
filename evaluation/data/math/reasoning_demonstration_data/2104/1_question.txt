@@ -1,0 +1,1 @@
+Problem: Let $f(n)$ return the number of distinct ordered pairs of positive integers $(a, b)$ such that for each ordered pair, $a^2 + b^2 = n$. Note that when $a \neq b$, $(a, b)$ and $(b, a)$ are distinct. What is the smallest positive integer $n$ for which $f(n) = 3$?

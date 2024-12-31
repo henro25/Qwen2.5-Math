@@ -1,0 +1,1 @@
+Problem: How many positive three-digit integers with a $5$ in the units place are divisible by $15$?

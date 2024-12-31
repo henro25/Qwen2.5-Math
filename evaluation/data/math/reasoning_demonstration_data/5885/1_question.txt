@@ -1,0 +1,1 @@
+Problem: In the local frisbee league, teams have 7 members and each of the 4 teams takes turns hosting tournaments. At each tournament, each team selects two members of that team to be on the tournament committee, except the host team, which selects three members. How many possible 9 member tournament committees are there?

@@ -1,0 +1,1 @@
+Problem: What is the volume in cubic inches of a right, rectangular prism with side, front and bottom faces having an area 15 square inches, 10 square inches and 6 square inches, respectively?

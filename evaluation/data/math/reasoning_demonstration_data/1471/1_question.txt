@@ -1,0 +1,1 @@
+Problem: The points $(-1,4)$ and $(2,-3)$ are adjacent vertices of a square. What is the area of the square?

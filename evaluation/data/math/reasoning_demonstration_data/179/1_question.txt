@@ -1,0 +1,1 @@
+Problem: Point $O$ is the center of an ellipse with major axis $\overline{AB}$ and minor axis $\overline{CD}.$  Point $F$ is one focus of the ellipse.  If $OF = 6$ and the diameter of the inscribed circle of triangle $OCF$ is 2, compute the product $(AB)(CD).$

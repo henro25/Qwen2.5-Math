@@ -1,0 +1,1 @@
+Problem: If $x$ is a positive multiple of 8 and $x^2>100$, but $x<20$, what is $x$?

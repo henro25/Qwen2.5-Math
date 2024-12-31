@@ -1,0 +1,1 @@
+Problem: If three standard, six-faced dice are rolled, what is the probability that the sum of the three numbers rolled is 9? Express your answer as a common fraction.

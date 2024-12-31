@@ -1,0 +1,1 @@
+Problem: Let $a$, $b$, and $c$ be the roots of $x^3 - 20x^2 + 18x - 7 = 0$. Compute \[(a+b)^2 + (b+c)^2 + (c+a)^2.\]

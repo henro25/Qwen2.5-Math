@@ -1,0 +1,1 @@
+Problem: What is the value of $$\frac{1}{2}\times4\times\frac{1}{8}\times16\times\frac{1}{32}\times64\times\frac{1}{128}\times256\times\frac{1}{512}\times1024?$$

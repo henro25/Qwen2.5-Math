@@ -1,0 +1,1 @@
+Problem: The area of a rectangle is 432 square centimeters. What would the new area be if the length of the rectangle was decreased by $10\%$ and the width of the rectangle was increased by $10\%$? Express your answer to the nearest whole number.

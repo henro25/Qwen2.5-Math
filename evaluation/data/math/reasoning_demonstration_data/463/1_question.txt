@@ -1,0 +1,1 @@
+Problem: What is the value of $x$ if a cube's volume is $5x$ cubic units and its surface area is $x$ square units?

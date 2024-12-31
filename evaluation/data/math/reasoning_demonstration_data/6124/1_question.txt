@@ -1,0 +1,1 @@
+Problem: $(81)^{\frac12}=3^m$. Find $m$.

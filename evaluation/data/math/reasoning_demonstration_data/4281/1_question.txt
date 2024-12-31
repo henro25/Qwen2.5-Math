@@ -1,0 +1,1 @@
+Problem: Each of the first eight prime numbers is placed in a bowl. Two primes are drawn without replacement. What is the probability, expressed as a common fraction, that the sum of the two numbers drawn is a prime number?

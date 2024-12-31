@@ -1,0 +1,1 @@
+Problem: What is the greatest divisor of 372 that is smaller than 50 and also a factor of 72?

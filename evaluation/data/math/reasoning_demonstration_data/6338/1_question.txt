@@ -1,0 +1,2 @@
+Problem: The real numbers $a$ and $b$ satisfy
+\[\begin{pmatrix} 2 \\ a \\ -7 \end{pmatrix} \times \begin{pmatrix} 5 \\ 4 \\ b \end{pmatrix} = \mathbf{0}.\]Enter the ordered pair $(a,b).$

@@ -1,0 +1,1 @@
+Problem: On a "prime date," both the month and the day are prime numbers. For example, Feb. 7 or 2/7 is a prime date. How many prime dates occurred in 2007?

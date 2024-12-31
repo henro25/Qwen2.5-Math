@@ -1,0 +1,1 @@
+Problem: Ben twice chooses a random integer between 1 and 50, inclusive (and he may choose the same integer both times). What is the probability that at least one of the numbers Ben chooses is a multiple of 3?

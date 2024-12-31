@@ -1,0 +1,1 @@
+Problem: Solve the equation \[-x^2 = \frac{3x+1}{x+3}.\]Enter all solutions, separated by commas.

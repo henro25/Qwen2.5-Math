@@ -1,0 +1,1 @@
+Problem: A ball is dropped from 1000 feet high and always bounces back up half the distance it just fell. After how many bounces will the ball first reach a maximum height less than 1 foot?

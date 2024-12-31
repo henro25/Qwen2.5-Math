@@ -1,0 +1,1 @@
+Problem: The expression $\log_{y^6}{x}\cdot\log_{x^5}{y^2}\cdot\log_{y^4}{x^3}\cdot\log_{x^3}{y^4}\cdot\log_{y^2}{x^5}$ can be written as $a\log_y{x}$ for what constant $a$?

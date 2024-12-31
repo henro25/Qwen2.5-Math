@@ -1,0 +1,1 @@
+Problem: What is the minimum number of equilateral triangles, of side length 1 unit, needed to cover an equilateral triangle of side length 10 units?

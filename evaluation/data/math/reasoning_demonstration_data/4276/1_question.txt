@@ -1,0 +1,1 @@
+Problem: $A, B, C$ and $D$ are distinct positive integers such that the product $AB = 60$,  the product $CD = 60$ and $A - B = C + D$ .  What is the value of $A$?

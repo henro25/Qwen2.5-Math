@@ -1,0 +1,1 @@
+Problem: If $\lfloor{\sqrt{x}}\rfloor=6$, how many possible integer values of $x$ are there?

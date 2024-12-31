@@ -1,0 +1,1 @@
+Problem: Triangles $ABC$ and $ADE$ have areas $2007$ and $7002,$ respectively, with $B=(0,0), C=(223,0), D=(680,380),$ and $E=(689,389).$ What is the sum of all possible $x$-coordinates of $A$?

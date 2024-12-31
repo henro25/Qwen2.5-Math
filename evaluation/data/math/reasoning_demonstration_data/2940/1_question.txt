@@ -1,0 +1,21 @@
+Problem: A bridge is built by suspending a plank of wood between two triangular wedges with equal heights, as in the following diagram: [asy]
+import olympiad;
+import math;
+
+// Draw triangles
+pair A = (0, 1);
+pair B = (-cos(1.3962), 0);
+pair C = (cos(1.3962), 0);
+pair D = (2, 1);
+pair E = (2-cos(1.3089), 0);
+pair F = (2+cos(1.3089), 0);
+draw(A--B--C--cycle);
+draw(D--E--F--cycle);
+draw(A--D);
+label('$A$',A,N);
+label('$B$',B,S);
+label('$C$',C,S);
+label('$D$',D,N);
+label('$E$',E,S);
+label('$F$',F,S);
+[/asy] If $AB = AC$ and $DE = DF,$ and we have $\angle BAC = 20^\circ$ and $\angle EDF = 30^\circ,$ then what is $\angle DAC + \angle ADE$?

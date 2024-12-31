@@ -1,0 +1,1 @@
+Problem: Suppose $f(x)$ is a rational function such that $3f\left(\dfrac{1}{x}\right)+\dfrac{2f(x)}{x}=x^2$ for $x\neq 0$.  Find $f(-2)$.

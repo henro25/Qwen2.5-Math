@@ -1,0 +1,2 @@
+Problem: Let $x_1,$ $x_2,$ $x_3$ be positive real numbers such that $x_1 + 2x_2 + 3x_3 = 60.$  Find the smallest possible value of
+\[x_1^2 + x_2^2 + x_3^2.\]

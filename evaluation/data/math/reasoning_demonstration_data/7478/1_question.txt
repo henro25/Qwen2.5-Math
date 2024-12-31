@@ -1,0 +1,1 @@
+Problem: If $f(x)=\dfrac{x+1}{3x-4}$, what is the value of $f(5)$?

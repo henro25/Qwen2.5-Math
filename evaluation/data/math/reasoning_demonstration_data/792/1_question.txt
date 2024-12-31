@@ -1,0 +1,2 @@
+Problem: The line $y = 3x - 11$ is parameterized by the form
+\[\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} r \\ 1 \end{pmatrix} + t \begin{pmatrix} 4 \\ k \end{pmatrix}.\]Enter the ordered pair $(r,k).$

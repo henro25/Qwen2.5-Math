@@ -1,0 +1,1 @@
+Problem: There are 3 math teams in the area, with 5, 7, and 8 students respectively. Each team has two co-captains. If I randomly select a team, and then randomly select two members of that team to give a copy of $\emph{Introduction to Geometry}$, what is the probability that both of the people who receive books are co-captains?

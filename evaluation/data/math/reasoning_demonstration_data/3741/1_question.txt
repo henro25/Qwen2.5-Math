@@ -1,0 +1,1 @@
+Problem: A round pizza is $\frac13$ of an inch thick and has a diameter of 12 inches. It is cut into 12 congruent pieces. What is the number of cubic inches in the volume of one piece? Express your answer in terms of $\pi$.

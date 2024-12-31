@@ -1,0 +1,8 @@
+Problem: Which of the following, when rounded to the nearest hundredth, does not round to 65.14?
+A) 65.141
+B) 65.138
+C) 65.1339999
+D) 65.1401
+E) 65.14444
+
+Your answer should be a letter: A, B, C, D, or E.

@@ -1,0 +1,1 @@
+Problem: In a triangle, two of the side lengths are 7 and 8, and the angle between them is $120^\circ.$  Find the length of the third side.

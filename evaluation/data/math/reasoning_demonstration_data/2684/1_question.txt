@@ -1,0 +1,20 @@
+Problem: In the diagram shown, $\overrightarrow{OA}\perp\overrightarrow{OC}$ and $\overrightarrow{OB}\perp\overrightarrow{OD}$. If $\angle{AOD}$ is 3.5 times $\angle{BOC}$, what is $\angle{AOD}$? [asy]
+unitsize(1.5cm);
+defaultpen(linewidth(.7pt)+fontsize(10pt));
+dotfactor=4;
+
+pair O=(0,0), A=dir(0), B=dir(50), C=dir(90), D=dir(140);
+pair[] dots={O,A,B,C,D};
+
+dot(dots);
+draw(O--1.2*D,EndArrow(4));
+draw(O--1.2*B,EndArrow(4));
+draw(O--1.2*C,EndArrow(4));
+draw(O--1.2*A,EndArrow(4));
+
+label("$D$",D,SW);
+label("$C$",C,W);
+label("$B$",B,E);
+label("$A$",A,N);
+label("$O$",O,S);
+[/asy]

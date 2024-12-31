@@ -1,0 +1,1 @@
+Problem: If the three points $(1,a,b),$ $(a,2,b),$ $(a,b,3)$ are collinear, what is the value of $a + b$?

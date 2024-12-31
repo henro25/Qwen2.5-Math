@@ -1,0 +1,1 @@
+Problem: Eighty percent of adults drink coffee and seventy percent drink tea. What is the smallest possible percent of adults who drink both coffee and tea?

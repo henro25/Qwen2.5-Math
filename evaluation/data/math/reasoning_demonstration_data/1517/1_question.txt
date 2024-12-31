@@ -1,0 +1,10 @@
+Problem: For the quadrilateral shown, how many different whole numbers could be the length of the diagonal represented by the dashed line?
+
+[asy]
+draw((0,0)--(5,5)--(12,1)--(7,-8)--cycle,linewidth(0.7));
+draw((0,0)--(12,1),dashed);
+label("8",(2.5,2.5),NW);
+label("10",(8.5,3),NE);
+label("16",(9.5, -3.5),SE);
+label("12",(3.5,-4),SW);
+[/asy]

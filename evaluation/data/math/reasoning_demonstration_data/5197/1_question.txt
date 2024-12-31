@@ -1,0 +1,1 @@
+Problem: The vertex of the parabola described by the equation $y=-3x^2-30x-81$ is $(m,n)$. What is $n$?

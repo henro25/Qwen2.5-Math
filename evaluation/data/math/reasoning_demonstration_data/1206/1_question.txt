@@ -1,0 +1,1 @@
+Problem: For what real values of $a$ is the expression $\frac{a+3}{a^2-4}$ undefined? List your answers in increasing order separated by commas.

@@ -1,0 +1,1 @@
+Problem: What is the smallest solution of the equation $x^4-34x^2+225=0$?

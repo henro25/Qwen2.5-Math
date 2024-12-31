@@ -1,0 +1,1 @@
+Problem: Compute $\left(\sqrt{625681}\right)^2$.

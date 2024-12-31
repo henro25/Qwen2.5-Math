@@ -1,0 +1,1 @@
+Problem: What is the largest integer $x$ such that $\frac{x}{3}+\frac{4}{5} < \frac{5}{3}$?

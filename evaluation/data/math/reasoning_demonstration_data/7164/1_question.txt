@@ -1,0 +1,1 @@
+Problem: How many prime numbers have squares between 4000 and 7000?

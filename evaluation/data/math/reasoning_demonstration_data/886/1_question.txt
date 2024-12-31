@@ -1,0 +1,1 @@
+Problem: An airplane has three sections: First Class (24 seats), Business Class ($25\%$ of the total number of seats) and Economy ($\frac{2}{3}$ of the total number of seats). How many seats does the plane have?

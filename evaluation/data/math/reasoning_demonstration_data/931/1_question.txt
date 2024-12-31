@@ -1,0 +1,2 @@
+Problem: The expression
+\[a(b - c)^3 + b(c - a)^3 + c(a - b)^3\]can be factored into the form  $(a - b)(b - c)(c - a) p(a,b,c),$ for some polynomial $p(a,b,c).$  Find $p(a,b,c).$

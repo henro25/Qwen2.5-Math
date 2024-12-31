@@ -1,0 +1,1 @@
+Problem: Write $(-5)^5\div5^3+3^{4}-6^{1}$ as an integer.

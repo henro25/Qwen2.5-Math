@@ -1,0 +1,1 @@
+Problem: When the base-10 integers 200 and 1200 are expressed in base 2, how many more digits does 1200 have than 200 (after being converted)?

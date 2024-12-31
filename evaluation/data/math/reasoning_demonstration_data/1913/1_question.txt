@@ -1,0 +1,1 @@
+Problem: If $y = -x^2 + 5$ and $x$ is a real number, then what is the maximum value possible for $y$?

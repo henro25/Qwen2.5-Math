@@ -1,0 +1,2 @@
+Problem: Let $x,$ $y,$ and $z$ be positive real numbers such that $xyz = 1.$  Find the minimum value of
+\[(x + 2y)(y + 2z)(xz + 1).\]

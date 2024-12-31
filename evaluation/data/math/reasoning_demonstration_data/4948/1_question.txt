@@ -1,0 +1,2 @@
+Problem: Find the number of solutions to
+\[\sin x = \left( \frac{1}{2} \right)^x\]on the interval $(0,100 \pi).$

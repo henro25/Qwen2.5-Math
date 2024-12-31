@@ -1,0 +1,1 @@
+Problem: Let $a_{10} = 10$, and for each positive integer $n >10$ let $a_n = 100a_{n - 1} + n$. Find the least positive $n > 10$ such that $a_n$ is a multiple of $99$.

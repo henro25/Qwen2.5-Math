@@ -1,0 +1,1 @@
+Problem: What is the least positive integer value of $x$ such that $(2x)^2 + 2\cdot 37\cdot 2x + 37^2$ is a multiple of 47?

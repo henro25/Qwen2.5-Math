@@ -1,0 +1,5 @@
+Problem: Let $N$ denote the number of permutations of the $15$-character string $AAAABBBBBCCCCCC$ such that
+None of the first four letters is an $A$.
+None of the next five letters is a $B$.
+None of the last six letters is a $C$.
+Find the remainder when $N$ is divided by $1000$.

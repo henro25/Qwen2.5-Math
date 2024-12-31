@@ -1,0 +1,1 @@
+Problem: If $\sqrt{2\sqrt{t-2}} = \sqrt[4]{7 - t}$, then find $t$.

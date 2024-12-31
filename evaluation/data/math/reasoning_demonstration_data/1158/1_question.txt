@@ -1,0 +1,1 @@
+Problem: What is the smallest three-digit number in Pascal's triangle?

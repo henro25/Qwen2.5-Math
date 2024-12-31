@@ -1,0 +1,1 @@
+Problem: Simplify completely: $$\sqrt[3]{30^3+40^3+50^3}$$.

@@ -1,0 +1,1 @@
+Problem: Two numbers are independently selected from the set of positive integers less than or equal to 5. What is the probability that the sum of the two numbers is less than their product? Express your answer as a common fraction.

@@ -1,0 +1,1 @@
+Problem: What is the product of the digits in the base 8 representation of $6543_{10}$?

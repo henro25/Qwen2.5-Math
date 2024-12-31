@@ -1,0 +1,1 @@
+Problem: Express the product of $1001_2$ and $121_3$ in base 10.

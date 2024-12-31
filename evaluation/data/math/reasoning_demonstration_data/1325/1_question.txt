@@ -1,0 +1,3 @@
+Problem: The values of a function $f(x)$ are given below:
+
+\begin{tabular}{|c||c|c|c|c|c|} \hline $x$ & 3 & 4 & 5 & 6 & 7 \\ \hline $f(x)$ & 10 & 17 & 26 & 37 & 50 \\ \hline \end{tabular}Evaluate $f^{-1}\left(f^{-1}(50)\times f^{-1}(10)+f^{-1}(26)\right)$.

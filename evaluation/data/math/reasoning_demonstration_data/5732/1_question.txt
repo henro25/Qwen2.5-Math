@@ -1,0 +1,1 @@
+Problem: Kimberly borrows $1000$ dollars from Lucy, who charged interest of $5\%$ per month (which compounds monthly). What is the least integer number of months after which Kimberly will owe more than twice as much as she borrowed?

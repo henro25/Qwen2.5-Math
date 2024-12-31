@@ -1,0 +1,5 @@
+Problem: Given the system of equations \begin{align*}
+xy &= 6 - 2x - 3y,\\
+yz &= 6 - 4y - 2z,\\
+xz &= 30 - 4x - 3z,
+\end{align*}find the positive solution of $x$.

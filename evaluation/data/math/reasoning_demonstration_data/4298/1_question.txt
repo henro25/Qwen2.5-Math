@@ -1,0 +1,1 @@
+Problem: Find the matrix $\mathbf{P}$ such that for any vector $\mathbf{v},$ $\mathbf{P} \mathbf{v}$ is the projection of $\mathbf{v}$ onto the vector $\begin{pmatrix} 2 \\ -2 \\ -1 \end{pmatrix}.$

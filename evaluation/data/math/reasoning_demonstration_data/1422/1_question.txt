@@ -1,0 +1,1 @@
+Problem: Simplify $$(x^3+4x^2-7x+11)+(-4x^4-x^3+x^2+7x+3).$$  Express your answer as a polynomial with the terms in order by decreasing degree.

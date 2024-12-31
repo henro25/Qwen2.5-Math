@@ -1,0 +1,1 @@
+Problem: Let $a \oslash b = (\sqrt{2a+b})^3$. If $4 \oslash x = 27$, find the value of $x$.

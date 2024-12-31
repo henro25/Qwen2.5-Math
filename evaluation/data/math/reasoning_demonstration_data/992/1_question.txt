@@ -1,0 +1,1 @@
+Problem: In right triangle $PQR$, we have $\angle Q = \angle R$ and $PR = 6\sqrt{2}$.  What is the area of $\triangle PQR$?

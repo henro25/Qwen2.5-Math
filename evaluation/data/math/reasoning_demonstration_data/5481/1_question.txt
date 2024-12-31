@@ -1,0 +1,1 @@
+Problem: The operation $\dagger$ is defined as $\frac{m}{n}\dagger\frac{p}{q} = (m)(p)(\frac{q}{n}).$  What is the simplified value of $\frac{7}{12}\dagger\frac{8}{3}$?

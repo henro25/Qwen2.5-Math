@@ -1,0 +1,1 @@
+Problem: We have a cube with 4 blue faces and 2 red faces.  What's the probability that when it is rolled, a blue face will be facing up?

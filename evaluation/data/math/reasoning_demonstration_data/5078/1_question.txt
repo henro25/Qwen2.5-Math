@@ -1,0 +1,1 @@
+Problem: Let $a \clubsuit b = \frac{2a}{b} \cdot \frac{b}{a}$. What is $(5 \clubsuit (3 \clubsuit 6)) \clubsuit 1$?

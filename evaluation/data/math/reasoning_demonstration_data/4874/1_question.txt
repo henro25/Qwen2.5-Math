@@ -1,0 +1,1 @@
+Problem: If $\tan x = 2,$ then find $\tan \left( x + \frac{\pi}{4} \right).$

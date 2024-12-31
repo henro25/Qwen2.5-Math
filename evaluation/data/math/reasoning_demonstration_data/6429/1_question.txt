@@ -1,0 +1,1 @@
+Problem: How many numbers are in the list $$ 1.5, 5.5, 9.5, 13.5, \ldots, 41.5, 45.5? $$

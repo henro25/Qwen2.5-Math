@@ -1,0 +1,23 @@
+Problem: In the diagram below, $AB = AC = 115,$ $AD = 38,$ and $CF = 77.$  Compute $\frac{[CEF]}{[DBE]}.$
+
+[asy]
+unitsize(0.025 cm);
+
+pair A, B, C, D, E, F;
+
+B = (0,0);
+C = (80,0);
+A = intersectionpoint(arc(B,115,0,180),arc(C,115,0,180));
+D = interp(A,B,38/115);
+F = interp(A,C,(115 + 77)/115);
+E = extension(B,C,D,F);
+
+draw(C--B--A--F--D);
+
+label("$A$", A, N);
+label("$B$", B, SW);
+label("$C$", C, NE);
+label("$D$", D, W);
+label("$E$", E, SW);
+label("$F$", F, SE);
+[/asy]

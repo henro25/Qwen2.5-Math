@@ -1,0 +1,3 @@
+Problem: A zealous geologist is sponsoring a contest in which entrants have to guess the age of a shiny rock. He offers these clues: the age of the rock is formed from the six digits 2, 2, 2, 3, 7, and 9, and the rock's age begins with an odd digit.
+
+How many possibilities are there for the rock's age?

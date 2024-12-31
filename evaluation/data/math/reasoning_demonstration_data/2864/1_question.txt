@@ -1,0 +1,1 @@
+Problem: The polynomial $f(x)=x^4+ax^3+bx^2+cx+d$ has real coefficients, and $f(2i)=f(2+i)=0$.  What is $a+b+c+d$?

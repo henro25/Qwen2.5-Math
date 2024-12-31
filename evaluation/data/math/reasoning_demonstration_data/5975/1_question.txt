@@ -1,0 +1,8 @@
+Problem: Suppose that $a$ is a multiple of 4 and $b$ is a multiple of 8. Which of the following statements are true?
+
+A. $a+b$ must be even.
+B. $a+b$ must be a multiple of 4.
+C. $a+b$ must be a multiple of 8.
+D. $a+b$ cannot be a multiple of 8.
+
+Answer by listing your choices in alphabetical order, separated by commas.  For example, if you think all four are true, then answer $\text{A,B,C,D}$

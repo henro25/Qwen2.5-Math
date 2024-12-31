@@ -1,0 +1,1 @@
+Problem: Two circles, one of radius 5 inches, the other of radius 2 inches, are tangent at point P. Two bugs start crawling at the same time from point P, one crawling along the larger circle at $3\pi$ inches per minute, the other crawling along the smaller circle at $2.5\pi$ inches per minute. How many minutes is it before their next meeting at point P?

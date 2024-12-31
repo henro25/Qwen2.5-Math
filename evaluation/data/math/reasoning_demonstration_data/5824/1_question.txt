@@ -1,0 +1,1 @@
+Problem: If $27^8=9^q$, what is $q$?

@@ -1,0 +1,1 @@
+Problem: Points $A$ and $B$ have the same $y$-coordinate of 13, but different $x$-coordinates. What is the sum of the slope and the $y$-intercept of the line containing both points?

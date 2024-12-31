@@ -1,0 +1,1 @@
+Problem: What is the tenth positive integer that is both odd and a multiple of 3?

@@ -1,0 +1,1 @@
+Problem: The letters of the alphabet are each assigned a random integer value, and $H=10$. The value of a word comes from the sum of its letters' values. If $MATH$ is 35 points, $TEAM$ is 42 points and $MEET$ is 38 points, what is the value of $A$?

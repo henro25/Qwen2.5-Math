@@ -1,0 +1,6 @@
+Problem: If $w$, $x$, $y$, and $z$ are real numbers satisfying: \begin{align*}
+w+x+y &= -2, \\
+w+x+z &= 4, \\
+w+y+z &= 19, \text{ and} \\
+x+y+z &= 12,
+\end{align*} what is $wx + yz$?

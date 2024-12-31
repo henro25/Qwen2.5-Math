@@ -1,0 +1,1 @@
+Problem: Rectangle $ABCD$ has area $2006.$ An ellipse with area $2006\pi$ passes through $A$ and $C$ and has foci at $B$ and $D$. What is the perimeter of the rectangle?

@@ -1,0 +1,1 @@
+Problem: A box contains 4 white balls and 4 black balls.  I draw them out of the box, one at a time.  What is the probability that all of my draws alternate colors?

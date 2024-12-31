@@ -1,0 +1,1 @@
+Problem: The sides of rectangle $ABCD$ have lengths $10$ and $11$. An equilateral triangle is drawn so that no point of the triangle lies outside $ABCD$.  Find the maximum possible area of such a triangle.

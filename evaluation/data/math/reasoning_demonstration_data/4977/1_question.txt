@@ -1,0 +1,1 @@
+Problem: How many natural-number factors does $\textit{N}$ have if $\textit{N} = 2^3 \cdot 3^2 \cdot 5^1$?

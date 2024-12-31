@@ -1,0 +1,2 @@
+Problem: There exists a constant $k$ so that the minimum value of
+\[4x^2 - 6kxy + (3k^2 + 2) y^2 - 4x - 4y + 6\]over all real numbers $x$ and $y$ is 0.  Find $k.$

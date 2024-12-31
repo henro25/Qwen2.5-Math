@@ -1,0 +1,18 @@
+Problem: A circle centered at $O$ has radius 1 and contains the point $A$. Segment $AB$ is tangent to the circle at $A$ and $\angle
+AOB=\theta$. If point $C$ lies on $\overline{OA}$ and $\overline{BC}$ bisects $\angle ABO$, then express $OC$ in terms of $s$ and $c,$ where $s = \sin \theta$ and $c = \cos \theta.$
+
+[asy]
+pair A,B,C,O;
+O=(0,0);
+A=(1,0);
+C=(0.6,0);
+B=(1,2);
+label("$\theta$",(0.1,0),NE);
+label("$O$",O,S);
+label("$C$",C,S);
+label("$A$",A,E);
+label("$B$",B,E);
+draw(A--O--B--cycle,linewidth(0.7));
+draw(C--B,linewidth(0.7));
+draw(Circle(O,1),linewidth(0.7));
+[/asy]

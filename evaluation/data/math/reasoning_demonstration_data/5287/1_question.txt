@@ -1,0 +1,1 @@
+Problem: Simplify: $\frac{2^{n+4} - 2(2^n)}{2(2^{n+3})}$. Express your answer as a common fraction.

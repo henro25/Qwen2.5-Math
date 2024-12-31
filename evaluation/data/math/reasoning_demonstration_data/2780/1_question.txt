@@ -1,0 +1,17 @@
+Problem: Find $XY$ in the triangle below.
+
+
+[asy]
+unitsize(1inch);
+pair P,Q,R;
+P = (0,0);
+Q= (1,0);
+R = (0,1);
+draw (P--Q--R--P,linewidth(0.9));
+draw(rightanglemark(Q,P,R,3));
+label("$X$",P,S);
+label("$Y$",Q,S);
+label("$Z$",R,N);
+label("$12\sqrt{2}$",(Q+R)/2,NE);
+label("$45^\circ$",(0.7,0),N);
+[/asy]

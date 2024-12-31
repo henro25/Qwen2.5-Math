@@ -1,0 +1,1 @@
+Problem: How many integers, $x$, satisfy $|5x - 3| \le 7$?

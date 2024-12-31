@@ -1,0 +1,2 @@
+Problem: What is the value of the 25th term of the arithmetic sequence $2,
+5, 8, \ldots$?

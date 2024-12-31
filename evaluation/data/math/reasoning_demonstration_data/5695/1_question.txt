@@ -1,0 +1,1 @@
+Problem: The lengths of the sides of a non-degenerate triangle are $x$, 13 and 37 units. How many integer values of $x$ are possible?

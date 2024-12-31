@@ -1,0 +1,6 @@
+Problem: Let \[f(x) = \left\{
+\begin{array}{cl}
+\sqrt{x} &\text{ if }x>4, \\
+x^2 &\text{ if }x \le 4.
+\end{array}
+\right.\]Find $f(f(f(2)))$.

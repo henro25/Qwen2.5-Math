@@ -1,0 +1,1 @@
+Problem: Find the dot product of $\begin{pmatrix} 3 \\ -4 \\ -3 \end{pmatrix}$ and $\begin{pmatrix} -5 \\ 2 \\ 1 \end{pmatrix}.$

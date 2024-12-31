@@ -1,0 +1,1 @@
+Problem: Two different integers are randomly chosen from the set $$\{ -5, -8, 7, 4, -2 \}.$$ What is the probability that their product is negative? Express your answer as a common fraction.

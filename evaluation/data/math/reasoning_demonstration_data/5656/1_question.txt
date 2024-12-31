@@ -1,0 +1,1 @@
+Problem: The distance between the two intersections of $x=y^4$ and $x+y^2=1$ is $\sqrt{u+v\sqrt5}$.  Find the ordered pair, $(u,v)$.

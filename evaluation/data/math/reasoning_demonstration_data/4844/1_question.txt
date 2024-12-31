@@ -1,0 +1,9 @@
+Problem: Suppose $a<0$ and $a<b<c$. Which of the following must be true?
+
+$ab < bc$
+$ac<bc$
+$ab< ac$
+$a+b<b+c$
+$c/a <1$
+
+Enter your answer as a list of those options that are always true. For instance, if you think only the first and third are true, enter A, C.

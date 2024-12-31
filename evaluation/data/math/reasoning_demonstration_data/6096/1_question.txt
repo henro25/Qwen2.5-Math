@@ -1,0 +1,5 @@
+Problem: Suppose that $x$ is an integer that satisfies the following congruences: \begin{align*}
+3+x &\equiv 2^2 \pmod{3^3} \\
+5+x &\equiv 3^2 \pmod{5^3} \\
+7+x &\equiv 5^2 \pmod{7^3}
+\end{align*}What is the remainder when $x$ is divided by $105$?

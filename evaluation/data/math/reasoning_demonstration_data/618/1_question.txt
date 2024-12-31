@@ -1,0 +1,1 @@
+Problem: Find the value of $\frac{5x+9y}{45xy}$, given $x = \frac{3}{5}$ and $y = \frac{7}{9}$.

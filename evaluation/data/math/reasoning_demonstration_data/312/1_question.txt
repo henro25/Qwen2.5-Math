@@ -1,0 +1,1 @@
+Problem: A fair coin is flipped 7 times.  What is the probability that at least 5 of the flips come up heads?

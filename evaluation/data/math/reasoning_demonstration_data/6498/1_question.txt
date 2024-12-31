@@ -1,0 +1,2 @@
+Problem: A subset of the integers $1,2,\cdots,100$ has the property that none of its members is 3 times another. What is the largest number of members such a subset can have?
+$\text{(A) } 50\quad \text{(B) } 66\quad \text{(C) } 67\quad \text{(D) } 76\quad \text{(E) } 78$

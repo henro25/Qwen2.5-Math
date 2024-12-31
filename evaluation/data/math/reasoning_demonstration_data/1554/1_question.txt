@@ -1,0 +1,1 @@
+Problem: There are five unmarked envelopes on a table, each with a letter for a different person.  If the mail is randomly distributed to these five people, with each person getting one letter, what is the probability that exactly four people get the right letter?

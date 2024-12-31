@@ -1,0 +1,17 @@
+Problem: Find the ratio of the volume of the cone to the volume of the cylinder. Express your answer as a common fraction.
+
+[asy]
+import solids; size(150); import three; defaultpen(linewidth(0.8)); currentprojection = orthographic(5,0,3);
+revolution c = cylinder((0,0,0), 1, 3);
+revolution c2 = cone((0,0,0), 1,1.5);
+draw(c,black);
+draw(c2,black);
+
+draw((1.5,0)--(1.5,2.5),Arrows(TeXHead));
+label("12",(1.5,0)--(1.5,2.5),E);
+draw((-1.5,0)--(-1.5,1.25),Arrows(TeXHead));
+label("6",(-1.5,0)--(-1.5,1.25),W);
+
+draw((0,0)--(1,0),Arrows(TeXHead));
+label("4",(0,0)--(1,0),S);
+[/asy]

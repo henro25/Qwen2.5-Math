@@ -1,0 +1,1 @@
+Problem: Express as a common fraction: $(0.\overline{09})(0.\overline{7})$.

@@ -1,0 +1,3 @@
+Problem: An ellipse has foci $(2, 2)$ and $(2, 6)$, and it passes through the point $(14, -3).$ Given this, we can write the equation of the ellipse in standard form as \[\frac{(x-h)^2}{a^2} + \frac{(y-k)^2}{b^2} = 1,\]where $a, b, h, k$ are constants, and $a$ and $b$ are positive. Find the ordered quadruple $(a, b, h, k)$.
+
+(Enter your answer as an ordered list, for example, "1, 3, -9, 2".)

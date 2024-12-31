@@ -1,0 +1,1 @@
+Problem: Let $(x,y)$ be an ordered pair of real numbers that satisfies the equation $x^2+y^2=14x+48y$. What is the minimum value of $y$?

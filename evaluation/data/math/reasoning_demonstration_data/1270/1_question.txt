@@ -1,0 +1,2 @@
+Problem: Find the nonconstant polynomial $P(x)$ such that
+\[P(P(x)) = (x^2 + x + 1) P(x).\]

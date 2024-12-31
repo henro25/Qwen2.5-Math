@@ -1,0 +1,1 @@
+Problem: How many terms of the arithmetic sequence 88, 85, 82, $\dots$ appear before the number $-17$ appears?

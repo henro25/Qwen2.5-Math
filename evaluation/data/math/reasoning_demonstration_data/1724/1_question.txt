@@ -1,0 +1,21 @@
+Problem: What is the value of $x$ in the diagram?
+
+[asy]
+
+import olympiad;
+
+draw((0,0)--(sqrt(3),0)--(0,sqrt(3))--cycle);
+
+draw((0,0)--(-1,0)--(0,sqrt(3))--cycle);
+
+label("8",(-1/2,sqrt(3)/2),NW);
+
+label("$x$",(sqrt(3)/2,sqrt(3)/2),NE);
+
+draw("$45^{\circ}$",(1.5,0),NW);
+
+draw("$60^{\circ}$",(-0.9,0),NE);
+
+draw(rightanglemark((0,sqrt(3)),(0,0),(sqrt(3),0),4));
+
+[/asy]

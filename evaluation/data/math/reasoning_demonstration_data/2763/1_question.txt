@@ -1,0 +1,1 @@
+Problem: Compute $\dbinom{505}{505}$.

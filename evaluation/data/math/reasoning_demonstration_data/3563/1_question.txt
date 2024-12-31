@@ -1,0 +1,1 @@
+Problem: Triangle $ABC$ is isosceles with angle $B$ congruent to angle $C$. The measure of angle $C$ is four times the measure of angle $A$. What is the number of degrees in the measure of angle $B$?

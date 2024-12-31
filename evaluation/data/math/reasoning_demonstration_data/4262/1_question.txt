@@ -1,0 +1,3 @@
+Problem: Let $\triangle PQR$ be a triangle in the plane, and let $S$ be a point outside the plane of $\triangle PQR$, so that $SPQR$ is a pyramid whose faces are all triangles.
+
+Suppose that every edge of $SPQR$ has length $18$ or $41$, but no face of $SPQR$ is equilateral. Then what is the surface area of $SPQR$?

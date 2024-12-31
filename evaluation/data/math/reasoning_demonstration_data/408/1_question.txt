@@ -1,0 +1,2 @@
+Problem: Compute the smallest positive integer $n$ such that
+\[\sum_{k = 0}^n \log_2 \left( 1 + \frac{1}{2^{2^k}} \right) \ge 1 + \log_2 \frac{2014}{2015}.\]

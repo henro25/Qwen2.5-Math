@@ -1,0 +1,1 @@
+Problem: If $x$ is doubled, increased by $3$, and then divided by $5$, the result is $11$. What is the value of $x$?

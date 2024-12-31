@@ -1,0 +1,2 @@
+Problem: Determine the value of the expression
+\[\log_2 (27 + \log_2 (27 + \log_2 (27 + \cdots))),\]assuming it is positive.

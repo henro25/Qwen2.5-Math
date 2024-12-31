@@ -1,0 +1,1 @@
+Problem: If the operation $Z$ is defined as $a Z b = b + 10a - a^2$, what is the value of $2Z6$?

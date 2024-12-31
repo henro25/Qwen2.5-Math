@@ -1,0 +1,1 @@
+Problem: Suppose that $f(x)=4x+5$. What is $f^{-1}(f^{-1}(9))$?

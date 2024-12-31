@@ -1,0 +1,1 @@
+Problem: What is the smallest positive integer $n$ such that $3n$ is a perfect square and $2n$ is a perfect cube?

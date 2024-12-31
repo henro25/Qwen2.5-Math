@@ -1,0 +1,1 @@
+Problem: Factor $w^4-16$ as far as possible, where the factors are monic polynomials with real coefficients.

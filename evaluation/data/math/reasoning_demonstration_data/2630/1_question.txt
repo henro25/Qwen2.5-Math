@@ -1,0 +1,1 @@
+Problem: Allen and Bethany each arrive at a party at a random time between 1:00 and 2:00.  Each stays for 15 minutes, then leaves.  What is the probability that Allen and Bethany see each other at the party?

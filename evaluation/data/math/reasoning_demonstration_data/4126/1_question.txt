@@ -1,0 +1,1 @@
+Problem: If $x$ satisfies $x^2 + 3x + \frac{3}x + \frac{1}{x^2} = 26$ and $x$ can be written as $a + \sqrt{b}$ where $a$ and $b$ are positive integers, then find $a + b$.

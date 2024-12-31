@@ -1,0 +1,1 @@
+Problem: In triangle $ABC,$ $D$ is on $\overline{AB}$ such that $AD:DB = 3:2,$ and $E$ is on $\overline{BC}$ such that $BE:EC = 3:2.$  If lines $DE$ and $AC$ intersect at $F,$ then find $\frac{DE}{EF}.$

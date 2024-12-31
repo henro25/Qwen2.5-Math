@@ -1,0 +1,1 @@
+Problem: A bag has 3 red marbles and 5 white marbles.  Two marbles are drawn from the bag and not replaced.  What is the probability that the first marble is red and the second marble is white?

@@ -1,0 +1,1 @@
+Problem: The average age of the 10 females in a choir is 30 years. The average age of the 15 males in the same choir is 35 years. What is the average age, in years, of the 25 people in the choir?

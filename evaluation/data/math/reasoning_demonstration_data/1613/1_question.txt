@@ -1,0 +1,2 @@
+Problem: Find the number of real solutions to the equation
+\[\frac{1}{x - 1} + \frac{2}{x - 2} + \frac{3}{x - 3} + \dots + \frac{100}{x - 100} = x.\]

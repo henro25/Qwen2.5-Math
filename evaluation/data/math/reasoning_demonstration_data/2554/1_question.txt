@@ -1,0 +1,1 @@
+Problem: How many license plates consist of 2 letters followed by 2 digits, if one of the digits must be odd and the other must be even?

@@ -1,0 +1,9 @@
+Problem: A frequency distribution of the scores for Mr. Sampson's algebra class is shown. What percent of the class received a score in the $60\%$-$69\%$ range? \begin{tabular}{|c|c|}
+Test Scores & Frequencies\\
+\hline
+$90\% - 100\%$& IIII\\
+$80\% - 89\%$& IIII IIII\\
+$70\% - 79\%$& IIII II\\
+$60\% - 69\%$ & IIII I\\
+Below $60\%$ & II
+\end{tabular}

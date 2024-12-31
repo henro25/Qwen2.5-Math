@@ -1,0 +1,2 @@
+Problem: Compute
+\[\sum_{n = 2}^{10000} \frac{1}{n \sqrt{n - 1} + (n - 1) \sqrt{n}}.\]

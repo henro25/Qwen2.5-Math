@@ -1,0 +1,31 @@
+Problem: In right triangle $JKL$, angle $J$ measures 60 degrees and angle $K$ measures 30 degrees. When drawn, the angle bisectors of angles $J$ and $K$ intersect at a point $M$. What is the measure of obtuse angle $JMK$?
+
+[asy]
+import geometry;
+import olympiad;
+unitsize(0.8inch);
+dotfactor = 3;
+defaultpen(linewidth(1pt)+fontsize(10pt));
+
+pair J,K,L,M,U,V;
+
+J = (0,0);
+K = (1,2);
+L = (1,0);
+
+draw(J--K--L--cycle);
+draw(rightanglemark(J,L,K,5));
+
+label("$J$",J,W);
+label("$K$",K,N);
+label("$L$",L,E);
+
+U = (1,2/3);
+V = (2/(2+sqrt(3)),0);
+
+draw(J--U);
+draw(K--V);
+
+M = intersectionpoint(J--U,K--V);
+dot("M",M,NW);
+[/asy]

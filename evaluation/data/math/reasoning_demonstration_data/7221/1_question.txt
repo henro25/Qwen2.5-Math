@@ -1,0 +1,1 @@
+Problem: On the refrigerator, MATHCOUNTS is spelled out with 10 magnets, one letter per magnet. Two vowels and three consonants fall off and are put away in a bag. If the Ts are indistinguishable, how many distinct possible collections of letters could be put in the bag?

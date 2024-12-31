@@ -1,0 +1,1 @@
+Problem: Evaluate the infinite geometric series: $$\frac{1}{3}+\frac{1}{6}+\frac{1}{12}+\frac{1}{24}+\dots$$

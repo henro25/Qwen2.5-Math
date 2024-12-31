@@ -1,0 +1,1 @@
+Problem: Let $a\star b = \dfrac{\sqrt{a+b}}{\sqrt{a-b}}$. If $ x \star 24 = 7$, find $x$.

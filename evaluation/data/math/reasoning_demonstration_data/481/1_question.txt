@@ -1,0 +1,1 @@
+Problem: How many vertical asymptotes does the equation $y=\frac{x-1}{x^2+6x-7}$ have?

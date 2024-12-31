@@ -1,0 +1,1 @@
+Problem: John has 6 green marbles and 4 purple marbles. He chooses a marble at random, writes down its color, and then puts the marble back.  He performs this process 5 times. What is the probability that he chooses exactly two green marbles?

@@ -1,0 +1,1 @@
+Problem: Simplify $\cos 36^\circ - \cos 72^\circ.$

@@ -1,0 +1,1 @@
+Problem: A square has an area of $25.$ A rectangle has the same width as the square. The length of the rectangle is double its width. What is the area of the rectangle?

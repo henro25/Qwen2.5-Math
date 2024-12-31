@@ -1,0 +1,1 @@
+Problem: Find the sum of the distinct prime factors of $5^5 - 5^3$.

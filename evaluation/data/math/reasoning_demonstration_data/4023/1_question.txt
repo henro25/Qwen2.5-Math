@@ -1,0 +1,2 @@
+Problem: The angles of quadrilateral $ABCD$ satisfy  $\angle A = 2\angle B =
+3\angle C = 4\angle D$.  What is the degree measure of $\angle A$, rounded to the nearest whole number?

@@ -1,0 +1,1 @@
+Problem: Find the average value of $0$, $2z$, $4z$, $8z$, and $16z$.

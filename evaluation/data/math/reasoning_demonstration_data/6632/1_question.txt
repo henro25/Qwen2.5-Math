@@ -1,0 +1,2 @@
+Problem: Let $a,$ $b,$ and $c$ be nonnegative real numbers such that $a + b + c = 1.$  Find the maximum value of
+\[a + \sqrt{ab} + \sqrt[3]{abc}.\]

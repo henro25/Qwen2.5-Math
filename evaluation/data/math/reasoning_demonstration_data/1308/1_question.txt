@@ -1,0 +1,1 @@
+Problem: Evaluate the infinite geometric series: $$\frac{3}{2}-\frac{2}{3}+\frac{8}{27}-\frac{32}{243}+\dots$$

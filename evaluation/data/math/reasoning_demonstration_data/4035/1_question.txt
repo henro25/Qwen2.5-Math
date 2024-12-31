@@ -1,0 +1,2 @@
+Problem: Compute
+\[\cos^2 0^\circ + \cos^2 1^\circ + \cos^2 2^\circ + \dots + \cos^2 90^\circ.\]

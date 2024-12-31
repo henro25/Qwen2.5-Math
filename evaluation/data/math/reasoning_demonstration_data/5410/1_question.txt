@@ -1,0 +1,3 @@
+Problem: Suppose $a$ and $b$ are positive integers such that $\gcd(a,b)$ is divisible by exactly $7$ distinct primes and $\mathop{\text{lcm}}[a,b]$ is divisible by exactly $28$ distinct primes.
+
+If $a$ has fewer distinct prime factors than $b$, then $a$ has at most how many distinct prime factors?

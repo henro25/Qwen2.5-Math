@@ -1,0 +1,1 @@
+Problem: What is the value of $n$ in the equation $n + (n + 1) + (n + 2) = 9$?

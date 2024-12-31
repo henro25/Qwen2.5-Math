@@ -1,0 +1,1 @@
+Problem: What are all values of $p$ such that for every $q>0$, we have   $$\frac{3(pq^2+p^2q+3q^2+3pq)}{p+q}>2p^2q?$$ Express your answer in interval notation in decimal form.

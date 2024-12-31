@@ -1,0 +1,1 @@
+Problem: What is the area, in square inches, of a right triangle with a 24-inch leg and a 25-inch hypotenuse?

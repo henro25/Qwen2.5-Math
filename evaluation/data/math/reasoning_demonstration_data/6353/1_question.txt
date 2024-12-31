@@ -1,0 +1,1 @@
+Problem: The roots of the equation $2x^2-mx+n=0$ sum to 6 and multiply to 10. What is the value of $m+n$?

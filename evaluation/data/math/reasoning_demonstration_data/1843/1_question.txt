@@ -1,0 +1,1 @@
+Problem: Two cards are dealt at random from a standard deck of 52 cards (13 hearts, 13 clubs, 13 spades, and 13 diamonds).  What is the probability that the first card is a 6 and the second card is a Queen?

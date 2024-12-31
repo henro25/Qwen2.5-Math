@@ -1,0 +1,1 @@
+Problem: Find the number of odd digits in the base-4 representation of $233_{10}$.

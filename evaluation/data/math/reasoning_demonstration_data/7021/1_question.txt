@@ -1,0 +1,1 @@
+Problem: Point $C$ is the midpoint of $\overline{AB}$, point $D$ is the midpoint of $\overline{AC}$, point $E$ is the midpoint of $\overline{AD}$, and point $F$ is the midpoint of $\overline{AE}$. If $AF=3$, what is the number of units in the length of $\overline{AB}$?

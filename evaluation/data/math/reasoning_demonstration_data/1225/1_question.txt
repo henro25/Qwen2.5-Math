@@ -1,0 +1,2 @@
+Problem: Find the minimum value of
+\[x^2 + 2xy + 3y^2 - 6x - 2y,\]over all real numbers $x$ and $y.$

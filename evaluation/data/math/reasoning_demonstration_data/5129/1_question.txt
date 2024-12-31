@@ -1,0 +1,1 @@
+Problem: Each of five, standard, six-sided dice is rolled once. What is the probability that there is at least one pair but not a three-of-a-kind (that is, there are two dice showing the same value, but no three dice show the same value)?

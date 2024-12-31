@@ -1,0 +1,1 @@
+Problem: In triangle $ABC,$ $\cot A \cot C = \frac{1}{2}$ and $\cot B \cot C = \frac{1}{18}.$  Find $\tan C.$

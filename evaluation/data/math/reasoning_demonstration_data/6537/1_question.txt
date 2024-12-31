@@ -1,0 +1,2 @@
+Problem: If $n$ is the smallest positive integer for which there exist positive real numbers $a$ and $b$ such that
+\[(a + bi)^n = (a - bi)^n,\]compute $\frac{b}{a}.$

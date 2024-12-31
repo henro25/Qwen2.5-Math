@@ -1,0 +1,1 @@
+Problem: Find the maximum value of $\cos x + 2 \sin x,$ over all angles $x.$

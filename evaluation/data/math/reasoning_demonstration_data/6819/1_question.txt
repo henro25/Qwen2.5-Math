@@ -1,0 +1,1 @@
+Problem: Let $x$ be a real number such that $x^3+4x=8$. Determine the value of $x^7+64x^2$.

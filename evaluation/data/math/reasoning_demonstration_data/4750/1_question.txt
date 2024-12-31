@@ -1,0 +1,7 @@
+Problem: Let \[f(x) = \left\{
+\begin{array}{cl}
+ax+3 & \text{ if }x>0, \\
+ab & \text{ if }x=0, \\
+bx+c & \text{ if }x<0.
+\end{array}
+\right.\]If $f(2)=5$, $f(0)=5$, and $f(-2)=-10$, and $a$, $b$, and $c$ are nonnegative integers, then what is $a+b+c$?

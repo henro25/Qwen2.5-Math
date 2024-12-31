@@ -1,0 +1,1 @@
+Problem: What is the sum of the two solutions to the equation $54-15x-x^2=0$?

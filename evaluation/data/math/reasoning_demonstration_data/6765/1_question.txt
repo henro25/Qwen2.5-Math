@@ -1,0 +1,1 @@
+Problem: Rationalize the denominator: $$\frac{1}{\sqrt[3]{2}+\sqrt[3]{16}}$$

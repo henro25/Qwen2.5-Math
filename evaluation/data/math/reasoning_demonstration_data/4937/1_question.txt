@@ -1,0 +1,1 @@
+Problem: Find the solution to $x|x| = 2x+1$ which has the smallest value.

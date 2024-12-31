@@ -1,0 +1,1 @@
+Problem: Evaluate $$\lceil\sqrt{5}\rceil + \lceil\sqrt{6}\rceil + \lceil\sqrt{7}\rceil + \cdots + \lceil\sqrt{29}\rceil$$Note: For a real number $x,$ $\lceil x \rceil$ denotes the smallest integer that is greater than or equal to $x.$

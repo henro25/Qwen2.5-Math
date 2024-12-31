@@ -1,0 +1,1 @@
+Problem: Determine the number of digits in the value of $2^{12} \times 5^8 $.

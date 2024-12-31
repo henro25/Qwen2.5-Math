@@ -1,0 +1,1 @@
+Problem: A freight train travels 1 mile in 1 minute 30 seconds. At this rate, how many miles will the train travel in 1 hour?

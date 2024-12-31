@@ -1,0 +1,1 @@
+Problem: Bob's password consists of a non-negative single-digit number followed by a letter and another non-negative single-digit number (which could be the same as the first one). What is the probability that Bob's password consists of an odd single-digit number followed by a letter and a positive single-digit number?

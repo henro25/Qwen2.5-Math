@@ -1,0 +1,1 @@
+Problem: If $x$ is an odd number, then find the largest integer that always divides the expression\[(10x+2)(10x+6)(5x+5)\]

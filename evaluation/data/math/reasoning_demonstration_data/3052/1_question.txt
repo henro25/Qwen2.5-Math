@@ -1,0 +1,2 @@
+Problem: Find all solutions to
+\[\sqrt[4]{47 - 2x} + \sqrt[4]{35 + 2x} = 4.\]Enter all the solutions, separated by commas.

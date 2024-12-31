@@ -1,0 +1,2 @@
+Problem: Let
+\[\mathbf{A} = \begin{pmatrix} 4 & 1 \\ -9 & -2 \end{pmatrix}.\]Compute $\mathbf{A}^{100}.$

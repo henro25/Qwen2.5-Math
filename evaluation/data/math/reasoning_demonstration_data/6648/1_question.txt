@@ -1,0 +1,1 @@
+Problem: Lulu has a quadratic of the form $x^2+bx+44$, where $b$ is a specific positive number. Using her knowledge of how to complete the square, Lulu is able to rewrite this quadratic in the form $(x+m)^2+8$. What is $b$?

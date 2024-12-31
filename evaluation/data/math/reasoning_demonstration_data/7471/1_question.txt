@@ -1,0 +1,1 @@
+Problem: George has a quadratic of the form $x^2+bx+\frac13$, where $b$ is a specific negative number. Using his knowledge of how to complete the square, George is able to rewrite this quadratic in the form $(x+m)^2+\frac{1}{12}$. What is $b$?

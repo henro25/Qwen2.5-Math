@@ -1,0 +1,22 @@
+Problem: A square with side length 1 is rotated about one vertex by an angle of $\alpha,$ where $0^\circ < \alpha < 90^\circ$ and $\cos \alpha = \frac{4}{5}.$  Find the area of the shaded region that is common to both squares.
+
+[asy]
+unitsize(3 cm);
+
+pair A, B, C, D, Bp, Cp, Dp, P;
+
+A = (0,0);
+B = (-1,0);
+C = (-1,-1);
+D = (0,-1);
+Bp = rotate(aCos(4/5))*(B);
+Cp = rotate(aCos(4/5))*(C);
+Dp = rotate(aCos(4/5))*(D);
+P = extension(C,D,Bp,Cp);
+
+fill(A--Bp--P--D--cycle,gray(0.7));
+draw(A--B---C--D--cycle);
+draw(A--Bp--Cp--Dp--cycle);
+
+label("$\alpha$", A + (-0.25,-0.1));
+[/asy]

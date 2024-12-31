@@ -1,0 +1,1 @@
+Problem: In how many ways can four people sit in a row of five chairs?

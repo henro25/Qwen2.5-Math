@@ -1,0 +1,6 @@
+Problem: If the system of equations
+
+\begin{align*}
+2x-y&=a,\\
+3y-6x &=b.
+\end{align*}has a solution, find $\frac{a}{b},$ assuming $b \neq 0.$

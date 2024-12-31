@@ -1,0 +1,32 @@
+Problem: Let $ABC$ be a triangle.  There exists a positive real number $k$, such that if the altitudes of triangle $ABC$ are extended past $A$, $B$, and $C$, to $A'$, $B'$, and $C'$, as shown, such that $AA' = kBC$, $BB' = kAC$, and $CC' = kAB$, then triangle $A'B'C'$ is equilateral.
+
+[asy]
+unitsize(0.6 cm);
+
+pair[] A, B, C;
+pair D, E, F;
+
+A[0] = (2,4);
+B[0] = (0,1);
+C[0] = (5,0);
+D = (A[0] + reflect(B[0],C[0])*(A[0]))/2;
+E = (B[0] + reflect(C[0],A[0])*(B[0]))/2;
+F = (C[0] + reflect(A[0],B[0])*(C[0]))/2;
+A[1] = A[0] + (1/sqrt(3))*(rotate(90)*(C[0] - B[0]));
+B[1] = B[0] + (1/sqrt(3))*(rotate(90)*(A[0] - C[0]));
+C[1] = C[0] + (1/sqrt(3))*(rotate(90)*(B[0] - A[0]));
+
+draw(A[0]--B[0]--C[0]--cycle);
+draw(A[1]--D);
+draw(B[1]--E);
+draw(C[1]--F);
+
+label("$A$", A[0], NW);
+dot("$A'$", A[1], N);
+label("$B$", B[0], S);
+dot("$B'$", B[1], SW);
+label("$C$", C[0], S);
+dot("$C'$", C[1], SE);
+[/asy]
+
+Find $k$.

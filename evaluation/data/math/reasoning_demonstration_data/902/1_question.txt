@@ -1,0 +1,1 @@
+Problem: Find $1_6 + 2_6 + 3_6 + \cdots + 45_6$. Express your answer in base $6$.

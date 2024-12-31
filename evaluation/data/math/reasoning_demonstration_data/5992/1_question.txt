@@ -1,0 +1,1 @@
+Problem: Suppose $\cos x =0$ and $\cos(x+z)= \frac{1}{2}$. What is the smallest possible positive value of $z,$ in radians?

@@ -1,0 +1,1 @@
+Problem: If the least common multiple of two 6-digit integers has 10 digits, then their greatest common divisor has at most how many digits?

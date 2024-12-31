@@ -1,0 +1,2 @@
+Problem: Let $\omega$ be a complex number such that $\omega^7 = 1$ and $\omega \ne 1.$  Compute
+\[\omega^{16} + \omega^{18} + \omega^{20} + \dots + \omega^{54}.\]

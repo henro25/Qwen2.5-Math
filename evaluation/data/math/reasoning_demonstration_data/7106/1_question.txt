@@ -1,0 +1,1 @@
+Problem: What is the sum of the $x$-values that satisfy the equation $5=\frac{x^3-2x^2-8x}{x+2}$?

@@ -1,0 +1,1 @@
+Problem: If $\sin x,$ $\cos x,$ $\tan x$ form a geometric sequence, in this order, then find $\cot^6 x - \cot^2 x.$

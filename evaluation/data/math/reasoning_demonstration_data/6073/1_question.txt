@@ -1,0 +1,1 @@
+Problem: What is the number of square meters in the area of a circle with diameter $6$ meters? Express your answer in terms of $\pi$.

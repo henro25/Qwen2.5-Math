@@ -1,0 +1,1 @@
+Problem: Consider two solid spherical balls, one centered at $\left( 0, 0, \frac{21}{2} \right),$ with radius 6, and the other centered at $(0,0,1)$ with radius $\frac{9}{2}.$  How many points $(x,y,z)$ with only integer coefficients are there in the intersection of the balls?

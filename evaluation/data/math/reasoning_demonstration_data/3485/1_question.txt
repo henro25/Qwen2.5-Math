@@ -1,0 +1,14 @@
+Problem: Triangle $DEF$ is similar to triangle $ABC$.  If $DE=6$, $EF=12$, and $BC=18$ units, what is the length of segment $AB$?
+
+[asy]draw((0,0)--(7,0));
+draw((0,0)--(0,4));
+draw((0,4)--(7,0));
+label("E",(0,0),W);
+label("F",(7,0),E);
+label("D",(0,4),W);
+draw((15,0)--(25.5,0));
+draw((15,0)--(15,6));
+draw((15,6)--(25.5,0));
+label("C",(25.5,0),E);
+label("B",(15,0),W);
+label("A",(15,6),W);[/asy]

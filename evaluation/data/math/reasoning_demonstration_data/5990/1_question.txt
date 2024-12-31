@@ -1,0 +1,1 @@
+Problem: In triangle $PQR$, we have $\angle P = 90^\circ$, $QR = 15$, and $\tan R = 5\cos Q$.  What is $PQ$?

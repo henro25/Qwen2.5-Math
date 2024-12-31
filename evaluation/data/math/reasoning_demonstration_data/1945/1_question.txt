@@ -1,0 +1,3 @@
+Problem: Let $\mathbf{a}$ and $\mathbf{b}$ be unit vectors such that $\mathbf{a} + 2 \mathbf{b}$ and $5 \mathbf{a} - 4 \mathbf{b}$ are orthogonal.  Find the angle between $\mathbf{a}$ and $\mathbf{b},$ in degrees.
+
+Note: A unit vector is a vector of magnitude 1.

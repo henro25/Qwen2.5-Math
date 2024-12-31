@@ -1,0 +1,8 @@
+Problem: In the diagram, the equilateral triangle has a base of $8$ m. What is the perimeter of the triangle? [asy]
+size(100);
+draw((0,0)--(8,0)--(4,4*sqrt(3))--cycle);
+label("8 m",(4,0),S);
+draw((4,-.2)--(4,.2));
+draw((1.8,3.5)--(2.2,3.3));
+draw((6.3,3.5)--(5.8,3.3));
+[/asy]

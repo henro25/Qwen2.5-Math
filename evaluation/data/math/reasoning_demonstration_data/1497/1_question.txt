@@ -1,0 +1,1 @@
+Problem: What is the largest $2$-digit prime factor of the integer $n = {200\choose 100}$?

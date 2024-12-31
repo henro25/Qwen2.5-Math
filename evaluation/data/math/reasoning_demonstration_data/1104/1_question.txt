@@ -1,0 +1,1 @@
+Problem: A right triangle has an area of 120 square units, and a leg length of 24 units. What is the perimeter of the triangle, in units?

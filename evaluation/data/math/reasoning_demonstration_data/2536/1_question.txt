@@ -1,0 +1,1 @@
+Problem: Given that $\frac{a}{25-a}+\frac{b}{65-b}+\frac{c}{60-c}=7$, evaluate $\frac{5}{25-a}+\frac{13}{65-b}+\frac{12}{60-c}$.

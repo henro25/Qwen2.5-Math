@@ -1,0 +1,1 @@
+Problem: Four consecutive positive prime numbers have a sum that is divisible by three. What is the smallest possible value of this sum?

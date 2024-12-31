@@ -1,0 +1,7 @@
+Problem: A function $f$ from the integers to the integers is defined as follows:
+\[f(n) = \left\{
+\begin{array}{cl}
+n + 3 & \text{if $n$ is odd}, \\
+n/2 & \text{if $n$ is even}.
+\end{array}
+\right.\]Suppose $k$ is odd and $f(f(f(k))) = 27.$  Find $k.$

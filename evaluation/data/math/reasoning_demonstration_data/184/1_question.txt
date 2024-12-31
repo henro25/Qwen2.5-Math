@@ -1,0 +1,1 @@
+Problem: Find the sum of all positive divisors of $50$ that are also divisors of $15$.

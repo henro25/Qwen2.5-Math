@@ -1,0 +1,2 @@
+Problem: Let $a,$ $b,$ and $c$ be distinct real numbers.  Simplify the expression
+\[\frac{(x + a)^3}{(a - b)(a - c)} + \frac{(x + b)^3}{(b - a)(b - c)} + \frac{(x + c)^3}{(c - a)(c - b)}.\]

@@ -1,0 +1,1 @@
+Problem: The difference between two positive integers is 6 and their product is 112. What is the sum of the integers?

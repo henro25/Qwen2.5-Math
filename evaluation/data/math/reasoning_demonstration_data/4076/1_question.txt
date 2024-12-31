@@ -1,0 +1,1 @@
+Problem: In rectangle $ABCD,$ $P$ is a point on side $\overline{BC}$ such that $BP = 16$ and $CP = 8.$  If $\tan \angle APD = 3,$ then find $AB.$

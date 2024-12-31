@@ -1,0 +1,2 @@
+Problem: Simply the expression
+\[\frac{(\sqrt{2} - 1)^{1 - \sqrt{3}}}{(\sqrt{2} + 1)^{1 + \sqrt{3}}},\]writing your answer as $a - b \sqrt{c},$ where $a,$ $b,$ and $c$ are positive integers, and $c$ is not divisible by the square of a prime.

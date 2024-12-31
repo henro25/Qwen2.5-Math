@@ -1,0 +1,1 @@
+Problem: How many three-digit numbers are multiples of neither 5 nor 7?

@@ -1,0 +1,1 @@
+Problem: At a party, each man danced with exactly three women and each woman danced with exactly two men. Twelve men attended the party. How many women attended the party?

@@ -1,0 +1,1 @@
+Problem: Robin bought a four-scoop ice cream cone having a scoop each of vanilla, chocolate, strawberry and cherry. In how many orders can the four scoops be stacked on the cone if they are stacked one on top of the other?

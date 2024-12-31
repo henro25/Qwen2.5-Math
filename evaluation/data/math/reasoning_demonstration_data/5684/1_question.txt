@@ -1,0 +1,2 @@
+Problem: The function
+\[f(z) = \frac{(-1 + i \sqrt{3}) z + (-2 \sqrt{3} - 18i)}{2}\]represents a rotation around some complex number $c$.  Find $c$.

@@ -1,0 +1,1 @@
+Problem: Evaluate $\left\lceil\sqrt{140}\right\rceil$.

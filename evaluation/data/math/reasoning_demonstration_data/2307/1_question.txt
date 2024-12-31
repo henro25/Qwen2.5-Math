@@ -1,0 +1,1 @@
+Problem: If one-fourth of $2^{30}$ is equal to $2^x$, what is $x$?

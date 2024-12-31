@@ -1,0 +1,1 @@
+Problem: The operation $*$ is defined for non-zero integers as follows: $a * b = \frac{1}{a} + \frac{1}{b}$. If $a+b = 9$ and $ a \times b = 20$, what is the value of $a*b$? Express your answer as a common fraction.

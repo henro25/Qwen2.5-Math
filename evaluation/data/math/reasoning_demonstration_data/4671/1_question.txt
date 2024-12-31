@@ -1,0 +1,9 @@
+Problem: Let $x$ be a real number.  Consider the following five statements:
+
+$0 < x^2 < 1$
+$x^2 > 1$
+$-1 < x < 0$
+$0 < x < 1$
+$0 < x - x^2 < 1$
+
+What is the maximum number of these statements that can be true for any value of $x$?

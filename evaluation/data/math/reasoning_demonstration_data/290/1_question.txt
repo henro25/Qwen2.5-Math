@@ -1,0 +1,1 @@
+Problem: Let $p,$ $q,$ $r$ be the roots of $x^3 - x^2 + x - 2 = 0.$  Find $p^3 + q^3 + r^3.$

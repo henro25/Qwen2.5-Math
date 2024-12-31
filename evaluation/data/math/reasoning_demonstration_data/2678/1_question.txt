@@ -1,0 +1,1 @@
+Problem: What is the measure, in units, of the hypotenuse of a right triangle with leg lengths of 75 and 100 units?

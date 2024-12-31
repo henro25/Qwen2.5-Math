@@ -1,0 +1,1 @@
+Problem: In the game of Mindmaster, secret codes are created by placing pegs of any of seven different colors into four slots. Colors may be repeated, and no slot may remain empty. How many secret codes are possible?

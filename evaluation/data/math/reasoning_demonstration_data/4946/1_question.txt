@@ -1,0 +1,1 @@
+Problem: Let $\mathbf{R}$ be the matrix for reflecting over the vector $\begin{pmatrix} 3 \\ 1 \end{pmatrix}.$  Find $\mathbf{R}^2.$

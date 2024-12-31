@@ -1,0 +1,1 @@
+Problem: A basketball player made the following number of free throws in 8 successive games: 6, 18, 15, 14, 19, 12, 19, and 15. What is the median number of successful free throws?

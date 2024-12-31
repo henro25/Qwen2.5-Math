@@ -1,0 +1,1 @@
+Problem: Compute $3 \begin{pmatrix} 2 \\ -8 \end{pmatrix} - 2 \begin{pmatrix} 1 \\ -7 \end{pmatrix}$.

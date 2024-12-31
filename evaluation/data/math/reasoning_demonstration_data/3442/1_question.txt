@@ -1,0 +1,1 @@
+Problem: How many integers between 1 and 200 are multiples of both 3 and 5 but not of either 4 or 7?

@@ -1,0 +1,1 @@
+Problem: Find the sum of the roots of the equation \[(2x^3 + x^2 - 8x + 20)(5x^3 - 25x^2 + 19) = 0.\]

@@ -1,0 +1,6 @@
+Problem: If the system of equations
+
+\begin{align*}
+6x-4y&=a,\\
+6y-9x &=b.
+\end{align*}has a solution $(x, y)$ where $x$ and $y$ are both nonzero, find $\frac{a}{b},$ assuming $b$ is nonzero.

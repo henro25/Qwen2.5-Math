@@ -1,0 +1,1 @@
+Problem: Wendy has 180 feet of fencing. She needs to enclose a rectangular space with an area that is ten times its perimeter. If she uses up all her fencing material, how many feet is the largest side of the enclosure?

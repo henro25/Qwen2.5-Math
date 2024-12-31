@@ -1,0 +1,1 @@
+Problem: Let $\mathbf{a} = \begin{pmatrix} 1 \\ 1 \\ 0 \end{pmatrix}$ and $\mathbf{b} = \begin{pmatrix} 2 \\ 0 \\ -1 \end{pmatrix}.$  Find the vector $\mathbf{v}$ that satisfies $\mathbf{v} \times \mathbf{a} = \mathbf{b} \times \mathbf{a}$ and $\mathbf{v} \times \mathbf{b} = \mathbf{a} \times \mathbf{b}.$

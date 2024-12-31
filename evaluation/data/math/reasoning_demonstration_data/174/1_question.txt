@@ -1,0 +1,1 @@
+Problem: For some real number $r,$ the polynomial $8x^3 - 4x^2 - 42x + 45$ is divisible by $(x - r)^2.$  Find $r.$

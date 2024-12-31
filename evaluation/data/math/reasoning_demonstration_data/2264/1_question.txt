@@ -1,0 +1,1 @@
+Problem: Let $X,$ $Y,$ and $Z$ be points such that $\frac{XZ}{XY} = \frac{ZY}{XY} = \frac{1}{2}.$ If $Y = (1, 7)$, $Z = (-1, -7)$, then what is the sum of the coordinates of $X$?

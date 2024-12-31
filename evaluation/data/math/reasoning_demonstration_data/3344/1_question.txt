@@ -1,0 +1,1 @@
+Problem: There exist two distinct unit vectors $\mathbf{v}$ such that the angle between $\mathbf{v}$ and $\begin{pmatrix} 2 \\ 2 \\ -1 \end{pmatrix}$ is $45^\circ,$ and the angle between $\mathbf{v}$ and $\begin{pmatrix} 0 \\ 1 \\ -1 \end{pmatrix}$ is $60^\circ.$  Let $\mathbf{v}_1$ and $\mathbf{v}_2$ be these vectors.  Find $\|\mathbf{v}_1 - \mathbf{v}_2\|.$

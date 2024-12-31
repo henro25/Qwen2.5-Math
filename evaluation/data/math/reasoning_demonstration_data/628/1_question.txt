@@ -1,0 +1,2 @@
+Problem: Let $a,$ $b,$ $c,$ $z$ be complex numbers such that $|a| = |b| = |c| > 0$ and
+\[az^2 + bz + c = 0.\]Find the largest possible value of $|z|.$

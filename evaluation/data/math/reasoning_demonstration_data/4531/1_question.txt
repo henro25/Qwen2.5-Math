@@ -1,0 +1,1 @@
+Problem: Compute $\frac{x^6-16x^3+64}{x^3-8}$ when $x=6$.

@@ -1,0 +1,28 @@
+Problem: Triangle $PAB$ is formed by three tangents to circle $O$ and $\angle APB = 40^\circ$.  Find $\angle AOB$.
+
+[asy]
+import graph;
+
+unitsize(1.5 cm);
+
+pair A, B, O, P, R, S, T;
+
+R = dir(115);
+S = dir(230);
+T = dir(270);
+P = extension(R, R + rotate(90)*(R), T, T + rotate(90)*(T));
+A = extension(S, S + rotate(90)*(S), T, T + rotate(90)*(T));
+B = extension(R, R + rotate(90)*(R), S, S + rotate(90)*(S));
+
+draw(Circle((0,0),1));
+draw((R + 0.1*(R - P))--P--(T + 0.1*(T - P)));
+draw(A--B--O--cycle);
+
+label("$A$", A, dir(270));
+label("$B$", B, NW);
+label("$O$", O, NE);
+label("$P$", P, SW);
+label("$R$", R, NW);
+//label("$S$", S, NE);
+label("$T$", T, dir(270));
+[/asy]

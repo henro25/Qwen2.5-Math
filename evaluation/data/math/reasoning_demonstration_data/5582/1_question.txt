@@ -1,0 +1,1 @@
+Problem: Find the point of tangency of the parabolas $y = x^2 + 15x + 32$ and $x = y^2 + 49y + 593.$

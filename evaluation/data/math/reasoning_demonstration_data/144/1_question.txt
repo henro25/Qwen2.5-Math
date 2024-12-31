@@ -1,0 +1,1 @@
+Problem: Of the 50 students in the drama club, 36 take mathematics, 27 take physics and 20 students take both mathematics and physics. How many drama club students take neither mathematics nor physics?

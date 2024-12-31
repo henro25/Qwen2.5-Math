@@ -1,0 +1,1 @@
+Problem: Let $\textrm{A}$ be a digit. If the 7-digit number $353808\textrm{A}$ is divisible by 2, 3, 4, 5, 6, 8, and 9, then what is $\textrm{A}$?

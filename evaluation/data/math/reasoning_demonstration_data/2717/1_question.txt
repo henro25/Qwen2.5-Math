@@ -1,0 +1,1 @@
+Problem: Let $A$ equal the number of four digit odd numbers.  Let $B$ equal the number of four digit multiples of 5.  Find $A+B$.

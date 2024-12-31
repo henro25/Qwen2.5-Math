@@ -1,0 +1,1 @@
+Problem: Compute $\tan \left (\operatorname{arccot} \frac{4}{7} \right).$

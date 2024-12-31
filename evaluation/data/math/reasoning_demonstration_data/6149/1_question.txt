@@ -1,0 +1,1 @@
+Problem: Let $\mathcal{S}_{n}$ be the set of strings with only 0's or 1's with length $n$ such that any 3 adjacent place numbers sum to at least 1. For example, $00100$ works, but $10001$ does not. Find the number of elements in $\mathcal{S}_{11}$.

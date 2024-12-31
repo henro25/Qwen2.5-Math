@@ -1,0 +1,1 @@
+Problem: Express the sum as a common fraction: $.1 + .02 + .003 + .0004 + .00005.$

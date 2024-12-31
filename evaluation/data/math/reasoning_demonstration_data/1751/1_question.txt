@@ -1,0 +1,1 @@
+Problem: The variables $a$ and $b$ are inversely proportional. When the sum of $a$ and $b$ is 24, their difference is 6. What is $b$ when $a$ equals 5?

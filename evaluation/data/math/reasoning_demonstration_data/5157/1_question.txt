@@ -1,0 +1,2 @@
+Problem: Find all values of $x$ which satisfy
+\[\frac{6}{\sqrt{x - 8} - 9} + \frac{1}{\sqrt{x - 8} - 4} + \frac{7}{\sqrt{x - 8} + 4} + \frac{12}{\sqrt{x - 8} + 9} = 0.\]Enter all the solutions, separated by commas.

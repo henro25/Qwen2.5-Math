@@ -1,0 +1,1 @@
+Problem: What is $(15x^2) \cdot (6x) \cdot \left(\frac{1}{(3x)^2}\right)$?

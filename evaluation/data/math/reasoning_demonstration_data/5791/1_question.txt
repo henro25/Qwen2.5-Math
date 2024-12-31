@@ -1,0 +1,1 @@
+Problem: What is the period of $y = \sin 5x $?

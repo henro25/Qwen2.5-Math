@@ -1,0 +1,1 @@
+Problem: All sides of the convex pentagon $ABCDE$ are of equal length, and $\angle A = \angle B = 90^\circ$.  What is the degree measure of $\angle E$?

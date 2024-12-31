@@ -1,0 +1,2 @@
+Problem: Let $A,$ $B,$ $C$ be the angles of a non-right triangle.  Compute
+\[\begin{vmatrix} \tan A & 1  & 1 \\ 1 & \tan B & 1 \\ 1 & 1 & \tan C \end{vmatrix}.\]

@@ -1,0 +1,1 @@
+Problem: The ratio $\frac{10^{2000}+10^{2002}}{10^{2001}+10^{2001}}$ is closest to which whole number?

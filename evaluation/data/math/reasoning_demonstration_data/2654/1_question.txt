@@ -1,0 +1,1 @@
+Problem: If Anna flips 8 coins, what is the probability that she gets more heads than tails?

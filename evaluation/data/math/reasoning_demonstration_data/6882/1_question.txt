@@ -1,0 +1,1 @@
+Problem: Dr. Fu Manchu has a bank account that has an annual interest rate of 6 percent, but it compounds monthly.  If this is equivalent to a bank account that compounds annually at a rate of $r$ percent, then what is $r$?  (Give your answer to the nearest hundredth.)

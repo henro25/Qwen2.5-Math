@@ -1,0 +1,2 @@
+Problem: Find the number of positive integers $n \le 1000$ that can be expressed in the form
+\[\lfloor x \rfloor + \lfloor 2x \rfloor + \lfloor 3x \rfloor = n\]for some real number $x.$

@@ -1,0 +1,1 @@
+Problem: Lisa has 10 friends and 34 marbles. What is the minimum number of additional marbles she needs so that she can give each friend at least one marble and no two friends receive the same number of marbles?

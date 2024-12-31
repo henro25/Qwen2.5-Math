@@ -1,0 +1,1 @@
+Problem: Luke wants to fence a square piece of land of at least 400 square feet. What should the side of the square be if he wants to use the least amount of fencing?

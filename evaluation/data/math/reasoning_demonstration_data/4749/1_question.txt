@@ -1,0 +1,1 @@
+Problem: If the least common multiple of $A$ and $B$ is $120$, and the ratio of $A$ to $B$ is $3:4$, then what is their greatest common divisor?

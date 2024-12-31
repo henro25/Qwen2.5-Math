@@ -1,0 +1,13 @@
+Problem: Which of the following statements are true?
+
+A.  3 is a factor of 18.
+
+B.  17 is a divisor of 187 but not of 52.
+
+C.  24 is neither a divisor of 72 nor 67.
+
+D.  13 is a divisor of 26 but not of 52.
+
+E.  8 is a factor of 160.
+
+Write your answer with the letters in alphabetical order, separated by commas.  For example, if you think all five are true, you should type "A,B,C,D,E" (without the quotes).

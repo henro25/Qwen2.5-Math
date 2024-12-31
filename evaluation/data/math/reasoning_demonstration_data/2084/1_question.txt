@@ -1,0 +1,1 @@
+Problem: Mr. and Mrs. Lopez have two children.  When they get into their family car, two people sit in the front, and the other two sit in the back.  Either Mr. Lopez or Mrs. Lopez must sit in the driver's seat.  How many seating arrangements are possible?

@@ -1,0 +1,2 @@
+Problem: Let $x,$ $y,$ and $z$ be real numbers such that
+\[x^3 + y^3 + z^3 - 3xyz = 1.\]Find the minimum value of $x^2 + y^2 + z^2.$

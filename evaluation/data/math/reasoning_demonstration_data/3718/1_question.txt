@@ -1,0 +1,1 @@
+Problem: Sue owns 11 pairs of shoes: six identical black pairs, three identical brown pairs and two identical gray pairs. If she picks two shoes at random, what is the probability that they are the same color and that one is a left shoe and the other is a right shoe? Express your answer as a common fraction.

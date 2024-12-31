@@ -1,0 +1,1 @@
+Problem: In 2010, the sum of the year's digits is $3$.  What is the first year after 2010 in which the sum of the digits is 3 again?

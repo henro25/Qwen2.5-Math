@@ -1,0 +1,1 @@
+Problem: If I roll 5 standard 6-sided dice and multiply the number on the face of each die, what is the probability that the result is a composite number?

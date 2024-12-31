@@ -1,0 +1,1 @@
+Problem: There are two values of $a$ for which the equation $4x^2 + ax + 8x + 9 = 0$ has only one solution for $x$. What is the sum of these values of $a$?

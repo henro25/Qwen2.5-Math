@@ -1,0 +1,1 @@
+Problem: If the sum of the second and fourth terms of an arithmetic sequence is $6$, what is the third term?

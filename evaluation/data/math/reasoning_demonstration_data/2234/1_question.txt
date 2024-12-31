@@ -1,0 +1,5 @@
+Problem: Compute all values of $b$ for which the following system has a solution $(x,y)$ in real numbers:
+\begin{align*}
+\sqrt{xy} &= b^b, \\
+\log_b (x^{\log_b y}) + \log_b (y^{\log_b x}) &= 4b^4.
+\end{align*}

@@ -1,0 +1,10 @@
+Problem: What is the degree measure of angle $LOQ$ when polygon $\allowbreak LMNOPQ$ is a regular hexagon? [asy]
+draw((-2,0)--(-1,1.73205081)--(1,1.73205081)--(2,0)--(1,-1.73205081)--(-1,-1.73205081)--cycle);
+draw((-1,-1.73205081)--(1,1.73205081)--(1,-1.73205081)--cycle);
+label("L",(-1,-1.73205081),SW);
+label("M",(-2,0),W);
+label("N",(-1,1.73205081),NW);
+label("O",(1,1.73205081),N);
+label("P",(2,0),E);
+label("Q",(1,-1.73205081),S);
+[/asy]

@@ -1,0 +1,1 @@
+Problem: The decimal $0.76$ is equal to the fraction $\frac{4b+19}{6b+11}$, where $b$ is a positive integer. What is the value of $b$?

@@ -1,0 +1,1 @@
+Problem: Suppose that $A$ and $B$ are digits in base $d > 6$ such that $\overline{AB}_d + \overline{AA}_d = 162_d$. Find $A_d - B_d$ in base $d$.

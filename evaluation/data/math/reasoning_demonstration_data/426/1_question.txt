@@ -1,0 +1,21 @@
+Problem: Let $\mathbf{a} = \begin{pmatrix} 7 \\ -4 \\ -4 \end{pmatrix}$ and $\mathbf{c} = \begin{pmatrix} -2 \\ -1 \\ 2 \end{pmatrix}.$  Find the vector $\mathbf{b}$ such that $\mathbf{a},$ $\mathbf{b},$ and $\mathbf{c}$ are collinear, and $\mathbf{b}$ bisects the angle between $\mathbf{a}$ and $\mathbf{c}.$
+
+[asy]
+unitsize(0.5 cm);
+
+pair A, B, C, O;
+
+A = (-2,5);
+B = (1,3);
+O = (0,0);
+C = extension(O, reflect(O,B)*(A), A, B);
+
+draw(O--A,Arrow(6));
+draw(O--B,Arrow(6));
+draw(O--C,Arrow(6));
+draw(interp(A,C,-0.1)--interp(A,C,1.1),dashed);
+
+label("$\mathbf{a}$", A, NE);
+label("$\mathbf{b}$", B, NE);
+label("$\mathbf{c}$", C, NE);
+[/asy]

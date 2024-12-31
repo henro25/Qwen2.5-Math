@@ -1,0 +1,1 @@
+Problem: Find the product of the values of $x$ that satisfy the equation $|4x|+3=35$.

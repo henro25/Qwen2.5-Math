@@ -1,0 +1,4 @@
+Problem: Let $a,$ $b,$ $c$ be distinct, nonzero real numbers such that
+\[a + \frac{1}{b} = b + \frac{1}{c} = c + \frac{1}{a}.\]Find $|abc|.$
+
+Note: Intermediate Algebra writing problem, week 12.

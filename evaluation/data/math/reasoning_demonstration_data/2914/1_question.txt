@@ -1,0 +1,9 @@
+Problem: There are two colors Jessica can use to color this 2 by 2 grid. If non-overlapping regions that share a side cannot be the same color, how many possible ways are there for Jessica to color the grid?
+
+[asy]
+size(101);
+draw(unitsquare);
+draw((0,.5)--(1,.5));
+draw((.5,0)--(.5,1));
+label("$A$",(0,1),NW); label("$B$",(1,1),NE); label("$C$",(1,0),SE); label("$D$",(0,0),SW);
+[/asy]

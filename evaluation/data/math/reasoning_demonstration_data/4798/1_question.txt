@@ -1,0 +1,1 @@
+Problem: If $\det \mathbf{A} = 5,$ then find $\det (\mathbf{A^3}).$

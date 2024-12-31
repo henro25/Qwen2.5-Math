@@ -1,0 +1,1 @@
+Problem: What is the units digit of the product of the first three positive composite numbers?

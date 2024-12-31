@@ -1,0 +1,1 @@
+Problem: Four pens and three pencils cost $\$2.24$. Two pens and five pencils cost $\$1.54$. No prices include tax. In cents, what is the cost of a pencil?

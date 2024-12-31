@@ -1,0 +1,2 @@
+Problem: Find the minimum value of
+\[(12 - x)(10 - x)(12 + x)(10 + x).\]

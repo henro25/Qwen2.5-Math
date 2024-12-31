@@ -1,0 +1,1 @@
+Problem: The equation $x^3 - 4x^2 + 5x - \frac{19}{10} = 0$ has real roots $r,$ $s,$ and $t.$  Find the area of the triangle with sides $r,$ $s,$ and $t.$

@@ -1,0 +1,1 @@
+Problem: Find the largest three-digit integer that is divisible by each of its distinct, non-zero digits.

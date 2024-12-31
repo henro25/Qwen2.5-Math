@@ -1,0 +1,1 @@
+Problem: The sum of two numbers $x$ and $y$ is 399, and the value of the fraction $\frac{x}{y}$ is 0.9. What is the value of $y - x$?

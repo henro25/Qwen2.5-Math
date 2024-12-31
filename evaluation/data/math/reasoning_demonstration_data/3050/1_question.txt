@@ -1,0 +1,2 @@
+Problem: Solve the inequality
+\[-12x^2 + 3x - 5 < 0.\]

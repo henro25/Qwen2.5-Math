@@ -1,0 +1,8 @@
+Problem: The set of all solutions of the system $$
+\begin{cases}
+x+y\leq 3 \\
+2x+y\geq 2 \\
+x\geq 0 \\
+y\geq 0
+\end{cases}
+$$ is a quadrilateral region. Find the number of units in the length of the longest side. Express your answer in simplest radical form.

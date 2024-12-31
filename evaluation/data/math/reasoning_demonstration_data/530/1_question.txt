@@ -1,0 +1,1 @@
+Problem: Find the real root of the equation \[\sqrt{x} + \sqrt{x+2} = 10.\]

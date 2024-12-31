@@ -1,0 +1,3 @@
+Problem: For a positive integer $n,$ let
+\[f(n) = \frac{1}{2^n} + \frac{1}{3^n} + \frac{1}{4^n} + \dotsb.\]Find
+\[\sum_{n = 2}^\infty f(n).\]

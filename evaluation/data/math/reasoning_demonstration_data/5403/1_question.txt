@@ -1,0 +1,1 @@
+Problem: The quadratic equation $ax^2+8x+c=0$ has exactly one solution. If $a+c=10$, and $a<c$ find the ordered pair $(a,c)$.

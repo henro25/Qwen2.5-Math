@@ -1,0 +1,2 @@
+Problem: The real numbers $a,$ $b,$ $c,$ and $d$ satisfy
+\[a^2 + b^2 + c^2 + 1 = d + \sqrt{a + b + c - d}.\]Find $d.$

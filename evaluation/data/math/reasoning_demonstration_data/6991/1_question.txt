@@ -1,0 +1,1 @@
+Problem: For some positive integers $a$ and $b$, the product \[\log_a(a+1) \cdot \log_{a+1} (a+2) \dotsm \log_{b-2} (b-1)  \cdot\log_{b-1} b\]contains exactly $870$ terms, and its value is $2.$ Compute $a+b.$

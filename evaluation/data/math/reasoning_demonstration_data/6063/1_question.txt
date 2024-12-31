@@ -1,0 +1,6 @@
+Problem: Let $N$ be the number of ordered pairs of nonempty sets $\mathcal{A}$ and $\mathcal{B}$ that have the following properties:
+$\mathcal{A} \cup \mathcal{B} = \{1,2,3,4,5,6,7,8,9,10,11,12\}$,
+$\mathcal{A} \cap \mathcal{B} = \emptyset$,
+The number of elements of $\mathcal{A}$ is not an element of $\mathcal{A}$,
+The number of elements of $\mathcal{B}$ is not an element of $\mathcal{B}$.
+Find $N$.

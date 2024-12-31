@@ -1,0 +1,2 @@
+Problem: Find the minimum value of
+\[f(x) = x + \frac{1}{x} + \frac{1}{x + \frac{1}{x}}\]for $x > 0.$

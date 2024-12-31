@@ -1,0 +1,6 @@
+Problem: Let \[f(x) = \left\{
+\begin{array}{cl} ax+3, &\text{ if }x>2, \\
+x-5 &\text{ if } -2 \le x \le 2, \\
+2x-b &\text{ if } x <-2.
+\end{array}
+\right.\]Find $a+b$ if the piecewise function is continuous (which means that its graph can be drawn without lifting your pencil from the paper).

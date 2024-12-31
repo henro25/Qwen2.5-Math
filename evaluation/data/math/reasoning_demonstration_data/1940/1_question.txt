@@ -1,0 +1,1 @@
+Problem: Two different integers from 1 through 20 inclusive are chosen at random. What is the probability that both numbers are prime? Express your answer as a common fraction.

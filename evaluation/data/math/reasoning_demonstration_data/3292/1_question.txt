@@ -1,0 +1,1 @@
+Problem: Compute the length of the segment tangent from the origin to the circle that passes through the points $(3,4),$ $(6,8),$ and $(5,13).$

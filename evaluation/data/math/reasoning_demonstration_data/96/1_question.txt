@@ -1,0 +1,1 @@
+Problem: Triangle $ABC$ has vertices $A(0, 8)$, $B(2, 0)$, $C(8, 0)$.  A line through $B$ cuts the area of $\triangle ABC$ in half; find the sum of the slope and $y$-intercept of this line.

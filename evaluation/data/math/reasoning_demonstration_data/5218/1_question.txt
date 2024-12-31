@@ -1,0 +1,1 @@
+Problem: In right triangle $MNO$, $\tan{M}=\frac{5}{4}$, $OM=8$, and $\angle O = 90^\circ$.  Find $MN$.  Express your answer in simplest radical form.

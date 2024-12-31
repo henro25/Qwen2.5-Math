@@ -1,0 +1,1 @@
+Problem: The solutions of $x(3x-7)=-3$ may be expressed in the form $\frac{m+\sqrt{n}}{p}$ and $\frac{m-\sqrt{n}}{p}$, where $m$, $n$, and $p$ have a greatest common divisor of 1.  Find $m+n+p$.

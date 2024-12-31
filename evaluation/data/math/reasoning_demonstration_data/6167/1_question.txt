@@ -1,0 +1,1 @@
+Problem: The line $y = \frac{3}{2} x - 25$ is parameterized by $(x,y) = (f(t),15t - 7).$  Enter the function $f(t).$

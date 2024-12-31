@@ -1,0 +1,1 @@
+Problem: Two real numbers $x$ and $y$ satisfy $x-y=4$ and $x^3-y^3=28$.  Compute $xy$.

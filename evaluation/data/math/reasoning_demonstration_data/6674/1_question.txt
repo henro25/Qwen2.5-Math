@@ -1,0 +1,2 @@
+Problem: Let $a,$ $b,$ $c,$ $d$ be nonzero integers such that
+\[\begin{pmatrix} a & b \\ c & d \end{pmatrix}^2 = \begin{pmatrix} 7 & 0 \\ 0 & 7 \end{pmatrix}.\]Find the smallest possible value of $|a| + |b| + |c| + |d|.$

@@ -1,0 +1,1 @@
+Problem: Two cubes with the faces numbered 1 through 6 are tossed and the numbers shown on the top faces are added. What is the probability that the sum is even? Express your answer as a common fraction.

@@ -1,0 +1,14 @@
+Problem: Triangles $BAD$ and $BDC$ are right triangles with $AB = 12$ units, $BD = 15$ units, and $BC = 17$ units. What is the area, in square units, of quadrilateral $ABCD$?
+
+[asy]
+draw((0,0)--(9,0)--(9,0)+8dir(36.87)--(0,12)--cycle,linewidth(1));
+draw((0,12)--(9,0),linewidth(1));
+
+label("A",(0,0),SW);
+label("B",(0,12),W);
+label("C",(9,0)+8dir(36.87),NE);
+label("D",(9,0),S);
+
+draw((1,0)--(1,1)--(0,1),linewidth(1));
+draw((9,0)+dir(36.87)--(9,0)+sqrt(2)*dir(45+36.87)--(9,0)+dir(36.87+90),linewidth(1));
+[/asy]

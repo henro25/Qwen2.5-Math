@@ -1,0 +1,2 @@
+Problem: Let $x$, $y$, and $z$ be real numbers such that
+\[\cos x + \cos y + \cos z = \sin x + \sin y + \sin z = 0.\]Find the sum of all possible values of $\cos 2x + \cos 2y + \cos 2z.$

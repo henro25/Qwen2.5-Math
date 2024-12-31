@@ -1,0 +1,1 @@
+Problem: Starting with the number 100, Shaffiq repeatedly divides his number by two and then takes the greatest integer less than or equal to that number. How many times must he do this before he reaches the number 1?

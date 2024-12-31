@@ -1,0 +1,1 @@
+Problem: How many perfect squares are two-digit and divisible by $3?$

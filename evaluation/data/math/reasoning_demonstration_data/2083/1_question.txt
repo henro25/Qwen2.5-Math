@@ -1,0 +1,1 @@
+Problem: Compute: $\displaystyle \frac{66,\!666^4}{22,\!222^4}$.

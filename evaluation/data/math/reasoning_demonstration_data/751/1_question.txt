@@ -1,0 +1,1 @@
+Problem: What is the degree of the polynomial $(x^4+ax^7+bx+c)(x^3+dx^2+e)(x+f)$, where letters $a$ through $f$ are all nonzero constants?

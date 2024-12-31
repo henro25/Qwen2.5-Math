@@ -1,0 +1,2 @@
+Problem: Find the matrix $\mathbf{M}$ such that
+\[\mathbf{M} \begin{pmatrix} -3 & 4 & 0 \\ 5 & -7 & 0 \\ 0 & 0 & 1 \end{pmatrix} = \mathbf{I}.\]

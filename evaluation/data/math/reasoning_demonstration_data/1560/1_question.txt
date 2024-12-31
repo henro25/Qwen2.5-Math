@@ -1,0 +1,1 @@
+Problem: Find $t$ such that $(t,5)$ lies on the line through $(0,3)$ and $(-8,0)$.

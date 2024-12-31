@@ -1,0 +1,1 @@
+Problem: Find the terminating decimal expansion of $\frac{11}{125}$.

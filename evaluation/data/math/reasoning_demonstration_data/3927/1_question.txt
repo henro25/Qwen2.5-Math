@@ -1,0 +1,2 @@
+Problem: Find constants $A$, $B$, and $C$, such that
+$$\frac{-x^2+3x-4}{x^3+x}= \frac{A}{x} +\frac{Bx+C}{x^2+1} $$Enter your answer as the ordered triplet $(A,B,C)$.

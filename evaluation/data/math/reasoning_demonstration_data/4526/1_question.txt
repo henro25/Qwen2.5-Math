@@ -1,0 +1,2 @@
+Problem: Find the largest real number $x$ such that
+\[\frac{\lfloor x \rfloor}{x} = \frac{9}{10}.\]

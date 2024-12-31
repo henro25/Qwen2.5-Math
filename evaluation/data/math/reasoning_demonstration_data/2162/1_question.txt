@@ -1,0 +1,1 @@
+Problem: A line whose $y$-intercept is $(0,5)$ intersects the ellipse $9x^2 + 16y^2 = 144.$  Find all possible slopes of this line.

@@ -1,0 +1,2 @@
+Problem: The foci of the ellipse $\frac{x^2}{16} + \frac{y^2}{b^2} = 1$ and the foci of the hyperbola
+\[\frac{x^2}{144} - \frac{y^2}{81} = \frac{1}{25}\]coincide.  Find $b^2.$

@@ -1,0 +1,1 @@
+Problem: Jenny places a total of 18 red Easter eggs in several green baskets and a total of 24 orange Easter eggs in some blue baskets.  Each basket contains the same number of eggs and there are at least 4 eggs in each basket.  How many eggs did Jenny put in each basket?

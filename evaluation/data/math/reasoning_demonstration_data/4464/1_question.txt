@@ -1,0 +1,1 @@
+Problem: Given that $a$ is a multiple of $1428$, find the greatest common divisor of $a^2+9a+24$ and $a+4$.

@@ -1,0 +1,1 @@
+Problem: What is the modulo $13$ residue of $247+5 \cdot 39 + 7 \cdot 143 +4 \cdot 15?$

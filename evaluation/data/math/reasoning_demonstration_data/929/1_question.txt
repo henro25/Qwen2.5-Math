@@ -1,0 +1,1 @@
+Problem: If $1+2x+3x^2 + \dotsb=9$, find $x$.

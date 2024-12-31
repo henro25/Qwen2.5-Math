@@ -1,0 +1,3 @@
+Problem: Evaluate \begin{align*}
+\left(c^c-c(c-1)^c\right)^c
+\end{align*} when $c=3$.

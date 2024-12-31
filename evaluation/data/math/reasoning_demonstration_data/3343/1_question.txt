@@ -1,0 +1,1 @@
+Problem: Abby, Bart, Cindy and Damon weigh themselves in pairs. Together Abby and Bart weigh 260 pounds, Bart and Cindy weigh 245 pounds, and Cindy and Damon weigh 270 pounds. How many pounds do Abby and Damon weigh together?

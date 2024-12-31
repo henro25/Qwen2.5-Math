@@ -1,0 +1,1 @@
+Problem: A scalene triangle has side lengths which are prime numbers and the  length of its perimeter is also prime. What is its smallest possible  perimeter?

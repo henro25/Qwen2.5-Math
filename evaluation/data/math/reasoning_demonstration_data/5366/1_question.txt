@@ -1,0 +1,1 @@
+Problem: Find all solutions to the inequality \[\sqrt[3]{x}+ \frac{2}{\sqrt[3]{x}+ 3} \le 0,\]giving your answer in interval notation.

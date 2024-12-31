@@ -1,0 +1,1 @@
+Problem: A wheel with radius $1\text{ m}$ is rolled in a straight line through one complete revolution on a flat horizontal surface. How many meters did the center of the wheel travel horizontally from its starting location?

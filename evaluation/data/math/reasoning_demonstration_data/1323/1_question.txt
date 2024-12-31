@@ -1,0 +1,1 @@
+Problem: The number $101$ is the smallest three-digit palindromic prime. What is the second-smallest one?

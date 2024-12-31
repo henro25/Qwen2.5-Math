@@ -1,0 +1,12 @@
+Problem: How many rectangles are there whose four vertices are points on this grid? [asy]
+size(50);
+dot((0,0));
+dot((5,0));
+dot((10,0));
+dot((0,5));
+dot((0,10));
+dot((5,5));
+dot((5,10));
+dot((10,5));
+dot((10,10));
+[/asy]

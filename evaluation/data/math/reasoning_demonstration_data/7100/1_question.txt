@@ -1,0 +1,1 @@
+Problem: Each of the ten letters in ``MATHCOUNTS'' is written on its own square tile and placed in a bag. What is the probability that a tile randomly selected from the bag will have a letter on it that is in the word ``TEACH''? Express your answer as a common fraction.

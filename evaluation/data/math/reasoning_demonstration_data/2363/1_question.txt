@@ -1,0 +1,1 @@
+Problem: A right cylinder with a base radius of 3 units is inscribed in a sphere of radius 5 units. The total volume, in cubic units, of the space inside the sphere and outside the cylinder is $W\pi$.  Find $W$, as a common fraction.

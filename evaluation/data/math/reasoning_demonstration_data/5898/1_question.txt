@@ -1,0 +1,1 @@
+Problem: Four fair coins are to be flipped. What is the probability that all four will be heads or all four will be tails? Express your answer as a common fraction.

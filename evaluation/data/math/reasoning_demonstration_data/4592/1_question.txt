@@ -1,0 +1,1 @@
+Problem: In triangle $ABC$, $AB = 5$, $BC = 8$, and the length of median $AM$ is 4.  Find $AC$.

@@ -1,0 +1,1 @@
+Problem: A bookstore is deciding what price it should charge for a certain book. After research, the store finds that if the book's price is $p$ dollars (where $p \le 26$), then the number of books sold per month is $130-5p$. What price should the store charge to maximize its revenue?

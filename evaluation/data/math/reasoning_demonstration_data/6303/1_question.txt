@@ -1,0 +1,2 @@
+Problem: Find the polynomial $p(x)$ such that
+\[p(p(x)) = xp(x) + x^2.\]

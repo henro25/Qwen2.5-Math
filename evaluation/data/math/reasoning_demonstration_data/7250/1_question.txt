@@ -1,0 +1,1 @@
+Problem: The square root of $2x$ is greater than 3 and less than 4. How many integer values of $x$ satisfy this condition?

@@ -1,0 +1,1 @@
+Problem: Evaluate $\lfloor (12.1)^2 \rfloor - \lfloor 12.1 \rfloor \cdot \lfloor 12.1 \rfloor .$

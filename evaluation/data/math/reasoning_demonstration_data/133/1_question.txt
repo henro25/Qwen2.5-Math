@@ -1,0 +1,1 @@
+Problem: Two interior angles $A$ and $B$ of pentagon $ABCDE$ are $60^{\circ}$ and $85^{\circ}$. Two of the remaining angles, $C$ and $D$, are equal and the fifth angle $E$ is $15^{\circ}$ more than twice $C$. Find the measure of the largest angle.

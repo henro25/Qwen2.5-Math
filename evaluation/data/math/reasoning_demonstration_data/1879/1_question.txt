@@ -1,0 +1,7 @@
+Problem: Compute the number of real solutions $(x,y,z,w)$ to the system of equations:
+\begin{align*}
+x &= z+w+zwx, \\ 
+y &= w+x+wxy, \\
+z &= x+y+xyz, \\
+w &= y+z+yzw.
+\end{align*}

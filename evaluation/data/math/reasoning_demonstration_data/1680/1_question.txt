@@ -1,0 +1,1 @@
+Problem: Ryan has 3 red lava lamps and 3 blue lava lamps. He arranges them in a row on a shelf randomly, and then randomly turns 3 of them on. What is the probability that the leftmost lamp is blue and off, and the rightmost lamp is red and on?

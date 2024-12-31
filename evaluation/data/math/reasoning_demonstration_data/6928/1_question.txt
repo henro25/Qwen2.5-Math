@@ -1,0 +1,1 @@
+Problem: On a balance scale, $3$ green balls balance $6$ blue balls, $2$ yellow balls balance $5$ blue balls, and $6$ blue balls balance $4$ white balls. How many blue balls are needed to balance $4$ green, $2$ yellow and $2$ white balls?

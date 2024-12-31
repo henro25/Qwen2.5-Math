@@ -1,0 +1,1 @@
+Problem: Define a function $h(x),$ for positive integer values of $x,$ by \[h(x) = \left\{\begin{aligned} \log_2 x & \quad \text{ if } \log_2 x \text{ is an integer} \\ 1 + h(x + 1) & \quad \text{ otherwise}. \end{aligned} \right.\]Compute $h(100).$

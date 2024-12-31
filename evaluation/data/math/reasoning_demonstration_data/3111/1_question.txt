@@ -1,0 +1,1 @@
+Problem: Let $\alpha$ and $\beta$ be complex numbers such that $\alpha + \beta$ and $i(\alpha - 2 \beta)$ are both positive real numbers.  If $\beta = 3 + 2i,$ compute $\alpha.$

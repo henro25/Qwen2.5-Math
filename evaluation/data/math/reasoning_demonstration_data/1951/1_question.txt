@@ -1,0 +1,3 @@
+Problem: Let $r$, $s$, and $t$ be solutions of the equation $x^3-5x^2+6x=9$.
+
+Compute $\frac{rs}t + \frac{st}r + \frac{tr}s$.

@@ -1,0 +1,2 @@
+Problem: Find the volume of the region given by the inequality
+\[|x + y + z| + |x + y - z| + |x - y + z| + |-x + y + z| \le 4.\]

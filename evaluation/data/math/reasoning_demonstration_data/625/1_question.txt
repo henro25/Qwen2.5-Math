@@ -1,0 +1,1 @@
+Problem: If $\sin x = 3 \cos x,$ then what is $\sin x \cos x$?

@@ -1,0 +1,1 @@
+Problem: Suppose we roll a standard fair 6-sided die.  What is the probability that a perfect square is rolled?

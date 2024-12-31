@@ -1,0 +1,1 @@
+Problem: Find the solutions to $z^4 = -4.$  Enter the solutions, separated by commas.

@@ -1,0 +1,13 @@
+Problem: The line $y = 2x + 7$ is to be parameterized using vectors.  Which of the following options are valid parameterizations?
+
+(A) $\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 7 \end{pmatrix} + t \begin{pmatrix} 2 \\ 1 \end{pmatrix}$
+
+(B) $\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} -7/2 \\ 0 \end{pmatrix} + t \begin{pmatrix} -1 \\ -2 \end{pmatrix}$
+
+(C) $\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix}  1 \\ 9 \end{pmatrix} + t \begin{pmatrix} 6 \\ 3 \end{pmatrix}$
+
+(D) $\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 2 \\ -1 \end{pmatrix} + t \begin{pmatrix} 1/2 \\ 1 \end{pmatrix}$
+
+(E) $\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} -7 \\ -7 \end{pmatrix} + t \begin{pmatrix} 1/10 \\ 1/5 \end{pmatrix}$
+
+Enter the letters of the correct options, separated by commas.

@@ -1,0 +1,9 @@
+Problem: Barry wrote 6 different numbers, one on each side of 3 cards, and laid the cards on a table, as shown. The sums of the two numbers on each of the three cards are equal. The three numbers on the hidden sides are prime numbers. What is the average of the hidden prime numbers? [asy]
+path box=(0,0)--(1,0)--(1,1.5)--(0,1.5)--cycle;
+draw(box);
+draw(shift(1.5,0)*box);
+draw(shift(3,0)*box);
+label("44", (0.5, .75));
+label("59", (2, .75));
+label("38", (3.5, .75));
+[/asy]

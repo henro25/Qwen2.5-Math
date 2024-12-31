@@ -1,0 +1,1 @@
+Problem: Find all real numbers $x$ so that the product $(x + i)((x + 1) + i)((x + 2) + i)$ is pure imaginary.  Enter all the solutions, separated by commas.

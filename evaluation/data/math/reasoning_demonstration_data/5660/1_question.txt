@@ -1,0 +1,2 @@
+Problem: Let $a$ and $b$ be the real roots of
+\[x^4 - 4x - 1 = 0.\]Find $ab + a + b.$

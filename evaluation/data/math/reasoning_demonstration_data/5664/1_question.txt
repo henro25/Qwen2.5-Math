@@ -1,0 +1,6 @@
+Problem: For a certain value of $k,$ the system
+\begin{align*}
+x + ky + 3z &= 0, \\
+3x + ky - 2z &= 0, \\
+2x + 4y - 3z &= 0
+\end{align*}has a solution where $x,$ $y,$ and $z$ are all nonzero.  Find $\frac{xz}{y^2}.$

@@ -1,0 +1,1 @@
+Problem: Find the value of $t$ that satisfies $\frac{1}{t+2} + \frac{2t}{t+2} - \frac{3}{t+2} = 3$.

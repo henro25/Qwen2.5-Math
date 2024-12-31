@@ -1,0 +1,1 @@
+Problem: How many three-digit perfect cubes are divisible by $9?$

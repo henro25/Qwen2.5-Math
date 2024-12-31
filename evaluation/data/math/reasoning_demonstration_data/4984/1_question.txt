@@ -1,0 +1,1 @@
+Problem: Point $M(4,4)$ is the midpoint of $\overline{AB}$. If point $A$ has coordinates $(8,4)$, what is the sum of the coordinates of point $B$?

@@ -1,0 +1,2 @@
+Problem: Given $a \neq 0,$ solve for $x$ in
+\[\begin{vmatrix} x + a & x  & x \\ x & x + a & x \\ x & x & x + a \end{vmatrix} = 0.\]Give your answer in terms of $a.$

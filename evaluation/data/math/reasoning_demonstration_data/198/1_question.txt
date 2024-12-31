@@ -1,0 +1,2 @@
+Problem: For a real number $x,$ find the maximum value of
+\[\frac{x^4}{x^8 + 2x^6 - 4x^4 + 8x^2 + 16}.\]

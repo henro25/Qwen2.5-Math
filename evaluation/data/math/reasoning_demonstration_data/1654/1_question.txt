@@ -1,0 +1,32 @@
+Problem: The shaded region consists of 16 congruent squares. If $PQ = 6$ cm, what is the area of the entire shaded region?
+
+[asy]
+for(int i = 0; i < 5; ++i)
+{
+
+for(int j = 0; j < 2; ++j)
+
+{
+
+filldraw((i,j)--(i+1,j)--(i+1,j+1)--(i,j+1)--(i,j)--cycle,gray,linewidth(2));
+
+}
+}
+
+for(int i = 0; i < 2; ++i)
+{
+
+for(int j = 0; j < 5; ++j)
+
+{
+
+filldraw((i,j)--(i+1,j)--(i+1,j+1)--(i,j+1)--(i,j)--cycle,gray,linewidth(2));
+
+}
+}
+
+draw((2,2)--(5,2)--(2,5)--(2,2)--cycle,linewidth(2));
+
+label("P",(2,5),N);
+label("Q",(5,2),E);
+[/asy]

@@ -1,0 +1,7 @@
+Problem: If $x$ is a real number and $k$ is a nonnegative integer, recall that the binomial coefficient $\binom{x}{k}$ is defined by the formula
+\[
+  \binom{x}{k} = \frac{x(x - 1)(x - 2) \dots (x - k + 1)}{k!} \, .
+\]Compute the value of
+\[
+  \frac{\binom{1/2}{2014} \cdot 4^{2014}}{\binom{4028}{2014}} \, .
+\]

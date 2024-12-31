@@ -1,0 +1,1 @@
+Problem: A rectangular room has a perimeter of 42 feet and an area of 108 square feet. What is the length, in feet, of the shorter side?

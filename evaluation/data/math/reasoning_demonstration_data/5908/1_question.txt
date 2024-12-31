@@ -1,0 +1,1 @@
+Problem: The sum of a positive number and its square is 156. What is the number?

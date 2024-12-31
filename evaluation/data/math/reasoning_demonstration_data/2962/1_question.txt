@@ -1,0 +1,1 @@
+Problem: If $x+\frac{1}{y}=1$ and $y+\frac{1}{z}=1$, what is the value of the product $xyz$?

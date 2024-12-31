@@ -1,0 +1,1 @@
+Problem: For how many integers $n$ is it true that $\sqrt{n} \le \sqrt{4n - 6} < \sqrt{2n + 5}$?

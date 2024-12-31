@@ -1,0 +1,1 @@
+Problem: When the greatest common divisor and least common multiple of two integers are multiplied, their product is 200. How many different values could be the greatest common divisor of the two integers?

@@ -1,0 +1,2 @@
+Problem: The matrix
+\[\begin{pmatrix} a & b \\ -\frac{4}{5} & \frac{3}{5} \end{pmatrix}\]corresponds to a reflection.  Enter the ordered pair $(a,b).$

@@ -1,0 +1,1 @@
+Problem: Find $x,$ given that $x$ is nonzero and the numbers $\{x\},$ $\lfloor x \rfloor,$ and $x$ form an arithmetic sequence in that order. (We define $\{x\} = x - \lfloor x\rfloor.$)

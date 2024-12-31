@@ -1,0 +1,2 @@
+Problem: Let $\mathbf{a},$ $\mathbf{b},$ $\mathbf{c}$ be vectors such that $\|\mathbf{a}\| = \|\mathbf{b}\| = 1,$ $\|\mathbf{c}\| = 2,$ and
+\[\mathbf{a} \times (\mathbf{a} \times \mathbf{c}) + \mathbf{b} = \mathbf{0}.\]Find the smallest possible angle between $\mathbf{a}$ and $\mathbf{c},$ in degrees.

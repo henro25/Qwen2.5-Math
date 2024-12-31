@@ -1,0 +1,1 @@
+Problem: Let $f(x) = 3x^2-2$ and $g(f(x)) = x^2 + x +1$.  Find the sum of all possible values of $g(25)$.

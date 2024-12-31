@@ -1,0 +1,1 @@
+Problem: The product of the digits of 3214 is 24. How many distinct four-digit positive integers are such that the product of their digits equals 12?

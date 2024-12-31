@@ -1,0 +1,1 @@
+Problem: The value of $x$ is one-half the value of $y$, and the value of $y$ is one-fifth the value of $z$. If $z$ is 60, what is the value of $x$?

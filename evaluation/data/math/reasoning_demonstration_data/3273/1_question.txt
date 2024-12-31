@@ -1,0 +1,12 @@
+Problem: In the diagram, $\angle PQR = 90^\circ$.  What is the value of $x$?
+
+[asy]
+size(100);
+draw((0,1)--(0,0)--(1,0));
+draw((0,0)--(.9,.47));
+draw((0,.1)--(.1,.1)--(.1,0));
+label("$P$",(0,1),N); label("$Q$",(0,0),SW); label("$R$",(1,0),E); label("$S$",(.9,.47),NE);
+
+label("$2x^\circ$",(.15,.2)); label("$x^\circ$",(.32,-.02),N);
+
+[/asy]

@@ -1,0 +1,1 @@
+Problem: From point $A$, Leigh walked 40 yards south, 60 yards west, 10 yards north, and 20 yards east to point $B$. What is the length, in yards, of $\overline{AB}$?

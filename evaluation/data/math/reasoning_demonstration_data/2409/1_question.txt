@@ -1,0 +1,1 @@
+Problem: Lark has forgotten her locker combination. It is a sequence of three numbers, each in the range from 1 to 30, inclusive. She knows that the first number is odd, the second number is even, and the third number is a multiple of 3. How many combinations could possibly be Lark's?

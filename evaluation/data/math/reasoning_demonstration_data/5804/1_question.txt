@@ -1,0 +1,2 @@
+Problem: Find the real roots of
+\[x^4 - 2x^3 - x + 2 = 0.\]

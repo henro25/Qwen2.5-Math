@@ -1,0 +1,2 @@
+Problem: Let $A$, $M$, and $C$ be nonnegative integers such that $A+M+C=12$. What is the maximum value of \[A\cdot M\cdot C+A\cdot M+M\cdot
+C+C\cdot A?\]

@@ -1,0 +1,1 @@
+Problem: Factor the expression $3x(x+1) + 7(x+1)$.

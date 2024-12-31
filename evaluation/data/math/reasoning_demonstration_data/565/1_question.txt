@@ -1,0 +1,4 @@
+Problem: Let $\mathbf{a},$ $\mathbf{b},$ and $\mathbf{c}$ be unit vectors such that
+\[\mathbf{a} + \mathbf{b} + \sqrt{3} \mathbf{c} = \mathbf{0}.\]Find the angle between $\mathbf{a}$ and $\mathbf{b},$ in degrees.
+
+Note: A unit vector is a vector of magnitude 1.

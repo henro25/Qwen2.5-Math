@@ -1,0 +1,1 @@
+Problem: Find $w$, such that $5^65^w=25$.

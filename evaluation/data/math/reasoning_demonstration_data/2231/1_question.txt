@@ -1,0 +1,1 @@
+Problem: In how many ways can 6 distinct beads be placed on a bracelet? (Note that two arrangements are the same if one can be rotated or reflected to produce the other.)

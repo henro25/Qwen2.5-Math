@@ -1,0 +1,7 @@
+Problem: The diagonal of a particular square is 5 inches.  The diameter of a particular circle is also 5 inches.  By how many square inches is the area of the circle greater than the area of square?  Express your answer as a decimal to the nearest tenth. [asy]
+draw((0,0)--(2,0)--(2,2)--(0,2)--cycle);
+draw((2,0)--(0,2));
+
+draw(circle((4.5,1),1.414));
+draw((2+3.5,0)--(0+3.5,2));
+[/asy]

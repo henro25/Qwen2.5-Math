@@ -1,0 +1,7 @@
+Problem: The region shown is bounded by the arcs of circles having radius 4 units, having a central angle measure of 60 degrees and intersecting at points of tangency. The area of the region can be expressed in the form $a\sqrt{b}+c\pi$ square units, where $\sqrt{b}$ is a radical in simplest form. What is the value of $a + b + c$?
+[asy]
+size(150);
+draw(arc((-2,0),2,0,60));
+draw(arc((0,3.464),2,-60,-120));
+draw(arc((2,0),2,120,180));
+[/asy]

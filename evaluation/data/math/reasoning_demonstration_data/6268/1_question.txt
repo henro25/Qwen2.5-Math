@@ -1,0 +1,1 @@
+Problem: Suppose that $p$ is prime and $1007_p+306_p+113_p+125_p+6_p=142_p+271_p+360_p$. How many possible values of $p$ are there?

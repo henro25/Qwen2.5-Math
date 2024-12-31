@@ -1,0 +1,1 @@
+Problem: An ellipse has its foci at $(-1, -1)$ and $(-1, -3).$ Given that it passes through the point $(4, -2),$ its equation can be written in the form \[\frac{(x-h)^2}{a^2} + \frac{(y-k)^2}{b^2} = 1\]where $a, b, h, k$ are constants, and $a$ and $b$ are positive. Find $a+k.$

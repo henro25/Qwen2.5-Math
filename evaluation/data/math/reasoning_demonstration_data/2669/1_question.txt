@@ -1,0 +1,1 @@
+Problem: For $x > 0$, the area of the triangle with vertices $(0, 0), (x, 2x)$, and $(x, 0)$ is 64 square units. What is the value of $x$?

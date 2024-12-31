@@ -1,0 +1,1 @@
+Problem: Find $\left(\frac{1}{2}\right)^{8} \cdot \left(\frac{3}{4}\right)^{-3}$.

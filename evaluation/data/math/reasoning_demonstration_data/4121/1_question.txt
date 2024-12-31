@@ -1,0 +1,1 @@
+Problem: George has an unfair six-sided die. The probability that it rolls a 6 is $\frac{1}{2}$, and the probability that it rolls any other number is $\frac{1}{10}$. What is the expected value of the number shown when this die is rolled? Express your answer as a decimal.

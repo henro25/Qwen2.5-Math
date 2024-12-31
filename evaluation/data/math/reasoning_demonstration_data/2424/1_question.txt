@@ -1,0 +1,10 @@
+Problem: For real numbers $t,$ the point
+\[(x,y) = \left( \frac{1 - t^2}{1 + t^2}, \frac{2t}{1 + t^2} \right)\]is plotted.  All the plotted points lie on what kind of curve?
+
+(A) Line
+(B) Circle
+(C) Parabola
+(D) Ellipse
+(E) Hyperbola
+
+Enter the letter of the correct option.

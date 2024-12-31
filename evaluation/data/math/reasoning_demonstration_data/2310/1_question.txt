@@ -1,0 +1,2 @@
+Problem: Find the number of solutions to the equation
+\[\tan (5 \pi \cos \theta) = \cot (5 \pi \sin \theta)\]where $\theta \in (0, 2 \pi).$

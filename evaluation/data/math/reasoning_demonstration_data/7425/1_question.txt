@@ -1,0 +1,1 @@
+Problem: There is only one set of five prime numbers that form an arithmetic sequence with a common difference of 6.  What is the sum of those five prime numbers?

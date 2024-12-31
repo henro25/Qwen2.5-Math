@@ -1,0 +1,1 @@
+Problem: Expand the following expression: $(13x+15)\cdot 2x$

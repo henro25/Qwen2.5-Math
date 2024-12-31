@@ -1,0 +1,1 @@
+Problem: Find the integer $n$, $4 \le n \le 8$, such that \[n \equiv 7882 \pmod{5}.\]

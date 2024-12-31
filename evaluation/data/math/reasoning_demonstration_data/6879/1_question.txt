@@ -1,0 +1,9 @@
+Problem: A figure is constructed from unit cubes.  Each cube shares at least one face with another cube.   What is the minimum number of cubes needed to build a figure with the front and side views shown? [asy]
+/* AMC8 2003 #15 Problem */
+draw((0,0)--(2,0)--(2,1)--(1,1)--(1,2)--(0,2)--cycle);
+draw((0,1)--(1,1)--(1,0));
+draw((4,0)--(6,0)--(6,2)--(5,2)--(5,1)--(4,1)--cycle);
+draw((5,0)--(5,1)--(6,1));
+label(scale(0.8)*"FRONT", (1, 0), S);
+label(scale(0.8)*"SIDE", (5,0), S);
+[/asy]

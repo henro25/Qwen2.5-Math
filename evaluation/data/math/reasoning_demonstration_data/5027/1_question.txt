@@ -1,0 +1,12 @@
+Problem: In rectangle $ABCD$, $AB = 6$ cm, $BC = 8$ cm, and $DE = DF$. The area of triangle $DEF$ is one-fourth the area of rectangle $ABCD$. What is the length in centimeters of segment $EF$? Express your answer in simplest radical form.
+
+[asy]
+draw((0,0)--(0,24)--(32,24)--(32,0)--cycle);
+draw((13,24)--(32,5));
+label("$A$",(0,24),W);
+label("$B$",(0,0),W);
+label("$C$",(32,0),E);
+label("$D$",(32,24),E);
+label("$E$",(13,24),N);
+label("$F$",(32,5),E);
+[/asy]

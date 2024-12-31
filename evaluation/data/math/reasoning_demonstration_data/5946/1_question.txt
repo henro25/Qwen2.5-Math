@@ -1,0 +1,1 @@
+Problem: Compute $i^{-100}+i^{-99}+i^{-98}+\cdots+i^{-1}+i^0+i^1+\cdots+i^{99}+i^{100}$.

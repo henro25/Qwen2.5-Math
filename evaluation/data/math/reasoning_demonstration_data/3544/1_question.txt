@@ -1,0 +1,30 @@
+Problem: Shown below is a clock face with no hands.  What is the degree measure of the smaller angle formed by the hands of a clock at 10 o'clock? [asy]
+/* AMC8 1999 #2 Problem*/
+draw(circle((0,0),10),linewidth(1));
+
+/* Hands
+draw((25,0)--8dir(-18)+(25,0),linewidth(2));
+draw((25,0)--5dir(111)+(25,0),linewidth(2));
+draw((25,0)--10dir(90)+(25,0),linewidth(.5));
+*/
+dot((0,0));
+
+label("1",8dir(60));
+label("2",8dir(30));
+label("3",8dir(0));
+label("4",8dir(-30));
+label("5",8dir(-60));
+label("6",8dir(-90));
+label("7",8dir(-120));
+label("8",8dir(-150));
+label("9",8dir(180));
+label("10",8dir(150));
+label("11",8dir(120));
+label("12",8dir(90));
+
+for(int i = 1; i< 13; ++i)
+{
+
+draw(9dir(30i)--10dir(30i));
+}
+[/asy]

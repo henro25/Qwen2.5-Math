@@ -1,0 +1,1 @@
+Problem: I have 6 shirts, 6 pairs of pants, and 6 hats.  Each item comes in the same 6 colors (so that I have one of each item of each color).  I refuse to wear an outfit in which all 3 items are the same color.  How many choices for outfits do I have?

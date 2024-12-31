@@ -1,0 +1,1 @@
+Problem: Given $a \star b = a^2 + 2ab + b^2$, what is the value of $a \star b$ when $a = 4$ and $b = 6?$

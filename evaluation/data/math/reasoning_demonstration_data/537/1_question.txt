@@ -1,0 +1,1 @@
+Problem: What is the intersection point of the line $y = 2x + 5$ and the line perpendicular to it that passes through the point $(5, 5)$?

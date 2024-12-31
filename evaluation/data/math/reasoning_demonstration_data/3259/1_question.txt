@@ -1,0 +1,1 @@
+Problem: Betty goes to the store to get flour and sugar.  The amount of flour she buys, in pounds, is at least 6 pounds more than half the amount of sugar, and is no more than twice the amount of sugar.  Find the least number of pounds of sugar that Betty could buy.

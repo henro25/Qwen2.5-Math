@@ -1,0 +1,1 @@
+Problem: Suppose $f(x) = 6x - 9$ and $g(x) = \frac{x}{3} + 2$. Find $f(g(x)) - g(f(x))$.

@@ -1,0 +1,1 @@
+Problem: A triangle has a side of length 6 cm, a side of length 8 cm and a right angle. What is the shortest possible length of the remaining side of the triangle? Express your answer in centimeters as a decimal to the nearest hundredth.

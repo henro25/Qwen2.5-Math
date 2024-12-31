@@ -1,0 +1,1 @@
+Problem: When the square root of $x$ is cubed, the answer is 64. What is the value of $x$?

@@ -1,0 +1,1 @@
+Problem: Find $y$ if $\dfrac{y^2 - 9y + 8}{y-1} + \dfrac{3y^2 +16y-12 }{3y -2} = -3$.

@@ -1,0 +1,1 @@
+Problem: In how many different ways can 3 men and 4 women be placed into two groups of two people and one group of three people if there must be at least one man and one woman in each group?  Note that identically sized groups are indistinguishable.

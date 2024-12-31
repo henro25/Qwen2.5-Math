@@ -1,0 +1,4 @@
+Problem: Let $\mathbf{a},$ $\mathbf{b},$ $\mathbf{c}$ be unit vectors such that
+\[\mathbf{a} \times (\mathbf{b} \times \mathbf{c}) = \frac{\mathbf{b} + \mathbf{c}}{\sqrt{2}},\]and such that $\{\mathbf{a}, \mathbf{b}, \mathbf{c}\}$ is a linearly independent set.
+
+Find the angle between $\mathbf{a}$ and $\mathbf{b},$ in degrees.

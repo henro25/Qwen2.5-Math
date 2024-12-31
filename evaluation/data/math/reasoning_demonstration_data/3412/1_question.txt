@@ -1,0 +1,1 @@
+Problem: A particular triangle has sides of length 14 cm, 8 cm and 9 cm. In centimeters, what is the perimeter of the triangle?

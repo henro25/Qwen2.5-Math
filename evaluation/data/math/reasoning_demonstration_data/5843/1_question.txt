@@ -1,0 +1,1 @@
+Problem: One root of the equation $5x^2+kx=4$ is 2. What is the other?

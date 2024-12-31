@@ -1,0 +1,36 @@
+Problem: According to the chart shown, what was the average daily high temperature in Addington from September 15th, 2008 through September 19th, 2008, inclusive? Express your answer as a decimal to the nearest tenth. [asy]
+size(300);
+defaultpen(linewidth(.7pt)+fontsize(6pt));
+
+int[] highs={49,62,58,57,46};
+int[] lows={40,47,45,41,39};
+
+path unithump=(0,0)--(0,1)--(1,1)--(1,0);
+path unitcorner=(0,1)--(1,1)--(1,0);
+
+for(int i = 0; i < 5; ++i)
+{
+transform high=shift(5+20*i,0)*scale(5,highs[i]);
+transform low=shift(10+20*i,0)*scale(5,lows[i]);
+fill(high*unitsquare,gray);
+fill(low*unitsquare,lightgray);
+draw(high*unithump);
+draw(low*unitcorner);
+label(Label(string(highs[i])), (7.5+20*i, highs[i]), N);
+label(Label(string(lows[i])), (12.5+20*i, lows[i]), N);
+label(Label(format("Sept %i", i+15)), (10+20*i, 0), S);
+}
+
+xaxis(xmin=0, xmax=100, above=true);
+yaxis(ymin=0, ymax=77, Ticks(Step=10, begin=false, beginlabel=false, step=10, Size=3), above=true);
+
+label(rotate(90)*"Temperature ($^{\circ}$F)", (-15,40), fontsize(8pt));
+
+label("Daily High/Low Temperature in Addington", (50,90), fontsize(10pt));
+label("(September 15, 2008 -- September 19, 2008)", (50, 85), fontsize(8pt));
+label("\underline{KEY}", (105, 65), E, fontsize(8pt));
+label("High Temp.", (113, 59), E, fontsize(8pt));
+label("Low Temp.", (113, 53), E, fontsize(8pt));
+filldraw(shift(109,58)*scale(3)*unitsquare, gray, black);
+filldraw(shift(109,52)*scale(3)*unitsquare, lightgray, black);
+[/asy]

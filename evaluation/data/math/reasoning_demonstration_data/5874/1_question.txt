@@ -1,0 +1,1 @@
+Problem: The diagonal of a square is $\sqrt{2}$ inches long. How many inches long is the side of the square?

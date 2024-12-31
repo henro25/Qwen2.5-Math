@@ -1,0 +1,1 @@
+Problem: Container I holds 8 red balls and 4 green balls; containers II and III each hold 2 red balls and 4 green balls. A container is selected at random and then a ball is randomly selected from that container. What is the probability that the ball selected is green? Express your answer as a common fraction.

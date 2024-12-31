@@ -1,0 +1,1 @@
+Problem: Gretchen has eight socks, two of each color: magenta, cyan, black, and white. She randomly draws four socks. What is the probability that she has exactly one pair of socks with the same color?

@@ -1,0 +1,1 @@
+Problem: The first four terms in an arithmetic sequence are $x + y, x - y, xy,$ and $x/y,$ in that order. What is the fifth term?

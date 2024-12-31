@@ -1,0 +1,1 @@
+Problem: Find the smallest positive $a$ such that $a$ is a multiple of $4$ and $a$ is a multiple of $14.$

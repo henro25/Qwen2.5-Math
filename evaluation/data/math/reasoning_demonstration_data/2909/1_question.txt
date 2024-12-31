@@ -1,0 +1,1 @@
+Problem: Suppose that $x$ and $y$ are positive real numbers such that $x^2-xy+2y^2=8$.  Then the maximum possible value of $x^2+xy+2y^2$ can be expressed in simplest form as $\frac{a + b \sqrt{c}}{d},$ where $a,$ $b,$ $c,$ $d$ are positive integers.  Find $a + b + c + d.$

@@ -1,0 +1,29 @@
+Problem: Find the number of degrees in the measure of angle $x$.
+
+[asy]
+import markers;
+size (5cm,5cm);
+pair A,B,C,D,F,H;
+
+A=(0,0);
+B=(5,0);
+C=(9,0);
+D=(3.8,7);
+
+F=(2.3,7.2);
+H=(5.3,7.2);
+
+draw((4.2,6.1){up}..{right}(5.3,7.2));
+draw((3.6,6.1){up}..{left}(2.3,7.2));
+
+draw (A--B--C--D--A);
+draw (B--D);
+
+markangle(n=1,radius=8,C,B,D,marker(stickframe(n=0),true));
+
+label ("$x^\circ$", shift(1.3,0.65)*A);
+label ("$108^\circ$", shift(1.2,1)*B);
+label ("$26^\circ$", F,W);
+label ("$23^\circ$",H,E);
+
+[/asy]

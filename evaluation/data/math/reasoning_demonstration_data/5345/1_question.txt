@@ -1,0 +1,2 @@
+Problem: The polynomial
+$$g(x) = x^3 - x^2 - (m^2 + m) x + 2m^2 + 4m + 2$$is divisible by $x-4$ and all of its zeroes are integers. Find all possible values of $m$.

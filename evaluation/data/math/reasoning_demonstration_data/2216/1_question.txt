@@ -1,0 +1,1 @@
+Problem: What is the largest prime factor of $5! + 6!$?

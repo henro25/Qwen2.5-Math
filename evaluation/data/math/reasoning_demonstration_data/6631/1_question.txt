@@ -1,0 +1,2 @@
+Problem: Let $f$ be a non-constant polynomial such that
+\[f(x - 1) + f(x) + f(x + 1) = \frac{[f(x)]^2}{2013x}\]for all nonzero real numbers $x.$  Find the sum of all possible values of $f(1).$

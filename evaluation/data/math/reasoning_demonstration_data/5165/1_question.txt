@@ -1,0 +1,1 @@
+Problem: Two chords, $AB$ and $CD,$ meet inside a circle at $P.$  If $AP = 3$ and $CP = 8,$ then what is $\frac{BP}{DP}$?

@@ -1,0 +1,7 @@
+Problem: Let $S$ be the set of nonzero real numbers.  Let $f : S \to \mathbb{R}$ be a function such that
+
+(i) $f(1) = 1,$
+(ii) $f \left( \frac{1}{x + y} \right) = f \left( \frac{1}{x} \right) + f \left( \frac{1}{y} \right)$ for all $x,$ $y \in S$ such that $x + y \in S,$ and
+(iii) $(x + y) f(x + y) = xyf(x)f(y)$ for all $x,$ $y \in S$ such that $x + y \in S.$
+
+Find the number of possible functions $f(x).$

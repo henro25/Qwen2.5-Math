@@ -1,0 +1,2 @@
+Problem: Find the area in the plane contained by the graph of
+\[|x + y| + |x - y| \le 4.\]

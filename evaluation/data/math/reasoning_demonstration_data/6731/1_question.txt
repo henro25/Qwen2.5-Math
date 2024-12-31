@@ -1,0 +1,1 @@
+Problem: The sequence 12, 15, 18, 21, 51, 81, $\ldots$ consists of all positive multiples of 3 that contain at least one digit that is a 1. What is the $50^{\mathrm{th}}$ term of the sequence?

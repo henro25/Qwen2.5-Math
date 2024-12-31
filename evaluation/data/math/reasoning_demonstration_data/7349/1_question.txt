@@ -1,0 +1,2 @@
+Problem: Solve
+\[\arccos 2x - \arccos x = \frac{\pi}{3}.\]Enter all the solutions, separated by commas.

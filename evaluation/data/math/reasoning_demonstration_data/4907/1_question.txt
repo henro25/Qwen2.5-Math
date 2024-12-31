@@ -1,0 +1,14 @@
+Problem: A square and isosceles triangle of equal height are side-by-side, as shown, with both bases on the $x$-axis. The lower right vertex of the square and the lower left vertex of the triangle are at $(10, 0)$. The side of the square and the base of the triangle on the $x$-axis each equal $10$ units. A segment is drawn from the top left vertex of the square to the farthest vertex of the triangle, as shown. What is the area of the shaded region?  [asy]
+/* note: original diagram not to scale, equilateral triangle same height as rectangle */
+import graph; size(140); real lsf=0.5; pen dps=linewidth(0.85)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-2.2,xmax=23.1,ymin=-2.2,ymax=12.87;
+
+pen zzttqq=dps;
+draw((0,0)--(10,0)--(10,10)--(0,10)--cycle,zzttqq); draw((10,0)--(20,0)--(15,10)--cycle,zzttqq);
+
+Label laxis; laxis.p=fontsize(10); string blank(real x){return "";}
+
+xaxis("$x$",xmin,xmax,defaultpen+black,Arrows(4),above=true); yaxis("$y$",ymin,ymax,defaultpen+black,Arrows(4),above=true); draw((0,0)--(10,0),zzttqq); draw((10,0)--(10,10),zzttqq); draw((10,10)--(0,10),zzttqq); draw((0,10)--(0,0),zzttqq); draw((10,0)--(20,0),zzttqq); draw((0,10)--(20,0)); filldraw((10,0)--(20,0)--intersectionpoints((0,10)--(20,0),(15,10)--(10,0))[0]--cycle,gray(0.7));
+dot((10,0),ds); label("$(10,\,0)$",(10,0),S);
+clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle);
+
+[/asy]

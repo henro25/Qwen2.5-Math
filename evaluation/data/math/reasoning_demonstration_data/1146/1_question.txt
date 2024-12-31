@@ -1,0 +1,2 @@
+Problem: Find the minimum value of
+\[\sqrt{x^2 + (1 - x)^2} + \sqrt{(1 - x)^2 + (1 + x)^2}\]over all real numbers $x.$

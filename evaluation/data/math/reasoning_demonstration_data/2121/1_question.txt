@@ -1,0 +1,1 @@
+Problem: Find \[\left|\left(\frac 35+\frac 45i\right)^6\right|\]

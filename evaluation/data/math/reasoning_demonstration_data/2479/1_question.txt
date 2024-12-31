@@ -1,0 +1,1 @@
+Problem: How many numbers are in the list $ -33, -28, -23, \ldots, 52, 57?$

@@ -1,0 +1,1 @@
+Problem: The product of a number $M$ and six less than $M$ is $-5$. What is the sum of all possible values of $M$?

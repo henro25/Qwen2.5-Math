@@ -1,0 +1,1 @@
+Problem: Find $x$ such that $\log_x 81=\log_2 16$.

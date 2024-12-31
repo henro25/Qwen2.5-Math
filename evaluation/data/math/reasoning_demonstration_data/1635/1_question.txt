@@ -1,0 +1,1 @@
+Problem: Let $a,$ $b,$ $c$ be the roots of the cubic $x^3 + 3x^2 + 5x + 7 = 0.$  Given that $P(x)$ is a cubic polynomial such that $P(a) = b + c,$ $P(b) = a + c,$ $P(c) = a + b,$ and $P(a + b + c) = -16,$ find $P(x).$

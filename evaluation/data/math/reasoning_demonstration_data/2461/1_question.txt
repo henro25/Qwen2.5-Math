@@ -1,0 +1,9 @@
+Problem: Each person marked the table with an X on the day(s) he/she would not be able to attend a meeting. On which day can the most people attend a meeting?
+
+\begin{tabular}{|l|c|c|c|c|c|}
+\multicolumn{6}{c}{}\\\hline
+&Mon&Tues&Wed&Thurs&Fri\\\hline
+Anna&X&&X&&\\\hline
+Bill&&X&&X&X\\\hline
+Carl&X&X&&X&X\\\hline
+\end{tabular}

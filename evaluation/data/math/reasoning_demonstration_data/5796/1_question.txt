@@ -1,0 +1,18 @@
+Problem: In the figure below, the smaller circle has a radius of two feet and the larger circle has a radius of four feet. What is the total area of the four shaded regions? Express your answer as a decimal to the nearest tenth.
+
+[asy]
+fill((0,0)--(12,0)--(12,-4)--(4,-4)--(4,-2)--(0,-2)--cycle,gray(0.7));
+draw((0,0)--(12,0),linewidth(1));
+draw((0,0)--(0,-2),linewidth(1));
+draw((4,0)--(4,-4),linewidth(1));
+draw((12,0)--(12,-4),linewidth(1));
+draw((0.3,0)--(0.3,-0.3)--(0,-0.3));
+draw((4.3,0)--(4.3,-0.3)--(4,-0.3));
+draw((11.7,0)--(11.7,-0.3)--(12,-0.3));
+fill(Circle((2,-2),2),white);
+fill(Circle((8,-4),4),white);
+draw(Circle((2,-2),2));
+draw(Circle((8,-4),4));
+dot((2,-2));
+dot((8,-4));
+[/asy]

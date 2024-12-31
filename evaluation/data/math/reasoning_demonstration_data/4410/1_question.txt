@@ -1,0 +1,2 @@
+Problem: Find the positive integer $n$ such that
+\[\sin \left( \frac{\pi}{2n} \right) + \cos \left (\frac{\pi}{2n} \right) = \frac{\sqrt{n}}{2}.\]

@@ -1,0 +1,5 @@
+Problem: Let $x,$ $y,$ $z$ be real numbers such that
+\begin{align*}
+x + y + z &= 4, \\
+x^2 + y^2 + z^2 &= 6.
+\end{align*}Let $m$ and $M$ be the smallest and largest possible values of $x,$ respectively.  Find $m + M.$

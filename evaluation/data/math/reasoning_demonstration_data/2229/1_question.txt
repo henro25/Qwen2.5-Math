@@ -1,0 +1,12 @@
+Problem: If a 3'' by 3'' square is added at each successive stage, what will be the area of the rectangle at Stage 6, in square inches?
+
+[asy]size(250); real textsize = 10pt;
+draw(unitsquare);
+draw(shift(1.5*right)*unitsquare);
+draw(shift(2.5*right)*unitsquare);
+draw(shift(4*right)*unitsquare);
+draw(shift(5*right)*unitsquare);
+draw(shift(6*right)*unitsquare);
+label("Stage 1",(.5,0),S,fontsize(textsize));
+label("Stage 2",(2.5,0),S,fontsize(textsize));
+label("Stage 3",(5.5,0),S,fontsize(textsize));[/asy]

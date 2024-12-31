@@ -1,0 +1,1 @@
+Problem: Find $\sec (-300^\circ).$

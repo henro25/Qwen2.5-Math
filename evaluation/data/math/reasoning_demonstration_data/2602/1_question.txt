@@ -1,0 +1,3 @@
+Problem: In base $b$, there are exactly one hundred three-digit numbers whose digits are all distinct. (That's "one hundred" in the ordinary sense, $100_{10}$.)
+
+What is $b$?

@@ -1,0 +1,1 @@
+Problem: A box with a volume of 16 $\text{cm}^3$ can hold 50 paperclips. How many paperclips could a box with a volume of 48 $\text{cm}^3$ hold?

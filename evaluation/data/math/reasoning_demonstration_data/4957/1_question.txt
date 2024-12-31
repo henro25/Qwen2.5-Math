@@ -1,0 +1,1 @@
+Problem: A point $P$ is randomly selected from the square region with vertices at $(\pm 2, \pm 2)$. What is the probability that $P$ is within one unit of the origin? Express your answer as a common fraction in terms of $\pi$.

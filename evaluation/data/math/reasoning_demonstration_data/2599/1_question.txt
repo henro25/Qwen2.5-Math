@@ -1,0 +1,1 @@
+Problem: The sum of the squares of two positive integers is 193. The product of the two integers is 84. What is the sum of the two integers?

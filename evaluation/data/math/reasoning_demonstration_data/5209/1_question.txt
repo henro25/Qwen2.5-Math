@@ -1,0 +1,1 @@
+Problem: Let $F(x)$ be a polynomial such that $F(6) = 15$ and\[\frac{F(3x)}{F(x+3)} = 9-\frac{48x+54}{x^2+5x+6}\]for $x \in \mathbb{R}$ such that both sides are defined. Find $F(12)$.

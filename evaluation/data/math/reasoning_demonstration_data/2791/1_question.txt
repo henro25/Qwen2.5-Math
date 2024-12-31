@@ -1,0 +1,1 @@
+Problem: The first and thirteenth terms of an arithmetic sequence are 5 and 29, respectively. What is the fiftieth term?

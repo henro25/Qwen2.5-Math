@@ -1,0 +1,2 @@
+Problem: $ABC$ is a triangle: $A=(0,0), B=(36,15)$ and both the coordinates of $C$ are integers. What is the minimum area $\triangle ABC$ can have?
+$\textbf{(A)}\ \frac{1}{2} \qquad \textbf{(B)}\ 1 \qquad \textbf{(C)}\ \frac{3}{2} \qquad \textbf{(D)}\ \frac{13}{2}\qquad \textbf{(E)}\ \text{there is no minimum}$

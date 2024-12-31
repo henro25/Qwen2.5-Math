@@ -1,0 +1,1 @@
+Problem: Find $x$ such that $\lceil x \rceil \cdot x = 135$. Express $x$ as a decimal.

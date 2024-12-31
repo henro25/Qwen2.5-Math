@@ -1,0 +1,14 @@
+Problem: A circle with center $A$ and radius three inches is tangent at $C$ to a circle with center $B$, as shown. If point $B$ is on the small circle, what is the area of the shaded region? Express your answer in terms of $\pi$.
+
+[asy]
+filldraw(circle((0,0),6),gray,linewidth(2));
+filldraw(circle(3dir(-30),3),white,linewidth(2));
+
+dot((0,0));
+dot(3dir(-30));
+dot(6dir(-30));
+
+label("$B$",(0,0),NW);
+label("$A$",3dir(-30),NE);
+label("$C$",6dir(-30),SE);
+[/asy]

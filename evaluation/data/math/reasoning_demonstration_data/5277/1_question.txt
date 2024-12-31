@@ -1,0 +1,32 @@
+Problem: Let $P$ be a point inside triangle $ABC$.  Let $G_1$, $G_2$, and $G_3$ be the centroids of triangles $PBC$, $PCA$, and $PAB$, respectively.  If the area of triangle $ABC$ is 18, then find the area of triangle $G_1 G_2 G_3$.
+
+[asy]
+import geometry;
+
+unitsize(2 cm);
+
+pair A, B, C, P;
+pair[] G;
+
+A = (1,3);
+B = (0,0);
+C = (4,0);
+P = (2,1);
+G[1] = (P + B + C)/3;
+G[2] = (P + C + A)/3;
+G[3] = (P + A + B)/3;
+
+draw(A--B--C--cycle);
+draw(A--P);
+draw(B--P);
+draw(C--P);
+draw(G[1]--G[2]--G[3]--cycle);
+
+label("$A$", A, dir(90));
+label("$B$", B, SW);
+label("$C$", C, SE);
+dot("$G_1$", G[1], S);
+dot("$G_2$", G[2], SE);
+dot("$G_3$", G[3], NW);
+label("$P$", P, S);
+[/asy]

@@ -1,0 +1,1 @@
+Problem: Which digit is represented by $\Theta$ if $252/\Theta=\underline{3\Theta}+\Theta$, where $\underline{3\Theta}$ represents a two-digit number with $3$ in the tens digit and $\Theta$ in the ones digit?

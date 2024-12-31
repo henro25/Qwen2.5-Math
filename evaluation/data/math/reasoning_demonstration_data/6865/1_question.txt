@@ -1,0 +1,1 @@
+Problem: A bin has 8 black balls and 7 white balls.  3 of the balls are drawn at random.  What is the probability of drawing 2 of one color and 1 of the other color?

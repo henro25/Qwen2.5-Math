@@ -1,0 +1,1 @@
+Problem: Evaluate $\lfloor{\sqrt{12}}\rfloor^2$.

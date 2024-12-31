@@ -1,0 +1,1 @@
+Problem: As $p$ ranges over the primes greater than $5$, how many different remainders can $p^2$ leave upon division by $120$?

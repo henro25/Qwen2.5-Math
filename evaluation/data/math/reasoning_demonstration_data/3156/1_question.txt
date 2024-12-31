@@ -1,0 +1,1 @@
+Problem: The larger of two consecutive odd integers is three times the smaller.  What is their sum?

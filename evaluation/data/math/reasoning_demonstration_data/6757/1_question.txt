@@ -1,0 +1,2 @@
+Problem: Solve
+\[\arcsin (\sin x) = \frac{x}{2}.\]Enter all the solutions, separated by commas.

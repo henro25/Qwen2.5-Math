@@ -1,0 +1,1 @@
+Problem: A tank is to be filled with water. When the tank is one-sixth full, 130 gallons of water are added, making the tank three-fifths full. How many gallons does the tank contain when it is completely full?

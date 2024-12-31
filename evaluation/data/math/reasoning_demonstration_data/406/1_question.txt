@@ -1,0 +1,1 @@
+Problem: Let $f(x)=x+2$ and $g(x)=x/3.$ Also denote the inverses to these functions as $f^{-1}$ and $g^{-1}.$ Compute \[f(g^{-1}(f^{-1}(f^{-1}(g(f(19)))))).\]

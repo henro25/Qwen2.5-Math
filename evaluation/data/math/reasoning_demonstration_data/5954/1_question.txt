@@ -1,0 +1,4 @@
+Problem: Here are two functions: $$\begin{array}{ccc}
+f(x) & = & 3x^2-2x+ 4\\
+g(x) & = & x^2-kx-6
+\end{array}$$ If $f(10) - g(10) = 10,$ what is the value of $k?$

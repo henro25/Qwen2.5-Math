@@ -1,0 +1,1 @@
+Problem: Determine the tens digit of $17^{1993}$.

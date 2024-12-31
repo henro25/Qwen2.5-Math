@@ -1,0 +1,1 @@
+Problem: Given $\delta(x) = 3x + 8$ and $\phi(x) = 8x + 7$, what is $x$ if $\delta(\phi(x)) = 7$?

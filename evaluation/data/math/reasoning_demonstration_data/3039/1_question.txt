@@ -1,0 +1,1 @@
+Problem: The sum of the lengths of the twelve edges of a rectangular box is $140$, and the distance from one corner of the box to the farthest corner is $21$. What is the total surface area of the box?

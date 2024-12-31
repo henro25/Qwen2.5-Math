@@ -1,0 +1,1 @@
+Problem: What is the ordered pair of integers $(x,y)$ for which $12x + 21y = 15$ and $21x + 12y = 51$?

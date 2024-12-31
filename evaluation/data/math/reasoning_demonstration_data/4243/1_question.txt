@@ -1,0 +1,1 @@
+Problem: Find the phase shift of the graph of $y = \sin (3x - \pi).$

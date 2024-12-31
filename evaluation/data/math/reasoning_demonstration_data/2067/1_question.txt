@@ -1,0 +1,11 @@
+Problem: In the diagram, what is the value of $x$? [asy]
+size(120);
+draw(Circle((0,0),1));
+draw((0,0)--(.5,sqrt(3)/2));
+draw((0,0)--(sqrt(3)/2,.5));
+draw((0,0)--(sqrt(3)/2,-.5));
+draw((0,0)--(-1,0));
+label("$4x^\circ$",(0,0),NNW); label("$5x^\circ$",(0,0),SSW);
+label("$2x^\circ$",(.3,0));label("$x^\circ$",(.3,.3));
+
+[/asy]

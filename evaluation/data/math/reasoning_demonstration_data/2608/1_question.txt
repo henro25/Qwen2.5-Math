@@ -1,0 +1,1 @@
+Problem: What is the coefficient of $x^2$ when $-5x^3 - 5x^2 - 7x + 1$ is multiplied by $-x^2 - 6x + 1$ and the like terms are combined?

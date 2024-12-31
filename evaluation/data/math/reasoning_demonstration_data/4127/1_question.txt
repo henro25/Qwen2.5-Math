@@ -1,0 +1,1 @@
+Problem: One angle of a triangle is twice another, and the sides opposite these angles have lengths 15 and 9.  Compute the length of the third side of the triangle.

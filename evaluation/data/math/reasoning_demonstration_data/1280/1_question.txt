@@ -1,0 +1,1 @@
+Problem: Twelve students in Mrs. Stephenson's class have brown eyes. Twenty students in the class have a lunch box. Of Mrs. Stephenson's 30 students, what is the least possible number of students who have brown eyes and a lunch box?

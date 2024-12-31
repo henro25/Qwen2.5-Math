@@ -1,0 +1,1 @@
+Problem: Three-fourths of the parrots on Bird Island are green, and the remainder are blue. If there are 92 parrots total on Bird Island, how many of those parrots are blue?

@@ -1,0 +1,1 @@
+Problem: A bag contains ten balls, some of which are red and the rest of which are yellow. When two balls are drawn at random at the same time, the probability that both balls are red is $\frac{1}{15}$. How many balls in the bag are red?

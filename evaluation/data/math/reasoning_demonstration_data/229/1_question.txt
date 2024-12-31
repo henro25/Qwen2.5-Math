@@ -1,0 +1,1 @@
+Problem: The numbers $x$ and $y$ are inversely proportional. When the sum of $x$ and $y$ is 42, $x$ is twice $y$. What is the value of $y$ when $x=-8$?

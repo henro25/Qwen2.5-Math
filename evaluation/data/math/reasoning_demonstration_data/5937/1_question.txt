@@ -1,0 +1,4 @@
+Problem: Suppose that  $\{a_n\}$ is an arithmetic sequence with $$
+a_1+a_2+ \cdots +a_{100}=100 \quad \text{and} \quad
+a_{101}+a_{102}+ \cdots + a_{200}=200.
+$$What is the value of $a_2 - a_1$? Express your answer as a common fraction.

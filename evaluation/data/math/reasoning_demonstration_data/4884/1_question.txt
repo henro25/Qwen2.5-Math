@@ -1,0 +1,1 @@
+Problem: What is the smallest integer $b > 3$ for which the base $b$ number $23_b$ is a perfect square?

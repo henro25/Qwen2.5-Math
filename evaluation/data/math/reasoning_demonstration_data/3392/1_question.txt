@@ -1,0 +1,1 @@
+Problem: How many natural numbers greater than 6 but less than 60 are relatively prime to 15?

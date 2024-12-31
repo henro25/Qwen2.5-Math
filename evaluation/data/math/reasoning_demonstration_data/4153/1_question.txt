@@ -1,0 +1,1 @@
+Problem: How many different positive values of $x$ will make this statement true: there are exactly $2$ positive two-digit multiples of $x$.

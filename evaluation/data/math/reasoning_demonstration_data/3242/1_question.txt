@@ -1,0 +1,1 @@
+Problem: Find the number of ordered triples $(x,y,z)$ of real numbers such that $x + y = 2$ and $xy - z^2 = 1.$

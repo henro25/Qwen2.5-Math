@@ -1,0 +1,9 @@
+Problem: Each point in the hexagonal lattice shown is one unit from its nearest neighbor. How many equilateral triangles have all three vertices in the lattice? [asy]size(75);
+dot(origin);
+dot(dir(0));
+dot(dir(60));
+dot(dir(120));
+dot(dir(180));
+dot(dir(240));
+dot(dir(300));
+[/asy]

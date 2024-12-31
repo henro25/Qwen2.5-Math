@@ -1,0 +1,1 @@
+Problem: If $x+y=9$ and $xy=10$, what is the value of $x^3+y^3$?

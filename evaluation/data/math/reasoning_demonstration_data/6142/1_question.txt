@@ -1,0 +1,1 @@
+Problem: A sphere is inscribed in a cube with edge length 9 inches. Then a smaller cube is inscribed in the sphere. How many cubic inches are in the volume of the inscribed cube? Express your answer in simplest radical form.

@@ -1,0 +1,3 @@
+Problem: Vinny wrote down all the single-digit base-$b$ numbers and added them in base $b$, getting $34_b$.
+
+What is $b$?

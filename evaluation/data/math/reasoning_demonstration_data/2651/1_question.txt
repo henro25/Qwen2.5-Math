@@ -1,0 +1,1 @@
+Problem: Triangle $\triangle ABC$ has a right angle at $C$, $\angle A = 60^\circ$, and $AC=10$.  Find the radius of the incircle of $\triangle ABC$.

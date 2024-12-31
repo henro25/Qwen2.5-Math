@@ -1,0 +1,1 @@
+Problem: If $a$, $b$, and $c$ are positive integers satisfying $ab+c = bc+a = ac+b = 41$, what is the value of $a+b+c$?

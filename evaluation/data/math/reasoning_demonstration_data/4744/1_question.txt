@@ -1,0 +1,14 @@
+Problem: Two of the vertices of a regular octahedron are to be chosen at random. What is the probability that they will be the endpoints of an edge of the octahedron? Express your answer as a common fraction. [asy]
+size(150);
+pair A, B, C, D, E, F;
+A=(1,1);
+B=(-1,-1);
+C=(0,6);
+D=(0,-6);
+E=(6, 0);
+F=(-6,0);
+draw(C--F--D--E--C--B--F);
+draw(D--B--E);
+draw(F--A--C, dashed);
+draw(D--A--E, dashed);
+[/asy]

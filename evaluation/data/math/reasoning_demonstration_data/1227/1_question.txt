@@ -1,0 +1,1 @@
+Problem: Six 6-sided dice are rolled.  What is the probability that the number of dice showing even numbers and the number of dice showing odd numbers is equal?

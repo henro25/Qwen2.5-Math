@@ -1,0 +1,1 @@
+Problem: Define $g$ by $g(x)=5x-4$. If $g(x)=f^{-1}(x)-3$ and $f^{-1}(x)$ is the inverse of the function $f(x)=ax+b$, find $5a+5b$.

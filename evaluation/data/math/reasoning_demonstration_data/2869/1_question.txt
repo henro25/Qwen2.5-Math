@@ -1,0 +1,1 @@
+Problem: Molly flips a fair coin five times, and she is very surprised to flip a head each time. What is the probability she will flip a tail on her next flip of the coin? Express your answer as a common fraction.

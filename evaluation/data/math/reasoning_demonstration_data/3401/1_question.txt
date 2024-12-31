@@ -1,0 +1,1 @@
+Problem: How many numbers in the list $43$, $4343$, $434343$, $\dots$, are prime?

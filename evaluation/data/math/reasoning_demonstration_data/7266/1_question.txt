@@ -1,0 +1,1 @@
+Problem: Let $N,O$ be functions such that $N(x) = 2\sqrt{x}$, and $O(x) = x^2$. What is $N(O(N(O(N(O(3))))))$?

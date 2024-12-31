@@ -1,0 +1,1 @@
+Problem: One of the asymptotes of a hyperbola has equation $y=3x.$ The foci of the hyperbola have the same $x-$coordinate, which is $5.$ Find the equation of the other asymptote of the hyperbola, giving your answer in the form "$y = mx + b$".

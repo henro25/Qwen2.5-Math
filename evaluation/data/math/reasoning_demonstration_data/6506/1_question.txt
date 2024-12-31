@@ -1,0 +1,1 @@
+Problem: Let $A = (-4,0,6),$ $B = (-5,-1,2),$ and $C = (-6,-1,3).$  Compute $\angle ABC,$ in degrees.

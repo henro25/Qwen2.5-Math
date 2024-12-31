@@ -1,0 +1,1 @@
+Problem: Two cards are dealt at random from a standard deck of 52 cards.  What is the probability that the first card is a King and the second card is a $\heartsuit$?

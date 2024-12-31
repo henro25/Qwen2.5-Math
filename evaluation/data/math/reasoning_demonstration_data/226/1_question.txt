@@ -1,0 +1,1 @@
+Problem: How many nonnegative solutions are there to the equation $x^2 = -4x$?

@@ -1,0 +1,2 @@
+Problem: Find the maximum value of
+\[\sin \frac{\theta}{2} \cdot (1 + \cos \theta)\]for $0 < \theta < \pi.$

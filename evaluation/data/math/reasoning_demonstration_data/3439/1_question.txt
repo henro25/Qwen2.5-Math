@@ -1,0 +1,1 @@
+Problem: What is the sum of the roots of $x^2 - 4x + 3 = 0$?

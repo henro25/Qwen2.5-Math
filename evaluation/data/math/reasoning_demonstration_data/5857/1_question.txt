@@ -1,0 +1,3 @@
+Problem: The Benton Youth Soccer Team has 20 players on the team, including reserves. Of these, three are goalies. Today, the team is having a contest to see which goalie can block the most number of penalty kicks. For each penalty kick, a goalie stands in the net while the rest of the team (including other goalies) takes a shot on goal, one at a time, attempting to place the ball in the net.
+
+How many penalty kicks must be taken to ensure that everyone has gone up against each of the goalies?

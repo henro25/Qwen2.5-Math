@@ -1,0 +1,1 @@
+Problem: If the sum of $1! + 2! + 3! + \cdots + 49! + 50!$ is divided by $15$, what is the remainder?

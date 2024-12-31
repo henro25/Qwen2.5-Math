@@ -1,0 +1,1 @@
+Problem: A two-digit integer $AB$ equals $\frac{1}{9}$ of the three-digit integer $AAB$, where $A$ and $B$ represent distinct digits from 1 to 9. What is the smallest possible value of the three-digit integer $AAB$?

@@ -1,0 +1,5 @@
+Problem: If $x=2$ and $y=3$, express the value of the following as a common fraction: $$
+\frac
+{~\frac{1}{y}~}
+{\frac{1}{x}}
+$$

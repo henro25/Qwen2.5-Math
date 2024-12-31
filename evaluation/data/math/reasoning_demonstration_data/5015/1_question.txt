@@ -1,0 +1,2 @@
+Problem: Let $\mathbf{M}$ be a matrix such that
+\[\mathbf{M} \begin{pmatrix} 2 \\ -1 \end{pmatrix} = \begin{pmatrix} 3 \\ 0 \end{pmatrix} \quad \text{and} \quad \mathbf{M} \begin{pmatrix} -3 \\ 5 \end{pmatrix} = \begin{pmatrix} -1 \\ -1 \end{pmatrix}.\]Compute $\mathbf{M} \begin{pmatrix} 5 \\ 1 \end{pmatrix}.$

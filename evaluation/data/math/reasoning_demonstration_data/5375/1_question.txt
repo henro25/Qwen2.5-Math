@@ -1,0 +1,1 @@
+Problem: The mean of the set of numbers $\{87,85,80,83,84,x\}$ is 83.5. What is the median of the set of six numbers? Express your answer as a decimal to the nearest tenth.

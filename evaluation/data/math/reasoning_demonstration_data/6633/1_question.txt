@@ -1,0 +1,1 @@
+Problem: If $f(x) = 3x+2$ and $g(x) = (x-1)^2$, what is $f(g(-2))$?

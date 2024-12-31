@@ -1,0 +1,1 @@
+Problem: How many positive multiples of $7$ that are less than $1000$ end with the digit $3$?

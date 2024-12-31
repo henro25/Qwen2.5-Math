@@ -1,0 +1,1 @@
+Problem: In $\triangle PQR$, we have $PQ = QR = 34$ and $PR = 32$.  Point $M$ is the midpoint of $\overline{QR}$.  Find $PM$.

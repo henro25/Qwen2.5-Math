@@ -1,0 +1,1 @@
+Problem: When the graph of $y = 2x^2 - x + 7$ is shifted four units to the right, we obtain the graph of $y = ax^2 + bx + c$.  Find $a + b + c$.

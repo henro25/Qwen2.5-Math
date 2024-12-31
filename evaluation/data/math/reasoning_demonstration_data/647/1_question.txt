@@ -1,0 +1,1 @@
+Problem: What are the rightmost three digits of $5^{1993}$?

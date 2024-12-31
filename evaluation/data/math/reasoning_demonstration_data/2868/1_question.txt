@@ -1,0 +1,1 @@
+Problem: Given that $a$ and $b$ are positive integers and that $a+b=24$, what is the value of $ab$ if $2ab + 10a = 3b + 222$?

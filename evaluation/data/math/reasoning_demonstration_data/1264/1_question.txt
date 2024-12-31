@@ -1,0 +1,1 @@
+Problem: Square $ABCD$ has area $200$. Point $E$ lies on side $\overline{BC}$. Points $F$ and $G$ are the midpoints of $\overline{AE}$ and $\overline{DE}$, respectively. Given that quadrilateral $BEGF$ has area $34$, what is the area of triangle $GCD$?

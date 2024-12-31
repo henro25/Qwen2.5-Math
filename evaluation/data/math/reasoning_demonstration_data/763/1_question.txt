@@ -1,0 +1,1 @@
+Problem: How many integer side lengths are possible to complete a triangle in which the other sides measure 6 units and 3 units?

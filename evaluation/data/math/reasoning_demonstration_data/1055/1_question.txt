@@ -1,0 +1,2 @@
+Problem: Let $x$ and $y$ be real numbers greater than 1 such that
+\[(\log_2 x)^4 + (\log_3 y)^4 + 8 = 8 (\log_2 x)(\log_3 y).\]Compute $x^{\sqrt{2}} + y^{\sqrt{2}}.$

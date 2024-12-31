@@ -1,0 +1,1 @@
+Problem: In the game of Frood, dropping $n$ froods gives a score of the sum of the first $n$ positive integers. For example, dropping five froods scores $1 + 2 + 3 + 4 + 5 = 15$ points. Eating $n$ froods earns $10n$ points. For example, eating five froods earns $10(5) = 50$ points. What is the least number of froods for which dropping them will earn more points than eating them?

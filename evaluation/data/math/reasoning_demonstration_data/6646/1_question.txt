@@ -1,0 +1,2 @@
+Problem: Let $x,$ $y,$ and $z$ be positive real numbers such that
+\[\frac{1}{x} + \frac{1}{y} + \frac{1}{z} = 6.\]Find the minimum value of $x^3 y^2 z.$

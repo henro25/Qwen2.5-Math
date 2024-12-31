@@ -1,0 +1,1 @@
+Problem: Let $a\star b = a^b+ab$. If $a$ and $b$ are positive integers greater than or equal to 2 and $a\star b =15$, find $a+b$.

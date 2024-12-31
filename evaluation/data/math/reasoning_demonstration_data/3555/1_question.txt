@@ -1,0 +1,1 @@
+Problem: Let $f(x) = ax^7 + bx^3 + cx - 5.$  If $f(-7) = 7,$ then find $f(7).$

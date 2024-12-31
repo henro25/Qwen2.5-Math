@@ -1,0 +1,2 @@
+Problem: If $\mathbf{a},$ $\mathbf{b},$ and $\mathbf{c}$ are vectors such that $\mathbf{a} \cdot \mathbf{b} = -3,$ $\mathbf{a} \cdot \mathbf{c} = 4,$ and $\mathbf{b} \cdot \mathbf{c} = 6,$ then find
+\[\mathbf{b} \cdot (7 \mathbf{c} - 2 \mathbf{a}).\]

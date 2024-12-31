@@ -1,0 +1,1 @@
+Problem: Jasmine had 2 paperclips on Monday, then she had 6 on Tuesday, and her number of paperclips proceeded to triple on each subsequent day. On what day of the week did she first have more than 100 paperclips?

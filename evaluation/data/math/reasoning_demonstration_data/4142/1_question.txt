@@ -1,0 +1,1 @@
+Problem: Let the first term of a geometric sequence be $\frac{3}{4}$, and let the second term be $15$. What is the smallest $n$ for which the $n$th term of the sequence is divisible by one million?

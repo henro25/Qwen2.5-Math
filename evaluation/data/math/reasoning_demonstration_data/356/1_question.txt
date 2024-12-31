@@ -1,0 +1,1 @@
+Problem: A standard die is rolled six times. What is the probability that the product of all six rolls is odd? Express your answer as a common fraction.

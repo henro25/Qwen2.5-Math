@@ -1,0 +1,1 @@
+Problem: Factor $46x^3-115x^7.$

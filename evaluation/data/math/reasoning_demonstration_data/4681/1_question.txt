@@ -1,0 +1,1 @@
+Problem: You have a rectangular prism box with length $x+5$ units, width $x-5$ units, and height $x^{2}+25$ units. For how many positive integer values of $x$ is the volume of the box less than 700 units?

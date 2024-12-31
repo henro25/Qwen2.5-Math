@@ -1,0 +1,1 @@
+Problem: The graph of $xy = 1$ is a hyperbola.  Find the distance between the foci of this hyperbola.

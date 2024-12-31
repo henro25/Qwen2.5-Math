@@ -1,0 +1,1 @@
+Problem: Find the constant $c$ such that the remainder when $2x+7$ divides $2x^3+cx^2-11x+39$ is $4$.

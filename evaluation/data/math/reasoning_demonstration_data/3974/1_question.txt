@@ -1,0 +1,1 @@
+Problem: Suppose $a$, $b$, $c$ and $d$ are integers satisfying: $a-b+c=5$, $b-c+d=6$, $c-d+a=3$, and $d-a+b=2$. What is the value of $a+b+c+d$?

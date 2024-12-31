@@ -1,0 +1,1 @@
+Problem: If I have four boxes arranged in a $2$ x $2$ grid, in how many distinct ways can I place the digits $1$, $2$, and $3$ in the boxes such that each box contains at most one digit?  (I only have one of each digit, so one box will remain blank.)

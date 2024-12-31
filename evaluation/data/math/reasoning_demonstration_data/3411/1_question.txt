@@ -1,0 +1,20 @@
+Problem: A cone has a volume of $12288\pi$ cubic inches and the vertex angle of the vertical cross section is 60 degrees. What is the height of the cone? Express your answer as a decimal to the nearest tenth. [asy]
+
+import markers;
+size(150);
+import geometry;
+draw(scale(1,.2)*arc((0,0),1,0,180),dashed);
+draw(scale(1,.2)*arc((0,0),1,180,360));
+draw((-1,0)--(0,sqrt(3))--(1,0));
+
+//draw(arc(ellipse((2.5,0),1,0.2),0,180),dashed);
+draw(shift((2.5,0))*scale(1,.2)*arc((0,0),1,0,180),dashed);
+draw((1.5,0)--(2.5,sqrt(3))--(3.5,0)--cycle);
+
+//line a = line((2.5,sqrt(3)),(1.5,0));
+//line b = line((2.5,sqrt(3)),(3.5,0));
+//markangle("$60^{\circ}$",radius=15,a,b);
+//markangle("$60^{\circ}$",radius=15,(1.5,0),(2.5,sqrt(3)),(1.5,0));
+markangle(Label("$60^{\circ}$"),(1.5,0),(2.5,sqrt(3)),(3.5,0),radius=15);
+//markangle(Label("$60^{\circ}$"),(1.5,0),origin,(0,1),radius=20);
+[/asy]

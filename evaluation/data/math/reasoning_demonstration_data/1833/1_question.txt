@@ -1,0 +1,18 @@
+Problem: In triangle $ABC$, $AB = BC$, and $\overline{BD}$ is an altitude. Point $E$ is on the extension of $\overline{AC}$ such that $BE =
+10$.  The values of $\tan \angle CBE$, $\tan \angle DBE$, and $\tan \angle ABE$ form a geometric progression, and the values of $\cot \angle DBE$, $\cot \angle CBE$, $\cot \angle DBC$ form an arithmetic progression.  What is the area of triangle $ABC$?
+
+[asy]
+pair A,B,C,D,E;
+A=(0,0);
+B=(4,8);
+C=(8,0);
+E=(10,0);
+D=(4,0);
+draw(A--B--E--cycle,linewidth(0.7));
+draw(C--B--D,linewidth(0.7));
+label("$B$",B,N);
+label("$A$",A,S);
+label("$D$",D,S);
+label("$C$",C,S);
+label("$E$",E,S);
+[/asy]

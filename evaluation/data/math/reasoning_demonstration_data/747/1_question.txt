@@ -1,0 +1,1 @@
+Problem: If $7^{4x}=343$, what is the value of $7^{4x-3}$?

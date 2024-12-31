@@ -1,0 +1,2 @@
+Problem: Find the maximum value of
+\[f(x) = 3x - x^3\]for $0 \le x \le \sqrt{3}.$

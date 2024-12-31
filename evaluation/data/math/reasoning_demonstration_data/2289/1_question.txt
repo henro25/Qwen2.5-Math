@@ -1,0 +1,1 @@
+Problem: Josef and Timothy play a game in which Josef picks an integer between 1 and 1000 inclusive and Timothy divides 1000 by that integer and states whether or not the quotient is an integer.  How many integers could Josef pick such that Timothy's quotient is an integer?

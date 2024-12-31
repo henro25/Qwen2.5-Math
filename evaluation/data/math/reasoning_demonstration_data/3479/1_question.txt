@@ -1,0 +1,2 @@
+Problem: Find the number of complex numbers $z$ satisfying $|z| = 1$ and
+\[\left| \frac{z}{\overline{z}} + \frac{\overline{z}}{z} \right| = 1.\]

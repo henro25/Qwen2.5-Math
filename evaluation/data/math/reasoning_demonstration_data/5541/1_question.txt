@@ -1,0 +1,1 @@
+Problem: The graph of the line $x+y=b$ is a perpendicular bisector of the line segment from $(1,3)$ to $(5,7)$. What is the value of b?

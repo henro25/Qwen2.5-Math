@@ -1,0 +1,1 @@
+Problem: A right triangle has a side length of 21 inches and a hypotenuse of 29 inches. A second triangle is similar to the first and has a hypotenuse of 87 inches. What is the length of the shortest side of the second triangle?

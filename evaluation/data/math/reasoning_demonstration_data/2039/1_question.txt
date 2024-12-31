@@ -1,0 +1,1 @@
+Problem: Let $a,$ $b,$ $c,$ $d$ be distinct real numbers such that the roots of $x^2 - 10ax - 11b = 0$ are $c$ and $d,$ and the roots of $x^2 - 10cx - 11d = 0$ are $a$ and $b.$  Find the value of $a + b + c + d.$

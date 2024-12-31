@@ -1,0 +1,1 @@
+Problem: The quadratic $x^2 + 5x + c$ has roots in the form of $x = \frac{-5 \pm \sqrt{c}}{2}$. What is the value of $c$?

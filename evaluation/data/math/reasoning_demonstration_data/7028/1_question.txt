@@ -1,0 +1,16 @@
+Problem: Find $\cos C$ in the right triangle shown below.
+
+
+[asy]
+pair A,B,C;
+A = (0,0);
+B = (6,0);
+C = (0,8);
+draw(A--B--C--A);
+draw(rightanglemark(B,A,C,10));
+label("$A$",A,SW);
+label("$B$",B,SE);
+label("$C$",C,N);
+label("$10$",(B+C)/2,NE);
+label("$6$",B/2,S);
+[/asy]

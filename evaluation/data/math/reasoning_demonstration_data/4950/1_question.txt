@@ -1,0 +1,1 @@
+Problem: For what values of $x$ is $x^3-10x^2>-25x$?

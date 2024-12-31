@@ -1,0 +1,2 @@
+Problem: Let $k$ be a real number such that $k > 1$ and
+\[\sum_{n=1}^{\infty} \frac{5n-1}{k^n} = \frac{13}{4}.\]Find $k.$

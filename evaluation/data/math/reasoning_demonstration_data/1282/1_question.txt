@@ -1,0 +1,1 @@
+Problem: Find the value of $k$ for which $kx^2 -5x-12 = 0$ has solutions $x=3$ and $ x = -\frac{4}{3}$.

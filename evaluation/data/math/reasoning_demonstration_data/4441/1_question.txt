@@ -1,0 +1,1 @@
+Problem: A band has 72 members who will all be marching during halftime. They need to march in rows with the same number of students per row. If there must be between 5 and 20 students per row, in how many possible row-lengths can the band be arranged?

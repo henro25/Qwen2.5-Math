@@ -1,0 +1,1 @@
+Problem: Express the following sum as a common fraction: $$\frac{1}{1\cdot 2} + \frac{1}{2\cdot 3} + \frac{1}{3\cdot 4} + \frac{1}{4\cdot 5} + \dots + \frac{1}{9\cdot 10}$$

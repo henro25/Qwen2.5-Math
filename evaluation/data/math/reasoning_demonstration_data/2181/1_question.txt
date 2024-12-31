@@ -1,0 +1,1 @@
+Problem: I take variable $b$, double it, and add four.  I subtract $4b$ from this new expression, and divide the resulting difference by two.  What is my final expression in simplest form?

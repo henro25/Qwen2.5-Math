@@ -1,0 +1,2 @@
+Problem: In a certain cross country meet between 2 teams of 5 runners each, a runner who finishes in the $n$th position contributes $n$ to his teams score. The team with the lower score wins. If there are no ties among the runners, how many different winning scores are possible?
+(A) 10 (B) 13 (C) 27 (D) 120 (E) 126

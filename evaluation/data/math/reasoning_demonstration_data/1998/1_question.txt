@@ -1,0 +1,1 @@
+Problem: If $f(x) = 4-3x$ and $g(x) = x^2 +1$, find $f(g(\sqrt{2}))$.

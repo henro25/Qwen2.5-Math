@@ -1,0 +1,1 @@
+Problem: Find the distance between the foci of the hyperbola $x^2 - 6x - 4y^2 - 8y = 27.$

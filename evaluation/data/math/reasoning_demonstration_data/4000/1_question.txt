@@ -1,0 +1,1 @@
+Problem: A certain ellipse is tangent to both the $x$-axis and the $y$-axis, and its foci are at $(2, -3 + \sqrt{5})$ and $(2, -3 - \sqrt{5}).$  Find the length of the major axis.

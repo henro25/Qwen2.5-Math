@@ -1,0 +1,1 @@
+Problem: A cube is painted so that one side is blue, two sides are red, and three sides are green. How many different such cubes can be painted? Two cubes are considered the same if one cube can be rotated in any way to match the second cube.

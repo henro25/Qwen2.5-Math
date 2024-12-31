@@ -1,0 +1,1 @@
+Problem: Find the minimum value of $\sin^4 x + \cos^4 x.$

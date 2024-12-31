@@ -1,0 +1,2 @@
+Problem: Find all angles $\theta,$ $0 \le \theta \le 2 \pi,$ with the following property: For all real numbers $x,$ $0 \le x \le 1,$
+\[x^2 \cos \theta - x(1 - x) + (1 - x)^2 \sin \theta > 0.\]

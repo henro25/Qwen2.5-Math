@@ -1,0 +1,1 @@
+Problem: How many factors of 8000 are perfect squares?

@@ -1,0 +1,1 @@
+Problem: A digit is written to the right of the units digit of $757$.  If the resulting four-digit number is divisible by $3$, how many possibilities are there for the digit that was written?

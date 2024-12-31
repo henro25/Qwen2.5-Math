@@ -1,0 +1,1 @@
+Problem: William is taking the 25-question, multiple choice American Mathematics Competition. Each question has five answer choices. William guesses random answers for the last four questions. What is the probability that he will get at least one of these final four questions right?

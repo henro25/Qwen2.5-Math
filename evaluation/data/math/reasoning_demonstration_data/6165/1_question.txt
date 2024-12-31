@@ -1,0 +1,14 @@
+Problem: In the diagram, $O$ is the center of a circle with radii $OP=OQ=5$.  What is the perimeter of the shaded region?
+
+[asy]
+size(100);
+import graph;
+label("$P$",(-1,0),W); label("$O$",(0,0),NE); label("$Q$",(0,-1),S);
+
+fill(Arc((0,0),1,-90,180)--cycle,mediumgray);
+draw(Arc((0,0),1,-90,180));
+fill((0,0)--(-1,0)--(0,-1)--cycle,white);
+draw((-1,0)--(0,0)--(0,-1));
+draw((-.1,0)--(-.1,-.1)--(0,-.1));
+
+[/asy]

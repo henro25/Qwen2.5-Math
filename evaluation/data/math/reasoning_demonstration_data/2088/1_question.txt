@@ -1,0 +1,1 @@
+Problem: If I have a $4\times 4$ chess board, in how many ways can I place four distinct pawns on the board such that each column and row of the board contains no more than one pawn?

@@ -1,0 +1,1 @@
+Problem: When three numbers are added two at a time the sums are 29, 46, and 53. What is the sum of all three numbers?

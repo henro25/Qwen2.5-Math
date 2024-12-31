@@ -1,0 +1,1 @@
+Problem: The quotient of two positive integers is $\frac{5}{2}$ and their product is 160. What is the value of the larger of the two integers?

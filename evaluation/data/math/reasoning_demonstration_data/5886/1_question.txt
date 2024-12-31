@@ -1,0 +1,26 @@
+Problem: In the following diagram, $AB=50$.  Find $AX$.
+
+[asy]
+import markers;
+
+real t=.67;
+pair A=(0,0);
+pair B=(3,-2);
+pair C=(1.5,1.5);
+pair X=t*A+(1-t)*B;
+
+draw(C--A--B--C--X);
+
+label("$A$",A,SW);
+label("$B$",B,E);
+label("$C$",C,N);
+label("$X$",X,SW);
+
+markangle(n=1,radius=15,A,C,X,marker(markinterval(stickframe(n=1),true)));
+markangle(n=1,radius=15,X,C,B,marker(markinterval(stickframe(n=1),true)));
+
+//label("$24$",.5*(B+X),SE);
+label("$56$",.5*(B+C),E);
+label("$28$",.5*(A+C),NW);
+
+[/asy]

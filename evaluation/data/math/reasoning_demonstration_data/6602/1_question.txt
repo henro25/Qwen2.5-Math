@@ -1,0 +1,7 @@
+Problem: The complex number $z$ traces a circle centered at the origin with radius 2.  Then $z + \frac{1}{z}$ traces a:
+(A) circle
+(B) parabola
+(C) ellipse
+(D) hyperbola
+
+Enter the letter of the correct option.

@@ -1,0 +1,1 @@
+Problem: When a number is divided by 7, the remainder is 2. What is the remainder when three times the number minus 7 is divided by 7?

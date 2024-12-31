@@ -1,0 +1,2 @@
+Problem: Find all values of $k$ so that
+\[x^2 - (k - 3) x - k + 6 > 0\]for all $x.$

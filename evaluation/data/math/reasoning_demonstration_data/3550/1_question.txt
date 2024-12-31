@@ -1,0 +1,1 @@
+Problem: The polynomial $2x^3 + bx + 7$ has a factor of the form $x^2 + px + 1.$  Find $b.$

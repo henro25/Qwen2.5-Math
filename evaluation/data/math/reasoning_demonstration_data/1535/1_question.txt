@@ -1,0 +1,2 @@
+Problem: Let $x,$ $y,$ $z,$ $v,$ $w$ be positive real numbers such that $x^2 + y^2 + z^2 + v^2 + w^2 = 2016.$  Let $M$ be the maximum value of
+\[xz + 2yz + 3zv + 7zw,\]and let $x_M,$ $y_M$, $z_M,$ $v_M,$ $w_M$ be the values of $x,$ $y,$ $z,$ $v,$ $w,$ respectively, that produce the maximum value of $M.$  Find $M + x_M + y_M + z_M + v_M + w_M.$

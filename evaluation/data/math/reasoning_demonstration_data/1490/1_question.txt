@@ -1,0 +1,1 @@
+Problem: What is the greatest possible value of $x$ for the equation $$\left(\frac{4x-16}{3x-4}\right)^2+\left(\frac{4x-16}{3x-4}\right)=12?$$

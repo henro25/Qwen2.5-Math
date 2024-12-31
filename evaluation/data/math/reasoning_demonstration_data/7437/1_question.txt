@@ -1,0 +1,2 @@
+Problem: Let $a,$ $b,$ $c$ be positive real numbers.  Find the smallest possible value of
+\[6a^3 + 9b^3 + 32c^3 + \frac{1}{4abc}.\]

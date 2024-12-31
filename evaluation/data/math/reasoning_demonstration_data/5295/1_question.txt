@@ -1,0 +1,2 @@
+Problem: The projection of $\begin{pmatrix} -8 \\ b \end{pmatrix}$ onto $\begin{pmatrix} 2 \\ 1 \end{pmatrix}$ is
+\[-\frac{13}{5} \begin{pmatrix} 2 \\ 1 \end{pmatrix}.\]Find $b.$

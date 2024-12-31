@@ -1,0 +1,2 @@
+Problem: If $x$ is real, compute the maximum integer value of
+\[\frac{3x^2 + 9x + 17}{3x^2 + 9x + 7}.\]

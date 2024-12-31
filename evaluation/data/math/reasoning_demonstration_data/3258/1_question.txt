@@ -1,0 +1,2 @@
+Problem: The number
+\[\text{cis } 75^\circ + \text{cis } 83^\circ + \text{cis } 91^\circ + \dots + \text{cis } 147^\circ\]is expressed in the form $r \, \text{cis } \theta$, where $r > 0$ and $0^\circ \le \theta < 360^\circ$.  Find $\theta$ in degrees.

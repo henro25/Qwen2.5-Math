@@ -1,0 +1,1 @@
+Problem: What is the smallest positive integer that satisfies the congruence $4x \equiv 13 \pmod{27}$?

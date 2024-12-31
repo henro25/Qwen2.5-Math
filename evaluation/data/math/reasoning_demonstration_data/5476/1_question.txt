@@ -1,0 +1,1 @@
+Problem: What prime is 4 greater than a perfect square and 7 less than the next perfect square?

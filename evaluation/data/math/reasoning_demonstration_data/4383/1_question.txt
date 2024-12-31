@@ -1,0 +1,1 @@
+Problem: Daniel has exactly $20$ pieces of candy. He has to divide them equally among his $3$ sisters. What is the least number of pieces he should take away so that he could distribute the candy equally?

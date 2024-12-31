@@ -1,0 +1,2 @@
+Problem: Two of the altitudes of the scalene triangle $ABC$ have length $4$ and $12$. If the length of the third altitude is also an integer, what is the biggest it can be?
+$\textbf{(A)}\ 4\qquad \textbf{(B)}\ 5\qquad \textbf{(C)}\ 6\qquad \textbf{(D)}\ 7\qquad \textbf{(E)}\ \text{none of these}$

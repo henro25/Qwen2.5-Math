@@ -1,0 +1,1 @@
+Problem: Let $p(x)$ be a monic polynomial of degree 6 such that $p(1) = 1,$ $p(2) = 2,$ $p(3) = 3,$ $p(4) = 4,$ $p(5) = 5,$ and $p(6) = 6.$  Find $p(7).$

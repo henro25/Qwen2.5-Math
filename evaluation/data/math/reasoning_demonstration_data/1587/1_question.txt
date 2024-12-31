@@ -1,0 +1,1 @@
+Problem: If Ella rolls a standard six-sided die until she rolls the same number on consecutive rolls, what is the probability that her 10th roll is her last roll? Express your answer as a decimal to the nearest thousandth.

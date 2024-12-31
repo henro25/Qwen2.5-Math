@@ -1,0 +1,1 @@
+Problem: Given that $\alpha$ and $\beta$ are the roots of $x^2 - 2x - 1 = 0,$ find $5 \alpha^4 + 12 \beta^3.$

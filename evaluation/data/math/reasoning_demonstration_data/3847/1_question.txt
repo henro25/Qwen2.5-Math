@@ -1,0 +1,1 @@
+Problem: When Scott completes the square on the quadratic $x^2 + 8x - 1 = 0$, he obtains an equation of the form $(x + a)^2 = b$.  What is $b$?

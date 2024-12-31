@@ -1,0 +1,1 @@
+Problem: Find the cross product of $\begin{pmatrix} 2 \\ 0 \\ 3 \end{pmatrix}$ and $\begin{pmatrix} 5 \\ -1 \\ 7 \end{pmatrix}.$

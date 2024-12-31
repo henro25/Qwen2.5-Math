@@ -1,0 +1,1 @@
+Problem: What is the sum of the tens digit and the units digit in the decimal representation of $9^{2004}$?

@@ -1,0 +1,1 @@
+Problem: Lauren solved the equation $|x-5| = 2$. Meanwhile Jane solved an equation of the form $x^2+ bx + c = 0$ that had the same two solutions for $x$ as Lauren's equation. What is the ordered pair $(b, c)$?

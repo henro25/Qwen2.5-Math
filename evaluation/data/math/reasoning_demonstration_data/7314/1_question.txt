@@ -1,0 +1,1 @@
+Problem: Find the quadratic polynomial $p(x)$ such that $p(-2) = 13,$ $p(1) = -2,$ and $p(3) = 8.$

@@ -1,0 +1,1 @@
+Problem: Given $ab+bc+cd+da = 30$ and $b+d = 5$, find $a+c$.

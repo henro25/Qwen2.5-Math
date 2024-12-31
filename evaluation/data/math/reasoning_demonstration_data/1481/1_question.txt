@@ -1,0 +1,1 @@
+Problem: What is the sum of the squares of the coefficients of $4(x^4 + 3x^2 + 1)$?

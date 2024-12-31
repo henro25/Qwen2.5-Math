@@ -1,0 +1,2 @@
+Problem: Find the quadratic function $f(x) = x^2 + ax + b$ such that
+\[\frac{f(f(x) + x)}{f(x)} = x^2 + 1776x + 2010.\]

@@ -1,0 +1,5 @@
+Problem: Suppose the function $f$ has all real numbers in its domain and range and is invertible. Some values of $f$ are given by the following table: $$\begin{array}{c || c | c | c | c | c}
+x & 1 & 2 & 3 & 4 & 5 \\
+\hline
+f(x) & 2 & 3 & 5 & 7 & 8
+\end{array}$$What is the value of $f(f(3)) + f(f^{-1}(4)) + f^{-1}(f^{-1}(5))?$ If there is not enough information to answer this question, enter "NEI".

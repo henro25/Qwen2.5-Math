@@ -1,0 +1,2 @@
+Problem: Determine the number of solutions to
+\[2\sin^3 x - 5 \sin^2 x + 2 \sin x = 0\]in the range $0 \le x \le 2 \pi.$

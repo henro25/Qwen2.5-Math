@@ -1,0 +1,1 @@
+Problem: Find the constant $t$ such that \[(5x^2 - 6x + 7)(4x^2 +tx + 10) = 20x^4 -54x^3 +114x^2 -102x +70.\]

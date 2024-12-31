@@ -1,0 +1,21 @@
+Problem: A can is in the shape of a right circular cylinder. The circumference of the base of the can is 12 inches, and the height of the can is 5 inches. A spiral strip is painted on the can in such a way that it winds around the can exactly once as it reaches from the bottom of the can to the top. It reaches the top of the can directly above the spot where it left the bottom. What is the length in inches of the stripe? [asy]
+
+size(120);
+draw(shift(1.38,0)*yscale(0.3)*Circle((0,0), .38));
+
+draw((1,0)--(1,-2));
+draw((1.76,0)--(1.76,-2));
+
+draw((1,-2)..(1.38,-2.114)..(1.76,-2));
+path p =(1.38,-2.114)..(1.74,-1.5)..(1,-0.5)..(1.38,-.114);
+pair a=(1.38,-2.114), b=(1.76,-1.5);
+path q =subpath(p, 1, 2);
+path r=subpath(p,0,1);
+path s=subpath(p,2,3);
+draw(r);
+draw(s);
+draw(q, dashed);
+
+label("$5$",midpoint((1.76,0)--(1.76,-2)),E);
+
+[/asy]

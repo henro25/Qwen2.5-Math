@@ -1,0 +1,18 @@
+Problem: Seven points are evenly spaced out on a circle and connected as shown below to form a 7-pointed star.  What is the sum of the angle measurements of the seven tips of the star, in degrees?  One such angle is marked as $\alpha$ below.
+
+[asy]
+dotfactor=4;
+draw(Circle((0,0),1));
+real x = 2*pi/7;
+pair A,B,C,D,E,F,G;
+A=(cos(4*x), sin(4*x));
+B=(cos(3*x), sin(3*x));
+C=(cos(2*x), sin(2*x));
+D=(cos(x), sin(x));
+E=(cos(5*x), sin(5*x));
+F=(cos(6*x), sin(6*x));
+G=(cos(7*x), sin(7*x));
+dot(A); dot(B); dot(C); dot(D); dot(E); dot(F); dot(G); dot((0,0));
+label("$A$",A,W); label("$B$",B,W); label("$C$",C,N); label("$D$",D,N); label("$E$",G,ENE); label("$F$",F,SE); label("$G$",E,S);
+draw(A--C--G--E--B--D--F--cycle); label("$\alpha$",C, - 1.5*dir(C));
+[/asy]

@@ -1,0 +1,1 @@
+Problem: The measures of the interior angles of a convex hexagon form an increasing arithmetic sequence. How many such sequences are possible if the hexagon is not equiangular and all of the angle degree measures are positive integers less than $150$ degrees?

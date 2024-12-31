@@ -1,0 +1,1 @@
+Problem: The mean of one set of five numbers is 13, and the mean of a separate set of six numbers is 24. What is the mean of the set of all eleven numbers?

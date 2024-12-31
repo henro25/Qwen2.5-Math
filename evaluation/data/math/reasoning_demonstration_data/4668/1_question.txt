@@ -1,0 +1,1 @@
+Problem: Let \[\begin{aligned} a &= \sqrt{2}+\sqrt{3}+\sqrt{6}, \\ b &= -\sqrt{2}+\sqrt{3}+\sqrt{6}, \\ c&= \sqrt{2}-\sqrt{3}+\sqrt{6}, \\ d&=-\sqrt{2}-\sqrt{3}+\sqrt{6}. \end{aligned}\]Evaluate $\left(\frac1a + \frac1b + \frac1c + \frac1d\right)^2.$

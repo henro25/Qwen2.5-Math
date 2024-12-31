@@ -1,0 +1,1 @@
+Problem: What is the $100$th digit after the decimal point when $\frac{3}{26}$ is expressed as a decimal?

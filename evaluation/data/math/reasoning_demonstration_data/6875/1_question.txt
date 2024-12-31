@@ -1,0 +1,1 @@
+Problem: Two 6-sided dice, one red and one green, are rolled.  What is the probability that the red die shows an odd number and the green die shows a number that is a perfect square?

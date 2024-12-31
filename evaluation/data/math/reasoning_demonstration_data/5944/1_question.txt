@@ -1,0 +1,2 @@
+Problem: Let $S$ be a subset of $\{1,2,3,...,50\}$ such that no pair of distinct elements in $S$ has a sum divisible by $7$. What is the maximum number of elements in $S$?
+$\text{(A) } 6\quad \text{(B) } 7\quad \text{(C) } 14\quad \text{(D) } 22\quad \text{(E) } 23$

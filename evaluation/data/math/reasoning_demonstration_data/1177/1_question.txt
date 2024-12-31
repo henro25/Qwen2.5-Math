@@ -1,0 +1,1 @@
+Problem: The equations $x^3 + Ax + 10 = 0$ and $x^3 + Bx^2 + 50 = 0$ have two roots in common.  Then the product of these common roots can be expressed in the form $a \sqrt[b]{c},$ where $a,$ $b,$ and $c$ are positive integers, when simplified.  Find $a + b + c.$

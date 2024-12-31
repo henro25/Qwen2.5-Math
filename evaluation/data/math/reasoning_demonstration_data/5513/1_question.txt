@@ -1,0 +1,1 @@
+Problem: Let  \[A=111111\]and  \[B=142857\]Find a positive integer $N$ with six or fewer digits such that $N$ is the multiplicative inverse of $AB$ modulo 1,000,000.

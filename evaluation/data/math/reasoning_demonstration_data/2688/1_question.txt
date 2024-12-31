@@ -1,0 +1,1 @@
+Problem: Given that a rectangle with length $3x$ inches and width $x + 5$ inches has the property that its area and perimeter have equal values, what is $x$?

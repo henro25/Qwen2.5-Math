@@ -1,0 +1,2 @@
+Problem: The function $f(x)$ satisfies
+\[f(x - y) = f(x) f(y)\]for all real numbers $x$ and $y,$ and $f(x) \neq 0$ for all real numbers $x.$  Find $f(3).$

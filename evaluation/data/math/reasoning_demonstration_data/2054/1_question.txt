@@ -1,0 +1,1 @@
+Problem: A palindrome is an integer that reads the same forward and backward, such as 3663. What percent of the palindromes between 100 and 500 contain at least one 5?

@@ -1,0 +1,1 @@
+Problem: Mr. Wong has 10 grandchildren. Assuming that the gender of each child is determined independently and with equal likelihood of male and female, what is the probability that Mr. Wong has more grandsons than granddaughters or more granddaughters than grandsons?

@@ -1,0 +1,1 @@
+Problem: If the price of a stamp is 33 cents, what is the maximum number  of stamps that could be purchased with $\$32$?

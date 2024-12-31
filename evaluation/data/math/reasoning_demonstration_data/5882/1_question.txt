@@ -1,0 +1,1 @@
+Problem: Multiply $(x^4 +18 x^2 + 324) (x^2-18)$.

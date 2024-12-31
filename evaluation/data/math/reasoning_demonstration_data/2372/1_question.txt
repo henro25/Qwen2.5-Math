@@ -1,0 +1,1 @@
+Problem: It takes Alice $25$ minutes to clean her room. It takes Bob $\frac{2}{5}$ of that amount of time to clean his room. How many minutes does it take Bob to clean his room?

@@ -1,0 +1,1 @@
+Problem: Find $\begin{pmatrix} -5 \\ 1 \\ -4 \end{pmatrix} + \begin{pmatrix} 0 \\ 8 \\ -4 \end{pmatrix}.$

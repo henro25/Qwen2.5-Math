@@ -1,0 +1,2 @@
+Problem: If
+\[(1 + \tan 1^\circ)(1 + \tan 2^\circ)(1 + \tan 3^\circ) \dotsm (1 + \tan 45^\circ) = 2^n,\]then find $n.$

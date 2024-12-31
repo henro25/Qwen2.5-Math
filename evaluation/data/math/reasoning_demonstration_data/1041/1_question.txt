@@ -1,0 +1,1 @@
+Problem: Four of the six numbers 1867, 1993, 2019, 2025, 2109, and 2121 have a mean (average) of 2008. What is the mean (average) of the other two numbers?

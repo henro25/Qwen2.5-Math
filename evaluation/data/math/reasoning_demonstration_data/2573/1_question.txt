@@ -1,0 +1,1 @@
+Problem: For how many non-negative real values of $x$ is $\sqrt{144-\sqrt[3]{x}}$ an integer?

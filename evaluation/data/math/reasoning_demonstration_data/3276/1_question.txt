@@ -1,0 +1,1 @@
+Problem: If $A,B$ and $C$ are non-zero distinct digits in base $6$ such that $\overline{ABC}_6 + \overline{BCA}_6+ \overline{CAB}_6 = \overline{AAA0}_6$, find $B+C$ in base $6$.

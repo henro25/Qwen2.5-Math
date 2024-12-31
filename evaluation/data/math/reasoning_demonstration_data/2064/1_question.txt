@@ -1,0 +1,8 @@
+Problem: The transformation $T,$ taking vectors to vectors, has the following properties:
+
+(i) $T(a \mathbf{v} + b \mathbf{w}) = a T(\mathbf{v}) + b T(\mathbf{w})$ for all vectors $\mathbf{v}$ and $\mathbf{w},$ and for all scalars $a$ and $b.$
+(ii) $T(\mathbf{v} \times \mathbf{w}) = T(\mathbf{v}) \times T(\mathbf{w})$ for all vectors $\mathbf{v}$ and $\mathbf{w}.$
+(iii) $T \begin{pmatrix} 6 \\ 6 \\ 3 \end{pmatrix} = \begin{pmatrix} 4 \\ -1 \\ 8 \end{pmatrix}.$
+(iv) $T \begin{pmatrix} -6 \\ 3 \\ 6 \end{pmatrix} = \begin{pmatrix} 4 \\ 8 \\ -1 \end{pmatrix}.$
+
+Find $T \begin{pmatrix} 3 \\ 9 \\ 12 \end{pmatrix}.$

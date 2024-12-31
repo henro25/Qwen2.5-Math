@@ -1,0 +1,3 @@
+Problem: Let $f(x) = |g(x^3)|$. If $g$ is an odd function, is $f$ odd, even, or neither?
+
+Enter "odd", "even", or "neither".

@@ -1,0 +1,1 @@
+Problem: Let $\mathbf{P}$ be the matrix for projecting onto the vector $\begin{pmatrix} 4 \\ -7 \end{pmatrix}.$  Find $\det \mathbf{P}.$

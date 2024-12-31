@@ -1,0 +1,1 @@
+Problem: A super ball is dropped from 100 feet and rebounds half the distance it falls each time it bounces. How many feet will the ball have traveled when it hits the ground the fourth time?

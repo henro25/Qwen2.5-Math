@@ -1,0 +1,1 @@
+Problem: Each of the symbols $\star$ and $*$ represents an operation in the set $\{+,-,\times,\div\}$, and $\frac{12\star 2}{9*3}=2$.  What is the value of $\frac{7\star 3}{12*6}$?  Express your answer as a common fraction.

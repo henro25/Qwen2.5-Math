@@ -1,0 +1,1 @@
+Problem: Completely factor the following expression: \[(6a^3+92a^2-7)-(-7a^3+a^2-7)\]

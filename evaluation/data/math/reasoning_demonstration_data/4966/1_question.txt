@@ -1,0 +1,28 @@
+Problem: In triangle $ABC,$ $E$ lies on $\overline{AC}$ such that $AE:EC = 2:1,$ and $F$ lies on $\overline{AB}$ such that $AF:FB = 1:4.$  Let $P$ be the intersection of $\overline{BE}$ and $\overline{CF}.$
+
+[asy]
+unitsize(0.8 cm);
+
+pair A, B, C, D, E, F, P;
+
+A = (1,4);
+B = (0,0);
+C = (6,0);
+E = interp(A,C,2/3);
+F = interp(A,B,1/5);
+P = extension(B,E,C,F);
+
+draw(A--B--C--cycle);
+draw(B--E);
+draw(C--F);
+
+label("$A$", A, N);
+label("$B$", B, SW);
+label("$C$", C, SE);
+label("$E$", E, NE);
+label("$F$", F, W);
+label("$P$", P, S);
+[/asy]
+
+Then
+\[\overrightarrow{P} = x \overrightarrow{A} + y \overrightarrow{B} + z \overrightarrow{C},\]where $x,$ $y,$ and $z$ are constants such that $x + y + z = 1.$  Enter the ordered triple $(x,y,z).$

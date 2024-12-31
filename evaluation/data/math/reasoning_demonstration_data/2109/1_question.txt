@@ -1,0 +1,1 @@
+Problem: For how many $n=2,3,4,\ldots,99,100$ is the base-$n$ number $235236_n$ a multiple of $7$?

@@ -1,0 +1,5 @@
+Problem: What is the value of $x$ if \begin{align*}x &= y+5,\\
+y &= z+10,\\
+z &= w+20,\\
+\text{and }\qquad w &= 80?
+\end{align*}

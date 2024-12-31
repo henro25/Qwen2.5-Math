@@ -1,0 +1,3 @@
+Problem: Let $m=\underbrace{22222222}_{\text{8 digits}}$ and $n=\underbrace{444444444}_{\text{9 digits}}$.
+
+What is $\gcd(m,n)$?

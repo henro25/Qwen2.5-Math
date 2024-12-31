@@ -1,0 +1,19 @@
+Problem: Below is a portion of the graph of a function, $y=p(x)$:
+
+[asy]
+import graph; size(6cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-3.5,xmax=3.5,ymin=-4.25,ymax=6.25;
+
+pen cqcqcq=rgb(0.75,0.75,0.75);
+/*grid*/ pen gs=linewidth(0.7)+cqcqcq+linetype("2 2"); real gx=1,gy=1;
+for(real i=ceil(xmin/gx)*gx;i<=floor(xmax/gx)*gx;i+=gx) draw((i,ymin)--(i,ymax),gs); for(real i=ceil(ymin/gy)*gy;i<=floor(ymax/gy)*gy;i+=gy) draw((xmin,i)--(xmax,i),gs);
+
+Label laxis; laxis.p=fontsize(10);
+
+xaxis("",xmin,xmax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); yaxis("",ymin,ymax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true);
+real f1(real x){return sgn(2x-2)*abs(2x-2)^(1/3)+2*sgn(2x-2)*abs(2x-2)^(1/5)+abs(2x-2)^(1/7);}
+draw(graph(f1,xmin,xmax),linewidth(1));
+clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle);
+label("$y=p(x)$",(xmax+0.25,f1(xmax)),E);
+[/asy]
+
+The value of $p(1.5)$ is an integer. What is it?

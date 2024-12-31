@@ -1,0 +1,3 @@
+Problem: In triangle $ABC,$ the side lengths $a,$ $b,$ and $c$ satisfy $a + 2b + 2c = a^2$ and $a + 2b - 2c = -3.$  Find the largest angle of the triangle, in degrees.
+
+Note: $a$ is the side length opposite $\angle A,$ etc.

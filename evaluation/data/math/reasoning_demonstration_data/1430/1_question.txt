@@ -1,0 +1,1 @@
+Problem: An integer greater than 9 and less than 100 is randomly chosen. What is the probability that its digits are different?

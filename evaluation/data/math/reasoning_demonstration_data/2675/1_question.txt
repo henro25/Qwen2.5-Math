@@ -1,0 +1,1 @@
+Problem: How many positive factors does 30 have?

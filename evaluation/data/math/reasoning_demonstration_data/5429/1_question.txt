@@ -1,0 +1,1 @@
+Problem: What is the smallest positive integer $a$ such that $a^{-1}$ is undefined $\pmod{55}$ and $a^{-1}$ is also undefined $\pmod{66}$?

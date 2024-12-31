@@ -1,0 +1,1 @@
+Problem: If $A$ is an angle such that $\tan A + \sec A = 2,$ enter all possible values of $\cos A,$ separated by commas.

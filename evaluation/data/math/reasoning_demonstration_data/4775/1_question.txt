@@ -1,0 +1,7 @@
+Problem: Evaluate the expression
+\[
+  \frac{121 \left( \frac{1}{13} - \frac{1}{17} \right) 
+          + 169 \left( \frac{1}{17} - \frac{1}{11} \right) + 289 \left( \frac{1}{11} - \frac{1}{13} \right)}{
+        11 \left( \frac{1}{13} - \frac{1}{17} \right) 
+          + 13 \left( \frac{1}{17} - \frac{1}{11} \right) + 17 \left( \frac{1}{11} - \frac{1}{13} \right)} \, .
+\]

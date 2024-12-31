@@ -1,0 +1,1 @@
+Problem: At what point does the line $3y-4x=12$ intersect the $x$-axis? Express your answer as an ordered pair.

@@ -1,0 +1,5 @@
+Problem: Every bag of Dummies (a chocolate candy) contains the same number of pieces.
+
+The Dummies in one bag can't be divided equally among $9$ kids, because after each kid gets the same (whole) number of pieces, $7$ pieces are left over.
+
+If the Dummies in three bags are divided equally among $9$ kids, what is the smallest number of pieces that could possibly be left over?

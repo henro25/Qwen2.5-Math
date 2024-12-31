@@ -1,0 +1,1 @@
+Problem: Keiko tosses one penny and Ephraim tosses two pennies. What is the probability that Ephraim gets the same number of heads that Keiko gets?  Express your answer as a common fraction.

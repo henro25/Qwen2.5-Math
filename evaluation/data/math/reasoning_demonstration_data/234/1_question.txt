@@ -1,0 +1,1 @@
+Problem: Suppose that $3\triangle_4=\triangle2_{11}$, where $\triangle$ represents a digit 0-9. What is the value of the missing digit?

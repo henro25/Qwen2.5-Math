@@ -1,0 +1,2 @@
+Problem: An isosceles trapezoid is circumscribed around a circle. The longer base of the trapezoid is $16$, and one of the base angles is $\arcsin(.8)$. Find the area of the trapezoid.
+$\textbf{(A)}\ 72\qquad \textbf{(B)}\ 75\qquad \textbf{(C)}\ 80\qquad \textbf{(D)}\ 90\qquad \textbf{(E)}\ \text{not uniquely determined}$

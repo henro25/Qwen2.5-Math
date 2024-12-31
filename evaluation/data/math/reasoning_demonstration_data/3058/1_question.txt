@@ -1,0 +1,1 @@
+Problem: Find $q(x)$ if the graph of $\frac{x^3-2x^2-5x+3}{q(x)}$ has vertical asymptotes at $2$ and $-2$, no horizontal asymptote, and $q(3) = 15$.

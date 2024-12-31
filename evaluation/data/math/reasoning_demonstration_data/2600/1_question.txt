@@ -1,0 +1,1 @@
+Problem: Find the center of the hyperbola $4x^2 - 24x - 25y^2 + 250y - 489 = 0.$

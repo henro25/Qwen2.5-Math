@@ -1,0 +1,4 @@
+Problem: Let $A := \mathbb{Q} \setminus \{0,1\}$ denote the set of all rationals other than 0 and 1. A function $f : A \rightarrow \mathbb{R}$ has the property that for all $x \in A$,
+\[
+f\left( x\right) + f\left( 1 - \frac{1}{x}\right) = \log\lvert x\rvert.
+\]Compute the value of $f(2007)$.  Enter your answer in the form "$\log(a)$", where $a$ is some number.

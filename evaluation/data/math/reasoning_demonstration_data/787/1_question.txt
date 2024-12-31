@@ -1,0 +1,1 @@
+Problem: Five toppings for a pizza are available at Polina's Pizza. How many combinations of two different toppings are possible?

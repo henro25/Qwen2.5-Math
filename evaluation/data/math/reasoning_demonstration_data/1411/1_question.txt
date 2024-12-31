@@ -1,0 +1,1 @@
+Problem: Given that $f(x) = x^{-1} + \frac{x^{-1}}{1+x^{-1}}$, what is $f(f(-2))$? Express your answer as a common fraction.

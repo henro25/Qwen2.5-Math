@@ -1,0 +1,1 @@
+Problem: What is the diameter in centimeters of a circle whose area is $100\pi \text{cm}^2$?

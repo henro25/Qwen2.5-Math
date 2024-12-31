@@ -1,0 +1,4 @@
+Problem: Let $S$ be the set of positive real numbers.  Let $f : S \to \mathbb{R}$ be a function such that
+\[f(x) f(y) = f(xy) + 2005 \left( \frac{1}{x} + \frac{1}{y} + 2004 \right)\]for all $x,$ $y > 0.$
+
+Let $n$ be the number of possible values of $f(2),$ and let $s$ be the sum of all possible values of $f(2).$  Find $n \times s.$

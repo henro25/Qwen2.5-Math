@@ -1,0 +1,1 @@
+Problem: In convex quadrilateral $ABCD$, $AB=BC=13$, $CD=DA=24$, and $\angle D=60^\circ$.  Points $X$ and $Y$ are the midpoints of $\overline{BC}$ and $\overline{DA}$ respectively.  Compute $XY^2$ (the square of the length of $XY$).

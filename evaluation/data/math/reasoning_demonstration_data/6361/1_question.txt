@@ -1,0 +1,1 @@
+Problem: Suppose the point $(1,2)$ is on the graph of $y=\frac{f(x)}2$. Then there is one point which must be on the graph of $y=\frac{f^{-1}(x)}{2}$. What is the sum of that point's coordinates?

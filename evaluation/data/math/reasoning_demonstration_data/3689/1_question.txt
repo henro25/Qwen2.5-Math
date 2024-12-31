@@ -1,0 +1,1 @@
+Problem: Two standard 6-sided dice are tossed. What is the probability that the sum of the numbers shown on the dice is a prime number? Express your answer as a common fraction.

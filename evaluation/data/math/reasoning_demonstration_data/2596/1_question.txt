@@ -1,0 +1,1 @@
+Problem: Find the sum: $(-39) + (-37) + \cdots + (-1)$.

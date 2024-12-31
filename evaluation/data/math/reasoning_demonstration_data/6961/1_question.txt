@@ -1,0 +1,1 @@
+Problem: Joanie takes a $\$6,\!000$ loan to pay for her car.  The annual interest rate on the loan is $12\%$.  She makes no payments for 4 years, but has to pay back all the money she owes at the end of 4 years. How much more money will she owe if the interest compounds quarterly than if the interest compounds annually?  Express your answer as a dollar value to the nearest cent.

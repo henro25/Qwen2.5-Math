@@ -1,0 +1,1 @@
+Problem: The average of the numbers $1, 2, 3,\dots, 98, 99,$ and $x$ is $100x$. What is $x$?

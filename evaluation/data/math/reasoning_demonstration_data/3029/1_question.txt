@@ -1,0 +1,1 @@
+Problem: What integer is closest to the value of $\sqrt[3]{6^3+8^3}$?

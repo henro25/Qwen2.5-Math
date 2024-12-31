@@ -1,0 +1,6 @@
+Problem: Let \[f(x) =
+\begin{cases}
+2x^2 - 3&\text{if } x\le 2, \\
+ax + 4 &\text{if } x>2.
+\end{cases}
+\]Find $a$ if the graph of $y=f(x)$ is continuous (which means the graph can be drawn without lifting your pencil from the paper).

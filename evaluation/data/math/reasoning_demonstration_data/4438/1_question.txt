@@ -1,0 +1,1 @@
+Problem: Find all $x$ such that $\lfloor \lfloor 2x \rfloor - 1/2 \rfloor = \lfloor x + 2 \rfloor.$

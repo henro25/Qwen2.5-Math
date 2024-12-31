@@ -1,0 +1,1 @@
+Problem: For what positive value of $t$ is $|6+ti| = 10$?

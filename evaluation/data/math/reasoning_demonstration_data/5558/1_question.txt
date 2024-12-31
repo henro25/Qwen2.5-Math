@@ -1,0 +1,1 @@
+Problem: In the complex plane, $z,$ $z^2,$ $z^3$ form, in some order, three of the vertices of a non-degenerate square.  Enter all possible areas of the square, separated by commas.

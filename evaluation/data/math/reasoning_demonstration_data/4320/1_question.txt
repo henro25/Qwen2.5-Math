@@ -1,0 +1,1 @@
+Problem: Find the sum of the $2007$ roots of $(x-1)^{2007}+2(x-2)^{2006}+3(x-3)^{2005}+\cdots+2006(x-2006)^2+2007(x-2007)$.

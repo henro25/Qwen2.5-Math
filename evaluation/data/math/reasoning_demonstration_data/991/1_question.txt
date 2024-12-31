@@ -1,0 +1,8 @@
+Problem: In the diagram, $\triangle PQR$ is right-angled at $P$ and has $PQ=2$ and $PR=2\sqrt{3}$.  Altitude $PL$ intersects median $RM$ at $F$.  What is the length of $PF$? [asy]
+draw((0,0)--(10,0)--(0,10*sqrt(3))--cycle);
+draw((0,0)--(7.5,4.33)); draw((0,10*sqrt(3))--(5,0));
+draw((6.68,3.86)--(7.17,3.01)--(7.99,3.49));
+label("$P$",(0,0),SW); label("$M$",(5,0),S); label("$Q$",(10,0),SE);
+
+label("$L$",(7.5,4.33),NE); label("$R$",(0,10*sqrt(3)),N); label("$F$",(4.29,2.47),NW);
+[/asy]

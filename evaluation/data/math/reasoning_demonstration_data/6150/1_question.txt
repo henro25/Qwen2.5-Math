@@ -1,0 +1,2 @@
+Problem: Compute
+\[\begin{vmatrix} 1 & \cos (a - b) & \cos a \\ \cos(a - b) & 1 & \cos b \\ \cos a & \cos b & 1 \end{vmatrix}.\]

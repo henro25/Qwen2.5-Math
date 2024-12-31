@@ -1,0 +1,6 @@
+Problem: The points $(x, y)$ represented in this table lie on a straight line. The point $(28, t)$ lies on the same line. What is the value of $t?$ \begin{tabular}{c|c}
+$x$ & $y$ \\ \hline
+1 & 7 \\
+3 & 13 \\
+5 & 19 \\
+\end{tabular}

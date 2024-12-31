@@ -1,0 +1,1 @@
+Problem: Let $a,$ $b,$ $c$ be a three-term arithmetic series where all the terms are positive, such that $abc = 64.$  Find the smallest possible value of $b.$

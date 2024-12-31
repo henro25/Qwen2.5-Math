@@ -1,0 +1,38 @@
+Problem: The graph below shows a portion of the curve defined by the quartic polynomial $P(x)=x^4+ax^3+bx^2+cx+d$.
+
+[asy]
+unitsize(0.8 cm);
+
+int i;
+
+real func (real x) {
+  return(0.5*(x^4/4 - 2*x^3/3 - 3/2*x^2) + 2.7);
+}
+
+draw(graph(func,-4.5,4.5));
+draw((-4.5,0)--(4.5,0));
+draw((0,-5.5)--(0,5.5));
+
+for (i = -4; i <= 4; ++i) {
+  draw((i,-0.1)--(i,0.1));
+}
+
+for (i = -5; i <= 5; ++i) {
+  draw((-0.1,i)--(0.1,i));
+}
+
+label("$-3$", (-3,-0.1), S);
+label("$3$", (3,-0.1), S);
+label("$10$", (-0.1,5), W);
+label("$-10$", (-0.1,-5), W);
+
+limits((-4.5,-5.5),(4.5,5.5),Crop);
+[/asy]
+
+Which of the following is the smallest?
+
+A. $P(-1)$
+B. The product of the zeros of $P$
+C. The product of the non-real zeros of $P$
+D. The sum of the coefficients of $P$
+E. The sum of the real zeros of $P$

@@ -1,0 +1,2 @@
+Problem: Let $\mathbf{a},$ $\mathbf{b},$ $\mathbf{c}$ be vectors such that $\|\mathbf{a}\| = 1,$ $\|\mathbf{b}\| = 5,$ $\|\mathbf{c}\| = 3,$ and
+\[\mathbf{a} \times (\mathbf{a} \times \mathbf{b}) = \mathbf{c}.\]If $\theta$ is the angle between $\mathbf{a}$ and $\mathbf{b},$ then find $\sin \theta.$

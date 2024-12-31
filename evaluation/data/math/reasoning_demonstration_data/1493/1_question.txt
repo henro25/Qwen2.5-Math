@@ -1,0 +1,1 @@
+Problem: If $7=x^2+\frac{1}{x^2}$, then what is the greatest possible value of $x+\frac{1}{x}$?

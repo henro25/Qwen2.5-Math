@@ -1,0 +1,2 @@
+Problem: A triangle is inscribed in a circle. The vertices of the triangle divide the circle into three arcs of lengths 3, 4, and 5. What is the area of the triangle?
+$\mathrm{(A) \ 6 } \qquad \mathrm{(B) \frac{18}{\pi^2} } \qquad \mathrm{(C) \frac{9}{\pi^2}(\sqrt{3}-1) } \qquad \mathrm{(D) \frac{9}{\pi^2}(\sqrt{3}-1) } \qquad \mathrm{(E) \frac{9}{\pi^2}(\sqrt{3}+3) }$

@@ -1,0 +1,1 @@
+Problem: Alex bakes a total of $24$ pies, and each pie is apple, blueberry, or cherry. The ratio of apple to blueberry to cherry pies is $1:4:3$. How many cherry pies did Alex bake?

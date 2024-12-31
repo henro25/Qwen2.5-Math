@@ -1,0 +1,11 @@
+Problem: Altitudes $\overline{AD}$ and $\overline{BE}$ of $\triangle ABC$ intersect at $H$.  If $\angle BAC = 46^\circ$ and $\angle ABC = 71^\circ$, then what is $\angle AHB$?
+
+[asy]
+size(150); defaultpen(linewidth(0.8));
+pair B = (0,0), C = (3,0), A = (1.8,2), P = foot(A,B,C), Q = foot(B,A,C),H = intersectionpoint(B--Q,A--P);
+draw(A--B--C--cycle);
+draw(A--P^^B--Q);
+label("$A$",A,N); label("$B$",B,W); label("$C$",C,E); label("$D$",P,S); label("$E$",Q,E); label("$H$",H,NW);
+draw(rightanglemark(C,P,H,3.5));
+draw(rightanglemark(H,Q,C,3.5));
+[/asy]

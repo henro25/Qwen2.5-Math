@@ -1,0 +1,2 @@
+Problem: Two of the roots of
+\[ax^3 + (a + 2b) x^2 + (b - 3a) x + (8 - a) = 0\]are $-2$ and 3.  Find the third root.

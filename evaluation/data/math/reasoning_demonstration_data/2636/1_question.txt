@@ -1,0 +1,3 @@
+Problem: Two different prime numbers between $4$ and $18$ are chosen. When their sum is subtracted from their product, which of the following numbers could be obtained? $$
+\text A. \ \ 21 \qquad \text B. \ \ 60 \qquad \text C. \ \ 119 \qquad \text D. \ \ 180 \qquad \text E. \ \ 231
+$$

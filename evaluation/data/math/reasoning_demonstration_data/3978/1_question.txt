@@ -1,0 +1,1 @@
+Problem: If $x$ and $y$ are positive real numbers such that $5x^2 + 10xy = x^3 + 2x^2 y,$ what is the value of $x$?

@@ -1,0 +1,1 @@
+Problem: The value of $\sqrt{73}$ is between two positive, consecutive integers. What is the product of these two integers?

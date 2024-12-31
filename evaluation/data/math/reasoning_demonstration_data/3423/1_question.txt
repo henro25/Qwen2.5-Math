@@ -1,0 +1,1 @@
+Problem: How many positive integers, including $1,$ are divisors of both $40$ and $72?$

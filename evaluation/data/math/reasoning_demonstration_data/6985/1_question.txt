@@ -1,0 +1,1 @@
+Problem: Find the point where the line passing through $(3,4,1)$ and $(5,1,6)$ intersects the $xy$-plane.

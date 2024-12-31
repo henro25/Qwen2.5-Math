@@ -1,0 +1,1 @@
+Problem: One of the following four-digit numbers is not divisible by 4: 3544, 3554, 3564, 3572, 3576. What is the product of the units digit and the tens digit of that number?

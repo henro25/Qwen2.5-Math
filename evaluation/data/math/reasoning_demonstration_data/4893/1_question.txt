@@ -1,0 +1,1 @@
+Problem: What is the maximum value of the expression $-5r^2 + 40r - 12$ for real $r$?

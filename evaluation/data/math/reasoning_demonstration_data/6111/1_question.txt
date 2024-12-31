@@ -1,0 +1,1 @@
+Problem: My co-worker Larry only likes numbers that are divisible by 4, such as 20, or 4,004.  How many different ones digits are possible in numbers that Larry likes?

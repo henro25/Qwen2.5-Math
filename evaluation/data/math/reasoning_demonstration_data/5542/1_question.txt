@@ -1,0 +1,6 @@
+Problem: Let \[f(x) = \left\{
+\begin{array}{cl}
+-x + 3 & \text{if } x \le 0, \\
+2x - 5 & \text{if } x > 0.
+\end{array}
+\right.\]How many solutions does the equation $f(f(x)) = 4$ have?

@@ -1,0 +1,12 @@
+Problem: Points $A$, $B$, $C$, and $D$ are located on $\overline{AB}$ such that $AB = 3AD = 6BC$. If a point is selected at random on $\overline{AB}$, what is the probability that it is between $C$ and $D$? Express your answer as a common fraction.
+
+[asy]
+
+draw((0,0)--(12,.0000000001));
+dot((0,0)); dot((4,0)); dot((10,0)); dot((12,0));
+label("$A$", (0,0), S);
+label("$D$", (4,0), S);
+label("$C$", (10,0), S);
+label("$B$", (12,0), S);
+
+[/asy]

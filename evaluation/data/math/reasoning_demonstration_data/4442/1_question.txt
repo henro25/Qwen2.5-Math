@@ -1,0 +1,14 @@
+Problem: The vertices of a $3 - 4 - 5$ right triangle are the centers of three mutually externally tangent circles, as shown.   What is the sum of the areas of these circles?
+
+[asy]unitsize(1cm);
+draw(Circle((1.8,2.4),1),linewidth(0.7));
+draw(Circle((0,0),2),linewidth(0.7));
+draw(Circle((5,0),3),linewidth(0.7));
+draw((0,0)--(5,0)--(1.8,2.4)--cycle,linewidth(0.7));
+label("$A$",(1.8,2.4),N);
+label("$B$",(0,0),SW);
+label("$C$",(5,0),E);
+label("5",(2.5,0),S);
+label("4",(3.4,1.2),NE);
+label("3",(0.9,1.2),NW);
+[/asy]

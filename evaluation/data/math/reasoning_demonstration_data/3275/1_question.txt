@@ -1,0 +1,1 @@
+Problem: Let $f(x) = Ax - 2B^2$ and $g(x) = Bx$, where $B \neq 0$. If $f(g(1)) = 0$, what is $A$ in terms of $B$?

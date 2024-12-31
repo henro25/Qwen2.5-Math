@@ -1,0 +1,1 @@
+Problem: Mr. Stewart's math class has 16 boys, and 22 of his students bring their calculators to class.  If 13 of the students who brought calculators are girls, then how many boys didn't bring their calculators to class?

@@ -1,0 +1,10 @@
+Problem: The figure shows rectangle $ABCD$ with segment $PQ$ dividing the rectangle into two congruent squares. How many right triangles can be drawn using three of the points $\{A,P,B,C,Q,D\}$ as vertices? [asy]
+draw((0,0)--(8,0)--(8,4)--(0,4)--cycle);
+draw((4,0)--(4,4));
+label("D",(0,0),S);
+label("Q",(4,0),S);
+label("C",(8,0),S);
+label("B",(8,4),N);
+label("P",(4,4),N);
+label("A",(0,4),N);
+[/asy]

@@ -1,0 +1,12 @@
+Problem: In $\triangle PQR$, point $T$ is on side $QR$ such that $QT=6$ and $TR=10$. What is the ratio of the area of $\triangle PQT$ to the area of $\triangle PTR$? [asy]
+size(6cm);
+pair q = (0, 0); pair t = (6, 0); pair r = (16, 0);
+pair p = (4, 8);
+draw(p--q--r--cycle--t);
+label("$P$", p, N);
+label("$Q$", q, SW);
+label("$T$", t, S);
+label("$R$", r, SE);
+label("$6$", midpoint(q--t), S, fontsize(10));
+label("$10$", midpoint(t--r), S, fontsize(10));
+[/asy] Write your answer in the form $x:y$, where $x$ and $y$ are relatively prime positive integers.

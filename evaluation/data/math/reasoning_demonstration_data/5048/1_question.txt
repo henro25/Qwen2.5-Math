@@ -1,0 +1,1 @@
+Problem: Compute $\gcd(83^9+1,83^9+83^2+1)$.

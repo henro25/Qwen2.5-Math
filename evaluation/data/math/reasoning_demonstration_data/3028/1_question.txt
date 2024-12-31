@@ -1,0 +1,3 @@
+Problem: Let $N$ be the largest integer whose square has exactly $3$ digits when written in base 9.
+
+What is $N$, expressed in base 9?

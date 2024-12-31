@@ -1,0 +1,1 @@
+Problem: Jeff's five assignment scores are 89, 92, 88, 95 and 91. What is the arithmetic mean of these five scores?

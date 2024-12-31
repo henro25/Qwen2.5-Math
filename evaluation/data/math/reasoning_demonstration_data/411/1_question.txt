@@ -1,0 +1,1 @@
+Problem: What is the digit in the tens place when $7^{2005}$ is expressed in decimal notation?

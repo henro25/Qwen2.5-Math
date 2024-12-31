@@ -1,0 +1,1 @@
+Problem: Sides $\overline{AB}$ and $\overline{EF}$ of regular hexagon $ABCDEF$ are extended to meet at point $P$. What is the degree measure of angle $P$?

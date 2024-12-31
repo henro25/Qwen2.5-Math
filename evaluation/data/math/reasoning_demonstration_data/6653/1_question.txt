@@ -1,0 +1,1 @@
+Problem: If $n$ is a positive integer, then let $f(n)$ be the sum of the digits of $\frac{1}{5^{{}^n}}$ that are to the right of the decimal point. What is the smallest positive integer $n$ such that $f(n) > 10$?

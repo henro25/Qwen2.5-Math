@@ -1,0 +1,1 @@
+Problem: Evaluate $\left\lceil\sqrt{\frac{9}{4}}\right\rceil+\left\lceil\frac{9}{4}\right\rceil+\left\lceil\left(\frac{9}{4}\right)^2\right\rceil$.

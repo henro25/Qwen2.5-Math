@@ -1,0 +1,11 @@
+Problem: In the diagram, what is the measure of $\angle ACB$ in degrees? [asy]
+size(250);
+draw((-60,0)--(0,0));
+draw((0,0)--(64.3,76.6)--(166,0)--cycle);
+label("$A$",(64.3,76.6),N);
+label("$93^\circ$",(64.3,73),S);
+label("$130^\circ$",(0,0),NW);
+label("$B$",(0,0),S);
+label("$D$",(-60,0),S);
+label("$C$",(166,0),S);
+[/asy]

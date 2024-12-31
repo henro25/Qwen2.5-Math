@@ -1,0 +1,1 @@
+Problem: If $y= \frac{x^2+2x+8}{x-4}$, at what value of $x$ will there be a vertical asymptote?

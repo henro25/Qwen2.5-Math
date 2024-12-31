@@ -1,0 +1,1 @@
+Problem: How many even three digit numbers are there such that the sum of the  tens and units digits is 10?

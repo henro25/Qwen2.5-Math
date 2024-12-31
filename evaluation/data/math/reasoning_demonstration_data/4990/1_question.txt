@@ -1,0 +1,1 @@
+Problem: Find the product of all $x$ such that the expression $\frac{x^2+2x+1}{x^2+2x-3}$ is undefined.

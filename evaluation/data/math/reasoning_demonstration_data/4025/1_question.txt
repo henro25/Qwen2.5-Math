@@ -1,0 +1,1 @@
+Problem: Evaluate: $-\left(14\div 2\cdot 9-60+3\cdot 9\right)$.

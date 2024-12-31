@@ -1,0 +1,1 @@
+Problem: Find the largest value of $t$ such that \[\frac{13t^2 - 34t + 12}{3t - 2 } + 5t = 6t - 1.\]

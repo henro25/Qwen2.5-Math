@@ -1,0 +1,3 @@
+Problem: [asy] draw((0,0)--(0,3)--(4,0)--cycle,dot); draw((4,0)--(7,0)--(7,10)--cycle,dot); draw((0,3)--(7,10),dot); MP("C",(0,0),SW);MP("A",(0,3),NW);MP("B",(4,0),S);MP("E",(7,0),SE);MP("D",(7,10),NE); [/asy]
+Triangle $ABC$ has a right angle at $C, AC=3$ and $BC=4$. Triangle $ABD$ has a right angle at $A$ and $AD=12$. Points $C$ and $D$ are on opposite sides of $\overline{AB}$. The line through $D$ parallel to $\overline{AC}$ meets $\overline{CB}$ extended at $E$. If\[\frac{DE}{DB}=\frac{m}{n},\]where $m$ and $n$ are relatively prime positive integers, then $m+n=$
+$\text{(A) } 25\quad \text{(B) } 128\quad \text{(C) } 153\quad \text{(D) } 243\quad \text{(E) } 256$

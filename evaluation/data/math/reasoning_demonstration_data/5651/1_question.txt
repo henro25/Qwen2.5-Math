@@ -1,0 +1,1 @@
+Problem: Let $f(x)=2x+1$. Find the sum of all $x$ that satisfy the equation $f^{-1}(x)=f(x^{-1})$.

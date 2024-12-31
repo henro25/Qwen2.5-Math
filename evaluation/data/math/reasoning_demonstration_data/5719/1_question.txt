@@ -1,0 +1,9 @@
+Problem: What is the area enclosed by the graph of $|x| + |2y|$ = 10 shown here?
+
+[asy]
+draw((0,-10)--(0,10),Arrows);
+draw((-15,0)--(15,0),Arrows);
+label("$y$",(0,10),NE);
+label("$x$",(15,0),SE);
+draw((10,0)--(0,5)--(-10,0)--(0,-5)--cycle);
+[/asy]

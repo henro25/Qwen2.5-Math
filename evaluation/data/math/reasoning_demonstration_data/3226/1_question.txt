@@ -1,0 +1,5 @@
+Problem: As $t$ takes on all real values, the set of points $(x,y)$ defined by
+\begin{align*}
+x &= t^2 - 2, \\
+y &= t^3 - 9t + 5
+\end{align*}forms a curve that crosses itself.  Compute the ordered pair $(x,y)$ where this crossing occurs.

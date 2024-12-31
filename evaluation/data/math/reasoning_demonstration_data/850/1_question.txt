@@ -1,0 +1,1 @@
+Problem: The polynomial $x^{101} + Ax + B$ is divisible by $x^2 + x + 1$ for some real numbers $A$ and $B.$  Find $A + B.$

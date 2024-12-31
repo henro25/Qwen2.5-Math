@@ -1,0 +1,1 @@
+Problem: Given $w$ and $z$ are complex numbers such that $|w+z|=1$ and $|w^2+z^2|=14,$ find the smallest possible value of $|w^3+z^3|.$

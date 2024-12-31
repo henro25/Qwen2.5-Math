@@ -1,0 +1,1 @@
+Problem: The greatest common divisor of 21 and some number between 50 and 60 is 7. What is the number?

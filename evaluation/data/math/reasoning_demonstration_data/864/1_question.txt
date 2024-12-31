@@ -1,0 +1,2 @@
+Problem: Find the minimum value of
+\[2 \sqrt{x} + \frac{1}{x}\]for $x > 0.$

@@ -1,0 +1,1 @@
+Problem: Simplify the following expression: $(x^5+x^4+x+10)-(x^5+2x^4-x^3+12).$ Express your answer as a polynomial with the degrees of the terms in decreasing order.

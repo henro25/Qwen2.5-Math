@@ -1,0 +1,1 @@
+Problem: Consider the arithmetic sequence  $1$, $4$, $7$, $10$, $13$, $\ldots$.  Find the $15^{\text{th}}$ term in the sequence.

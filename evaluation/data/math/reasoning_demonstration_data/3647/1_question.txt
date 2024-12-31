@@ -1,0 +1,1 @@
+Problem: A delicious circular pie with diameter $12\text{ cm}$ is cut into three equal-sized sector-shaped pieces. Let $l$ be the number of centimeters in the length of the longest line segment that may be drawn in one of these pieces. What is $l^2$?

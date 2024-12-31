@@ -1,0 +1,1 @@
+Problem: Expand the product ${(x+3)(x-8)}$.

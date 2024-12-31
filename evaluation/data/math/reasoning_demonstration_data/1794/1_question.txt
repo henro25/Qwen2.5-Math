@@ -1,0 +1,2 @@
+Problem: Find all the solutions to
+\[\sqrt[3]{2 - x} + \sqrt{x - 1} = 1.\]Enter all the solutions, separated by commas.

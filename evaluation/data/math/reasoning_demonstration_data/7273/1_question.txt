@@ -1,0 +1,1 @@
+Problem: In triangle $ABC$, $\cos(2A-B)+\sin(A+B)=2$ and $AB=4$. What is $BC$?

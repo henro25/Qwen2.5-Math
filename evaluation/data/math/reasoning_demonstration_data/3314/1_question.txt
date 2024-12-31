@@ -1,0 +1,1 @@
+Problem: What is the quotient when $8x^3+16x^2-7x+4$ is divided by $2x+5$?

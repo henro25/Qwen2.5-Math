@@ -1,0 +1,1 @@
+Problem: Find all roots of the polynomial $x^3-5x^2+3x+9$. Enter your answer as a list of numbers separated by commas. If a root occurs more than once, enter it as many times as its multiplicity.

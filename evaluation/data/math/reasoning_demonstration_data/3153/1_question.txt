@@ -1,0 +1,11 @@
+Problem: The second and fourth terms of a geometric sequence are 2 and 6. Which of the following is a possible  first term? Type the letter of the correct option.
+
+A. $-\sqrt{3}$
+
+B. $-\frac{2\sqrt{3}}{3}$
+
+C. $-\frac{\sqrt{3}}{3}$
+
+D. $\sqrt{3}$
+
+E. $3$

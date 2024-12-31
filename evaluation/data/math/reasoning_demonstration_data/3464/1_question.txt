@@ -1,0 +1,13 @@
+Problem: Two sectors of a circle of radius $12$ overlap as shown, with $P$ and $R$ as the centers of the respective circles. Determine the area of the shaded region.
+
+[asy]
+draw((0,0)--(10.3923,-6)--(20.7846,0)--(10.3923,6)--cycle,black+linewidth(1));
+filldraw((10.3923,6)..(12,0)..(10.3923,-6)--cycle,gray,black+linewidth(1));
+filldraw((10.3923,6)..(8.7846,0)..(10.3923,-6)--cycle,gray,black+linewidth(1));
+label("$P$",(0,0),W);
+label("$Q$",(10.3923,6),N);
+label("$R$",(20.7846,0),E);
+label("$S$",(10.3923,-6),S);
+label("$60^\circ$",(0,0),2E);
+label("$60^\circ$",(20.7846,0),2W);
+[/asy]

@@ -1,0 +1,1 @@
+Problem: A line has a slope of $-7$ and contains the point $(3,0)$. The equation of this line can be written in the form $y = mx+b$. What is the value of $m+b$?

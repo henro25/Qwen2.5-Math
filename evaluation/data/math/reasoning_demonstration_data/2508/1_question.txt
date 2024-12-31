@@ -1,0 +1,1 @@
+Problem: A diagonal of a polygon is a segment joining two nonconsecutive vertices of the polygon. How many diagonals does a regular octagon have?

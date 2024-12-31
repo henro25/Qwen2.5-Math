@@ -1,0 +1,1 @@
+Problem: Let the line $p$ be the perpendicular bisector of $A = (24, 7)$ and $B = (3, 4).$ Given that $AB$ meets $p$ at $C = (x, y),$ what is $2x - 4y$?

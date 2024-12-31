@@ -1,0 +1,1 @@
+Problem: Solve for $z$ in the following equation: $1-iz = -1 + iz$ (where $i^2 = -1$). Simplify your answer as much as possible.

@@ -1,0 +1,14 @@
+Problem: What is the ratio of the volume of cone $A$ to the volume of cone $B$? Express your answer as a common fraction. [asy]
+size(260);
+draw(ellipse((0,0),14.8,6),S);
+label("Cone $A$", (0,-6), S);
+draw((0,28.3)--(0,0),dashed);
+label("$28.3$",(0,14),SW);
+draw((-14.8,0)--(0,28.3)--(14.8,0));
+draw("$14.8$",(-14.8,0)--(0,0),N,dashed);
+draw(ellipse((50,0),28.3,6),S);
+label("Cone $B$", (50,-6), S);
+draw((21.7,0)--(50,14.8)--(78.3,0));
+draw("$14.8$",(50,14.8)--(50,0),W,dashed);
+draw("$28.3$", (21.7,0)--(50,0),N,dashed);
+[/asy]

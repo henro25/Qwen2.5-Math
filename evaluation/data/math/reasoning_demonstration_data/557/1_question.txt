@@ -1,0 +1,2 @@
+Problem: Find the matrix $\mathbf{M}$ that triples the second row of a matrix.  In other words,
+\[\mathbf{M} \begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{pmatrix} a & b \\ 3c & 3d \end{pmatrix}.\]If no such matrix $\mathbf{M}$ exists, then enter the zero matrix.

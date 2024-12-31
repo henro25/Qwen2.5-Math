@@ -1,0 +1,35 @@
+Problem: Given quadrilateral $ABCD,$ side $\overline{AB}$ is extended past $B$ to $A'$ so that $A'B = AB.$  Points $B',$ $C',$ and $D'$ are similarly constructed.
+
+[asy]
+unitsize(1 cm);
+
+pair[] A, B, C, D;
+
+A[0] = (0,0);
+B[0] = (2,0);
+C[0] = (1.5,2);
+D[0] = (0.2,1.5);
+A[1] = 2*B[0] - A[0];
+B[1] = 2*C[0] - B[0];
+C[1] = 2*D[0] - C[0];
+D[1] = 2*A[0] - D[0];
+
+draw(A[0]--A[1]);
+draw(B[0]--B[1]);
+draw(C[0]--C[1]);
+draw(D[0]--D[1]);
+
+label("$A$", A[0], W);
+label("$A'$", A[1], E);
+label("$B$", B[0], S);
+label("$B'$", B[1], N);
+label("$C$", C[0], NE);
+label("$C'$", C[1], SW);
+label("$D$", D[0], N);
+label("$D'$", D[1], S);
+[/asy]
+
+After this construction, points $A,$ $B,$ $C,$ and $D$ are erased.  You only know the locations of points $A',$ $B',$ $C'$ and $D',$ and want to reconstruct quadrilateral $ABCD.$
+
+There exist real numbers $p,$ $q,$ $r,$ and $s$ such that
+\[\overrightarrow{A} = p \overrightarrow{A'} + q \overrightarrow{B'} + r \overrightarrow{C'} + s \overrightarrow{D'}.\]Enter the ordered quadruple $(p,q,r,s).$

@@ -1,0 +1,2 @@
+Problem: Compute
+\[\left( 1 - \frac{1}{\cos 23^\circ} \right) \left( 1 + \frac{1}{\sin 67^\circ} \right) \left( 1 - \frac{1}{\sin 23^\circ} \right) \left( 1 + \frac{1}{\cos 67^\circ} \right).\]

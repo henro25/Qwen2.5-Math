@@ -1,0 +1,1 @@
+Problem: The difference between two positive integers is 12 and their product is 45. What is the sum of the integers?

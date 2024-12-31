@@ -1,0 +1,1 @@
+Problem: The area of the smallest square that will contain a circle of radius 4 is what?

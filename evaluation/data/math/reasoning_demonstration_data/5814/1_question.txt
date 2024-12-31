@@ -1,0 +1,2 @@
+Problem: A circle of radius $r$ has chords $\overline{AB}$ of length $10$ and $\overline{CD}$ of length 7. When $\overline{AB}$ and $\overline{CD}$ are extended through $B$ and $C$, respectively, they intersect at $P$, which is outside of the circle. If $\angle{APD}=60^\circ$ and $BP=8$, then $r^2=$
+$\text{(A) } 70\quad \text{(B) } 71\quad \text{(C) } 72\quad \text{(D) } 73\quad \text{(E) } 74$

@@ -1,0 +1,1 @@
+Problem: Let $a$, $b$, and $c$ be positive real numbers. What is the smallest possible value of $(a+b+c)\left(\frac{1}{a+b}+\frac{1}{a+c}+\frac{1}{b+c}\right)$?

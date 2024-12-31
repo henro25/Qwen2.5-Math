@@ -1,0 +1,1 @@
+Problem: The product of two positive consecutive integers is 506. What is their sum?

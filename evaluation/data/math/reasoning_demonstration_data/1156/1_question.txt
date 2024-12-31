@@ -1,0 +1,1 @@
+Problem: What is the nonnegative difference between the roots for the equation $x^2+30x+180=-36$?

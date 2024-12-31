@@ -1,0 +1,1 @@
+Problem: Find the sum of all positive integers such that their expression in base $7$ digits is the reverse of their expression in base $16$ digits. Express your answer in base $10$.

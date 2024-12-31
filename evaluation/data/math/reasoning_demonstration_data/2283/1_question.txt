@@ -1,0 +1,1 @@
+Problem: Given that $\binom{17}{10}=19448$, $\binom{17}{11}=12376$ and $\binom{19}{12}=50388$, find $\binom{18}{12}$.

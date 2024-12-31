@@ -1,0 +1,1 @@
+Problem: Henry's little brother has $8$ identical stickers and $4$ sheets of paper, each a different color. He puts all the stickers on the pieces of paper. How many ways are there for him to do this, if only the number of stickers on each sheet of paper matters?

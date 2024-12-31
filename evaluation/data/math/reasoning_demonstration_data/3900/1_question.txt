@@ -1,0 +1,1 @@
+Problem: Find the number of different complex numbers $z$ with the properties that $|z|=1$ and $z^{6!}-z^{5!}$ is a real number.

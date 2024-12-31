@@ -1,0 +1,2 @@
+Problem: Let $a,$ $b,$ and $c$ be nonzero real numbers, and let
+\[x = \frac{b}{c} + \frac{c}{b}, \quad y = \frac{a}{c} + \frac{c}{a}, \quad z = \frac{a}{b} + \frac{b}{a}.\]Simplify $x^2 + y^2 + z^2 - xyz.$

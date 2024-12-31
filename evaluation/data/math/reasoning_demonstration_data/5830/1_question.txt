@@ -1,0 +1,1 @@
+Problem: What integer value of $n$ will satisfy $n + 10 > 11$ and $-4n > -12$?

@@ -1,0 +1,1 @@
+Problem: If $Q = 5+2i$, $E = i$, and $D = 5-2i$, find $Q\cdot E \cdot D$.

@@ -1,0 +1,2 @@
+Problem: Find the sum of the solutions to
+\[\frac{1}{\sin x} + \frac{1}{\cos x} = 2 \sqrt{2}\]in the interval $0 \le x \le 2 \pi.$

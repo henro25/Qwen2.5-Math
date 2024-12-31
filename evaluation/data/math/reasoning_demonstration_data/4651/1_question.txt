@@ -1,0 +1,1 @@
+Problem: Compute \[\lfloor 1 \rfloor + \lfloor 1.6 \rfloor + \lfloor 2.2 \rfloor + \lfloor 2.8 \rfloor + \dots + \lfloor 99.4 \rfloor + \lfloor 100 \rfloor,\]where the arguments of the floor functions are in arithmetic progression.

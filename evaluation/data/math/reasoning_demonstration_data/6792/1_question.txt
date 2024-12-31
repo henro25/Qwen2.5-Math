@@ -1,0 +1,1 @@
+Problem: A sphere is inscribed in a cube, and the cube has a surface area of 24 square meters. A second cube is then inscribed within the sphere. What is the surface area in square meters of the inner cube?

@@ -1,0 +1,1 @@
+Problem: Find the positive real value of $t$ that satisfies $|t+2i\sqrt{3}| |6-4i| = 26$.

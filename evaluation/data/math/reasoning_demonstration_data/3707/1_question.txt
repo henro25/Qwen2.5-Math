@@ -1,0 +1,2 @@
+Problem: The function $f(x)$ satisfies
+\[f(xy) = \frac{f(x)}{y}\]for all positive real numbers $x$ and $y.$  If $f(30) = 20,$ find $f(40).$

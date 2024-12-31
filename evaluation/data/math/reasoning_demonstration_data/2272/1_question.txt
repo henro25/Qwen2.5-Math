@@ -1,0 +1,1 @@
+Problem: What is the arithmetic mean of all positive two-digit multiples of 7?

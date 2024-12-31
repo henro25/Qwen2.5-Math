@@ -1,0 +1,1 @@
+Problem: A point $P$ is chosen at random in the interior of equilateral triangle $ABC$. What is the probability that $\triangle ABP$ has a greater area than each of $\triangle ACP$ and $\triangle BCP$?

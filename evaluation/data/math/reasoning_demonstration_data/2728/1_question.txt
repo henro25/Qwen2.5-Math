@@ -1,0 +1,2 @@
+Problem: Let $a$ and $b$ be nonnegative real numbers such that
+\[\sin (ax + b) = \sin 29x\]for all integers $x.$  Find the smallest possible value of $a.$

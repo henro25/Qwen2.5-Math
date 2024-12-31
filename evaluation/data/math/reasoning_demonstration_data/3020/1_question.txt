@@ -1,0 +1,1 @@
+Problem: Find the roots of $6x^4+19x^3-51x^2+20x$. Enter your answer as a list of numbers separated by commas.

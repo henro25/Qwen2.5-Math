@@ -1,0 +1,1 @@
+Problem: Simplify $(9 \times 10^8) \div (3 \times 10^3)$. (Your answer should be a single number, with no products or quotients.)

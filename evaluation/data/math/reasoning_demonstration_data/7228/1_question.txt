@@ -1,0 +1,1 @@
+Problem: What is the next term in the geometric sequence $$2, 6x, 18x^2, 54x^3, \ldots ?$$ Express your answer in terms of $x$.

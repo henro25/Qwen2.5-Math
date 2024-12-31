@@ -1,0 +1,1 @@
+Problem: Compute $\arccos \frac{\sqrt{3}}{2}.$  Express your answer in radians.

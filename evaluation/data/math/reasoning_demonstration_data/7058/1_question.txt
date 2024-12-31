@@ -1,0 +1,1 @@
+Problem: Let $f(x) = 3x-8$ and $g(f(x)) = 2x^2 + 5x - 3.$ Find $g(-5).$

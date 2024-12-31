@@ -1,0 +1,13 @@
+Problem: What is the median number of moons per planet? (Include Pluto, although arguments rage on about Pluto's status...) \begin{tabular}{c|c}
+Planet & $\#$ of Moons\\
+\hline
+Mercury&0\\
+Venus &0\\
+Earth &1\\
+Mars &2\\
+Jupiter&16\\
+Saturn&23\\
+Uranus&15\\
+Neptune&2\\
+Pluto&5\\
+\end{tabular}

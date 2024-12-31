@@ -1,0 +1,1 @@
+Problem: A fair 6-sided die is rolled.  What is the probability that the number rolled is a divisor of 6?

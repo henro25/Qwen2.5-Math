@@ -1,0 +1,1 @@
+Problem: An octagon is inscribed in a square so that the vertices of the octagon trisect the sides of the square. The perimeter of the square is 108 centimeters. What is the number of square centimeters in the area of the octagon?

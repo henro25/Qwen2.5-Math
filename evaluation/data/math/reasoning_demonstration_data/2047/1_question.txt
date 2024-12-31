@@ -1,0 +1,10 @@
+Problem: What is the area of the gray region, in square units, if the radius of the larger circle is four times the radius of the smaller circle and the diameter of the smaller circle is 2 units? Express your answer in terms of $\pi$. [asy]
+size(150);
+pair A, B;
+A=(0,0);
+B=(-4,1);
+fill(circle(A, 8), gray(.7));
+fill(circle(B, 2), white);
+draw(circle(A, 8));
+draw(circle(B, 2));
+[/asy]

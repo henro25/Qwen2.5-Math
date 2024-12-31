@@ -1,0 +1,1 @@
+Problem: What is the coefficient of $a^2b^2$ in $(a+b)^4\left(c+\dfrac{1}{c}\right)^6$?

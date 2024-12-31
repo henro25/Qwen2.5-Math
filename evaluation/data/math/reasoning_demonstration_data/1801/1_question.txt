@@ -1,0 +1,1 @@
+Problem: Given points $P(-2,7)$ and $Q(4,y)$ in a coordinate plane, for what value of $y$ is the slope of the line through $P$ and $Q$ equal to $\frac{-3}{2}$?

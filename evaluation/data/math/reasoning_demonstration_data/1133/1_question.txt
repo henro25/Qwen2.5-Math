@@ -1,0 +1,2 @@
+Problem: Let $v$ and $w$ be distinct, randomly chosen roots of the equation $z^{1997}-1=0.$  Find the probability that
+\[\sqrt{2+\sqrt{3}}\le\left|v+w\right|.\]

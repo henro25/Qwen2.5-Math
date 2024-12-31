@@ -1,0 +1,1 @@
+Problem: Find a monic quartic polynomial, in $x,$ with rational coefficients such that $2+\sqrt{2}$ and $1-\sqrt{3}$ are roots of the polynomial.

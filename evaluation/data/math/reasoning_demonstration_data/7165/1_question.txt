@@ -1,0 +1,1 @@
+Problem: The noon temperatures for seven consecutive days were $80^{\circ}$, $79^{\circ}$, $81^{\circ}$, $85^{\circ}$, $87^{\circ}$, $89^{\circ}$, and $87^{\circ}$ Fahrenheit. What is the mean noon temperature, in degrees Fahrenheit, for the week?

@@ -1,0 +1,2 @@
+Problem: The line $y = \frac{1}{2} x + 4$ is paramterized by the form
+\[\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} -7 \\ s \end{pmatrix} + t \begin{pmatrix} l \\ -5 \end{pmatrix}.\]Enter the ordered pair $(s,l).$

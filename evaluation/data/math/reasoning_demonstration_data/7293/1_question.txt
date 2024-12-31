@@ -1,0 +1,1 @@
+Problem: What is the minimum value of $5x^2-20x+1357$?

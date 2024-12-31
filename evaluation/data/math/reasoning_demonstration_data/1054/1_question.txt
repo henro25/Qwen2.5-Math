@@ -1,0 +1,9 @@
+Problem: If $x$ is a number between 0 and 1, which of the following represents the smallest value?
+
+A). $x$
+B). $x^2$
+C). $2x$
+D). $\sqrt{x}$
+E). $\frac{1}{x}$
+
+Express your answer as A, B, C, D, or E.

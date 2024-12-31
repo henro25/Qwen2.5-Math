@@ -1,0 +1,1 @@
+Problem: In how many ways can a President and a Vice-President be chosen from a group of 5 people (assuming that the President and the Vice-President cannot be the same person)?

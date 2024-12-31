@@ -1,0 +1,2 @@
+Problem: Let $a$ and $b$ be angles such that
+\[\cos (a + b) = \cos a + \cos b.\]Find the maximum value of $\cos a.$

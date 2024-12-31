@@ -1,0 +1,1 @@
+Problem: Two rectangles have integer dimensions, and both have a perimeter of 144 cm. What is the greatest possible difference between the areas of two such rectangles?

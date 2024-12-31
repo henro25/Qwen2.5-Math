@@ -1,0 +1,2 @@
+Problem: Let $z$ be a complex number satisfying $z^2 + z + 1 = 0.$  Compute
+\[z^{97} + z^{98} + z^{99} + z^{100} + z^{101}.\]

@@ -1,0 +1,3 @@
+Problem: In three-dimensional space, find the number of lattice points that have a distance of 3 from the origin.
+
+Note: A point is a lattice point if all its coordinates are integers.

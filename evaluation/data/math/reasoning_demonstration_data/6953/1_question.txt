@@ -1,0 +1,1 @@
+Problem: If $\tan \alpha = 8$ and $\tan \beta = 7,$ then find $\tan (\alpha - \beta).$

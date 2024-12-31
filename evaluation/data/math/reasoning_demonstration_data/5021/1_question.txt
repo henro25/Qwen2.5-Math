@@ -1,0 +1,1 @@
+Problem: How many positive integers less than $250$ are multiples of $5$, but not multiples of $10$?

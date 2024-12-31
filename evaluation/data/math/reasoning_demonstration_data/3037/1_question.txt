@@ -1,0 +1,1 @@
+Problem: The sphere with radius 1 and center $(0,0,1)$ rests on the $xy$-plane.  A light source is at $P = (0,-1,2).$  Then the boundary of the shadow of the sphere can be expressed in the form $y = f(x),$ for some function $f(x).$  Find the function $f(x).$

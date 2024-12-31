@@ -1,0 +1,1 @@
+Problem: The lines $-2x + y = k$ and $0.5x + y = 14$ intersect when $x = -8.4$. What is the value of $k$?

@@ -1,0 +1,1 @@
+Problem: An ellipse whose axes are parallel to the coordinate axes is tangent to the $x$-axis at $(4, 0)$ and tangent to the $y$-axis at $(0, 1).$ Find the distance between the foci of the ellipse.

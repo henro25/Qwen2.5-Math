@@ -1,0 +1,1 @@
+Problem: Let $S$ be the set of integers $n > 1$ for which $\tfrac1n = 0.d_1d_2d_3d_4\ldots$, an infinite decimal that has the property that $d_i = d_{i+12}$ for all positive integers $i$. Given that $9901$ is prime, how many positive integers are in $S$? (The $d_i$ are digits.)

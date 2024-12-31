@@ -1,0 +1,1 @@
+Problem: Let $S$ denote the sum of all of the three digit positive integers with three distinct digits. Compute the remainder when $S$ is divided by $1000$.

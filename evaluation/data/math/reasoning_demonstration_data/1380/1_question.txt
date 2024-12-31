@@ -1,0 +1,1 @@
+Problem: The base 5 number $34x1_5$ is divisible by 31.  What is the digit $x$?

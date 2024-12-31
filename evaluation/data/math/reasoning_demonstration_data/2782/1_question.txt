@@ -1,0 +1,2 @@
+Problem: Let $w,$ $x,$ $y,$ and $z$ be nonnegative numbers whose sum is 100.  Find the largest possible value of
+\[wx + xy + yz.\]

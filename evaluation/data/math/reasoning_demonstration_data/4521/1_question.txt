@@ -1,0 +1,3 @@
+Problem: The distance between two vectors is the magnitude of their difference.  Find the value of $t$ for which the vector
+\[\bold{v} = \begin{pmatrix} 2 \\ -3 \\ -3 \end{pmatrix} + t \begin{pmatrix} 7 \\ 5 \\ -1 \end{pmatrix}\]is closest to
+\[\bold{a} = \begin{pmatrix} 4 \\ 4 \\ 5 \end{pmatrix}.\]

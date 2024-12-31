@@ -1,0 +1,1 @@
+Problem: Given that $-4\leq x\leq-2$ and $2\leq y\leq4$, what is the largest possible value of $\frac{x+y}{x}$?

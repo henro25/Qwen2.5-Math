@@ -1,0 +1,1 @@
+Problem: Compute the sum of the roots of the equation \[x\sqrt{x} - 6x + 7\sqrt{x} - 1 = 0,\]given that all of the roots are real and nonnegative.

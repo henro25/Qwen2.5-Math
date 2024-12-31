@@ -1,0 +1,2 @@
+Problem: Find the positive real number $x$ for which
+\[5 \sqrt{1 + x} + 5 \sqrt{1 - x} = 7 \sqrt{2}.\]

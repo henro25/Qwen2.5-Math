@@ -1,0 +1,1 @@
+Problem: Find the remainder when $7145 + 7146 + 7147 + 7148 + 7149$ is divided by 8.

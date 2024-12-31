@@ -1,0 +1,1 @@
+Problem: What is the area, in square units, of the square with the four vertices at $A\ (0, 0)$, $B\ (-5, -1)$, $C\ (-4, -6)$ and $D\ (1, -5)$?

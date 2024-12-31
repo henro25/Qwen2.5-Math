@@ -1,0 +1,1 @@
+Problem: If $(x + y)^2 = 1$ and $xy = -4$, what is the value of $x^2 + y^2$?

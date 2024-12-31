@@ -1,0 +1,8 @@
+Problem: What is the number of degrees in $x$? [asy]
+import olympiad; import geometry; defaultpen(linewidth(0.8)); size(150);
+pair A = origin, B = (Cos(50),Sin(50)), C = (Cos(50) + Sin(50)*sqrt(3),0);
+draw(A--B--C--cycle);
+label("$30^\circ$",C-(0.3,-.03),NW);
+label("$2x$",B + (-.10,-0.1),SE);
+label("$x$",A+(0.15,.03),NE);
+[/asy]

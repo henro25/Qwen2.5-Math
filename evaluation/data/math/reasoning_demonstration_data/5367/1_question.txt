@@ -1,0 +1,1 @@
+Problem: The operation $\odot$ is defined as $a \odot b = a + \frac{3a}{2b}$. What is the value of $8 \odot 6$?

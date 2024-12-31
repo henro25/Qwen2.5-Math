@@ -1,0 +1,1 @@
+Problem: Emily's quiz scores so far are: 92, 95, 87, 89 and 100. What score does she need to get on the sixth quiz to make the arithmetic mean of the six scores equal 93?

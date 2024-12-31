@@ -1,0 +1,1 @@
+Problem: Let $P$ be a cubic polynomial with $P(0) = k$, $P(1) = 2k$, and $P(-1) = 3k$. What is $P(2) + P(-2)$ ?

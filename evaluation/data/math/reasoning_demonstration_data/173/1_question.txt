@@ -1,0 +1,13 @@
+Problem: Quadrilateral $CDEF$ is a parallelogram. Its area is $36$ square units. Points $G$ and $H$ are the midpoints of sides $CD$ and $EF,$ respectively. What is the area of triangle $CDJ?$ [asy]
+draw((0,0)--(30,0)--(12,8)--(22,8)--(0,0));
+draw((10,0)--(12,8));
+draw((20,0)--(22,8));
+label("$I$",(0,0),W);
+label("$C$",(10,0),S);
+label("$F$",(20,0),S);
+label("$J$",(30,0),E);
+label("$D$",(12,8),N);
+label("$E$",(22,8),N);
+label("$G$",(11,5),W);
+label("$H$",(21,5),E);
+[/asy]

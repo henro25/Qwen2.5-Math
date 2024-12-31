@@ -1,0 +1,1 @@
+Problem: If $f(x)=\sqrt{x-3}$, what is the smallest real number $x$ in the domain of $f(f(x))$?

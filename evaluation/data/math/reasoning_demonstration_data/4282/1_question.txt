@@ -1,0 +1,1 @@
+Problem: The graph of $r = \cos \theta$ is a circle.  Find the smallest value of $t$ so that when $r = \cos \theta$ is plotted for $0 \le \theta \le t,$ the resulting graph is the entire circle.

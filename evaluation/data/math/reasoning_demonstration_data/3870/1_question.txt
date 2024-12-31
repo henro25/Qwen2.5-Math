@@ -1,0 +1,2 @@
+Problem: Let $f(x)$ be a function defined for all positive real numbers satisfying the conditions $f(x) > 0$ for all $x > 0$ and
+\[f(x - y) = \sqrt{f(xy) + 2}\]for all $x > y > 0.$  Determine $f(2009).$

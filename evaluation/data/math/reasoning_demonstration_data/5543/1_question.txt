@@ -1,0 +1,46 @@
+Problem: In the diagram below, lines $k$ and $\ell$ are parallel.  Find the measure of angle $x$ in degrees.
+
+[asy]
+size(200);
+import markers;
+pair A = dir(-22)*(0,0);
+pair B = dir(-22)*(4,0);
+pair C = dir(-22)*(4,2);
+pair D = dir(-22)*(0,2);
+pair F = dir(-22)*(0,1.3);
+pair G = dir(-22)*(4,1.3);
+pair H = dir(-22)*(2,1);
+
+//markangle(.3,B,H,C);
+markangle(Label("$x$",Relative(0.4)),n=1,radius=11,B,H,C);
+
+pair X,Y;
+
+X=A;
+Y=B;
+draw(1.3*X-.3*Y--1.3*Y-.3*X);
+
+X=A;
+Y=C;
+draw(1.3*X-.3*Y--1.3*Y-.3*X);
+
+X=C;
+Y=B;
+draw(1.3*X-.3*Y--1.3*Y-.3*X);
+
+X=B;
+Y=D;
+draw(1.3*X-.3*Y--1.3*Y-.3*X);
+
+X=G;
+Y=F;
+draw(1.3*X-.3*Y--1.3*Y-.3*X);
+
+label("$\ell$",1.4*A-.4*B);
+label("$k$",1.4*F-.4*G);
+
+//label("$x$",H+(.4,-.15));
+label("$30^\circ$",A+(1,-.1));
+label("$90^\circ$",B+(.4,.1));
+label("$30^\circ$",B+(-1,.7));
+[/asy]

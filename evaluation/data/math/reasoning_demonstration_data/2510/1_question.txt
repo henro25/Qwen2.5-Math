@@ -1,0 +1,2 @@
+Problem: Evaluate
+\[\begin{vmatrix} 0 & \sin \alpha & -\cos \alpha \\ -\sin \alpha & 0 & \sin \beta \\ \cos \alpha & -\sin \beta & 0 \end{vmatrix}.\]

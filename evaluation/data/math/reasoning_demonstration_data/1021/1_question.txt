@@ -1,0 +1,1 @@
+Problem: When $n$ is divided by 3, the remainder is 2. What is the remainder when $5n$ is divided by 3?

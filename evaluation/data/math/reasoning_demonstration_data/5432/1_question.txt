@@ -1,0 +1,2 @@
+Problem: Compute
+\[\frac{1}{\cos 80^\circ} - \frac{\sqrt{3}}{\sin 80^\circ}.\]

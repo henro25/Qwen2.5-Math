@@ -1,0 +1,2 @@
+Problem: For positive real numbers $x,$ $y,$ and $z,$ compute the maximum value of
+\[\frac{xyz(x + y + z)}{(x + y)^2 (y + z)^2}.\]

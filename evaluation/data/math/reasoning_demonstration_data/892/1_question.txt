@@ -1,0 +1,1 @@
+Problem: The sequence $2, 7, 12, a, b, 27$ is arithmetic. What is the value of $a + b$?

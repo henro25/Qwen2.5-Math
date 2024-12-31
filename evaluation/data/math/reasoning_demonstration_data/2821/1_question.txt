@@ -1,0 +1,1 @@
+Problem: Suppose we flip four coins simultaneously: a penny, a nickel, a dime, and a quarter.  What is the probability that at least 15 cents worth of coins come up heads?

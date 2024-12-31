@@ -1,0 +1,1 @@
+Problem: Compute $a^2 + b^2 + c^2,$ given that $a,$ $b,$ and $c$ are the roots of \[2x^3 - x^2 + 4x + 10 = 0.\]

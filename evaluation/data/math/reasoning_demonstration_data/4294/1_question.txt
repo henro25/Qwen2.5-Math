@@ -1,0 +1,1 @@
+Problem: In the eight-term sequence $A,B,C,D,E,F,G,H$, the value of $C$ is $5$ and the sum of any three consecutive terms is $30$.  What is $A+H$?

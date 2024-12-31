@@ -1,0 +1,2 @@
+Problem: Find the sum of the squares of the solutions to
+\[\left| x^2 - x + \frac{1}{2008} \right| = \frac{1}{2008}.\]

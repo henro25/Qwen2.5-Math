@@ -1,0 +1,1 @@
+Problem: Lucy has $19$ dollars and $23$ cents. She wants to buy as many popsicles as she can with her money. The popsicles are priced at $1$ dollar and $60$ cents each. How many popsicles can she buy?

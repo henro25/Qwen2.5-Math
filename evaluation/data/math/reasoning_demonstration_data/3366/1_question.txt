@@ -1,0 +1,1 @@
+Problem: Three of the vertices of parallelogram $ABCD$ are $A = (3,-1,2),$ $B = (1,2,-4),$ and $C = (-1,1,2).$  Find the coordinates of $D.$

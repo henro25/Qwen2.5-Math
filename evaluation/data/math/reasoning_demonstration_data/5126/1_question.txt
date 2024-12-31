@@ -1,0 +1,1 @@
+Problem: A circle has an area of $M\text{ cm}^2$ and a circumference of $N\text{ cm}$. If $\dfrac{M}{N}=20$, what is the radius of the circle, in cm?

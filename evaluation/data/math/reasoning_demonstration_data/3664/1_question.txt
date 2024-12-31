@@ -1,0 +1,19 @@
+Problem: A circle of radius 1 is tangent to a circle of radius 2. The sides of $\triangle ABC$ are tangent to the circles as shown, and the sides $\overline{AB}$ and $\overline{AC}$ are congruent. What is the area of $\triangle ABC$?
+
+[asy]
+unitsize(0.7cm);
+pair A,B,C;
+A=(0,8);
+B=(-2.8,0);
+C=(2.8,0);
+draw(A--B--C--cycle,linewidth(0.7));
+draw(Circle((0,2),2),linewidth(0.7));
+draw(Circle((0,5),1),linewidth(0.7));
+draw((0,2)--(2,2));
+draw((0,5)--(1,5));
+label("2",(1,2),N);
+label("1",(0.5,5),N);
+label("$A$",A,N);
+label("$B$",B,SW);
+label("$C$",C,SE);
+[/asy]

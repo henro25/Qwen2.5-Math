@@ -1,0 +1,1 @@
+Problem: Every morning when Tim wakes up, he groggily searches around his sock drawer and picks two socks randomly. If he has 10 gray-bottomed socks and 8 white-bottomed socks in his drawer, what is the probability that he picks a matching pair?

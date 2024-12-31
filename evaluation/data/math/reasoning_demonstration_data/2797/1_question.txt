@@ -1,0 +1,6 @@
+Problem: For all complex numbers $z$, let \[f(z) = \left\{
+\begin{array}{cl}
+z^{2}&\text{ if }z\text{ is not real}, \\
+-z^2 &\text{ if }z\text{ is real}.
+\end{array}
+\right.\]Find $f(f(f(f(1+i))))$.

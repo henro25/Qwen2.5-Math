@@ -1,0 +1,3 @@
+Problem: Donna has $n$ boxes of doughnuts. Each box contains $13$ doughnuts.
+
+After eating one doughnut, Donna is able to rearrange the remaining doughnuts into bags so that each bag contains $9$ doughnuts, and none are left over. What is the smallest possible value of $n$?

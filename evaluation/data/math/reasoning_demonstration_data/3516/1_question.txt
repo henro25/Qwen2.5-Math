@@ -1,0 +1,17 @@
+Problem: The same amount of steel used to create eight solid steel balls, each with a radius of 1 inch, is used to create one larger steel ball. What is the radius of the larger ball?
+
+[asy]
+size(150);
+filldraw(circle((0,0),1),gray);
+filldraw(circle((.9,-.8),1),gray);
+filldraw(circle((1.8,.9),1),gray);
+filldraw(circle((2,0),1),gray);
+filldraw(circle((2,-.4),1),gray);
+filldraw(circle((3,-.4),1),gray);
+filldraw(circle((4.8,-.4),1),gray);
+filldraw(circle((3.2,.5),1),gray);
+
+draw((6,.7)--(8,.7),Arrow);
+
+filldraw(circle((11,.2),2),gray);
+[/asy]

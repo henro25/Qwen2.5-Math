@@ -1,0 +1,1 @@
+Problem: A play has two different male roles, two different female roles and two different roles that can be either gender. Only a man can be assigned to a male role, and only a woman can be assigned to a female role. If five men and six women audition, in how many ways can the six roles be assigned?

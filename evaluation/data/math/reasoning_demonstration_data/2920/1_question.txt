@@ -1,0 +1,1 @@
+Problem: A hyperbola is centered at the origin and opens either horizontally or vertically. It passes through the points $(-3, 4),$ $(-2, 0),$ and $(t, 2).$ Find $t^2.$

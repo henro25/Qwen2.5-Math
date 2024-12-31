@@ -1,0 +1,1 @@
+Problem: Define the function $f(x)=\frac{b}{2x-3}$. If $f(2)=f^{-1}(b+1)$, find the product of all possible values of $b$.

@@ -1,0 +1,2 @@
+Problem: Solve
+\[\frac{x}{x + 3} \ge 0.\]Enter your answer using interval notation.

@@ -1,0 +1,1 @@
+Problem: What is the greatest product obtainable from two integers whose sum is 246?

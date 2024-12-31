@@ -1,0 +1,1 @@
+Problem: Let $f(x)=3x-2$, and let $g(x)=f(f(f(f(x))))$.  If the domain of $g$ is $0\leq x\leq 2$, compute the range of $g$.

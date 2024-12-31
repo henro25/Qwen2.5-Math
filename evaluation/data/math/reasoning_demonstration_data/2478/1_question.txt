@@ -1,0 +1,2 @@
+Problem: Compute
+\[\sum_{1 \le a < b < c} \frac{1}{2^a 3^b 5^c}.\](The sum is taken over all triples $(a,b,c)$ of positive integers such that $1 \le a < b < c.$)

@@ -1,0 +1,1 @@
+Problem: Find the sum of all the integer solutions of  $x^4 - 25x^2 + 144 = 0$.

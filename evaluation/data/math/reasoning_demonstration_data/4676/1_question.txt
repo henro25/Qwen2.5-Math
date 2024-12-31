@@ -1,0 +1,1 @@
+Problem: The equation $y=-4.9t^2+3.5t+5$ describes the height (in meters) of a ball thrown upward at $3.5$ meters per second from $5$ meters above the ground, where $t$ is the time in seconds. In how many seconds will the ball hit the ground? Express your answer as a common fraction.

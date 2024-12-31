@@ -1,0 +1,1 @@
+Problem: The product of two consecutive page numbers is $18{,}360.$ What is the sum of the two page numbers?

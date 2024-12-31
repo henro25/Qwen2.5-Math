@@ -1,0 +1,1 @@
+Problem: Triangle $ABC$ is a right triangle with legs $AB$ and $AC$. Points $X$ and $Y$ lie on legs $AB$ and $AC$, respectively, so that $AX:XB = AY:YC = 1:2$. If $BY = 16$ units, and $CX = 28$ units, what is the length of hypotenuse $BC$? Express your answer in simplest radical form.

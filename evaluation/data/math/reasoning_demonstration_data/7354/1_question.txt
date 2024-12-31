@@ -1,0 +1,1 @@
+Problem: The points $(1, 7), (13, 16)$ and $(5, k)$, where $k$ is an integer, are vertices of a triangle. What is the sum of the values of $k$ for which the area of the triangle is a minimum?

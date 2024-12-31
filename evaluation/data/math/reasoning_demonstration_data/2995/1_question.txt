@@ -1,0 +1,1 @@
+Problem: Evaluate $\lfloor\sqrt{80}\rfloor$.

@@ -1,0 +1,1 @@
+Problem: The line $ax+(a+1)y=a+2$ passes through the point $(4,-8)$. Find $a$.

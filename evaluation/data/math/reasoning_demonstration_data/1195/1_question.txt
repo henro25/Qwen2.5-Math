@@ -1,0 +1,1 @@
+Problem: Find all 6-digit multiples of 22 of the form $5d5,\!22e$ where $d$ and $e$ are digits. What is the maximum value of $d$?

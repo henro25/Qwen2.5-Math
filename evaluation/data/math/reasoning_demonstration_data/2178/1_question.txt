@@ -1,0 +1,1 @@
+Problem: Find the greatest root of $f(x) = 15x^4-13x^2+2$.

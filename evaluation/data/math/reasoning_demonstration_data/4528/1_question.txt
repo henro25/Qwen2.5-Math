@@ -1,0 +1,1 @@
+Problem: Jasmine wishes to purchase some trading cards. She has $\$7.50$ and the cards each cost $\$0.85$, tax included. What is the most number of cards she can buy?

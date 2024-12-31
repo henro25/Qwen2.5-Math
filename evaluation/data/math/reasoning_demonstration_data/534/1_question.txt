@@ -1,0 +1,1 @@
+Problem: In parallelogram $ABCD$, angle $B$ measures $110^\circ$. What is the number of degrees in the measure of angle $C$?

@@ -1,0 +1,2 @@
+Problem: A quadrilateral that has consecutive sides of lengths $70,90,130$ and $110$ is inscribed in a circle and also has a circle inscribed in it. The point of tangency of the inscribed circle to the side of length 130 divides that side into segments of length $x$ and $y$. Find $|x-y|$.
+$\text{(A) } 12\quad \text{(B) } 13\quad \text{(C) } 14\quad \text{(D) } 15\quad \text{(E) } 16$

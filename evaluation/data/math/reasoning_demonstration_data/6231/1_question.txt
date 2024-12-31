@@ -1,0 +1,1 @@
+Problem: If $m$ and $n$ are odd integers, how many terms in the expansion of $(m+n)^6$ are odd?

@@ -1,0 +1,1 @@
+Problem: When every vector on the line $y = \frac{5}{2} x + 4$ is projected onto a certain vector $\mathbf{w},$ the result is always the vector $\mathbf{p}.$  Find the vector $\mathbf{p}.$

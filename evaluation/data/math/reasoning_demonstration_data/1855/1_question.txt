@@ -1,0 +1,1 @@
+Problem: When each edge of a cube is increased by $50\%$, by what percent is the surface area of the cube increased?

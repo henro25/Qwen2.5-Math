@@ -1,0 +1,2 @@
+Problem: Find the maximum value of
+\[\begin{vmatrix} 1 & 1 & 1 \\ 1 & 1 + \sin \theta & 1 \\ 1 + \cos \theta & 1 & 1 \end{vmatrix},\]as $\theta$ ranges over all angles.

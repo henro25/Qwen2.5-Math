@@ -1,0 +1,1 @@
+Problem: A prism has 15 edges. How many faces does the prism have?

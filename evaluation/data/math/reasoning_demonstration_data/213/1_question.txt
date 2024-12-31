@@ -1,0 +1,1 @@
+Problem: Three faces of a right rectangular prism have areas of 48, 49 and 50 square units. What is the volume of the prism, in cubic units? Express your answer to the nearest whole number.

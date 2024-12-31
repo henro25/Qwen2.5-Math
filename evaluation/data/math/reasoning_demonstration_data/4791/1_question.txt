@@ -1,0 +1,1 @@
+Problem: A square and a triangle have equal perimeters. The lengths of the three sides of the triangle are $6.1$ cm, $8.2$ cm and $9.7$ cm. What is the area of the square in square centimeters?

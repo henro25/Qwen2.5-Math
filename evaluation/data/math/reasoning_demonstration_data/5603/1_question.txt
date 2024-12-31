@@ -1,0 +1,1 @@
+Problem: When the set of natural numbers is listed in ascending order, what is the smallest prime number that occurs after a sequence of five consecutive positive integers all of which are nonprime?

@@ -1,0 +1,1 @@
+Problem: If $2^{10} \cdot 2^{15}$ is expressed as some integer to the fifth power, what is that integer?

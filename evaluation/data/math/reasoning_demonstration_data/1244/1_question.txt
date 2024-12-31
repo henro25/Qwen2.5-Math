@@ -1,0 +1,1 @@
+Problem: If we express $3x^2 - 6x - 2$ in the form $a(x - h)^2 + k$, then what is $a + h + k$?

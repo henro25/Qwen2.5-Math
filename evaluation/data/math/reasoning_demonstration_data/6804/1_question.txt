@@ -1,0 +1,3 @@
+Problem: For an arithmetic sequence $a_1,$ $a_2,$ $a_3,$ $\dots,$ let
+\[S_n = a_1 + a_2 + a_3 + \dots + a_n,\]and let
+\[T_n = S_1 + S_2 + S_3 + \dots + S_n.\]If you are told the value of $S_{2019},$ then you can uniquely determine the value of $T_n$ for some integer $n.$  What is this integer $n$?

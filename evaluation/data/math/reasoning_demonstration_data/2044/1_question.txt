@@ -1,0 +1,1 @@
+Problem: If $x$ and $y$ are positive integers such that $5x+3y=100$, what is the greatest possible value of $xy$?

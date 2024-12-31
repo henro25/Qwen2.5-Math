@@ -1,0 +1,2 @@
+Problem: Evaluate
+\[\begin{vmatrix} y + 1 & y & y \\ y & y + 1 & y \\ y & y & y + 1 \end{vmatrix}.\]

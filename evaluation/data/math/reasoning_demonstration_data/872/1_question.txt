@@ -1,0 +1,1 @@
+Problem: A whole number, $N$, is chosen so that $\frac{N}{3}$ is strictly between 7.5 and 8. What is the value of $N$ ?

@@ -1,0 +1,1 @@
+Problem: Given that the point $(9,7)$ is on the graph of $y=f(x)$, there is one point that must be on the graph of $2y=\frac{f(2x)}2+2$. What is the sum of coordinates of that point?

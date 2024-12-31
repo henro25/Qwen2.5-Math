@@ -1,0 +1,1 @@
+Problem: Find all $y \in [0,\pi]$ for which \[\sin(x+y)\leq \sin(x)+\sin(y)\]for every $x$ between $0$ and $\pi$, inclusive.

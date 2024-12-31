@@ -1,0 +1,1 @@
+Problem: The ratio of $x+2$ to $2x+2$ is equal to the ratio of $4x+3$ to $7x+3$.  What is the product of all real x which satisfy this statement?

@@ -1,0 +1,1 @@
+Problem: Suppose $p$ and $q$ are inversely proportional. If $p=25$ when $q=6$, find the value of $p$ when $q=15$.

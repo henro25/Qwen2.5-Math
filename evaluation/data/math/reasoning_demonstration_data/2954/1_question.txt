@@ -1,0 +1,2 @@
+Problem: If $\begin{vmatrix} a & b \\ c & d \end{vmatrix} = 5,$ then find
+\[\begin{vmatrix} a - c & b - d \\ c & d \end{vmatrix}.\]

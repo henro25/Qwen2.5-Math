@@ -1,0 +1,1 @@
+Problem: Calculate: $(243)^{\frac35}$

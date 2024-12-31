@@ -1,0 +1,1 @@
+Problem: For positive integers $n$, let $f(n)$ return the smallest positive integer $k$ such that $\frac{1}{k}$ has exactly $n$ digits after the decimal point. How many positive integer divisors does $f(2010)$ have?

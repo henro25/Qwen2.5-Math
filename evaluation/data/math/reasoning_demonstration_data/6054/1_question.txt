@@ -1,0 +1,1 @@
+Problem: If $y=kx^{\frac{1}{4}}$ and $y=3\sqrt{2}$ at $x=81$, what is the value of $y$ at $x=4$?

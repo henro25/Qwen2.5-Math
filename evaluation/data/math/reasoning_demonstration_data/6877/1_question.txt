@@ -1,0 +1,1 @@
+Problem: If $x$ is a positive integer, what is the value of $x$ for the equation $(x!-(x-3)!) \div 23 = 1$?

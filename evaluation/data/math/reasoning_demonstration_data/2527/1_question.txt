@@ -1,0 +1,1 @@
+Problem: There are 6 married couples at a party. At the start of the party, every person shakes hands once with every other person except his or her spouse. How many handshakes are there?

@@ -1,0 +1,1 @@
+Problem: Find $x$ if $\log_x32 = \dfrac{5}{2}$.

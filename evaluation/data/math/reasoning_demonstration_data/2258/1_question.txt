@@ -1,0 +1,1 @@
+Problem: What is the midpoint of the segment with endpoints (7,-6) and (-3,4)?

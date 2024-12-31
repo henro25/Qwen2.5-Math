@@ -1,0 +1,1 @@
+Problem: A line containing the points $(9, 1)$ and $(5, 5)$ intersects the $x$ -axis at what point?

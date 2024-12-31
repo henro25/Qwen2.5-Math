@@ -1,0 +1,1 @@
+Problem: Nathan will roll two six-sided dice. What is the probability that he will roll a number less than three on the first die and a number greater than three on the second die? Express your answer as a common fraction.

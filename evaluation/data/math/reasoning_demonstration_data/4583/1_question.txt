@@ -1,0 +1,1 @@
+Problem: In right triangle $DEF$, we have $\sin D = \frac{5}{13}$ and $\sin E = 1$.  Find $\sin F$.

@@ -1,0 +1,17 @@
+Problem: A circle is circumscribed around $ABCD$ as follows: [asy]
+pair pA, pB, pC, pD, pO;
+pO = (0, 0);
+pA = pO + dir(-40);
+pB = pO + dir(40);
+pC = pO + dir(130);
+pD = pO + dir(190);
+draw(pA--pB--pC--pA);
+draw(pA--pD--pC--pA);
+label("$A$", pA, SE);
+label("$B$", pB, NE);
+label("$C$", pC, NW);
+label("$D$", pD, SW);
+draw(circle(pO, 1));
+label("$30^\circ$", pA + dir(150) * .45);
+label("$40^\circ$", pC + dir(-20) * .35);
+[/asy] How many degrees are in $\angle CAB + \angle ACD$?

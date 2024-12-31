@@ -1,0 +1,1 @@
+Problem: An ellipse in the first quadrant is tangent to both the $x$-axis and $y$-axis.  One focus is at $(3,7)$ and the other focus is at $(d,7).$  Compute $d.$

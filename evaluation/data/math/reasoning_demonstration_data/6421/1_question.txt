@@ -1,0 +1,1 @@
+Problem: What is the slope of the line that is tangent to a circle at point (5,5) if the center of the circle is (3,2)? Express your answer as a common fraction.

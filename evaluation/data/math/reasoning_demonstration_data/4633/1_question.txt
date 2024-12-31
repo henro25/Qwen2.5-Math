@@ -1,0 +1,2 @@
+Problem: Let $\mathbf{a}$ and $\mathbf{b}$ be nonzero vectors such that
+\[\|\mathbf{a}\| = \|\mathbf{b}\| = \|\mathbf{a} + \mathbf{b}\|.\]Find the angle between $\mathbf{a}$ and $\mathbf{b},$ in degrees.

@@ -1,0 +1,1 @@
+Problem: The 5-digit number $52\,28\square$ is a multiple of 6.  Which digit is represented by $\square$?

@@ -1,0 +1,1 @@
+Problem: The force needed to loosen a bolt varies inversely with the length of the handle of the wrench used. A wrench with a handle length of 9 inches requires 375 pounds of force to loosen a certain bolt. A wrench of 15 inches will require how many pounds of force to loosen the same bolt?

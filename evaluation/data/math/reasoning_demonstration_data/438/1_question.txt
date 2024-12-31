@@ -1,0 +1,1 @@
+Problem: What is the greatest possible number of digits in the product of a 4-digit whole number and a 3-digit whole number?

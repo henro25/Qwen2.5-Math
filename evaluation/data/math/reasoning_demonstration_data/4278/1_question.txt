@@ -1,0 +1,1 @@
+Problem: If an integer is divisible by $4$ and the sum of its last two digits is $13$, then what is the product of its last two digits?

@@ -1,0 +1,1 @@
+Problem: How many zeros are in the expansion of $999,\!999,\!999,\!998^2$?

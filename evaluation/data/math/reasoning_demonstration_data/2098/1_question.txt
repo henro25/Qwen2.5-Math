@@ -1,0 +1,1 @@
+Problem: In triangle $XYZ$, we have $\angle Z = 90^\circ$, $XY = 10$, and $YZ = \sqrt{51}$. What is $\tan X$?

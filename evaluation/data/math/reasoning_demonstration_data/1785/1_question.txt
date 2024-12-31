@@ -1,0 +1,2 @@
+Problem: Let $x$ and $y$ be real numbers, $y > x > 0,$ such that
+\[\frac{x}{y} + \frac{y}{x} = 6.\]Find the value of \[\frac{x + y}{x - y}.\]

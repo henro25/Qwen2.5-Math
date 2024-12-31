@@ -1,0 +1,2 @@
+Problem: Express the value of the following as a common fraction:
+$\left(1-\frac12\right)\cdot\left(1-\frac13\right)\cdot\left(1-\frac14\right) \dotsm \left(1-\frac1{n+1}\right) \dotsm \left(1-\frac1{100}\right)$

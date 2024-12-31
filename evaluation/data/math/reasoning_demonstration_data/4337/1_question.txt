@@ -1,0 +1,1 @@
+Problem: How many 3-digit numbers have the property that the units digit is at least twice the tens digit?

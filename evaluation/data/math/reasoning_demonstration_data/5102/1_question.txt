@@ -1,0 +1,2 @@
+Problem: Any five points are taken inside or on a square with side length $1$. Let a be the smallest possible number with the property that it is always possible to select one pair of points from these five such that the distance between them is equal to or less than $a$. Then $a$ is:
+$\textbf{(A)}\ \sqrt{3}/3\qquad \textbf{(B)}\ \sqrt{2}/2\qquad \textbf{(C)}\ 2\sqrt{2}/3\qquad \textbf{(D)}\ 1 \qquad \textbf{(E)}\ \sqrt{2}$

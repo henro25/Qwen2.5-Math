@@ -1,0 +1,11 @@
+Problem: The circumference of a circle $A$ is 60 feet. How many feet long is $\widehat{BC}$? [asy]
+import markers;
+
+import olympiad; import geometry; import graph; size(150); defaultpen(linewidth(0.9));
+draw(Circle(origin,1));
+draw(dir(90)--origin--dir(30));
+label("$B$",dir(90),N);
+label("$A$",origin,S);
+label("$C$",dir(30),E);
+markangle(Label("$60^{\circ}$"),dir(30),origin,(0,1),radius=20);
+[/asy]

@@ -1,0 +1,1 @@
+Problem: Let $a,$ $b,$ $c$ be real numbers such that $a + b + c = 0.$  Find the set of all possible values of $ab + ac + bc.$

@@ -1,0 +1,2 @@
+Problem: Find the number of solutions to
+\[\cos 4x + \cos^2 3x + \cos^3 2x + \cos^4 x = 0\]for $-\pi \le x \le \pi.$

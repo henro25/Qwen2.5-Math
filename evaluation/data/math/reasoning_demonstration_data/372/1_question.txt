@@ -1,0 +1,1 @@
+Problem: Suppose two distinct integers are chosen from between 5 and 17, inclusive.  What is the probability that their product is odd?

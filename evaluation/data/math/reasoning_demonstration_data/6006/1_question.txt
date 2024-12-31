@@ -1,0 +1,1 @@
+Problem: What is the expected value of the roll of a standard 6-sided die?

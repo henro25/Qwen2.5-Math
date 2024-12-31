@@ -1,0 +1,1 @@
+Problem: Simplify the following expression in $x$: \[3x+7x^2+5-(2-3x-7x^2).\] Express your answer in the form $ax^2 +bx+c$, where $a$, $b$, and $c$ are numbers.

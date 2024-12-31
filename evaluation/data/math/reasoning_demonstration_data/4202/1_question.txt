@@ -1,0 +1,1 @@
+Problem: A particular convex polygon with seven sides has exactly one right angle. How many diagonals does this seven-sided polygon have?

@@ -1,0 +1,1 @@
+Problem: What is the smallest positive integer that can be written in the form $2002m + 44444n$, where $m$ and $n$ are integers?

@@ -1,0 +1,1 @@
+Problem: If $x$ is a positive number such that \[\sqrt{8x}\cdot\sqrt{10x}\cdot\sqrt{3x}\cdot\sqrt{15x}=15,\]find all possible values for $x$.

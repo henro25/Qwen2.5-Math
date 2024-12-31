@@ -1,0 +1,1 @@
+Problem: Calculate $\frac{1}{2} \cdot \frac{3}{5} \cdot \frac{7}{11}$.

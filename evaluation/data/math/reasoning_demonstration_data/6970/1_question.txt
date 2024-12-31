@@ -1,0 +1,2 @@
+Problem: There are values $A$ and $B$ such that
+\[\frac{Bx-11}{x^2-7x+10}=\frac{A}{x-2}+\frac{3}{x-5}.\]Find $A+B$.

@@ -1,0 +1,2 @@
+Problem: Let $P(x)$ be a polynomial such that
+\[P(x) = P(0) + P(1) x + P(2) x^2\]and $P(-1) = 1.$  Find $P(x).$

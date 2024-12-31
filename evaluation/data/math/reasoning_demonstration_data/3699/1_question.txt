@@ -1,0 +1,1 @@
+Problem: Evaluate the infinite series $\sum_{k = 1}^\infty \frac{k^2}{2^k}.$

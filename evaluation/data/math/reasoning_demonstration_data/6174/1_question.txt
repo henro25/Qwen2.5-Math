@@ -1,0 +1,1 @@
+Problem: The numerical value of a particular square's area is equal to the numerical value of its perimeter. What is the length of a side of the square?

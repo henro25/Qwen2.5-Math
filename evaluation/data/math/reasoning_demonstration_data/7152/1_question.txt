@@ -1,0 +1,1 @@
+Problem: The product of positive integers $x$, $y$ and $z$ equals 2004. What is the minimum possible value of the sum $x + y + z$?

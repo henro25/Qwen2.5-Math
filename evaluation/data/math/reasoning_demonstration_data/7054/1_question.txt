@@ -1,0 +1,1 @@
+Problem: George purchases a sack of apples, a bunch of bananas, a cantaloupe, and a carton of dates for $ \$ 20$. If a carton of dates costs twice as much as a sack of apples and the price of a cantaloupe is equal to the price of a sack of apples minus a bunch of bananas, how much would it cost George to purchase a bunch of bananas and a cantaloupe?

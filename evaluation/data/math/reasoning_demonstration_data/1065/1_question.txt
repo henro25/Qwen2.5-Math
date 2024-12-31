@@ -1,0 +1,2 @@
+Problem: The quadratic polynomial $P(x),$ with real coefficients, satisfies
+\[P(x^3 + x) \ge P(x^2 + 1)\]for all real numbers $x.$  Find the sum of the roots of $P(x).$

@@ -1,0 +1,1 @@
+Problem: If $x = 2$ and $y = 5$, then what is the value of $\frac{x^4+2y^2}{6}$ ?

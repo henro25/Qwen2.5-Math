@@ -1,0 +1,1 @@
+Problem: In the expansion of $(x+1)^{42}$, what is the coefficient of the $x^2$ term?

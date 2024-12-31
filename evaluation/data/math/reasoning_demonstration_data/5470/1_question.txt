@@ -1,0 +1,2 @@
+Problem: Let $a,$ $b,$ $c$ be the roots of $x^3 + px + q = 0.$  Compute the determinant
+\[\begin{vmatrix} a & b & c \\ b & c & a \\ c & a & b \end{vmatrix}.\]

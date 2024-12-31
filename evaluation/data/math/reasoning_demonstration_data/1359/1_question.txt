@@ -1,0 +1,5 @@
+Problem: All triangles have the same value, and all circles have the same value. What is the sum of three circles? \begin{align*}
+\Delta + \bigcirc + \Delta + \bigcirc + \Delta&= 21\\
+\bigcirc + \Delta+\bigcirc+\Delta+\bigcirc &= 19\\
+\bigcirc + \bigcirc + \bigcirc &= \ ?
+\end{align*}

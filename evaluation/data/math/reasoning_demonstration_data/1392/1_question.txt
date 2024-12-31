@@ -1,0 +1,1 @@
+Problem: Math City has eight streets, all of which are straight. No street is parallel to another street. One police officer is stationed at each intersection. What is the greatest number of police officers needed?

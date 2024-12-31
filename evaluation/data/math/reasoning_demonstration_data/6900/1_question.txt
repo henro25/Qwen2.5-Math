@@ -1,0 +1,1 @@
+Problem: For what values of $b$ is $-2$ not in the range of the function $f(x)=x^2+bx+2$? Express your answer in interval notation.

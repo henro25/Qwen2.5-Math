@@ -1,0 +1,1 @@
+Problem: If $4^6=8^n$, what is $n$?

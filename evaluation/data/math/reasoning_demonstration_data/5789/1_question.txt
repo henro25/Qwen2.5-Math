@@ -1,0 +1,1 @@
+Problem: Palindromic primes are two-digit prime numbers such that the number formed when the digits are reversed is also prime. What is the sum of all palindromic primes less than 50?

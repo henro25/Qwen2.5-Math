@@ -1,0 +1,2 @@
+Problem: Suppose
+$$a(2+i)^4 + b(2+i)^3 + c(2+i)^2 + b(2+i) + a = 0,$$where $a,b,c$ are integers whose greatest common divisor is $1$.  Determine $|c|$.

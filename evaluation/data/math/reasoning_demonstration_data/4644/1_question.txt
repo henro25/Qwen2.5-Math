@@ -1,0 +1,1 @@
+Problem: Complex numbers $a,$ $b,$ $c$ form an equilateral triangle with side length 18 in the complex plane.  If $|a + b + c| = 36,$ find $|ab + ac + bc|.$

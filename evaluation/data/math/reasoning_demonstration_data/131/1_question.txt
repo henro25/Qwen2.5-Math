@@ -1,0 +1,1 @@
+Problem: In how many ways can four people line up in a straight line if the youngest person cannot be first in line?

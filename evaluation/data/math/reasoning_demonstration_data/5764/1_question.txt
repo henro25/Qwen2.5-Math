@@ -1,0 +1,1 @@
+Problem: At what point does the line containing the points $(1, 7)$ and $(3, 11)$ intersect the $y$-axis? Express your answer as an ordered pair.

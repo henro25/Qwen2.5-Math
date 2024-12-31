@@ -1,0 +1,1 @@
+Problem: How many positive integers less than $555$ are either a perfect cube or a perfect square?

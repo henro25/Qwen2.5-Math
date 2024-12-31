@@ -1,0 +1,2 @@
+Problem: Let $f(x)$ be a function such that $f(0) = 1$ and
+\[f(xy) = f \left( \frac{x^2 + y^2}{2} \right) + (x - y)^2\]for all real numbers $x$ and $y.$  Find $f(x).$

@@ -1,0 +1,4 @@
+Problem: Ice-cream-o-rama is eager to advertise how many flavors it has. But it really only has three basic flavors: chocolate, vanilla, and strawberry. However, they can make "new" flavors by taking four scoops of ice cream of those basic flavors and blending them together. Different proportions of the basic flavors give different new flavors.
+
+How many total flavors can Ice-cream-o-rama create by combining four scoops?
+(Note that every possible way of combining four scoops counts as a "flavor;" even, for example, chocolate-chocolate-chocolate-chocolate.)

@@ -1,0 +1,1 @@
+Problem: Find all solutions to the equation $\displaystyle\sqrt[3]{3 - x} = -\frac{3}{2}$.

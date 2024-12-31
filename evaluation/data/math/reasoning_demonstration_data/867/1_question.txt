@@ -1,0 +1,1 @@
+Problem: The graph of the line $x+y=b$ intersects the line segment from $(2,5)$ to $(4,9)$ at its midpoint. What is the value of $b$?

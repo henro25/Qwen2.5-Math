@@ -1,0 +1,1 @@
+Problem: Let $x$ be an angle such that $\tan x = \frac{a}{b}$ and $\tan 2x = \frac{b}{a + b}.$  Then the least positive value of $x$ equals $\tan^{-1} k.$  Compute $k.$

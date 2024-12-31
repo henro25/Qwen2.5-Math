@@ -1,0 +1,1 @@
+Problem: If $e^{i \alpha} + e^{i \beta} = \frac{1}{4} + \frac{3}{7} i,$ then find $e^{-i \alpha} + e^{-i \beta}.$

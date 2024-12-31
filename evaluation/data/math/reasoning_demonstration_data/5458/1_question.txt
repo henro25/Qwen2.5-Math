@@ -1,0 +1,41 @@
+Problem: In triangle $ABC$, angle $ACB$ is 50 degrees, and angle $CBA$ is 70 degrees.  Let $D$ be the foot of the perpendicular from $A$ to $BC$, $O$ the center of the circle circumscribed about triangle $ABC$, and $E$ the other end of the diameter which goes through $A$.  Find the angle $DAE$, in degrees.
+
+[asy]
+
+unitsize(1.5 cm);
+
+pair A, B, C, D, E, O;
+
+A = dir(90);
+
+B = dir(90 + 100);
+
+C = dir(90 - 140);
+
+D = (A + reflect(B,C)*(A))/2;
+
+E = -A;
+
+O = (0,0);
+
+draw(Circle(O,1));
+
+draw(A--B--C--cycle);
+
+draw(A--D);
+
+draw(A--E,dashed);
+
+label("$A$", A, N);
+
+label("$B$", B, W);
+
+label("$C$", C, SE);
+
+label("$D$", D, SW);
+
+label("$E$", E, S);
+
+dot("$O$", O, dir(0));
+
+[/asy]

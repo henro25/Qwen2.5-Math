@@ -1,0 +1,14 @@
+Problem: Two circles have the same center O. Point X is the midpoint of segment OP. What is the ratio of the area of the circle with radius OX to the area of the circle with radius OP? Express your answer as a common fraction.
+
+[asy]
+import graph;
+draw(Circle((0,0),20));
+draw(Circle((0,0),12));
+dot((0,0));
+dot((20,0));
+dot((12,0));
+draw((0,0)--(20,0));
+label("$O$",(0,0),SE);
+label("$P$",(20,0),E);
+label("$X$",(12,0),SE);
+[/asy]

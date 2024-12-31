@@ -1,0 +1,2 @@
+Problem: A sector with acute central angle $\theta$ is cut from a circle of radius 6. The radius of the circle circumscribed about the sector is
+$\textbf{(A)}\ 3\cos\theta \qquad \textbf{(B)}\ 3\sec\theta \qquad \textbf{(C)}\ 3 \cos \frac12 \theta \qquad \textbf{(D)}\ 3 \sec \frac12 \theta \qquad \textbf{(E)}\ 3$

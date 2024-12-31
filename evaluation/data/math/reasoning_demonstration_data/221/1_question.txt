@@ -1,0 +1,1 @@
+Problem: What value of $x$ makes the equation below true: $$2x + 4 = |{-17 + 3}|$$

@@ -1,0 +1,1 @@
+Problem: Find the integer $n,$ $-90 \le n \le 90,$ such that $\sin n^\circ = \sin 604^\circ.$

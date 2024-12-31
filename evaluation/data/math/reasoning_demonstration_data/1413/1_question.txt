@@ -1,0 +1,1 @@
+Problem: Find $|3-2i|\cdot |3+2i|$.

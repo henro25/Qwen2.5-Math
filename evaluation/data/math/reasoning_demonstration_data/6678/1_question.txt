@@ -1,0 +1,1 @@
+Problem: Rationalize the denominator of $\frac{1+\sqrt{3}}{1-\sqrt{3}}$. When you write your answer in the form $A+B\sqrt{C}$, where $A$, $B$, and $C$ are integers, what is $ABC$?

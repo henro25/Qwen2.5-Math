@@ -1,0 +1,1 @@
+Problem: Solve for $y$: $3y+7y = 282-8(y-3)$.

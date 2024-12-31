@@ -1,0 +1,1 @@
+Problem: What is the remainder when $3x^7-x^6-7x^5+2x^3+4x^2-11$ is divided by $2x-4$?

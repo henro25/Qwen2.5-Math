@@ -1,0 +1,1 @@
+Problem: What is the smallest positive value of $x$ such that $x + 5678$ results in a palindrome?

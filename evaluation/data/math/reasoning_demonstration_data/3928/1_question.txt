@@ -1,0 +1,2 @@
+Problem: The matrix for reflecting over a certain line $\ell,$ which passes through the origin, is given by
+\[\begin{pmatrix} \frac{7}{25} & -\frac{24}{25} \\ -\frac{24}{25} & -\frac{7}{25} \end{pmatrix}.\]Find the direction vector of line $\ell.$  Enter your answer in the form $\begin{pmatrix} a \\ b \end{pmatrix},$ where $a,$ and $b$ are integers, $a > 0,$ and $\gcd(|a|,|b|) = 1.$

@@ -1,0 +1,2 @@
+Problem: Let $x,$ $y,$ $z$ be real numbers such that $-1 < x,$ $y,$ $z < 1.$  Find the minimum value of
+\[\frac{1}{(1 - x)(1 - y)(1 - z)} + \frac{1}{(1 + x)(1 + y)(1 + z)}.\]

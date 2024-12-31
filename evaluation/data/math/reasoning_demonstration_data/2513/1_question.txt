@@ -1,0 +1,1 @@
+Problem: Compute $\tan 60^\circ$.

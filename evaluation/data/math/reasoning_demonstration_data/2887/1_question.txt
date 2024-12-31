@@ -1,0 +1,1 @@
+Problem: Suppose that  $a$ and $b$ are digits, not both nine and not both zero, and the repeating decimal  $0.\overline{ab}$ is expressed as a fraction in lowest terms. How many different denominators are possible?

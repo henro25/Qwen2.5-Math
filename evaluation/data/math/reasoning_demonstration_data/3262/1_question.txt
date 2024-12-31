@@ -1,0 +1,1 @@
+Problem: The expression $y^2+10y+33$ can be written as a combination of a square of a binomial and an integer. Find the integer.

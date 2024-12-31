@@ -1,0 +1,1 @@
+Problem: A motel bills its customers by charging a flat fee for the first night and then adding on a fixed amount for every night thereafter. If it costs George $\$155$ to stay in the motel for 3 nights and Noah $\$290$ to stay in the motel for 6 nights, how much is the flat fee for the first night?

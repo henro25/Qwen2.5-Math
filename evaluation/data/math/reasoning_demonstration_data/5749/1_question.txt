@@ -1,0 +1,1 @@
+Problem: Let $f_{1}(x)=\sqrt{1-x}$, and for integers $n \geq 2$, let \[f_{n}(x)=f_{n-1}\left(\sqrt{n^2 - x}\right).\]Let $N$ be the largest value of $n$ for which the domain of $f_n$ is nonempty. For this value of $N,$ the domain of $f_N$ consists of a single point $\{c\}.$ Compute $c.$

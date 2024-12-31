@@ -1,0 +1,1 @@
+Problem: The value of $y$ varies inversely as $\sqrt x$ and when $x=2$, $y=4$. What is $x$ when $y=1$?

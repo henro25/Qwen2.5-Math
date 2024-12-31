@@ -1,0 +1,2 @@
+Problem: Find all the integer roots of
+\[x^3 - 3x^2 - 13x + 15 = 0.\]Enter all the integer roots, separated by commas.

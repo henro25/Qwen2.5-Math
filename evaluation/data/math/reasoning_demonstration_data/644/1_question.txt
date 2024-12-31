@@ -1,0 +1,1 @@
+Problem: The operation $\star$ is defined as $a \star b = a^2 \div b$. For how many integer values of $x$ will the value of $10 \star x$ be a positive integer?

@@ -1,0 +1,1 @@
+Problem: The sum of the terms in an infinite geometric series is 15, and the sum of their squares is 45.  Find the first term.

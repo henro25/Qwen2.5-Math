@@ -1,0 +1,1 @@
+Problem: The points $(9, -5)$ and $(-3, -1)$ are the endpoints of a diameter of a circle. What is the sum of the coordinates of the center of the circle?

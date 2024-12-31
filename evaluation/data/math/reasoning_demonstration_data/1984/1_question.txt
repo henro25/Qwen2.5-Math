@@ -1,0 +1,1 @@
+Problem: A floor 9 feet by 12 feet, is to be tiled with 4-inch-by-6-inch tiles. How many tiles are needed to cover the floor?

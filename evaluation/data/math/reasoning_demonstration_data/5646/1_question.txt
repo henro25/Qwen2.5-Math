@@ -1,0 +1,1 @@
+Problem: The point with coordinates $(6,-10)$ is the midpoint of the segment with one endpoint at $(8,0)$. Find the sum of the coordinates of the other endpoint.

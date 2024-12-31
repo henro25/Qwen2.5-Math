@@ -1,0 +1,1 @@
+Problem: Let $r,$ $s,$ $t$ be the roots of $2x^3 - 7x^2 - 6 = 0.$  Find $rst.$

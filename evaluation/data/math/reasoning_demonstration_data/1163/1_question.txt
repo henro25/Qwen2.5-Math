@@ -1,0 +1,1 @@
+Problem: Stephan has been busy at work writing all the possible rearrangements of the letters in his name. He is one bored boy. If he can write twelve rearrangements of his name every minute, how many hours does it take to write all the possible rearrangements of his name?

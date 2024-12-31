@@ -1,0 +1,1 @@
+Problem: If $x+y=\frac{7}{13}$ and $x-y=\frac{1}{91}$, what is the value of $x^2-y^2$? Express your answer as a common fraction.

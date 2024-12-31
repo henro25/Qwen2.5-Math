@@ -1,0 +1,2 @@
+Problem: A parabola has focus $(3,3)$ and directrix $3x + 7y = 21.$  Express the equation of the parabola in the form
+\[ax^2 + bxy + cy^2 + dx + ey + f = 0,\]where $a,$ $b,$ $c,$ $d,$ $e,$ $f$ are integers, $a$ is a positive integer, and $\gcd(|a|,|b|,|c|,|d|,|e|,|f|) = 1.$

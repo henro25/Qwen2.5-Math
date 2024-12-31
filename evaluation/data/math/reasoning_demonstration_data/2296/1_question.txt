@@ -1,0 +1,1 @@
+Problem: In a kennel with 60 dogs, 9 dogs like watermelon, 48 dogs like salmon, and 5 like both salmon and watermelon.  How many dogs in the kennel will not eat either?

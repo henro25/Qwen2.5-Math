@@ -1,0 +1,1 @@
+Problem: If $x + 2y= 4$ and $xy = -8$, what is the value of $x^2 + 4y^2$?

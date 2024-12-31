@@ -1,0 +1,13 @@
+Problem: Find the number of triples $(x,y,z)$ of real numbers that satisfy
+\begin{align*}
+x &= 2018 - 2019 \operatorname{sign}(y + z), \\
+y &= 2018 - 2019 \operatorname{sign}(x + z), \\
+z &= 2018 - 2019 \operatorname{sign}(x + y).
+\end{align*}Note: For a real number $a,$
+\[\operatorname{sign} (a) = \left\{
+\begin{array}{cl}
+1 & \text{if $a > 0$}, \\
+0 & \text{if $a = 0$}, \\
+-1 & \text{if $a < 0$}.
+\end{array}
+\right.\]

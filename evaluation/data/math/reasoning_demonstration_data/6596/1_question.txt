@@ -1,0 +1,1 @@
+Problem: Find the domain of the rational function $g(x) = \frac{x^3-2x^2+4x+3}{x^2-4x+3}$. Express your answer as a union of intervals.

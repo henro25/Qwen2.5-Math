@@ -1,0 +1,1 @@
+Problem: What is the second number in the row of Pascal's triangle that has 43 numbers?

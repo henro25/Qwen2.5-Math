@@ -1,0 +1,14 @@
+Problem: In triangle $ABC$, $AB = 5$, $BC = 4$, and $CA = 3$.
+
+[asy]
+defaultpen(1);
+
+pair C=(0,0), A = (0,3), B = (4,0);
+draw(A--B--C--cycle);
+
+label("\(A\)",A,N);
+label("\(B\)",B,E);
+label("\(C\)",C,SW);
+[/asy]
+
+Point $P$ is randomly selected inside triangle $ABC$.  What is the probability that $P$ is closer to $C$ than it is to either $A$ or $B$?

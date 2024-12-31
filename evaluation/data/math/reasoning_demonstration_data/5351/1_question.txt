@@ -1,0 +1,1 @@
+Problem: Solve for $x$: $2^{x-3}=4^{x+1}$

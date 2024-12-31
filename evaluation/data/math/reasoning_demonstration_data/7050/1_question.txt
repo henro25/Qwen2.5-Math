@@ -1,0 +1,1 @@
+Problem: What is the probability that when we roll four fair 6-sided dice, they won't all show the same number?

@@ -1,0 +1,1 @@
+Problem: A sphere is inscribed in a cube. What is the ratio of the volume of the inscribed sphere to the volume of the cube? Express your answer as a common fraction in terms of $\pi$.

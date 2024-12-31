@@ -1,0 +1,1 @@
+Problem: Angela has $a$ marbles, Brian has twice as many marbles as Angela, Caden has three times as many marbles as Brian, and Daryl has five times the number of marbles Caden has. If in total Angela, Brian, Caden and Daryl have 78 marbles, what is the value of $a?$

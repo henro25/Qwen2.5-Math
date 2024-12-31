@@ -1,0 +1,2 @@
+Problem: Find the minimum value of
+\[4x + \frac{1}{x^4}\]for $x > 0.$

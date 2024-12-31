@@ -1,0 +1,8 @@
+Problem: In the diagram, $\angle PQR=\angle PRQ$.  If $QR=5$ and $PR=7$, what is the perimeter of $\triangle PQR$? [asy]
+draw((0,0)--(2.5,7.43)--(5,0)--cycle);
+label("5",(2.5,0),S);
+label("$Q$",(0,0),SW);
+label("$R$",(5,0),SE);
+label("$P$",(2.5,7.43),N);
+label("7",(4.2,3.7));
+[/asy]

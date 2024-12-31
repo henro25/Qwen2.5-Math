@@ -1,0 +1,4 @@
+Problem: The function $f(x)$ satisfies
+\[f(x + y) = f(x) f(y)\]for all real numbers $x$ and $y.$  Find all possible values of $f(0).$
+
+Enter all the possible values, separated by commas.

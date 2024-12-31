@@ -1,0 +1,2 @@
+Problem: The line $y = \frac{3x - 5}{4}$ is parameterized in the form
+\[\begin{pmatrix} x \\ y \end{pmatrix} = \mathbf{v} + t \mathbf{d},\]so that for $x \ge 3,$ the distance between $\begin{pmatrix} x \\ y \end{pmatrix}$ and $\begin{pmatrix} 3 \\ 1 \end{pmatrix}$ is $t.$  Find $\mathbf{d}.$

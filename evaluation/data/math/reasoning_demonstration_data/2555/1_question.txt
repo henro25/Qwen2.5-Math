@@ -1,0 +1,1 @@
+Problem: Suppose that $a^2$ varies inversely with $b^3$. If $a=7$ when $b=3$, find the value of $a^2$ when $b=6$.

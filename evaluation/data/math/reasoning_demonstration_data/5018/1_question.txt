@@ -1,0 +1,1 @@
+Problem: What is the smallest positive integer $n$ such that $3n \equiv 1356 \pmod{22}?$

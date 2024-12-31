@@ -1,0 +1,8 @@
+Problem: Given that
+
+\begin{align*}
+\frac{1}{x}+\frac{1}{y}&=3,\\
+xy+x+y&=4,
+\end{align*}
+
+compute $x^2y+xy^2$.

@@ -1,0 +1,32 @@
+Problem: The graph of the rational function $\frac{1}{q(x)}$ is shown below. If $q(x)$ is a quadratic and $q(2) = 6$, find $q(x).$
+
+[asy]
+size(8cm);
+import graph;
+
+Label f; 
+f.p=fontsize(6); 
+
+real f(real x) {return 1/(2*(x+1)*(x-1));}
+
+int gridsize = 5;
+draw((-gridsize,0)--(gridsize,0), black+1bp, Arrows(8));
+draw((0,-gridsize)--(0, gridsize), black+1bp, Arrows(8));
+label("$x$", (gridsize, 0), E);
+label("$y$", (0, gridsize), N);
+label("$0$", (0,0),SE, p=fontsize(8pt));
+for (int i=-gridsize+1; i<0; ++i){
+    label("$"+string(i)+"$",(i,0),S, p=fontsize(8pt));
+    label("$"+string(i)+"$",(0,i),E, p=fontsize(8pt));}
+for (int i=1; i<=gridsize-1; ++i){
+    label("$"+string(i)+"$",(i,0),S, p=fontsize(8pt));
+    label("$"+string(i)+"$",(0,i),E, p=fontsize(8pt));}
+
+
+
+draw(graph(f,-5,-1.05));
+draw(graph(f,-.95,.95));
+draw(graph(f,1.05,5));
+draw((-1,-5)--(-1,5), dashed);
+draw((1,-5)--(1,5), dashed);
+[/asy]

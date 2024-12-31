@@ -1,0 +1,19 @@
+Problem: In the figure below, the largest circle has a radius of six meters. Five congruent smaller circles are placed as shown and are lined up in east-to-west and north-to-south orientations. What is the radius in meters of one of the five smaller circles?
+
+[asy]
+
+size(3cm,3cm);
+
+draw(Circle((0,0),1));
+
+draw(Circle((0,2),1));
+
+draw(Circle((0,-2),1));
+
+draw(Circle((2,0),1));
+
+draw(Circle((-2,0),1));
+
+draw(Circle((0,0),3));
+
+[/asy]

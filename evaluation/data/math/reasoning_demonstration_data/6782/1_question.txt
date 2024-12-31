@@ -1,0 +1,1 @@
+Problem: For what value of $x$ is the expression $\frac{2x^3+3}{x^2-20x+100}$ not defined?

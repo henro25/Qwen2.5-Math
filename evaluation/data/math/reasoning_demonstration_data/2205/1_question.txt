@@ -1,0 +1,6 @@
+Problem: \begin{align*}
+2a + 3b + 5c + 7d &= 34 \\
+3(d+c) &= b \\
+3b + c &= a \\
+c - 1 &= d \\
+\end{align*} Given the above system of equations, find $a \cdot b \cdot c \cdot d$.

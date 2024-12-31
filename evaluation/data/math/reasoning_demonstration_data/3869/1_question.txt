@@ -1,0 +1,1 @@
+Problem: What is the minimum value of $y$ if $y=3x^2+6x+9?$

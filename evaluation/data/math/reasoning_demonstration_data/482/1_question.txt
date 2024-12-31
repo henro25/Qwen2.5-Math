@@ -1,0 +1,1 @@
+Problem: Find the product of all constants $t$ such that the quadratic $x^2 + tx - 10$ can be factored in the form $(x+a)(x+b)$, where $a$ and $b$ are integers.

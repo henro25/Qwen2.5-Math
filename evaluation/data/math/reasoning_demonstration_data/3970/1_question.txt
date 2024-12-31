@@ -1,0 +1,1 @@
+Problem: The functions $f(x) = x^2-2x + m$ and $g(x) = x^2-2x + 4m$ are evaluated when $x = 4$. What is the value of $m$ if $2f(4) = g(4)$?

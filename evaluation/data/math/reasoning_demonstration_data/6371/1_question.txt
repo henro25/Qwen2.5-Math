@@ -1,0 +1,1 @@
+Problem: Let $\mathbf{a}$ and $\mathbf{b}$ be vectors such that $\|\mathbf{a}\| = 2,$ $\|\mathbf{b}\| = 5,$ and $\|\mathbf{a} \times \mathbf{b}\| = 8.$  Find $|\mathbf{a} \cdot \mathbf{b}|.$

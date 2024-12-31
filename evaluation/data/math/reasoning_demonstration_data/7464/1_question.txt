@@ -1,0 +1,7 @@
+Problem: If $z$ is a complex number such that
+\[
+  z + z^{-1} = \sqrt{3},
+\]what is the value of
+\[
+  z^{2010} + z^{-2010} \, ? 
+\]

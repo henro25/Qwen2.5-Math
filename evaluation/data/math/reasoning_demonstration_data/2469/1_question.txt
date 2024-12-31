@@ -1,0 +1,1 @@
+Problem: Find the range of the function \[g(t) = \frac{t^2+\tfrac34 t}{t^2+1},\]where $t$ can be any real number. (Give your answer in interval notation.)

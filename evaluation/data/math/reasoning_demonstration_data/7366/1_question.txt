@@ -1,0 +1,1 @@
+Problem: The average of four different positive whole numbers is $4.$ If the difference between the largest and smallest of these numbers is as large as possible, what is the average of the other two numbers?

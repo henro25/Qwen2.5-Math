@@ -1,0 +1,1 @@
+Problem: A book with 53 pages numbered 1 to 53 has its pages renumbered in reverse, from 53 to 1. For how many pages do the new page number and old page number share the same units digit?

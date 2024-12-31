@@ -1,0 +1,1 @@
+Problem: A stack of logs has 12 logs on the bottom row, and one less in each successive row, ending with three logs at the top. How many logs are in the stack?

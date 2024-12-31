@@ -1,0 +1,1 @@
+Problem: Simplify $\displaystyle\frac{2+2i}{-3+4i}$.  Express your answer as a complex number in the form $a+bi$, where $a$ and $b$ are real numbers.

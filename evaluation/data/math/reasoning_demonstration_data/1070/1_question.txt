@@ -1,0 +1,1 @@
+Problem: A certain point has rectangular coordinates $(10,3)$ and polar coordinates $(r, \theta).$  What are the rectangular coordinates of the point with polar coordinates $(r^2, 2 \theta)$?

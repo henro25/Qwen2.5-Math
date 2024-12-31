@@ -1,0 +1,2 @@
+Problem: Let $x,$ $y,$ and $z$ be nonnegative real numbers such that $x + y + z = 2.$  Find the maximum value of
+\[(x^2 - xy + y^2)(x^2 - xz + z^2)(y^2 - yz + z^2).\]

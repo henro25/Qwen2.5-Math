@@ -1,0 +1,1 @@
+Problem: The value of the expression  \[(2^{1004}+5^{1005})^2-(2^{1004}-5^{1005})^2\]is $k\cdot10^{1004}$ for some positive integer $k$. What is $k$?

@@ -1,0 +1,15 @@
+Problem: The line $y=-\frac{3}{4}x+9$ crosses the $x$-axis at $P$ and the $y$-axis at $Q$.  Point $T(r,s)$ is on line segment $PQ$.  If the area of $\triangle POQ$ is three times the area of $\triangle TOP$, then what is the value of $r+s$? [asy]
+
+// draw axes
+draw((-3, 0)--(15, 0), Arrow); draw((0, -3)--(0, 15), Arrow);
+label("$y$", (0, 15), N); label("$x$", (15, 0), E);
+
+// draw line and T dot
+draw((-1, 9 + 3/4)--(40/3, -1));
+dot((8, 3));
+
+// Add labels
+label("$O$", (0, 0), SW); label("$Q$", (0, 9), NE); label("$P$", (12, 0), NE);
+label("$T(r, s)$", (8, 3), NE);
+
+[/asy]

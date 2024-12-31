@@ -1,0 +1,1 @@
+Problem: The positive integer divisors of 175, except 1, are arranged around a circle so that every pair of adjacent integers has a common factor greater than 1. What is the sum of the two integers adjacent to 7?

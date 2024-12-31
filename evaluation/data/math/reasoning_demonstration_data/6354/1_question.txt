@@ -1,0 +1,2 @@
+Problem: A regular octahedron is formed by joining the centers of adjoining faces of a cube. The ratio of the volume of the octahedron to the volume of the cube is
+$\mathrm{(A) \frac{\sqrt{3}}{12} } \qquad \mathrm{(B) \frac{\sqrt{6}}{16} } \qquad \mathrm{(C) \frac{1}{6} } \qquad \mathrm{(D) \frac{\sqrt{2}}{8} } \qquad \mathrm{(E) \frac{1}{4} }$

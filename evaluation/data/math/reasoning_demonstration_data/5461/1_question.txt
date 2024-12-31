@@ -1,0 +1,2 @@
+Problem: Let
+\[f(x) = \frac{2x + 3}{kx - 2}.\]Find all real numbers $k$ so that $f^{-1}(x) = f(x).$

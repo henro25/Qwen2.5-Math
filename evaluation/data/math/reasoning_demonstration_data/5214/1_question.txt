@@ -1,0 +1,1 @@
+Problem: Solve for $n$: $2^n\cdot 4^n=64^{n-36}$.

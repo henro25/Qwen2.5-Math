@@ -1,0 +1,1 @@
+Problem: How many three-digit positive integers exist, all of whose digits are 2's and/or 5's?

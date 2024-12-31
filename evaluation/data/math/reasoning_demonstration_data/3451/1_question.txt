@@ -1,0 +1,2 @@
+Problem: Let $\mathbf{M} = \begin{pmatrix} 2 & 7 \\ -3 & -1 \end{pmatrix}.$  There exist scalars $p$ and $q$ such that
+\[\mathbf{M}^2 = p \mathbf{M} + q \mathbf{I}.\]Enter the ordered pair $(p,q).$

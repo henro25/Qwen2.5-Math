@@ -1,0 +1,2 @@
+Problem: The expression $\cos x + \cos 3x + \cos 7x + \cos 9x$ can be written in the equivalent form
+\[a \cos bx \cos cx \cos dx\]for some positive integers $a,$ $b,$ $c,$ and $d.$  Find $a + b + c + d.$

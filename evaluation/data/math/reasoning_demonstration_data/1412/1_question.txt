@@ -1,0 +1,1 @@
+Problem: Find the greatest common divisor of 9,009 and 14,014.

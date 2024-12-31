@@ -1,0 +1,2 @@
+Problem: Let $p(x) = x^{2008} + x^{2007} + x^{2006} + \cdots + x + 1,$
+and let $r(x)$ be the polynomial remainder when $p(x)$ is divided by $x^4+x^3+2x^2+x+1$. Find the remainder when $|r(2008)|$ is divided by $1000$.

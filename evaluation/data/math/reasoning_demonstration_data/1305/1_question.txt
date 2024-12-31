@@ -1,0 +1,57 @@
+Problem: $ABCDE$ is a regular pentagon.  $AP$, $AQ$ and $AR$ are the perpendiculars dropped from $A$ onto $CD$, $CB$ extended and $DE$ extended, respectively.  Let $O$ be the center of the pentagon.  If $OP = 1$, then find $AO + AQ + AR$.
+
+[asy]
+
+unitsize(2 cm);
+
+pair A, B, C, D, E, O, P, Q, R;
+
+A = dir(90);
+
+B = dir(90 - 360/5);
+
+C = dir(90 - 2*360/5);
+
+D = dir(90 - 3*360/5);
+
+E = dir(90 - 4*360/5);
+
+O = (0,0);
+
+P = (C + D)/2;
+
+Q = (A + reflect(B,C)*(A))/2;
+
+R = (A + reflect(D,E)*(A))/2;
+
+draw((2*R - E)--D--C--(2*Q - B));
+
+draw(A--P);
+
+draw(A--Q);
+
+draw(A--R);
+
+draw(B--A--E);
+
+label("$A$", A, N);
+
+label("$B$", B, dir(0));
+
+label("$C$", C, SE);
+
+label("$D$", D, SW);
+
+label("$E$", E, W);
+
+dot("$O$", O, dir(0));
+
+label("$P$", P, S);
+
+label("$Q$", Q, dir(0));
+
+label("$R$", R, W);
+
+label("$1$", (O + P)/2, dir(0));
+
+[/asy]

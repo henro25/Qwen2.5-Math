@@ -1,0 +1,2 @@
+Problem: In a triangle, the area is numerically equal to the perimeter. What is the radius of the inscribed circle?
+$\text{(A) } 2\quad \text{(B) } 3\quad \text{(C) } 4\quad \text{(D) } 5\quad \text{(E) } 6$

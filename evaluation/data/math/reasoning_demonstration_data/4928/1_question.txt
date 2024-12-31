@@ -1,0 +1,1 @@
+Problem: How many combinations of pennies (1 cent), nickels (5 cents) and/or dimes (10 cents) are there with a total value of 25 cents?

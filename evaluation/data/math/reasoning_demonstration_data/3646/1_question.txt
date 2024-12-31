@@ -1,0 +1,1 @@
+Problem: A ''super ball'' is dropped from a window 16 meters above the ground. On each bounce it rises $\frac34$ the distance of the preceding high point. The ball is caught when it reached the high point after hitting the ground for the third time. To the nearest meter, how far has it travelled?

@@ -1,0 +1,1 @@
+Problem: Let $f(x) = \displaystyle \frac{1}{ax+b}$ where $a$ and $b$ are nonzero constants. Find all solutions to $f^{-1}(x) = 0$. Express your answer in terms of $a$ and/or $b$.

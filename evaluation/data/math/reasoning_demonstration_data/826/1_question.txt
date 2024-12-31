@@ -1,0 +1,1 @@
+Problem: If the roots of the quadratic equation $\frac32x^2+11x+c=0$ are $x=\frac{-11\pm\sqrt{7}}{3}$, then what is the value of $c$?

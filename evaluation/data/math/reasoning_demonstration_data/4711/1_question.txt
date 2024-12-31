@@ -1,0 +1,1 @@
+Problem: The lines $y=5x+3$, $y=-2x-25$ and $y=3x+k$ intersect at the same point. What is the value of $k$?

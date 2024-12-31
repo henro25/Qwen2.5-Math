@@ -1,0 +1,1 @@
+Problem: How many positive perfect square integers are factors of the product $\left(2^{10}\right)\left(3^{12}\right)\left(5^{15}\right)$?

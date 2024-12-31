@@ -1,0 +1,1 @@
+Problem: The sum $10 e^{2 \pi i/11} + 10 e^{15 \pi i/22}$ is expressed as $re^{i \theta}.$  Enter the ordered pair $(r, \theta).$

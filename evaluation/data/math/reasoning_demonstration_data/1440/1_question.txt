@@ -1,0 +1,1 @@
+Problem: The ellipse $x^2+4y^2=4$ and the hyperbola $x^2-m(y+2)^2 = 1$ are tangent. Compute $m.$

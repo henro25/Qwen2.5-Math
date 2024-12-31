@@ -1,0 +1,1 @@
+Problem: If $\left( r + \frac{1}{r} \right)^2 = 3,$ then find $r^3 + \frac{1}{r^3}.$

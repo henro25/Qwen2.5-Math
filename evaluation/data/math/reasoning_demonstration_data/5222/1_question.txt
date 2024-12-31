@@ -1,0 +1,24 @@
+Problem: An acute isosceles triangle, $ABC$, is inscribed in a circle.  Through $B$ and $C$, tangents to the circle are drawn, meeting at point $D$.  If $\angle ABC = \angle ACB = 2 \angle D$ and $\angle BAC = k \pi$ in radians, then find $k$.
+
+[asy]
+import graph;
+
+unitsize(2 cm);
+
+pair O, A, B, C, D;
+
+O = (0,0);
+A = dir(90);
+B = dir(-30);
+C = dir(210);
+D = extension(B, B + rotate(90)*(B), C, C + rotate(90)*(C));
+
+draw(Circle(O,1));
+draw(A--B--C--cycle);
+draw(B--D--C);
+
+label("$A$", A, N);
+label("$B$", B, SE);
+label("$C$", C, SW);
+label("$D$", D, S);
+[/asy]

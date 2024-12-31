@@ -1,0 +1,1 @@
+Problem: The sum of all the positive factors of integer $x$ is 24. If one of the factors is 3, what is the value of $x$?

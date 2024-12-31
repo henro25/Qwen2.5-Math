@@ -1,0 +1,1 @@
+Problem: Define the operation $\S$ as follows: $a\,\S\, b=3a+5b$. What is the value of $7\,\S\,2$?

@@ -1,0 +1,1 @@
+Problem: Given vectors $\mathbf{a}$ and $\mathbf{b}$ such that $\|\mathbf{a}\| = 6,$ $\|\mathbf{b}\| = 8,$ and $\|\mathbf{a} + \mathbf{b}\| = 11.$  Find $\cos \theta,$ where $\theta$ is the angle between $\mathbf{a}$ and $\mathbf{b}.$

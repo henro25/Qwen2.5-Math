@@ -1,0 +1,1 @@
+Problem: How many more digits does the base-3 representation of $987_{10}$ have than the base-8 representation of $987_{10}$?

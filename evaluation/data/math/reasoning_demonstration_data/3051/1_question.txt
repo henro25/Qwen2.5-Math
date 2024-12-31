@@ -1,0 +1,1 @@
+Problem: Triangle $ABC$ is an isosceles right triangle with the measure of angle $A$ equal to 90 degrees. The length of segment $AC$ is 6 cm. What is the area of triangle $ABC$, in square centimeters?

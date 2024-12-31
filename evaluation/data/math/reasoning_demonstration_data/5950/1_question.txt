@@ -1,0 +1,1 @@
+Problem: What is the sum of all positive integers $n$ that satisfy $$\mathop{\text{lcm}}[n,100] = \gcd(n,100)+450~?$$

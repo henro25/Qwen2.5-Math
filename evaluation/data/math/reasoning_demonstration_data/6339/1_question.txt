@@ -1,0 +1,1 @@
+Problem: The roots of the equation $x^2+kx+5 = 0$ differ by $\sqrt{61}$. Find the greatest possible value of $k$.

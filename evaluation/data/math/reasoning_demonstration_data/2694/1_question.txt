@@ -1,0 +1,1 @@
+Problem: In convex pentagon $ABCDE$, angles $A$, $B$ and $C$ are congruent and angles $D$ and $E$ are congruent. If the measure of angle $A$ is 40 degrees less than the measure of angle $D$, what is the measure of angle $D$?

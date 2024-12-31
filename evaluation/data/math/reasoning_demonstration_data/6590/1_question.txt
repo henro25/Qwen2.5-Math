@@ -1,0 +1,14 @@
+Problem: Point $D$ is on side $AC$ of triangle $ABC$, $\angle ABD=15^{\circ}$ and  $\angle DBC=50^{\circ}$. What is the measure of angle $BAD$, in degrees?
+
+[asy]draw((-43,0)--(43,0)--(43,40)--cycle);
+draw((-4,0)--(43,40));
+draw((39,4)--(39,0));
+draw((39,4)--(43,4));
+draw((-1,36)--(22.5,26),Arrow);
+label("$15^{\circ}$",(-1,36),W);
+label("$50^{\circ}$",(36,30),S);
+label("D",(-4,0),S);
+label("A",(-43,0),W);
+label("B",(43,40),N);
+label("C",(43,0),E);
+[/asy]

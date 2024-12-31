@@ -1,0 +1,2 @@
+Problem: The function $f(x)$ satisfies
+\[f(xy) = xf(y)\]for all real numbers $x$ and $y.$  If $f(1) = 25,$ find $f(79).$

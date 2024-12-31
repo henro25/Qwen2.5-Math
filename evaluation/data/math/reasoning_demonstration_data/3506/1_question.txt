@@ -1,0 +1,1 @@
+Problem: Given that $x$ is a multiple of $23478$, what is the greatest common divisor of $f(x)=(2x+3)(7x+2)(13x+7)(x+13)$ and $x$?

@@ -1,0 +1,1 @@
+Problem: The slope of a line is $-2$ and its $x$-intercept is $(5,0).$ What is the $y$-intercept point of the line? Express your answer as an ordered pair.

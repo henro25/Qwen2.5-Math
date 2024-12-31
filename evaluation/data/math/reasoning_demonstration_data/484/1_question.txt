@@ -1,0 +1,19 @@
+Problem: Which of the following functions have inverses?  Note that the domain of each function is also given.
+
+A. $a(x) = \sqrt{2 - x},$ $x \in (-\infty,2].$
+
+B. $b(x) = x^3 - x,$ $x \in \mathbb{R}.$
+
+C. $c(x) = x + \frac{1}{x},$ $x \in (0,\infty).$
+
+D. $d(x) = 2x^2 + 4x + 7,$ $x \in [0,\infty).$
+
+E. $e(x) = |x - 2| + |x + 3|,$ $x \in \mathbb{R}.$
+
+F. $f(x) = 3^x + 7^x,$ $x \in \mathbb{R}.$
+
+G. $g(x) = x - \frac{1}{x},$ $x \in (0,\infty).$
+
+H. $h(x) = \frac{x}{2},$ $x \in [-2,7).$
+
+Enter the letters of the functions that have inverses, separated by commas.  For example, if you think functions $b(x)$ and $e(x)$ have inverses, enter "B, E" without the quotation marks.

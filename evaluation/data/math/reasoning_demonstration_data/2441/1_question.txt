@@ -1,0 +1,1 @@
+Problem: The length of a rectangle is increased by $25\%$, but the width of the rectangle is decreased to keep the area of the rectangle  unchanged.  By what percent was the rectangle's width  decreased?

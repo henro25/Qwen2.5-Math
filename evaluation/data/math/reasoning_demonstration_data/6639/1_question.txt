@@ -1,0 +1,1 @@
+Problem: Given that 0.5 liters is approximately 1.05 pints, how many pints are in one liter? Express your answer as a decimal to the nearest tenth.

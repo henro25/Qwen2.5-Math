@@ -1,0 +1,1 @@
+Problem: Three of the four endpoints of the axes of an ellipse are, in some order, \[(-2, 4), \; (3, -2), \; (8, 4).\]Find the distance between the foci of the ellipse.

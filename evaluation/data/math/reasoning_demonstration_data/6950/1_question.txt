@@ -1,0 +1,1 @@
+Problem: Square $ABCD$ has side length $1$ unit.  Points $E$ and $F$ are on sides $AB$ and $CB$, respectively, with $AE = CF$.  When the square is folded along the lines $DE$ and $DF$, sides $AD$ and $CD$ coincide and lie on diagonal $BD$.  The length of segment $AE$ can be expressed in the form $\sqrt{k}-m$ units. What is the integer value of $k+m$?

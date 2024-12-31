@@ -1,0 +1,2 @@
+Problem: Solve
+\[(x - 3)^4 + (x - 5)^4 = -8.\]Enter all the solutions, separated by commas.

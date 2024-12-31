@@ -1,0 +1,3 @@
+Problem: Let $\mathbf{P}$ be the matrix for projecting onto the vector $\begin{pmatrix} -3 \\ -2 \end{pmatrix}.$  Find $\mathbf{P}^{-1}.$
+
+If the inverse does not exist, then enter the zero matrix.

@@ -1,0 +1,1 @@
+Problem: If $y = \displaystyle\frac{1}{3x+1}$, what is the value of $x$ when $y = 1$?

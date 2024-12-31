@@ -1,0 +1,1 @@
+Problem: What is the largest $4$ digit integer congruent to $15 \pmod{22}?$

@@ -1,0 +1,2 @@
+Problem: Let $x,$ $y,$ and $z$ be positive real numbers.  Find the minimum value of
+\[\frac{4z}{2x + y} + \frac{4x}{y + 2z} + \frac{y}{x + z}.\]

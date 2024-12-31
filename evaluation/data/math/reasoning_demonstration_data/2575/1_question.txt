@@ -1,0 +1,1 @@
+Problem: What is the value of the following expression: $1 - 4 + 7 - 10 + 13 - \cdots - 46 + 49 - 52 + 55$ ?

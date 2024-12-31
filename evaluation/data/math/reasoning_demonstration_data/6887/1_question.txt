@@ -1,0 +1,1 @@
+Problem: If the sum of the squares of nonnegative real numbers $a,b,$ and $c$ is $39$, and $ab + bc + ca = 21$, then what is the sum of $a,b,$ and $c$?

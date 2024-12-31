@@ -1,0 +1,2 @@
+Problem: Suppose that $(u_n)$ is a sequence of real numbers satisfying
+\[u_{n+2}=2u_{n+1}+u_n\]and that $u_3=9$ and $u_6=128$. What is $u_5$?

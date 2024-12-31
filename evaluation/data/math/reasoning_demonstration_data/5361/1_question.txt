@@ -1,0 +1,2 @@
+Problem: Find all real numbers $x$ such that
+\[\frac{8^x + 27^x}{12^x + 18^x} = \frac{7}{6}.\]Enter all the solutions, separated by commas.

@@ -1,0 +1,1 @@
+Problem: What is the smallest digit that is never found in the units place of an even number?

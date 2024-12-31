@@ -1,0 +1,1 @@
+Problem: If $p(x) = x^4 - 3x + 2$, then find the coefficient of the $x^3$ term in the polynomial $(p(x))^3$.

@@ -1,0 +1,3 @@
+Problem: Determine if the graph of the equation below is a parabola, circle, ellipse, hyperbola, point, line, two lines, or empty.
+
+$x^2 + 2y^2 - 6x - 8y + 21 = 0$

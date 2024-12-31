@@ -1,0 +1,1 @@
+Problem: Let $f(x) = x^2-3x$. For what values of $x$ is $f(f(x)) = f(x)$?  Enter all the solutions, separated by commas.

@@ -1,0 +1,1 @@
+Problem: In the equation $\frac{1}{j} + \frac{1}{k} = \frac{1}{3}$, both $j$ and $k$ are positive integers. What is the sum of all possible values for $k$?

@@ -1,0 +1,1 @@
+Problem: If $8 \tan \theta = 3 \cos \theta$ and $0 < \theta < \pi,$ then determine the value of $\sin \theta.$

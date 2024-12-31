@@ -1,0 +1,2 @@
+Problem: The equation $\sin^2 x + \sin^2 2x + \sin^2 3x + \sin^2 4x = 2$ can be reduced to the equivalent equation
+\[\cos ax \cos bx \cos cx = 0,\]for some positive integers $a,$ $b,$ and $c.$  Find $a + b + c.$

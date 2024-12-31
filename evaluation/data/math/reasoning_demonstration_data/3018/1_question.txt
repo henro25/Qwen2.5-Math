@@ -1,0 +1,1 @@
+Problem: The operation $\Diamond$ is defined by $a\Diamond b=ab^2-b+1$.  What is the value of $(-1)\Diamond 6$?

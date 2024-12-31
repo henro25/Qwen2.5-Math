@@ -1,0 +1,1 @@
+Problem: A sphere intersects the $xy$-plane in a circle centered at $(2,4,0)$ with radius 1.  The sphere also intersects the $yz$-plane in a circle centered at $(0,4,-7),$ with radius $r.$  Find $r.$

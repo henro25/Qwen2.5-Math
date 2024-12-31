@@ -1,0 +1,1 @@
+Problem: How many different four-digit numbers can be formed by arranging the four digits in 2004?

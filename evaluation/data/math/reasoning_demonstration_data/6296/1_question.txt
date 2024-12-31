@@ -1,0 +1,1 @@
+Problem: If $|x| + x + y = 10$ and $x + |y| - y = 12,$ find $x + y.$

@@ -1,0 +1,3 @@
+Problem: Is $f(x) = \log{x} $ an even function, odd function, or neither?
+
+Enter "odd", "even", or "neither".

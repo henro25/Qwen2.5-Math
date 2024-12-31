@@ -1,0 +1,4 @@
+Problem: Find the value of $a$ so that the lines with the given equations are perpendicular. \begin{align*}
+y &= 2x+13 \\
+6y+ax &= 6.
+\end{align*}

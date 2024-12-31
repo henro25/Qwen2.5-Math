@@ -1,0 +1,1 @@
+Problem: What is the sum of all the positive two-digit integers divisible by both the sum and product of their digits?

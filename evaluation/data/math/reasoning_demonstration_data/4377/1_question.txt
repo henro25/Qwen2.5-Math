@@ -1,0 +1,2 @@
+Problem: Find the smallest positive solution to
+\[\tan 2x + \tan 3x = \sec 3x\]in radians.

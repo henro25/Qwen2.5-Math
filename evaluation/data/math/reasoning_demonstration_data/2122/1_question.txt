@@ -1,0 +1,1 @@
+Problem: Suppose $z$ is a complex number such that $z^2 = 24-32i$.  Find $|z|$.

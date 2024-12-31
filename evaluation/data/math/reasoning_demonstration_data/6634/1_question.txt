@@ -1,0 +1,1 @@
+Problem: Side $AB$ of regular hexagon $ABCDEF$ is extended past $B$ to point $X$ such that $AX = 3AB$. Given that each side of the hexagon is $2$ units long, what is the length of segment $FX$? Express your answer in simplest radical form.

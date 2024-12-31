@@ -1,0 +1,1 @@
+Problem: Five couples were at a party. If each person shook hands exactly once with everyone else except his/her spouse, how many handshakes were exchanged? (Note: One obviously doesn't shake hands with oneself.)

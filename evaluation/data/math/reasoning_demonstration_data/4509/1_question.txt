@@ -1,0 +1,1 @@
+Problem: A pyramid is formed on a $6\times 8$ rectangular base. The four edges joining the apex to the corners of the rectangular base each have length $13$. What is the volume of the pyramid?

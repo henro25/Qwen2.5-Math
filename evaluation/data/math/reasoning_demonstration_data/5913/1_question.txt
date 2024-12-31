@@ -1,0 +1,2 @@
+Problem: Find the number of functions $f : \mathbb{R} \to \mathbb{R}$ such that
+\[f(x + f(y)) = x + y\]for all real numbers $x$ and $y.$

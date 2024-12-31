@@ -1,0 +1,1 @@
+Problem: If two distinct numbers are selected at random from the first seven prime numbers, what is the probability that their sum is an even number? Express your answer as a common fraction.

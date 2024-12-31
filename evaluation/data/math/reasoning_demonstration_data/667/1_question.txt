@@ -1,0 +1,1 @@
+Problem: Suppose that $n$ is a positive integer such that in base $7$, then $n$ can be expressed as $\overline{ABC}_7$, and in base $11$, then $n$ can be expressed as $\overline{CBA}_{11}$. Find the largest possible value of $n$ in base $10$.

@@ -1,0 +1,1 @@
+Problem: Both $a$ and $b$ are positive integers and $b > 1$. When $a^b$ is the greatest possible value less than 399, what is the sum of $a$ and $b$?

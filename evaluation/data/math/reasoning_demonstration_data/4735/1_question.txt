@@ -1,0 +1,4 @@
+Problem: Let $S$ be the set of all nonzero real numbers.  Let $f : S \to S$ be a function such that
+\[f(x) + f(y) = f(xyf(x +  y))\]for all $x,$ $y \in S$ such that $x + y \neq 0.$
+
+Let $n$ be the number of possible values of $f(4),$ and let $s$ be the sum of all possible values of $f(4).$  Find $n \times s.$

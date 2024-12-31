@@ -1,0 +1,1 @@
+Problem: Find the $y$-intercept point of the line $3x+5y=20$.  Provide your answer as an ordered pair.

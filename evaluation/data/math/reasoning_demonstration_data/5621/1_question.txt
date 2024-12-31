@@ -1,0 +1,1 @@
+Problem: Let $a$ and $b$ be relatively prime positive integers such that $\dfrac ab=\dfrac1{2^1}+\dfrac2{3^2}+\dfrac3{2^3}+\dfrac4{3^4}+\dfrac5{2^5}+\dfrac6{3^6}+\cdots$, where the numerators always increase by $1$, and the denominators alternate between powers of $2$ and $3$, with exponents also increasing by $1$ for each subsequent term. Compute $a+b$.

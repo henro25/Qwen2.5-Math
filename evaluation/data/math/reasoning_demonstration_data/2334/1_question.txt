@@ -1,0 +1,1 @@
+Problem: Let $a=\frac{3}{5}$ and let $b=\frac{2}{3}$. Compute $a^{2}b^{-3}.$

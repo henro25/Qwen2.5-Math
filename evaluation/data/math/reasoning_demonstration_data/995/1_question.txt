@@ -1,0 +1,1 @@
+Problem: Suppose we flip four coins simultaneously: a penny, a nickel, a dime, and a quarter.  What is the probability that the penny and nickel both come up heads?

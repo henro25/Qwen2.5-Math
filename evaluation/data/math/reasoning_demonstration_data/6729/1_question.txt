@@ -1,0 +1,1 @@
+Problem: One endpoint of a line segment is $(4,3)$ and its midpoint is $(2,9)$. What is the sum of the coordinates of the other endpoint?

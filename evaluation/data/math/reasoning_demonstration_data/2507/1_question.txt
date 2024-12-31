@@ -1,0 +1,1 @@
+Problem: How many $x$-intercepts does the graph of the parabola $x = -2y^2 + y + 1$ have?

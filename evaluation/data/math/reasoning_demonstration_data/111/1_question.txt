@@ -1,0 +1,1 @@
+Problem: For which positive integer values of $k$ does $kx^2+20x+k=0$ have rational solutions? Express your answers separated by commas and in increasing order.

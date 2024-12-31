@@ -1,0 +1,1 @@
+Problem: Let $A$ be the greatest common factor and let $B$ be the least common multiple of 8, 12 and 24. What is the value of $A + B$?

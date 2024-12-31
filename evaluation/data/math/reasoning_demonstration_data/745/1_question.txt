@@ -1,0 +1,10 @@
+Problem: Each vertex of this parallelogram has integer coordinates. The perimeter of this parallelogram is $p$ units, while the area is $a$ square units. What is the value of the sum $p + a$?
+
+[asy]
+size(5cm,5cm);
+draw((-2,0)--(11,0));
+draw((0,-1)--(0,6));
+draw((0,0)--(3,4)--(10,4)--(7,0)--cycle);
+label("$(3,4)$",(3,4),NW);
+label("$(7,0)$",(7,0),S);
+[/asy]

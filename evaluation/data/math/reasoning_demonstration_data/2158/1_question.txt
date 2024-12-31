@@ -1,0 +1,1 @@
+Problem: Factor $x^2+4x+4-81x^4$ into two quadratic polynomials with integer coefficients.  Submit your answer in the form $(ax^2+bx+c)(dx^2+ex+f)$, with $a<d$.

@@ -1,0 +1,1 @@
+Problem: If $\sqrt2 \sin 10^\circ$ can be written as $\cos \theta - \sin\theta$ for some acute angle $\theta,$ what is $\theta?$ (Give your answer in degrees, not radians.)

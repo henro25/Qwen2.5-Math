@@ -1,0 +1,2 @@
+Problem: The numbers $a_1,$ $a_2,$ $a_3,$ $b_1,$ $b_2,$ $b_3,$ $c_1,$ $c_2,$ $c_3$ are equal to the numbers $1,$ $2,$ $3,$ $\dots,$ $9$ in some order.  Find the smallest possible value of
+\[a_1 a_2 a_3 + b_1 b_2 b_3 + c_1 c_2 c_3.\]

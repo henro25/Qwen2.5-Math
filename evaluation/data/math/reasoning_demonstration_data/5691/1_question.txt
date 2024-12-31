@@ -1,0 +1,1 @@
+Problem: In order to compute the area of a particular circle, Juan first measures the length of its diameter. The actual diameter is 20 cm, but Juan's measurement has an error of up to $20\%$. What is the largest possible percent error, in percent, in Juan's computed area of the circle?

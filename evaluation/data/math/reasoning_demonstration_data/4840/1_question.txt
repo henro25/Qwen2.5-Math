@@ -1,0 +1,1 @@
+Problem: If $x$ is a real number and $x^2 = 16$, what is the sum of all possible values of $x$?

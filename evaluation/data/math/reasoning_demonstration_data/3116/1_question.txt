@@ -1,0 +1,2 @@
+Problem: Compute
+\[\sum_{j = 0}^\infty \sum_{k = 0}^\infty 2^{-3k - j - (k + j)^2}.\]

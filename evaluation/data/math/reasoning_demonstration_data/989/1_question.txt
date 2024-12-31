@@ -1,0 +1,2 @@
+Problem: Find $x$ if
+\[3 \arctan \frac{1}{4} + \arctan \frac{1}{20} + \arctan \frac{1}{x} = \frac{\pi}{4}.\]

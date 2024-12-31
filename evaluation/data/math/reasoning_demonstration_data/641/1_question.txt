@@ -1,0 +1,1 @@
+Problem: What is the remainder when the sum of the first 102 counting numbers is divided by 5250?  (The first counting number is 1.)

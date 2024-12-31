@@ -1,0 +1,1 @@
+Problem: How many interior diagonals does an icosahedron have?  (An $\emph{icosahedron}$ is a 3-dimensional figure with 20 triangular faces and 12 vertices, with 5 faces meeting at each vertex.  An $\emph{interior}$ diagonal is a segment connecting two vertices which do not lie on a common face.)

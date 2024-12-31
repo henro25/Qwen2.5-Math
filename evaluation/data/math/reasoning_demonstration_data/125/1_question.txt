@@ -1,0 +1,7 @@
+Problem: What is the value of $x$ in the plane figure shown?
+
+[asy]
+pair A;
+draw(dir(40)--A); draw(dir(200)--A); draw(dir(300)--A);
+label("$160^{\circ}$",A,dir(120)); label("$x^{\circ}$",A,dir(250)); label("$x^{\circ}$",A,dir(350));
+[/asy]

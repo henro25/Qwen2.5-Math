@@ -1,0 +1,1 @@
+Problem: Assume that $f$ and $g$ are functions for which $f^{-1}(g(x))=5x+3$.  Find $g^{-1}(f(-7))$.

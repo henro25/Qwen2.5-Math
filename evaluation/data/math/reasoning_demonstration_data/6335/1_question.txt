@@ -1,0 +1,1 @@
+Problem: What is the greatest number of points of intersection that can occur when $2$ different circles and $2$ different straight lines are drawn on the same piece of paper?

@@ -1,0 +1,1 @@
+Problem: I have three distinct mystery novels, three distinct fantasy novels, and three distinct biographies. I'm going on vacation, and I want to take two books of different genres. How many possible pairs can I choose?

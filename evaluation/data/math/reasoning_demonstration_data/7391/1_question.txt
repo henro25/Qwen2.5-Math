@@ -1,0 +1,1 @@
+Problem: An athlete's heart beats an average of 150 times per minute while running. How many times does the athlete's heart beat during a 26-mile race if the athlete runs at a pace of 5 minutes per mile?

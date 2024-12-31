@@ -1,0 +1,1 @@
+Problem: What is the smallest two-digit integer $n$ such that switching its digits and then adding 3 results in $2n$?

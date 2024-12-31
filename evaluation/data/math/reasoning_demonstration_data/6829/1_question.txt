@@ -1,0 +1,2 @@
+Problem: Let $x,$ $y,$ and $z$ be positive real numbers such that $x + y + z = 3.$  Find the minimum value of
+\[\frac{4}{x} + \frac{9}{y} + \frac{16}{z}.\]

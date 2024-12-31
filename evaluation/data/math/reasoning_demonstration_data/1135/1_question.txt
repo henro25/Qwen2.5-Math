@@ -1,0 +1,1 @@
+Problem: Andrew and John are both Beatles fans.  Their respective collections share nine of the same albums.  Andrew has seventeen albums in his collection.  Six albums are in John's collection, but not Andrew's.  How many albums are in either Andrew's or John's collection, but not both?

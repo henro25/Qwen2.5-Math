@@ -1,0 +1,2 @@
+Problem: Let $\mathbf{M}$ be a matrix, and let $\mathbf{v}$ and $\mathbf{w}$ be vectors, such that
+\[\mathbf{M} \mathbf{v} = \begin{pmatrix} 1 \\ -5 \end{pmatrix} \quad \text{and} \quad \mathbf{M} \mathbf{w} = \begin{pmatrix} 7 \\ 2 \end{pmatrix}.\]Compute $\mathbf{M} (-2 \mathbf{v} + \mathbf{w}).$

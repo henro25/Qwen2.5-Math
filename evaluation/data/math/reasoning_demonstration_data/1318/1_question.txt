@@ -1,0 +1,2 @@
+Problem: Let $r_1,$ $r_2,$ and $r_3$ be the roots of
+\[x^3 - 3x^2 + 8 = 0.\]Find the monic polynomial, in $x,$ whose roots are $2r_1,$ $2r_2,$ and $2r_3.$

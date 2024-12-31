@@ -1,0 +1,1 @@
+Problem: Find the remainder when $2x^6-x^4+4x^2-7$ is divided by $x^2+4x+3$.

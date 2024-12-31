@@ -1,0 +1,1 @@
+Problem: The graph of \[\sqrt{(x-1)^2+(y+2)^2} - \sqrt{(x-5)^2+(y+2)^2} = 3\]consists of one branch of a hyperbola. Compute the positive value for the slope of an asymptote of the hyperbola.

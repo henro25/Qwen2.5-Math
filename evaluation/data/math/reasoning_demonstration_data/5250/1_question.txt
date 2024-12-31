@@ -1,0 +1,1 @@
+Problem: We are given that $$54+(98\div14)+(23\cdot 17)-200-(312\div 6)=200.$$Now, let's remove the parentheses:  $$54+98\div14+23\cdot 17-200-312\div 6.$$What does this expression equal?

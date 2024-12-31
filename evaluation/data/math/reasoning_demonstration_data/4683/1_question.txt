@@ -1,0 +1,2 @@
+Problem: Let $f(x) : \mathbb{R} \to \mathbb{R}$ be a function such that
+\[\frac{f(x) f(y) - f(xy)}{3} = x + y + 2\]for all $x,$ $y \in \mathbb{R}.$  Find $f(x).$

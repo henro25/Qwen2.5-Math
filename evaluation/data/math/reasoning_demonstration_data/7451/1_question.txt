@@ -1,0 +1,2 @@
+Problem: Suppose $z$ and $w$ are complex numbers such that
+\[|z| = |w| = z \overline{w} + \overline{z} w= 1.\]Find the largest possible value of the real part of $z + w.$

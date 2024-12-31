@@ -1,0 +1,2 @@
+Problem: Find all real numbers $a$ such that the equation
+\[x^3 - ax^2 - 2ax + a^2 - 1 = 0\]has exactly one real solution in $x.$

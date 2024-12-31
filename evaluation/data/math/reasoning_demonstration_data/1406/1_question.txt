@@ -1,0 +1,1 @@
+Problem: Point $M(3,7)$ is the midpoint of $\overline{AB}$. If point $A$ has coordinates $(9,3)$, what is the sum of the coordinates of point $B$?

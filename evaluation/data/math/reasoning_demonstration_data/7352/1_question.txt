@@ -1,0 +1,1 @@
+Problem: What is the base 4 representation of the base 2 number $11011000_2$?

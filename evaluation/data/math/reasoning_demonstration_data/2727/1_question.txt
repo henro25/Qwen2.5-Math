@@ -1,0 +1,1 @@
+Problem: A circle rests in the interior of the parabola with equation $y = x^2,$ so that it is tangent to the parabola at two points.  How much higher is the center of the circle than the points of tangency?

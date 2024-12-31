@@ -1,0 +1,2 @@
+Problem: Find the degree measure of the least positive angle $\theta$ for which
+\[\cos 5^\circ = \sin 25^\circ + \sin \theta.\]

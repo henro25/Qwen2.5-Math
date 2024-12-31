@@ -1,0 +1,3 @@
+Problem: Let $A_n$ be the sum of the first $n$ terms of the geometric series
+\[704 + \frac{704}{2} + \frac{704}{4} + \dotsb,\]and let $B_n$ be the sum of the first $n$ terms of the geometric series
+\[1984 - \frac{1984}{2} + \frac{1984}{4} - \dotsb.\]Compute the value of $n \ge 1$ for which $A_n = B_n.$

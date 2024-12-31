@@ -1,0 +1,1 @@
+Problem: Calculate $\sqrt{30p} \cdot \sqrt{5p} \cdot \sqrt{6p}$ . Express your answer in simplest radical form in terms of $p$.

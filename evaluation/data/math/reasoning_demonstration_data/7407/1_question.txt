@@ -1,0 +1,1 @@
+Problem: For what value of $a$ does the equation $3(2x-a) = 2(3x+12)$ have infinitely many solutions $x$?

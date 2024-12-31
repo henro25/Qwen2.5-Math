@@ -1,0 +1,1 @@
+Problem: Subtract $111.11$ from $333.33.$ Express the result as a decimal to the nearest hundredth.

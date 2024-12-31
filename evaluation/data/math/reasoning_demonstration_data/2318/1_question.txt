@@ -1,0 +1,2 @@
+Problem: Find the coefficient of $x^{70}$ in the expansion of
+\[(x - 1)(x^2 - 2)(x^3 - 3) \dotsm (x^{11} - 11)(x^{12} - 12).\]

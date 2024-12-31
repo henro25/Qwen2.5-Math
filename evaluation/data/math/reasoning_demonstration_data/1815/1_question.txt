@@ -1,0 +1,2 @@
+Problem: Simplify
+\[(1 + \cot A - \csc A)(1 + \tan A + \sec A).\]

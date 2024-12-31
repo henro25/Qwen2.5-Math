@@ -1,0 +1,1 @@
+Problem: Consider the function $f(x) = x^2 +2\sqrt{x}$.  Evaluate $2f(2) - f(8)$.

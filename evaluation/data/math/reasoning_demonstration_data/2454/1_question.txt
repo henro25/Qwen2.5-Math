@@ -1,0 +1,1 @@
+Problem: Add $1_3 + 12_3 + 212_3 + 2121_3.$ Express your answer in base 3.

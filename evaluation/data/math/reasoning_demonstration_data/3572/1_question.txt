@@ -1,0 +1,1 @@
+Problem: The side of a triangle are 2, $\sqrt{6},$ and $1 + \sqrt{3}.$  Enter the angles of the triangle in degrees, separated by commas.

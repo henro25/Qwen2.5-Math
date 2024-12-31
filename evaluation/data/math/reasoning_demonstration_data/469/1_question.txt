@@ -1,0 +1,1 @@
+Problem: In parallelogram $ABCD$, let $O$ be the intersection of diagonals $\overline{AC}$ and $\overline{BD}$. Angles $CAB$ and $DBC$ are each twice as large as angle $DBA$, and angle $ACB$ is $r$ times as large as angle $AOB$. Find $r.$

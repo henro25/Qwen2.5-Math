@@ -1,0 +1,1 @@
+Problem: A cube has a surface area of 216 square centimeters. What is the volume of the cube, in cubic centimeters?

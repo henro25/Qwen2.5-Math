@@ -1,0 +1,1 @@
+Problem: If a triangle has two sides of lengths 5 and 7 units, then how many different integer lengths can the third side be?

@@ -1,0 +1,1 @@
+Problem: A triangular region is enclosed by the lines with equations $y = \frac{1}{2} x + 3$, $y = -2x + 6$ and $y = 1$. What is the area of the triangular region? Express your answer as a decimal to the nearest hundredth.

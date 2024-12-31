@@ -1,0 +1,6 @@
+Problem: A cone is formed from a 300-degree sector of a circle of radius 18 by aligning the two straight sides. [asy]
+size(110);
+draw(Arc((0,0),1,0,300));
+draw((1,0)--(0,0)--(.5,-.5*sqrt(3)));
+label("18",(.5,0),S); label("$300^\circ$",(0,0),NW);
+[/asy] What is the result when the volume of the cone is divided by $\pi$?

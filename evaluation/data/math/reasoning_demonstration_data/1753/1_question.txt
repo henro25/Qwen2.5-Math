@@ -1,0 +1,1 @@
+Problem: What is the greatest whole number that must be a divisor of the product of any three consecutive positive integers?

@@ -1,0 +1,9 @@
+Problem: In the diagram, $AB = 25 \mbox{ cm},$ $AC = 20 \mbox{ cm},$ and $\angle A = 90^\circ.$ What is the area of triangle $ABC?$
+
+[asy]
+draw((0,0)--(25,0)--(0,20)--cycle,black+linewidth(1));
+draw((0,0)--(1,0)--(1,1)--(0,1)--cycle,black+linewidth(1));
+label("$A$",(0,0),SW);
+label("$B$",(25,0),SE);
+label("$C$",(0,20),NW);
+[/asy]

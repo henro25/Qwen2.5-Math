@@ -1,0 +1,8 @@
+Problem: Let   $$x = 64 + 96 + 128 + 160 + 288 + 352 + 3232.$$ Which of the following statements are true?
+
+A. $x$ is a multiple of $4$.
+B. $x$ is a multiple of $8$.
+C. $x$ is a multiple of $16$.
+D. $x$ is a multiple of $32$.
+
+Answer as a list of letters in alphabetical order, separated by commas.  For example, if you think A and C are the true statements, then answer ``A,C" (without the quote marks).

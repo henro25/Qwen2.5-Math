@@ -1,0 +1,1 @@
+Problem: Simplify $\sin (x - y) \cos y + \cos (x - y) \sin y.$

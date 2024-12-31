@@ -1,0 +1,1 @@
+Problem: Using only the digits 7, 8 and 9, how many positive seven-digit integers can be made that are palindromes?

@@ -1,0 +1,1 @@
+Problem: Suppose that all four of the numbers \[2 - \sqrt{5}, \;4+\sqrt{10}, \;14 - 2\sqrt{7}, \;-\sqrt{2}\]are roots of the same nonzero polynomial with rational coefficients. What is the smallest possible degree of the polynomial?

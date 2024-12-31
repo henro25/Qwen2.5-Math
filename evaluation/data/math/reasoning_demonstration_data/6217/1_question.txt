@@ -1,0 +1,2 @@
+Problem: Let $\omega$ be a complex number such that $\omega^7 = 1$ and $\omega \ne 1.$  Let $\alpha = \omega + \omega^2 + \omega^4$ and $\beta = \omega^3 + \omega^5 + \omega^6.$  Then $\alpha$ and $\beta$ satisfy the quadratic
+\[x^2 + ax + b = 0\]for some real numbers $a$ and $b.$  Enter the ordered pair $(a,b).$

@@ -1,0 +1,3 @@
+Problem: Jordan and his three best friends are on a relay team.  His relay team will run a race, where the first runner runs a lap, then the second, then the third, then the fourth.
+
+Jordan is the fastest so he will run the fourth lap.  How many different orders can the four team members run, assuming that Jordan runs the fourth lap?

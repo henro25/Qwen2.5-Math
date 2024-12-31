@@ -1,0 +1,9 @@
+Problem: A list of five positive integers has all of the following properties:
+
+$\bullet$  The only integer in the list that occurs more than once is $8,$
+
+$\bullet$  its median is $9,$ and
+
+$\bullet$  its average (mean) is $10.$
+
+What is the largest possible integer that could appear in the list?

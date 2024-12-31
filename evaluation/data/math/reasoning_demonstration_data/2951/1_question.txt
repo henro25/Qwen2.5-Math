@@ -1,0 +1,1 @@
+Problem: Mr. Fat needs 20 minutes to eat a pound of cereal, while Mr. Thin needs 30 minutes. If they eat together, how long does it take for them to finish off three pounds of cereal? Express your answer in minutes.

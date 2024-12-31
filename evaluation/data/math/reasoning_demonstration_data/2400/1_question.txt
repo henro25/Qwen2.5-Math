@@ -1,0 +1,15 @@
+Problem: In triangle $VWX$ shown, $VX = \sqrt{13}$ and $VW = 3$. What is $\tan V$?
+
+[asy]
+pair V,W,X;
+W = (0,0);
+V = (0,3);
+X = (2,0);
+draw(V--W--X--V);
+draw(rightanglemark(V,W,X,7));
+label("$W$",W,SW);
+label("$V$",V,NW);
+label("$X$",X,SE);
+label("$3$",(V+W)/2,NW);
+label("$\sqrt{13}$",(V+X)/2,NE);
+[/asy]

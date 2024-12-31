@@ -1,0 +1,1 @@
+Problem: What is the remainder when $11065+11067+11069+11071+11073+11075+11077$ is divided by $14$?

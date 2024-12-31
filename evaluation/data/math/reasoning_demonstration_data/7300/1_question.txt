@@ -1,0 +1,1 @@
+Problem: How many integers from 1 through 9999, inclusive, do not contain any of the digits 2, 3, 4 or 5?

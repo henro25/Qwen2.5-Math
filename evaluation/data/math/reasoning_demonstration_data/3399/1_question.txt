@@ -1,0 +1,1 @@
+Problem: A Senate committee has 5 Democrats and 5 Republicans.  In how many ways can they sit around a circular table if each member sits next to two members of the other party? (Two seatings are the same if one is a rotation of the other.)

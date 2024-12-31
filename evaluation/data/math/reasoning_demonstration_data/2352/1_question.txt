@@ -1,0 +1,1 @@
+Problem: The points $P,$ $Q,$ and $R$ are represented by the complex numbers $z,$ $(1 + i) z,$ and $2 \overline{z},$ respectively, where $|z| = 1.$  When $P,$ $Q$, and $R$ are not collinear, let $S$ be the fourth vertex of the parallelogram $PQSR.$  What is the maximum distance between $S$ and the origin of the complex plane?

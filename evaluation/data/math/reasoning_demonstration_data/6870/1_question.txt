@@ -1,0 +1,1 @@
+Problem: Compute the sum of all the roots of $(2x+3)(x-4)+(2x+3)(x-6)=0$.

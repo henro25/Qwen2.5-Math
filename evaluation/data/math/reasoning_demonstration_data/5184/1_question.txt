@@ -1,0 +1,2 @@
+Problem: Compute the unique positive integer $n$ such that
+\[2 \cdot 2^2 + 3 \cdot 2^3 + 4 \cdot 2^4 + \dots + n \cdot 2^n = 2^{n + 10}.\]

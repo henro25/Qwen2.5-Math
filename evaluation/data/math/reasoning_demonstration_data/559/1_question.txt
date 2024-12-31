@@ -1,0 +1,1 @@
+Problem: To express 20 as a sum of different powers of 2, we would write $20 = 2^4 + 2^2$. The sum of the exponents of these powers is $4 + 2 = 6$. If 400 were expressed as a sum of at least two distinct powers of 2, what would be the least possible sum of the exponents of these powers?

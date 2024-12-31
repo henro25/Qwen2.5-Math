@@ -1,0 +1,2 @@
+Problem: Let $\alpha$ and $\beta$ be the roots of $x^2 + px + 1 = 0,$ and let $\gamma$ and $\delta$ are the roots of $x^2 + qx + 1 = 0.$  Express
+\[(\alpha - \gamma)(\beta - \gamma)(\alpha + \delta)(\beta + \delta)\]in terms of $p$ and $q.$

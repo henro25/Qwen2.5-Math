@@ -1,0 +1,1 @@
+Problem: The hyperbola \[\frac{(x-3)^2}{5^2} - \frac{(y-17)^2}{12^2} = 1\]has two foci, which have different $x-$coordinates. Find the coordinates of the one with the larger $x-$coordinate.

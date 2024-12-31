@@ -1,0 +1,1 @@
+Problem: Find the sum $$\frac{2^1}{4^1 - 1} + \frac{2^2}{4^2 - 1} + \frac{2^4}{4^4 - 1} + \frac{2^8}{4^8 - 1} + \cdots.$$

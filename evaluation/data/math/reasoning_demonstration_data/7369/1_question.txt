@@ -1,0 +1,1 @@
+Problem: How many cubic feet are in the volume of a round swimming pool which is 16 feet in diameter and 4 feet deep throughout? Express your answer in terms of $\pi$.

@@ -1,0 +1,15 @@
+Problem: Given $DC = 7$, $CB = 8$, $AB = \frac{1}{4}AD$, and $ED = \frac{4}{5}AD$, find $FC$. Express your answer as a decimal.   [asy]
+draw((0,0)--(-20,0)--(-20,16)--cycle);
+draw((-13,0)--(-13,10.4));
+draw((-5,0)--(-5,4));
+draw((-5,0.5)--(-5+0.5,0.5)--(-5+0.5,0));
+draw((-13,0.5)--(-13+0.5,0.5)--(-13+0.5,0));
+draw((-20,0.5)--(-20+0.5,0.5)--(-20+0.5,0));
+label("A",(0,0),E);
+label("B",(-5,0),S);
+label("G",(-5,4),N);
+label("C",(-13,0),S);
+label("F",(-13,10.4),N);
+label("D",(-20,0),S);
+label("E",(-20,16),N);
+[/asy]

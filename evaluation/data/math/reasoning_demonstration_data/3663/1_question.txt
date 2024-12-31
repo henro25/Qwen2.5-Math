@@ -1,0 +1,1 @@
+Problem: When the length of a rectangle is increased by $20\%$ and the width increased by $10\%$, by what percent is the area increased?

@@ -1,0 +1,1 @@
+Problem: What is the distance between the center of the circle with equation $x^2+y^2=-4x+6y-12$ and the point $(1,7)$?

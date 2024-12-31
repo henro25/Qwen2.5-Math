@@ -1,0 +1,12 @@
+Problem: Jane and her brother each spin this spinner once. The spinner has five congruent sectors. If the non-negative difference of their numbers is less than 3, Jane wins. Otherwise, her brother wins. What is the probability that Jane wins? Express your answer as a common fraction.
+
+[asy]
+size(101);
+draw(scale(2)*unitcircle);
+for(int i = 0; i<5; ++i)
+{
+draw((0,0)--2dir(90+i/5*360));
+label(string(i+1),1.3dir(45-i/5*360));
+}
+draw((0,0)--1.5dir(75),EndArrow(4));
+[/asy]

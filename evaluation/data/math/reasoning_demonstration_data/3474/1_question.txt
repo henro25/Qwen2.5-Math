@@ -1,0 +1,3 @@
+Problem: For real numbers $a,$ $b,$ and $c,$ the matrix
+\[\begin{pmatrix} a & b & c \\ b & c & a \\ c & a & b \end{pmatrix}\]is not invertible.  List all possible values of
+\[\frac{a}{b + c} + \frac{b}{a + c} + \frac{c}{a + b}.\]

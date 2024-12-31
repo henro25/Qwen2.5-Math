@@ -1,0 +1,1 @@
+Problem: The sum of the squares of two positive integers is 90. The product of the two integers is 27. What is the sum of the two integers?

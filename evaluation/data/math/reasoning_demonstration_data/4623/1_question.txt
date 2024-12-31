@@ -1,0 +1,1 @@
+Problem: Two standard 6-sided dice are rolled.  What is the probability that the sum rolled is a perfect square?

@@ -1,0 +1,2 @@
+Problem: For $\mathbf{v} = \begin{pmatrix} 1 \\ y \end{pmatrix}$ and $\mathbf{w} = \begin{pmatrix} 9 \\ 3 \end{pmatrix}$,
+\[\text{proj}_{\mathbf{w}} \mathbf{v} = \begin{pmatrix} -6 \\ -2 \end{pmatrix}.\]Find $y$.

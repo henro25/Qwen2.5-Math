@@ -1,0 +1,1 @@
+Problem: Find all solutions $x$ of the inequality $$\frac{5}{24} + \left|x-\frac{11}{48}\right| < \frac{5}{16}.$$Express your answer in interval notation, simplifying all fractions in your answer.

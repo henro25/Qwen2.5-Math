@@ -1,0 +1,1 @@
+Problem: Given the function $y=x^2+10x+21$, what is the least possible value of $y$?

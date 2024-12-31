@@ -1,0 +1,1 @@
+Problem: What is the total area, in square units, of the four triangular faces of a right, square-based pyramid that has base edges measuring 6 units and lateral edges measuring 5 units?

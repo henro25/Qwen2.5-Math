@@ -1,0 +1,1 @@
+Problem: Let $x$ be a positive integer, and define the integers $n=x^2+2x+17$ and $d=2x+5$. When dividing $n$ by $d$, the quotient is $x$, and the remainder is $7$. Find $x$.

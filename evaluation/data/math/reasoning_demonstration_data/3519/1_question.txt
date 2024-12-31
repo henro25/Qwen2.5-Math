@@ -1,0 +1,68 @@
+Problem: The graph of $y = f(x)$ is shown below.
+
+[asy]
+unitsize(0.3 cm);
+
+real func(real x) {
+  real y;
+  if (x >= -3 && x <= 0) {y = -2 - x;}
+  if (x >= 0 && x <= 2) {y = sqrt(4 - (x - 2)^2) - 2;}
+  if (x >= 2 && x <= 3) {y = 2*(x - 2);}
+  return(y);
+}
+
+int i, n;
+
+for (i = -8; i <= 8; ++i) {
+  draw((i,-8)--(i,8),gray(0.7));
+  draw((-8,i)--(8,i),gray(0.7));
+}
+
+draw((-8,0)--(8,0),Arrows(6));
+draw((0,-8)--(0,8),Arrows(6));
+
+label("$x$", (8,0), E);
+label("$y$", (0,8), N);
+
+draw(graph(func,-3,3),red);
+
+label("$y = f(x)$", (4,-3), UnFill);
+[/asy]
+
+For certain constants $a,$ $b,$ and $c,$
+\[g(x) = af(bx) + c.\]The graph of $y = g(x)$ is shown below.
+
+[asy]
+unitsize(0.3 cm);
+
+real func(real x) {
+  real y;
+  if (x >= -3 && x <= 0) {y = -2 - x;}
+  if (x >= 0 && x <= 2) {y = sqrt(4 - (x - 2)^2) - 2;}
+  if (x >= 2 && x <= 3) {y = 2*(x - 2);}
+  return(y);
+}
+
+real gunc(real x) {
+  return(func(x/2) - 4);
+}
+
+int i, n;
+
+for (i = -8; i <= 8; ++i) {
+  draw((i,-8)--(i,8),gray(0.7));
+  draw((-8,i)--(8,i),gray(0.7));
+}
+
+draw((-8,0)--(8,0),Arrows(6));
+draw((0,-8)--(0,8),Arrows(6));
+
+label("$x$", (8,0), E);
+label("$y$", (0,8), N);
+
+draw(graph(gunc,-6,6),red);
+
+label("$y = g(x)$", (5,-6), UnFill);
+[/asy]
+
+Enter the ordered triple $(a,b,c).$

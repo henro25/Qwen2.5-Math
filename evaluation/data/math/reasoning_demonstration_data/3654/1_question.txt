@@ -1,0 +1,1 @@
+Problem: Evaluate $\lceil-2.4\rceil$.

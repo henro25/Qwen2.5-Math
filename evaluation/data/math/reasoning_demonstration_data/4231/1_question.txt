@@ -1,0 +1,2 @@
+Problem: Find all real solutions to
+\[\frac{1}{(x - 1)(x - 2)} + \frac{1}{(x - 2)(x - 3)} + \frac{1}{(x - 3)(x - 4)} = \frac{1}{6}.\]Enter all solutions, separated by commas.

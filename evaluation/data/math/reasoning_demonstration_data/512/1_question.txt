@@ -1,0 +1,1 @@
+Problem: Point $(x,y)$ is randomly picked from the rectangular region with vertices at $(0,0),(2009,0),(2009,2010),$ and $(0,2010)$. What is the probability that $x > 7y$? Express your answer as a common fraction.

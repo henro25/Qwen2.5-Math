@@ -1,0 +1,1 @@
+Problem: Square A has side lengths each measuring $x$ inches.  Square B  has side lengths each measuring $4x$ inches.  What is the ratio of  the area of the smaller square to the area of the larger square?   Express your answer as a common fraction.

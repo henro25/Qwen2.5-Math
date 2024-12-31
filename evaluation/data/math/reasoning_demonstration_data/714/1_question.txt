@@ -1,0 +1,1 @@
+Problem: Evaluate \begin{align*} (5a^2 - 13a + 4)(2a - 3) \end{align*} for $a = 1\frac12$.

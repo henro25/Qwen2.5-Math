@@ -1,0 +1,1 @@
+Problem: Susie Q has 1000 dollars to invest.  She invests some of the money at the Pretty Penny Bank, which compounds annually at 3 percent.  She invests the rest of the money at the Five and Dime Bank, which compounds annually at 5 percent.  After two years, Susie has a total of $\$1090.02$.  How much did Susie Q originally invest at the Pretty Penny Bank, in dollars?

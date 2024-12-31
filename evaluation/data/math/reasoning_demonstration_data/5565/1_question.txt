@@ -1,0 +1,1 @@
+Problem: What is the $x$-intercept of the line perpendicular to the line defined by $3x-2y = 6$ and whose $y$-intercept is 2?

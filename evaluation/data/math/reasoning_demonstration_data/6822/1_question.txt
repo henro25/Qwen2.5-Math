@@ -1,0 +1,1 @@
+Problem: If $p, q,$ and $r$ are three non-zero integers such that $p + q + r = 26$ and\[\frac{1}{p} + \frac{1}{q} + \frac{1}{r} + \frac{360}{pqr} = 1,\] compute $pqr$.

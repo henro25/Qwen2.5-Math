@@ -1,0 +1,1 @@
+Problem: The set of points $(x,y)$ such that $|x - 3| \le y \le 4 - |x - 1|$ defines a region in the $xy$-plane.  Compute the area of this region.

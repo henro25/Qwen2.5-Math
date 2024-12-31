@@ -1,0 +1,1 @@
+Problem: When $x$ is divided by each of $4$, $5$, and $6$, remainders of $3$, $4$, and $5$ (respectively) are obtained. What is the smallest possible positive integer value of $x$?

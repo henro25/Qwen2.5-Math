@@ -1,0 +1,1 @@
+Problem: Natasha has more than $\$1$ but less than $\$10$ worth of dimes. When she puts her dimes in stacks of 3, she has 1 left over. When she puts them in stacks of 4, she has 1 left over. When she puts them in stacks of 5, she also has 1 left over. How many dimes does Natasha have?

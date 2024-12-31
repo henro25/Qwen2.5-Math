@@ -1,0 +1,1 @@
+Problem: For how many integer values of $x$ is $5x^{2}+19x+16 > 20$ not satisfied?

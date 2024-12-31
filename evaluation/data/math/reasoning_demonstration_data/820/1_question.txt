@@ -1,0 +1,1 @@
+Problem: In Ms. Smith's class, each student averages one day absent out of thirty. What is the probability that out of any two students chosen at random, one student will be absent while the other is present? Express your answer as a percent rounded to the nearest tenth.

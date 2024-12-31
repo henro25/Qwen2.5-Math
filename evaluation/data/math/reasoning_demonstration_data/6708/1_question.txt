@@ -1,0 +1,1 @@
+Problem: How many distinct prime factors does the sum of the positive divisors of $400$ have?

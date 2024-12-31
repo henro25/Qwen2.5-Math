@@ -1,0 +1,1 @@
+Problem: Find the sum of all numbers $x$ satisfying $x+25/x = 10.$

@@ -1,0 +1,1 @@
+Problem: Find the product of $10101_2$ and $101_2$. Express your answer in base $2$.

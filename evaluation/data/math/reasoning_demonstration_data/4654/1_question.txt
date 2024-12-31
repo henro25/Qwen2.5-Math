@@ -1,0 +1,1 @@
+Problem: Evaluate $|(4\sqrt{2}-4i)(\sqrt{3}+3i)|$

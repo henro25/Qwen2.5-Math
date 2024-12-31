@@ -1,0 +1,13 @@
+Problem: What is the area, in square units, of triangle $ABC$ in the figure shown if points $A$, $B$, $C$ and $D$ are coplanar, angle $D$ is a right angle, $AC = 13$, $AB = 15$ and $DC = 5$? [asy]
+pair A, B, C, D;
+A=(12,0);
+D=(0,0);
+C=(0,5);
+B=(0,9);
+draw(A--B--C--A--D--C);
+draw((0,.5)--(.5,.5)--(.5,0));
+label("$A$", A, dir(-45));
+label("$B$", B, dir(135));
+label("$C$", C, dir(180));
+label("$D$", D, dir(-135));
+[/asy]

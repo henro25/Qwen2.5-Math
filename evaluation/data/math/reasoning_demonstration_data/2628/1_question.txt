@@ -1,0 +1,1 @@
+Problem: Van was asked to add 46 to 37 and round the result to the nearest ten. He figured that since he was going to have to round anyway, he might as well do it before adding the numbers. He rounded 46 to 50 and 37 to 40, thus getting an answer of $50+40=90$. This answer is not correct. What is the correct answer?

@@ -1,0 +1,5 @@
+Problem: Find the number of ordered quadruples $(a,b,c,d)$ of nonnegative real numbers such that
+\begin{align*}
+a^2 + b^2 + c^2 + d^2 &= 4, \\
+(a + b + c + d)(a^3 + b^3 + c^3 + d^3) &= 16.
+\end{align*}

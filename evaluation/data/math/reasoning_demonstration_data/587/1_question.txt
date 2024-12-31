@@ -1,0 +1,1 @@
+Problem: A natural number is abundant if it is less than the sum of its proper divisors. What is the smallest abundant number?

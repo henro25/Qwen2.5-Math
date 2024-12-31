@@ -1,0 +1,1 @@
+Problem: In how many ways can the digits of $45,\!520$ be arranged to form a 5-digit number?  (Remember, numbers cannot begin with 0.)

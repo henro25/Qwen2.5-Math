@@ -1,0 +1,1 @@
+Problem: The number 210 is the product of two consecutive positive integers and is also the product of three consecutive integers. What is the sum of those five integers?

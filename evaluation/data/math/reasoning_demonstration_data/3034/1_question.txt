@@ -1,0 +1,1 @@
+Problem: A 12-slice pizza was made with only pepperoni and mushroom toppings, and every slice has at least one topping. Only six slices have pepperoni, and exactly ten slices have mushrooms. How many slices have both pepperoni and mushrooms?

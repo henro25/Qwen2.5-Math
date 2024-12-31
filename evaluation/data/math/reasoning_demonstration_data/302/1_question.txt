@@ -1,0 +1,7 @@
+Problem: The students at Sherry Curtis School were able to vote for one or more events for their field day. Below are the top three choices. List the names of the choices from most popular to least popular, separated by commas.
+
+\begin{tabular}{|c|c|c|c|} \hline
+Event & Kickball & Picnic & Softball \\ \hline 
+& & &\\[-1.5ex]
+Fraction liking event & $\frac{11}{30}$ & $\frac{7}{20}$ & $\frac{5}{12}$ \\[1ex] \hline
+\end{tabular}

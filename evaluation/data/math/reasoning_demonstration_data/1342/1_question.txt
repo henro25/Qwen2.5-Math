@@ -1,0 +1,1 @@
+Problem: The solid $S$ consists of the set of all points $(x,y,z)$ such that $|x| + |y| \le 1,$ $|x| + |z| \le 1,$ and $|y| + |z| \le 1.$  Find the volume of $S.$

@@ -1,0 +1,1 @@
+Problem: In coordinate space, $A = (6,-7,7),$ $B = (16,-17,12),$ $C = (0,3,-6),$ and $D = (2,-5,10).$  Find the intersection point of lines $AB$ and $CD.$

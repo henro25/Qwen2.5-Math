@@ -1,0 +1,2 @@
+Problem: The roots of
+\[z^7 = -\frac{1}{\sqrt{2}} - \frac{i}{\sqrt{2}}\]are $\text{cis } \theta_1$, $\text{cis } \theta_2$, $\dots$, $\text{cis } \theta_7$, where $0^\circ \le \theta_k < 360^\circ$ for all $1 \le k \le 7$.  Find $\theta_1 + \theta_2 + \dots + \theta_7$.  Give your answer in degrees.

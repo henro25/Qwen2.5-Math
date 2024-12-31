@@ -1,0 +1,2 @@
+Problem: Let $\mathbf{a}$ and $\mathbf{b}$ be two vectors such that
+\[\|\mathbf{a} + \mathbf{b}\| = \|\mathbf{b}\|.\]Find the angle between the vectors $\mathbf{a} + 2 \mathbf{b}$ and $\mathbf{a},$ in degrees

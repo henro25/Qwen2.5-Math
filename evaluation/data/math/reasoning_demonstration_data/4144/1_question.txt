@@ -1,0 +1,8 @@
+Problem: The function $f(x),$ defined for $0 \le x \le 1,$ has the following properties:
+
+(i) $f(0) = 0.$
+(ii) If $0 \le x < y \le 1,$ then $f(x) \le f(y).$
+(iii) $f(1 - x) = 1 - f(x)$ for all $0 \le x \le 1.$
+(iv) $f \left( \frac{x}{3} \right) = \frac{f(x)}{2}$ for $0 \le x \le 1.$
+
+Find $f \left( \frac{2}{7} \right).$

@@ -1,0 +1,2 @@
+Problem: Solve the inequality
+\[\frac{1}{x - 1} - \frac{4}{x - 2} + \frac{4}{x - 3} - \frac{1}{x - 4} < \frac{1}{30}.\]
