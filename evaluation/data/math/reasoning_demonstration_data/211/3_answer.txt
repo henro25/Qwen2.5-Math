@@ -1,1 +1,21 @@
-Answer: 
+Answer: Given a triangular piece of paper \(abc\) with base \(ab = 12 \text{ cm}\), the paper is folded down over the base with crease \(de\) parallel to \(ab\). the area of the triangle that projects below the base is \(16\%\) of the area of triangle \(abc\). we need to find the length of \(de\).
+
+since \(de\) is parallel to \(ab\), triangles \(ade\) and \(abc\) are similar. let \(k\) be the ratio of similarity, where \(k = \frac{de}{ab}\).
+
+the area of triangle \(ade\) is \(16\%\) of the area of triangle \(abc\), so:
+\[
+k^2 = 0.16
+\]
+solving for \(k\):
+\[
+k = \sqrt{0.16} = 0.4
+\]
+thus, the length of \(de\) is:
+\[
+de = k \times ab = 0.4 \times 12 = 4.8 \text{ cm}
+\]
+
+therefore, the length of \(de\) is:
+\[
+\boxed{4.8}
+\]

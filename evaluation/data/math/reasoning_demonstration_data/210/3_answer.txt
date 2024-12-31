@@ -1,1 +1,53 @@
-Answer: 
+Answer: First, we determine the y-coordinates of the points that are 5 units away from the line \( y = 13 \):
+
+\[
+|y - 13| = 5 \implies y = 18 \text{ or } y = 8
+\]
+
+next, we find the x-coordinates of the points that are 13 units away from the point \( (7, 13) \) for each y-coordinate.
+
+for \( y = 18 \):
+
+\[
+\sqrt{(x - 7)^2 + (18 - 13)^2} = 13 \implies \sqrt{(x - 7)^2 + 25} = 13
+\]
+\[
+(x - 7)^2 + 25 = 169 \implies (x - 7)^2 = 144 \implies x - 7 = \pm 12 \implies x = 19 \text{ or } x = -5
+\]
+
+thus, the points are \( (19, 18) \) and \( (-5, 18) \).
+
+for \( y = 8 \):
+
+\[
+\sqrt{(x - 7)^2 + (8 - 13)^2} = 13 \implies \sqrt{(x - 7)^2 + 25} = 13
+\]
+\[
+(x - 7)^2 + 25 = 169 \implies (x - 7)^2 = 144 \implies x - 7 = \pm 12 \implies x = 19 \text{ or } x = -5
+\]
+
+thus, the points are \( (19, 8) \) and \( (-5, 8) \).
+
+the four points are \( (19, 18) \), \( (-5, 18) \), \( (19, 8) \), and \( (-5, 8) \).
+
+sum of the x-coordinates:
+
+\[
+19 + (-5) + 19 + (-5) = 28
+\]
+
+sum of the y-coordinates:
+
+\[
+18 + 18 + 8 + 8 = 52
+\]
+
+total sum of the x- and y-coordinates:
+
+\[
+28 + 52 = 80
+\]
+
+\[
+\boxed{80}
+\]

@@ -1,1 +1,32 @@
-Answer: 
+Answer: To determine the number of nonnegative solutions to the equation \( x^2 = -4x \), we start by rearranging the equation:
+
+\[
+x^2 + 4x = 0
+\]
+
+next, we factor the equation:
+
+\[
+x(x + 4) = 0
+\]
+
+using the zero product property, we set each factor equal to zero:
+
+1. \( x = 0 \)
+2. \( x + 4 = 0 \) which implies \( x = -4 \)
+
+since we are looking for nonnegative solutions, we discard \( x = -4 \) because it is negative. thus, the only nonnegative solution is \( x = 0 \).
+
+to verify, we substitute \( x = 0 \) back into the original equation:
+
+\[
+(0)^2 = -4(0) \implies 0 = 0
+\]
+
+this confirms that \( x = 0 \) is a valid solution. 
+
+therefore, the number of nonnegative solutions is:
+
+\[
+\boxed{1}
+\]

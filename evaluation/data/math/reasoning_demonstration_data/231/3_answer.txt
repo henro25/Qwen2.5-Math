@@ -1,1 +1,74 @@
-Answer: 
+Answer: Given the projection matrix \( p \) onto a line \(\ell\) passing through the origin:
+
+\[
+p = \begin{pmatrix} \frac{2}{15} & -\frac{1}{15} & -\frac{1}{3} \\ -\frac{1}{15} & \frac{1}{30} & \frac{1}{6} \\ -\frac{1}{3} & \frac{1}{6} & \frac{5}{6} \end{pmatrix}
+\]
+
+we need to find the direction vector \(\mathbf{v} = \begin{pmatrix} a \\ b \\ c \end{pmatrix}\) of the line \(\ell\).
+
+the projection matrix \( p \) can be expressed as:
+
+\[
+p = \frac{\mathbf{v} \mathbf{v}^t}{\mathbf{v}^t \mathbf{v}}
+\]
+
+given \(\mathbf{v} = \begin{pmatrix} a \\ b \\ c \end{pmatrix}\), we have:
+
+\[
+\mathbf{v} \mathbf{v}^t = \begin{pmatrix} a^2 & a b & a c \\ b a & b^2 & b c \\ c a & c b & c^2 \end{pmatrix}
+\]
+
+and
+
+\[
+\mathbf{v}^t \mathbf{v} = a^2 + b^2 + c^2
+\]
+
+setting the given matrix equal to the projection matrix, we get:
+
+\[
+\frac{1}{a^2 + b^2 + c^2} \begin{pmatrix} a^2 & a b & a c \\ b a & b^2 & b c \\ c a & c b & c^2 \end{pmatrix} = \begin{pmatrix} \frac{2}{15} & -\frac{1}{15} & -\frac{1}{3} \\ -\frac{1}{15} & \frac{1}{30} & \frac{1}{6} \\ -\frac{1}{3} & \frac{1}{6} & \frac{5}{6} \end{pmatrix}
+\]
+
+from this, we derive the following equations:
+
+1. \(\frac{a^2}{a^2 + b^2 + c^2} = \frac{2}{15}\)
+2. \(\frac{a b}{a^2 + b^2 + c^2} = -\frac{1}{15}\)
+3. \(\frac{a c}{a^2 + b^2 + c^2} = -\frac{1}{3}\)
+4. \(\frac{b^2}{a^2 + b^2 + c^2} = \frac{1}{30}\)
+5. \(\frac{b c}{a^2 + b^2 + c^2} = \frac{1}{6}\)
+6. \(\frac{c^2}{a^2 + b^2 + c^2} = \frac{5}{6}\)
+
+let \( k = a^2 + b^2 + c^2 \). then:
+
+\[
+a^2 = \frac{2}{15} k, \quad b^2 = \frac{1}{30} k, \quad c^2 = \frac{5}{6} k
+\]
+
+\[
+a b = -\frac{1}{15} k, \quad a c = -\frac{1}{3} k, \quad b c = \frac{1}{6} k
+\]
+
+solving these, we find:
+
+\[
+a = \sqrt{\frac{2}{15} k}, \quad b = -\sqrt{\frac{1}{30} k}, \quad c = -\sqrt{\frac{5}{6} k}
+\]
+
+the direction vector \(\mathbf{v}\) is proportional to:
+
+\[
+\begin{pmatrix} \sqrt{\frac{2}{15}} \\ -\sqrt{\frac{1}{30}} \\ -\sqrt{\frac{5}{6}} \end{pmatrix}
+\]
+
+simplifying the ratios, we get:
+
+\[
+a : b : c = 2 : -1 : -5
+\]
+
+thus, the direction vector of the line \(\ell\) is:
+
+\[
+\boxed{\begin{pmatrix} 2 \\ -1 \\ -5 \end{pmatrix}}
+\]
