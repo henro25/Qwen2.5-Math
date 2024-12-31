@@ -80,7 +80,7 @@ Next task: <provide the next task for the assistant to think about>'''
 class Assistant:
     def __init__(self, user_message, model, few_shots=0):
         self.user_message = user_message
-        self.few_shots = 0
+        self.few_shots = few_shots
         self.few_shot_examples = []
 
         example_names = ["cipher", "coding", "math", "crossword", "english", "science", "safety", "health_science"]
@@ -88,23 +88,35 @@ class Assistant:
         for i in range(self.few_shots):
             name = example_names[i]
 
-            with open(f"evaluation/few_shot_examples/{name}/question.txt", "r", encoding="utf-8") as f:
+            with open(f"few_shot_examples/{name}/question.txt", "r", encoding="utf-8") as f:
                 question = f.read()
 
-            with open(f"evaluation/few_shot_examples/{name}/response.txt", "r", encoding="utf-8") as f:
+            with open(f"few_shot_examples/{name}/response.txt", "r", encoding="utf-8") as f:
                 response = f.read()
 
-            self.few_shot_examples.append({
+            self.few_shot_examples.extend([{
                 "role": "user",
                 "content": [
                     {"type": "text", "text": question},
                 ],
-            }, {
+            }
+            ,
+            {
                 "role": "assistant",
                 "content": [
                     {"type": "text", "text": response},
                 ],
-            })
+            }
+            ]) # TODO: try to split on new line to mimic thought turns as well!
+
+            # response_thoughts = response.split("\n\n")
+            # for i, thought in enumerate(response_thoughts):
+            #     self.few_shot_examples.append({
+            #         "role": "assistant",
+            #         "content": [
+            #             {"type": "text", "text": thought},
+            #         ],
+            #     })
 
         self.system_prompt =f'''Please reason step by step, and put your final answer within \\boxed{{}}.'''
         self.model = model

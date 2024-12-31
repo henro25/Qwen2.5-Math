@@ -95,7 +95,7 @@ def prepare_data(data_name, args):
     dt_string = datetime.now().strftime("%m-%d_%H-%M")
     model_name = "/".join(args.model_name_or_path.split("/")[-2:])
     out_file_prefix = (
-        f"{args.split}_{args.prompt_type}_{args.num_test_sample}_seed{args.seed}_t{args.temperature}_thoughts{args.num_thought_turns}_shots{args.few_shots}"
+        f"{args.split}_{args.prompt_type}_{args.num_test_sample}_seed{args.seed}_t{args.temperature}_thoughts{args.num_thought_turns}_shots{args.few_shots}" #__few_shot_response_split"
     )
     output_dir = args.output_dir
     if not os.path.exists(output_dir):
@@ -229,7 +229,7 @@ def generate_completions_inferencing_endpoint(model, prompts, args, max_retries=
         return index, ""
 
     # Define the maximum number of threads
-    max_workers = 50
+    max_workers = 25
 
     # Submit tasks
     futures = []
@@ -424,17 +424,20 @@ def main(model, data_name, args):
     for i, sample in enumerate(samples):
         code_i = codes[i * args.n_sampling : (i + 1) * args.n_sampling]
         result_i = results[i * args.n_sampling : (i + 1) * args.n_sampling]
-        preds = [item[0] for item in result_i]
-        reports = [item[1] for item in result_i]
 
-        # fix multiple-choice predictions if needed
+        if not result_i:
+            print(f"Empty or invalid result for sample {i}: {result_i}")
+            continue
+
+        preds = [item[0] if item and len(item) > 0 else None for item in result_i]
+        reports = [item[1] if item and len(item) > 1 else None for item in result_i]
+
         for j in range(len(preds)):
-            if sample["gt"] in ["A", "B", "C", "D", "E"] and preds[j] not in ["A","B","C","D","E"]:
-                # Possibly transform the output
-                # e.g. a simple function choice_answer_clean() could do that
+            if preds[j] is None:
+                continue
+            if sample["gt"] in ["A", "B", "C", "D", "E"] and preds[j] not in ["A", "B", "C", "D", "E"]:
                 pass
             elif is_multi_choice(sample["gt"]) and not is_multi_choice(preds[j]):
-                # remove any non-choice char
                 preds[j] = "".join([c for c in preds[j] if c in ["A", "B", "C", "D", "E"]])
 
         sample.pop("prompt")
