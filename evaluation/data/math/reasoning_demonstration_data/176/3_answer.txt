@@ -1,1 +1,23 @@
-Answer: 
+Answer: Let \( x \) be the number of three-point shots shenille attempted, and \( y \) be the number of two-point shots she attempted. we know:
+
+\[ x + y = 30 \]
+
+she was successful on 20% of her three-point shots and 30% of her two-point shots. therefore, the number of successful three-point shots is \( 0.2x \) and the number of successful two-point shots is \( 0.3y \).
+
+the points from successful three-point shots are:
+
+\[ 3 \times 0.2x = 0.6x \]
+
+the points from successful two-point shots are:
+
+\[ 2 \times 0.3y = 0.6y \]
+
+thus, the total points scored is:
+
+\[ 0.6x + 0.6y = 0.6(x + y) \]
+
+since \( x + y = 30 \):
+
+\[ 0.6 \times 30 = 18 \]
+
+therefore, shenille scored \(\boxed{18}\) points in total.

@@ -1,1 +1,54 @@
-Answer: 
+Answer: To find the value of \( k \) such that the line \( x = k \) intersects the parabola \( x = -2y^2 - 3y + 5 \) at exactly one point, we start by setting the equations equal to each other:
+
+\[
+k = -2y^2 - 3y + 5
+\]
+
+rearranging this into a standard quadratic form gives:
+
+\[
+2y^2 + 3y - (5 - k) = 0
+\]
+
+for the quadratic equation \( 2y^2 + 3y - (5 - k) = 0 \) to have exactly one real solution, the discriminant must be zero. the discriminant \( d \) is given by:
+
+\[
+d = b^2 - 4ac
+\]
+
+here, \( a = 2 \), \( b = 3 \), and \( c = -(5 - k) = k - 5 \). thus, the discriminant is:
+
+\[
+d = 3^2 - 4(2)(k - 5) = 9 - 8(k - 5) = 9 - 8k + 40 = 49 - 8k
+\]
+
+setting the discriminant to zero for exactly one solution:
+
+\[
+49 - 8k = 0
+\]
+
+solving for \( k \):
+
+\[
+8k = 49 \\
+k = \frac{49}{8}
+\]
+
+to confirm, we find the vertex of the parabola \( x = -2y^2 - 3y + 5 \). the y-coordinate of the vertex is:
+
+\[
+y = -\frac{b}{2a} = -\frac{-3}{2(-2)} = -\frac{3}{4}
+\]
+
+substituting \( y = -\frac{3}{4} \) back into the parabola equation to find the x-coordinate:
+
+\[
+x = -2\left(-\frac{3}{4}\right)^2 - 3\left(-\frac{3}{4}\right) + 5 = -2 \cdot \frac{9}{16} + \frac{9}{4} + 5 = -\frac{9}{8} + \frac{18}{8} + \frac{40}{8} = \frac{49}{8}
+\]
+
+thus, the vertex is at \( \left( \frac{49}{8}, -\frac{3}{4} \right) \), confirming that \( k = \frac{49}{8} \) is the correct value for the line to intersect the parabola at exactly one point.
+
+\[
+\boxed{\frac{49}{8}}
+\]

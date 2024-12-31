@@ -1,1 +1,56 @@
-Answer: 
+Answer: To solve the problem, we start with the expression:
+
+\[
+\sqrt{5} + \frac{1}{\sqrt{5}} + \sqrt{7} + \frac{1}{\sqrt{7}}
+\]
+
+first, we simplify each pair of terms separately:
+
+\[
+\sqrt{5} + \frac{1}{\sqrt{5}} = \frac{6}{\sqrt{5}}
+\]
+\[
+\sqrt{7} + \frac{1}{\sqrt{7}} = \frac{8}{\sqrt{7}}
+\]
+
+combining these, we get:
+
+\[
+\frac{6}{\sqrt{5}} + \frac{8}{\sqrt{7}}
+\]
+
+next, we rationalize the denominators:
+
+\[
+\frac{6}{\sqrt{5}} = \frac{6\sqrt{5}}{5}
+\]
+\[
+\frac{8}{\sqrt{7}} = \frac{8\sqrt{7}}{7}
+\]
+
+to combine these into a single fraction, we find a common denominator, which is 35:
+
+\[
+\frac{6\sqrt{5}}{5} = \frac{42\sqrt{5}}{35}
+\]
+\[
+\frac{8\sqrt{7}}{7} = \frac{40\sqrt{7}}{35}
+\]
+
+adding these fractions, we get:
+
+\[
+\frac{42\sqrt{5} + 40\sqrt{7}}{35}
+\]
+
+thus, the expression is in the form \(\frac{a\sqrt{5} + b\sqrt{7}}{c}\) with \(a = 42\), \(b = 40\), and \(c = 35\). therefore, the sum \(a + b + c\) is:
+
+\[
+a + b + c = 42 + 40 + 35 = 117
+\]
+
+the final answer is:
+
+\[
+\boxed{117}
+\]

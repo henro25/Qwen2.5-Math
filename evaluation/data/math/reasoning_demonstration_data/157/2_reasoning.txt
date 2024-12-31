@@ -1,1 +1,52 @@
 Reasoning: 
+Alright, so I have this problem here. It says that only one quarter of the Earth's surface is not covered by bodies of water. So, first things first, I need to understand what that means. The Earth is mostly covered by water, like oceans and stuff, and only a part of it is land. According to this, one quarter, which is the same as 1/4, of the Earth's surface is land.
+
+Then, it says that only one half of that exposed land area is inhabitable for humans because of places like the poles, deserts, and so on. So, of that 1/4 land area, only half of it is suitable for humans to live on.
+
+I need to find out what fraction of the Earth's total surface area is inhabitable for humans.
+
+Okay, so let's break this down step by step. The Earth's total surface area is, well, 1, right? Because fractions are parts of the whole, and the whole is 1.
+
+So, if one quarter of the Earth's surface is land, that means the land area is 1/4 of the Earth's surface.
+
+Now, of that land area, only half is inhabitable. So, I need to find half of 1/4.
+
+To find half of something, I can multiply by 1/2.
+
+So, half of 1/4 is 1/2 * 1/4.
+
+Multiplying fractions is straightforward: multiply the numerators together and the denominators together.
+
+So, 1 * 1 is 1, and 2 * 4 is 8. So, 1/8.
+
+Therefore, the fraction of the Earth's surface that humans can live on is 1/8.
+
+Wait, is that right? Let me double-check.
+
+Total Earth surface: 1.
+
+Land area: 1/4.
+
+Inhabitable land: half of 1/4, which is 1/8.
+
+Yeah, that seems correct.
+
+But maybe I should think about it differently to confirm.
+
+Suppose the Earth's surface is divided into 4 equal parts, and one part is land.
+
+Then, of that one part, only half is inhabitable.
+
+So, half of one part is 1/2 * 1/4 = 1/8.
+
+Same result.
+
+Alternatively, if I think of percentages, 25% of the Earth is land, and half of that is inhabitable, so 12.5% is inhabitable.
+
+12.5% is the same as 1/8.
+
+So, again, 1/8.
+
+Seems consistent.
+
+I think I've got it.

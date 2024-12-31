@@ -1,1 +1,48 @@
-Answer: 
+Answer: To find the area of the circle defined by the equation \(2x^2 + 2y^2 + 10x - 6y - 18 = 0\), we first simplify and rearrange the equation into the standard form of a circle.
+
+1. divide the entire equation by 2:
+   \[
+   x^2 + y^2 + 5x - 3y - 9 = 0
+   \]
+
+2. group the \(x\) and \(y\) terms:
+   \[
+   x^2 + 5x + y^2 - 3y = 9
+   \]
+
+3. complete the square for the \(x\) and \(y\) terms:
+   \[
+   x^2 + 5x + \left(\frac{5}{2}\right)^2 + y^2 - 3y + \left(\frac{3}{2}\right)^2 = 9 + \left(\frac{5}{2}\right)^2 + \left(\frac{3}{2}\right)^2
+   \]
+   \[
+   x^2 + 5x + \frac{25}{4} + y^2 - 3y + \frac{9}{4} = 9 + \frac{25}{4} + \frac{9}{4}
+   \]
+
+4. simplify the equation:
+   \[
+   (x + 2.5)^2 + (y - 1.5)^2 = 9 + \frac{25}{4} + \frac{9}{4}
+   \]
+   \[
+   (x + 2.5)^2 + (y - 1.5)^2 = 9 + \frac{34}{4}
+   \]
+   \[
+   (x + 2.5)^2 + (y - 1.5)^2 = 9 + 8.5
+   \]
+   \[
+   (x + 2.5)^2 + (y - 1.5)^2 = 17.5
+   \]
+
+5. identify the radius \(r\) from the standard form \((x - h)^2 + (y - k)^2 = r^2\):
+   \[
+   r^2 = 17.5 = \frac{35}{2}
+   \]
+
+6. calculate the area of the circle:
+   \[
+   \text{area} = \pi r^2 = \pi \left(\frac{35}{2}\right) = \frac{35\pi}{2}
+   \]
+
+thus, the area of the circle is:
+\[
+\boxed{\frac{35}{2} \pi}
+\]

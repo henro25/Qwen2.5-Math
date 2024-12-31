@@ -1,1 +1,63 @@
-Answer: 
+Answer: To determine the number of times the graphs \( r = 4 \cos \theta \) and \( r = 8 \sin \theta \) intersect, we can follow these steps:
+
+1. **convert to cartesian coordinates:**
+   - for \( r = 4 \cos \theta \):
+     \[
+     r = 4 \cos \theta \implies \sqrt{x^2 + y^2} = 4 \cdot \frac{x}{\sqrt{x^2 + y^2}} \implies x^2 + y^2 = 4x \implies (x - 2)^2 + y^2 = 4
+     \]
+   - for \( r = 8 \sin \theta \):
+     \[
+     r = 8 \sin \theta \implies \sqrt{x^2 + y^2} = 8 \cdot \frac{y}{\sqrt{x^2 + y^2}} \implies x^2 + y^2 = 8y \implies x^2 + (y - 4)^2 = 16
+     \]
+
+2. **solve the system of equations:**
+   \[
+   (x - 2)^2 + y^2 = 4 \quad \text{and} \quad x^2 + (y - 4)^2 = 16
+   \]
+   - expand and simplify:
+     \[
+     x^2 - 4x + 4 + y^2 = 4 \implies x^2 - 4x + y^2 = 0 \quad \text{(1)}
+     \]
+     \[
+     x^2 + y^2 - 8y + 16 = 16 \implies x^2 + y^2 - 8y = 0 \quad \text{(2)}
+     \]
+   - subtract (1) from (2):
+     \[
+     -8y + 4x = 0 \implies x = 2y
+     \]
+   - substitute \( x = 2y \) into (1):
+     \[
+     (2y)^2 - 4(2y) + y^2 = 0 \implies 4y^2 - 8y + y^2 = 0 \implies 5y^2 - 8y = 0 \implies y(5y - 8) = 0
+     \]
+     \[
+     y = 0 \quad \text{or} \quad y = \frac{8}{5}
+     \]
+   - corresponding \( x \) values:
+     \[
+     y = 0 \implies x = 0 \quad \text{(point: (0, 0))}
+     \]
+     \[
+     y = \frac{8}{5} \implies x = \frac{16}{5} \quad \text{(point: \left( \frac{16}{5}, \frac{8}{5} \right))}
+     \]
+
+3. **verify points in polar coordinates:**
+   - for \( (0, 0) \):
+     \[
+     r = 4 \cos \theta \implies r = 0 \quad \text{when} \quad \theta = \frac{\pi}{2} \text{ or } \frac{3\pi}{2}
+     \]
+     \[
+     r = 8 \sin \theta \implies r = 0 \quad \text{when} \quad \theta = 0, \pi, 2\pi
+     \]
+   - for \( \left( \frac{16}{5}, \frac{8}{5} \right) \):
+     \[
+     r = \sqrt{\left( \frac{16}{5} \right)^2 + \left( \frac{8}{5} \right)^2} = \frac{8}{\sqrt{5}}, \quad \theta = \arctan \left( \frac{1}{2} \right)
+     \]
+     \[
+     r = 4 \cos \left( \arctan \left( \frac{1}{2} \right) \right) = \frac{8}{\sqrt{5}}, \quad r = 8 \sin \left( \arctan \left( \frac{1}{2} \right) \right) = \frac{8}{\sqrt{5}}
+     \]
+
+thus, the graphs intersect at two distinct points: (0, 0) and \( \left( \frac{16}{5}, \frac{8}{5} \right) \).
+
+\[
+\boxed{2}
+\]

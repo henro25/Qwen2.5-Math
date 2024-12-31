@@ -1,1 +1,21 @@
-Answer: 
+Answer: To solve the problem, we need to calculate \((1 \nabla 2) \nabla 3\) using the given operation:
+
+\[ a \nabla b = \frac{a + b}{1 + ab} \]
+
+first, we compute \(1 \nabla 2\):
+
+\[ 1 \nabla 2 = \frac{1 + 2}{1 + 1 \cdot 2} = \frac{3}{3} = 1 \]
+
+next, we use this result to compute \(1 \nabla 3\):
+
+\[ 1 \nabla 3 = \frac{1 + 3}{1 + 1 \cdot 3} = \frac{4}{4} = 1 \]
+
+therefore, the final result is:
+
+\[ (1 \nabla 2) \nabla 3 = 1 \nabla 3 = 1 \]
+
+thus, the answer is:
+
+\[
+\boxed{1}
+\]

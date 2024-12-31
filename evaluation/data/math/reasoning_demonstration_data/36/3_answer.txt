@@ -1,1 +1,38 @@
-Answer: 
+Answer: To factor the expression \(37a^2 + 111a\), we start by identifying the greatest common factor (gcf) of the coefficients and the variables separately.
+
+1. the coefficients are 37 and 111. since 37 is a prime number and 37 divides 111 (because \(37 \times 3 = 111\)), the gcf of the coefficients is 37.
+2. the variables are \(a^2\) and \(a\). the lowest power of \(a\) present in both terms is \(a\).
+
+therefore, the overall gcf of the entire expression is \(37a\).
+
+next, we factor \(37a\) out of each term in the expression:
+
+\[
+37a^2 = 37a \times a
+\]
+\[
+111a = 37a \times 3
+\]
+
+thus, the expression can be factored as:
+
+\[
+37a(a + 3)
+\]
+
+to verify, we expand \(37a(a + 3)\):
+
+\[
+37a \times a = 37a^2
+\]
+\[
+37a \times 3 = 111a
+\]
+
+this matches the original expression, confirming our factoring is correct.
+
+therefore, the fully factored form of the expression is:
+
+\[
+\boxed{37a(a + 3)}
+\]

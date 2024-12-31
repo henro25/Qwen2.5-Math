@@ -1,1 +1,21 @@
-Answer: 
+Answer: To find the integer \( n \) such that \( 0 \leq n < 9 \) and \( -1111 \equiv n \pmod{9} \), we can follow these steps:
+
+1. first, find the remainder of \( 1111 \) when divided by 9 by summing its digits:
+   \[
+   1 + 1 + 1 + 1 = 4
+   \]
+   thus, \( 1111 \equiv 4 \pmod{9} \).
+
+2. since \( -1111 \equiv -4 \pmod{9} \), we need to convert \(-4\) to a positive equivalent within the range \( 0 \leq n < 9 \):
+   \[
+   -4 + 9 = 5
+   \]
+   therefore, \( -1111 \equiv 5 \pmod{9} \).
+
+3. to verify, use the division algorithm for negative numbers:
+   \[
+   -1111 = 9 \times (-124) + 5
+   \]
+   this confirms that \( 0 \leq 5 < 9 \).
+
+thus, the integer \( n \) that satisfies the given conditions is \( \boxed{5} \).

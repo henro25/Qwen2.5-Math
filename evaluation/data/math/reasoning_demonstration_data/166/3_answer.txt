@@ -1,1 +1,22 @@
-Answer: 
+Answer: To find the common rational root \( k \) of the equations
+
+\[ 75x^4 + a x^3 + b x^2 + c x + 12 = 0 \]
+and
+\[ 12x^5 + d x^4 + e x^3 + f x^2 + g x + 75 = 0, \]
+
+we use the rational root theorem. for the first equation, the possible rational roots are of the form \(\frac{p}{q}\) where \( p \) divides 12 and \( q \) divides 75. for the second equation, the possible rational roots are of the form \(\frac{p}{q}\) where \( p \) divides 75 and \( q \) divides 12.
+
+given that \( k \) is a negative rational number and not an integer, we list the possible negative rational roots for both equations and find their intersection.
+
+for the first equation, the possible negative rational roots are:
+\[ -\frac{1}{3}, -\frac{2}{3}, -\frac{4}{3}, -\frac{1}{5}, -\frac{2}{5}, -\frac{3}{5}, -\frac{4}{5}, -\frac{6}{5}, -\frac{12}{5}, -\frac{1}{15}, -\frac{2}{15}, -\frac{4}{15}, -\frac{1}{25}, -\frac{2}{25}, -\frac{3}{25}, -\frac{4}{25}, -\frac{6}{25}, -\frac{12}{25}, -\frac{1}{75}, -\frac{2}{75}, -\frac{4}{75}. \]
+
+for the second equation, the possible negative rational roots are:
+\[ -\frac{1}{2}, -\frac{3}{2}, -\frac{5}{2}, -\frac{15}{2}, -\frac{25}{2}, -\frac{75}{2}, -\frac{1}{3}, -\frac{5}{3}, -\frac{25}{3}, -\frac{1}{4}, -\frac{3}{4}, -\frac{5}{4}, -\frac{15}{4}, -\frac{25}{4}, -\frac{75}{4}, -\frac{1}{6}, -\frac{5}{6}, -\frac{25}{6}, -\frac{1}{12}, -\frac{5}{12}, -\frac{25}{12}. \]
+
+the only common root in both lists is \( -\frac{1}{3} \).
+
+therefore, the common rational root \( k \) is:
+\[
+\boxed{-\frac{1}{3}}
+\]

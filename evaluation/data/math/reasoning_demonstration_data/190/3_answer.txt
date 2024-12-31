@@ -1,1 +1,30 @@
-Answer: 
+Answer: Given the altitude \( cd = \sqrt{3} \) cm in triangle \( \delta abc \) with a 30° angle at vertex \( a \), we need to find the area of \( \delta abc \).
+
+1. **identify the sides and angles:**
+   - angle at \( a \) is 30°.
+   - \( cd \) is the altitude from \( c \) to \( ab \).
+
+2. **use the properties of a 30-60-90 triangle:**
+   - in a 30-60-90 triangle, the sides are in the ratio \( 1 : \sqrt{3} : 2 \).
+   - given \( cd = \sqrt{3} \) cm, and it is the altitude corresponding to the 30° angle, we can deduce the sides of the triangle.
+
+3. **calculate the sides:**
+   - let \( ad = x \) and \( db = y \).
+   - in right triangle \( adc \), \( \tan(30°) = \frac{cd}{ad} = \frac{\sqrt{3}}{x} \).
+   - since \( \tan(30°) = \frac{1}{\sqrt{3}} \), we have \( \frac{1}{\sqrt{3}} = \frac{\sqrt{3}}{x} \), solving for \( x \) gives \( x = 3 \) cm.
+   - therefore, \( ab = ad + db = 3 + y \).
+
+4. **use the area formula:**
+   - the area of \( \delta abc \) can be calculated using the base \( ab \) and height \( cd \):
+     \[
+     \text{area} = \frac{1}{2} \times ab \times cd
+     \]
+   - given \( ab = 3 \) cm and \( cd = \sqrt{3} \) cm:
+     \[
+     \text{area} = \frac{1}{2} \times 3 \times \sqrt{3} = \frac{3\sqrt{3}}{2} \text{ cm}^2
+     \]
+
+thus, the area of \( \delta abc \) is:
+\[
+\boxed{\frac{3\sqrt{3}}{2}}
+\]

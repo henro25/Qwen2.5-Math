@@ -1,1 +1,130 @@
 Reasoning: 
+So i've got this problem here: mr. mendez gives extra credit on quizzes to his students who score above the class mean. there are 107 students who take the quiz, and i need to figure out the largest number of students who can be awarded extra credit. hmm, okay, let's break this down.
+
+first, i need to understand what it means to be above the mean. the mean is the average score of all the students. so, if a student scores higher than this average, they get extra credit. but i need to maximize the number of students who are above this average.
+
+wait a minute, how is that possible? if most students score really low and one student scores super high, the mean could be pulled up, and maybe more students could be above it. or maybe if all but one student score the same, and one scores much higher, that could affect the mean.
+
+let me try to think of an example. suppose there are 3 students:
+
+- student a: 50
+
+- student b: 50
+
+- student c: 150
+
+the mean would be (50 + 50 + 150)/3 = 250/3 ≈ 83.33. so, students who score above 83.33 get extra credit. in this case, only student c would get extra credit.
+
+but the problem is to maximize the number of students above the mean in a class of 107 students. so, in this small example, only one student got extra credit. but maybe there's a way to have more students above the mean.
+
+wait, perhaps if the scores are arranged in a certain way, more students can be above the mean. let's consider another example with 4 students:
+
+- student a: 50
+
+- student b: 50
+
+- student c: 50
+
+- student d: 150
+
+mean = (50 + 50 + 50 + 150)/4 = 300/4 = 75.
+
+students scoring above 75 are only student d. so again, only one student gets extra credit.
+
+hmm, maybe i need to have more students scoring just above the mean. let's say:
+
+- 53 students score 100
+
+- 53 students score 100
+
+- 1 student scores 0
+
+mean = (53*100 + 53*100 + 0)/107 = (5300 + 5300 + 0)/107 = 10600/107 ≈ 99.07.
+
+so, students scoring above 99.07 get extra credit. that would be the 53 students who scored 100 each. so, 53 students get extra credit.
+
+wait, is that the maximum? can i get more than 53 students above the mean?
+
+let me try another arrangement. suppose:
+
+- 54 students score 100
+
+- 52 students score 100
+
+- 1 student scores something.
+
+wait, but that's still 54 + 52 +1=107.
+
+let me calculate the mean.
+
+mean = (54*100 + 52*100 + x)/107 = (5400 + 5200 + x)/107 = (10600 + x)/107.
+
+to maximize the number above the mean, i need to set x such that the mean is just below 100, so that all 106 students who scored 100 are above the mean.
+
+so, if i set x to be as low as possible, say x approaches negative infinity, but practically, scores can't be negative. assuming scores are non-negative, the lowest x can be is 0.
+
+so, mean = (10600 + 0)/107 ≈ 99.07.
+
+then, 106 students scored 100, which is above 99.07, so 106 students get extra credit.
+
+wait, is that possible? if one student scores 0, and the rest score 100, the mean is about 99.07, and all 106 students who scored 100 are above that.
+
+but earlier, when i had 53 and 53, i got a mean of 99.07 and only 53 students above.
+
+so, in this case, with 106 students scoring 100 and 1 scoring 0, the mean is still around 99.07, and 106 students are above that.
+
+does that mean the maximum number is 106?
+
+but wait, is there a way to have all 107 students above the mean? that doesn't make sense because the mean is an average, and you can't have everyone above average.
+
+wait, actually, it's impossible for everyone to be above the mean. the mean is the average, so at least one person has to be at or below the mean.
+
+so, the maximum number must be 106.
+
+but let's double-check.
+
+suppose 106 students score 100, and 1 student scores something less than 100, say x < 100.
+
+mean = (106*100 + x)/107.
+
+to have as many students as possible above the mean, i want the mean to be as low as possible, so that more students are above it.
+
+the lowest possible mean occurs when x is as small as possible, which is 0.
+
+so, mean = (10600 + 0)/107 ≈ 99.07.
+
+then, 106 students scored 100, which is above 99.07, and 1 student scored 0, which is below.
+
+so, 106 students above the mean.
+
+is there any way to have more than 106 students above the mean? well, no, because there are only 107 students, and at least one has to be at or below the mean.
+
+therefore, the largest number of students who can be awarded extra credit is 106.
+
+wait, but in the initial example with 106 students scoring 100 and 1 scoring 0, that's 106 above the mean. but if i adjust the scores slightly, maybe i can have more above.
+
+for example, suppose 106 students score 100, and 1 student scores something like 99.
+
+then, mean = (106*100 + 99)/107 = (10600 + 99)/107 = 10699/107 ≈ 99.99.
+
+so, students scoring above 99.99 get extra credit. that would be the 106 students who scored 100, since 100 > 99.99.
+
+still, 106 students.
+
+if i set x to be 99.9, mean = (10600 + 99.9)/107 ≈ 10699.9/107 ≈ 99.999.
+
+still, 106 students above.
+
+even if x is 99.999, mean is still very close to 100, but less than 100.
+
+so, 106 students above.
+
+therefore, it seems that the maximum number is indeed 106.
+
+so, the answer should be 106.
+
+**final answer**
+
+106
+106
+​

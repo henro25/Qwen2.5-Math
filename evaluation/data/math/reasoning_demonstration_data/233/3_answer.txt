@@ -1,1 +1,35 @@
-Answer: 
+Answer: Given that \(13^{-1} \equiv 29 \pmod{47}\), we need to find \(34^{-1} \pmod{47}\).
+
+first, we note that \(34 \equiv -13 \pmod{47}\) because \(34 + 13 = 47\), and \(47 \equiv 0 \pmod{47}\). therefore, \(34^{-1} \equiv (-13)^{-1} \pmod{47}\).
+
+the inverse of \(-13\) modulo 47 is \(- (13^{-1}) \pmod{47}\). given \(13^{-1} \equiv 29 \pmod{47}\), we have:
+
+\[
+(-13)^{-1} \equiv -29 \pmod{47}
+\]
+
+to find \(-29 \pmod{47}\), we calculate:
+
+\[
+-29 + 47 = 18
+\]
+
+thus, \(34^{-1} \equiv 18 \pmod{47}\).
+
+to verify, we check that \(34 \times 18 \equiv 1 \pmod{47}\):
+
+\[
+34 \times 18 = 612
+\]
+
+since \(612 \div 47 = 13\) with a remainder of 1, we have:
+
+\[
+612 \equiv 1 \pmod{47}
+\]
+
+therefore, the inverse of 34 modulo 47 is indeed 18.
+
+\[
+\boxed{18}
+\]

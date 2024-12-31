@@ -1,1 +1,26 @@
-Answer: 
+Answer: To solve the problem, we need to find positive integers with strictly increasing digits whose squares sum to 50, and then determine the product of the digits of the largest such integer.
+
+### key steps:
+
+1. **2-digit numbers:**
+   - check pairs \(a < b\) such that \(a^2 + b^2 = 50\).
+   - only pair: \(17\) (since \(1^2 + 7^2 = 1 + 49 = 50\)).
+
+2. **3-digit numbers:**
+   - check triplets \(a < b < c\) such that \(a^2 + b^2 + c^2 = 50\).
+   - only triplet: \(345\) (since \(3^2 + 4^2 + 5^2 = 9 + 16 + 25 = 50\)).
+
+3. **4-digit numbers:**
+   - check quadruplets \(a < b < c < d\) such that \(a^2 + b^2 + c^2 + d^2 = 50\).
+   - only quadruplet: \(1236\) (since \(1^2 + 2^2 + 3^2 + 6^2 = 1 + 4 + 9 + 36 = 50\)).
+
+4. **largest number:**
+   - among the candidates \(17\), \(345\), and \(1236\), the largest is \(1236\).
+
+5. **product of digits:**
+   - product of digits of \(1236\): \(1 \times 2 \times 3 \times 6 = 36\).
+
+### final answer:
+\[
+\boxed{36}
+\]

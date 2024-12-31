@@ -1,1 +1,34 @@
-Answer: 
+Answer: We are given three numbers \( x \), \( y \), and \( z \) with the following conditions:
+
+1. \( x + y + z = 165 \)
+2. \( n = 7x \)
+3. \( n = y - 9 \)
+4. \( n = z + 9 \)
+
+From equations 3 and 4, we set \( y - 9 = z + 9 \), which simplifies to \( y - z = 18 \). Additionally, from equations 2 and 3, we get \( y = 7x + 9 \), and from equations 2 and 4, we get \( z = 7x - 9 \).
+
+Substituting these expressions into the sum equation:
+
+\[
+x + (7x + 9) + (7x - 9) = 165
+\]
+
+Simplifying:
+
+\[
+x + 7x + 9 + 7x - 9 = 165 \implies 15x = 165 \implies x = 11
+\]
+
+Now, substituting \( x = 11 \) back into the expressions for \( y \) and \( z \):
+
+\[
+y = 7(11) + 9 = 86, \quad z = 7(11) - 9 = 68
+\]
+
+Finally, the product of the three numbers is:
+
+\[
+x \cdot y \cdot z = 11 \cdot 86 \cdot 68 = 64,328
+\]
+
+Thus, the product of the three numbers is **64,328**.

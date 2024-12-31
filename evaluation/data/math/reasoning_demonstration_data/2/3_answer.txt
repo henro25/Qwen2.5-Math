@@ -1,1 +1,23 @@
-Answer: 
+Answer: To find the area of a circle with a diameter of 4 meters, we use the formula for the area of a circle in terms of its radius:
+
+\[
+A = \pi r^2
+\]
+
+Since the radius is half of the diameter, we calculate:
+
+\[
+r = \frac{4}{2} = 2 \text{ meters}
+\]
+
+Now, substitute the radius into the area formula:
+
+\[
+A = \pi (2)^2 = \pi \times 4 = 4\pi \text{ square meters}
+\]
+
+Thus, the area of the circle is:
+
+\[
+\boxed{4\pi}
+\]

@@ -1,1 +1,31 @@
-Reasoning: 
+Reasoning: Alright, so I've got this problem here: Ms. Hamilton's eighth-grade class is participating in a basketball tournament with sixteen teams, and it's a single-elimination format, meaning the losing team of each game is eliminated. I need to figure out how many games will be played to determine the winner.
+
+Okay, first off, I need to understand what single-elimination means. From what I know, in single-elimination tournaments, one loss means you're out of the tournament. So, every game results in one team being eliminated.
+
+There are sixteen teams initially. The goal is to find out how many games are needed to crown one champion.
+
+Let me think about smaller numbers to see if I can find a pattern. Let's say there are just two teams: Team A and Team B. They play one game, and the winner is the champion. So, only one game is needed.
+
+Now, if there are four teams: A, B, C, and D. In the first round, A plays B, and C plays D. That's two games, resulting in two winners. Then, those two winners play in the final game to determine the champion. So, a total of three games.
+
+Wait a minute, so with four teams, three games are needed. Let's see if there's a pattern here. For two teams, one game; for four teams, three games. It seems like the number of games is one less than the number of teams.
+
+Let me try with eight teams to see if this pattern holds. Teams A, B, C, D, E, F, G, H. First round: A vs B, C vs D, E vs F, G vs H. That's four games, resulting in four winners. Then, those four play in the semi-finals: winner of A/B vs winner of C/D, and winner of E/F vs winner of G/H. That's two more games, making six games in total. Then, the two winners of those games play in the final, which is the seventh game. So, seven games for eight teams.
+
+Again, it's one less than the number of teams. So, for two teams, one game; four teams, three games; eight teams, seven games.
+
+So, maybe for sixteen teams, it's fifteen games? That seems to follow the pattern.
+
+But wait, I should make sure this makes sense logically. In a single-elimination tournament, every game eliminates one team. To go from sixteen teams to one champion, fifteen teams need to be eliminated. Since each game eliminates one team, you need fifteen games to eliminate fifteen teams.
+
+Yes, that makes sense. So, regardless of how the bracket is set up or how many rounds there are, the total number of games should be equal to the number of teams minus one.
+
+Let me think if there's any scenario where this wouldn't hold. For example, if there are byes in certain rounds or if some teams don't play in the initial rounds because there's an odd number of teams.
+
+In this case, there are sixteen teams, which is a power of two (2^4 = 16), so there are no byes needed; every team plays in every round until they lose.
+
+If there were, say, seventeen teams, then one team would get a bye in the first round, and the rest would play, but the total number of games would still be one less than the number of teams because the number of eliminations needed is still the same.
+
+So, in general, for any single-elimination tournament with N teams, the number of games needed to determine a champion is N - 1.
+
+Therefore, for sixteen teams, it's fifteen games.

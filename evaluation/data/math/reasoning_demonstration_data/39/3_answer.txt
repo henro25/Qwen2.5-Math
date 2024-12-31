@@ -1,1 +1,53 @@
-Answer: 
+Answer: To find \(\cos \frac{5\pi}{4}\), we start by converting the angle from radians to degrees:
+
+\[
+\frac{5\pi}{4} \times \frac{180^\circ}{\pi} = 225^\circ
+\]
+
+next, we determine the reference angle for \(225^\circ\), which is:
+
+\[
+225^\circ - 180^\circ = 45^\circ
+\]
+
+since \(225^\circ\) is in the third quadrant where cosine is negative, we have:
+
+\[
+\cos 225^\circ = -\cos 45^\circ
+\]
+
+we know that:
+
+\[
+\cos 45^\circ = \frac{\sqrt{2}}{2}
+\]
+
+therefore:
+
+\[
+\cos 225^\circ = -\frac{\sqrt{2}}{2}
+\]
+
+alternatively, using the cosine addition formula for \(\frac{5\pi}{4} = \pi + \frac{\pi}{4}\):
+
+\[
+\cos\left(\pi + \frac{\pi}{4}\right) = \cos \pi \cos \frac{\pi}{4} - \sin \pi \sin \frac{\pi}{4}
+\]
+
+given:
+
+\[
+\cos \pi = -1, \quad \sin \pi = 0, \quad \cos \frac{\pi}{4} = \frac{\sqrt{2}}{2}, \quad \sin \frac{\pi}{4} = \frac{\sqrt{2}}{2}
+\]
+
+we get:
+
+\[
+\cos\left(\pi + \frac{\pi}{4}\right) = (-1) \times \frac{\sqrt{2}}{2} - 0 \times \frac{\sqrt{2}}{2} = -\frac{\sqrt{2}}{2}
+\]
+
+thus, the value of \(\cos \frac{5\pi}{4}\) is:
+
+\[
+\boxed{-\frac{\sqrt{2}}{2}}
+\]

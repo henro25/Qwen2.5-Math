@@ -1,1 +1,104 @@
-Reasoning: 
+Reasoning: So i've got this problem here. kevin has an elm tree that's 11 and 2/3 feet tall, and an oak tree that's 17 and 5/6 feet tall. i need to figure out how much taller the oak tree is compared to the elm tree, and express the answer as a simplified mixed number.
+
+alright, first things first, i need to subtract the height of the elm tree from the height of the oak tree. so, it's oak height minus elm height.
+
+the oak tree is 17 and 5/6 feet tall, and the elm tree is 11 and 2/3 feet tall. so, i need to calculate:
+
+17 5/6 - 11 2/3
+
+hmm, dealing with mixed numbers can be a bit tricky. maybe i should convert them to improper fractions first to make the subtraction easier.
+
+let's start with the oak tree's height: 17 5/6.
+
+to convert a mixed number to an improper fraction, i multiply the whole number by the denominator, add the numerator, and keep the same denominator.
+
+so, for 17 5/6:
+
+17 * 6 = 102
+
+102 + 5 = 107
+
+so, 17 5/6 is the same as 107/6.
+
+now, the elm tree is 11 2/3.
+
+let's do the same for 11 2/3:
+
+11 * 3 = 33
+
+33 + 2 = 35
+
+so, 11 2/3 is the same as 35/3.
+
+now, i need to subtract 35/3 from 107/6.
+
+but before i can subtract these fractions, they need to have the same denominator. the denominators here are 6 and 3.
+
+i know that 6 is a multiple of 3, specifically 3 times 2 is 6. so, i can convert 35/3 to a fraction with a denominator of 6.
+
+to do that, i multiply both the numerator and the denominator by 2:
+
+35/3 * 2/2 = 70/6
+
+now both fractions have the same denominator:
+
+107/6 - 70/6
+
+since the denominators are the same, i can just subtract the numerators:
+
+107 - 70 = 37
+
+so, 107/6 - 70/6 = 37/6
+
+now, 37/6 is an improper fraction, but the problem asks for the answer as a simplified mixed number.
+
+to convert 37/6 back to a mixed number, i divide 37 by 6.
+
+6 goes into 37 six times because 6*6=36, which is less than 37.
+
+37 minus 36 is 1, so the remainder is 1.
+
+therefore, 37/6 is the same as 6 and 1/6.
+
+so, the oak tree is 6 and 1/6 feet taller than the elm tree.
+
+wait a minute, let me double-check my calculations to make sure i didn't make any mistakes.
+
+starting with the heights:
+
+oak: 17 5/6 = 107/6
+
+elm: 11 2/3 = 35/3 = 70/6
+
+subtracting: 107/6 - 70/6 = 37/6
+
+convert back to a mixed number: 37 divided by 6 is 6 with a remainder of 1, so 6 1/6.
+
+that seems correct.
+
+alternatively, i could have subtracted the whole numbers and the fractions separately.
+
+so, 17 - 11 = 6
+
+then, 5/6 - 2/3
+
+but 2/3 is the same as 4/6, so 5/6 - 4/6 = 1/6
+
+so, 6 + 1/6 = 6 1/6
+
+same answer. good, that confirms it.
+
+i think that's the correct answer.
+
+**final answer**
+
+6
+ 
+1
+6
+6 
+6
+1
+​
+ 
+​

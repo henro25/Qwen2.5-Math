@@ -1,1 +1,50 @@
 Reasoning: 
+Okay, so I've got this problem here about a water tank. It says the tank is 1/5 full, and if I add three liters, it becomes 1/4 full. I need to find out how many liters the tank can hold when it's full. Alright, let's see how to approach this.
+
+First, I should probably define what I'm trying to find. Let's call the total capacity of the tank "C" liters. So, when the tank is full, it holds C liters of water.
+
+Now, the problem says the tank is 1/5 full initially. That means the current amount of water in the tank is (1/5) of C, or (1/5)C liters.
+
+Then, if I add three liters to that, the tank becomes 1/4 full. So, the new amount of water in the tank is (1/4)C liters.
+
+So, I can set up an equation here. The initial amount plus three liters equals the new amount:
+
+(1/5)C + 3 = (1/4)C
+
+Now, I need to solve for C. Hmm, dealing with fractions can be a bit tricky, but I can find a common denominator or multiply both sides by something to eliminate the fractions.
+
+Let's try multiplying both sides by 20, since 20 is a common multiple of 5 and 4.
+
+20 * [(1/5)C + 3] = 20 * (1/4)C
+
+This should simplify things.
+
+Breaking it down:
+
+20 * (1/5)C is 4C, because 20 divided by 5 is 4.
+
+20 * 3 is 60.
+
+On the right side, 20 * (1/4)C is 5C, because 20 divided by 4 is 5.
+
+So now the equation is:
+
+4C + 60 = 5C
+
+Alright, now I can subtract 4C from both sides to get:
+
+60 = C
+
+So, the tank holds 60 liters when it's full.
+
+Wait, that seems straightforward, but let me double-check.
+
+If the tank holds 60 liters when full, then 1/5 of that is 12 liters.
+
+Adding 3 liters would make it 15 liters.
+
+And 1/4 of 60 liters is indeed 15 liters.
+
+So, that checks out.
+
+I think that's the answer.

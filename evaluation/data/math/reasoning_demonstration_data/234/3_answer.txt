@@ -1,1 +1,34 @@
-Answer: 
+Answer: To solve the problem \( 3\triangle_4 = \triangle2_{11} \), where \(\triangle\) represents a digit from 0 to 9, we need to interpret the numbers in their respective bases and convert them to decimal (base 10).
+
+1. Convert \( 3\triangle_4 \) to decimal:
+   \[
+   3\triangle_4 = 3 \cdot 4^1 + \triangle \cdot 4^0 = 12 + \triangle
+   \]
+
+2. Convert \(\triangle2_{11}\) to decimal:
+   \[
+   \triangle2_{11} = \triangle \cdot 11^1 + 2 \cdot 11^0 = 11\triangle + 2
+   \]
+
+3. Set the two expressions equal to each other:
+   \[
+   12 + \triangle = 11\triangle + 2
+   \]
+
+4. Solve for \(\triangle\):
+   \[
+   12 + \triangle = 11\triangle + 2 \\
+   12 - 2 = 11\triangle - \triangle \\
+   10 = 10\triangle \\
+   \triangle = 1
+   \]
+
+5. Verify the solution:
+   \[
+   3\triangle_4 = 31_4 = 3 \cdot 4 + 1 = 13 \\
+   \triangle2_{11} = 12_{11} = 1 \cdot 11 + 2 = 13
+   \]
+
+Both sides equal 13, confirming that \(\triangle = 1\) is correct.
+
+Thus, the value of the missing digit is \(\boxed{1}\).

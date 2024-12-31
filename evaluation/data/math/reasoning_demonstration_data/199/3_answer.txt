@@ -1,1 +1,35 @@
-Answer: 
+Answer: To solve the problem, we start by recalling that the sum of the interior angles of a convex pentagon is given by:
+
+\[
+(5-2) \times 180 = 540 \text{ degrees}
+\]
+
+the measures of the interior angles are five consecutive integers. let these angles be \( x, x+1, x+2, x+3, \) and \( x+4 \) degrees. the sum of these angles is:
+
+\[
+x + (x+1) + (x+2) + (x+3) + (x+4) = 540
+\]
+
+simplifying the equation:
+
+\[
+5x + 10 = 540
+\]
+
+subtracting 10 from both sides:
+
+\[
+5x = 530
+\]
+
+dividing by 5:
+
+\[
+x = 106
+\]
+
+thus, the angles are \( 106, 107, 108, 109, \) and \( 110 \) degrees. the largest angle is:
+
+\[
+\boxed{110}
+\]

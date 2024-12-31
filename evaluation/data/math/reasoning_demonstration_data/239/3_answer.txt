@@ -1,1 +1,22 @@
-Answer: 
+Answer: Given the quadratic equations \(x^2 + mx + n = 0\) and \(x^2 + px + m = 0\), where the roots of the first equation are twice those of the second equation, we need to find the value of \(\frac{n}{p}\).
+
+first, denote the roots of the second equation \(x^2 + px + m = 0\) as \(r\) and \(s\). then, the roots of the first equation \(x^2 + mx + n = 0\) are \(2r\) and \(2s\).
+
+using vieta's formulas for the second equation:
+1. \(r + s = -p\)
+2. \(rs = m\)
+
+for the first equation:
+1. \(2r + 2s = -m \implies 2(r + s) = -m \implies 2(-p) = -m \implies m = 2p\)
+2. \((2r)(2s) = n \implies 4rs = n \implies 4m = n\)
+
+since \(m = 2p\), substituting this into the equation for \(n\):
+\[ n = 4(2p) = 8p \]
+
+therefore, the value of \(\frac{n}{p}\) is:
+\[ \frac{n}{p} = \frac{8p}{p} = 8 \]
+
+thus, the final answer is:
+\[
+\boxed{8}
+\]

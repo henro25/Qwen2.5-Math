@@ -1,1 +1,815 @@
 Reasoning: 
+I have this problem here: the circle 
+2
+x
+2
+=
+−
+2
+y
+2
++
+12
+x
+−
+4
+y
++
+20
+2x 
+2
+ =−2y 
+2
+ +12x−4y+20 is inscribed inside a square which has a pair of sides parallel to the x-axis. i need to find the area of the square.
+
+first, i need to understand what it means for a circle to be inscribed in a square. if a circle is inscribed in a square, that means the circle touches all four sides of the square, and the square perfectly surrounds the circle. in this case, since the square has sides parallel to the x-axis, it's aligned with the coordinate axes, which should make things a bit easier.
+
+to find the area of the square, i need to know the length of its sides. since the circle is inscribed, the diameter of the circle should be equal to the side length of the square. so, if i can find the diameter of the circle, i can find the side length of the square, and then square that to get the area.
+
+but first, i need to find the diameter of the circle. to do that, i should find the standard form of the circle's equation. the given equation is 
+2
+x
+2
+=
+−
+2
+y
+2
++
+12
+x
+−
+4
+y
++
+20
+2x 
+2
+ =−2y 
+2
+ +12x−4y+20. this doesn't look like the standard form of a circle equation, which is usually 
+(
+x
+−
+h
+)
+2
++
+(
+y
+−
+k
+)
+2
+=
+r
+2
+(x−h) 
+2
+ +(y−k) 
+2
+ =r 
+2
+ , where 
+(
+h
+,
+k
+)
+(h,k) is the center and 
+r
+r is the radius.
+
+so, i need to rearrange and complete the squares for both x and y terms to get it into the standard form.
+
+first, let me move all terms to one side to set the equation to zero:
+
+2
+x
+2
++
+2
+y
+2
+−
+12
+x
++
+4
+y
+−
+20
+=
+0
+2x 
+2
+ +2y 
+2
+ −12x+4y−20=0
+
+wait a second, i think i messed up the signs when moving terms. let me double-check:
+
+original equation: 
+2
+x
+2
+=
+−
+2
+y
+2
++
+12
+x
+−
+4
+y
++
+20
+2x 
+2
+ =−2y 
+2
+ +12x−4y+20
+
+if i bring all terms to the left side:
+
+2
+x
+2
++
+2
+y
+2
+−
+12
+x
++
+4
+y
+−
+20
+=
+0
+2x 
+2
+ +2y 
+2
+ −12x+4y−20=0
+
+yes, that's correct.
+
+now, i can divide the entire equation by 2 to simplify it:
+
+x
+2
++
+y
+2
+−
+6
+x
++
+2
+y
+−
+10
+=
+0
+x 
+2
+ +y 
+2
+ −6x+2y−10=0
+
+that looks better.
+
+now, to complete the squares for x and y:
+
+for the x terms: 
+x
+2
+−
+6
+x
+x 
+2
+ −6x
+
+take half of -6, which is -3, and square it to get 9. so, 
+x
+2
+−
+6
+x
++
+9
+=
+(
+x
+−
+3
+)
+2
+x 
+2
+ −6x+9=(x−3) 
+2
+ 
+
+for the y terms: 
+y
+2
++
+2
+y
+y 
+2
+ +2y
+
+take half of 2, which is 1, and square it to get 1. so, 
+y
+2
++
+2
+y
++
+1
+=
+(
+y
++
+1
+)
+2
+y 
+2
+ +2y+1=(y+1) 
+2
+ 
+
+but i added 9 and 1 to complete the squares, so i need to add those to the other side as well to keep the equation balanced.
+
+so, the equation becomes:
+
+(
+x
+−
+3
+)
+2
++
+(
+y
++
+1
+)
+2
+−
+10
+−
+9
+−
+1
+=
+0
+(x−3) 
+2
+ +(y+1) 
+2
+ −10−9−1=0
+
+wait, let's see:
+
+original simplified equation: 
+x
+2
++
+y
+2
+−
+6
+x
++
+2
+y
+−
+10
+=
+0
+x 
+2
+ +y 
+2
+ −6x+2y−10=0
+
+after completing the squares:
+
+(
+x
+−
+3
+)
+2
+−
+9
++
+(
+y
++
+1
+)
+2
+−
+1
+−
+10
+=
+0
+(x−3) 
+2
+ −9+(y+1) 
+2
+ −1−10=0
+
+wait, that doesn't seem right. let me try again.
+
+starting from:
+
+x
+2
+−
+6
+x
++
+y
+2
++
+2
+y
+−
+10
+=
+0
+x 
+2
+ −6x+y 
+2
+ +2y−10=0
+
+complete the square for x:
+
+x
+2
+−
+6
+x
+=
+(
+x
+−
+3
+)
+2
+−
+9
+x 
+2
+ −6x=(x−3) 
+2
+ −9
+
+complete the square for y:
+
+y
+2
++
+2
+y
+=
+(
+y
++
+1
+)
+2
+−
+1
+y 
+2
+ +2y=(y+1) 
+2
+ −1
+
+now, substitute back into the equation:
+
+(
+x
+−
+3
+)
+2
+−
+9
++
+(
+y
++
+1
+)
+2
+−
+1
+−
+10
+=
+0
+(x−3) 
+2
+ −9+(y+1) 
+2
+ −1−10=0
+
+combine constants:
+
+(
+x
+−
+3
+)
+2
++
+(
+y
++
+1
+)
+2
+−
+20
+=
+0
+(x−3) 
+2
+ +(y+1) 
+2
+ −20=0
+
+add 20 to both sides:
+
+(
+x
+−
+3
+)
+2
++
+(
+y
++
+1
+)
+2
+=
+20
+(x−3) 
+2
+ +(y+1) 
+2
+ =20
+
+okay, now this is the standard form of the circle's equation. so, the center of the circle is at 
+(
+3
+,
+−
+1
+)
+(3,−1), and the radius squared is 20, which means the radius 
+r
+=
+20
+=
+2
+5
+r= 
+20
+​
+ =2 
+5
+​
+ .
+
+since the circle is inscribed in the square, the diameter of the circle is equal to the side length of the square. the diameter is twice the radius, so:
+
+diameter 
+d
+=
+2
+r
+=
+2
+×
+2
+5
+=
+4
+5
+d=2r=2×2 
+5
+​
+ =4 
+5
+​
+ 
+
+therefore, the side length of the square is 
+4
+5
+4 
+5
+​
+ , and the area of the square is side length squared:
+
+area 
+a
+=
+(
+4
+5
+)
+2
+=
+16
+×
+5
+=
+80
+a=(4 
+5
+​
+ ) 
+2
+ =16×5=80
+
+so, the area of the square is 80.
+
+wait a minute, but let me double-check that. is there any step i might have missed or any mistake in the calculations?
+
+let me recap:
+
+1. started with the given equation: 
+2
+x
+2
+=
+−
+2
+y
+2
++
+12
+x
+−
+4
+y
++
+20
+2x 
+2
+ =−2y 
+2
+ +12x−4y+20
+
+2. moved all terms to one side: 
+2
+x
+2
++
+2
+y
+2
+−
+12
+x
++
+4
+y
+−
+20
+=
+0
+2x 
+2
+ +2y 
+2
+ −12x+4y−20=0
+
+3. divided by 2: 
+x
+2
++
+y
+2
+−
+6
+x
++
+2
+y
+−
+10
+=
+0
+x 
+2
+ +y 
+2
+ −6x+2y−10=0
+
+4. completed the squares for x and y:
+
+- for x: 
+x
+2
+−
+6
+x
+=
+(
+x
+−
+3
+)
+2
+−
+9
+x 
+2
+ −6x=(x−3) 
+2
+ −9
+
+- for y: 
+y
+2
++
+2
+y
+=
+(
+y
++
+1
+)
+2
+−
+1
+y 
+2
+ +2y=(y+1) 
+2
+ −1
+
+5. substituted back: 
+(
+x
+−
+3
+)
+2
+−
+9
++
+(
+y
++
+1
+)
+2
+−
+1
+−
+10
+=
+0
+(x−3) 
+2
+ −9+(y+1) 
+2
+ −1−10=0
+
+6. simplified: 
+(
+x
+−
+3
+)
+2
++
+(
+y
++
+1
+)
+2
+−
+20
+=
+0
+(x−3) 
+2
+ +(y+1) 
+2
+ −20=0
+
+7. added 20: 
+(
+x
+−
+3
+)
+2
++
+(
+y
++
+1
+)
+2
+=
+20
+(x−3) 
+2
+ +(y+1) 
+2
+ =20
+
+8. identified center 
+(
+3
+,
+−
+1
+)
+(3,−1) and radius 
+r
+=
+20
+=
+2
+5
+r= 
+20
+​
+ =2 
+5
+​
+ 
+
+9. diameter 
+d
+=
+2
+r
+=
+4
+5
+d=2r=4 
+5
+​
+ 
+
+10. area of square: 
+d
+2
+=
+(
+4
+5
+)
+2
+=
+16
+×
+5
+=
+80
+d 
+2
+ =(4 
+5
+​
+ ) 
+2
+ =16×5=80
+
+everything seems correct. i don't see any mistakes in the calculations.
+
+therefore, the area of the square is 80.
+
+**final answer**
+
+80
+80
+​

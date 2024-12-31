@@ -1,1 +1,610 @@
 Reasoning: 
+So i've got this problem here: find the remainder when 
+x
+4
+−
+7
+x
+3
++
+9
+x
+2
++
+16
+x
+−
+13
+x 
+4
+ −7x 
+3
+ +9x 
+2
+ +16x−13 is divided by 
+x
+−
+3
+x−3. hmm, i remember something about polynomial division and remainders. maybe i can use the remainder theorem? let me think about that.
+
+okay, the remainder theorem says that if you divide a polynomial 
+f
+(
+x
+)
+f(x) by 
+x
+−
+a
+x−a, the remainder is just 
+f
+(
+a
+)
+f(a). so in this case, since i'm dividing by 
+x
+−
+3
+x−3, i should plug in 
+x
+=
+3
+x=3 into the polynomial to find the remainder.
+
+let me write that down: remainder = 
+f
+(
+3
+)
+f(3), where 
+f
+(
+x
+)
+=
+x
+4
+−
+7
+x
+3
++
+9
+x
+2
++
+16
+x
+−
+13
+f(x)=x 
+4
+ −7x 
+3
+ +9x 
+2
+ +16x−13.
+
+alright, let's calculate 
+f
+(
+3
+)
+f(3):
+
+first, 
+x
+=
+3
+x=3, so:
+
+f
+(
+3
+)
+=
+(
+3
+)
+4
+−
+7
+(
+3
+)
+3
++
+9
+(
+3
+)
+2
++
+16
+(
+3
+)
+−
+13
+f(3)=(3) 
+4
+ −7(3) 
+3
+ +9(3) 
+2
+ +16(3)−13.
+
+now, calculating each term step by step:
+
+(
+3
+)
+4
+=
+81
+(3) 
+4
+ =81
+
+7
+(
+3
+)
+3
+=
+7
+×
+27
+=
+189
+7(3) 
+3
+ =7×27=189
+
+9
+(
+3
+)
+2
+=
+9
+×
+9
+=
+81
+9(3) 
+2
+ =9×9=81
+
+16
+(
+3
+)
+=
+48
+16(3)=48
+
+and then there's the constant term, which is -13.
+
+so, putting it all together:
+
+f
+(
+3
+)
+=
+81
+−
+189
++
+81
++
+48
+−
+13
+f(3)=81−189+81+48−13.
+
+now, let's add these up step by step:
+
+first, 
+81
+−
+189
+=
+−
+108
+81−189=−108
+
+then, 
+−
+108
++
+81
+=
+−
+27
+−108+81=−27
+
+next, 
+−
+27
++
+48
+=
+21
+−27+48=21
+
+finally, 
+21
+−
+13
+=
+8
+21−13=8
+
+so, the remainder should be 8.
+
+wait a minute, is there another way to check this? maybe i can perform polynomial long division to confirm.
+
+let's set that up. dividing 
+x
+4
+−
+7
+x
+3
++
+9
+x
+2
++
+16
+x
+−
+13
+x 
+4
+ −7x 
+3
+ +9x 
+2
+ +16x−13 by 
+x
+−
+3
+x−3.
+
+first, divide 
+x
+4
+x 
+4
+  by 
+x
+x, which gives 
+x
+3
+x 
+3
+ . multiply 
+x
+3
+x 
+3
+  by 
+x
+−
+3
+x−3: 
+x
+4
+−
+3
+x
+3
+x 
+4
+ −3x 
+3
+ .
+
+subtract that from the original polynomial:
+
+(
+x
+4
+−
+7
+x
+3
++
+9
+x
+2
++
+16
+x
+−
+13
+)
+−
+(
+x
+4
+−
+3
+x
+3
+)
+=
+−
+4
+x
+3
++
+9
+x
+2
++
+16
+x
+−
+13
+(x 
+4
+ −7x 
+3
+ +9x 
+2
+ +16x−13)−(x 
+4
+ −3x 
+3
+ )=−4x 
+3
+ +9x 
+2
+ +16x−13.
+
+next, divide 
+−
+4
+x
+3
+−4x 
+3
+  by 
+x
+x, which is 
+−
+4
+x
+2
+−4x 
+2
+ . multiply 
+−
+4
+x
+2
+−4x 
+2
+  by 
+x
+−
+3
+x−3: 
+−
+4
+x
+3
++
+12
+x
+2
+−4x 
+3
+ +12x 
+2
+ .
+
+subtract that:
+
+(
+−
+4
+x
+3
++
+9
+x
+2
++
+16
+x
+−
+13
+)
+−
+(
+−
+4
+x
+3
++
+12
+x
+2
+)
+=
+−
+3
+x
+2
++
+16
+x
+−
+13
+(−4x 
+3
+ +9x 
+2
+ +16x−13)−(−4x 
+3
+ +12x 
+2
+ )=−3x 
+2
+ +16x−13.
+
+now, divide 
+−
+3
+x
+2
+−3x 
+2
+  by 
+x
+x, which gives 
+−
+3
+x
+−3x. multiply 
+−
+3
+x
+−3x by 
+x
+−
+3
+x−3: 
+−
+3
+x
+2
++
+9
+x
+−3x 
+2
+ +9x.
+
+subtract:
+
+(
+−
+3
+x
+2
++
+16
+x
+−
+13
+)
+−
+(
+−
+3
+x
+2
++
+9
+x
+)
+=
+7
+x
+−
+13
+(−3x 
+2
+ +16x−13)−(−3x 
+2
+ +9x)=7x−13.
+
+next, divide 
+7
+x
+7x by 
+x
+x, which is 7. multiply 7 by 
+x
+−
+3
+x−3: 
+7
+x
+−
+21
+7x−21.
+
+subtract:
+
+(
+7
+x
+−
+13
+)
+−
+(
+7
+x
+−
+21
+)
+=
+8
+(7x−13)−(7x−21)=8.
+
+so, the remainder is indeed 8. that matches what i got using the remainder theorem. good, i feel confident about this answer now.
+
+i wonder if there's a synthetic division method to do this even quicker. let me try that.
+
+for synthetic division, since we're dividing by 
+x
+−
+3
+x−3, we use 3 as the root.
+
+set up the coefficients: 1 (for 
+x
+4
+x 
+4
+ ), -7 (for 
+x
+3
+x 
+3
+ ), 9 (for 
+x
+2
+x 
+2
+ ), 16 (for 
+x
+x), and -13 (constant term).
+
+bring down the 1.
+
+multiply 1 by 3 to get 3, add to -7 to get -4.
+
+multiply -4 by 3 to get -12, add to 9 to get -3.
+
+multiply -3 by 3 to get -9, add to 16 to get 7.
+
+multiply 7 by 3 to get 21, add to -13 to get 8.
+
+so, the remainder is 8 again. all three methods give me the same answer, which makes me sure that 8 is the correct remainder.
+
+i think i've got it figured out.
+
+**final answer**
+
+8
+8
+​

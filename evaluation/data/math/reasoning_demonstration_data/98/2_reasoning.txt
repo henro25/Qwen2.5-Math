@@ -1,1 +1,93 @@
 Reasoning: 
+So i have this inequality to solve: |x - 1| + |x + 2| < 5. hmm, absolute values can be tricky, but i think i can handle this by breaking it down into different cases based on the critical points where the expressions inside the absolute values change sign. the critical points here are where x - 1 = 0 and x + 2 = 0, so at x = 1 and x = -2.
+
+first, i'll consider the intervals determined by these points: x < -2, -2 ≤ x < 1, and x ≥ 1. in each of these intervals, the expressions inside the absolute values will have consistent signs, so i can rewrite the inequality without the absolute value signs accordingly.
+
+**case 1: x < -2**
+
+in this interval, both x - 1 and x + 2 are negative because x is less than both 1 and -2. so, |x - 1| = -(x - 1) = -x + 1, and |x + 2| = -(x + 2) = -x - 2.
+
+substituting these into the inequality:
+
+- x + 1 + (-x - 2) < 5
+
+simplify:
+
+- x + 1 - x - 2 < 5
+
+combine like terms:
+
+-2x - 1 < 5
+
+add 1 to both sides:
+
+-2x < 6
+
+divide both sides by -2, remembering to reverse the inequality sign when multiplying or dividing by a negative number:
+
+x > -3
+
+but wait, in this case, we're considering x < -2, so combining x > -3 and x < -2 gives us -3 < x < -2.
+
+**case 2: -2 ≤ x < 1**
+
+in this interval, x + 2 is non-negative (since x ≥ -2), but x - 1 is still negative (since x < 1). so, |x - 1| = -(x - 1) = -x + 1, and |x + 2| = x + 2.
+
+substituting these into the inequality:
+
+- x + 1 + x + 2 < 5
+
+simplify:
+
+- x + 1 + x + 2 < 5
+
+the x terms cancel out:
+
+3 < 5
+
+wait a minute, 3 is always less than 5, regardless of the value of x. that means that for all x in this interval, the inequality holds true. so, for -2 ≤ x < 1, the inequality is satisfied.
+
+**case 3: x ≥ 1**
+
+in this interval, both x - 1 and x + 2 are non-negative because x is greater than or equal to 1, which is greater than -2. so, |x - 1| = x - 1, and |x + 2| = x + 2.
+
+substituting these into the inequality:
+
+x - 1 + x + 2 < 5
+
+simplify:
+
+2x + 1 < 5
+
+subtract 1 from both sides:
+
+2x < 4
+
+divide both sides by 2:
+
+x < 2
+
+but in this case, we're considering x ≥ 1, so combining x < 2 and x ≥ 1 gives us 1 ≤ x < 2.
+
+**combining all cases:**
+
+from case 1: -3 < x < -2
+
+from case 2: -2 ≤ x < 1
+
+from case 3: 1 ≤ x < 2
+
+combining these intervals, we get -3 < x < 2.
+
+so, the solution to the inequality |x - 1| + |x + 2| < 5 is all real numbers x such that x is greater than -3 and less than 2.
+
+**final answer**
+
+−
+3
+<
+x
+<
+2
+−3<x<2
+​

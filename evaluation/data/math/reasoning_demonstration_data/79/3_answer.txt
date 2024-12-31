@@ -1,1 +1,39 @@
-Answer: 
+Answer: Given \( a \) and \( b \) are integers with \( a > b \), we need to find the smallest possible positive value of \( \frac{a+b}{a-b} + \frac{a-b}{a+b} \).
+
+first, we denote \( x = a + b \) and \( y = a - b \). since \( a > b \), \( y \) is positive. the expression becomes:
+
+\[
+\frac{x}{y} + \frac{y}{x} = \frac{x^2 + y^2}{xy}
+\]
+
+we need to minimize this expression given that \( x \) and \( y \) are related through \( x = a + b \) and \( y = a - b \), where \( a \) and \( b \) are integers and \( y > 0 \).
+
+using the am-gm inequality, we know that for positive real numbers, \( \frac{x}{y} + \frac{y}{x} \geq 2 \), with equality when \( x = y \).
+
+if \( x = y \), then \( a + b = a - b \), which implies \( b = 0 \). thus, the expression becomes:
+
+\[
+\frac{a}{a} + \frac{a}{a} = 1 + 1 = 2
+\]
+
+we verify this with specific integer values:
+- for \( a = 1 \) and \( b = 0 \):
+  \[
+  \frac{1 + 0}{1 - 0} + \frac{1 - 0}{1 + 0} = 1 + 1 = 2
+  \]
+
+- for \( a = 2 \) and \( b = 0 \):
+  \[
+  \frac{2 + 0}{2 - 0} + \frac{2 - 0}{2 + 0} = 1 + 1 = 2
+  \]
+
+- for \( a = 3 \) and \( b = 0 \):
+  \[
+  \frac{3 + 0}{3 - 0} + \frac{3 - 0}{3 + 0} = 1 + 1 = 2
+  \]
+
+thus, the smallest possible positive value of the given expression is indeed 2.
+
+\[
+\boxed{2}
+\]

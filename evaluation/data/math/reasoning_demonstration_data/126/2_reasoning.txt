@@ -1,1 +1,2432 @@
 Reasoning: 
+So i've got this problem here. it says that there's a function 
+f
+:
+r
+→
+r
+f:r→r with 
+f
+(
+1
+)
+=
+1
+f(1)=1, and it satisfies the equation
+
+f
+(
+x
+2
+−
+y
+2
+)
+=
+(
+x
+−
+y
+)
+(
+f
+(
+x
+)
++
+f
+(
+y
+)
+)
+f(x 
+2
+ −y 
+2
+ )=(x−y)(f(x)+f(y))
+for all real numbers 
+x
+x and 
+y
+y. i need to find the number of possible values of 
+f
+(
+2
+)
+f(2), call that 
+n
+n, and the sum of all possible values of 
+f
+(
+2
+)
+f(2), call that 
+s
+s, and then find 
+n
+×
+s
+n×s.
+
+first, i need to understand what this functional equation is telling me. it relates the value of the function at 
+x
+2
+−
+y
+2
+x 
+2
+ −y 
+2
+  to the values of the function at 
+x
+x and 
+y
+y, scaled by 
+(
+x
+−
+y
+)
+(x−y).
+
+i know that 
+x
+2
+−
+y
+2
+=
+(
+x
+−
+y
+)
+(
+x
++
+y
+)
+x 
+2
+ −y 
+2
+ =(x−y)(x+y), which is the difference of squares. maybe that can be useful.
+
+given that 
+f
+(
+1
+)
+=
+1
+f(1)=1, perhaps i can plug in specific values for 
+x
+x and 
+y
+y to find more values of 
+f
+f.
+
+let me try setting 
+y
+=
+0
+y=0. then the equation becomes:
+
+f
+(
+x
+2
+−
+0
+2
+)
+=
+(
+x
+−
+0
+)
+(
+f
+(
+x
+)
++
+f
+(
+0
+)
+)
+f(x 
+2
+ −0 
+2
+ )=(x−0)(f(x)+f(0))
+simplifying:
+
+f
+(
+x
+2
+)
+=
+x
+(
+f
+(
+x
+)
++
+f
+(
+0
+)
+)
+f(x 
+2
+ )=x(f(x)+f(0))
+hmm, interesting. so 
+f
+(
+x
+2
+)
+f(x 
+2
+ ) is expressed in terms of 
+f
+(
+x
+)
+f(x) and 
+f
+(
+0
+)
+f(0). i wonder what 
+f
+(
+0
+)
+f(0) is.
+
+let me try setting 
+x
+=
+y
+x=y. then:
+
+f
+(
+x
+2
+−
+x
+2
+)
+=
+(
+x
+−
+x
+)
+(
+f
+(
+x
+)
++
+f
+(
+x
+)
+)
+f(x 
+2
+ −x 
+2
+ )=(x−x)(f(x)+f(x))
+simplifying:
+
+f
+(
+0
+)
+=
+0
+×
+(
+2
+f
+(
+x
+)
+)
+f(0)=0×(2f(x))
+so 
+f
+(
+0
+)
+=
+0
+f(0)=0.
+
+great, so now i know 
+f
+(
+0
+)
+=
+0
+f(0)=0.
+
+now, going back to the earlier equation:
+
+f
+(
+x
+2
+)
+=
+x
+(
+f
+(
+x
+)
++
+0
+)
+=
+x
+f
+(
+x
+)
+f(x 
+2
+ )=x(f(x)+0)=xf(x)
+so 
+f
+(
+x
+2
+)
+=
+x
+f
+(
+x
+)
+f(x 
+2
+ )=xf(x).
+
+that's a useful relationship.
+
+let me see if i can find 
+f
+(
+−
+x
+)
+f(−x) in terms of 
+f
+(
+x
+)
+f(x).
+
+let me set 
+y
+=
+−
+x
+y=−x. then:
+
+f
+(
+x
+2
+−
+(
+−
+x
+)
+2
+)
+=
+(
+x
+−
+(
+−
+x
+)
+)
+(
+f
+(
+x
+)
++
+f
+(
+−
+x
+)
+)
+f(x 
+2
+ −(−x) 
+2
+ )=(x−(−x))(f(x)+f(−x))
+simplifying:
+
+f
+(
+x
+2
+−
+x
+2
+)
+=
+(
+x
++
+x
+)
+(
+f
+(
+x
+)
++
+f
+(
+−
+x
+)
+)
+f(x 
+2
+ −x 
+2
+ )=(x+x)(f(x)+f(−x))
+so:
+
+f
+(
+0
+)
+=
+2
+x
+(
+f
+(
+x
+)
++
+f
+(
+−
+x
+)
+)
+f(0)=2x(f(x)+f(−x))
+but i already know that 
+f
+(
+0
+)
+=
+0
+f(0)=0, so:
+
+0
+=
+2
+x
+(
+f
+(
+x
+)
++
+f
+(
+−
+x
+)
+)
+0=2x(f(x)+f(−x))
+assuming 
+x
+≠
+0
+x
+
+=0, i can divide both sides by 
+2
+x
+2x:
+
+f
+(
+x
+)
++
+f
+(
+−
+x
+)
+=
+0
+f(x)+f(−x)=0
+so 
+f
+(
+−
+x
+)
+=
+−
+f
+(
+x
+)
+f(−x)=−f(x). this means that 
+f
+f is an odd function.
+
+that's good to know.
+
+now, i need to find 
+f
+(
+2
+)
+f(2), so maybe i should try to find a general expression for 
+f
+(
+x
+)
+f(x).
+
+let me consider if 
+f
+f is a polynomial function. maybe it's a linear function.
+
+assume 
+f
+(
+x
+)
+=
+k
+x
+f(x)=kx, where 
+k
+k is a constant.
+
+let's test this assumption.
+
+given 
+f
+(
+1
+)
+=
+1
+f(1)=1, so 
+k
+×
+1
+=
+1
+k×1=1, hence 
+k
+=
+1
+k=1. so 
+f
+(
+x
+)
+=
+x
+f(x)=x.
+
+now, check if this satisfies the functional equation.
+
+left-hand side (lhs):
+
+f
+(
+x
+2
+−
+y
+2
+)
+=
+x
+2
+−
+y
+2
+f(x 
+2
+ −y 
+2
+ )=x 
+2
+ −y 
+2
+ 
+right-hand side (rhs):
+
+(
+x
+−
+y
+)
+(
+f
+(
+x
+)
++
+f
+(
+y
+)
+)
+=
+(
+x
+−
+y
+)
+(
+x
++
+y
+)
+=
+x
+2
+−
+y
+2
+(x−y)(f(x)+f(y))=(x−y)(x+y)=x 
+2
+ −y 
+2
+ 
+so, lhs = rhs. therefore, 
+f
+(
+x
+)
+=
+x
+f(x)=x is a solution.
+
+but the problem says "possible values of 
+f
+(
+2
+)
+f(2)", suggesting there might be more than one solution.
+
+is there another function that satisfies the given condition?
+
+maybe 
+f
+(
+x
+)
+=
+0
+f(x)=0 for all 
+x
+x, but wait, 
+f
+(
+1
+)
+=
+1
+f(1)=1, so that's not possible.
+
+alternatively, could 
+f
+(
+x
+)
+f(x) be a higher-degree polynomial?
+
+let me assume 
+f
+(
+x
+)
+=
+k
+x
+n
+f(x)=kx 
+n
+ , and see what happens.
+
+given 
+f
+(
+1
+)
+=
+1
+f(1)=1, so 
+k
+×
+1
+n
+=
+1
+k×1 
+n
+ =1, hence 
+k
+=
+1
+k=1, so 
+f
+(
+x
+)
+=
+x
+n
+f(x)=x 
+n
+ .
+
+now, plug into the functional equation:
+
+lhs:
+
+f
+(
+x
+2
+−
+y
+2
+)
+=
+(
+x
+2
+−
+y
+2
+)
+n
+f(x 
+2
+ −y 
+2
+ )=(x 
+2
+ −y 
+2
+ ) 
+n
+ 
+rhs:
+
+(
+x
+−
+y
+)
+(
+f
+(
+x
+)
++
+f
+(
+y
+)
+)
+=
+(
+x
+−
+y
+)
+(
+x
+n
++
+y
+n
+)
+(x−y)(f(x)+f(y))=(x−y)(x 
+n
+ +y 
+n
+ )
+for these to be equal for all real 
+x
+x and 
+y
+y, the expressions must match for all 
+x
+x and 
+y
+y.
+
+let me consider specific values to see what 
+n
+n could be.
+
+first, take 
+y
+=
+0
+y=0:
+
+(
+x
+2
+−
+0
+)
+n
+=
+(
+x
+−
+0
+)
+(
+x
+n
++
+0
+n
+)
+(x 
+2
+ −0) 
+n
+ =(x−0)(x 
+n
+ +0 
+n
+ )
+x
+2
+n
+=
+x
+×
+x
+n
+=
+x
+n
++
+1
+x 
+2n
+ =x×x 
+n
+ =x 
+n+1
+ 
+so, 
+x
+2
+n
+=
+x
+n
++
+1
+x 
+2n
+ =x 
+n+1
+  for all 
+x
+x, which implies 
+2
+n
+=
+n
++
+1
+2n=n+1, so 
+n
+=
+1
+n=1.
+
+therefore, the only polynomial solution is 
+f
+(
+x
+)
+=
+x
+f(x)=x.
+
+but the problem suggests there might be more solutions, or maybe only this one.
+
+alternatively, perhaps 
+f
+(
+x
+)
+=
+x
+f(x)=x is the only solution.
+
+let me try to see if there are any other functions that satisfy the given condition.
+
+suppose that 
+f
+f is an odd function, as we established earlier.
+
+also, from 
+f
+(
+x
+2
+)
+=
+x
+f
+(
+x
+)
+f(x 
+2
+ )=xf(x), perhaps i can use this to find 
+f
+(
+2
+)
+f(2).
+
+wait, 
+f
+(
+x
+2
+)
+=
+x
+f
+(
+x
+)
+f(x 
+2
+ )=xf(x), so for 
+x
+=
+2
+x=2, 
+f
+(
+4
+)
+=
+2
+f
+(
+2
+)
+f(4)=2f(2).
+
+similarly, for 
+x
+=
+2
+x= 
+2
+​
+ , 
+f
+(
+2
+)
+=
+2
+f
+(
+2
+)
+f(2)= 
+2
+​
+ f( 
+2
+​
+ ).
+
+but this seems like it's getting complicated.
+
+maybe i can try to find a general expression for 
+f
+(
+x
+)
+f(x).
+
+let me consider expressing 
+f
+(
+x
+)
+f(x) in terms of another function.
+
+wait, perhaps i can use the fact that 
+f
+(
+x
+2
+)
+=
+x
+f
+(
+x
+)
+f(x 
+2
+ )=xf(x).
+
+let me try to express 
+f
+(
+x
+)
+f(x) for positive 
+x
+x in terms of 
+f
+(
+x
+)
+f( 
+x
+​
+ ).
+
+wait, if 
+x
+x is positive, then 
+f
+(
+x
+)
+=
+f
+(
+(
+x
+)
+2
+)
+=
+x
+f
+(
+x
+)
+f(x)=f(( 
+x
+​
+ ) 
+2
+ )= 
+x
+​
+ f( 
+x
+​
+ ).
+
+but i'm not sure if that helps directly.
+
+alternatively, maybe i can consider the function's behavior for positive and negative 
+x
+x separately.
+
+given that 
+f
+f is odd, i can focus on 
+x
+>
+0
+x>0, and then extend to 
+x
+<
+0
+x<0 using 
+f
+(
+−
+x
+)
+=
+−
+f
+(
+x
+)
+f(−x)=−f(x).
+
+let me consider differentiating both sides, but that might be overkill.
+
+alternatively, maybe i can consider specific values to find a pattern.
+
+we know 
+f
+(
+1
+)
+=
+1
+f(1)=1.
+
+let me find 
+f
+(
+0
+)
+f(0), which we already have as 0.
+
+let me find 
+f
+(
+−
+1
+)
+f(−1). since 
+f
+f is odd, 
+f
+(
+−
+1
+)
+=
+−
+f
+(
+1
+)
+=
+−
+1
+f(−1)=−f(1)=−1.
+
+now, let's find 
+f
+(
+2
+)
+f(2).
+
+to find 
+f
+(
+2
+)
+f(2), i need to find a relation that involves 
+f
+(
+2
+)
+f(2).
+
+let me try to set 
+y
+=
+1
+y=1 and 
+x
+=
+2
++
+1
+x= 
+2+1
+​
+ , but that might not be helpful.
+
+wait, perhaps set 
+x
+=
+2
+x=2 and 
+y
+=
+1
+y=1, and see what happens.
+
+so, set 
+x
+=
+2
+x=2, 
+y
+=
+1
+y=1:
+
+f
+(
+2
+2
+−
+1
+2
+)
+=
+(
+2
+−
+1
+)
+(
+f
+(
+2
+)
++
+f
+(
+1
+)
+)
+f(2 
+2
+ −1 
+2
+ )=(2−1)(f(2)+f(1))
+f
+(
+4
+−
+1
+)
+=
+1
+×
+(
+f
+(
+2
+)
++
+1
+)
+f(4−1)=1×(f(2)+1)
+f
+(
+3
+)
+=
+f
+(
+2
+)
++
+1
+f(3)=f(2)+1
+so, 
+f
+(
+3
+)
+=
+f
+(
+2
+)
++
+1
+f(3)=f(2)+1.
+
+that's one equation involving 
+f
+(
+2
+)
+f(2) and 
+f
+(
+3
+)
+f(3).
+
+now, can i find another equation involving 
+f
+(
+3
+)
+f(3) and maybe 
+f
+(
+2
+)
+f(2)?
+
+let me set 
+x
+=
+3
+x=3, 
+y
+=
+2
+y=2:
+
+f
+(
+3
+2
+−
+2
+2
+)
+=
+(
+3
+−
+2
+)
+(
+f
+(
+3
+)
++
+f
+(
+2
+)
+)
+f(3 
+2
+ −2 
+2
+ )=(3−2)(f(3)+f(2))
+f
+(
+9
+−
+4
+)
+=
+1
+×
+(
+f
+(
+3
+)
++
+f
+(
+2
+)
+)
+f(9−4)=1×(f(3)+f(2))
+f
+(
+5
+)
+=
+f
+(
+3
+)
++
+f
+(
+2
+)
+f(5)=f(3)+f(2)
+now, 
+f
+(
+5
+)
+=
+f
+(
+3
+)
++
+f
+(
+2
+)
+f(5)=f(3)+f(2), and from earlier, 
+f
+(
+3
+)
+=
+f
+(
+2
+)
++
+1
+f(3)=f(2)+1, so:
+
+f
+(
+5
+)
+=
+(
+f
+(
+2
+)
++
+1
+)
++
+f
+(
+2
+)
+=
+2
+f
+(
+2
+)
++
+1
+f(5)=(f(2)+1)+f(2)=2f(2)+1
+not sure if that helps yet.
+
+let me try another pair. maybe set 
+x
+=
+1
+x=1, 
+y
+=
+0
+y=0:
+
+f
+(
+1
+2
+−
+0
+2
+)
+=
+(
+1
+−
+0
+)
+(
+f
+(
+1
+)
++
+f
+(
+0
+)
+)
+f(1 
+2
+ −0 
+2
+ )=(1−0)(f(1)+f(0))
+f
+(
+1
+)
+=
+1
+×
+(
+1
++
+0
+)
+f(1)=1×(1+0)
+1
+=
+1
+1=1
+which is just confirming what we already know.
+
+how about setting 
+y
+=
+2
+y=2, 
+x
+=
+1
+x=1:
+
+f
+(
+1
+2
+−
+2
+2
+)
+=
+(
+1
+−
+2
+)
+(
+f
+(
+1
+)
++
+f
+(
+2
+)
+)
+f(1 
+2
+ −2 
+2
+ )=(1−2)(f(1)+f(2))
+f
+(
+1
+−
+4
+)
+=
+(
+−
+1
+)
+(
+1
++
+f
+(
+2
+)
+)
+f(1−4)=(−1)(1+f(2))
+f
+(
+−
+3
+)
+=
+−
+1
+−
+f
+(
+2
+)
+f(−3)=−1−f(2)
+but since 
+f
+f is odd, 
+f
+(
+−
+3
+)
+=
+−
+f
+(
+3
+)
+f(−3)=−f(3), so:
+
+−
+f
+(
+3
+)
+=
+−
+1
+−
+f
+(
+2
+)
+−f(3)=−1−f(2)
+f
+(
+3
+)
+=
+1
++
+f
+(
+2
+)
+f(3)=1+f(2)
+which matches what we had earlier.
+
+let me try setting 
+x
+=
+0
+x=0, 
+y
+=
+y
+y=y:
+
+f
+(
+0
+2
+−
+y
+2
+)
+=
+(
+0
+−
+y
+)
+(
+f
+(
+0
+)
++
+f
+(
+y
+)
+)
+f(0 
+2
+ −y 
+2
+ )=(0−y)(f(0)+f(y))
+f
+(
+−
+y
+2
+)
+=
+−
+y
+(
+0
++
+f
+(
+y
+)
+)
+f(−y 
+2
+ )=−y(0+f(y))
+f
+(
+−
+y
+2
+)
+=
+−
+y
+f
+(
+y
+)
+f(−y 
+2
+ )=−yf(y)
+but since 
+f
+f is odd, 
+f
+(
+−
+y
+2
+)
+=
+−
+f
+(
+y
+2
+)
+f(−y 
+2
+ )=−f(y 
+2
+ ), so:
+
+−
+f
+(
+y
+2
+)
+=
+−
+y
+f
+(
+y
+)
+−f(y 
+2
+ )=−yf(y)
+f
+(
+y
+2
+)
+=
+y
+f
+(
+y
+)
+f(y 
+2
+ )=yf(y)
+which matches the earlier equation 
+f
+(
+x
+2
+)
+=
+x
+f
+(
+x
+)
+f(x 
+2
+ )=xf(x).
+
+not new information.
+
+maybe i need to consider higher values or look for a pattern.
+
+let me try to find 
+f
+(
+4
+)
+f(4). using 
+f
+(
+x
+2
+)
+=
+x
+f
+(
+x
+)
+f(x 
+2
+ )=xf(x), set 
+x
+=
+2
+x=2:
+
+f
+(
+4
+)
+=
+2
+f
+(
+2
+)
+f(4)=2f(2)
+similarly, set 
+x
+=
+3
+x=3:
+
+f
+(
+9
+)
+=
+3
+f
+(
+3
+)
+=
+3
+(
+f
+(
+2
+)
++
+1
+)
+f(9)=3f(3)=3(f(2)+1)
+not sure yet.
+
+alternatively, maybe i can look for a recursive relationship or try to find a general formula.
+
+wait, perhaps i can consider 
+y
+=
+0
+y=0, which gave me 
+f
+(
+x
+2
+)
+=
+x
+f
+(
+x
+)
+f(x 
+2
+ )=xf(x), and i can use this to express 
+f
+(
+x
+)
+f(x) in terms of 
+f
+(
+x
+)
+f( 
+x
+​
+ ), but that seems circular.
+
+alternatively, maybe i can consider the ratio 
+f
+(
+x
+)
+x
+x
+f(x)
+​
+ , assuming 
+x
+≠
+0
+x
+
+=0.
+
+let me define 
+g
+(
+x
+)
+=
+f
+(
+x
+)
+x
+g(x)= 
+x
+f(x)
+​
+ , for 
+x
+≠
+0
+x
+
+=0, and 
+g
+(
+0
+)
+=
+f
+′
+(
+0
+)
+g(0)=f 
+′
+ (0) or something, but maybe that's too advanced.
+
+wait, perhaps that's a good approach.
+
+define 
+g
+(
+x
+)
+=
+f
+(
+x
+)
+x
+g(x)= 
+x
+f(x)
+​
+  for 
+x
+≠
+0
+x
+
+=0, and 
+g
+(
+0
+)
+=
+0
+g(0)=0, since 
+f
+(
+0
+)
+=
+0
+f(0)=0.
+
+then, from 
+f
+(
+x
+2
+)
+=
+x
+f
+(
+x
+)
+f(x 
+2
+ )=xf(x), we have:
+
+f
+(
+x
+2
+)
+=
+x
+f
+(
+x
+)
+f(x 
+2
+ )=xf(x)
+x
+2
+g
+(
+x
+2
+)
+=
+x
+×
+x
+g
+(
+x
+)
+x 
+2
+ g(x 
+2
+ )=x×xg(x)
+x
+2
+g
+(
+x
+2
+)
+=
+x
+2
+g
+(
+x
+)
+x 
+2
+ g(x 
+2
+ )=x 
+2
+ g(x)
+g
+(
+x
+2
+)
+=
+g
+(
+x
+)
+g(x 
+2
+ )=g(x)
+so, 
+g
+(
+x
+2
+)
+=
+g
+(
+x
+)
+g(x 
+2
+ )=g(x) for all 
+x
+x.
+
+this suggests that 
+g
+(
+x
+)
+g(x) is a constant function, because 
+x
+2
+x 
+2
+  can be any non-negative real number, and repeatedly applying this, 
+g
+(
+x
+)
+=
+g
+(
+x
+)
+=
+g
+(
+x
+)
+=
+…
+g(x)=g( 
+x
+​
+ )=g( 
+x
+​
+ 
+​
+ )=…, which implies 
+g
+(
+x
+)
+g(x) is constant for 
+x
+>
+0
+x>0.
+
+since 
+g
+(
+x
+)
+g(x) is constant for 
+x
+>
+0
+x>0, and 
+g
+(
+−
+x
+)
+=
+f
+(
+−
+x
+)
+−
+x
+=
+−
+f
+(
+x
+)
+−
+x
+=
+f
+(
+x
+)
+x
+=
+g
+(
+x
+)
+g(−x)= 
+−x
+f(−x)
+​
+ = 
+−x
+−f(x)
+​
+ = 
+x
+f(x)
+​
+ =g(x), so 
+g
+(
+x
+)
+g(x) is even.
+
+therefore, 
+g
+(
+x
+)
+g(x) is constant for all 
+x
+≠
+0
+x
+
+=0, and since 
+g
+(
+0
+)
+=
+0
+g(0)=0, but 
+g
+(
+x
+)
+=
+g
+(
+x
+2
+)
+=
+g
+(
+x
+4
+)
+=
+…
+g(x)=g(x 
+2
+ )=g(x 
+4
+ )=…, implying 
+g
+(
+x
+)
+g(x) is the same constant for all 
+x
+x.
+
+therefore, 
+g
+(
+x
+)
+=
+c
+g(x)=c, where 
+c
+c is a constant.
+
+thus, 
+f
+(
+x
+)
+=
+c
+x
+f(x)=cx for all 
+x
+x.
+
+now, we know that 
+f
+(
+1
+)
+=
+1
+f(1)=1, so:
+
+c
+×
+1
+=
+1
+c×1=1
+c
+=
+1
+c=1
+therefore, the only possible function is 
+f
+(
+x
+)
+=
+x
+f(x)=x, and hence 
+f
+(
+2
+)
+=
+2
+f(2)=2.
+
+but the problem says "possible values of 
+f
+(
+2
+)
+f(2)", implying there might be multiple solutions, but according to this, there's only one solution.
+
+wait, maybe there are other solutions that are not linear.
+
+is there a possibility that 
+f
+(
+x
+)
+f(x) is not linear but still satisfies the given condition?
+
+let me assume 
+f
+(
+x
+)
+=
+x
+f(x)=x for 
+x
+≥
+0
+x≥0 and 
+f
+(
+x
+)
+=
+−
+x
+f(x)=−x for 
+x
+<
+0
+x<0, but that's just the standard linear function extended to negatives, which is still 
+f
+(
+x
+)
+=
+x
+f(x)=x.
+
+alternatively, maybe there's a piecewise function that satisfies the condition.
+
+wait, but earlier i derived that 
+g
+(
+x
+)
+g(x) must be constant, which leads to 
+f
+(
+x
+)
+=
+c
+x
+f(x)=cx, and with 
+f
+(
+1
+)
+=
+1
+f(1)=1, 
+c
+=
+1
+c=1, so 
+f
+(
+x
+)
+=
+x
+f(x)=x is the only solution.
+
+therefore, there is only one possible value for 
+f
+(
+2
+)
+f(2), which is 
+2
+2, so 
+n
+=
+1
+n=1, and 
+s
+=
+2
+s=2, hence 
+n
+×
+s
+=
+2
+n×s=2.
+
+but just to be thorough, let me check if there are any other functions that could satisfy the condition.
+
+suppose that 
+f
+(
+x
+)
+=
+x
+f(x)=x for 
+x
+≠
+a
+x
+
+=a, and 
+f
+(
+a
+)
+f(a) is different, but then plugging into the functional equation might lead to inconsistencies, unless 
+a
+a is somehow special.
+
+alternatively, maybe there are non-linear functions that satisfy the condition, but from the earlier steps, it seems that 
+f
+(
+x
+)
+=
+c
+x
+f(x)=cx is the only solution.
+
+therefore, the number of possible values of 
+f
+(
+2
+)
+f(2) is 
+n
+=
+1
+n=1, and the sum of all possible values is 
+s
+=
+2
+s=2, so 
+n
+×
+s
+=
+2
+n×s=2.
+
+**final answer**
+
+2
+2
+​

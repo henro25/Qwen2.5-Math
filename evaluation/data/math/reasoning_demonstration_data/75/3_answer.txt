@@ -1,1 +1,23 @@
-Answer: 
+Answer: John believes that the amount of sleep he gets the night before a test and his score on that test are inversely related. this means \( s \cdot \text{score} = k \), where \( k \) is a constant.
+
+for the first exam:
+\[
+8 \text{ hours} \cdot 70 = k \implies k = 560
+\]
+
+for the second exam, he wants the average of his two scores to be 80. let \( x \) be the score on the second exam:
+\[
+\frac{70 + x}{2} = 80 \implies 70 + x = 160 \implies x = 90
+\]
+
+using the inverse relationship for the second exam:
+\[
+s \cdot 90 = 560 \implies s = \frac{560}{90} \approx 6.222\ldots
+\]
+
+rounding to the nearest tenth:
+\[
+s \approx 6.2
+\]
+
+thus, john believes he must sleep \(\boxed{6.2}\) hours the night before his second exam.

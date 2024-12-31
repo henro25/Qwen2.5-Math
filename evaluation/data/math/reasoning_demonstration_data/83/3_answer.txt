@@ -1,1 +1,39 @@
-Answer: 
+Answer: To solve this problem, we use the Pythagorean theorem since the situation forms a right-angled triangle with the ladder as the hypotenuse.
+
+### Given:
+- The length of the ladder (hypotenuse, c) = 8.5 meters.
+- The height the ladder reaches on the wall (one leg, a) = 7.5 meters.
+- We need to find the distance from the wall to the base of the ladder (the other leg, b).
+
+### Step-by-Step Solution:
+
+1. **Apply the Pythagorean Theorem:**
+   \[
+   a^2 + b^2 = c^2
+   \]
+   Plugging in the known values:
+   \[
+   7.5^2 + b^2 = 8.5^2
+   \]
+
+2. **Calculate the squares:**
+   - \(7.5^2 = 56.25\)
+   - \(8.5^2 = 72.25\)
+
+3. **Substitute these values into the equation:**
+   \[
+   56.25 + b^2 = 72.25
+   \]
+
+4. **Solve for \(b^2\):**
+   \[
+   b^2 = 72.25 - 56.25 = 16
+   \]
+
+5. **Take the square root of both sides to find \(b\):**
+   \[
+   b = \sqrt{16} = 4
+   \]
+
+### Final Answer:
+The base of the ladder is **4 meters** from the wall.

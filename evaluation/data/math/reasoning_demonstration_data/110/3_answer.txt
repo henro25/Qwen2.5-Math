@@ -1,1 +1,21 @@
-Answer: 
+Answer: Let the full capacity of the tank be $C$ liters.
+
+Initially, the tank is $\frac{1}{5}$ full, so it contains $\frac{1}{5}C$ liters of water. After adding 3 liters, the tank is $\frac{1}{4}$ full, meaning it now contains $\frac{1}{4}C$ liters.
+
+We can set up the equation:
+\[
+\frac{1}{5}C + 3 = \frac{1}{4}C
+\]
+To eliminate the fractions, multiply both sides by 20:
+\[
+20 \times \left( \frac{1}{5}C + 3 \right) = 20 \times \frac{1}{4}C
+\]
+Simplifying:
+\[
+4C + 60 = 5C
+\]
+Subtract $4C$ from both sides:
+\[
+60 = C
+\]
+Thus, the tank holds 60 liters when it is full.

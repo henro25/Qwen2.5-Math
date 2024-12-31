@@ -1,1 +1,48 @@
 Reasoning: 
+Okay, so I have this problem here: I need to find the smaller angle between the hour hand and the minute hand of a clock at exactly 2:30 p.m. on a 12-hour analog clock. Alright, let's think about this.
+
+First, I know that a clock is a circle, and a circle has 360 degrees. There are 12 hours on the clock, so each hour mark must be 360 divided by 12, which is 30 degrees apart. So, every hour, the hour hand moves 30 degrees.
+
+But wait, at 2:30, the hour hand isn't exactly at the 2; it's halfway between 2 and 3 because 30 minutes have passed. So, it should have moved halfway towards the 3. Since each hour is 30 degrees, halfway would be 15 degrees past the 2. So, the hour hand is at 2 * 30 + 15 = 75 degrees from the top.
+
+Now, the minute hand at 30 minutes. Each minute is a fraction of the full circle. There are 60 minutes in an hour, so each minute is 360/60 = 6 degrees. So, at 30 minutes, the minute hand is at 30 * 6 = 180 degrees from the top.
+
+So, the angle between them would be the difference between 180 degrees and 75 degrees, which is 105 degrees.
+
+But wait, the problem asks for the smaller angle between the two hands. So, I need to consider that the total around the clock is 360 degrees. If one angle is 105 degrees, the other angle is 360 - 105 = 255 degrees. Since 105 is smaller than 255, the smaller angle is 105 degrees.
+
+But, I'm not sure if I've done this correctly. Maybe I should double-check.
+
+Let me try another approach. I recall there's a formula to find the angle between the hour and minute hands: |30H - 5.5M|, where H is the hour and M is the minutes.
+
+So, plugging in H = 2 and M = 30:
+
+30*2 = 60
+
+5.5*30 = 165
+
+So, |60 - 165| = 105 degrees.
+
+Again, I get 105 degrees. So, that matches my previous calculation.
+
+Wait, but I should confirm if this is indeed the smaller angle. Since 105 degrees is less than 180 degrees, it should be the smaller angle.
+
+Alternatively, I could think about the positions of the hands.
+
+At 2:00, the hour hand is at 60 degrees (2*30), and the minute hand is at 0 degrees. So, the angle is 60 degrees.
+
+As the minute hand moves to 30 minutes (180 degrees), it moves 180 degrees from 12.
+
+Meanwhile, the hour hand moves from 60 degrees to 75 degrees, as we calculated earlier.
+
+So, the difference is still 180 - 75 = 105 degrees.
+
+I'm pretty confident now that the smaller angle is 105 degrees.
+
+But just to be thorough, let's consider if there's any other way this could be interpreted.
+
+Sometimes, people get confused about which angle is being asked for, but in this case, it's clearly the smaller angle between the two hands.
+
+Also, I should remember that if the calculated angle is more than 180 degrees, I need to subtract it from 360 to find the smaller angle. But since 105 is less than 180, it's already the smaller one.
+
+I think that's it. The answer should be 105 degrees.

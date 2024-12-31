@@ -1,1 +1,29 @@
-Answer: 
+Answer: To compute \(\sin(-60^\circ)\), we can use the property of the sine function being an odd function, which means \(\sin(-\theta) = -\sin(\theta)\). therefore, we have:
+
+\[
+\sin(-60^\circ) = -\sin(60^\circ)
+\]
+
+next, we need to find \(\sin(60^\circ)\). from the properties of a 30-60-90 triangle, we know that:
+
+\[
+\sin(60^\circ) = \frac{\sqrt{3}}{2}
+\]
+
+thus, substituting this value back, we get:
+
+\[
+\sin(-60^\circ) = -\frac{\sqrt{3}}{2}
+\]
+
+we can also confirm this using the unit circle. the angle \(-60^\circ\) corresponds to the point in the fourth quadrant, where the sine value is negative, and the reference angle is \(60^\circ\). therefore:
+
+\[
+\sin(-60^\circ) = -\sin(60^\circ) = -\frac{\sqrt{3}}{2}
+\]
+
+hence, the final answer is:
+
+\[
+\boxed{-\frac{\sqrt{3}}{2}}
+\]

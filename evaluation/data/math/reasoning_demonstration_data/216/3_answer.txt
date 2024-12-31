@@ -1,1 +1,40 @@
-Answer: 
+Answer: To determine how many digits are located to the right of the decimal point when \(\frac{3^6}{6^4 \cdot 625}\) is expressed as a decimal, we start by simplifying the expression.
+
+first, we rewrite the denominator:
+\[
+6^4 = (2 \cdot 3)^4 = 2^4 \cdot 3^4
+\]
+thus, the denominator becomes:
+\[
+2^4 \cdot 3^4 \cdot 625
+\]
+the fraction is now:
+\[
+\frac{3^6}{2^4 \cdot 3^4 \cdot 625}
+\]
+simplifying the numerator and denominator by canceling \(3^4\):
+\[
+\frac{3^{6-4}}{2^4 \cdot 625} = \frac{3^2}{2^4 \cdot 625}
+\]
+since \(3^2 = 9\), \(2^4 = 16\), and \(625 = 5^4\), the fraction becomes:
+\[
+\frac{9}{16 \cdot 625}
+\]
+calculating the denominator:
+\[
+16 \cdot 625 = 10,000
+\]
+so the fraction is:
+\[
+\frac{9}{10,000}
+\]
+this fraction as a decimal is:
+\[
+0.0009
+\]
+there are 4 digits to the right of the decimal point in 0.0009.
+
+therefore, the answer is:
+\[
+\boxed{4}
+\]

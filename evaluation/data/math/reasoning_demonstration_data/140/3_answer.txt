@@ -1,1 +1,50 @@
-Answer: 
+Answer: To solve for \( f(g(x)) - g(f(x)) \), we are given the functions:
+
+\[
+f(x) = 6x - 9 \quad \text{and} \quad g(x) = \frac{x}{3} + 2
+\]
+
+### Step 1: Find \( f(g(x)) \)
+First, substitute \( g(x) \) into \( f(x) \):
+
+\[
+f(g(x)) = f\left( \frac{x}{3} + 2 \right) = 6\left( \frac{x}{3} + 2 \right) - 9
+\]
+
+Simplify:
+
+\[
+6 \cdot \frac{x}{3} + 6 \cdot 2 - 9 = 2x + 12 - 9 = 2x + 3
+\]
+
+### Step 2: Find \( g(f(x)) \)
+Next, substitute \( f(x) \) into \( g(x) \):
+
+\[
+g(f(x)) = g(6x - 9) = \frac{6x - 9}{3} + 2
+\]
+
+Simplify:
+
+\[
+\frac{6x}{3} - \frac{9}{3} + 2 = 2x - 3 + 2 = 2x - 1
+\]
+
+### Step 3: Calculate \( f(g(x)) - g(f(x)) \)
+Now, subtract \( g(f(x)) \) from \( f(g(x)) \):
+
+\[
+f(g(x)) - g(f(x)) = (2x + 3) - (2x - 1)
+\]
+
+Simplify:
+
+\[
+2x + 3 - 2x + 1 = 4
+\]
+
+Thus, the final answer is:
+
+\[
+\boxed{4}
+\]

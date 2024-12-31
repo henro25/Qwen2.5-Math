@@ -1,1 +1,61 @@
-Reasoning: 
+Reasoning: Alright, let's see here. So, Mr. Wong has 10 grandchildren, and each one is equally likely to be a boy or a girl, right? And their genders are determined independently. So, I need to find the probability that he has more grandsons than granddaughters or more granddaughters than grandsons.
+
+Hmm, okay. So, first off, it's about the distribution of boys and girls among the 10 grandchildren. Since each child is equally likely to be a boy or a girl, and their genders are independent, this sounds like a binomial distribution problem. Yeah, because each trial (each grandchild) has two possible outcomes: boy or girl, each with a probability of 0.5.
+
+So, in a binomial distribution, the probability of getting exactly k successes (let's say, boys) in n trials (grandchildren) is given by the formula:
+
+P(X = k) = C(n, k) * p^k * (1-p)^(n-k)
+
+Where C(n, k) is the combination of n things taken k at a time, p is the probability of success on a single trial, which is 0.5 here.
+
+Now, the problem is asking for the probability that Mr. Wong has more grandsons than granddaughters or more granddaughters than grandsons. So, essentially, we're looking for the probability that the number of boys is not equal to the number of girls.
+
+Wait a minute, more grandsons than granddaughters means more boys than girls, and more granddaughters than grandsons means more girls than boys. So, it's all cases except when the number of boys equals the number of girls.
+
+So, maybe it's easier to calculate the probability of having an equal number of boys and girls, and then subtract that from 1 to get the probability of having more boys or more girls.
+
+Yeah, that sounds efficient. So, P(more boys or more girls) = 1 - P(equal number of boys and girls)
+
+Okay, so first, let's find P(equal number of boys and girls). Since there are 10 grandchildren, having an equal number means 5 boys and 5 girls.
+
+So, P(X = 5) = C(10, 5) * (0.5)^5 * (0.5)^5 = C(10, 5) * (0.5)^10
+
+I know that C(10, 5) is 252, and (0.5)^10 is 1/1024. So, P(X = 5) = 252/1024
+
+Wait, 252 divided by 1024. Let's see, 252 divided by 1024 is approximately 0.246 or something like that.
+
+So, P(more boys or more girls) = 1 - 0.246 = 0.754
+
+So, about a 75.4% chance.
+
+But let me double-check that. Is there a better way to think about it?
+
+Alternatively, since each child is equally likely to be a boy or a girl, and the genders are independent, the total number of possible gender combinations is 2^10 = 1024.
+
+The number of ways to have exactly 5 boys and 5 girls is C(10, 5) = 252.
+
+So, the probability of having exactly 5 boys and 5 girls is 252/1024.
+
+Therefore, the probability of not having exactly 5 boys and 5 girls is 1 - 252/1024 = (1024 - 252)/1024 = 772/1024 = 193/256
+
+Wait, 772 divided by 4 is 193, and 1024 divided by 4 is 256. So, 193/256 is the exact probability.
+
+So, approximately 0.754, which matches what I got earlier.
+
+Is there another way to look at this? Maybe using symmetry or something?
+
+Well, in a binomial distribution with p = 0.5, the distribution is symmetric around the mean, which is np = 5 in this case.
+
+So, P(X > 5) = P(X < 5), and P(X = 5) is the middle term.
+
+So, P(X > 5) + P(X < 5) + P(X = 5) = 1
+
+But since P(X > 5) = P(X < 5), we can write 2*P(X > 5) + P(X = 5) = 1
+
+Therefore, P(X > 5) = (1 - P(X = 5))/2
+
+But wait, the problem is asking for P(X > 5) + P(X < 5), which is 1 - P(X = 5), which is what I did earlier.
+
+So, yeah, that checks out.
+
+I think that's the answer.

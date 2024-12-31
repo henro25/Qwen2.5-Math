@@ -1,1 +1,24 @@
-Answer: 
+Answer: To solve the problem, we first calculate each part separately:
+
+1. **First expression:**
+   \[
+   \frac{6^2 + 6^2}{6}
+   \]
+   - \(6^2 = 36\)
+   - \(36 + 36 = 72\)
+   - \(72 \div 6 = 12\)
+
+2. **Second expression:**
+   \[
+   \frac{6^2 \times 6^2}{6}
+   \]
+   - \(6^2 = 36\)
+   - \(36 \times 36 = 1296\)
+   - \(1296 \div 6 = 216\)
+
+Finally, we find the positive difference between the two results:
+\[
+216 - 12 = 204
+\]
+
+**Answer:** 204

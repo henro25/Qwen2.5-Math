@@ -1,1 +1,256 @@
-Reasoning: 
+Reasoning: So i need to solve this inequality: 
+x
+2
+−
+2
+x
+>
+35
+x 
+2
+ −2x>35. hmm, okay, let's see. i'm a bit rusty on inequalities, but i remember that for quadratic inequalities, i should probably move everything to one side and then factor or use the quadratic formula.
+
+first, let's rewrite the inequality to set it greater than zero. so, subtract 35 from both sides:
+
+x
+2
+−
+2
+x
+−
+35
+>
+0
+x 
+2
+ −2x−35>0
+
+now, i need to factor this quadratic expression if possible. let's look for two numbers that multiply to -35 and add up to -2. hmm, -7 and 5? let's check: -7 * 5 = -35 and -7 + 5 = -2. perfect! so, the factored form is:
+
+(
+x
+−
+7
+)
+(
+x
++
+5
+)
+>
+0
+(x−7)(x+5)>0
+
+okay, now i need to find the values of x that make this product positive. i recall that the product of two numbers is positive if both are positive or both are negative.
+
+first, let's find the roots of the equation 
+(
+x
+−
+7
+)
+(
+x
++
+5
+)
+=
+0
+(x−7)(x+5)=0, which are x = 7 and x = -5. these points divide the number line into three intervals:
+
+1. 
+x
+<
+−
+5
+x<−5
+
+2. 
+−
+5
+<
+x
+<
+7
+−5<x<7
+
+3. 
+x
+>
+7
+x>7
+
+i need to test each interval to see where the product is positive.
+
+let's take a test point in each interval:
+
+1. for 
+x
+<
+−
+5
+x<−5, let's pick x = -6:
+
+(
+−
+6
+−
+7
+)
+(
+−
+6
++
+5
+)
+=
+(
+−
+13
+)
+(
+−
+1
+)
+=
+13
+(−6−7)(−6+5)=(−13)(−1)=13, which is positive.
+
+2. for 
+−
+5
+<
+x
+<
+7
+−5<x<7, let's pick x = 0:
+
+(
+0
+−
+7
+)
+(
+0
++
+5
+)
+=
+(
+−
+7
+)
+(
+5
+)
+=
+−
+35
+(0−7)(0+5)=(−7)(5)=−35, which is negative.
+
+3. for 
+x
+>
+7
+x>7, let's pick x = 8:
+
+(
+8
+−
+7
+)
+(
+8
++
+5
+)
+=
+(
+1
+)
+(
+13
+)
+=
+13
+(8−7)(8+5)=(1)(13)=13, which is positive.
+
+so, the product is positive in the intervals 
+x
+<
+−
+5
+x<−5 and 
+x
+>
+7
+x>7.
+
+therefore, the solution in interval notation should be the union of these two intervals.
+
+wait a minute, is that all? let me double-check. sometimes, i might forget to consider the equality, but since the inequality is strict (>), not ≥, i don't include the endpoints.
+
+also, just to make sure, maybe i should sketch the graph of the quadratic function 
+y
+=
+x
+2
+−
+2
+x
+−
+35
+y=x 
+2
+ −2x−35. since the coefficient of 
+x
+2
+x 
+2
+  is positive, the parabola opens upwards. the roots are at x = -5 and x = 7, so the parabola crosses the x-axis at these points. the function is above the x-axis (positive) to the left of x = -5 and to the right of x = 7, which matches what i found earlier.
+
+so, the solution should be 
+x
+<
+−
+5
+x<−5 or 
+x
+>
+7
+x>7, which in interval notation is:
+
+(
+−
+∞
+,
+−
+5
+)
+∪
+(
+7
+,
+∞
+)
+(−∞,−5)∪(7,∞)
+
+i think that's it!
+
+**final answer**
+
+(
+−
+∞
+,
+−
+5
+)
+∪
+(
+7
+,
+∞
+)
+(−∞,−5)∪(7,∞)
+​

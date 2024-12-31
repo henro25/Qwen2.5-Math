@@ -1,1 +1,47 @@
-Answer: 
+Answer: First, we identify that the given series is an arithmetic series with the first term \( a_1 = 1 \) and common difference \( d = 5 \). the last term is 101. to find the number of terms \( n \):
+
+\[
+101 = 1 + (n - 1) \cdot 5 \implies 100 = 5(n - 1) \implies n = 21
+\]
+
+the sum of the first \( n \) terms of an arithmetic series is given by:
+
+\[
+s_n = \frac{n}{2} \cdot (a_1 + a_n)
+\]
+
+substituting the values:
+
+\[
+s_{21} = \frac{21}{2} \cdot (1 + 101) = \frac{21}{2} \cdot 102 = 21 \cdot 51 = 1071
+\]
+
+next, we find \( 1071 \mod 15 \):
+
+\[
+1071 \div 15 = 71 \text{ remainder } 6
+\]
+
+alternatively, we can find the sum of the remainders of each term modulo 15. the remainders of the terms are:
+
+\[
+1, 6, 11, 1, 6, 11, 1, 6, 11, 1, 6, 11, 1, 6, 11, 1, 6, 11, 1, 6, 11
+\]
+
+grouping them into cycles of \( 1, 6, 11 \):
+
+\[
+7 \text{ cycles of } (1 + 6 + 11) = 7 \cdot 18
+\]
+
+finding \( 7 \cdot 18 \mod 15 \):
+
+\[
+7 \cdot 18 = 126 \implies 126 \mod 15 = 6
+\]
+
+thus, the value of \( n \) is:
+
+\[
+\boxed{6}
+\]

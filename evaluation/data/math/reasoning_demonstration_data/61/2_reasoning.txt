@@ -1,1 +1,217 @@
-Reasoning: 
+Reasoning: I've got this geometry problem here. in triangle abc, the sides are ab = 13, ac = 15, and bc = 14. i need to find the length of bi, where i is the incenter of the triangle. the incircle touches the sides bc, ac, and ab at points d, e, and f, respectively.
+
+first, i should probably recall what the incenter is. the incenter is the point where the angle bisectors of the triangle intersect, and it's also the center of the incircle, which is tangent to all three sides of the triangle.
+
+to find bi, i think i need to find some properties of the triangle that relate to the inradius or maybe use some formulas involving the sides and the inradius.
+
+let me start by finding the semi-perimeter of the triangle, since that often comes up in problems involving the inradius.
+
+the semi-perimeter, s, is (ab + bc + ac)/2 = (13 + 14 + 15)/2 = 42/2 = 21.
+
+next, i can find the area of the triangle using heron's formula. the area, a, is sqrt[s(s - a)(s - b)(s - c)], where a, b, c are the sides.
+
+so, a = sqrt[21(21 - 13)(21 - 14)(21 - 15)] = sqrt[21 * 8 * 7 * 6].
+
+let me calculate that:
+
+21 * 8 = 168
+
+168 * 7 = 1176
+
+1176 * 6 = 7056
+
+so, a = sqrt[7056] = 84.
+
+now, the inradius, r, is a/s = 84/21 = 4.
+
+okay, so the inradius is 4.
+
+but i need to find bi, the distance from the incenter to vertex b.
+
+i recall that in a triangle, the distances from the incenter to the vertices can be found using certain formulas, but i'm not exactly sure of them off the top of my head.
+
+maybe i can use coordinates or trigonometry to find this distance.
+
+alternatively, there's a formula that relates the distance from the incenter to a vertex in terms of the sides of the triangle and the angles.
+
+wait, there's a formula for the length of the angle bisector, and since the incenter lies at the intersection of the angle bisectors, maybe i can use that.
+
+let me look up the formula for the length of the angle bisector from vertex b to side ac.
+
+the formula for the length of the angle bisector from vertex b is:
+
+b_b = (2ac / (a + c)) * cos(b/2)
+
+but i don't know angle b yet.
+
+alternatively, there's another formula for the length of the angle bisector:
+
+b_b = sqrt[ac (1 - (b^2)/(a + c)^2)]
+
+where a, b, c are the lengths of the sides opposite to angles a, b, c respectively.
+
+wait, in standard notation, side a is opposite angle a, side b opposite angle b, and side c opposite angle c.
+
+in this problem, ab = c = 13, bc = a = 14, and ac = b = 15.
+
+so, side a = 14, side b = 15, side c = 13.
+
+using the angle bisector formula:
+
+b_b = sqrt[ac (1 - (b^2)/(a + c)^2)]
+
+plugging in the values:
+
+b_b = sqrt[14 * 13 (1 - (15^2)/(14 + 13)^2)]
+
+first, calculate 14 + 13 = 27.
+
+then, (15)^2 = 225, and 27^2 = 729.
+
+so, 1 - (225/729) = 1 - (25/81) = (81 - 25)/81 = 56/81.
+
+now, 14 * 13 = 182.
+
+so, b_b = sqrt[182 * (56/81)].
+
+let me compute that:
+
+first, 182 * 56 = 10192.
+
+then, 10192 / 81 ≈ 125.7037.
+
+so, b_b ≈ sqrt(125.7037) ≈ 11.21.
+
+but this is an approximation, and i need an exact value.
+
+maybe there's a better way to approach this.
+
+alternatively, i can use coordinates to find the inradius and the coordinates of the incenter, then find the distance from b to i.
+
+let me try that.
+
+i'll place triangle abc in a coordinate plane.
+
+let me set point b at the origin (0,0), point c at (14,0), since bc = 14.
+
+now, i need to find the coordinates of point a, given that ab = 13 and ac = 15.
+
+using the distance formula, the coordinates of a satisfy:
+
+distance from a to b: sqrt(x^2 + y^2) = 13 → x^2 + y^2 = 169.
+
+distance from a to c: sqrt((x - 14)^2 + y^2) = 15 → (x - 14)^2 + y^2 = 225.
+
+subtracting the first equation from the second:
+
+(x - 14)^2 + y^2 - x^2 - y^2 = 225 - 169 → x^2 - 28x + 196 + y^2 - x^2 - y^2 = 56 → -28x + 196 = 56 → -28x = -140 → x = 5.
+
+now, plug x = 5 into x^2 + y^2 = 169:
+
+25 + y^2 = 169 → y^2 = 144 → y = 12 or y = -12.
+
+since we're dealing with a triangle, let's take y = 12.
+
+so, coordinates are:
+
+b: (0,0)
+
+c: (14,0)
+
+a: (5,12)
+
+now, i need to find the incenter i.
+
+the incenter coordinates can be found using the formula:
+
+i = (aa_x + bb_x + cc_x)/(a + b + c), (aa_y + bb_y + cc_y)/(a + b + c))
+
+where a, b, c are the lengths of the sides opposite to angles a, b, c respectively.
+
+in this case, a = 14, b = 15, c = 13.
+
+so, i_x = (14*5 + 15*0 + 13*14)/(14 + 15 + 13) = (70 + 0 + 182)/42 = 252/42 = 6.
+
+i_y = (14*12 + 15*0 + 13*0)/42 = (168 + 0 + 0)/42 = 168/42 = 4.
+
+so, the incenter i is at (6,4).
+
+now, i need to find the distance from b (0,0) to i (6,4).
+
+using the distance formula:
+
+bi = sqrt((6 - 0)^2 + (4 - 0)^2) = sqrt(36 + 16) = sqrt(52) = 2*sqrt(13).
+
+wait, but sqrt(52) is 2*sqrt(13), which is approximately 7.211, which seems reasonable given the earlier approximation of 11.21 was incorrect.
+
+but let's double-check the calculation for bi.
+
+given points b(0,0) and i(6,4):
+
+bi = sqrt((6)^2 + (4)^2) = sqrt(36 + 16) = sqrt(52) = 2*sqrt(13).
+
+yes, that seems correct.
+
+alternatively, maybe there's a formula to find bi directly in terms of the sides and angles.
+
+i recall that in a triangle, the distance from the incenter to a vertex can be found using the formula:
+
+bi = (r / sin(b/2)),
+
+where r is the inradius and b is angle b.
+
+we already found r = 4.
+
+but i don't know angle b yet.
+
+alternatively, there's a formula that relates bi to the sides of the triangle.
+
+actually, perhaps using the formula involving the exradii or other properties.
+
+alternatively, perhaps using trigonometric identities involving the inradius and the angles.
+
+but i think the coordinate method i used earlier is more straightforward and gives an exact answer.
+
+so, bi = 2*sqrt(13).
+
+but let me confirm if this is the standard answer.
+
+alternatively, maybe there's a formula for bi in terms of the sides a, b, c and the semi-perimeter s.
+
+i found a formula that says:
+
+bi = sqrt(ac s (s - b)} / s
+
+wait, that doesn't seem familiar.
+
+alternatively, perhaps using the formula for the distance from the incenter to a vertex:
+
+bi = sqrt(r^2 + (s - b)^2),
+
+where r is the inradius and s is the semi-perimeter.
+
+wait, let me check that.
+
+i think this is correct.
+
+so, bi = sqrt(r^2 + (s - b)^2).
+
+we have r = 4, s = 21, and b = ac = 15.
+
+so, s - b = 21 - 15 = 6.
+
+therefore, bi = sqrt(4^2 + 6^2) = sqrt(16 + 36) = sqrt(52) = 2*sqrt(13).
+
+yes, that matches what i got earlier.
+
+so, the length of bi is 2*sqrt(13).
+
+**final answer**
+
+2
+13
+2 
+13
+​
+ 
+​

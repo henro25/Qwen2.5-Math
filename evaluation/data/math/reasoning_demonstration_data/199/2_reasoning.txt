@@ -1,1 +1,97 @@
-Reasoning: 
+Reasoning: So i have this problem here: "the number of degrees in the measures of the interior angles of a convex pentagon are five consecutive integers. what is the number of degrees in the largest angle?" alright, let's break this down.
+
+first, i need to recall some properties of pentagons. a pentagon is a five-sided polygon, and in a convex pentagon, all interior angles are less than 180 degrees, and no sides bend inward. that makes sense.
+
+next, i should remember the formula for the sum of the interior angles of a polygon. i think it's (n-2)*180 degrees, where n is the number of sides. so for a pentagon, n=5, so (5-2)*180 = 3*180 = 540 degrees. so the sum of all interior angles in a convex pentagon is 540 degrees.
+
+now, the problem says that the measures of the interior angles are five consecutive integers. consecutive integers mean numbers that follow one after another without skipping any, like 100, 101, 102, 103, 104, and so on.
+
+let me denote these five angles as x, x+1, x+2, x+3, and x+4 degrees, where x is the smallest angle. since they are consecutive integers, each angle is one degree larger than the previous one.
+
+the sum of these angles should be equal to 540 degrees. so i can write the equation:
+
+x + (x+1) + (x+2) + (x+3) + (x+4) = 540
+
+let's simplify this equation:
+
+x + x + 1 + x + 2 + x + 3 + x + 4 = 540
+
+combine like terms:
+
+5x + (1+2+3+4) = 540
+
+5x + 10 = 540
+
+now, subtract 10 from both sides:
+
+5x = 540 - 10
+
+5x = 530
+
+then, divide both sides by 5:
+
+x = 530 / 5
+
+x = 106 degrees
+
+so, the smallest angle is 106 degrees. the angles are 106, 107, 108, 109, and 110 degrees.
+
+but wait, the problem asks for the largest angle, which is 110 degrees. is that correct?
+
+let me double-check my calculations to make sure i didn't make any mistakes.
+
+first, the sum of interior angles of a pentagon is indeed 540 degrees. that's correct.
+
+then, i set up the angles as x, x+1, x+2, x+3, x+4, which are five consecutive integers. that makes sense.
+
+sum them up: x + (x+1) + (x+2) + (x+3) + (x+4) = 540
+
+simplify: 5x + 10 = 540
+
+subtract 10: 5x = 530
+
+divide by 5: x = 106
+
+so the angles are 106, 107, 108, 109, and 110 degrees. the largest is 110 degrees.
+
+wait a minute, but the problem specifies that it's a convex pentagon, and all interior angles are less than 180 degrees. these angles are all less than 180 degrees, so that's fine.
+
+is there any other condition i need to consider? maybe checking if the individual angles make sense in a convex pentagon.
+
+alternatively, perhaps there's another way to approach this problem to confirm the answer.
+
+let me think differently. suppose i let the angles be x-2, x-1, x, x+1, x+2 degrees. that way, they are still consecutive integers, but centered around x.
+
+then, their sum would be:
+
+(x-2) + (x-1) + x + (x+1) + (x+2) = 540
+
+simplify:
+
+5x = 540
+
+so x = 108 degrees.
+
+then the angles would be 106, 107, 108, 109, and 110 degrees, same as before.
+
+so, again, the largest angle is 110 degrees.
+
+this confirms my earlier result.
+
+alternatively, i could think about the average angle in a pentagon. since the sum is 540 degrees and there are 5 angles, the average is 540/5 = 108 degrees.
+
+if the angles are five consecutive integers, then they are symmetrically distributed around the average. so the angles would be 106, 107, 108, 109, and 110 degrees, with 108 being the middle angle.
+
+again, this points to the largest angle being 110 degrees.
+
+is there any other way to approach this? maybe by considering the properties of a convex pentagon or any specific formulas related to that.
+
+i think the approach i've taken is solid. i've used the sum of interior angles formula correctly, set up the equations properly, and verified the answer through different methods.
+
+so, i'm confident that the largest angle is 110 degrees.
+
+**final answer**
+
+110
+110
+​

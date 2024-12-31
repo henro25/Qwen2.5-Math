@@ -1,1 +1,28 @@
-Answer: 
+Answer: First, we reflect the parabola \( y = ax^2 + bx + c \) about the x-axis, resulting in \( y = -ax^2 - bx - c \).
+
+next, we translate the original parabola 5 units to the right and the reflected parabola 5 units to the left. this gives us:
+\[ f(x) = a(x-5)^2 + b(x-5) + c \]
+\[ g(x) = -a(x+5)^2 - b(x+5) - c \]
+
+we then find \( (f + g)(x) \):
+\[
+(f + g)(x) = a(x-5)^2 + b(x-5) + c - a(x+5)^2 - b(x+5) - c
+\]
+
+expanding and simplifying:
+\[
+(f + g)(x) = a(x^2 - 10x + 25) + b(x - 5) + c - a(x^2 + 10x + 25) - b(x + 5) - c
+\]
+\[
+= a x^2 - 10a x + 25a + b x - 5b + c - a x^2 - 10a x - 25a - b x - 5b - c
+\]
+\[
+= -20a x - 10b
+\]
+
+this is a linear function of the form \( y = mx + n \), where \( m = -20a \) and \( n = -10b \). since \( a \neq 0 \) (as it is a parabola), the line is non-horizontal.
+
+therefore, the correct answer is:
+\[
+\boxed{\text{d}}
+\]

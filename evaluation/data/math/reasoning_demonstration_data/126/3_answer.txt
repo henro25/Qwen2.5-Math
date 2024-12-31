@@ -1,1 +1,30 @@
-Answer: 
+Answer: Given the function \( f : \mathbb{r} \to \mathbb{r} \) with \( f(1) = 1 \) and the functional equation
+\[ f(x^2 - y^2) = (x - y)(f(x) + f(y)), \]
+we need to determine the number of possible values of \( f(2) \) and their sum.
+
+first, we set \( y = 0 \) in the functional equation:
+\[ f(x^2) = x f(x). \]
+next, setting \( x = y \) gives:
+\[ f(0) = 0. \]
+thus, \( f(x^2) = x f(x) \).
+
+setting \( y = -x \) gives:
+\[ f(0) = 2x (f(x) + f(-x)), \]
+which implies \( f(x) + f(-x) = 0 \), so \( f \) is an odd function.
+
+assuming \( f(x) = kx \) and using \( f(1) = 1 \), we find \( k = 1 \), hence \( f(x) = x \).
+
+to verify, we check:
+\[ f(x^2 - y^2) = x^2 - y^2, \]
+and
+\[ (x - y)(f(x) + f(y)) = (x - y)(x + y) = x^2 - y^2, \]
+confirming that \( f(x) = x \) satisfies the functional equation.
+
+since \( f(x) = x \) is the only solution, we have \( f(2) = 2 \).
+
+thus, the number of possible values \( n = 1 \) and the sum of all possible values \( s = 2 \), giving:
+\[ n \times s = 1 \times 2 = 2. \]
+
+\[
+\boxed{2}
+\]

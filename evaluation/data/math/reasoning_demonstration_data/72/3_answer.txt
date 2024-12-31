@@ -1,1 +1,33 @@
-Answer: 
+Answer: Given \( m + \frac{1}{m} = 8 \), we need to find the value of \( m^{2} + \frac{1}{m^{2}} + 4 \).
+
+first, we square both sides of the given equation:
+
+\[
+\left( m + \frac{1}{m} \right)^{2} = 8^{2}
+\]
+
+expanding the left side:
+
+\[
+m^{2} + 2 \cdot m \cdot \frac{1}{m} + \frac{1}{m^{2}} = 64
+\]
+
+simplifying the middle term:
+
+\[
+m^{2} + 2 + \frac{1}{m^{2}} = 64
+\]
+
+subtracting 2 from both sides:
+
+\[
+m^{2} + \frac{1}{m^{2}} = 62
+\]
+
+adding 4 to both sides:
+
+\[
+m^{2} + \frac{1}{m^{2}} + 4 = 62 + 4 = 66
+\]
+
+thus, the value of \( m^{2} + \frac{1}{m^{2}} + 4 \) is \(\boxed{66}\).

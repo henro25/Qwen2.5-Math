@@ -1,1 +1,28 @@
-Answer: 
+Answer: Given that \(a\) and \(b\) are the roots of the equation \(x^2 - mx + 2 = 0\), we know from vieta's formulas that:
+\[ a + b = m \]
+\[ ab = 2 \]
+
+we need to find \(q\) for the quadratic equation \(x^2 - px + q = 0\) whose roots are \(a + \frac{1}{b}\) and \(b + \frac{1}{a}\).
+
+first, we calculate the product of the new roots:
+\[
+\left(a + \frac{1}{b}\right) \left(b + \frac{1}{a}\right)
+\]
+
+expanding this product:
+\[
+\left(a + \frac{1}{b}\right) \left(b + \frac{1}{a}\right) = ab + a \cdot \frac{1}{a} + \frac{1}{b} \cdot b + \frac{1}{b} \cdot \frac{1}{a}
+\]
+\[
+= ab + 1 + 1 + \frac{1}{ab}
+\]
+
+substituting \(ab = 2\):
+\[
+= 2 + 1 + 1 + \frac{1}{2} = 4 + \frac{1}{2} = \frac{9}{2}
+\]
+
+thus, the value of \(q\) is:
+\[
+\boxed{\frac{9}{2}}
+\]

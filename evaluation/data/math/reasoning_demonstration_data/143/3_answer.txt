@@ -1,1 +1,45 @@
-Answer: 
+Answer: Mark borrows $10 from emily with a simple interest rate of 15% per day. we need to find the least integer number of days after which mark will have to pay back at least twice the amount he borrowed, which is $20.
+
+the formula for the total amount to be paid back with simple interest is:
+
+\[ a = p(1 + rt) \]
+
+where:
+- \( p = 10 \) dollars (principal amount)
+- \( r = 0.15 \) (daily interest rate)
+- \( t \) is the number of days
+
+we need:
+
+\[ 10(1 + 0.15t) \geq 20 \]
+
+first, divide both sides by 10:
+
+\[ 1 + 0.15t \geq 2 \]
+
+then, subtract 1 from both sides:
+
+\[ 0.15t \geq 1 \]
+
+now, divide both sides by 0.15:
+
+\[ t \geq \frac{1}{0.15} \]
+
+calculating \( \frac{1}{0.15} \):
+
+\[ \frac{1}{0.15} = \frac{100}{15} = \frac{20}{3} \approx 6.\overline{6} \]
+
+since \( t \) must be an integer, we round up to the next whole number, which is 7.
+
+to verify:
+- for \( t = 6 \):
+
+\[ a = 10(1 + 0.15 \times 6) = 10(1 + 0.9) = 10 \times 1.9 = 19 \]
+
+- for \( t = 7 \):
+
+\[ a = 10(1 + 0.15 \times 7) = 10(1 + 1.05) = 10 \times 2.05 = 20.5 \]
+
+thus, the least integer number of days is:
+
+\boxed{7}

@@ -1,1 +1,51 @@
-Reasoning: 
+Reasoning: So i need to find the value of sin(-60 degrees). hmm, i remember that sine is one of the basic trigonometric functions, and it's related to the angles in a right triangle. but wait, this angle is negative, so that might be a bit tricky. let me think about how to handle negative angles.
+
+first, i recall that angles in trigonometry can be positive or negative, and negative angles mean rotation in the clockwise direction, whereas positive angles are counterclockwise. so, -60 degrees would be like rotating 60 degrees clockwise from the positive x-axis.
+
+now, i need to find sin(-60°). i think there's a rule for sine of a negative angle. maybe it's related to the sine of the positive angle. oh, right! i think sine is an odd function, which means sin(-θ) = -sin(θ). so, sin(-60°) should be equal to -sin(60°). that seems straightforward.
+
+but just to make sure, let me recall the unit circle definition. on the unit circle, the sine of an angle corresponds to the y-coordinate of the point where the terminal side of the angle intersects the circle. so, for -60 degrees, i'm looking at the point that's 60 degrees below the positive x-axis.
+
+if i imagine the unit circle, at 60 degrees, the point is in the first quadrant, and its y-coordinate is sin(60°). at -60 degrees, the point is in the fourth quadrant, where the y-coordinate is negative, so it should indeed be -sin(60°). that matches what i thought earlier.
+
+now, i need to find sin(60°). i know that sin(60°) is a standard value. from the special triangles, specifically the 30-60-90 triangle, i remember that sin(60°) is √3/2. let me confirm that.
+
+in a 30-60-90 triangle, the sides are in the ratio 1 : √3 : 2, where 1 is the side opposite the 30-degree angle, √3 is opposite the 60-degree angle, and 2 is the hypotenuse. so, sin(60°) = opposite/hypotenuse = √3/2. yep, that's correct.
+
+therefore, sin(-60°) = -sin(60°) = -√3/2.
+
+wait a minute, just to be thorough, i should consider if there's any other way to approach this. maybe using reference angles or something else.
+
+the reference angle for -60 degrees would be the positive angle that has the same terminal side but measured in the positive direction. to find that, i can add 360 degrees to -60 degrees, which gives 300 degrees. so, sin(-60°) = sin(300°).
+
+now, 300 degrees is in the fourth quadrant, where sine is negative, which again confirms that sin(300°) is negative. and the reference angle for 300 degrees is 360° - 300° = 60°, so sin(300°) = -sin(60°) = -√3/2. this matches my previous result.
+
+alternatively, i could use the formula for sine of a difference of angles. since -60° is the same as 0° - 60°, i could use sin(a - b) = sin a cos b - cos a sin b, where a = 0° and b = 60°.
+
+so, sin(0° - 60°) = sin(0°)cos(60°) - cos(0°)sin(60°) = (0)(0.5) - (1)(√3/2) = 0 - √3/2 = -√3/2. again, the same answer.
+
+it seems like no matter which method i use, i end up with sin(-60°) = -√3/2. that gives me confidence that this is the correct value.
+
+just to recap:
+
+1. using the odd function property: sin(-θ) = -sin(θ), so sin(-60°) = -sin(60°) = -√3/2.
+
+2. using the unit circle: -60° is in the fourth quadrant where sine is negative, and the reference angle is 60°, so sin(-60°) = -sin(60°) = -√3/2.
+
+3. using the sine of a difference formula: sin(0° - 60°) = -sin(60°) = -√3/2.
+
+all these methods lead to the same conclusion, so i'm pretty sure the answer is -√3/2.
+
+**final answer**
+
+−
+3
+2
+− 
+2
+3
+​
+ 
+​
+ 
+​

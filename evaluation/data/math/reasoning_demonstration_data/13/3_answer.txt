@@ -1,1 +1,33 @@
-Answer: 
+Answer: **Step 1:** Understand that the perimeter of a square is the sum of all its sides, and since all sides are equal, the formula for the perimeter is:
+
+\[
+P = 4s
+\]
+
+where \( P \) is the perimeter and \( s \) is the side length.
+
+**Step 2:** Plug in the given perimeter:
+
+\[
+4s = 32 \, \text{ft}
+\]
+
+**Step 3:** Solve for \( s \) by dividing both sides by 4:
+
+\[
+s = \frac{32}{4} = 8 \, \text{ft}
+\]
+
+**Step 4:** Use the formula for the area of a square:
+
+\[
+A = s^2
+\]
+
+**Step 5:** Substitute the side length into the area formula:
+
+\[
+A = 8^2 = 64 \, \text{square feet}
+\]
+
+**Answer:** The area of the square is 64 square feet.

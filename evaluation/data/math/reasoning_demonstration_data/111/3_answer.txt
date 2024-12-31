@@ -1,1 +1,38 @@
-Answer: 
+Answer: To determine the positive integer values of \( k \) for which the quadratic equation \( kx^2 + 20x + k = 0 \) has rational solutions, we need the discriminant \( d = b^2 - 4ac \) to be a perfect square. for the given equation, \( a = k \), \( b = 20 \), and \( c = k \), so the discriminant is:
+
+\[
+d = 20^2 - 4k^2 = 400 - 4k^2
+\]
+
+we need \( 400 - 4k^2 \) to be a perfect square. let \( 400 - 4k^2 = m^2 \) for some integer \( m \). rearranging, we get:
+
+\[
+4k^2 + m^2 = 400
+\]
+
+we check for positive integer values of \( k \) from 1 to 10 (since \( k^2 \leq 100 \)):
+
+\[
+\begin{array}{|c|c|c|}
+\hline
+k & d = 400 - 4k^2 & \text{is } d \text{ a perfect square?} \\
+\hline
+1 & 396 & \text{no} \\
+2 & 384 & \text{no} \\
+3 & 364 & \text{no} \\
+4 & 336 & \text{no} \\
+5 & 300 & \text{no} \\
+6 & 256 & \text{yes} \\
+7 & 204 & \text{no} \\
+8 & 144 & \text{yes} \\
+9 & 76 & \text{no} \\
+10 & 0 & \text{yes} \\
+\hline
+\end{array}
+\]
+
+the values of \( k \) for which \( d \) is a perfect square are \( k = 6, 8, 10 \). therefore, the positive integer values of \( k \) are:
+
+\[
+\boxed{6, 8, 10}
+\]

@@ -1,1 +1,27 @@
-Answer: 
+Answer: Given the diagram and the information provided, we need to find the length of \( dc \).
+
+first, we analyze triangle \( abd \), which is a right triangle with \( \angle adb = 90^\circ \), \( ab = 24 \), and \( \sin a = \frac{2}{3} \).
+
+1. calculate \( bd \):
+   \[
+   \sin a = \frac{bd}{ab} = \frac{2}{3} \implies bd = \frac{2}{3} \times 24 = 16
+   \]
+
+2. calculate \( ad \) using the pythagorean theorem:
+   \[
+   ad = \sqrt{ab^2 - bd^2} = \sqrt{24^2 - 16^2} = \sqrt{576 - 256} = \sqrt{320} = 8\sqrt{5}
+   \]
+
+next, we consider triangle \( bdc \), which is also a right triangle with \( \angle bdc = 90^\circ \), \( bd = 16 \), and \( \sin c = \frac{1}{3} \).
+
+3. calculate \( bc \) using the law of sines in triangle \( abc \):
+   \[
+   \frac{ab}{\sin c} = \frac{bc}{\sin a} \implies \frac{24}{\frac{1}{3}} = \frac{bc}{\frac{2}{3}} \implies 72 = \frac{bc}{\frac{2}{3}} \implies bc = 72 \times \frac{2}{3} = 48
+   \]
+
+4. use the pythagorean theorem in triangle \( bdc \) to find \( dc \):
+   \[
+   bc^2 = bd^2 + dc^2 \implies 48^2 = 16^2 + dc^2 \implies 2304 = 256 + dc^2 \implies dc^2 = 2048 \implies dc = \sqrt{2048} = 32\sqrt{2}
+   \]
+
+therefore, the length of \( dc \) is \(\boxed{32\sqrt{2}}\).

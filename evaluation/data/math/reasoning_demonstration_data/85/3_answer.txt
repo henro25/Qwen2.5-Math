@@ -1,1 +1,18 @@
-Answer: 
+Answer: First, we determine the total number of marbles in the jar, which is \(2 + 3 + 10 = 15\) marbles.
+
+next, we calculate the probability of drawing two red marbles without replacement. the probability that the first marble drawn is red is \(\frac{2}{15}\). given that the first marble drawn is red, the probability that the second marble drawn is also red is \(\frac{1}{14}\).
+
+the combined probability of both events happening is:
+\[
+\left(\frac{2}{15}\right) \times \left(\frac{1}{14}\right) = \frac{2}{210} = \frac{1}{105}
+\]
+
+alternatively, using combinations, the number of ways to choose 2 red marbles out of 2 is \(\binom{2}{2} = 1\), and the total number of ways to choose any 2 marbles out of 15 is \(\binom{15}{2} = \frac{15 \times 14}{2} = 105\). thus, the probability is:
+\[
+\frac{\binom{2}{2}}{\binom{15}{2}} = \frac{1}{105}
+\]
+
+therefore, the probability that both marbles drawn are red is:
+\[
+\boxed{\frac{1}{105}}
+\]

@@ -1,1 +1,24 @@
-Answer: 
+Answer: To solve the problem, we need to find the probability that exactly two out of four 12-sided dice show one-digit numbers (1 to 9) and the other two show two-digit numbers (10 to 12).
+
+first, we determine the probabilities for a single die:
+- probability of showing a one-digit number: \( p = \frac{9}{12} = \frac{3}{4} \)
+- probability of showing a two-digit number: \( 1 - p = \frac{1}{4} \)
+
+using the binomial probability formula:
+\[ p(k) = \binom{n}{k} p^k (1-p)^{n-k} \]
+where \( n = 4 \), \( k = 2 \), \( p = \frac{3}{4} \), and \( 1 - p = \frac{1}{4} \):
+
+\[ p(2) = \binom{4}{2} \left( \frac{3}{4} \right)^2 \left( \frac{1}{4} \right)^2 \]
+
+calculate the binomial coefficient:
+\[ \binom{4}{2} = \frac{4!}{2! \cdot 2!} = 6 \]
+
+then:
+\[ \left( \frac{3}{4} \right)^2 = \frac{9}{16} \]
+\[ \left( \frac{1}{4} \right)^2 = \frac{1}{16} \]
+
+multiply them together:
+\[ p(2) = 6 \times \frac{9}{16} \times \frac{1}{16} = 6 \times \frac{9}{256} = \frac{54}{256} = \frac{27}{128} \]
+
+thus, the probability is:
+\boxed{\frac{27}{128}}

@@ -1,1 +1,46 @@
-Answer: 
+Answer: Given the quadrilateral \(abcd\) with right angles at \(a\) and \(c\), and points \(e\) and \(f\) on \(\overline{ac}\) such that \(\overline{de}\) and \(\overline{bf}\) are perpendicular to \(\overline{ac}\), we need to find the length of \(bf\). 
+
+we start by placing point \(a\) at \((0,0)\), point \(c\) at \((10,0)\), point \(e\) at \((3,0)\), and point \(d\) at \((3,-5)\). 
+
+to find the coordinates of point \(b\), we use the fact that \(ab\) and \(cb\) are perpendicular to \(ad\) and \(cd\) respectively. 
+
+1. the slope of \(ad\) is \(\frac{-5}{3}\), so the slope of \(ab\) is \(\frac{3}{5}\). the equation of \(ab\) is \(y = \frac{3}{5}x\).
+2. the slope of \(cd\) is \(\frac{5}{7}\), so the slope of \(cb\) is \(-\frac{7}{5}\). the equation of \(cb\) is \(y = -\frac{7}{5}(x - 10)\).
+
+setting these equations equal to find the intersection point \(b\):
+
+\[
+\frac{3}{5}x = -\frac{7}{5}(x - 10)
+\]
+
+multiplying both sides by 5:
+
+\[
+3x = -7(x - 10)
+\]
+
+\[
+3x = -7x + 70
+\]
+
+\[
+10x = 70
+\]
+
+\[
+x = 7
+\]
+
+substituting \(x = 7\) back into \(y = \frac{3}{5}x\):
+
+\[
+y = \frac{3}{5} \cdot 7 = 4.2
+\]
+
+thus, \(b\) is at \((7, 4.2)\) and \(f\) is at \((7, 0)\). the length of \(bf\) is:
+
+\[
+bf = 4.2
+\]
+
+therefore, the answer is \(\boxed{4.2}\).

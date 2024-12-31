@@ -1,1 +1,25 @@
-Answer: 
+Answer: Given the functions \( f(x) = 6x - 9 \) and \( g(x) = \frac{x}{3} + 2 \), we need to find \( f(g(x)) - g(f(x)) \).
+
+first, we find \( f(g(x)) \):
+
+\[
+f(g(x)) = f\left(\frac{x}{3} + 2\right) = 6\left(\frac{x}{3} + 2\right) - 9 = 6 \cdot \frac{x}{3} + 6 \cdot 2 - 9 = 2x + 12 - 9 = 2x + 3
+\]
+
+next, we find \( g(f(x)) \):
+
+\[
+g(f(x)) = g(6x - 9) = \frac{6x - 9}{3} + 2 = \frac{6x}{3} - \frac{9}{3} + 2 = 2x - 3 + 2 = 2x - 1
+\]
+
+now, we subtract \( g(f(x)) \) from \( f(g(x)) \):
+
+\[
+f(g(x)) - g(f(x)) = (2x + 3) - (2x - 1) = 2x + 3 - 2x + 1 = 4
+\]
+
+thus, the final answer is:
+
+\[
+\boxed{4}
+\]

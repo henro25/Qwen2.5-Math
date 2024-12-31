@@ -1,1 +1,56 @@
-Answer: 
+Answer: To solve the inequality \(|x - 1| + |x + 2| < 5\), we consider the critical points where the expressions inside the absolute values change sign, which are \(x = 1\) and \(x = -2\). we break it down into three intervals: \(x < -2\), \(-2 \leq x < 1\), and \(x \geq 1\).
+
+**case 1: \(x < -2\)**
+
+in this interval, both \(x - 1\) and \(x + 2\) are negative:
+\[
+|x - 1| = -x + 1 \quad \text{and} \quad |x + 2| = -x - 2
+\]
+substituting these into the inequality:
+\[
+-x + 1 - x - 2 < 5 \implies -2x - 1 < 5 \implies -2x < 6 \implies x > -3
+\]
+combining with \(x < -2\), we get:
+\[
+-3 < x < -2
+\]
+
+**case 2: \(-2 \leq x < 1\)**
+
+in this interval, \(x + 2\) is non-negative and \(x - 1\) is negative:
+\[
+|x - 1| = -x + 1 \quad \text{and} \quad |x + 2| = x + 2
+\]
+substituting these into the inequality:
+\[
+-x + 1 + x + 2 < 5 \implies 3 < 5
+\]
+this is always true, so:
+\[
+-2 \leq x < 1
+\]
+
+**case 3: \(x \geq 1\)**
+
+in this interval, both \(x - 1\) and \(x + 2\) are non-negative:
+\[
+|x - 1| = x - 1 \quad \text{and} \quad |x + 2| = x + 2
+\]
+substituting these into the inequality:
+\[
+x - 1 + x + 2 < 5 \implies 2x + 1 < 5 \implies 2x < 4 \implies x < 2
+\]
+combining with \(x \geq 1\), we get:
+\[
+1 \leq x < 2
+\]
+
+combining all cases, we get:
+\[
+-3 < x < 2
+\]
+
+thus, the solution to the inequality is:
+\[
+\boxed{-3 < x < 2}
+\]

@@ -1,1 +1,18 @@
-Answer: 
+Answer: To determine the smaller angle between the hour hand and the minute hand of a clock at exactly 2:30 p.m., follow these steps:
+
+1. **Calculate the position of the hour hand:**
+   - Each hour mark represents 30 degrees (since 360 degrees / 12 hours = 30 degrees per hour).
+   - At 2:30, the hour hand is halfway between 2 and 3. Therefore, it has moved 15 degrees past the 2 (since 30 minutes = 1/2 hour, and 30 degrees/hour * 1/2 hour = 15 degrees).
+   - The hour hand is at 2 * 30 + 15 = 75 degrees from the top.
+
+2. **Calculate the position of the minute hand:**
+   - Each minute represents 6 degrees (since 360 degrees / 60 minutes = 6 degrees per minute).
+   - At 30 minutes, the minute hand is at 30 * 6 = 180 degrees from the top.
+
+3. **Find the difference between the two positions:**
+   - The difference is |180 degrees - 75 degrees| = 105 degrees.
+
+4. **Determine the smaller angle:**
+   - Since 105 degrees is less than 180 degrees, it is already the smaller angle.
+
+Thus, the degree measure of the smaller angle between the hour hand and the minute hand at exactly 2:30 p.m. is **105 degrees**.

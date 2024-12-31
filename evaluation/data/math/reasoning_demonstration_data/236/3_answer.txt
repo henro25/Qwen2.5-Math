@@ -1,1 +1,27 @@
-Answer: 
+Answer: To find the area enclosed by the graph of \( |3x| + |4y| = 12 \), we first rewrite the equation in a more familiar form:
+
+\[
+\frac{|3x|}{12} + \frac{|4y|}{12} = 1 \implies \frac{|x|}{4} + \frac{|y|}{3} = 1
+\]
+
+this is the standard form of a diamond-shaped graph, where \( a = 4 \) and \( b = 3 \). the vertices of the diamond are at \( (4,0) \), \( (-4,0) \), \( (0,3) \), and \( (0,-3) \).
+
+the area of a diamond (or rhombus) with diagonals of lengths \( d_1 \) and \( d_2 \) is given by:
+
+\[
+\text{area} = \frac{d_1 \cdot d_2}{2}
+\]
+
+here, the horizontal diagonal is from \( (-4,0) \) to \( (4,0) \), so its length is \( 8 \) units. the vertical diagonal is from \( (0,-3) \) to \( (0,3) \), so its length is \( 6 \) units.
+
+thus, the area is:
+
+\[
+\text{area} = \frac{8 \cdot 6}{2} = \frac{48}{2} = 24
+\]
+
+therefore, the area enclosed by the graph of \( |3x| + |4y| = 12 \) is:
+
+\[
+\boxed{24}
+\]

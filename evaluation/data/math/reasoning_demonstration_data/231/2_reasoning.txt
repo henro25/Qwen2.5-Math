@@ -1,1 +1,2845 @@
-Reasoning: 
+Reasoning: So i've got this problem here. it says that there's a matrix that projects vectors onto a line ℓ that passes through the origin, and i need to find the direction vector of that line. the matrix is given, and it's a 3x3 matrix. let me write it down again to make sure i have it right:
+
+p
+=
+(
+2
+15
+−
+1
+15
+−
+1
+3
+−
+1
+15
+1
+30
+1
+6
+−
+1
+3
+1
+6
+5
+6
+)
+p= 
+​
+  
+15
+2
+​
+ 
+− 
+15
+1
+​
+ 
+− 
+3
+1
+​
+ 
+​
+  
+− 
+15
+1
+​
+ 
+30
+1
+​
+ 
+6
+1
+​
+ 
+​
+  
+− 
+3
+1
+​
+ 
+6
+1
+​
+ 
+6
+5
+​
+ 
+​
+  
+​
+ 
+i need to find a direction vector 
+v
+=
+(
+a
+b
+c
+)
+v= 
+​
+  
+a
+b
+c
+​
+  
+​
+  such that this matrix projects any vector onto the line spanned by 
+v
+v. and i need to make sure that 
+a
+>
+0
+a>0 and that the greatest common divisor of the absolute values of 
+a
+a, 
+b
+b, and 
+c
+c is 1.
+
+first, i need to recall how projection matrices work. if i have a line in 3d space, and i want to project any vector onto that line, the projection matrix 
+p
+p can be expressed in terms of the direction vector 
+v
+v of the line. specifically, the projection matrix onto the line spanned by 
+v
+v is given by:
+
+p
+=
+v
+v
+t
+v
+t
+v
+p= 
+v 
+t
+ v
+vv 
+t
+ 
+​
+ 
+this formula makes sense because 
+v
+v
+t
+vv 
+t
+  is an outer product that gives a matrix, and dividing by 
+v
+t
+v
+v 
+t
+ v (which is just the squared magnitude of 
+v
+v) normalizes it appropriately.
+
+so, if i have 
+p
+p, i can set it equal to 
+v
+v
+t
+v
+t
+v
+v 
+t
+ v
+vv 
+t
+ 
+​
+  and try to solve for 
+v
+v.
+
+let me denote 
+v
+=
+(
+a
+b
+c
+)
+v= 
+​
+  
+a
+b
+c
+​
+  
+​
+ , where 
+a
+a, 
+b
+b, and 
+c
+c are real numbers. then, the outer product 
+v
+v
+t
+vv 
+t
+  is:
+
+v
+v
+t
+=
+(
+a
+b
+c
+)
+(
+a
+b
+c
+)
+=
+(
+a
+2
+a
+b
+a
+c
+b
+a
+b
+2
+b
+c
+c
+a
+c
+b
+c
+2
+)
+vv 
+t
+ = 
+​
+  
+a
+b
+c
+​
+  
+​
+ ( 
+a
+​
+  
+b
+​
+  
+c
+​
+ )= 
+​
+  
+a 
+2
+ 
+ba
+ca
+​
+  
+ab
+b 
+2
+ 
+cb
+​
+  
+ac
+bc
+c 
+2
+ 
+​
+  
+​
+ 
+and 
+v
+t
+v
+=
+a
+2
++
+b
+2
++
+c
+2
+v 
+t
+ v=a 
+2
+ +b 
+2
+ +c 
+2
+ .
+
+so, the projection matrix should be:
+
+p
+=
+1
+a
+2
++
+b
+2
++
+c
+2
+(
+a
+2
+a
+b
+a
+c
+b
+a
+b
+2
+b
+c
+c
+a
+c
+b
+c
+2
+)
+p= 
+a 
+2
+ +b 
+2
+ +c 
+2
+ 
+1
+​
+  
+​
+  
+a 
+2
+ 
+ba
+ca
+​
+  
+ab
+b 
+2
+ 
+cb
+​
+  
+ac
+bc
+c 
+2
+ 
+​
+  
+​
+ 
+now, i can set this equal to the given matrix and try to solve for 
+a
+a, 
+b
+b, and 
+c
+c:
+
+1
+a
+2
++
+b
+2
++
+c
+2
+(
+a
+2
+a
+b
+a
+c
+b
+a
+b
+2
+b
+c
+c
+a
+c
+b
+c
+2
+)
+=
+(
+2
+15
+−
+1
+15
+−
+1
+3
+−
+1
+15
+1
+30
+1
+6
+−
+1
+3
+1
+6
+5
+6
+)
+a 
+2
+ +b 
+2
+ +c 
+2
+ 
+1
+​
+  
+​
+  
+a 
+2
+ 
+ba
+ca
+​
+  
+ab
+b 
+2
+ 
+cb
+​
+  
+ac
+bc
+c 
+2
+ 
+​
+  
+​
+ = 
+​
+  
+15
+2
+​
+ 
+− 
+15
+1
+​
+ 
+− 
+3
+1
+​
+ 
+​
+  
+− 
+15
+1
+​
+ 
+30
+1
+​
+ 
+6
+1
+​
+ 
+​
+  
+− 
+3
+1
+​
+ 
+6
+1
+​
+ 
+6
+5
+​
+ 
+​
+  
+​
+ 
+this gives me a system of equations. let's write down each corresponding entry:
+
+1. 
+a
+2
+a
+2
++
+b
+2
++
+c
+2
+=
+2
+15
+a 
+2
+ +b 
+2
+ +c 
+2
+ 
+a 
+2
+ 
+​
+ = 
+15
+2
+​
+ 
+
+2. 
+a
+b
+a
+2
++
+b
+2
++
+c
+2
+=
+−
+1
+15
+a 
+2
+ +b 
+2
+ +c 
+2
+ 
+ab
+​
+ =− 
+15
+1
+​
+ 
+
+3. 
+a
+c
+a
+2
++
+b
+2
++
+c
+2
+=
+−
+1
+3
+a 
+2
+ +b 
+2
+ +c 
+2
+ 
+ac
+​
+ =− 
+3
+1
+​
+ 
+
+4. 
+b
+a
+a
+2
++
+b
+2
++
+c
+2
+=
+−
+1
+15
+a 
+2
+ +b 
+2
+ +c 
+2
+ 
+ba
+​
+ =− 
+15
+1
+​
+ 
+
+5. 
+b
+2
+a
+2
++
+b
+2
++
+c
+2
+=
+1
+30
+a 
+2
+ +b 
+2
+ +c 
+2
+ 
+b 
+2
+ 
+​
+ = 
+30
+1
+​
+ 
+
+6. 
+b
+c
+a
+2
++
+b
+2
++
+c
+2
+=
+1
+6
+a 
+2
+ +b 
+2
+ +c 
+2
+ 
+bc
+​
+ = 
+6
+1
+​
+ 
+
+7. 
+c
+a
+a
+2
++
+b
+2
++
+c
+2
+=
+−
+1
+3
+a 
+2
+ +b 
+2
+ +c 
+2
+ 
+ca
+​
+ =− 
+3
+1
+​
+ 
+
+8. 
+c
+b
+a
+2
++
+b
+2
++
+c
+2
+=
+1
+6
+a 
+2
+ +b 
+2
+ +c 
+2
+ 
+cb
+​
+ = 
+6
+1
+​
+ 
+
+9. 
+c
+2
+a
+2
++
+b
+2
++
+c
+2
+=
+5
+6
+a 
+2
+ +b 
+2
+ +c 
+2
+ 
+c 
+2
+ 
+​
+ = 
+6
+5
+​
+ 
+
+hmm, i see that equations 2 and 4 are the same since 
+a
+b
+=
+b
+a
+ab=ba, and similarly, equations 3 and 7 are the same, as are 6 and 8. so, i can ignore the duplicates and focus on the unique ones:
+
+1. 
+a
+2
+a
+2
++
+b
+2
++
+c
+2
+=
+2
+15
+a 
+2
+ +b 
+2
+ +c 
+2
+ 
+a 
+2
+ 
+​
+ = 
+15
+2
+​
+ 
+
+2. 
+a
+b
+a
+2
++
+b
+2
++
+c
+2
+=
+−
+1
+15
+a 
+2
+ +b 
+2
+ +c 
+2
+ 
+ab
+​
+ =− 
+15
+1
+​
+ 
+
+3. 
+a
+c
+a
+2
++
+b
+2
++
+c
+2
+=
+−
+1
+3
+a 
+2
+ +b 
+2
+ +c 
+2
+ 
+ac
+​
+ =− 
+3
+1
+​
+ 
+
+5. 
+b
+2
+a
+2
++
+b
+2
++
+c
+2
+=
+1
+30
+a 
+2
+ +b 
+2
+ +c 
+2
+ 
+b 
+2
+ 
+​
+ = 
+30
+1
+​
+ 
+
+6. 
+b
+c
+a
+2
++
+b
+2
++
+c
+2
+=
+1
+6
+a 
+2
+ +b 
+2
+ +c 
+2
+ 
+bc
+​
+ = 
+6
+1
+​
+ 
+
+9. 
+c
+2
+a
+2
++
+b
+2
++
+c
+2
+=
+5
+6
+a 
+2
+ +b 
+2
+ +c 
+2
+ 
+c 
+2
+ 
+​
+ = 
+6
+5
+​
+ 
+
+let me denote 
+k
+=
+a
+2
++
+b
+2
++
+c
+2
+k=a 
+2
+ +b 
+2
+ +c 
+2
+ , to simplify the equations:
+
+1. 
+a
+2
+k
+=
+2
+15
+k
+a 
+2
+ 
+​
+ = 
+15
+2
+​
+  → 
+a
+2
+=
+2
+15
+k
+a 
+2
+ = 
+15
+2
+​
+ k
+
+2. 
+a
+b
+k
+=
+−
+1
+15
+k
+ab
+​
+ =− 
+15
+1
+​
+  → 
+a
+b
+=
+−
+1
+15
+k
+ab=− 
+15
+1
+​
+ k
+
+3. 
+a
+c
+k
+=
+−
+1
+3
+k
+ac
+​
+ =− 
+3
+1
+​
+  → 
+a
+c
+=
+−
+1
+3
+k
+ac=− 
+3
+1
+​
+ k
+
+5. 
+b
+2
+k
+=
+1
+30
+k
+b 
+2
+ 
+​
+ = 
+30
+1
+​
+  → 
+b
+2
+=
+1
+30
+k
+b 
+2
+ = 
+30
+1
+​
+ k
+
+6. 
+b
+c
+k
+=
+1
+6
+k
+bc
+​
+ = 
+6
+1
+​
+  → 
+b
+c
+=
+1
+6
+k
+bc= 
+6
+1
+​
+ k
+
+9. 
+c
+2
+k
+=
+5
+6
+k
+c 
+2
+ 
+​
+ = 
+6
+5
+​
+  → 
+c
+2
+=
+5
+6
+k
+c 
+2
+ = 
+6
+5
+​
+ k
+
+now, i have expressions for 
+a
+2
+a 
+2
+ , 
+b
+2
+b 
+2
+ , and 
+c
+2
+c 
+2
+  in terms of 
+k
+k, and also expressions for the products 
+a
+b
+ab, 
+a
+c
+ac, and 
+b
+c
+bc in terms of 
+k
+k.
+
+i need to find 
+a
+a, 
+b
+b, and 
+c
+c, so perhaps i can express 
+a
+a, 
+b
+b, and 
+c
+c in terms of 
+k
+k, and then solve for 
+k
+k.
+
+first, from equation 1: 
+a
+2
+=
+2
+15
+k
+a 
+2
+ = 
+15
+2
+​
+ k, so 
+a
+=
+2
+15
+k
+a= 
+15
+2
+​
+ k
+​
+  or 
+a
+=
+−
+2
+15
+k
+a=− 
+15
+2
+​
+ k
+​
+ . but since the problem states that 
+a
+>
+0
+a>0, i'll take the positive root: 
+a
+=
+2
+15
+k
+a= 
+15
+2
+​
+ k
+​
+ .
+
+similarly, from equation 5: 
+b
+2
+=
+1
+30
+k
+b 
+2
+ = 
+30
+1
+​
+ k, so 
+b
+=
+1
+30
+k
+b= 
+30
+1
+​
+ k
+​
+  or 
+b
+=
+−
+1
+30
+k
+b=− 
+30
+1
+​
+ k
+​
+ .
+
+from equation 9: 
+c
+2
+=
+5
+6
+k
+c 
+2
+ = 
+6
+5
+​
+ k, so 
+c
+=
+5
+6
+k
+c= 
+6
+5
+​
+ k
+​
+  or 
+c
+=
+−
+5
+6
+k
+c=− 
+6
+5
+​
+ k
+​
+ .
+
+now, from equation 2: 
+a
+b
+=
+−
+1
+15
+k
+ab=− 
+15
+1
+​
+ k.
+
+substituting the expressions for 
+a
+a and 
+b
+b:
+
+2
+15
+k
+⋅
+b
+=
+−
+1
+15
+k
+15
+2
+​
+ k
+​
+ ⋅b=− 
+15
+1
+​
+ k
+but 
+b
+=
+±
+1
+30
+k
+b=± 
+30
+1
+​
+ k
+​
+ , so:
+
+2
+15
+k
+⋅
+(
+±
+1
+30
+k
+)
+=
+−
+1
+15
+k
+15
+2
+​
+ k
+​
+ ⋅(± 
+30
+1
+​
+ k
+​
+ )=− 
+15
+1
+​
+ k
+let me compute the left side:
+
+2
+15
+k
+⋅
+1
+30
+k
+=
+2
+15
+⋅
+1
+30
+⋅
+k
+=
+2
+450
+⋅
+k
+=
+1
+225
+⋅
+k
+=
+1
+15
+k
+15
+2
+​
+ k
+​
+ ⋅ 
+30
+1
+​
+ k
+​
+ = 
+15
+2
+​
+ ⋅ 
+30
+1
+​
+ 
+​
+ ⋅k= 
+450
+2
+​
+ 
+​
+ ⋅k= 
+225
+1
+​
+ 
+​
+ ⋅k= 
+15
+1
+​
+ k
+so, we have:
+
+±
+1
+15
+k
+=
+−
+1
+15
+k
+± 
+15
+1
+​
+ k=− 
+15
+1
+​
+ k
+this implies that the positive root for 
+b
+b would give 
++
+1
+15
+k
++ 
+15
+1
+​
+ k, which doesn't match 
+−
+1
+15
+k
+− 
+15
+1
+​
+ k, so 
+b
+b must be negative. therefore, 
+b
+=
+−
+1
+30
+k
+b=− 
+30
+1
+​
+ k
+​
+ .
+
+similarly, from equation 3: 
+a
+c
+=
+−
+1
+3
+k
+ac=− 
+3
+1
+​
+ k.
+
+substituting 
+a
+=
+2
+15
+k
+a= 
+15
+2
+​
+ k
+​
+  and 
+c
+=
+±
+5
+6
+k
+c=± 
+6
+5
+​
+ k
+​
+ :
+
+2
+15
+k
+⋅
+c
+=
+−
+1
+3
+k
+15
+2
+​
+ k
+​
+ ⋅c=− 
+3
+1
+​
+ k
+so:
+
+2
+15
+k
+⋅
+(
+±
+5
+6
+k
+)
+=
+−
+1
+3
+k
+15
+2
+​
+ k
+​
+ ⋅(± 
+6
+5
+​
+ k
+​
+ )=− 
+3
+1
+​
+ k
+compute the left side:
+
+2
+15
+k
+⋅
+5
+6
+k
+=
+2
+15
+⋅
+5
+6
+⋅
+k
+=
+10
+90
+⋅
+k
+=
+1
+9
+⋅
+k
+=
+1
+3
+k
+15
+2
+​
+ k
+​
+ ⋅ 
+6
+5
+​
+ k
+​
+ = 
+15
+2
+​
+ ⋅ 
+6
+5
+​
+ 
+​
+ ⋅k= 
+90
+10
+​
+ 
+​
+ ⋅k= 
+9
+1
+​
+ 
+​
+ ⋅k= 
+3
+1
+​
+ k
+therefore:
+
+±
+1
+3
+k
+=
+−
+1
+3
+k
+± 
+3
+1
+​
+ k=− 
+3
+1
+​
+ k
+again, the positive root would give 
++
+1
+3
+k
++ 
+3
+1
+​
+ k, which doesn't match, so 
+c
+c must be negative. thus, 
+c
+=
+−
+5
+6
+k
+c=− 
+6
+5
+​
+ k
+​
+ .
+
+now, i have:
+
+a
+=
+2
+15
+k
+,
+b
+=
+−
+1
+30
+k
+,
+c
+=
+−
+5
+6
+k
+a= 
+15
+2
+​
+ k
+​
+ ,b=− 
+30
+1
+​
+ k
+​
+ ,c=− 
+6
+5
+​
+ k
+​
+ 
+next, i can use equation 6: 
+b
+c
+=
+1
+6
+k
+bc= 
+6
+1
+​
+ k.
+
+substituting 
+b
+b and 
+c
+c:
+
+(
+−
+1
+30
+k
+)
+⋅
+(
+−
+5
+6
+k
+)
+=
+1
+6
+k
+(− 
+30
+1
+​
+ k
+​
+ )⋅(− 
+6
+5
+​
+ k
+​
+ )= 
+6
+1
+​
+ k
+simplify the left side:
+
+1
+30
+⋅
+5
+6
+⋅
+k
+=
+5
+180
+⋅
+k
+=
+1
+36
+⋅
+k
+=
+1
+6
+k
+30
+1
+​
+ ⋅ 
+6
+5
+​
+ 
+​
+ ⋅k= 
+180
+5
+​
+ 
+​
+ ⋅k= 
+36
+1
+​
+ 
+​
+ ⋅k= 
+6
+1
+​
+ k
+so, this checks out.
+
+now, i need to find the value of 
+k
+k. since 
+k
+=
+a
+2
++
+b
+2
++
+c
+2
+k=a 
+2
+ +b 
+2
+ +c 
+2
+ , and i have expressions for each in terms of 
+k
+k, let's plug them in:
+
+k
+=
+2
+15
+k
++
+1
+30
+k
++
+5
+6
+k
+k= 
+15
+2
+​
+ k+ 
+30
+1
+​
+ k+ 
+6
+5
+​
+ k
+let's compute the right side:
+
+2
+15
+k
++
+1
+30
+k
++
+5
+6
+k
+15
+2
+​
+ k+ 
+30
+1
+​
+ k+ 
+6
+5
+​
+ k
+to add these fractions, i need a common denominator. the denominators are 15, 30, and 6. the least common multiple of 15, 30, and 6 is 30.
+
+so, convert each fraction to have denominator 30:
+
+2
+15
+k
+=
+4
+30
+k
+,
+1
+30
+k
+=
+1
+30
+k
+,
+5
+6
+k
+=
+25
+30
+k
+15
+2
+​
+ k= 
+30
+4
+​
+ k, 
+30
+1
+​
+ k= 
+30
+1
+​
+ k, 
+6
+5
+​
+ k= 
+30
+25
+​
+ k
+now, add them up:
+
+4
+30
+k
++
+1
+30
+k
++
+25
+30
+k
+=
+30
+30
+k
+=
+k
+30
+4
+​
+ k+ 
+30
+1
+​
+ k+ 
+30
+25
+​
+ k= 
+30
+30
+​
+ k=k
+so, 
+k
+=
+k
+k=k, which doesn't give me new information. this suggests that the expressions are consistent, but i need another way to find 
+k
+k.
+
+maybe i can use one of the earlier equations to solve for 
+k
+k. let's look back.
+
+from equation 2: 
+a
+b
+=
+−
+1
+15
+k
+ab=− 
+15
+1
+​
+ k, and i have expressions for 
+a
+a and 
+b
+b in terms of 
+k
+k. but i already used that to determine the signs of 
+b
+b and 
+c
+c.
+
+perhaps i can use the expressions for 
+a
+a, 
+b
+b, and 
+c
+c in terms of 
+k
+k and express them as ratios.
+
+let me define 
+a
+=
+2
+15
+k
+a= 
+15
+2
+​
+ 
+​
+  
+k
+​
+ , 
+b
+=
+−
+1
+30
+k
+b=− 
+30
+1
+​
+ 
+​
+  
+k
+​
+ , and 
+c
+=
+−
+5
+6
+k
+c=− 
+6
+5
+​
+ 
+​
+  
+k
+​
+ .
+
+then, the direction vector 
+v
+v is proportional to 
+(
+2
+15
+−
+1
+30
+−
+5
+6
+)
+​
+  
+15
+2
+​
+ 
+​
+ 
+− 
+30
+1
+​
+ 
+​
+ 
+− 
+6
+5
+​
+ 
+​
+ 
+​
+  
+​
+ .
+
+wait a minute, perhaps i can find the ratios of 
+a
+a, 
+b
+b, and 
+c
+c without worrying about 
+k
+k, since 
+k
+k is just a scaling factor.
+
+let me consider the ratios:
+
+a
+c
+=
+2
+15
+−
+5
+6
+=
+−
+2
+15
+⋅
+6
+5
+=
+−
+12
+75
+=
+−
+4
+25
+=
+−
+2
+5
+c
+a
+​
+ = 
+− 
+6
+5
+​
+ 
+​
+ 
+15
+2
+​
+ 
+​
+ 
+​
+ =− 
+15
+2
+​
+ ⋅ 
+5
+6
+​
+ 
+​
+ =− 
+75
+12
+​
+ 
+​
+ =− 
+25
+4
+​
+ 
+​
+ =− 
+5
+2
+​
+ 
+similarly, 
+b
+c
+=
+−
+1
+30
+−
+5
+6
+=
+1
+30
+⋅
+6
+5
+=
+6
+150
+=
+1
+25
+=
+1
+5
+c
+b
+​
+ = 
+− 
+6
+5
+​
+ 
+​
+ 
+− 
+30
+1
+​
+ 
+​
+ 
+​
+ = 
+30
+1
+​
+ ⋅ 
+5
+6
+​
+ 
+​
+ = 
+150
+6
+​
+ 
+​
+ = 
+25
+1
+​
+ 
+​
+ = 
+5
+1
+​
+ 
+
+so, 
+a
+:
+b
+:
+c
+=
+2
+5
+:
+1
+5
+:
+1
+a:b:c= 
+5
+2
+​
+ : 
+5
+1
+​
+ :1, considering the signs.
+
+but wait, 
+a
+a is positive, and both 
+b
+b and 
+c
+c are negative, according to earlier conclusions.
+
+so, 
+a
+:
+b
+:
+c
+=
+2
+5
+:
+−
+1
+5
+:
+−
+1
+a:b:c= 
+5
+2
+​
+ :− 
+5
+1
+​
+ :−1
+
+to make this simpler, i can multiply each component by 5 to eliminate denominators:
+
+a
+:
+b
+:
+c
+=
+2
+:
+−
+1
+:
+−
+5
+a:b:c=2:−1:−5
+
+therefore, the direction vector could be 
+(
+2
+−
+1
+−
+5
+)
+​
+  
+2
+−1
+−5
+​
+  
+​
+ 
+
+but the problem states that 
+a
+>
+0
+a>0 and that the greatest common divisor of the absolute values of 
+a
+a, 
+b
+b, and 
+c
+c is 1. in this case, 2, 1, and 5 are pairwise coprime, so their gcd is 1. also, 
+a
+=
+2
+>
+0
+a=2>0, which satisfies the condition.
+
+let me check if this direction vector indeed corresponds to the given projection matrix.
+
+first, compute 
+v
+v
+t
+vv 
+t
+ :
+
+(
+2
+−
+1
+−
+5
+)
+(
+2
+−
+1
+−
+5
+)
+=
+(
+4
+−
+2
+−
+10
+−
+2
+1
+5
+−
+10
+5
+25
+)
+​
+  
+2
+−1
+−5
+​
+  
+​
+ ( 
+2
+​
+  
+−1
+​
+  
+−5
+​
+ )= 
+​
+  
+4
+−2
+−10
+​
+  
+−2
+1
+5
+​
+  
+−10
+5
+25
+​
+  
+​
+ 
+next, compute 
+v
+t
+v
+=
+2
+2
++
+(
+−
+1
+)
+2
++
+(
+−
+5
+)
+2
+=
+4
++
+1
++
+25
+=
+30
+v 
+t
+ v=2 
+2
+ +(−1) 
+2
+ +(−5) 
+2
+ =4+1+25=30
+
+therefore, the projection matrix should be:
+
+p
+=
+1
+30
+(
+4
+−
+2
+−
+10
+−
+2
+1
+5
+−
+10
+5
+25
+)
+=
+(
+4
+30
+−
+2
+30
+−
+10
+30
+−
+2
+30
+1
+30
+5
+30
+−
+10
+30
+5
+30
+25
+30
+)
+=
+(
+2
+15
+−
+1
+15
+−
+1
+3
+−
+1
+15
+1
+30
+1
+6
+−
+1
+3
+1
+6
+5
+6
+)
+p= 
+30
+1
+​
+  
+​
+  
+4
+−2
+−10
+​
+  
+−2
+1
+5
+​
+  
+−10
+5
+25
+​
+  
+​
+ = 
+​
+  
+30
+4
+​
+ 
+− 
+30
+2
+​
+ 
+− 
+30
+10
+​
+ 
+​
+  
+− 
+30
+2
+​
+ 
+30
+1
+​
+ 
+30
+5
+​
+ 
+​
+  
+− 
+30
+10
+​
+ 
+30
+5
+​
+ 
+30
+25
+​
+ 
+​
+  
+​
+ = 
+​
+  
+15
+2
+​
+ 
+− 
+15
+1
+​
+ 
+− 
+3
+1
+​
+ 
+​
+  
+− 
+15
+1
+​
+ 
+30
+1
+​
+ 
+6
+1
+​
+ 
+​
+  
+− 
+3
+1
+​
+ 
+6
+1
+​
+ 
+6
+5
+​
+ 
+​
+  
+​
+ 
+this matches the given projection matrix, so my direction vector is correct.
+
+therefore, the direction vector of line 
+ℓ
+ℓ is 
+(
+2
+−
+1
+−
+5
+)
+​
+  
+2
+−1
+−5
+​
+  
+​
+ 
+
+**final answer**
+
+(
+2
+−
+1
+−
+5
+)
+​
+  
+2
+−1
+−5
+​
+  
+​
+ 
+​

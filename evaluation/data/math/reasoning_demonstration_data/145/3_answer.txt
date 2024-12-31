@@ -1,1 +1,55 @@
-Answer: 
+Answer: Given the seventh and tenth terms of a geometric sequence are 7 and 21, respectively, we need to find the 13th term.
+
+first, we use the general formula for the nth term of a geometric sequence:
+
+\[ a_n = a_1 \times r^{n-1} \]
+
+for the seventh term:
+
+\[ a_7 = a_1 \times r^6 = 7 \]
+
+for the tenth term:
+
+\[ a_{10} = a_1 \times r^9 = 21 \]
+
+dividing the equation for \( a_{10} \) by \( a_7 \):
+
+\[ \frac{a_{10}}{a_7} = \frac{a_1 \times r^9}{a_1 \times r^6} = \frac{21}{7} \]
+
+this simplifies to:
+
+\[ r^3 = 3 \]
+
+thus, the common ratio \( r \) is:
+
+\[ r = \sqrt[3]{3} \]
+
+next, we solve for \( a_1 \) using the equation for \( a_7 \):
+
+\[ a_1 \times (\sqrt[3]{3})^6 = 7 \]
+
+since \( (\sqrt[3]{3})^6 = 9 \):
+
+\[ a_1 \times 9 = 7 \]
+
+so:
+
+\[ a_1 = \frac{7}{9} \]
+
+now, we find the 13th term:
+
+\[ a_{13} = a_1 \times r^{12} \]
+
+substituting the known values:
+
+\[ a_{13} = \frac{7}{9} \times (\sqrt[3]{3})^{12} \]
+
+since \( (\sqrt[3]{3})^{12} = 81 \):
+
+\[ a_{13} = \frac{7}{9} \times 81 = 7 \times 9 = 63 \]
+
+therefore, the 13th term is:
+
+\[
+\boxed{63}
+\]

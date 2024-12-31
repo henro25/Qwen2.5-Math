@@ -1,1 +1,23 @@
-Answer: 
+Answer: To find the length of the diagonal \( da \) in the regular hexagon, we start by understanding the properties of a regular hexagon. in a regular hexagon with side length \( s \):
+
+- the shorter diagonal (connecting two vertices with one vertex in between) is \( s\sqrt{3} \).
+- the longer diagonal (connecting two opposite vertices) is \( 2s \).
+
+given the coordinates of points \( a \) and \( d \):
+- \( a \) is at \( (1,0) \)
+- \( d \) is at \( (1,3.464) \)
+
+the distance between \( a \) and \( d \) is calculated as:
+\[
+da = \sqrt{(1-1)^2 + (3.464-0)^2} = \sqrt{0 + (3.464)^2} = 3.464
+\]
+
+recognizing that \( 3.464 \) is approximately \( 2\sqrt{3} \), we confirm that \( da \) is a shorter diagonal. therefore, the length of \( da \) is:
+\[
+da = 2\sqrt{3}
+\]
+
+thus, the length of the diagonal \( da \) is:
+\[
+\boxed{2\sqrt{3}}
+\]

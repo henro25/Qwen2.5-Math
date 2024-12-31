@@ -1,1 +1,50 @@
-Answer: 
+Answer: Given the arithmetic sequence \(2, 6, 10, \ldots, x, y, 26\), we need to find the value of \(x + y\).
+
+first, we identify the common difference \(d\) of the sequence:
+\[
+d = 6 - 2 = 4
+\]
+\[
+d = 10 - 6 = 4
+\]
+thus, the common difference \(d\) is 4.
+
+next, we determine the position of the term 26 in the sequence. using the formula for the \(n\)-th term of an arithmetic sequence:
+\[
+a_n = a_1 + (n-1)d
+\]
+we set \(a_n = 26\), \(a_1 = 2\), and \(d = 4\):
+\[
+26 = 2 + (n-1) \cdot 4
+\]
+\[
+26 - 2 = (n-1) \cdot 4
+\]
+\[
+24 = (n-1) \cdot 4
+\]
+\[
+n-1 = 6
+\]
+\[
+n = 7
+\]
+so, 26 is the 7th term in the sequence.
+
+now, we find the terms \(x\) and \(y\) which are the 5th and 6th terms, respectively:
+\[
+a_5 = 2 + (5-1) \cdot 4 = 2 + 16 = 18 \quad \text{(x)}
+\]
+\[
+a_6 = 2 + (6-1) \cdot 4 = 2 + 20 = 22 \quad \text{(y)}
+\]
+
+therefore, \(x = 18\) and \(y = 22\), and their sum is:
+\[
+x + y = 18 + 22 = 40
+\]
+
+thus, the value of \(x + y\) is:
+\[
+\boxed{40}
+\]

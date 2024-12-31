@@ -1,1 +1,26 @@
-Answer: 
+Answer: To find the value of \( 77 \times 88 \times 99 \) modulo 20, we start by reducing each number modulo 20:
+
+\[
+77 \equiv 17 \pmod{20}
+\]
+\[
+88 \equiv 8 \pmod{20}
+\]
+\[
+99 \equiv 19 \pmod{20}
+\]
+
+next, we compute the product of these reduced numbers modulo 20:
+
+\[
+17 \times 8 = 136 \quad \text{and} \quad 136 \equiv 16 \pmod{20}
+\]
+\[
+16 \times 19 = 304 \quad \text{and} \quad 304 \equiv 4 \pmod{20}
+\]
+
+thus, the value of \( n \) is:
+
+\[
+\boxed{4}
+\]

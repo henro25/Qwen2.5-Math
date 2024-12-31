@@ -1,1 +1,14 @@
 Reasoning: 
+Okay, so I've got this problem here. There are 50 students in the drama club. Out of these, 36 take mathematics, 27 take physics, and 20 take both mathematics and physics. I need to find out how many students take neither mathematics nor physics.
+
+Hmm, let's see. So, I know that some students are taking both subjects, and some are taking only one of them. Maybe I can use some kind of diagram or formula to figure this out.
+
+Wait, I think I can use the principle of inclusion-exclusion here. That sounds familiar from math class. The formula is something like the total number of students taking at least one of the subjects is equal to the number taking mathematics plus the number taking physics minus the number taking both.
+
+So, if I add the number of students taking mathematics and physics, that would be 36 plus 27, which is 63. But since 20 students are taking both, I need to subtract those 20 to avoid double-counting. So, 63 minus 20 is 43. That means 43 students are taking at least one of the subjects.
+
+Now, the total number of students in the drama club is 50. If 43 are taking at least one of the subjects, then the remaining students must be taking neither. So, I subtract 43 from 50, which gives me 7.
+
+Wait, does that make sense? Let me check again. 36 take math, 27 take physics, and 20 take both. So, the number taking only math would be 36 minus 20, which is 16. The number taking only physics would be 27 minus 20, which is 7. Then, adding those up: 16 plus 7 plus 20 equals 43, and 50 minus 43 is indeed 7. Okay, that seems consistent.
+
+I think I've got it. The answer should be 7 students taking neither mathematics nor physics.

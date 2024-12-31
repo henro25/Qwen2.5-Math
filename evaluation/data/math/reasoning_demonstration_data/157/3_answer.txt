@@ -1,1 +1,12 @@
-Answer: 
+Answer: 1. **Total Earth Surface**: Consider the Earth's total surface area as 1.
+
+2. **Land Area**: One quarter (1/4) of the Earth's surface is land.
+
+3. **Inhabitable Land**: Only half of this land area is inhabitable.
+
+4. **Calculation**: To find the fraction of the Earth's surface that is inhabitable:
+   \[
+   \frac{1}{2} \times \frac{1}{4} = \frac{1}{8}
+   \]
+
+**Answer**: Humans can live on \(\frac{1}{8}\) of the Earth's surface.

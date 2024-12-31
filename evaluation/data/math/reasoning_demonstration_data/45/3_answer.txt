@@ -1,1 +1,33 @@
-Answer: 
+Answer: **Given:**
+- A rectangle has an area of 400 cm².
+- The rectangle is a square.
+
+**Find:**
+- The perimeter of the square.
+
+**Step 1: Understand the relationship between area and side length of a square.**
+- For a square, all sides are equal.
+- Let the side length be \( s \).
+- The area \( A \) of a square is \( A = s^2 \).
+
+**Step 2: Set up the equation for area.**
+- Given that the area is 400 cm²:
+  \[
+  s^2 = 400
+  \]
+
+**Step 3: Solve for \( s \).**
+- Take the square root of both sides:
+  \[
+  s = \sqrt{400} = 20 \text{ cm}
+  \]
+
+**Step 4: Calculate the perimeter of the square.**
+- The perimeter \( P \) of a square is \( P = 4s \).
+- Substituting \( s = 20 \) cm:
+  \[
+  P = 4 \times 20 = 80 \text{ cm}
+  \]
+
+**Answer:**
+The perimeter of the square is 80 cm.

@@ -1,1 +1,43 @@
-Reasoning: 
+Reasoning: Okay, so I've got this problem here: A tank is to be filled with water. When the tank is one-sixth full, 130 gallons of water are added, making the tank three-fifths full. I need to find out how many gallons the tank contains when it's completely full.
+
+Alright, let's see. So, the tank starts off being one-sixth full. Then, 130 gallons are added, and after that, it's three-fifths full. I need to find the total capacity of the tank.
+
+Hmm, maybe I can set up an equation for this. Let's say the total capacity of the tank is 'T' gallons. So, initially, the tank has one-sixth of T, which is T/6 gallons. Then, 130 gallons are added, bringing it up to three-fifths of T, which is (3/5)T.
+
+So, the equation would be: T/6 + 130 = 3T/5
+
+Yeah, that seems right. Now, I need to solve for T.
+
+First, maybe I should get all the T terms on one side. Let's subtract T/6 from both sides:
+
+130 = 3T/5 - T/6
+
+Now, I need to combine these fractions. To do that, I need a common denominator. The denominators are 5 and 6, so the least common denominator is 30.
+
+So, 3T/5 is the same as 18T/30, and T/6 is 5T/30.
+
+So, 130 = 18T/30 - 5T/30
+
+That simplifies to 130 = 13T/30
+
+Now, to solve for T, I can multiply both sides by 30:
+
+130 * 30 = 13T
+
+130 times 30 is 3900, so:
+
+3900 = 13T
+
+Now, divide both sides by 13:
+
+T = 3900 / 13
+
+Let me calculate that. 13 times 300 is 3900, so T = 300 gallons.
+
+Wait, does that make sense? Let me check.
+
+If the tank's total capacity is 300 gallons, then one-sixth of that is 50 gallons. Adding 130 gallons would make it 180 gallons. Is 180 gallons three-fifths of 300?
+
+Three-fifths of 300 is indeed 180, so it checks out.
+
+Yeah, I think that's the answer.

@@ -1,1 +1,17 @@
-Reasoning: 
+Reasoning: Alright, so Emily has these quiz scores: 92, 95, 87, 89, and 100. She wants to take a sixth quiz, and she wants the average of all six quizzes to be 93. I need to find out what score she needs on that sixth quiz.
+
+First, I should probably find out what the total points she has so far are. So, I can add up the scores she has already: 92 plus 95 is 187, plus 87 is 274, plus 89 is 363, and then plus 100 makes it 463. So, she has 463 points from the first five quizzes.
+
+Now, she wants the average of six quizzes to be 93. To find the total points needed for an average of 93 over six quizzes, I can multiply 93 by 6. Let me see, 93 times 6 is 558. So, she needs a total of 558 points over six quizzes.
+
+She already has 463 points, so the score she needs on the sixth quiz is 558 minus 463. Let me calculate that: 558 minus 463 is 95. So, she needs to score 95 on her sixth quiz to have an average of 93.
+
+Wait, but I should double-check that. Let me add up her first five scores again: 92 plus 95 is 187, plus 87 is 274, plus 89 is 363, plus 100 is 463. Yep, that's correct.
+
+And the total needed is 93 times 6, which is 558. So, 558 minus 463 is indeed 95. That seems right.
+
+I guess another way to think about it is that each quiz contributes to the average, so if she wants the average to be 93, each of the six quizzes should ideally be 93. But since her previous scores are higher and lower than 93, she needs to make up the difference with her sixth quiz.
+
+Let me see, her previous scores compared to 93: 92 is 1 less, 95 is 2 more, 87 is 6 less, 89 is 4 less, and 100 is 7 more. So, the differences are -1, +2, -6, -4, and +7. Adding those up: -1 plus 2 is 1, plus -6 is -5, plus -4 is -9, plus 7 is -2. So, she's 2 points below what she needs for an average of 93 so far. Therefore, she needs to score 93 plus those 2 points, which is 95, on her sixth quiz.
+
+Yeah, that confirms the earlier calculation. So, she needs a 95 on her sixth quiz.

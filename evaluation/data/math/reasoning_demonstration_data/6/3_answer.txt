@@ -1,1 +1,11 @@
-Answer: 
+Answer: To evaluate \(\lfloor{\pi}\rfloor\), we need to determine the greatest integer that is less than or equal to \(\pi\). 
+
+1. \(\pi\) is approximately 3.1415926535.
+2. the floor function, \(\lfloor x \rfloor\), gives the greatest integer less than or equal to \(x\).
+3. for \(\pi \approx 3.1415926535\), the greatest integer less than or equal to \(\pi\) is 3.
+
+thus, \(\lfloor{\pi}\rfloor = 3\).
+
+\[
+\boxed{3}
+\]

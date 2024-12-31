@@ -1,1 +1,65 @@
-Reasoning: 
+Reasoning: So i've got this quadratic expression: -4z² + 20z - 6, and i need to find its maximum value. okay, quadratics, i remember they graph as parabolas. since the coefficient of z² is negative (-4), that means the parabola opens downward, right? so, it should have a maximum point at the vertex.
+
+wait, let me make sure about that. yeah, if the coefficient of z² is negative, the parabola opens downward, and the vertex is the highest point, which would be the maximum value of the function. cool, so i need to find the vertex of this parabola.
+
+i think there are a couple of ways to find the vertex of a quadratic function. one way is to use the formula for the z-coordinate of the vertex, which is -b/(2a), where a is the coefficient of z² and b is the coefficient of z. in this case, a is -4 and b is 20.
+
+so, let's calculate that. z = -b/(2a) = -20/(2*(-4)) = -20/-8 = 2.5. okay, so the z-coordinate of the vertex is 2.5. now, to find the maximum value of the function, i need to plug this value of z back into the original equation.
+
+let me do that. so, plugging z = 2.5 into -4z² + 20z - 6:
+
+first, z² is (2.5)² = 6.25.
+
+then, -4 times 6.25 is -25.
+
+next, 20 times 2.5 is 50.
+
+and then, minus 6.
+
+so, putting it all together: -25 + 50 - 6 = 19.
+
+wait a minute, is that right? let me double-check my calculations.
+
+-4 times 6.25 is indeed -25.
+
+20 times 2.5 is 50.
+
+minus 6.
+
+so, -25 + 50 = 25, and 25 - 6 is 19.
+
+okay, so the maximum value of the function is 19.
+
+alternatively, i could complete the square to find the vertex. maybe i should try that to confirm.
+
+starting with -4z² + 20z - 6.
+
+first, factor out the coefficient of z² from the first two terms: -4(z² - 5z) - 6.
+
+now, to complete the square inside the parentheses, i take half of the coefficient of z, which is -5/2, and square it, getting 25/4.
+
+so, i add and subtract 25/4 inside the parentheses: -4(z² - 5z + 25/4 - 25/4) - 6.
+
+this simplifies to -4[(z - 2.5)² - 25/4] - 6.
+
+distribute the -4: -4(z - 2.5)² + 25 - 6.
+
+which is -4(z - 2.5)² + 19.
+
+so, the function is now in vertex form: f(z) = -4(z - 2.5)² + 19.
+
+from this form, it's clear that the vertex is at (2.5, 19), and since the coefficient of the squared term is negative, this is indeed the maximum point.
+
+therefore, the maximum value of the function is 19.
+
+just to be thorough, i could also take the derivative if i wanted to use calculus, but since this is a quadratic, it's probably unnecessary. but for practice, let's see.
+
+the derivative of f(z) = -4z² + 20z - 6 is f'(z) = -8z + 20.
+
+setting the derivative equal to zero to find critical points: -8z + 20 = 0 => 8z = 20 => z = 20/8 = 2.5.
+
+so, again, z = 2.5 is the point where the function has a maximum (since the second derivative is f''(z) = -8, which is negative, confirming a maximum).
+
+plugging z = 2.5 back into the original function: -4*(2.5)^2 + 20*(2.5) - 6 = -4*6.25 + 50 - 6 = -25 + 50 - 6 = 19.
+
+consistently getting 19 as the maximum value, so i'm confident that's the correct answer.

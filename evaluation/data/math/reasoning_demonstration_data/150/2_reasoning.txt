@@ -1,1 +1,525 @@
-Reasoning: 
+Reasoning: So i have this problem about an ellipse. the endpoints of the major axis are given as (-11,4) and (9,4), and the ellipse also passes through the point (7,7). i need to find the area of the ellipse. hmm, let's see how to approach this.
+
+first, i recall that the general equation of an ellipse is:
+
+(
+x
+−
+h
+)
+2
+a
+2
++
+(
+y
+−
+k
+)
+2
+b
+2
+=
+1
+a 
+2
+ 
+(x−h) 
+2
+ 
+​
+ + 
+b 
+2
+ 
+(y−k) 
+2
+ 
+​
+ =1
+where (h,k) is the center of the ellipse, a is the semi-major axis, and b is the semi-minor axis. since the major axis endpoints are (-11,4) and (9,4), i can find the center by finding the midpoint of these two points.
+
+the midpoint formula is:
+
+(
+x
+1
++
+x
+2
+2
+,
+y
+1
++
+y
+2
+2
+)
+( 
+2
+x 
+1
+​
+ +x 
+2
+​
+ 
+​
+ , 
+2
+y 
+1
+​
+ +y 
+2
+​
+ 
+​
+ )
+so, plugging in the coordinates:
+
+h
+=
+−
+11
++
+9
+2
+=
+−
+2
+2
+=
+−
+1
+h= 
+2
+−11+9
+​
+ = 
+2
+−2
+​
+ =−1
+k
+=
+4
++
+4
+2
+=
+8
+2
+=
+4
+k= 
+2
+4+4
+​
+ = 
+2
+8
+​
+ =4
+so, the center of the ellipse is at (-1,4).
+
+next, i need to find the length of the major axis. the distance between the endpoints is from x = -11 to x = 9, which is a horizontal distance. so, the length of the major axis is:
+
+2
+a
+=
+9
+−
+(
+−
+11
+)
+=
+20
+  
+⟹
+  
+a
+=
+10
+2a=9−(−11)=20⟹a=10
+now, i need to find b, the semi-minor axis. i know that the ellipse passes through the point (7,7), so i can plug this point into the ellipse equation to solve for b.
+
+first, write the equation with the known values:
+
+(
+x
+−
+(
+−
+1
+)
+)
+2
+1
+0
+2
++
+(
+y
+−
+4
+)
+2
+b
+2
+=
+1
+10 
+2
+ 
+(x−(−1)) 
+2
+ 
+​
+ + 
+b 
+2
+ 
+(y−4) 
+2
+ 
+​
+ =1
+(
+x
++
+1
+)
+2
+100
++
+(
+y
+−
+4
+)
+2
+b
+2
+=
+1
+100
+(x+1) 
+2
+ 
+​
+ + 
+b 
+2
+ 
+(y−4) 
+2
+ 
+​
+ =1
+now, plug in (7,7):
+
+(
+7
++
+1
+)
+2
+100
++
+(
+7
+−
+4
+)
+2
+b
+2
+=
+1
+100
+(7+1) 
+2
+ 
+​
+ + 
+b 
+2
+ 
+(7−4) 
+2
+ 
+​
+ =1
+64
+100
++
+9
+b
+2
+=
+1
+100
+64
+​
+ + 
+b 
+2
+ 
+9
+​
+ =1
+simplify the fractions:
+
+16
+25
++
+9
+b
+2
+=
+1
+25
+16
+​
+ + 
+b 
+2
+ 
+9
+​
+ =1
+now, solve for 
+9
+b
+2
+b 
+2
+ 
+9
+​
+ :
+
+9
+b
+2
+=
+1
+−
+16
+25
+=
+25
+25
+−
+16
+25
+=
+9
+25
+b 
+2
+ 
+9
+​
+ =1− 
+25
+16
+​
+ = 
+25
+25
+​
+ − 
+25
+16
+​
+ = 
+25
+9
+​
+ 
+so,
+
+9
+b
+2
+=
+9
+25
+  
+⟹
+  
+b
+2
+=
+25
+  
+⟹
+  
+b
+=
+5
+b 
+2
+ 
+9
+​
+ = 
+25
+9
+​
+ ⟹b 
+2
+ =25⟹b=5
+now that i have both a and b, i can find the area of the ellipse. the area of an ellipse is given by:
+
+area
+=
+π
+a
+b
+area=πab
+plugging in the values:
+
+area
+=
+π
+×
+10
+×
+5
+=
+50
+π
+area=π×10×5=50π
+so, the area of the ellipse is 
+50
+π
+50π.
+
+wait a minute, let me double-check everything to make sure i didn't make any mistakes.
+
+first, finding the center: midpoint of (-11,4) and (9,4). that seems correct, h = -1, k = 4.
+
+length of major axis: from x = -11 to x = 9 is indeed 20, so a = 10.
+
+using the point (7,7):
+
+(
+7
++
+1
+)
+2
+100
++
+(
+7
+−
+4
+)
+2
+b
+2
+=
+1
+  
+⟹
+  
+64
+100
++
+9
+b
+2
+=
+1
+100
+(7+1) 
+2
+ 
+​
+ + 
+b 
+2
+ 
+(7−4) 
+2
+ 
+​
+ =1⟹ 
+100
+64
+​
+ + 
+b 
+2
+ 
+9
+​
+ =1
+16
+25
++
+9
+b
+2
+=
+1
+  
+⟹
+  
+9
+b
+2
+=
+9
+25
+  
+⟹
+  
+b
+2
+=
+25
+  
+⟹
+  
+b
+=
+5
+25
+16
+​
+ + 
+b 
+2
+ 
+9
+​
+ =1⟹ 
+b 
+2
+ 
+9
+​
+ = 
+25
+9
+​
+ ⟹b 
+2
+ =25⟹b=5
+area = π * a * b = π * 10 * 5 = 50π
+
+everything checks out. i think this is the correct answer.
+
+**final answer**
+
+50
+π
+50π
+​

@@ -1,1 +1,47 @@
-Answer: 
+Answer: To calculate \(\frac{3 \cdot 5! + 15 \cdot 4!}{6!}\), we start by computing the factorials:
+
+\[
+5! = 120, \quad 4! = 24, \quad 6! = 720
+\]
+
+substitute these values into the expression:
+
+\[
+\frac{3 \cdot 120 + 15 \cdot 24}{720}
+\]
+
+calculate the products:
+
+\[
+3 \cdot 120 = 360, \quad 15 \cdot 24 = 360
+\]
+
+add the results:
+
+\[
+360 + 360 = 720
+\]
+
+divide by \(6!\):
+
+\[
+\frac{720}{720} = 1
+\]
+
+alternatively, we can factor out \(4!\) from the numerator:
+
+\[
+\frac{3 \cdot 5! + 15 \cdot 4!}{6!} = \frac{4! \cdot (3 \cdot 5 + 15)}{6!} = \frac{4! \cdot 30}{6!}
+\]
+
+since \(6! = 6 \cdot 5 \cdot 4!\):
+
+\[
+\frac{4! \cdot 30}{6 \cdot 5 \cdot 4!} = \frac{30}{30} = 1
+\]
+
+thus, the final answer is:
+
+\[
+\boxed{1}
+\]

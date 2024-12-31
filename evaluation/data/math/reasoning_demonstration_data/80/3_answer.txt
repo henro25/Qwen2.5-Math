@@ -1,1 +1,48 @@
-Answer: 
+Answer: Given the side of a square is \((x-2)\) and the dimensions of a rectangle are \((x-3)\) and \((x+4)\), we know that the area of the rectangle is twice the area of the square. 
+
+first, we express the areas:
+- area of the square: \((x-2)^2\)
+- area of the rectangle: \((x-3)(x+4)\)
+
+the relationship given is:
+\[
+(x-3)(x+4) = 2(x-2)^2
+\]
+
+expanding both sides:
+\[
+(x-3)(x+4) = x^2 + x - 12
+\]
+\[
+2(x-2)^2 = 2(x^2 - 4x + 4) = 2x^2 - 8x + 8
+\]
+
+setting the equation to zero:
+\[
+x^2 + x - 12 = 2x^2 - 8x + 8
+\]
+\[
+0 = x^2 - 9x + 20
+\]
+
+solving the quadratic equation:
+\[
+x^2 - 9x + 20 = 0
+\]
+factoring:
+\[
+(x-5)(x-4) = 0
+\]
+thus, \(x = 5\) or \(x = 4\).
+
+both values are valid as they satisfy the original conditions and are greater than 3, ensuring positive dimensions for the rectangle.
+
+the sum of the possible values of \(x\) is:
+\[
+5 + 4 = 9
+\]
+
+therefore, the sum of the possible values of \(x\) is:
+\[
+\boxed{9}
+\]

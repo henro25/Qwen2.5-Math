@@ -1,1 +1,504 @@
-Reasoning: 
+Reasoning: Let's tackle this problem step by step. i've got the equation 
+(
+x
+−
+3
+)
+(
+x
++
+3
+)
+=
+21
+x
+−
+63
+(x−3)(x+3)=21x−63, and i need to find the two distinct solutions, 
+p
+p and 
+q
+q, with 
+p
+>
+q
+p>q, and then determine 
+p
+−
+q
+p−q.
+
+first off, i should probably simplify this equation to make it easier to solve. let's start by expanding the left side:
+
+(
+x
+−
+3
+)
+(
+x
++
+3
+)
+=
+x
+2
+−
+9
+(x−3)(x+3)=x 
+2
+ −9
+so now the equation looks like:
+
+x
+2
+−
+9
+=
+21
+x
+−
+63
+x 
+2
+ −9=21x−63
+hmm, okay, now i need to get all terms on one side to set the equation to zero, which is the standard form for a quadratic equation. let's subtract 
+21
+x
+21x and add 
+63
+63 to both sides:
+
+x
+2
+−
+21
+x
+−
+9
++
+63
+=
+0
+x 
+2
+ −21x−9+63=0
+simplifying that:
+
+x
+2
+−
+21
+x
++
+54
+=
+0
+x 
+2
+ −21x+54=0
+alright, now i have a quadratic equation in the form 
+a
+x
+2
++
+b
+x
++
+c
+=
+0
+ax 
+2
+ +bx+c=0, where 
+a
+=
+1
+a=1, 
+b
+=
+−
+21
+b=−21, and 
+c
+=
+54
+c=54.
+
+to find the solutions to this quadratic equation, i can use the quadratic formula:
+
+x
+=
+−
+b
+±
+b
+2
+−
+4
+a
+c
+2
+a
+x= 
+2a
+−b± 
+b 
+2
+ −4ac
+​
+ 
+​
+ 
+plugging in the values:
+
+x
+=
+−
+(
+−
+21
+)
+±
+(
+−
+21
+)
+2
+−
+4
+(
+1
+)
+(
+54
+)
+2
+(
+1
+)
+=
+21
+±
+441
+−
+216
+2
+=
+21
+±
+225
+2
+x= 
+2(1)
+−(−21)± 
+(−21) 
+2
+ −4(1)(54)
+​
+ 
+​
+ = 
+2
+21± 
+441−216
+​
+ 
+​
+ = 
+2
+21± 
+225
+​
+ 
+​
+ 
+since 
+225
+=
+15
+225
+​
+ =15, this simplifies to:
+
+x
+=
+21
+±
+15
+2
+x= 
+2
+21±15
+​
+ 
+so, the two solutions are:
+
+p
+=
+21
++
+15
+2
+=
+36
+2
+=
+18
+p= 
+2
+21+15
+​
+ = 
+2
+36
+​
+ =18
+q
+=
+21
+−
+15
+2
+=
+6
+2
+=
+3
+q= 
+2
+21−15
+​
+ = 
+2
+6
+​
+ =3
+now, since 
+p
+>
+q
+p>q, i need to find 
+p
+−
+q
+p−q:
+
+p
+−
+q
+=
+18
+−
+3
+=
+15
+p−q=18−3=15
+wait a second, let's double-check to make sure i didn't make any mistakes. starting from the beginning:
+
+1. expanded 
+(
+x
+−
+3
+)
+(
+x
++
+3
+)
+(x−3)(x+3) correctly to 
+x
+2
+−
+9
+x 
+2
+ −9.
+
+2. moved all terms to one side correctly to get 
+x
+2
+−
+21
+x
++
+54
+=
+0
+x 
+2
+ −21x+54=0.
+
+3. applied the quadratic formula correctly with 
+a
+=
+1
+a=1, 
+b
+=
+−
+21
+b=−21, and 
+c
+=
+54
+c=54.
+
+4. calculated the discriminant correctly: 
+(
+−
+21
+)
+2
+−
+4
+(
+1
+)
+(
+54
+)
+=
+441
+−
+216
+=
+225
+(−21) 
+2
+ −4(1)(54)=441−216=225, and 
+225
+=
+15
+225
+​
+ =15.
+
+5. found 
+p
+=
+18
+p=18 and 
+q
+=
+3
+q=3 correctly.
+
+6. calculated 
+p
+−
+q
+=
+15
+p−q=15 correctly.
+
+everything seems to check out. i don't think i've missed anything here.
+
+just to be thorough, let's plug these values back into the original equation to ensure they satisfy it.
+
+first, for 
+x
+=
+18
+x=18:
+
+left side: 
+(
+18
+−
+3
+)
+(
+18
++
+3
+)
+=
+15
+×
+21
+=
+315
+(18−3)(18+3)=15×21=315
+
+right side: 
+21
+(
+18
+)
+−
+63
+=
+378
+−
+63
+=
+315
+21(18)−63=378−63=315
+
+both sides equal 315, so 
+x
+=
+18
+x=18 is indeed a solution.
+
+now, for 
+x
+=
+3
+x=3:
+
+left side: 
+(
+3
+−
+3
+)
+(
+3
++
+3
+)
+=
+0
+×
+6
+=
+0
+(3−3)(3+3)=0×6=0
+
+right side: 
+21
+(
+3
+)
+−
+63
+=
+63
+−
+63
+=
+0
+21(3)−63=63−63=0
+
+again, both sides equal 0, so 
+x
+=
+3
+x=3 is also a valid solution.
+
+therefore, 
+p
+−
+q
+=
+15
+p−q=15 is the correct answer.
+
+**final answer**
+
+15
+15
+​

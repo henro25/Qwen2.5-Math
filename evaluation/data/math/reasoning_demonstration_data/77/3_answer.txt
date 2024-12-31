@@ -1,1 +1,39 @@
-Answer: 
+Answer: To solve the problem, we need to find the sum of the digits of the number \( n \), where \( n \) is the sum of numbers consisting of 9's, starting from 9 up to a number with 321 digits of 9. 
+
+first, we express each term in the sum as \( 10^k - 1 \), where \( k \) is the number of digits. thus, we have:
+
+\[
+n = (10^1 - 1) + (10^2 - 1) + (10^3 - 1) + \cdots + (10^{321} - 1)
+\]
+
+this can be rewritten as:
+
+\[
+n = \sum_{k=1}^{321} (10^k - 1) = \sum_{k=1}^{321} 10^k - \sum_{k=1}^{321} 1
+\]
+
+the sum of the geometric series \( \sum_{k=1}^{321} 10^k \) is:
+
+\[
+\sum_{k=1}^{321} 10^k = 10 \frac{10^{321} - 1}{10 - 1} = \frac{10^{322} - 10}{9}
+\]
+
+and the sum of 321 ones is:
+
+\[
+\sum_{k=1}^{321} 1 = 321
+\]
+
+thus, we have:
+
+\[
+n = \frac{10^{322} - 10}{9} - 321
+\]
+
+to find the sum of the digits of \( n \), we note that the sum of the digits of a number is congruent to the number itself modulo 9. since \( n \) is constructed from sums of numbers each of which is \( 10^k - 1 \), and each \( 10^k - 1 \) is divisible by 9, \( n \) itself is divisible by 9. 
+
+from the examples and pattern observed, the sum of the digits of \( n \) is consistently 9 for smaller values of \( k \) and does not change for larger \( k \). therefore, the sum of the digits of \( n \) for \( k = 321 \) is:
+
+\[
+\boxed{9}
+\]

@@ -1,1 +1,23 @@
-Answer: 
+Answer: To determine how many superdeficient positive integers there are, we start by understanding the function \( f(n) \), which is the sum of all divisors of \( n \). the condition given is \( f(f(n)) = n + 2 \).
+
+we begin by checking small values of \( n \):
+
+- for \( n = 1 \):
+  \[
+  f(1) = 1, \quad f(f(1)) = f(1) = 1, \quad 1 + 2 = 3 \quad (\text{not equal})
+  \]
+- for \( n = 2 \):
+  \[
+  f(2) = 1 + 2 = 3, \quad f(f(2)) = f(3) = 1 + 3 = 4, \quad 2 + 2 = 4 \quad (\text{equal})
+  \]
+  thus, \( n = 2 \) is superdeficient.
+
+next, we consider the general properties of \( f(n) \). for \( n \) to be superdeficient, \( f(f(n)) = n + 2 \). if \( n \) is prime, \( f(n) = n + 1 \), and we need \( f(n + 1) = n + 2 \). this implies \( n + 1 \) must also be prime. the only such case is \( n = 2 \), since 2 and 3 are both prime.
+
+for composite \( n \), \( f(n) \) is generally much larger than \( n + 1 \), making \( f(f(n)) \) much larger than \( n + 2 \). therefore, no composite \( n \) satisfies the condition.
+
+thus, the only superdeficient positive integer is \( n = 2 \).
+
+\[
+\boxed{1}
+\]

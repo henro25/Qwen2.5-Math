@@ -1,1 +1,28 @@
-Answer: 
+Answer: **Step 1:** Let the cost of one burger be \( B \) dollars and one soda be \( S \) dollars.
+
+**Step 2:** Set up the equations based on the purchases:
+- Alice: \( 3B + 2S = 3.20 \)
+- Bill: \( 2B + S = 2.00 \)
+
+**Step 3:** Solve for \( S \) from Bill's equation:
+\[ S = 2.00 - 2B \]
+
+**Step 4:** Substitute \( S \) into Alice's equation:
+\[ 3B + 2(2.00 - 2B) = 3.20 \]
+
+**Step 5:** Simplify and solve for \( B \):
+\[ 3B + 4.00 - 4B = 3.20 \]
+\[ -B + 4.00 = 3.20 \]
+\[ -B = -0.80 \]
+\[ B = 0.80 \]
+
+**Step 6:** Convert dollars to cents:
+\[ 0.80 \text{ dollars} = 80 \text{ cents} \]
+
+**Verification:**
+- For Alice: \( 3(0.80) + 2(0.40) = 2.40 + 0.80 = 3.20 \)
+- For Bill: \( 2(0.80) + 0.40 = 1.60 + 0.40 = 2.00 \)
+
+Both equations hold true, confirming the solution is correct.
+
+**Answer:** The burger costs 80 cents.

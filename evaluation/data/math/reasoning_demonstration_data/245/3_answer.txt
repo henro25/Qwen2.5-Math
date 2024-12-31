@@ -1,1 +1,21 @@
-Answer: 
+Answer: To determine the total distance piravena travels for her complete trip from \( a \) to \( b \), then from \( b \) to \( c \), and finally from \( c \) back to \( a \), we need to sum the distances of each leg of the trip.
+
+given the coordinates:
+- \( c = (0, 0) \)
+- \( b = (0, 1250) \)
+- \( a = (3000, 0) \)
+
+we can calculate the distances as follows:
+- distance from \( a \) to \( b \) is given as 3250 km.
+- distance from \( b \) to \( c \) is 1250 km (since \( b \) is at (0, 1250) and \( c \) is at (0, 0)).
+- distance from \( c \) to \( a \) is 3000 km.
+
+summing these distances:
+\[
+3250 \, \text{km} + 1250 \, \text{km} + 3000 \, \text{km} = 7500 \, \text{km}
+\]
+
+therefore, the total distance piravena travels for her complete trip is:
+\[
+\boxed{7500}
+\]

@@ -1,1 +1,21 @@
-Answer: 
+Answer: To solve this problem, we need to calculate the probability that all four math majors sit in consecutive seats around a round table with nine people.
+
+### Step 1: Total Number of Arrangements
+Since it's a circular table, the total number of distinct seating arrangements for nine people is \((9-1)! = 8! = 40320\).
+
+### Step 2: Favorable Arrangements (Math Majors Together)
+We treat the four math majors as a single "block." This reduces the problem to arranging six entities (the math block and the other five individuals) around the table, which can be done in \((6-1)! = 5! = 120\) ways. Within the block, the four math majors can be arranged in \(4! = 24\) ways.
+
+Thus, the total number of favorable arrangements is:
+\[
+5! \times 4! = 120 \times 24 = 2880
+\]
+
+### Step 3: Calculate the Probability
+The probability is the ratio of favorable arrangements to total arrangements:
+\[
+\frac{2880}{40320} = \frac{1}{14}
+\]
+
+### Conclusion
+The probability that all four math majors sit in consecutive seats is \(\frac{1}{14}\).

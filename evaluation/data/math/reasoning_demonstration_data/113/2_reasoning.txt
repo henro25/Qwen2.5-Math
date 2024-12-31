@@ -1,1 +1,708 @@
-Reasoning: 
+Reasoning: So i have this problem here. it says: "the line 
+x
+=
+k
+x=k intersects the graph of the parabola 
+x
+=
+−
+2
+y
+2
+−
+3
+y
++
+5
+x=−2y 
+2
+ −3y+5 at exactly one point. what is 
+k
+k?" alright, let's see. i need to find the value of 
+k
+k such that the vertical line 
+x
+=
+k
+x=k touches the parabola at only one point.
+
+first off, i know that the equation 
+x
+=
+k
+x=k represents a vertical line that's parallel to the y-axis and crosses the x-axis at 
+x
+=
+k
+x=k. the parabola is given by 
+x
+=
+−
+2
+y
+2
+−
+3
+y
++
+5
+x=−2y 
+2
+ −3y+5, which is a bit unusual because it's expressed in terms of 
+y
+y, meaning it's a parabola that opens either to the left or the right, not up or down.
+
+to find where they intersect, i can set 
+x
+=
+k
+x=k equal to the equation of the parabola, so:
+
+k
+=
+−
+2
+y
+2
+−
+3
+y
++
+5
+k=−2y 
+2
+ −3y+5
+now, this is a quadratic equation in terms of 
+y
+y. if i rearrange it, it looks like:
+
+−
+2
+y
+2
+−
+3
+y
++
+(
+5
+−
+k
+)
+=
+0
+−2y 
+2
+ −3y+(5−k)=0
+or, to make it a bit cleaner, i can multiply both sides by -1 to get:
+
+2
+y
+2
++
+3
+y
+−
+(
+5
+−
+k
+)
+=
+0
+2y 
+2
+ +3y−(5−k)=0
+so, the equation is:
+
+2
+y
+2
++
+3
+y
+−
+(
+5
+−
+k
+)
+=
+0
+2y 
+2
+ +3y−(5−k)=0
+now, for a quadratic equation of the form 
+a
+y
+2
++
+b
+y
++
+c
+=
+0
+ay 
+2
+ +by+c=0, there is exactly one real solution when the discriminant is zero. the discriminant 
+d
+d is given by 
+d
+=
+b
+2
+−
+4
+a
+c
+d=b 
+2
+ −4ac. so, in this case, 
+a
+=
+2
+a=2, 
+b
+=
+3
+b=3, and 
+c
+=
+−
+(
+5
+−
+k
+)
+c=−(5−k), which is 
+c
+=
+k
+−
+5
+c=k−5.
+
+so, the discriminant is:
+
+d
+=
+3
+2
+−
+4
+(
+2
+)
+(
+k
+−
+5
+)
+=
+9
+−
+8
+(
+k
+−
+5
+)
+d=3 
+2
+ −4(2)(k−5)=9−8(k−5)
+simplifying that:
+
+d
+=
+9
+−
+8
+k
++
+40
+=
+49
+−
+8
+k
+d=9−8k+40=49−8k
+for there to be exactly one intersection point, the discriminant must be zero:
+
+49
+−
+8
+k
+=
+0
+49−8k=0
+solving for 
+k
+k:
+
+8
+k
+=
+49
+k
+=
+49
+8
+8k=49
+k= 
+8
+49
+​
+ 
+so, 
+k
+=
+49
+8
+k= 
+8
+49
+​
+ .
+
+wait a second, let me just double-check that i did everything correctly. i set the equations equal to each other, rearranged into a standard quadratic form, identified the coefficients correctly, calculated the discriminant, set it to zero, and solved for 
+k
+k. yeah, that seems right.
+
+alternatively, thinking about the geometry of the situation, the line 
+x
+=
+k
+x=k is vertical, and the parabola 
+x
+=
+−
+2
+y
+2
+−
+3
+y
++
+5
+x=−2y 
+2
+ −3y+5 is a sideways parabola opening to the left since the coefficient of 
+y
+2
+y 
+2
+  is negative. the vertex of this parabola would be the point where the parabola changes direction, and that should be the point where the vertical line 
+x
+=
+k
+x=k touches it if it's tangent.
+
+to find the vertex of the parabola, i can use the formula for the vertex of a parabola in the form 
+x
+=
+a
+y
+2
++
+b
+y
++
+c
+x=ay 
+2
+ +by+c. the y-coordinate of the vertex is given by 
+y
+=
+−
+b
+2
+a
+y=− 
+2a
+b
+​
+ , and then i can plug that back into the equation to find the x-coordinate.
+
+given 
+x
+=
+−
+2
+y
+2
+−
+3
+y
++
+5
+x=−2y 
+2
+ −3y+5, so 
+a
+=
+−
+2
+a=−2, 
+b
+=
+−
+3
+b=−3, and 
+c
+=
+5
+c=5.
+
+the y-coordinate of the vertex is:
+
+y
+=
+−
+−
+3
+2
+(
+−
+2
+)
+=
+3
+−
+4
+=
+−
+3
+4
+y=− 
+2(−2)
+−3
+​
+ = 
+−4
+3
+​
+ =− 
+4
+3
+​
+ 
+now, plugging 
+y
+=
+−
+3
+4
+y=− 
+4
+3
+​
+  back into the equation to find 
+x
+x:
+
+x
+=
+−
+2
+(
+−
+3
+4
+)
+2
+−
+3
+(
+−
+3
+4
+)
++
+5
+x=−2(− 
+4
+3
+​
+ ) 
+2
+ −3(− 
+4
+3
+​
+ )+5
+calculating step by step:
+
+first, 
+(
+−
+3
+4
+)
+2
+=
+9
+16
+(− 
+4
+3
+​
+ ) 
+2
+ = 
+16
+9
+​
+ , so:
+
+x
+=
+−
+2
+⋅
+9
+16
+−
+3
+⋅
+(
+−
+3
+4
+)
++
+5
+=
+−
+18
+16
++
+9
+4
++
+5
+x=−2⋅ 
+16
+9
+​
+ −3⋅(− 
+4
+3
+​
+ )+5=− 
+16
+18
+​
+ + 
+4
+9
+​
+ +5
+simplifying fractions:
+
+−
+18
+16
+=
+−
+9
+8
+,
+9
+4
+=
+18
+8
+,
+5
+=
+40
+8
+− 
+16
+18
+​
+ =− 
+8
+9
+​
+ , 
+4
+9
+​
+ = 
+8
+18
+​
+ ,5= 
+8
+40
+​
+ 
+so:
+
+x
+=
+−
+9
+8
++
+18
+8
++
+40
+8
+=
+−
+9
++
+18
++
+40
+8
+=
+49
+8
+x=− 
+8
+9
+​
+ + 
+8
+18
+​
+ + 
+8
+40
+​
+ = 
+8
+−9+18+40
+​
+ = 
+8
+49
+​
+ 
+so, the vertex is at 
+(
+49
+8
+,
+−
+3
+4
+)
+( 
+8
+49
+​
+ ,− 
+4
+3
+​
+ ). since the parabola opens to the left, the vertex is the rightmost point of the parabola. therefore, the line 
+x
+=
+k
+x=k will intersect the parabola at exactly one point only when 
+k
+=
+49
+8
+k= 
+8
+49
+​
+ , which is the x-coordinate of the vertex. if 
+k
+k were greater than 
+49
+8
+8
+49
+​
+ , the line would not intersect the parabola at all, and if 
+k
+k were less than 
+49
+8
+8
+49
+​
+ , it would intersect at two points.
+
+this confirms the earlier calculation using the discriminant method. both approaches lead to the same conclusion, so i'm confident that 
+k
+=
+49
+8
+k= 
+8
+49
+​
+  is the correct answer.
+
+just to be thorough, let's consider what the graph looks like. the parabola 
+x
+=
+−
+2
+y
+2
+−
+3
+y
++
+5
+x=−2y 
+2
+ −3y+5 opens to the left, and its vertex is at 
+(
+49
+8
+,
+−
+3
+4
+)
+( 
+8
+49
+​
+ ,− 
+4
+3
+​
+ ). the line 
+x
+=
+k
+x=k is vertical, and it moves left or right depending on the value of 
+k
+k. when 
+k
+k is exactly the x-coordinate of the vertex, the line just touches the parabola at that single point. for any other 
+k
+k, it either doesn't intersect the parabola or intersects it at two points.
+
+i think that's a solid understanding of the problem. i've approached it from two angles: algebraically using the discriminant and geometrically by finding the vertex. both methods agree, so i'm pretty sure that 
+k
+=
+49
+8
+k= 
+8
+49
+​
+  is the correct answer.
+
+**final answer**
+
+49
+8
+8
+49
+​
+ 
+​

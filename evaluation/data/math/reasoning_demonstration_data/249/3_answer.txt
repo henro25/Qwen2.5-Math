@@ -1,1 +1,27 @@
-Answer: 
+Answer: To determine the number of prime numbers greater than \( n! + 1 \) and less than \( n! + n \) for any integer \( n > 1 \), we analyze the range of numbers from \( n! + 2 \) to \( n! + (n-1) \).
+
+1. for \( n = 3 \):
+   \[
+   3! = 6, \quad 6 + 1 = 7, \quad 6 + 3 = 9
+   \]
+   the numbers to consider are 8, which is not prime.
+
+2. for \( n = 4 \):
+   \[
+   4! = 24, \quad 24 + 1 = 25, \quad 24 + 4 = 28
+   \]
+   the numbers to consider are 26 and 27, both of which are not prime.
+
+3. for \( n = 5 \):
+   \[
+   5! = 120, \quad 120 + 1 = 121, \quad 120 + 5 = 125
+   \]
+   the numbers to consider are 122, 123, and 124, none of which are prime.
+
+in general, for any \( n > 1 \), consider \( n! + k \) for \( 2 \leq k \leq n \). since \( n! \) is divisible by each \( k \) in this range, \( n! + k \) is also divisible by \( k \), making it composite.
+
+thus, there are no prime numbers in the range \( n! + 1 \) to \( n! + n \) for any \( n > 1 \).
+
+\[
+\boxed{0}
+\]

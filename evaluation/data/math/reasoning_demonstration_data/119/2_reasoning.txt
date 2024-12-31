@@ -1,1 +1,229 @@
-Reasoning: 
+Reasoning: Let's try to solve this problem step by step. so, we have vectors oa, ob, and oc with given magnitudes and some angles between them. we need to express oc as a linear combination of oa and ob, meaning we need to find scalars m and n such that oc = m*oa + n*ob.
+
+first, let's write down what we know:
+
+- ||oa|| = 1
+
+- ||ob|| = 1
+
+- ||oc|| = √2
+
+- tan(angle aoc) = 7
+
+- angle boc = 45 degrees
+
+and we have the asymptote code which probably shows the positions of points a, b, and c relative to o, but since i can't see the diagram, i'll rely on the given information.
+
+let's assume o is the origin, and oa is along the positive x-axis for simplicity. so, oa = (1, 0).
+
+now, ob has a magnitude of 1, but its direction isn't specified directly. however, since angle boc is 45 degrees, and angle aoc has a tangent of 7, maybe we can find the coordinates of c using these angles.
+
+wait, angle aoc is the angle between oa and oc. given that oa is along the x-axis, angle aoc would be the angle that oc makes with the x-axis.
+
+given that tan(angle aoc) = 7, we can find the components of oc.
+
+let’s denote angle aoc as θ. so, tanθ = 7, which means that the slope of oc is 7. since oc has a magnitude of √2, we can find its coordinates.
+
+let’s recall that if a vector has magnitude r and makes an angle θ with the x-axis, its coordinates are (r*cosθ, r*sinθ).
+
+we have tanθ = 7, so θ = arctan(7).
+
+we can express cosθ and sinθ in terms of tanθ.
+
+we know that:
+
+tanθ = sinθ / cosθ = 7
+
+also, sin^2θ + cos^2θ = 1
+
+let’s set cosθ = x, then sinθ = 7x
+
+so, x^2 + (7x)^2 = 1 => x^2 + 49x^2 = 1 => 50x^2 = 1 => x^2 = 1/50 => x = 1/√50 = √2/10
+
+therefore, cosθ = √2/10 and sinθ = 7√2/10
+
+hence, oc = (√2 * cosθ, √2 * sinθ) = (√2 * √2/10, √2 * 7√2/10) = (2/10, 14/10) = (1/5, 7/5)
+
+wait, that doesn't seem right because ||oc|| should be √2, but let's check the magnitude of (1/5, 7/5):
+
+||oc|| = √[(1/5)^2 + (7/5)^2] = √[(1 + 49)/25] = √[50/25] = √2, which matches.
+
+okay, so oc = (1/5, 7/5)
+
+now, we need to express oc as m*oa + n*ob.
+
+we have oa = (1, 0), and ob is given to have magnitude 1, but we need its components.
+
+we know angle boc = 45 degrees. since oc is at angle θ = arctan(7), and boc is 45 degrees, then angle between ob and oc is 45 degrees.
+
+wait, angle boc is the angle between ob and oc, which is 45 degrees.
+
+we need to find the coordinates of ob.
+
+let’s denote ob as (a, b), with ||ob|| = 1, so a^2 + b^2 = 1.
+
+we know that the angle between ob and oc is 45 degrees.
+
+the formula for the angle between two vectors u and v is:
+
+cos(angle) = (u ⋅ v) / (||u|| ||v||)
+
+here, angle is 45 degrees, u = ob, v = oc.
+
+so, cos(45°) = (ob ⋅ oc) / (||ob|| ||oc||)
+
+we have ||ob|| = 1, ||oc|| = √2, so:
+
+cos(45°) = (a*(1/5) + b*(7/5)) / (√2)
+
+we know cos(45°) = √2/2, so:
+
+√2/2 = (a/5 + 7b/5) / √2
+
+multiply both sides by √2:
+
+(√2)(√2)/2 = a/5 + 7b/5
+
+2/2 = a/5 + 7b/5
+
+1 = (a + 7b)/5
+
+so, a + 7b = 5
+
+now, we also have that a^2 + b^2 = 1
+
+so, we have the system:
+
+a + 7b = 5
+
+a^2 + b^2 = 1
+
+let’s solve this system.
+
+from the first equation, a = 5 - 7b
+
+plug into the second equation:
+
+(5 - 7b)^2 + b^2 = 1
+
+25 - 70b + 49b^2 + b^2 = 1
+
+25 - 70b + 50b^2 = 1
+
+50b^2 - 70b + 24 = 0
+
+divide the entire equation by 2:
+
+25b^2 - 35b + 12 = 0
+
+now, let's solve for b using quadratic formula:
+
+b = [35 ± √(35^2 - 4*25*12)] / (2*25)
+
+calculate discriminant:
+
+35^2 = 1225
+
+4*25*12 = 1200
+
+so, √(1225 - 1200) = √25 = 5
+
+thus, b = [35 ± 5]/50
+
+so, b = (35 + 5)/50 = 40/50 = 4/5
+
+or b = (35 - 5)/50 = 30/50 = 3/5
+
+now, find corresponding a:
+
+if b = 4/5, then a = 5 - 7*(4/5) = 5 - 28/5 = 25/5 - 28/5 = -3/5
+
+if b = 3/5, then a = 5 - 7*(3/5) = 5 - 21/5 = 25/5 - 21/5 = 4/5
+
+so, ob could be either (-3/5, 4/5) or (4/5, 3/5)
+
+now, let's see which one makes sense.
+
+looking back at the asymptote code, it seems that b is in the second quadrant since it's labeled nw, meaning it's likely (-0.6, 0.8), which is (-3/5, 4/5)
+
+so, ob = (-3/5, 4/5)
+
+now, we have oa = (1, 0), ob = (-3/5, 4/5), and oc = (1/5, 7/5)
+
+we need to find m and n such that:
+
+oc = m*oa + n*ob
+
+so,
+
+(1/5, 7/5) = m*(1, 0) + n*(-3/5, 4/5)
+
+this gives us two equations:
+
+1/5 = m - (3/5)n
+
+7/5 = 0*m + (4/5)n
+
+so,
+
+1/5 = m - (3/5)n
+
+7/5 = (4/5)n
+
+first, solve the second equation for n:
+
+7/5 = (4/5)n
+
+multiply both sides by 5:
+
+7 = 4n
+
+so, n = 7/4
+
+now, plug n into the first equation:
+
+1/5 = m - (3/5)*(7/4)
+
+calculate (3/5)*(7/4) = 21/20
+
+so,
+
+1/5 = m - 21/20
+
+add 21/20 to both sides:
+
+m = 1/5 + 21/20 = 4/20 + 21/20 = 25/20 = 5/4
+
+therefore, m = 5/4 and n = 7/4
+
+so, the ordered pair is (5/4, 7/4)
+
+let me just double-check:
+
+oc = (1/5, 7/5)
+
+m*oa + n*ob = (5/4)*1 + (7/4)*(-3/5) = 5/4 - 21/20 = (25/20 - 21/20) = 4/20 = 1/5 for the x-component
+
+and for y-component: (5/4)*0 + (7/4)*(4/5) = 0 + 28/20 = 7/5
+
+which matches oc, so it's correct.
+
+**final answer**
+
+(
+5
+4
+,
+7
+4
+)
+( 
+4
+5
+​
+ , 
+4
+7
+​
+ )
+​

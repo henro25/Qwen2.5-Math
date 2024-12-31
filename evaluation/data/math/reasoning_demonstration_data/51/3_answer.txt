@@ -1,1 +1,18 @@
-Answer: 
+Answer: To determine how many values of \( x \) with \( 0^\circ \leq x < 360^\circ \) satisfy \( \sin x = -0.73 \), we need to consider the behavior of the sine function in different quadrants.
+
+1. the sine function is negative in the third and fourth quadrants.
+2. the reference angle for \( \sin x = 0.73 \) is \( \sin^{-1}(0.73) \), which is approximately \( 47^\circ \).
+
+for the third quadrant:
+\[ x = 180^\circ + 47^\circ = 227^\circ \]
+
+for the fourth quadrant:
+\[ x = 360^\circ - 47^\circ = 313^\circ \]
+
+thus, the two solutions within the range \( 0^\circ \leq x < 360^\circ \) are \( 227^\circ \) and \( 313^\circ \).
+
+therefore, there are two values of \( x \) that satisfy the equation \( \sin x = -0.73 \).
+
+\[
+\boxed{2}
+\]

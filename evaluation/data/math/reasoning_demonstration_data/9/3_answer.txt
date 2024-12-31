@@ -1,1 +1,92 @@
-Answer: 
+Answer: To evaluate the determinant
+
+\[
+\begin{vmatrix} 
+1 & x & y \\ 
+1 & x + y & y \\ 
+1 & x & x + y 
+\end{vmatrix},
+\]
+
+we use the formula for the determinant of a 3x3 matrix:
+
+\[
+\begin{vmatrix} 
+a & b & c \\ 
+d & e & f \\ 
+g & h & i 
+\end{vmatrix}
+= a(ei - fh) - b(di - fg) + c(dh - eg).
+\]
+
+substituting the given values:
+
+\[
+a = 1, \quad b = x, \quad c = y,
+\]
+\[
+d = 1, \quad e = x + y, \quad f = y,
+\]
+\[
+g = 1, \quad h = x, \quad i = x + y,
+\]
+
+we get:
+
+\[
+1 \cdot [(x + y)(x + y) - y \cdot x] - x \cdot [1 \cdot (x + y) - y \cdot 1] + y \cdot [1 \cdot x - (x + y) \cdot 1].
+\]
+
+simplifying each part:
+
+\[
+1 \cdot [(x + y)^2 - xy] = (x + y)^2 - xy,
+\]
+\[
+- x \cdot [x + y - y] = -x \cdot x = -x^2,
+\]
+\[
+y \cdot [x - x - y] = y \cdot (-y) = -y^2.
+\]
+
+combining all parts:
+
+\[
+(x + y)^2 - xy - x^2 - y^2.
+\]
+
+expanding \((x + y)^2\):
+
+\[
+(x + y)^2 = x^2 + 2xy + y^2,
+\]
+
+so:
+
+\[
+x^2 + 2xy + y^2 - xy - x^2 - y^2 = xy.
+\]
+
+to verify, we use row operations:
+
+subtract the first row from the second and third rows:
+
+\[
+\begin{vmatrix} 
+1 & x & y \\ 
+0 & y & 0 \\ 
+0 & 0 & x 
+\end{vmatrix}.
+\]
+
+the determinant of this upper triangular matrix is the product of the diagonal elements:
+
+\[
+1 \cdot y \cdot x = xy.
+\]
+
+thus, the determinant evaluates to:
+
+\[
+\boxed{xy}
+\]

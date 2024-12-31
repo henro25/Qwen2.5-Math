@@ -1,1 +1,43 @@
-Answer: 
+Answer: Let the total capacity of the tank be \( T \) gallons. Initially, the tank is one-sixth full, meaning it contains \( \frac{T}{6} \) gallons. After adding 130 gallons, the tank becomes three-fifths full, or \( \frac{3T}{5} \) gallons.
+
+We set up the equation:
+
+\[
+\frac{T}{6} + 130 = \frac{3T}{5}
+\]
+
+To solve for \( T \), subtract \( \frac{T}{6} \) from both sides:
+
+\[
+130 = \frac{3T}{5} - \frac{T}{6}
+\]
+
+Finding a common denominator of 30 for the fractions:
+
+\[
+130 = \frac{18T}{30} - \frac{5T}{30}
+\]
+
+Simplify:
+
+\[
+130 = \frac{13T}{30}
+\]
+
+Multiply both sides by 30:
+
+\[
+130 \times 30 = 13T
+\]
+
+\[
+3900 = 13T
+\]
+
+Divide both sides by 13:
+
+\[
+T = \frac{3900}{13} = 300
+\]
+
+Thus, the tank holds **300 gallons** when completely full.

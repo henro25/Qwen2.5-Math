@@ -1,1 +1,23 @@
-Answer: 
+Answer: To find the total dollar amount the pirate has accumulated, we need to convert each base 5 number to base 10 and then sum them up.
+
+first, convert \(3124_5\) to base 10:
+\[
+3 \cdot 5^3 + 1 \cdot 5^2 + 2 \cdot 5^1 + 4 \cdot 5^0 = 3 \cdot 125 + 1 \cdot 25 + 2 \cdot 5 + 4 \cdot 1 = 375 + 25 + 10 + 4 = 414
+\]
+
+next, convert \(3122_5\) to base 10:
+\[
+3 \cdot 5^3 + 1 \cdot 5^2 + 2 \cdot 5^1 + 2 \cdot 5^0 = 3 \cdot 125 + 1 \cdot 25 + 2 \cdot 5 + 2 \cdot 1 = 375 + 25 + 10 + 2 = 412
+\]
+
+then, convert \(124_5\) to base 10:
+\[
+1 \cdot 5^2 + 2 \cdot 5^1 + 4 \cdot 5^0 = 1 \cdot 25 + 2 \cdot 5 + 4 \cdot 1 = 25 + 10 + 4 = 39
+\]
+
+finally, sum the base 10 amounts:
+\[
+414 + 412 + 39 = 865
+\]
+
+thus, the total dollar amount the pirate has accumulated is \(\boxed{865}\).

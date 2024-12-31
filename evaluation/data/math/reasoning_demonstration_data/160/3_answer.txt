@@ -1,1 +1,13 @@
-Answer: 
+Answer: 1. **Identify Prime Numbers Less Than 12:**
+   - The prime numbers less than 12 are 2, 3, 5, 7, and 11.
+
+2. **Determine Which of These Primes Are Divisible by 2:**
+   - 2 is divisible by 2.
+   - 3, 5, 7, and 11 are not divisible by 2.
+
+3. **Calculate the Percentage:**
+   - Total prime numbers less than 12: 5 (2, 3, 5, 7, 11)
+   - Primes divisible by 2: 1 (only 2)
+   - Percentage = (1/5) × 100 = 20%
+
+**Answer:** 20% of the prime numbers less than 12 are divisible by 2.

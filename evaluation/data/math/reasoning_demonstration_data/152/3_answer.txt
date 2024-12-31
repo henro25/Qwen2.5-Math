@@ -1,1 +1,31 @@
-Answer: 
+Answer: To find the value of \( m + b \) for the line \( y = mx + b \) such that the reflection of the point \((-3, -1)\) across this line is the point \((5, 3)\), we follow these steps:
+
+1. **find the midpoint of the segment connecting \((-3, -1)\) and \((5, 3)\):**
+   \[
+   \left( \frac{-3 + 5}{2}, \frac{-1 + 3}{2} \right) = (1, 1)
+   \]
+   the line \( y = mx + b \) passes through this midpoint.
+
+2. **determine the slope of the segment connecting \((-3, -1)\) and \((5, 3)\):**
+   \[
+   \text{slope} = \frac{3 - (-1)}{5 - (-3)} = \frac{4}{8} = 0.5
+   \]
+   the slope of the perpendicular line is the negative reciprocal:
+   \[
+   m = -2
+   \]
+
+3. **use the midpoint \((1, 1)\) to find \( b \):**
+   \[
+   1 = -2(1) + b \implies 1 = -2 + b \implies b = 3
+   \]
+
+4. **calculate \( m + b \):**
+   \[
+   m + b = -2 + 3 = 1
+   \]
+
+thus, the final answer is:
+\[
+\boxed{1}
+\]

@@ -1,1 +1,65 @@
-Answer: 
+Answer: To solve the problem, we start by considering the polynomial \( x^2 + bx + 2008b \) and factoring it over the integers. this leads to the equations:
+
+\[
+b = m + n \quad \text{and} \quad 2008b = mn
+\]
+
+substituting \( n = b - m \) into the second equation, we get:
+
+\[
+2008b = m(b - m) \implies m^2 - bm + 2008b = 0
+\]
+
+the discriminant of this quadratic equation must be a perfect square:
+
+\[
+b^2 - 8032b = k^2
+\]
+
+rewriting and completing the square:
+
+\[
+(b - 4016)^2 - k^2 = 4016^2 \implies (b - 4016 - k)(b - 4016 + k) = 4016^2
+\]
+
+let \( p = b - 4016 - k \) and \( q = b - 4016 + k \), then:
+
+\[
+pq = 4016^2 \quad \text{and} \quad p + q = 2(b - 4016)
+\]
+
+solving for \( b \):
+
+\[
+b = \frac{p + q}{2} + 4016
+\]
+
+summing over all pairs \((p, q)\) where \( pq = 4016^2 \):
+
+\[
+s = \sum \left( \frac{p + \frac{4016^2}{p}}{2} + 4016 \right)
+\]
+
+since \( p \) and \( q \) are divisors of \( 4016^2 \), and considering both positive and negative divisors, we have:
+
+\[
+s = \sum \left( d + \frac{2008^2}{d} + 4016 \right)
+\]
+
+the sum of all divisors \( d \) of \( 2008^2 \) and their reciprocals cancel out to zero, leaving:
+
+\[
+s = 4016 \times \tau(2008^2)
+\]
+
+where \( \tau(2008^2) = 54 \) (since \( 2008^2 = 2^6 \times 251^2 \) has 27 positive and 27 negative divisors). thus:
+
+\[
+s = 4016 \times 54 = 216864
+\]
+
+therefore, the absolute value of \( s \) is:
+
+\[
+\boxed{216864}
+\]

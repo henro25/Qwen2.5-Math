@@ -1,1 +1,76 @@
-Answer: 
+Answer: To solve the equation 
+
+\[
+\sqrt{x + 3 - 4 \sqrt{x - 1}} + \sqrt{x + 8 - 6 \sqrt{x - 1}} = 1,
+\]
+
+we start by making a substitution \( y = \sqrt{x - 1} \), which implies \( x = y^2 + 1 \). substituting this into the equation, we get:
+
+\[
+\sqrt{(y^2 + 1) + 3 - 4y} + \sqrt{(y^2 + 1) + 8 - 6y} = 1.
+\]
+
+simplifying inside the square roots:
+
+\[
+\sqrt{y^2 - 4y + 4} + \sqrt{y^2 - 6y + 9} = 1,
+\]
+
+which further simplifies to:
+
+\[
+\sqrt{(y - 2)^2} + \sqrt{(y - 3)^2} = 1.
+\]
+
+this becomes:
+
+\[
+|y - 2| + |y - 3| = 1.
+\]
+
+we consider different cases based on the critical points \( y = 2 \) and \( y = 3 \):
+
+1. **case 1: \( y < 2 \)**
+   \[
+   |y - 2| = 2 - y \quad \text{and} \quad |y - 3| = 3 - y,
+   \]
+   \[
+   2 - y + 3 - y = 1 \implies 5 - 2y = 1 \implies y = 2.
+   \]
+   this is not valid since \( y < 2 \).
+
+2. **case 2: \( 2 \leq y < 3 \)**
+   \[
+   |y - 2| = y - 2 \quad \text{and} \quad |y - 3| = 3 - y,
+   \]
+   \[
+   y - 2 + 3 - y = 1 \implies 1 = 1.
+   \]
+   this is always true for \( 2 \leq y < 3 \).
+
+3. **case 3: \( y \geq 3 \)**
+   \[
+   |y - 2| = y - 2 \quad \text{and} \quad |y - 3| = y - 3,
+   \]
+   \[
+   y - 2 + y - 3 = 1 \implies 2y - 5 = 1 \implies y = 3.
+   \]
+   this is valid since \( y \geq 3 \).
+
+combining the solutions from all cases, we get \( 2 \leq y \leq 3 \). since \( y = \sqrt{x - 1} \), we have:
+
+\[
+2 \leq \sqrt{x - 1} \leq 3.
+\]
+
+squaring all parts:
+
+\[
+4 \leq x - 1 \leq 9 \implies 5 \leq x \leq 10.
+\]
+
+thus, the solutions to the equation are:
+
+\[
+\boxed{5 \leq x \leq 10}
+\]

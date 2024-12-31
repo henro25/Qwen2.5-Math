@@ -1,1 +1,15 @@
-Answer: 
+Answer: Mr. Wong has 10 grandchildren, and the gender of each is determined independently with equal probability (0.5 for male and 0.5 for female). We are tasked with finding the probability that he has either more grandsons than granddaughters or more granddaughters than grandsons.
+
+To solve this, we recognize that the total number of possible gender combinations is \( 2^{10} = 1024 \), since each child has two possible genders. The number of ways to have exactly 5 boys and 5 girls is given by the binomial coefficient \( C(10, 5) = 252 \). Thus, the probability of having exactly 5 boys and 5 girls is:
+
+\[
+P(\text{5 boys and 5 girls}) = \frac{252}{1024} = \frac{63}{256}
+\]
+
+The probability that Mr. Wong has either more grandsons or more granddaughters is the complement of having exactly 5 boys and 5 girls. Therefore, the desired probability is:
+
+\[
+P(\text{more boys or more girls}) = 1 - \frac{63}{256} = \frac{193}{256}
+\]
+
+Thus, the probability is \( \frac{193}{256} \), or approximately 0.754.

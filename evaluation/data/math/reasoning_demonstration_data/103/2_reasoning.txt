@@ -1,1 +1,1247 @@
-Reasoning: 
+Reasoning: So i have this problem about a sequence of points in the coordinate plane. the sequence is defined by this recursive formula:
+
+(
+a
+n
++
+1
+,
+b
+n
++
+1
+)
+=
+(
+3
+a
+n
+−
+b
+n
+,
+3
+b
+n
++
+a
+n
+)
+(a 
+n+1
+​
+ ,b 
+n+1
+​
+ )=( 
+3
+​
+ a 
+n
+​
+ −b 
+n
+​
+ , 
+3
+​
+ b 
+n
+​
+ +a 
+n
+​
+ )
+and i know that $(a_{100}, b_{100}) = (2, 4)$. i need to find $a_1 + b_1$ and express it using exponential notation.
+
+first, i should understand what this recursive formula is doing. it seems like each new point $(a_{n+1}, b_{n+1})$ is being generated from the previous point $(a_n, b_n)$ using some linear transformation. maybe i can think of this as a matrix transformation.
+
+let me define a vector $\mathbf{v}_n = \begin{pmatrix} a_n \\ b_n \end{pmatrix}$. then the recursive formula can be written as:
+
+v
+n
++
+1
+=
+(
+3
+−
+1
+1
+3
+)
+v
+n
+v 
+n+1
+​
+ =( 
+3
+​
+ 
+1
+​
+  
+−1
+3
+​
+ 
+​
+ )v 
+n
+​
+ 
+so, this is a linear transformation represented by the matrix $m = \begin{pmatrix} \sqrt{3} & -1 \\ 1 & \sqrt{3} \end{pmatrix}$.
+
+now, since this transformation is applied repeatedly, i can express $\mathbf{v}_{100}$ in terms of $\mathbf{v}_1$:
+
+v
+100
+=
+m
+99
+v
+1
+v 
+100
+​
+ =m 
+99
+ v 
+1
+​
+ 
+but i know $\mathbf{v}_{100} = \begin{pmatrix} 2 \\ 4 \end{pmatrix}$, so:
+
+m
+99
+v
+1
+=
+(
+2
+4
+)
+m 
+99
+ v 
+1
+​
+ =( 
+2
+4
+​
+ )
+to find $\mathbf{v}_1$, i need to find $m^{-99}$ and apply it to $\begin{pmatrix} 2 \\ 4 \end{pmatrix}$:
+
+v
+1
+=
+m
+−
+99
+(
+2
+4
+)
+v 
+1
+​
+ =m 
+−99
+ ( 
+2
+4
+​
+ )
+but computing $m^{-99}$ directly seems complicated. maybe there's a better way to handle this.
+
+let me consider diagonalizing the matrix $m$. if $m$ can be diagonalized, then raising it to a power becomes easier.
+
+first, find the eigenvalues of $m$. the characteristic equation is:
+
+det
+⁡
+(
+m
+−
+λ
+i
+)
+=
+0
+det(m−λi)=0
+so,
+
+det
+⁡
+(
+3
+−
+λ
+−
+1
+1
+3
+−
+λ
+)
+=
+(
+3
+−
+λ
+)
+2
++
+1
+=
+0
+det( 
+3
+​
+ −λ
+1
+​
+  
+−1
+3
+​
+ −λ
+​
+ )=( 
+3
+​
+ −λ) 
+2
+ +1=0
+expanding:
+
+(
+3
+−
+λ
+)
+2
++
+1
+=
+(
+3
+)
+2
+−
+2
+3
+λ
++
+λ
+2
++
+1
+=
+3
+−
+2
+3
+λ
++
+λ
+2
++
+1
+=
+λ
+2
+−
+2
+3
+λ
++
+4
+=
+0
+( 
+3
+​
+ −λ) 
+2
+ +1=( 
+3
+​
+ ) 
+2
+ −2 
+3
+​
+ λ+λ 
+2
+ +1=3−2 
+3
+​
+ λ+λ 
+2
+ +1=λ 
+2
+ −2 
+3
+​
+ λ+4=0
+using the quadratic formula:
+
+λ
+=
+2
+3
+±
+(
+2
+3
+)
+2
+−
+16
+2
+=
+2
+3
+±
+12
+−
+16
+2
+=
+2
+3
+±
+−
+4
+2
+=
+3
+±
+i
+1
+λ= 
+2
+2 
+3
+​
+ ± 
+(2 
+3
+​
+ ) 
+2
+ −16
+​
+ 
+​
+ = 
+2
+2 
+3
+​
+ ± 
+12−16
+​
+ 
+​
+ = 
+2
+2 
+3
+​
+ ± 
+−4
+​
+ 
+​
+ = 
+3
+​
+ ±i1
+so, the eigenvalues are $\lambda = \sqrt{3} + i$ and $\lambda = \sqrt{3} - i$.
+
+these are complex eigenvalues. since $m$ has complex eigenvalues, it might be easier to represent it in terms of rotation and scaling.
+
+wait a minute, the matrix $m$ looks familiar. it resembles a rotation matrix combined with scaling.
+
+a general rotation matrix is:
+
+r
+(
+θ
+)
+=
+(
+cos
+⁡
+θ
+−
+sin
+⁡
+θ
+sin
+⁡
+θ
+cos
+⁡
+θ
+)
+r(θ)=( 
+cosθ
+sinθ
+​
+  
+−sinθ
+cosθ
+​
+ )
+and if we have scaling by a factor $k$, then the transformation matrix would be:
+
+k
+r
+(
+θ
+)
+=
+(
+k
+cos
+⁡
+θ
+−
+k
+sin
+⁡
+θ
+k
+sin
+⁡
+θ
+k
+cos
+⁡
+θ
+)
+kr(θ)=( 
+kcosθ
+ksinθ
+​
+  
+−ksinθ
+kcosθ
+​
+ )
+comparing this to our matrix $m$:
+
+m
+=
+(
+3
+−
+1
+1
+3
+)
+m=( 
+3
+​
+ 
+1
+​
+  
+−1
+3
+​
+ 
+​
+ )
+i can see that if $k \cos \theta = \sqrt{3}$ and $k \sin \theta = 1$, then this matches.
+
+so, solving for $k$ and $\theta$:
+
+k
+cos
+⁡
+θ
+=
+3
+,
+k
+sin
+⁡
+θ
+=
+1
+kcosθ= 
+3
+​
+ ,ksinθ=1
+then,
+
+k
+2
+=
+(
+3
+)
+2
++
+1
+2
+=
+3
++
+1
+=
+4
+  
+⟹
+  
+k
+=
+2
+k 
+2
+ =( 
+3
+​
+ ) 
+2
+ +1 
+2
+ =3+1=4⟹k=2
+and,
+
+cos
+⁡
+θ
+=
+3
+2
+,
+sin
+⁡
+θ
+=
+1
+2
+  
+⟹
+  
+θ
+=
+3
+0
+∘
+ or 
+π
+6
+ radians
+cosθ= 
+2
+3
+​
+ 
+​
+ ,sinθ= 
+2
+1
+​
+ ⟹θ=30 
+∘
+  or  
+6
+π
+​
+  radians
+so, $m = 2 r\left(\frac{\pi}{6}\right)$.
+
+therefore, each application of $m$ scales the vector by 2 and rotates it by $\frac{\pi}{6}$ radians.
+
+now, since $\mathbf{v}_{n+1} = m \mathbf{v}_n$, then:
+
+v
+n
+=
+m
+n
+−
+1
+v
+1
+v 
+n
+​
+ =m 
+n−1
+ v 
+1
+​
+ 
+given that $\mathbf{v}_{100} = m^{99} \mathbf{v}_1 = \begin{pmatrix} 2 \\ 4 \end{pmatrix}$, i need to find $\mathbf{v}_1$.
+
+but since $m = 2 r\left(\frac{\pi}{6}\right)$, then:
+
+m
+99
+=
+2
+99
+r
+(
+99
+π
+6
+)
+=
+2
+99
+r
+(
+33
+π
+2
+)
+m 
+99
+ =2 
+99
+ r( 
+6
+99π
+​
+ )=2 
+99
+ r( 
+2
+33π
+​
+ )
+simplify the rotation angle:
+
+33
+π
+2
+=
+16
+π
++
+π
+2
+=
+8
+×
+2
+π
++
+π
+2
+2
+33π
+​
+ =16π+ 
+2
+π
+​
+ =8×2π+ 
+2
+π
+​
+ 
+since rotations by multiples of $2\pi$ don't change the direction, this is equivalent to:
+
+r
+(
+π
+2
+)
+=
+(
+0
+−
+1
+1
+0
+)
+r( 
+2
+π
+​
+ )=( 
+0
+1
+​
+  
+−1
+0
+​
+ )
+so,
+
+m
+99
+=
+2
+99
+r
+(
+π
+2
+)
+=
+2
+99
+(
+0
+−
+1
+1
+0
+)
+m 
+99
+ =2 
+99
+ r( 
+2
+π
+​
+ )=2 
+99
+ ( 
+0
+1
+​
+  
+−1
+0
+​
+ )
+therefore,
+
+m
+99
+v
+1
+=
+2
+99
+(
+0
+−
+1
+1
+0
+)
+(
+a
+1
+b
+1
+)
+=
+2
+99
+(
+−
+b
+1
+a
+1
+)
+=
+(
+2
+4
+)
+m 
+99
+ v 
+1
+​
+ =2 
+99
+ ( 
+0
+1
+​
+  
+−1
+0
+​
+ )( 
+a 
+1
+​
+ 
+b 
+1
+​
+ 
+​
+ )=2 
+99
+ ( 
+−b 
+1
+​
+ 
+a 
+1
+​
+ 
+​
+ )=( 
+2
+4
+​
+ )
+so,
+
+2
+99
+(
+−
+b
+1
+)
+=
+2
+and
+2
+99
+a
+1
+=
+4
+2 
+99
+ (−b 
+1
+​
+ )=2and2 
+99
+ a 
+1
+​
+ =4
+solving for $a_1$ and $b_1$:
+
+from the second equation:
+
+a
+1
+=
+4
+2
+99
+=
+2
+2
+2
+99
+=
+2
+−
+97
+a 
+1
+​
+ = 
+2 
+99
+ 
+4
+​
+ = 
+2 
+99
+ 
+2 
+2
+ 
+​
+ =2 
+−97
+ 
+from the first equation:
+
+−
+b
+1
+=
+2
+2
+99
+=
+2
+−
+98
+  
+⟹
+  
+b
+1
+=
+−
+2
+−
+98
+−b 
+1
+​
+ = 
+2 
+99
+ 
+2
+​
+ =2 
+−98
+ ⟹b 
+1
+​
+ =−2 
+−98
+ 
+now, i need to find $a_1 + b_1$:
+
+a
+1
++
+b
+1
+=
+2
+−
+97
++
+(
+−
+2
+−
+98
+)
+=
+2
+−
+97
+−
+2
+−
+98
+a 
+1
+​
+ +b 
+1
+​
+ =2 
+−97
+ +(−2 
+−98
+ )=2 
+−97
+ −2 
+−98
+ 
+let me factor out $2^{-98}$:
+
+2
+−
+97
+=
+2
+×
+2
+−
+98
+2 
+−97
+ =2×2 
+−98
+ 
+so,
+
+a
+1
++
+b
+1
+=
+2
+×
+2
+−
+98
+−
+2
+−
+98
+=
+(
+2
+−
+1
+)
+×
+2
+−
+98
+=
+1
+×
+2
+−
+98
+=
+2
+−
+98
+a 
+1
+​
+ +b 
+1
+​
+ =2×2 
+−98
+ −2 
+−98
+ =(2−1)×2 
+−98
+ =1×2 
+−98
+ =2 
+−98
+ 
+wait, but the problem asks to express the answer using exponential notation. i have $2^{-98}$, which is already in exponential notation, but maybe i can write it as $e^{\ln 2^{-98}} = e^{-98 \ln 2}$.
+
+but perhaps it's acceptable to leave it as $2^{-98}$.
+
+alternatively, since $2^{-98} = \left(\frac{1}{2}\right)^{98}$, but $2^{-98}$ is simpler.
+
+however, maybe the problem expects the answer in terms of $e$, but $2^{-98}$ is already fine.
+
+let me double-check my steps to ensure i didn't make any mistakes.
+
+starting from:
+
+m
+99
+v
+1
+=
+(
+2
+4
+)
+m 
+99
+ v 
+1
+​
+ =( 
+2
+4
+​
+ )
+and $m^{99} = 2^{99} r\left(\frac{\pi}{2}\right)$, so:
+
+2
+99
+(
+0
+−
+1
+1
+0
+)
+(
+a
+1
+b
+1
+)
+=
+(
+2
+4
+)
+2 
+99
+ ( 
+0
+1
+​
+  
+−1
+0
+​
+ )( 
+a 
+1
+​
+ 
+b 
+1
+​
+ 
+​
+ )=( 
+2
+4
+​
+ )
+which gives:
+
+2
+99
+(
+−
+b
+1
+)
+=
+2
+and
+2
+99
+a
+1
+=
+4
+2 
+99
+ (−b 
+1
+​
+ )=2and2 
+99
+ a 
+1
+​
+ =4
+solving for $a_1$:
+
+a
+1
+=
+4
+2
+99
+=
+2
+−
+97
+a 
+1
+​
+ = 
+2 
+99
+ 
+4
+​
+ =2 
+−97
+ 
+and for $b_1$:
+
+−
+b
+1
+=
+2
+2
+99
+=
+2
+−
+98
+  
+⟹
+  
+b
+1
+=
+−
+2
+−
+98
+−b 
+1
+​
+ = 
+2 
+99
+ 
+2
+​
+ =2 
+−98
+ ⟹b 
+1
+​
+ =−2 
+−98
+ 
+then:
+
+a
+1
++
+b
+1
+=
+2
+−
+97
+−
+2
+−
+98
+=
+2
+−
+98
+(
+2
+−
+1
+)
+=
+2
+−
+98
+a 
+1
+​
+ +b 
+1
+​
+ =2 
+−97
+ −2 
+−98
+ =2 
+−98
+ (2−1)=2 
+−98
+ 
+yes, that seems correct.
+
+so, the final answer is $2^{-98}$.
+
+**final answer**
+
+2
+−
+98
+2 
+−98
+ 
+​

@@ -1,1 +1,36 @@
-Answer: 
+Answer: To solve the problem, we need to find the smallest integer \( n \) greater than 4 such that \( n \equiv n^2 \pmod{12} \). this means \( n(n-1) \equiv 0 \pmod{12} \).
+
+we consider two cases:
+
+1. \( n \equiv 0 \pmod{4} \) and \( n \equiv 1 \pmod{3} \)
+2. \( n \equiv 0 \pmod{3} \) and \( n \equiv 1 \pmod{4} \)
+
+for the first case:
+- \( n = 4k \)
+- \( 4k \equiv 1 \pmod{3} \)
+- \( k \equiv 1 \pmod{3} \)
+- \( k = 3m + 1 \)
+- \( n = 4(3m + 1) = 12m + 4 \)
+
+for \( m = 0 \), \( n = 4 \) (not greater than 4).
+for \( m = 1 \), \( n = 16 \) (equivalent to 4 on a 12-hour clock).
+
+for the second case:
+- \( n = 3k \)
+- \( 3k \equiv 1 \pmod{4} \)
+- \( k \equiv 3 \pmod{4} \)
+- \( k = 4m + 3 \)
+- \( n = 3(4m + 3) = 12m + 9 \)
+
+for \( m = 0 \), \( n = 9 \).
+
+checking \( n = 9 \):
+- \( 9^2 = 81 \)
+- \( 81 \mod 12 = 9 \)
+- \( 9 \equiv 81 \pmod{12} \)
+
+thus, the smallest \( n \) greater than 4 that satisfies the condition is:
+
+\[
+\boxed{9}
+\]

@@ -1,1 +1,26 @@
-Answer: 
+Answer: To determine the largest value of \( x \) such that the expression \(\dfrac{x+1}{8x^2 - 65x + 8}\) is not defined, we need to find the values of \( x \) that make the denominator zero.
+
+the denominator is \( 8x^2 - 65x + 8 \). we solve the quadratic equation:
+
+\[ 8x^2 - 65x + 8 = 0 \]
+
+using the quadratic formula:
+
+\[ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \]
+
+where \( a = 8 \), \( b = -65 \), and \( c = 8 \):
+
+\[ x = \frac{65 \pm \sqrt{4225 - 256}}{16} \]
+\[ x = \frac{65 \pm \sqrt{3969}}{16} \]
+\[ x = \frac{65 \pm 63}{16} \]
+
+this gives two solutions:
+
+1. \( x = \frac{65 + 63}{16} = \frac{128}{16} = 8 \)
+2. \( x = \frac{65 - 63}{16} = \frac{2}{16} = \frac{1}{8} \)
+
+the expression is not defined at \( x = 8 \) and \( x = \frac{1}{8} \). the largest value among these is 8.
+
+therefore, the largest value of \( x \) such that the expression is not defined is:
+
+\[\boxed{8}\]

@@ -1,1 +1,35 @@
-Answer: 
+Answer: To find all real values of \( a \) for which the polynomial \( x^4 + a x^3 - x^2 + a x + 1 = 0 \) has at least one real root, we start by considering the polynomial and making a substitution to simplify it.
+
+first, we divide the polynomial by \( x^2 \) (assuming \( x \neq 0 \)):
+
+\[ x^2 + a x - 1 + \frac{a}{x} + \frac{1}{x^2} = 0 \]
+
+let \( z = x + \frac{1}{x} \). then, \( z^2 = x^2 + 2 + \frac{1}{x^2} \), so \( x^2 + \frac{1}{x^2} = z^2 - 2 \). substituting this into the equation, we get:
+
+\[ z^2 - 2 + a z - 1 = 0 \]
+
+simplifying, we obtain:
+
+\[ z^2 + a z - 3 = 0 \]
+
+the roots of this quadratic equation are:
+
+\[ z = \frac{-a \pm \sqrt{a^2 + 12}}{2} \]
+
+for \( z \) to be real, \( |z| \geq 2 \). we need at least one of the roots to satisfy \( z \geq 2 \) or \( z \leq -2 \).
+
+evaluating the quadratic at \( z = 2 \) and \( z = -2 \):
+
+\[ q(2) = 2^2 + a(2) - 3 = 2a + 1 \]
+\[ q(-2) = (-2)^2 + a(-2) - 3 = -2a + 1 \]
+
+for the polynomial to have at least one real root, we need either \( q(2) < 0 \) or \( q(-2) < 0 \):
+
+\[ 2a + 1 < 0 \implies a < -\frac{1}{2} \]
+\[ -2a + 1 < 0 \implies a > \frac{1}{2} \]
+
+thus, the values of \( a \) for which the polynomial has at least one real root are:
+
+\[
+\boxed{a < -\frac{1}{2} \text{ or } a > \frac{1}{2}}
+\]

@@ -1,1 +1,19 @@
-Answer: 
+Answer: To solve the problem, we need to determine the radius \( r \) of the smaller circles given that the largest circle has a radius \( r = 6 \) meters and the smaller circles are arranged such that they are tangent to each other and to the largest circle.
+
+1. the distance between the centers of the largest circle and one of the smaller circles is \( r - r \) because the smaller circle is tangent internally to the largest circle.
+2. the distance between the centers of the central smaller circle and one of the outer smaller circles is \( 2r \) because they are tangent to each other.
+
+since the center of the largest circle is also the center of the central smaller circle, we equate the two distances:
+\[
+2r = r - r
+\]
+substituting \( r = 6 \) meters:
+\[
+2r = 6 - r
+\]
+solving for \( r \):
+\[
+2r + r = 6 \implies 3r = 6 \implies r = 2
+\]
+
+therefore, the radius of each of the five smaller circles is \(\boxed{2}\) meters.

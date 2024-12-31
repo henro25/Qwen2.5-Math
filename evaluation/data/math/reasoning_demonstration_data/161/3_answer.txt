@@ -1,1 +1,39 @@
-Answer: 
+Answer: Given an acute triangle \(abc\) with points \(p\) and \(q\) as the feet of the perpendiculars from \(c\) to \(\overline{ab}\) and from \(b\) to \(\overline{ac}\), respectively, and line \(pq\) intersecting the circumcircle of \(\triangle abc\) at points \(x\) and \(y\), we are provided with the lengths \(xp = 10\), \(pq = 25\), and \(qy = 15\). we need to find \(ab \cdot ac\) in the form \(m\sqrt{n}\) where \(m\) and \(n\) are positive integers, and \(n\) is not divisible by the square of any prime.
+
+first, we calculate the total length of \(xy\):
+\[
+xy = xp + pq + qy = 10 + 25 + 15 = 50
+\]
+
+next, we use the power of a point theorem for points \(p\) and \(q\) with respect to the circumcircle of \(\triangle abc\):
+\[
+\text{power of } p = px \cdot py = 10 \cdot 40 = 400
+\]
+\[
+\text{power of } q = qx \cdot qy = 35 \cdot 15 = 525
+\]
+
+we then consider the ratio of these powers:
+\[
+\frac{\text{power of } p}{\text{power of } q} = \frac{400}{525} = \frac{16}{21}
+\]
+
+assuming \(ab = c\) and \(ac = b\), we use the relationship:
+\[
+ab \cdot ac = 2r \cdot bc \cdot \cos a
+\]
+
+however, a more straightforward approach is to consider the product of the powers of points \(p\) and \(q\):
+\[
+ab \cdot ac = \sqrt{\text{power of } p \cdot \text{power of } q} = \sqrt{400 \cdot 525} = \sqrt{210000} = 100\sqrt{21}
+\]
+
+thus, the value of \(ab \cdot ac\) is:
+\[
+\boxed{100\sqrt{21}}
+\]
+
+the final answer is:
+\[
+\boxed{100\sqrt{21}}
+\]

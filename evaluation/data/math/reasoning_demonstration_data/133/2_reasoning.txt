@@ -1,1 +1,920 @@
-Reasoning: 
+Reasoning: So i've got this problem about a pentagon with some given angles and some relationships between the others. let me try to make sense of it step by step.
+
+first, i know that the sum of the interior angles of a pentagon is... hmm, for any polygon, the sum of the interior angles is 
+(
+n
+−
+2
+)
+×
+18
+0
+∘
+(n−2)×180 
+∘
+ , where 
+n
+n is the number of sides. so for a pentagon, 
+n
+=
+5
+n=5, so it's 
+(
+5
+−
+2
+)
+×
+18
+0
+∘
+=
+3
+×
+18
+0
+∘
+=
+54
+0
+∘
+(5−2)×180 
+∘
+ =3×180 
+∘
+ =540 
+∘
+ . got it.
+
+now, the problem says that two of the interior angles, 
+a
+a and 
+b
+b, are 
+6
+0
+∘
+60 
+∘
+  and 
+8
+5
+∘
+85 
+∘
+  respectively. so, 
+a
+=
+6
+0
+∘
+a=60 
+∘
+  and 
+b
+=
+8
+5
+∘
+b=85 
+∘
+ . that means the sum of these two angles is 
+6
+0
+∘
++
+8
+5
+∘
+=
+14
+5
+∘
+60 
+∘
+ +85 
+∘
+ =145 
+∘
+ .
+
+next, it mentions that two of the remaining angles, 
+c
+c and 
+d
+d, are equal. so, 
+c
+=
+d
+c=d.
+
+the fifth angle, 
+e
+e, is 
+1
+5
+∘
+15 
+∘
+  more than twice 
+c
+c. so, 
+e
+=
+2
+c
++
+1
+5
+∘
+e=2c+15 
+∘
+ .
+
+since the sum of all interior angles is 
+54
+0
+∘
+540 
+∘
+ , i can set up an equation:
+
+a
++
+b
++
+c
++
+d
++
+e
+=
+54
+0
+∘
+a+b+c+d+e=540 
+∘
+ 
+substituting the known values:
+
+6
+0
+∘
++
+8
+5
+∘
++
+c
++
+c
++
+(
+2
+c
++
+1
+5
+∘
+)
+=
+54
+0
+∘
+60 
+∘
+ +85 
+∘
+ +c+c+(2c+15 
+∘
+ )=540 
+∘
+ 
+simplify the left side:
+
+6
+0
+∘
++
+8
+5
+∘
+=
+14
+5
+∘
+60 
+∘
+ +85 
+∘
+ =145 
+∘
+ 
+c
++
+c
+=
+2
+c
+c+c=2c
+2
+c
++
+1
+5
+∘
+=
+2
+c
++
+1
+5
+∘
+2c+15 
+∘
+ =2c+15 
+∘
+ 
+so, combining them:
+
+14
+5
+∘
++
+2
+c
++
+2
+c
++
+1
+5
+∘
+=
+54
+0
+∘
+145 
+∘
+ +2c+2c+15 
+∘
+ =540 
+∘
+ 
+wait, that seems off. let me check that again.
+
+actually, it should be:
+
+6
+0
+∘
++
+8
+5
+∘
++
+c
++
+c
++
+(
+2
+c
++
+1
+5
+∘
+)
+=
+54
+0
+∘
+60 
+∘
+ +85 
+∘
+ +c+c+(2c+15 
+∘
+ )=540 
+∘
+ 
+which is:
+
+14
+5
+∘
++
+2
+c
++
+2
+c
++
+1
+5
+∘
+=
+54
+0
+∘
+145 
+∘
+ +2c+2c+15 
+∘
+ =540 
+∘
+ 
+but that's not correct because 
+c
++
+c
+=
+2
+c
+c+c=2c and 
+e
+=
+2
+c
++
+1
+5
+∘
+e=2c+15 
+∘
+ , so total should be 
+14
+5
+∘
++
+2
+c
++
+2
+c
++
+1
+5
+∘
+145 
+∘
+ +2c+2c+15 
+∘
+ , but wait, no, it's 
+14
+5
+∘
++
+c
++
+d
++
+e
+145 
+∘
+ +c+d+e, and since 
+c
+=
+d
+c=d, it's 
+14
+5
+∘
++
+c
++
+c
++
+(
+2
+c
++
+1
+5
+∘
+)
+145 
+∘
+ +c+c+(2c+15 
+∘
+ ), which is 
+14
+5
+∘
++
+2
+c
++
+2
+c
++
+1
+5
+∘
+145 
+∘
+ +2c+2c+15 
+∘
+ , but that's not right because 
+e
+e is only 
+2
+c
++
+1
+5
+∘
+2c+15 
+∘
+ , not 
+2
+c
++
+1
+5
+∘
+2c+15 
+∘
+  plus something else.
+
+wait, perhaps i should just combine all terms properly.
+
+let's try again:
+
+6
+0
+∘
++
+8
+5
+∘
++
+c
++
+c
++
+(
+2
+c
++
+1
+5
+∘
+)
+=
+54
+0
+∘
+60 
+∘
+ +85 
+∘
+ +c+c+(2c+15 
+∘
+ )=540 
+∘
+ 
+combine like terms:
+
+60
++
+85
+=
+145
+60+85=145
+
+c
++
+c
+=
+2
+c
+c+c=2c
+
+2
+c
++
+1
+5
+∘
+2c+15 
+∘
+  remains.
+
+so total is:
+
+14
+5
+∘
++
+2
+c
++
+2
+c
++
+1
+5
+∘
+=
+54
+0
+∘
+145 
+∘
+ +2c+2c+15 
+∘
+ =540 
+∘
+ 
+wait, that doesn't make sense because 
+c
++
+c
++
+e
+=
+c
++
+c
++
+2
+c
++
+1
+5
+∘
+=
+4
+c
++
+1
+5
+∘
+c+c+e=c+c+2c+15 
+∘
+ =4c+15 
+∘
+ , but that would make the equation:
+
+14
+5
+∘
++
+4
+c
++
+1
+5
+∘
+=
+54
+0
+∘
+145 
+∘
+ +4c+15 
+∘
+ =540 
+∘
+ 
+yes, that seems better.
+
+so:
+
+14
+5
+∘
++
+4
+c
++
+1
+5
+∘
+=
+54
+0
+∘
+145 
+∘
+ +4c+15 
+∘
+ =540 
+∘
+ 
+combine the constants:
+
+16
+0
+∘
++
+4
+c
+=
+54
+0
+∘
+160 
+∘
+ +4c=540 
+∘
+ 
+now, subtract 
+16
+0
+∘
+160 
+∘
+  from both sides:
+
+4
+c
+=
+54
+0
+∘
+−
+16
+0
+∘
+4c=540 
+∘
+ −160 
+∘
+ 
+4
+c
+=
+38
+0
+∘
+4c=380 
+∘
+ 
+then, divide both sides by 4:
+
+c
+=
+38
+0
+∘
+4
+c= 
+4
+380 
+∘
+ 
+​
+ 
+c
+=
+9
+5
+∘
+c=95 
+∘
+ 
+so, 
+c
+=
+d
+=
+9
+5
+∘
+c=d=95 
+∘
+ , since they are equal.
+
+now, 
+e
+=
+2
+c
++
+1
+5
+∘
+=
+2
+×
+9
+5
+∘
++
+1
+5
+∘
+=
+19
+0
+∘
++
+1
+5
+∘
+=
+20
+5
+∘
+e=2c+15 
+∘
+ =2×95 
+∘
+ +15 
+∘
+ =190 
+∘
+ +15 
+∘
+ =205 
+∘
+ .
+
+let me verify that the sum is indeed 
+54
+0
+∘
+540 
+∘
+ :
+
+a
++
+b
++
+c
++
+d
++
+e
+=
+6
+0
+∘
++
+8
+5
+∘
++
+9
+5
+∘
++
+9
+5
+∘
++
+20
+5
+∘
+a+b+c+d+e=60 
+∘
+ +85 
+∘
+ +95 
+∘
+ +95 
+∘
+ +205 
+∘
+ 
+=
+(
+60
++
+85
+)
++
+(
+95
++
+95
+)
++
+205
+=(60+85)+(95+95)+205
+=
+14
+5
+∘
++
+19
+0
+∘
++
+20
+5
+∘
+=145 
+∘
+ +190 
+∘
+ +205 
+∘
+ 
+=
+(
+145
++
+190
+)
++
+205
+=(145+190)+205
+=
+33
+5
+∘
++
+20
+5
+∘
+=335 
+∘
+ +205 
+∘
+ 
+=
+54
+0
+∘
+=540 
+∘
+ 
+perfect, that checks out.
+
+now, the problem asks for the measure of the largest angle. let's see:
+
+- 
+a
+=
+6
+0
+∘
+a=60 
+∘
+ 
+
+- 
+b
+=
+8
+5
+∘
+b=85 
+∘
+ 
+
+- 
+c
+=
+9
+5
+∘
+c=95 
+∘
+ 
+
+- 
+d
+=
+9
+5
+∘
+d=95 
+∘
+ 
+
+- 
+e
+=
+20
+5
+∘
+e=205 
+∘
+ 
+
+so, the largest angle is 
+e
+=
+20
+5
+∘
+e=205 
+∘
+ .
+
+i think that's the answer.
+
+**final answer**
+
+20
+5
+∘
+205 
+∘
+ 
+​

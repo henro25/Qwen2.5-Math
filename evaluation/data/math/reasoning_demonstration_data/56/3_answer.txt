@@ -1,1 +1,32 @@
-Answer: 
+Answer: To evaluate the product \((n-1) \cdot n \cdot (n+1) \cdot (n+2) \cdot (n+3)\) where \(n = 2\), we start by substituting \(n = 2\) into the expression:
+
+\[
+(2-1) \cdot 2 \cdot (2+1) \cdot (2+2) \cdot (2+3)
+\]
+
+simplifying each term inside the parentheses:
+
+\[
+1 \cdot 2 \cdot 3 \cdot 4 \cdot 5
+\]
+
+next, we multiply these numbers step by step:
+
+\[
+1 \cdot 2 = 2
+\]
+\[
+2 \cdot 3 = 6
+\]
+\[
+6 \cdot 4 = 24
+\]
+\[
+24 \cdot 5 = 120
+\]
+
+thus, the product is:
+
+\[
+\boxed{120}
+\]

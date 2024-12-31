@@ -1,1 +1,255 @@
-Reasoning: 
+Reasoning: So i've got this problem here: the points (0,0), (a,11), and (b,37) are the vertices of an equilateral triangle, and i need to find the value of ab. okay, let's break this down.
+
+first off, i know that in an equilateral triangle, all sides are equal in length. so, the distance between (0,0) and (a,11) should be the same as the distance between (a,11) and (b,37), and also the same as the distance between (b,37) and (0,0).
+
+let's recall the distance formula between two points (x1, y1) and (x2, y2):
+
+distance = √[(x2 - x1)^2 + (y2 - y1)^2]
+
+so, let's calculate the distances:
+
+1. distance between (0,0) and (a,11):
+
+d1 = √[(a - 0)^2 + (11 - 0)^2] = √[a^2 + 121]
+
+2. distance between (a,11) and (b,37):
+
+d2 = √[(b - a)^2 + (37 - 11)^2] = √[(b - a)^2 + 676]
+
+3. distance between (b,37) and (0,0):
+
+d3 = √[(b - 0)^2 + (37 - 0)^2] = √[b^2 + 1369]
+
+since it's an equilateral triangle, d1 = d2 = d3.
+
+so, we have:
+
+√[a^2 + 121] = √[(b - a)^2 + 676] = √[b^2 + 1369]
+
+hmm, maybe i can set d1 = d2 and d1 = d3 separately and solve the equations.
+
+let's first set d1 = d2:
+
+√[a^2 + 121] = √[(b - a)^2 + 676]
+
+if i square both sides to eliminate the square roots:
+
+a^2 + 121 = (b - a)^2 + 676
+
+expand the right side:
+
+a^2 + 121 = b^2 - 2ab + a^2 + 676
+
+hmm, the a^2 terms cancel out:
+
+121 = b^2 - 2ab + 676
+
+let me rearrange:
+
+b^2 - 2ab + 676 - 121 = 0
+
+which simplifies to:
+
+b^2 - 2ab + 555 = 0
+
+alright, that's one equation.
+
+now, let's set d1 = d3:
+
+√[a^2 + 121] = √[b^2 + 1369]
+
+square both sides:
+
+a^2 + 121 = b^2 + 1369
+
+rearrange:
+
+a^2 - b^2 = 1369 - 121
+
+a^2 - b^2 = 1248
+
+i know that a^2 - b^2 can be factored as (a - b)(a + b) = 1248
+
+hmm, but i'm not sure if that helps directly. maybe i should look back at the first equation.
+
+from the first equation: b^2 - 2ab + 555 = 0
+
+let me solve for b in terms of a or vice versa.
+
+alternatively, maybe i can express a in terms of b or vice versa from one equation and substitute into the other.
+
+let me try solving the second equation for a^2:
+
+from a^2 - b^2 = 1248, so a^2 = b^2 + 1248
+
+now, plug this into the first equation: b^2 - 2ab + 555 = 0
+
+but a^2 = b^2 + 1248, so a = √(b^2 + 1248). that seems messy. maybe there's a better approach.
+
+wait, maybe i can use the property of equilateral triangles in coordinate geometry. there's a formula for the coordinates of the third vertex given two vertices and the fact that the triangle is equilateral. but i don't remember it off the top of my head.
+
+alternatively, perhaps i can use vectors or complex numbers to solve this, but that might be overkill for this problem.
+
+let me try another approach. since all sides are equal, the squared distances should be equal.
+
+so, d1^2 = d2^2 = d3^2
+
+from earlier:
+
+d1^2 = a^2 + 121
+
+d2^2 = (b - a)^2 + 676
+
+d3^2 = b^2 + 1369
+
+set d1^2 = d2^2:
+
+a^2 + 121 = (b - a)^2 + 676
+
+which simplifies to b^2 - 2ab + 555 = 0, as before.
+
+set d1^2 = d3^2:
+
+a^2 + 121 = b^2 + 1369
+
+which simplifies to a^2 - b^2 = 1248, as before.
+
+so, now i have a system of two equations:
+
+1. b^2 - 2ab + 555 = 0
+
+2. a^2 - b^2 = 1248
+
+maybe i can solve this system.
+
+from equation 2: a^2 = b^2 + 1248
+
+plug this into equation 1:
+
+b^2 - 2a b + 555 = 0
+
+but a^2 = b^2 + 1248, so a = √(b^2 + 1248)
+
+wait, that still seems messy.
+
+alternatively, maybe i can solve equation 2 for a^2 and substitute into equation 1.
+
+wait, equation 1 is in terms of a and b, while equation 2 relates a^2 and b^2. maybe i need to find another way.
+
+let me consider subtracting equation 1 from equation 2:
+
+(a^2 - b^2) - (b^2 - 2ab + 555) = 1248 - 0
+
+simplify:
+
+a^2 - b^2 - b^2 + 2ab - 555 = 1248
+
+a^2 - 2b^2 + 2ab - 555 = 1248
+
+but from equation 2, a^2 = b^2 + 1248, so plug that in:
+
+(b^2 + 1248) - 2b^2 + 2ab - 555 = 1248
+
+simplify:
+
+b^2 + 1248 - 2b^2 + 2ab - 555 = 1248
+
+- b^2 + 2ab + 693 = 1248
+
+now, rearrange:
+
+- b^2 + 2ab = 1248 - 693
+
+- b^2 + 2ab = 555
+
+multiply both sides by -1:
+
+b^2 - 2ab = -555
+
+wait, but from equation 1, we have b^2 - 2ab + 555 = 0, which implies b^2 - 2ab = -555, which matches this. so it's consistent, but i still need to find a way to solve for a and b.
+
+maybe i need to consider another approach. let's think about the properties of an equilateral triangle.
+
+in an equilateral triangle, the altitude can be found using the formula: h = (√3/2) * side.
+
+also, the centroid divides the altitude in a 2:1 ratio.
+
+but i'm not sure if that helps directly here.
+
+alternatively, maybe i can use rotation matrices. if i rotate one point around another by 60 degrees, i can find the third point.
+
+let me try that.
+
+suppose i rotate point (a,11) around (0,0) by 60 degrees to get (b,37).
+
+the rotation matrix for 60 degrees is:
+
+[ cos60  -sin60 ]
+
+[ sin60   cos60 ]
+
+cos60 = 0.5, sin60 = √3/2
+
+so, the rotation of (a,11) by 60 degrees around (0,0) would be:
+
+x' = a * 0.5 - 11 * (√3/2)
+
+y' = a * (√3/2) + 11 * 0.5
+
+and this should equal (b,37).
+
+so:
+
+b = 0.5a - (11√3)/2
+
+37 = (a√3)/2 + 5.5
+
+now, i can solve this system for a and b.
+
+from the second equation:
+
+37 - 5.5 = (a√3)/2
+
+31.5 = (a√3)/2
+
+multiply both sides by 2:
+
+63 = a√3
+
+so, a = 63 / √3 = 63√3 / 3 = 21√3
+
+now, plug a back into the first equation:
+
+b = 0.5*(21√3) - (11√3)/2
+
+b = (21√3)/2 - (11√3)/2 = (10√3)/2 = 5√3
+
+so, a = 21√3 and b = 5√3
+
+now, ab = (21√3)(5√3) = 105 * 3 = 315
+
+wait, that seems straightforward. but let me double-check if this makes sense.
+
+first, calculate the distances:
+
+d1 = distance between (0,0) and (21√3,11):
+
+d1 = √[(21√3)^2 + 11^2] = √[(441*3) + 121] = √[1323 + 121] = √1444 = 38
+
+d2 = distance between (21√3,11) and (5√3,37):
+
+d2 = √[(5√3 - 21√3)^2 + (37 - 11)^2] = √[(-16√3)^2 + 26^2] = √[(256*3) + 676] = √[768 + 676] = √1444 = 38
+
+d3 = distance between (5√3,37) and (0,0):
+
+d3 = √[(5√3)^2 + 37^2] = √[75 + 1369] = √1444 = 38
+
+yes, all sides are equal to 38, so it checks out.
+
+therefore, ab = 315.
+
+**final answer**
+
+315
+315
+​

@@ -1,1 +1,22 @@
-Answer: 
+Answer: To determine the largest number of students who can be awarded extra credit, we need to maximize the number of students scoring above the class mean. given that there are 107 students, we need to consider how the scores can be distributed.
+
+1. **understanding the mean**:
+   - the mean is the average score of all students.
+   - students scoring above this mean will receive extra credit.
+
+2. **maximizing students above the mean**:
+   - if one student scores significantly lower than the others, the mean can be pulled down, allowing more students to score above it.
+   - for example, if 106 students score 100 and 1 student scores 0, the mean score is calculated as follows:
+     \[
+     \text{mean} = \frac{106 \times 100 + 0}{107} = \frac{10600}{107} \approx 99.07
+     \]
+   - in this case, 106 students score above the mean of approximately 99.07.
+
+3. **impossibility of all students being above the mean**:
+   - it is impossible for all 107 students to be above the mean because the mean is the average score, and at least one student must be at or below the mean.
+
+therefore, the largest number of students who can be awarded extra credit is:
+
+\[
+\boxed{106}
+\]

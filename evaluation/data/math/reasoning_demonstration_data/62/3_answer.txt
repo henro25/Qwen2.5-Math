@@ -1,1 +1,47 @@
-Answer: 
+Answer: To determine the shape described by the equation \(\phi = c\) in spherical coordinates \((\rho, \theta, \phi)\), we need to understand the meaning of \(\phi\). \(\phi\) is the angle from the positive \(z\)-axis to the point. when \(\phi\) is constant, all points on the surface make the same angle \(c\) with the positive \(z\)-axis.
+
+this configuration describes a cone with its apex at the origin and its axis along the \(z\)-axis. the angle \(c\) is the half-angle between the axis and the surface of the cone.
+
+to confirm this, we can derive the cartesian coordinates from spherical coordinates:
+\[
+x = \rho \sin \phi \cos \theta, \quad y = \rho \sin \phi \sin \theta, \quad z = \rho \cos \phi
+\]
+given \(\phi = c\), we have:
+\[
+z = \rho \cos c
+\]
+and
+\[
+\rho = \sqrt{x^2 + y^2 + z^2}
+\]
+substituting \(z = \rho \cos c\) into the equation for \(\rho\):
+\[
+z = \sqrt{x^2 + y^2 + z^2} \cos c
+\]
+squaring both sides:
+\[
+z^2 = (x^2 + y^2 + z^2) \cos^2 c
+\]
+rearranging terms:
+\[
+z^2 (1 - \cos^2 c) = x^2 \cos^2 c + y^2 \cos^2 c
+\]
+using \(1 - \cos^2 c = \sin^2 c\):
+\[
+z^2 \sin^2 c = x^2 \cos^2 c + y^2 \cos^2 c
+\]
+dividing both sides by \(\cos^2 c\):
+\[
+\frac{z^2 \sin^2 c}{\cos^2 c} = x^2 + y^2
+\]
+simplifying:
+\[
+x^2 + y^2 = z^2 \tan^2 c
+\]
+this is the equation of a cone with half-angle \(c\).
+
+therefore, the shape described by \(\phi = c\) is a cone.
+
+\[
+\boxed{f}
+\]

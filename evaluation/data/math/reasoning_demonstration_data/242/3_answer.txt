@@ -1,1 +1,44 @@
-Answer: 
+Answer: Given the sum and difference of two numbers, we can set up the following system of equations:
+
+\[
+\begin{cases}
+x + y = 19 \\
+x - y = 5
+\end{cases}
+\]
+
+adding these two equations:
+
+\[
+(x + y) + (x - y) = 19 + 5 \implies 2x = 24 \implies x = 12
+\]
+
+substituting \( x = 12 \) back into the sum equation:
+
+\[
+12 + y = 19 \implies y = 19 - 12 \implies y = 7
+\]
+
+the product of the two numbers is:
+
+\[
+12 \times 7 = 84
+\]
+
+to verify, we can use the identity for the product of the roots of a quadratic equation:
+
+\[
+(x + y)(x - y) = x^2 - y^2
+\]
+
+given \( x + y = 19 \) and \( x - y = 5 \):
+
+\[
+19^2 - 5^2 = 361 - 25 = 336 \implies 4xy = 336 \implies xy = \frac{336}{4} = 84
+\]
+
+thus, the product of the two numbers is:
+
+\[
+\boxed{84}
+\]

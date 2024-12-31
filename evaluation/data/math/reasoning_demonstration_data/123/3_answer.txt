@@ -1,1 +1,19 @@
-Answer: 
+Answer: Given vectors \(\mathbf{a} = \begin{pmatrix} -7 \\ 0 \\ 1 \end{pmatrix}\) and \(\mathbf{b} = \begin{pmatrix} 4 \\ 2 \\ -1 \end{pmatrix}\), we need to find \(\mathbf{a} - 3 \mathbf{b}\).
+
+first, we calculate \(3 \mathbf{b}\):
+
+\[
+3 \mathbf{b} = 3 \begin{pmatrix} 4 \\ 2 \\ -1 \end{pmatrix} = \begin{pmatrix} 3 \cdot 4 \\ 3 \cdot 2 \\ 3 \cdot (-1) \end{pmatrix} = \begin{pmatrix} 12 \\ 6 \\ -3 \end{pmatrix}
+\]
+
+next, we subtract \(3 \mathbf{b}\) from \(\mathbf{a}\):
+
+\[
+\mathbf{a} - 3 \mathbf{b} = \begin{pmatrix} -7 \\ 0 \\ 1 \end{pmatrix} - \begin{pmatrix} 12 \\ 6 \\ -3 \end{pmatrix} = \begin{pmatrix} -7 - 12 \\ 0 - 6 \\ 1 - (-3) \end{pmatrix} = \begin{pmatrix} -19 \\ -6 \\ 4 \end{pmatrix}
+\]
+
+thus, the final answer is:
+
+\[
+\boxed{\begin{pmatrix} -19 \\ -6 \\ 4 \end{pmatrix}}
+\]

@@ -1,1 +1,26 @@
-Answer: 
+Answer: Given that \( x \) and \( y \) are inversely proportional, we have \( x \cdot y = k \) for some constant \( k \).
+
+when the sum of \( x \) and \( y \) is 42, and \( x \) is twice \( y \), we have:
+\[
+x + y = 42 \quad \text{and} \quad x = 2y
+\]
+substituting \( x = 2y \) into the sum equation:
+\[
+2y + y = 42 \implies 3y = 42 \implies y = 14
+\]
+then, \( x = 2y = 2 \cdot 14 = 28 \).
+
+to find the constant \( k \):
+\[
+k = x \cdot y = 28 \cdot 14 = 392
+\]
+
+now, when \( x = -8 \), we use the inverse proportionality:
+\[
+x \cdot y = k \implies -8 \cdot y = 392 \implies y = \frac{392}{-8} = -49
+\]
+
+thus, the value of \( y \) when \( x = -8 \) is:
+\[
+\boxed{-49}
+\]

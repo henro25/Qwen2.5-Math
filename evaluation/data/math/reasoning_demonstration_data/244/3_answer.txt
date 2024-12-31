@@ -1,1 +1,27 @@
-Answer: 
+Answer: Given that the point \((4,7)\) is on the graph of \(y = f(x)\), we know that \(f(4) = 7\).
+
+we need to find a point on the graph of \(2y = 3f(4x) + 5\). first, we express \(y\) in terms of \(f(4x)\):
+
+\[
+2y = 3f(4x) + 5 \implies y = \frac{3f(4x) + 5}{2}
+\]
+
+to use the known value \(f(4) = 7\), we set \(4x = 4\):
+
+\[
+4x = 4 \implies x = 1
+\]
+
+substituting \(x = 1\) into the equation for \(y\):
+
+\[
+y = \frac{3f(4 \cdot 1) + 5}{2} = \frac{3f(4) + 5}{2} = \frac{3 \cdot 7 + 5}{2} = \frac{21 + 5}{2} = \frac{26}{2} = 13
+\]
+
+thus, the point \((1, 13)\) is on the graph of \(2y = 3f(4x) + 5\). the sum of the coordinates of this point is:
+
+\[
+1 + 13 = 14
+\]
+
+therefore, the sum of the coordinates is \(\boxed{14}\).

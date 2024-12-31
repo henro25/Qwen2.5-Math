@@ -1,1 +1,41 @@
-Answer: 
+Answer: To find the length of the parametric curve described by \((x, y) = (2 \sin t, 2 \cos t)\) from \(t = 0\) to \(t = \pi\), we use the formula for the length of a parametric curve:
+
+\[
+l = \int_{a}^{b} \sqrt{\left( \frac{dx}{dt} \right)^2 + \left( \frac{dy}{dt} \right)^2} \, dt
+\]
+
+given \(x = 2 \sin t\) and \(y = 2 \cos t\), we first compute the derivatives:
+
+\[
+\frac{dx}{dt} = 2 \cos t \quad \text{and} \quad \frac{dy}{dt} = -2 \sin t
+\]
+
+next, we square these derivatives and add them:
+
+\[
+\left( \frac{dx}{dt} \right)^2 + \left( \frac{dy}{dt} \right)^2 = (2 \cos t)^2 + (-2 \sin t)^2 = 4 \cos^2 t + 4 \sin^2 t
+\]
+
+using the pythagorean identity \(\cos^2 t + \sin^2 t = 1\), we get:
+
+\[
+4 (\cos^2 t + \sin^2 t) = 4 \cdot 1 = 4
+\]
+
+thus, the integrand simplifies to:
+
+\[
+\sqrt{4} = 2
+\]
+
+the length \(l\) is then:
+
+\[
+l = \int_{0}^{\pi} 2 \, dt = 2 \int_{0}^{\pi} dt = 2 \left[ t \right]_{0}^{\pi} = 2 (\pi - 0) = 2\pi
+\]
+
+therefore, the length of the parametric curve is:
+
+\[
+\boxed{2\pi}
+\]

@@ -1,1 +1,51 @@
-Reasoning: 
+Reasoning: Okay, so I've got this problem about the game of Frood. It seems like there are two ways to earn points: by dropping froods and by eating them. Dropping froods gives a score that's the sum of the first n positive integers, and eating froods gives 10 times the number of froods eaten. I need to find the smallest number of froods where dropping them gives more points than eating them.
+
+First, I should understand what it means to drop n froods. It says that dropping n froods gives the sum of the first n positive integers. I know that the sum of the first n positive integers is given by the formula n(n + 1)/2. So, for example, if I drop 5 froods, the score is 5*6/2 = 15 points, which matches the example given.
+
+Eating froods is simpler: it's just 10 times the number of froods eaten. So eating 5 froods gives 10*5 = 50 points, as shown in the example.
+
+Now, I need to find the least number of froods, n, where dropping them gives more points than eating them. In other words, I need to find the smallest n such that the sum of the first n positive integers is greater than 10n.
+
+So, setting up the inequality: n(n + 1)/2 > 10n.
+
+I should solve this inequality for n. Maybe I can simplify it first. Let's multiply both sides by 2 to get rid of the denominator:
+
+n(n + 1) > 20n.
+
+Now, expand the left side: n^2 + n > 20n.
+
+Subtract 20n from both sides: n^2 + n - 20n > 0, which simplifies to n^2 - 19n > 0.
+
+So, n^2 - 19n > 0.
+
+I can factor this: n(n - 19) > 0.
+
+This inequality holds true when both factors are positive or both are negative.
+
+Case 1: n > 0 and n - 19 > 0, which means n > 19.
+
+Case 2: n < 0 and n - 19 < 0, which means n < 0.
+
+But since n represents the number of froods, it can't be negative. So, the only relevant solution is n > 19.
+
+Therefore, the smallest integer n that satisfies this is n = 20.
+
+But wait, I should check if n = 19 satisfies the original inequality.
+
+For n = 19:
+
+Sum of first 19 integers: 19*20/2 = 190.
+
+Eating 19 froods: 10*19 = 190.
+
+So, 190 is not greater than 190; it's equal. Therefore, n = 19 is not sufficient.
+
+For n = 20:
+
+Sum of first 20 integers: 20*21/2 = 210.
+
+Eating 20 froods: 10*20 = 200.
+
+210 > 200, so n = 20 is the smallest number where dropping froods gives more points than eating them.
+
+I think that's the answer. To summarize, I set up the inequality based on the given scoring methods, solved it, and verified with n = 19 and n = 20 to ensure that 20 is indeed the least number of froods required.

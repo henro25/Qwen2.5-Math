@@ -1,1 +1,25 @@
-Answer: 
+Answer: To find the product of all real numbers that are doubled when added to their reciprocals, we start with the equation:
+
+\[ x + \frac{1}{x} = 2x \]
+
+subtracting \( x \) from both sides, we get:
+
+\[ \frac{1}{x} = x \]
+
+this implies:
+
+\[ x^2 = 1 \]
+
+thus, the solutions are:
+
+\[ x = 1 \quad \text{and} \quad x = -1 \]
+
+the product of these solutions is:
+
+\[ 1 \times (-1) = -1 \]
+
+therefore, the product of all real numbers that are doubled when added to their reciprocals is:
+
+\[
+\boxed{-1}
+\]

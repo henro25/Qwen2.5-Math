@@ -1,1 +1,49 @@
-Answer: 
+Answer: To find the area of the region described by \( x \ge 0 \), \( y \ge 0 \), and \( 100 \{x\} \ge \lfloor x \rfloor + \lfloor y \rfloor \), we start by expressing \( x \) and \( y \) in terms of their integer and fractional parts:
+\[
+x = m + \alpha, \quad y = n + \beta,
+\]
+where \( m = \lfloor x \rfloor \), \( n = \lfloor y \rfloor \), and \( 0 \leq \alpha, \beta < 1 \). the inequality becomes:
+\[
+100 \alpha \ge m + n.
+\]
+this implies:
+\[
+\alpha \ge \frac{m + n}{100}.
+\]
+the area for each pair \((m, n)\) is:
+\[
+1 - \frac{m + n}{100}.
+\]
+summing over all valid pairs \((m, n)\) where \( m + n \le 99 \), the total area is:
+\[
+a = \sum_{m=0}^{99} \sum_{n=0}^{99 - m} \left(1 - \frac{m + n}{100}\right).
+\]
+this can be simplified to:
+\[
+a = \frac{1}{200} \sum_{m=0}^{99} (100 - m)(101 - m).
+\]
+expanding and summing:
+\[
+(100 - m)(101 - m) = 10,100 - 201m + m^2,
+\]
+\[
+a = \frac{1}{200} \left( \sum_{m=0}^{99} 10,100 - 201 \sum_{m=0}^{99} m + \sum_{m=0}^{99} m^2 \right).
+\]
+using the formulas for the sums:
+\[
+\sum_{m=0}^{99} 10,100 = 1,010,000,
+\]
+\[
+\sum_{m=0}^{99} m = 4,950,
+\]
+\[
+\sum_{m=0}^{99} m^2 = 328,350,
+\]
+we get:
+\[
+a = \frac{1}{200} (1,010,000 - 201 \times 4,950 + 328,350) = \frac{1}{200} \times 343,400 = 1,717.
+\]
+thus, the area of the region is:
+\[
+\boxed{1717}.
+\]

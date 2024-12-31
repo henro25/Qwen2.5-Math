@@ -1,1 +1,316 @@
-Reasoning: 
+Reasoning: So i have this problem here: "how many even integers between 4000 and 7000 have four different digits?" okay, let's break this down step by step.
+
+first, i need to understand the range we're dealing with. the numbers are between 4000 and 7000. so, 4000 is included, and 7000 is not, because it's exactly 7000, and the upper limit is up to but not including 7000. so, the numbers range from 4000 to 6999.
+
+next, the numbers need to be even. an even number ends with 0, 2, 4, 6, or 8. so, the last digit has to be one of these.
+
+also, all four digits must be different. that means no repeating digits in the number.
+
+alright, so let's think about how to count these numbers.
+
+first, let's consider the thousands digit. since the number is between 4000 and 6999, the thousands digit can be 4, 5, or 6. wait, but 7000 is not included, so up to 6999. so, thousands digit is 4, 5, or 6.
+
+wait a minute, but 7000 is not included, but 6999 is included. so, thousands digit is 4, 5, or 6.
+
+now, the last digit has to be even: 0, 2, 4, 6, or 8.
+
+but, since all digits are different, we have to make sure that the last digit is not the same as the thousands digit.
+
+so, let's think about this systematically.
+
+let's fix the thousands digit first and then consider the possible choices for the last digit.
+
+case 1: thousands digit is 4.
+
+then, the last digit can be 0, 2, 6, or 8. it can't be 4 because that's already the thousands digit.
+
+so, last digit options: 0, 2, 6, 8. that's 4 options.
+
+now, for the hundreds and tens digits, they can be any digits except the thousands and the last digit, and they have to be different from each other.
+
+so, after choosing the thousands and the last digit, we have 8 remaining digits for the hundreds place (since two digits are already used), and then 7 remaining digits for the tens place.
+
+wait, no. let's see:
+
+total digits available: 0-9, but thousands digit is already fixed, and last digit is fixed, so 8 digits left for the hundreds and tens places, with no repetition.
+
+so, for the hundreds place: 8 choices (excluding thousands and last digits).
+
+for the tens place: 7 choices (excluding thousands, last, and hundreds digits).
+
+so, for this case: thousands digit = 4, last digit = 0,2,6,8 (4 options), and then hundreds and tens digits: 8 and 7 choices respectively.
+
+so, total for this case: 4 * 8 * 7 = 224.
+
+wait, but there's a catch here. if the thousands digit is 4 and the last digit is 0, then the number is still between 4000 and 7000, and all digits are different, so it's fine.
+
+similarly, if last digit is 2,6, or 8, same logic applies.
+
+so, 4 * 8 * 7 = 224 seems correct for this case.
+
+case 2: thousands digit is 5.
+
+similarly, last digit can be 0,2,4,6,8, but excluding 5, which is already the thousands digit.
+
+so, last digit options: 0,2,4,6,8. that's 5 options.
+
+now, for hundreds and tens digits: they can be any digits except thousands and last digits.
+
+so, thousands digit is 5, last digit is one of 0,2,4,6,8.
+
+so, for hundreds digit: 8 choices (excluding 5 and the last digit).
+
+for tens digit: 7 choices (excluding thousands, last, and hundreds digits).
+
+so, total for this case: 5 * 8 * 7 = 280.
+
+case 3: thousands digit is 6.
+
+now, last digit can be 0,2,4,8, but not 6.
+
+so, last digit options: 0,2,4,8. that's 4 options.
+
+again, for hundreds and tens digits: excluding thousands and last digits.
+
+so, hundreds digit: 8 choices, tens digit: 7 choices.
+
+so, total for this case: 4 * 8 * 7 = 224.
+
+now, adding up all the cases: 224 (case 1) + 280 (case 2) + 224 (case 3) = 728.
+
+wait, but let's double-check this.
+
+is there any overlap or something i'm missing?
+
+alternatively, perhaps there's a better way to approach this.
+
+another way: total number of 4-digit even numbers between 4000 and 6999 with distinct digits.
+
+first, find the total number of 4-digit numbers between 4000 and 6999: from 4000 to 6999, inclusive.
+
+total numbers: 6999 - 4000 + 1 = 3000 numbers.
+
+but only even numbers, so half of them, which is 1500.
+
+but not all of these have distinct digits.
+
+so, this approach isn't directly helpful.
+
+alternatively, maybe think about the thousands digit, then last digit, then the middle digits.
+
+which is similar to what i did earlier.
+
+wait, but perhaps i can think in terms of permutations.
+
+total number of 4-digit even numbers between 4000 and 6999 with distinct digits.
+
+first, thousands digit: 4,5,6.
+
+last digit: even digits: 0,2,4,6,8.
+
+but need to ensure that thousands digit and last digit are different.
+
+let me consider all possibilities.
+
+total possibilities for thousands and last digits:
+
+- thousands digit 4: last digit can be 0,2,6,8 (can't be 4).
+
+- thousands digit 5: last digit can be 0,2,4,6,8 (can't be 5).
+
+- thousands digit 6: last digit can be 0,2,4,8 (can't be 6).
+
+total combinations for thousands and last digits: 4 + 5 + 4 = 13.
+
+wait, is that correct? let's see:
+
+- for thousands digit 4: 4 options for last digit.
+
+- for thousands digit 5: 5 options for last digit.
+
+- for thousands digit 6: 4 options for last digit.
+
+so, total thousands and last digit combinations: 4 + 5 + 4 = 13.
+
+now, for each of these 13 combinations, the middle two digits can be any of the remaining 8 digits, with no repetition.
+
+so, for each of these 13, the hundreds and tens digits can be chosen in p(8,2) ways, which is 8 * 7 = 56.
+
+therefore, total numbers: 13 * 56 = 728.
+
+wait, but earlier i got 224 + 280 + 224 = 728, so it matches.
+
+but just to make sure, let's think if there are any restrictions i missed.
+
+for example, when the thousands digit is 4 and the last digit is 0, is that acceptable? yes, 4000 is included, but digits are distinct: 4,0, any middle digits different from 4 and 0.
+
+wait, but 4000 has two zeros, so that's not allowed because digits must be different. wait, but in our earlier calculation, when thousands digit is 4 and last digit is 0, the middle digits are chosen from the remaining 8 digits, excluding 4 and 0, so they are different.
+
+wait, but 4000 would have middle digits as 0, but if thousands digit is 4 and last digit is 0, and middle digits are chosen from 8 remaining digits, none of which are 4 or 0, so the number would be something like 4x x0, where x are digits not 4 or 0, so all digits are distinct.
+
+wait, but hold on: 4000 has two zeros, which is not allowed, but in our calculation, middle digits are chosen from 8 digits excluding 4 and 0, so the middle digits can't be 0, so numbers like 4000 are excluded, which is correct because we require all digits to be different.
+
+so, our calculation seems accurate.
+
+alternatively, perhaps there's another way to think about it.
+
+let me try to calculate the total number of 4-digit even numbers between 4000 and 6999 with distinct digits.
+
+first, thousands digit: 4,5,6.
+
+last digit: even digits: 0,2,4,6,8.
+
+but thousands digit and last digit must be different.
+
+let me consider the total possibilities for thousands and last digits:
+
+- thousands digit 4: last digit can be 0,2,6,8 (4 options).
+
+- thousands digit 5: last digit can be 0,2,4,6,8 (5 options).
+
+- thousands digit 6: last digit can be 0,2,4,8 (4 options).
+
+total: 4 + 5 + 4 = 13 combinations.
+
+now, for each of these combinations, the middle two digits can be any of the remaining 8 digits, with no repetition.
+
+so, for each combination, number of possibilities: p(8,2) = 8 * 7 = 56.
+
+therefore, total numbers: 13 * 56 = 728.
+
+this matches my earlier calculation.
+
+alternatively, perhaps there's a way to calculate this using permutations directly.
+
+total number of 4-digit even numbers between 4000 and 6999 with distinct digits.
+
+let me think in terms of permutations of digits.
+
+first, choose the thousands digit: 4,5,6.
+
+then, choose the last digit: even digits excluding thousands digit.
+
+then, choose the hundreds and tens digits from the remaining digits.
+
+which is similar to what i did earlier.
+
+alternatively, maybe i can think of it as:
+
+total number of 4-digit numbers between 4000 and 6999: thousands digit is 4,5,6.
+
+total 4-digit even numbers: last digit is even: 0,2,4,6,8.
+
+but need to ensure that thousands and last digits are different, and all digits are distinct.
+
+so, perhaps the total number is equal to the number of ways to choose thousands and last digits appropriately, multiplied by the permutations of the middle digits.
+
+which is what i did.
+
+alternatively, perhaps i can think of it as:
+
+total number of 4-digit numbers between 4000 and 6999: thousands digit is 4,5,6.
+
+total even numbers: half of them, which is 1500.
+
+but then, subtract the numbers that have repeating digits.
+
+but that seems more complicated.
+
+alternatively, perhaps i can use inclusion-exclusion, but that might be more involved.
+
+given that my earlier calculation seems consistent, and matches in two different ways, i think 728 is the correct answer.
+
+wait, but to be thorough, perhaps i can try calculating it another way.
+
+let me try calculating the total number of 4-digit even numbers with distinct digits between 4000 and 6999.
+
+first, thousands digit: 4,5,6.
+
+last digit: even digits: 0,2,4,6,8.
+
+need to ensure thousands and last digits are different.
+
+so, total combinations for thousands and last digits: 4 + 5 + 4 = 13, as before.
+
+then, for the middle two digits: choose from the remaining 8 digits, no repetition.
+
+so, 8 * 7 = 56.
+
+total numbers: 13 * 56 = 728.
+
+alternatively, perhaps i can think of it as:
+
+total number of 4-digit even numbers with distinct digits between 4000 and 6999.
+
+first, choose thousands digit: 4,5,6.
+
+then, choose last digit: even digits excluding thousands digit.
+
+then, choose hundreds and tens digits from remaining digits.
+
+which is the same as above.
+
+alternatively, perhaps i can think of it in terms of permutations.
+
+total number of 4-digit even numbers with distinct digits between 4000 and 6999.
+
+let me consider the thousands digit and last digit together.
+
+thousands digit: 4,5,6.
+
+last digit: even digits excluding thousands digit.
+
+total combinations: 4 + 5 + 4 = 13.
+
+then, for the middle two digits: choose any 2 distinct digits from the remaining 8 digits.
+
+so, 8 choose 2, and then arrange them in order: p(8,2) = 8 * 7 = 56.
+
+so, total numbers: 13 * 56 = 728.
+
+this seems consistent.
+
+alternatively, perhaps i can think of it as:
+
+total number of 4-digit even numbers with distinct digits between 4000 and 6999.
+
+first, choose thousands digit: 3 choices (4,5,6).
+
+then, choose last digit: 5 even digits (0,2,4,6,8), but excluding thousands digit.
+
+so, if thousands digit is 4: last digit can be 0,2,6,8 (4 options).
+
+if thousands digit is 5: last digit can be 0,2,4,6,8 (5 options).
+
+if thousands digit is 6: last digit can be 0,2,4,8 (4 options).
+
+total combinations: 4 + 5 + 4 = 13.
+
+then, choose hundreds and tens digits from the remaining 8 digits, no repetition: 8 * 7 = 56.
+
+total numbers: 13 * 56 = 728.
+
+yes, this seems solid.
+
+alternatively, perhaps i can think of it in terms of total permutations.
+
+total number of 4-digit even numbers with distinct digits between 4000 and 6999.
+
+first, thousands digit: 4,5,6.
+
+last digit: even digits excluding thousands digit.
+
+middle digits: any of the remaining digits, no repetition.
+
+so, total possibilities: thousands digit (3 choices) * last digit (depends on thousands digit) * middle digits (8 * 7).
+
+which again leads to 13 * 56 = 728.
+
+i think i've covered this from multiple angles, and the answer consistently comes out to 728.
+
+so, i conclude that the number of even integers between 4000 and 7000 with four different digits is 728.
+
+**final answer**
+
+the number of even integers between 4000 and 7000 with four different digits is \boxed{728}.
+

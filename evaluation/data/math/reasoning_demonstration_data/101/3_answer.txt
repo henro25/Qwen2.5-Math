@@ -1,1 +1,22 @@
-Answer: 
+Answer: To compute \(\arctan (\tan 65^\circ - 2 \tan 40^\circ)\) and express the answer in degrees as an angle between \(0^\circ\) and \(180^\circ\), we proceed as follows:
+
+1. calculate \(\tan 65^\circ\) and \(\tan 40^\circ\):
+   \[
+   \tan 65^\circ \approx 2.1445, \quad \tan 40^\circ \approx 0.8391
+   \]
+
+2. compute the expression inside the arctan:
+   \[
+   \tan 65^\circ - 2 \tan 40^\circ = 2.1445 - 2 \times 0.8391 = 2.1445 - 1.6782 = 0.4663
+   \]
+
+3. find \(\arctan(0.4663)\):
+   \[
+   \arctan(0.4663) \approx 25^\circ
+   \]
+
+since \(25^\circ\) is within the range \(0^\circ\) to \(180^\circ\), and considering the properties of the arctangent function, the final answer is:
+
+\[
+\boxed{25^\circ}
+\]

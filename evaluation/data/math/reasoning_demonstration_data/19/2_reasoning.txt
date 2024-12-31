@@ -1,1 +1,51 @@
-Reasoning: 
+Reasoning: So i need to calculate 98 times 102. hmm, i know that multiplying two numbers can sometimes be tricky, especially when they're not round numbers. but maybe there's a smarter way to do this without just multiplying them directly like i did in school.
+
+first, i recall that 98 is close to 100, and 102 is also close to 100. maybe i can use that fact to make the multiplication easier. i remember something about using the difference of squares or something like that. let me think.
+
+oh, right! there's a formula for multiplying two numbers that are equidistant from a common number. i think it's called the difference of squares formula. the formula is (a - b)(a + b) = a² - b². does that apply here?
+
+well, in this case, 98 is 100 minus 2, and 102 is 100 plus 2. so, if i let a be 100 and b be 2, then 98 is (100 - 2) and 102 is (100 + 2). so, according to the formula, (100 - 2)(100 + 2) should equal 100² minus 2².
+
+let me calculate that: 100 squared is 10,000, and 2 squared is 4. so, 10,000 minus 4 equals 9,996. does that mean 98 times 102 is 9,996?
+
+wait a minute, i feel like i might be missing something. let me double-check this. maybe i should try multiplying them the traditional way to confirm.
+
+alright, let's do 98 times 102 the long way. i know that 102 is 100 plus 2, so i can break it down like this: 98 times 100 plus 98 times 2.
+
+first, 98 times 100 is straightforward—it's just 9,800.
+
+next, 98 times 2 is 196.
+
+now, add those two results together: 9,800 plus 196 equals 9,996.
+
+okay, so that matches what i got using the difference of squares method. it looks like both methods give me the same answer, which is a good sign.
+
+but let me try another way to be extra sure. maybe i can use the distributive property or something like that.
+
+so, 98 times 102. i can think of 98 as (100 - 2) and 102 as it is, or maybe break it down differently.
+
+wait, another way is to consider 98 times 100 plus 98 times 2, which is what i did earlier. yeah, that seems consistent.
+
+alternatively, i could think of 100 times 100, which is 10,000, and then adjust for the differences. since 98 is 2 less than 100 and 102 is 2 more than 100, maybe there's a way to account for that.
+
+let me try this: (100 - 2)(100 + 2). that's exactly what i did before, and it gave me 9,996.
+
+i think i've confirmed it enough times. i'm pretty confident that 98 times 102 is 9,996.
+
+but just to be thorough, maybe i can use a calculator to check, but since this is a math problem, i should probably rely on my calculations.
+
+alternatively, i can think of it in terms of area. if i have a rectangle that's 98 units by 102 units, the area should be 98 times 102.
+
+imagine expanding the rectangle: 100 units by 100 units would be 10,000 square units. but since one side is 2 units less and the other is 2 units more, the area changes accordingly.
+
+wait, maybe i can visualize it like this: a 100 by 100 square, minus a 2 by 100 strip and plus a 2 by 98 strip, or something like that. this is getting complicated, and i might be overthinking it.
+
+let me go back to the original methods i used. both the difference of squares and the distributive property gave me the same answer, and they make sense mathematically. i think that's good enough.
+
+so, final answer: 98 times 102 is 9,996.
+
+**final answer**
+
+9996
+9996
+​

@@ -1,1 +1,76 @@
 Reasoning: 
+So i have this quadratic equation here: 2x² - 5x - 4 = 0. i need to find its roots in the form x = (m ± √n)/p, where m, n, and p are positive integers with no common factors other than 1. and specifically, i need to find the value of n.
+
+first off, i remember that for a quadratic equation of the form ax² + bx + c = 0, the roots can be found using the quadratic formula: x = (-b ± √(b² - 4ac)) / (2a). that seems like the way to go here.
+
+so, in this equation, a = 2, b = -5, and c = -4. plugging these into the quadratic formula:
+
+x = -(-5) ± √((-5)² - 4*2*(-4)) / (2*2)
+
+simplifying that:
+
+x = 5 ± √(25 - 4*2*(-4)) / 4
+
+wait, the expression inside the square root is the discriminant, which is b² - 4ac. let me calculate that carefully.
+
+first, b² = (-5)² = 25.
+
+then, 4ac = 4*2*(-4) = 8*(-4) = -32.
+
+so, b² - 4ac = 25 - (-32) = 25 + 32 = 57.
+
+therefore, the expression under the square root is 57, which is √57.
+
+so, the roots are x = (5 ± √57)/4.
+
+now, the problem states that the roots can be written in the form (m ± √n)/p, where m, n, and p are positive integers with a greatest common divisor of 1.
+
+in my expression, m is 5, n is 57, and p is 4. but i need to make sure that m, n, and p have no common factors other than 1.
+
+let's check the greatest common divisor (gcd) of 5, 57, and 4.
+
+first, gcd of 5 and 4 is 1, since 5 is prime and doesn't divide 4.
+
+then, gcd of 1 and 57 is still 1.
+
+so, 5, 57, and 4 have a gcd of 1, which satisfies the condition.
+
+therefore, n is 57.
+
+wait a minute, but the problem specifically asks for n, which is under the square root, and i have √57.
+
+is there anything else i need to consider? maybe i should check if 57 can be simplified further, like if it has any square factors.
+
+let's factor 57: 57 = 3 * 19.
+
+both 3 and 19 are prime numbers, so √57 cannot be simplified further. that means √57 is already in its simplest radical form.
+
+therefore, n is indeed 57.
+
+just to make sure, let me recap:
+
+given 2x² - 5x - 4 = 0,
+
+using quadratic formula: x = [5 ± √(25 - 4*2*(-4))]/4 = [5 ± √(25 + 32)]/4 = [5 ± √57]/4.
+
+since 5, 57, and 4 have no common factors other than 1, n is 57.
+
+i don't think there's any other step i need to take here. it seems straightforward.
+
+maybe i should also consider if there's another way to approach this problem, just to double-check.
+
+alternatively, i could try factoring the quadratic, but 2x² - 5x - 4 doesn't look easily factorable with integer coefficients. let me see:
+
+looking for two numbers that multiply to 2*(-4) = -8 and add up to -5.
+
+possible pairs: -8 and 1 (sum -7), -4 and 2 (sum -2), -2 and 4 (sum 2). none of these add up to -5.
+
+so, factoring doesn't seem feasible here, which confirms that using the quadratic formula is the right approach.
+
+therefore, i'm confident that n is 57.
+
+**final answer**
+
+57
+57
+​

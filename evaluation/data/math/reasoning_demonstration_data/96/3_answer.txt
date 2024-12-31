@@ -1,1 +1,61 @@
-Answer: 
+Answer: First, we find the area of triangle \(abc\) using the formula for the area of a triangle given its vertices:
+
+\[
+\text{area} = \frac{1}{2} \left| x_a(y_b - y_c) + x_b(y_c - y_a) + x_c(y_a - y_b) \right|
+\]
+
+plugging in the coordinates \(a(0,8)\), \(b(2,0)\), and \(c(8,0)\):
+
+\[
+\text{area} = \frac{1}{2} \left| 0(0 - 0) + 2(0 - 8) + 8(8 - 0) \right| = \frac{1}{2} \left| 0 - 16 + 64 \right| = \frac{1}{2} \times 48 = 24
+\]
+
+we need a line through \(b\) that cuts the area of the triangle in half, i.e., 12 square units. we consider the line through \(b\) intersecting \(ac\) at some point \(d(x, y)\).
+
+the equation of line \(ac\) is found using the points \(a(0,8)\) and \(c(8,0)\):
+
+\[
+\text{slope of } ac = \frac{0 - 8}{8 - 0} = -1 \quad \text{and} \quad \text{equation: } y = -x + 8
+\]
+
+any point \(d\) on \(ac\) is of the form \((x, -x + 8)\). we use the area formula for triangle \(abd\):
+
+\[
+\text{area of } \triangle abd = \frac{1}{2} \left| x_a(y_b - y_d) + x_b(y_d - y_a) + x_d(y_a - y_b) \right|
+\]
+
+plugging in \(a(0,8)\), \(b(2,0)\), and \(d(x, -x + 8)\):
+
+\[
+\text{area} = \frac{1}{2} \left| 0(0 - (-x + 8)) + 2((-x + 8) - 8) + x(8 - 0) \right| = \frac{1}{2} \left| 0 + 2(-x) + 8x \right| = \frac{1}{2} \left| 6x \right| = 3|x|
+\]
+
+setting the area equal to 12:
+
+\[
+3|x| = 12 \implies |x| = 4 \implies x = 4 \quad (\text{since } x \text{ is between 0 and 8})
+\]
+
+thus, \(d\) is at \((4, 4)\). the line through \(b(2,0)\) and \(d(4,4)\) has a slope:
+
+\[
+\text{slope} = \frac{4 - 0}{4 - 2} = 2
+\]
+
+the equation of the line is:
+
+\[
+y - 0 = 2(x - 2) \implies y = 2x - 4
+\]
+
+the sum of the slope and the y-intercept is:
+
+\[
+2 + (-4) = -2
+\]
+
+therefore, the answer is:
+
+\[
+\boxed{-2}
+\]

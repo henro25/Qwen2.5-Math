@@ -1,1 +1,43 @@
-Answer: 
+Answer: To find the maximum value of the quadratic expression \(-4z^2 + 20z - 6\), we first recognize that since the coefficient of \(z^2\) is negative, the parabola opens downward, and thus the vertex represents the maximum point.
+
+the z-coordinate of the vertex is given by:
+\[
+z = -\frac{b}{2a} = -\frac{20}{2(-4)} = 2.5
+\]
+
+substituting \(z = 2.5\) back into the original expression:
+\[
+-4(2.5)^2 + 20(2.5) - 6 = -4(6.25) + 50 - 6 = -25 + 50 - 6 = 19
+\]
+
+alternatively, completing the square:
+\[
+-4z^2 + 20z - 6 = -4(z^2 - 5z) - 6
+\]
+\[
+= -4\left(z^2 - 5z + \frac{25}{4} - \frac{25}{4}\right) - 6
+\]
+\[
+= -4\left((z - 2.5)^2 - \frac{25}{4}\right) - 6
+\]
+\[
+= -4(z - 2.5)^2 + 25 - 6
+\]
+\[
+= -4(z - 2.5)^2 + 19
+\]
+
+this confirms the vertex form of the quadratic function, showing the maximum value is 19.
+
+using calculus, the derivative is:
+\[
+f'(z) = -8z + 20
+\]
+setting the derivative to zero:
+\[
+-8z + 20 = 0 \implies z = 2.5
+\]
+
+substituting \(z = 2.5\) back into the original function confirms the maximum value is 19.
+
+thus, the maximum value of \(-4z^2 + 20z - 6\) is \(\boxed{19}\).

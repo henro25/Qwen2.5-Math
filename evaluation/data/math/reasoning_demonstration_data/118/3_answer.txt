@@ -1,1 +1,21 @@
-Answer: 
+Answer: Given points \( a \), \( b \), and \( c \) on a circle with radius 18, and \(\angle acb = 70^\circ\), we need to find the length of the minor arc \( ab \) in terms of \(\pi\).
+
+1. \(\angle acb\) is an inscribed angle intercepting arc \( ab \). the measure of an inscribed angle is half the measure of its intercepted arc. therefore, the measure of arc \( ab \) is:
+   \[
+   2 \times 70^\circ = 140^\circ
+   \]
+
+2. the full circumference of the circle is:
+   \[
+   2\pi \times 18 = 36\pi
+   \]
+
+3. the length of the minor arc \( ab \) is a fraction of the full circumference, where the fraction is \(\frac{140^\circ}{360^\circ}\):
+   \[
+   \text{length of arc } ab = \left( \frac{140}{360} \right) \times 36\pi = \left( \frac{7}{18} \right) \times 36\pi = 14\pi
+   \]
+
+thus, the length of the minor arc \( ab \) is:
+\[
+\boxed{14\pi}
+\]

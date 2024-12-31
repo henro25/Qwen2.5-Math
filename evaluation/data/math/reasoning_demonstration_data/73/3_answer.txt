@@ -1,1 +1,41 @@
-Answer: 
+Answer: To solve the problem, we need to ensure that no triangle with positive area can be formed with side lengths \(1, a, b\) or \(\frac{1}{b}, \frac{1}{a}, 1\) for \(1 < a < b\). we use the triangle inequality conditions for both sets of side lengths.
+
+for the sides \(1, a, b\):
+1. \(1 + a \leq b\)
+
+for the sides \(\frac{1}{b}, \frac{1}{a}, 1\):
+1. \(\frac{1}{b} + \frac{1}{a} \leq 1\)
+
+we need to find the smallest possible value of \(b\) given these conditions.
+
+first, we solve the inequality \(\frac{1}{b} + \frac{1}{a} \leq 1\) by expressing \(b\) in terms of \(a\):
+\[ b \geq 1 + a \]
+
+substituting \(b = 1 + a\) into the inequality:
+\[ \frac{1}{1+a} + \frac{1}{a} \leq 1 \]
+
+combining the fractions:
+\[ \frac{a + (1 + a)}{a(1 + a)} \leq 1 \]
+\[ \frac{2a + 1}{a(a + 1)} \leq 1 \]
+
+subtracting 1 from both sides:
+\[ \frac{2a + 1 - a(a + 1)}{a(a + 1)} \leq 0 \]
+\[ \frac{2a + 1 - a^2 - a}{a(a + 1)} \leq 0 \]
+\[ \frac{-a^2 + a + 1}{a(a + 1)} \leq 0 \]
+
+rewriting:
+\[ \frac{a^2 - a - 1}{a(a + 1)} \geq 0 \]
+
+solving \(a^2 - a - 1 = 0\) using the quadratic formula:
+\[ a = \frac{1 \pm \sqrt{5}}{2} \]
+
+since \(a > 1\), we take:
+\[ a = \frac{1 + \sqrt{5}}{2} \]
+
+then:
+\[ b = 1 + a = 1 + \frac{1 + \sqrt{5}}{2} = \frac{3 + \sqrt{5}}{2} \]
+
+thus, the smallest possible value of \(b\) is:
+\[
+\boxed{\frac{3 + \sqrt{5}}{2}}
+\]

@@ -1,1 +1,50 @@
-Answer: 
+Answer: To find the minimum value of the expression \( x^2 + y^2 - 6x + 4y + 18 \) for real \( x \) and \( y \), we can complete the square for both \( x \) and \( y \) terms.
+
+first, complete the square for the \( x \)-terms:
+\[
+x^2 - 6x = (x - 3)^2 - 9
+\]
+
+next, complete the square for the \( y \)-terms:
+\[
+y^2 + 4y = (y + 2)^2 - 4
+\]
+
+substitute these back into the original expression:
+\[
+x^2 + y^2 - 6x + 4y + 18 = (x - 3)^2 - 9 + (y + 2)^2 - 4 + 18
+\]
+
+simplify the constants:
+\[
+(x - 3)^2 + (y + 2)^2 - 9 - 4 + 18 = (x - 3)^2 + (y + 2)^2 + 5
+\]
+
+since squares are always non-negative, the smallest value \( (x - 3)^2 + (y + 2)^2 \) can take is 0, which happens when \( x = 3 \) and \( y = -2 \). therefore, the minimum value of the entire expression is:
+\[
+0 + 5 = 5
+\]
+
+to confirm, we can use calculus. the partial derivatives are:
+\[
+\frac{\partial}{\partial x}(x^2 + y^2 - 6x + 4y + 18) = 2x - 6 \quad \text{and} \quad \frac{\partial}{\partial y}(x^2 + y^2 - 6x + 4y + 18) = 2y + 4
+\]
+
+setting these to zero gives:
+\[
+2x - 6 = 0 \implies x = 3 \quad \text{and} \quad 2y + 4 = 0 \implies y = -2
+\]
+
+the hessian matrix is:
+\[
+h = \begin{bmatrix}
+2 & 0 \\
+0 & 2 \\
+\end{bmatrix}
+\]
+
+the determinant of the hessian is \( 4 \), which is positive, and since \( \frac{\partial^2}{\partial x^2} > 0 \), this critical point is a local minimum.
+
+thus, the minimum value of the expression is indeed:
+\[
+\boxed{5}

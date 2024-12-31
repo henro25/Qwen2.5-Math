@@ -1,1 +1,29 @@
-Answer: 
+Answer: To determine the number of even integers between 4000 and 7000 with four different digits, we consider the following steps:
+
+1. **range and even number condition**:
+   - the numbers range from 4000 to 6999.
+   - the number must be even, so the last digit must be 0, 2, 4, 6, or 8.
+
+2. **thousands digit options**:
+   - the thousands digit can be 4, 5, or 6.
+
+3. **case analysis based on thousands digit**:
+   - **case 1: thousands digit is 4**:
+     - last digit options: 0, 2, 6, 8 (4 options).
+     - remaining digits for hundreds and tens places: 8 choices for hundreds place and 7 for tens place.
+     - total for this case: \(4 \times 8 \times 7 = 224\).
+   
+   - **case 2: thousands digit is 5**:
+     - last digit options: 0, 2, 4, 6, 8 (5 options).
+     - remaining digits for hundreds and tens places: 8 choices for hundreds place and 7 for tens place.
+     - total for this case: \(5 \times 8 \times 7 = 280\).
+   
+   - **case 3: thousands digit is 6**:
+     - last digit options: 0, 2, 4, 8 (4 options).
+     - remaining digits for hundreds and tens places: 8 choices for hundreds place and 7 for tens place.
+     - total for this case: \(4 \times 8 \times 7 = 224\).
+
+4. **summing up all cases**:
+   - total number of even integers: \(224 + 280 + 224 = 728\).
+
+thus, the number of even integers between 4000 and 7000 with four different digits is \(\boxed{728}\).

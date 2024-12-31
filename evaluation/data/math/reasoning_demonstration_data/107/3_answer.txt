@@ -1,1 +1,18 @@
-Answer: 
+Answer: Given square \(abcd\) with side length \(s = 2\), points \(e\) and \(h\) lie on \(\overline{ab}\) and \(\overline{da}\) respectively, such that \(ae = ah = \sqrt{2}\). points \(f\) and \(g\) lie on \(\overline{bc}\) and \(\overline{cd}\) respectively, and points \(i\) and \(j\) lie on \(\overline{eh}\) such that \(\overline{fi} \perp \overline{eh}\) and \(\overline{gj} \perp \overline{eh}\). the areas of triangle \(aeh\), quadrilateral \(bfie\), quadrilateral \(dhjg\), and pentagon \(fcgji\) are each 1.
+
+to find \(fi^2\), we first determine the coordinates of points \(e\), \(h\), \(f\), and \(g\):
+- \(e = (\sqrt{2}, 0)\)
+- \(h = (0, \sqrt{2})\)
+- \(f = (2, y)\)
+- \(g = (z, 2)\)
+
+the line \(eh\) has the equation \(y = -x + \sqrt{2}\). the perpendicular distance from \(f(2, y)\) to \(eh\) is given by:
+\[ fi = \frac{|2 + y - \sqrt{2}|}{\sqrt{2}} \]
+
+given the areas of the regions and the side length of the square, we solve for \(y\) and \(z\) using the area conditions. after solving, we find that:
+\[ fi^2 = 8 - 4\sqrt{2} \]
+
+thus, the final answer is:
+\[
+\boxed{8 - 4\sqrt{2}}
+\]

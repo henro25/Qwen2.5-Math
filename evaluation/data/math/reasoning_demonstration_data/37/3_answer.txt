@@ -1,1 +1,41 @@
-Answer: 
+Answer: To solve the problem, we need to find the largest number that is certain to divide the product \( p \) of the five visible numbers on a standard six-sided die, regardless of which number is on the bottom.
+
+first, we note that the numbers on a standard die are 1, 2, 3, 4, 5, and 6, and the product \( p \) is the product of the five visible numbers when one number is on the bottom. the product \( p \) can be expressed as:
+
+\[
+p = \frac{1 \times 2 \times 3 \times 4 \times 5 \times 6}{\text{bottom number}}
+\]
+
+calculating \( p \) for each possible bottom number:
+
+- if 1 is on the bottom: \( p = 2 \times 3 \times 4 \times 5 \times 6 = 720 \)
+- if 2 is on the bottom: \( p = 1 \times 3 \times 4 \times 5 \times 6 = 360 \)
+- if 3 is on the bottom: \( p = 1 \times 2 \times 4 \times 5 \times 6 = 240 \)
+- if 4 is on the bottom: \( p = 1 \times 2 \times 3 \times 5 \times 6 = 180 \)
+- if 5 is on the bottom: \( p = 1 \times 2 \times 3 \times 4 \times 6 = 144 \)
+- if 6 is on the bottom: \( p = 1 \times 2 \times 3 \times 4 \times 5 = 120 \)
+
+next, we find the greatest common divisor (gcd) of these values: 720, 360, 240, 180, 144, and 120.
+
+the prime factorizations are:
+\[
+\begin{align*}
+720 &= 2^4 \times 3^2 \times 5 \\
+360 &= 2^3 \times 3^2 \times 5 \\
+240 &= 2^4 \times 3 \times 5 \\
+180 &= 2^2 \times 3^2 \times 5 \\
+144 &= 2^4 \times 3^2 \\
+120 &= 2^3 \times 3 \times 5
+\end{align*}
+\]
+
+the gcd is found by taking the smallest power of each common prime factor:
+\[
+\text{gcd} = 2^2 \times 3^1 = 4 \times 3 = 12
+\]
+
+thus, the largest number that is certain to divide \( p \) is:
+
+\[
+\boxed{12}
+\]

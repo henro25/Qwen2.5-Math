@@ -1,1 +1,10 @@
-Answer: 
+Answer: 1. **Sum of the first five scores:**
+   - 92 + 95 + 87 + 89 + 100 = 463
+
+2. **Total points needed for an average of 93 over six quizzes:**
+   - 93 × 6 = 558
+
+3. **Score needed on the sixth quiz:**
+   - 558 (total needed) - 463 (sum of first five scores) = 95
+
+**Answer:** Emily needs to score 95 on her sixth quiz to achieve an average of 93.

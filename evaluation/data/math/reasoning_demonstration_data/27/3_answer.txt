@@ -1,1 +1,37 @@
-Answer: 
+Answer: To determine how much tim should invest now to have \$60,000 in 5 years with a 7% annual interest rate compounded quarterly, we use the compound interest formula:
+
+\[ a = p \left(1 + \frac{r}{n}\right)^{nt} \]
+
+where:
+- \( a = 60,000 \)
+- \( r = 0.07 \)
+- \( n = 4 \)
+- \( t = 5 \)
+
+we need to solve for \( p \):
+
+\[ p = \frac{a}{\left(1 + \frac{r}{n}\right)^{nt}} \]
+
+substituting the known values:
+
+\[ p = \frac{60,000}{\left(1 + \frac{0.07}{4}\right)^{4 \times 5}} \]
+
+first, calculate \( \frac{0.07}{4} \):
+
+\[ \frac{0.07}{4} = 0.0175 \]
+
+so:
+
+\[ p = \frac{60,000}{(1.0175)^{20}} \]
+
+using a calculator to find \( (1.0175)^{20} \):
+
+\[ (1.0175)^{20} \approx 1.414778 \]
+
+then:
+
+\[ p = \frac{60,000}{1.414778} \approx 42,424 \]
+
+therefore, tim should invest approximately:
+
+\boxed{42424}

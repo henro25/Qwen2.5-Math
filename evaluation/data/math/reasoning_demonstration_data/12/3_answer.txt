@@ -1,1 +1,40 @@
-Answer: 
+Answer: To solve the equation \( |n + 6| = 2 - n \), we consider two cases based on the definition of absolute value.
+
+**Case 1: \( n + 6 \geq 0 \) (i.e., \( n \geq -6 \))**
+
+In this case, \( |n + 6| = n + 6 \), so the equation becomes:
+\[
+n + 6 = 2 - n
+\]
+Solving for \( n \):
+\[
+2n + 6 = 2 \quad \Rightarrow \quad 2n = -4 \quad \Rightarrow \quad n = -2
+\]
+Since \( -2 \geq -6 \), this solution is valid.
+
+**Case 2: \( n + 6 < 0 \) (i.e., \( n < -6 \))**
+
+In this case, \( |n + 6| = -(n + 6) = -n - 6 \), so the equation becomes:
+\[
+-n - 6 = 2 - n
+\]
+Simplifying:
+\[
+-n - 6 = 2 - n
+\]
+Adding \( n \) to both sides:
+\[
+-6 = 2
+\]
+This is a contradiction, so there are no solutions in this case.
+
+Finally, we check the solution \( n = -2 \) in the original equation:
+\[
+|(-2) + 6| = |4| = 4 \quad \text{and} \quad 2 - (-2) = 4
+\]
+Both sides are equal, confirming that \( n = -2 \) is correct.
+
+Thus, the solution is:
+\[
+\boxed{-2}
+\]

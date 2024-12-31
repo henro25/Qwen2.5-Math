@@ -1,1 +1,27 @@
-Answer: 
+Answer: To determine how many perfect cubes lie between 100 and 900, we follow these steps:
+
+1. **Find the smallest integer whose cube is greater than or equal to 100:**
+   - \(4^3 = 64\) (too small)
+   - \(5^3 = 125\) (greater than 100)
+
+   So, the smallest integer is 5.
+
+2. **Find the largest integer whose cube is less than or equal to 900:**
+   - \(9^3 = 729\) (less than 900)
+   - \(10^3 = 1000\) (too large)
+
+   So, the largest integer is 9.
+
+3. **List the integers from 5 to 9 and check their cubes:**
+   - \(5^3 = 125\)
+   - \(6^3 = 216\)
+   - \(7^3 = 343\)
+   - \(8^3 = 512\)
+   - \(9^3 = 729\)
+
+   All of these cubes fall within the range of 100 to 900.
+
+4. **Count the integers:**
+   There are 5 integers (5, 6, 7, 8, and 9), so there are 5 perfect cubes between 100 and 900.
+
+**Answer:** There are 5 perfect cubes between 100 and 900.

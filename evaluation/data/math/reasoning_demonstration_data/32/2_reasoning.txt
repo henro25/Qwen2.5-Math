@@ -1,1 +1,65 @@
-Reasoning: 
+Reasoning: So i've got this equation to solve: (r + 3)/(r - 2) = (r - 1)/(r + 1). hmm, it's a proportion with variables in both the numerators and denominators. i need to solve for r and express it as a fraction. okay, let's think about how to approach this.
+
+first off, proportions like this can be solved by cross-multiplying. that means i can multiply the numerator of one side by the denominator of the other side and set them equal to each other. so, i'll do that.
+
+so, cross-multiplying gives me: (r + 3)(r + 1) = (r - 1)(r - 2).
+
+alright, now i need to expand both sides of this equation. let's start with the left side: (r + 3)(r + 1).
+
+using the distributive property, that's r*r + r*1 + 3*r + 3*1, which simplifies to r² + r + 3r + 3. combining like terms, that's r² + 4r + 3.
+
+now, the right side: (r - 1)(r - 2).
+
+again, using the distributive property: r*r + r*(-2) + (-1)*r + (-1)*(-2), which is r² - 2r - r + 2. combining like terms, that's r² - 3r + 2.
+
+so now my equation looks like: r² + 4r + 3 = r² - 3r + 2.
+
+hmm, i notice that there are r² terms on both sides. maybe i can subtract r² from both sides to simplify things.
+
+subtracting r² from both sides: r² + 4r + 3 - r² = r² - 3r + 2 - r².
+
+that simplifies to: 4r + 3 = -3r + 2.
+
+okay, now i have a linear equation in terms of r. i need to get all the r terms on one side and the constants on the other.
+
+let me add 3r to both sides: 4r + 3r + 3 = -3r + 3r + 2.
+
+that gives me: 7r + 3 = 2.
+
+now, subtract 3 from both sides: 7r + 3 - 3 = 2 - 3.
+
+which simplifies to: 7r = -1.
+
+finally, to solve for r, i'll divide both sides by 7: r = -1/7.
+
+wait a second, i should check if this solution is valid in the original equation. sometimes, when dealing with rational equations, you can get extraneous solutions that make the denominator zero.
+
+so, plugging r = -1/7 back into the denominators of the original equation:
+
+first denominator: r - 2 = (-1/7) - 2 = -1/7 - 14/7 = -15/7, which is not zero.
+
+second denominator: r + 1 = (-1/7) + 1 = (-1/7) + 7/7 = 6/7, which is also not zero.
+
+great, so r = -1/7 is a valid solution and doesn't make any denominators zero.
+
+just to be thorough, i can plug r = -1/7 back into the original equation to verify.
+
+left side: (r + 3)/(r - 2) = [(-1/7) + 3]/[(-1/7) - 2] = ( -1/7 + 21/7 ) / ( -1/7 - 14/7 ) = (20/7) / (-15/7) = 20/7 * -7/15 = -20/15 = -4/3.
+
+right side: (r - 1)/(r + 1) = [(-1/7) - 1]/[(-1/7) + 1] = (-1/7 - 7/7)/(-1/7 + 7/7) = (-8/7)/(6/7) = -8/7 * 7/6 = -8/6 = -4/3.
+
+both sides equal -4/3, so it checks out.
+
+i think that's it. the solution is r = -1/7.
+
+**final answer**
+
+−
+1
+7
+− 
+7
+1
+​
+ 
+​

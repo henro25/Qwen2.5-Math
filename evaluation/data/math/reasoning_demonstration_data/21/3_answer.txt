@@ -1,1 +1,70 @@
-Answer: 
+Answer: To solve the equation
+
+\[
+\frac{r^2 - 5r + 4}{r^2 - 8r + 7} = \frac{r^2 - 2r - 15}{r^2 - r - 20},
+\]
+
+we start by factoring the quadratics in the numerators and denominators.
+
+for the left side:
+\[
+r^2 - 5r + 4 = (r - 4)(r - 1),
+\]
+\[
+r^2 - 8r + 7 = (r - 7)(r - 1).
+\]
+
+thus, the left side simplifies to:
+\[
+\frac{(r - 4)(r - 1)}{(r - 7)(r - 1)} = \frac{r - 4}{r - 7} \quad \text{(for } r \neq 1\text{)}.
+\]
+
+for the right side:
+\[
+r^2 - 2r - 15 = (r - 5)(r + 3),
+\]
+\[
+r^2 - r - 20 = (r - 5)(r + 4).
+\]
+
+thus, the right side simplifies to:
+\[
+\frac{(r - 5)(r + 3)}{(r - 5)(r + 4)} = \frac{r + 3}{r + 4} \quad \text{(for } r \neq 5\text{)}.
+\]
+
+now, the equation is:
+\[
+\frac{r - 4}{r - 7} = \frac{r + 3}{r + 4}.
+\]
+
+cross-multiplying to eliminate the fractions, we get:
+\[
+(r - 4)(r + 4) = (r + 3)(r - 7).
+\]
+
+expanding both sides:
+\[
+r^2 - 16 = r^2 - 4r - 21.
+\]
+
+subtracting \( r^2 \) from both sides:
+\[
+-16 = -4r - 21.
+\]
+
+solving for \( r \):
+\[
+-16 + 21 = -4r,
+\]
+\[
+5 = -4r,
+\]
+\[
+r = -\frac{5}{4}.
+\]
+
+finally, we check that \( r = -\frac{5}{4} \) does not make any denominator zero in the original equation. it does not, so the solution is valid.
+
+\[
+\boxed{-\frac{5}{4}}
+\]

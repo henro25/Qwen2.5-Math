@@ -1,1 +1,51 @@
-Answer: 
+Answer: Given the equation:
+
+\[
+(x - \sqrt[3]{13})(x - \sqrt[3]{53})(x - \sqrt[3]{103}) = \frac{1}{3}
+\]
+
+with three distinct solutions \( r, s, t \), we need to find \( r^3 + s^3 + t^3 \).
+
+first, we recognize that the equation can be rewritten as a cubic polynomial:
+
+\[
+(x - a)(x - b)(x - c) = \frac{1}{3}
+\]
+
+where \( a = \sqrt[3]{13} \), \( b = \sqrt[3]{53} \), and \( c = \sqrt[3]{103} \). expanding and rearranging, we get:
+
+\[
+x^3 - (a + b + c)x^2 + (ab + ac + bc)x - (abc + \frac{1}{3}) = 0
+\]
+
+the sum of the roots \( r + s + t = a + b + c \), the sum of the products of the roots taken two at a time \( rs + rt + st = ab + ac + bc \), and the product of the roots \( rst = abc + \frac{1}{3} \).
+
+using the identity for the sum of cubes of the roots:
+
+\[
+r^3 + s^3 + t^3 = (r + s + t)^3 - 3(r + s + t)(rs + rt + st) + 3rst
+\]
+
+substituting the known sums:
+
+\[
+r^3 + s^3 + t^3 = (a + b + c)^3 - 3(a + b + c)(ab + ac + bc) + 3(abc + \frac{1}{3})
+\]
+
+given \( a^3 = 13 \), \( b^3 = 53 \), and \( c^3 = 103 \), we simplify:
+
+\[
+(a + b + c)^3 - 3(a + b + c)(ab + ac + bc) + 3abc = a^3 + b^3 + c^3
+\]
+
+thus:
+
+\[
+r^3 + s^3 + t^3 = a^3 + b^3 + c^3 + 1 = 13 + 53 + 103 + 1 = 170
+\]
+
+therefore, the final answer is:
+
+\[
+\boxed{170}
+\]

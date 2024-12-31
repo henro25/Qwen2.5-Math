@@ -1,1 +1,14 @@
-Answer: 
+Answer: To find how many seconds are in 7.8 minutes:
+
+1. **Understand the relationship between minutes and seconds:**  
+   1 minute = 60 seconds.
+
+2. **Convert 7.8 minutes to seconds:**  
+   Multiply 7.8 by 60.
+
+3. **Perform the calculation:**  
+   - 7 minutes × 60 seconds/minute = 420 seconds  
+   - 0.8 minutes × 60 seconds/minute = 48 seconds  
+   - Total seconds = 420 + 48 = 468 seconds.
+
+**Answer:** There are 468 seconds in 7.8 minutes.

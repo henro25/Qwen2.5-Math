@@ -1,1 +1,84 @@
-Reasoning: 
+Reasoning: So i have this problem here. it says: "a line through the points (2, -9) and (j, 17) is parallel to the line 2x + 3y = 21. what is the value of j?" alright, i need to find the value of j that makes this true.
+
+first, i remember that parallel lines have the same slope. so, if i can find the slope of the given line, 2x + 3y = 21, and then find the slope of the line passing through the points (2, -9) and (j, 17), i can set them equal and solve for j.
+
+let me start by finding the slope of the given line, 2x + 3y = 21. to find the slope, i should probably rewrite this equation in slope-intercept form, which is y = mx + b, where m is the slope.
+
+so, starting with 2x + 3y = 21, i can solve for y:
+
+3y = -2x + 21
+
+then, divide both sides by 3:
+
+y = (-2/3)x + 7
+
+so, the slope m of this line is -2/3.
+
+now, i need to find the slope of the line passing through the points (2, -9) and (j, 17). the formula for the slope between two points (x1, y1) and (x2, y2) is:
+
+m = (y2 - y1)/(x2 - x1)
+
+plugging in the points, m = (17 - (-9))/(j - 2) = (17 + 9)/(j - 2) = 26/(j - 2)
+
+since the lines are parallel, their slopes must be equal. so:
+
+26/(j - 2) = -2/3
+
+now, i can solve for j. let's cross-multiply to get rid of the fractions:
+
+26 * 3 = -2 * (j - 2)
+
+78 = -2j + 4
+
+now, subtract 4 from both sides:
+
+78 - 4 = -2j
+
+74 = -2j
+
+divide both sides by -2:
+
+j = -37
+
+wait, does that make sense? let me check my steps to make sure i didn't make a mistake.
+
+starting with the slope of the given line: y = (-2/3)x + 7, so slope is -2/3. that seems correct.
+
+then, slope between (2, -9) and (j, 17):
+
+(17 - (-9))/(j - 2) = 26/(j - 2)
+
+set equal to -2/3:
+
+26/(j - 2) = -2/3
+
+cross-multiplied:
+
+26*3 = -2*(j - 2)
+
+78 = -2j + 4
+
+subtract 4:
+
+74 = -2j
+
+divide by -2:
+
+j = -37
+
+hmm, that seems consistent. maybe i should plug j back into the points and see if the slopes are indeed equal.
+
+so, if j = -37, the points are (2, -9) and (-37, 17).
+
+slope = (17 - (-9))/(-37 - 2) = 26/(-39) = -2/3
+
+which matches the slope of the given line, -2/3. so, it checks out.
+
+i think j is -37.
+
+**final answer**
+
+−
+37
+−37
+​

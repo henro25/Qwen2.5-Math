@@ -1,1 +1,900 @@
-Reasoning: 
+Reasoning: Let's tackle this problem step by step. so, we have a parabola given by the equation 
+y
+=
+a
+x
+2
++
+b
+x
++
+c
+y=ax 
+2
+ +bx+c, and we're supposed to reflect it about the x-axis. then, both the original parabola and its reflection are translated horizontally five units in opposite directions to become 
+y
+=
+f
+(
+x
+)
+y=f(x) and 
+y
+=
+g
+(
+x
+)
+y=g(x), respectively. finally, we need to find out what the graph of 
+y
+=
+(
+f
++
+g
+)
+(
+x
+)
+y=(f+g)(x) looks like and choose the correct option from the given choices.
+
+first, let's understand what it means to reflect a parabola about the x-axis. reflecting a graph about the x-axis means that every point 
+(
+x
+,
+y
+)
+(x,y) on the original graph has a corresponding point 
+(
+x
+,
+−
+y
+)
+(x,−y) on the reflected graph. so, if the original parabola is 
+y
+=
+a
+x
+2
++
+b
+x
++
+c
+y=ax 
+2
+ +bx+c, its reflection about the x-axis would be 
+y
+=
+−
+a
+x
+2
+−
+b
+x
+−
+c
+y=−ax 
+2
+ −bx−c.
+
+wait a minute, is that correct? let's double-check. reflecting over the x-axis changes the sign of the y-coordinate, so yes, the entire expression for y should be negated. so, the reflection is indeed 
+y
+=
+−
+a
+x
+2
+−
+b
+x
+−
+c
+y=−ax 
+2
+ −bx−c.
+
+next, both the original parabola and its reflection are translated horizontally five units in opposite directions. horizontal translations involve shifting the graph left or right, which is done by replacing 
+x
+x with 
+x
+−
+h
+x−h in the function, where 
+h
+h is the number of units shifted. if 
+h
+h is positive, the shift is to the right; if negative, to the left.
+
+but the problem says they are translated in "opposite directions." so, if one is shifted to the right, the other should be shifted to the left, and vice versa. let's assume that the original parabola is shifted to the right by 5 units, and its reflection is shifted to the left by 5 units. alternatively, it could be the other way around, but since the directions are opposite, one will be shifted left and the other right.
+
+let's proceed with shifting the original parabola to the right by 5 units and its reflection to the left by 5 units. so, for the original parabola 
+y
+=
+a
+x
+2
++
+b
+x
++
+c
+y=ax 
+2
+ +bx+c, shifting it right by 5 units would replace 
+x
+x with 
+x
+−
+5
+x−5, giving 
+y
+=
+a
+(
+x
+−
+5
+)
+2
++
+b
+(
+x
+−
+5
+)
++
+c
+y=a(x−5) 
+2
+ +b(x−5)+c.
+
+similarly, for the reflected parabola 
+y
+=
+−
+a
+x
+2
+−
+b
+x
+−
+c
+y=−ax 
+2
+ −bx−c, shifting it left by 5 units would replace 
+x
+x with 
+x
++
+5
+x+5, giving 
+y
+=
+−
+a
+(
+x
++
+5
+)
+2
+−
+b
+(
+x
++
+5
+)
+−
+c
+y=−a(x+5) 
+2
+ −b(x+5)−c.
+
+now, we need to find 
+f
+(
+x
+)
+f(x) and 
+g
+(
+x
+)
+g(x), which are the translated original and reflected parabolas, respectively. so:
+
+f
+(
+x
+)
+=
+a
+(
+x
+−
+5
+)
+2
++
+b
+(
+x
+−
+5
+)
++
+c
+f(x)=a(x−5) 
+2
+ +b(x−5)+c
+
+g
+(
+x
+)
+=
+−
+a
+(
+x
++
+5
+)
+2
+−
+b
+(
+x
++
+5
+)
+−
+c
+g(x)=−a(x+5) 
+2
+ −b(x+5)−c
+
+next, we need to find 
+(
+f
++
+g
+)
+(
+x
+)
+=
+f
+(
+x
+)
++
+g
+(
+x
+)
+(f+g)(x)=f(x)+g(x). so, let's compute that:
+
+(
+f
++
+g
+)
+(
+x
+)
+=
+a
+(
+x
+−
+5
+)
+2
++
+b
+(
+x
+−
+5
+)
++
+c
+−
+a
+(
+x
++
+5
+)
+2
+−
+b
+(
+x
++
+5
+)
+−
+c
+(f+g)(x)=a(x−5) 
+2
+ +b(x−5)+c−a(x+5) 
+2
+ −b(x+5)−c
+
+let's simplify this expression step by step.
+
+first, expand 
+(
+x
+−
+5
+)
+2
+(x−5) 
+2
+  and 
+(
+x
++
+5
+)
+2
+(x+5) 
+2
+ :
+
+(
+x
+−
+5
+)
+2
+=
+x
+2
+−
+10
+x
++
+25
+(x−5) 
+2
+ =x 
+2
+ −10x+25
+
+(
+x
++
+5
+)
+2
+=
+x
+2
++
+10
+x
++
+25
+(x+5) 
+2
+ =x 
+2
+ +10x+25
+
+now, substitute these back into the expression:
+
+(
+f
++
+g
+)
+(
+x
+)
+=
+a
+(
+x
+2
+−
+10
+x
++
+25
+)
++
+b
+(
+x
+−
+5
+)
++
+c
+−
+a
+(
+x
+2
++
+10
+x
++
+25
+)
+−
+b
+(
+x
++
+5
+)
+−
+c
+(f+g)(x)=a(x 
+2
+ −10x+25)+b(x−5)+c−a(x 
+2
+ +10x+25)−b(x+5)−c
+
+now, distribute the a and b:
+
+=
+a
+x
+2
+−
+10
+a
+x
++
+25
+a
++
+b
+x
+−
+5
+b
++
+c
+−
+a
+x
+2
+−
+10
+a
+x
+−
+25
+a
+−
+b
+x
+−
+5
+b
+−
+c
+=ax 
+2
+ −10ax+25a+bx−5b+c−ax 
+2
+ −10ax−25a−bx−5b−c
+
+now, combine like terms:
+
+- the 
+a
+x
+2
+ax 
+2
+  and 
+−
+a
+x
+2
+−ax 
+2
+  cancel out.
+
+- the 
+−
+10
+a
+x
+−10ax and 
+−
+10
+a
+x
+−10ax combine to 
+−
+20
+a
+x
+−20ax.
+
+- the 
+25
+a
+25a and 
+−
+25
+a
+−25a cancel out.
+
+- the 
+b
+x
+bx and 
+−
+b
+x
+−bx cancel out.
+
+- the 
+−
+5
+b
+−5b and 
+−
+5
+b
+−5b combine to 
+−
+10
+b
+−10b.
+
+- the 
+c
+c and 
+−
+c
+−c cancel out.
+
+so, we're left with:
+
+(
+f
++
+g
+)
+(
+x
+)
+=
+−
+20
+a
+x
+−
+10
+b
+(f+g)(x)=−20ax−10b
+
+wait, that seems too simple. is that correct? let's double-check the algebra.
+
+starting from:
+
+a
+x
+2
+−
+10
+a
+x
++
+25
+a
++
+b
+x
+−
+5
+b
++
+c
+−
+a
+x
+2
+−
+10
+a
+x
+−
+25
+a
+−
+b
+x
+−
+5
+b
+−
+c
+ax 
+2
+ −10ax+25a+bx−5b+c−ax 
+2
+ −10ax−25a−bx−5b−c
+
+grouping terms:
+
+(
+a
+x
+2
+−
+a
+x
+2
+)
++
+(
+−
+10
+a
+x
+−
+10
+a
+x
+)
++
+(
+25
+a
+−
+25
+a
+)
++
+(
+b
+x
+−
+b
+x
+)
++
+(
+−
+5
+b
+−
+5
+b
+)
++
+(
+c
+−
+c
+)
+(ax 
+2
+ −ax 
+2
+ )+(−10ax−10ax)+(25a−25a)+(bx−bx)+(−5b−5b)+(c−c)
+
+which simplifies to:
+
+0
+−
+20
+a
+x
++
+0
++
+0
+−
+10
+b
++
+0
+0−20ax+0+0−10b+0
+
+so, indeed, 
+(
+f
++
+g
+)
+(
+x
+)
+=
+−
+20
+a
+x
+−
+10
+b
+(f+g)(x)=−20ax−10b
+
+this is a linear function because it's of the form 
+y
+=
+m
+x
++
+n
+y=mx+n, where 
+m
+=
+−
+20
+a
+m=−20a and 
+n
+=
+−
+10
+b
+n=−10b.
+
+now, we need to determine which of the given options describes this graph. the options are:
+
+(a) a parabola tangent to the x-axis
+
+(b) a parabola not tangent to the x-axis
+
+(c) a horizontal line
+
+(d) a non-horizontal line
+
+(e) the graph of a cubic function
+
+given that 
+(
+f
++
+g
+)
+(
+x
+)
+(f+g)(x) is linear, it's neither a parabola nor a cubic function, so options a, b, and e can be ruled out immediately.
+
+now, between options c and d: a horizontal line is of the form 
+y
+=
+k
+y=k, where k is a constant. however, our expression for 
+(
+f
++
+g
+)
+(
+x
+)
+(f+g)(x) is 
+y
+=
+−
+20
+a
+x
+−
+10
+b
+y=−20ax−10b, which has a slope of 
+−
+20
+a
+−20a. if 
+a
+a is not zero, this is not a horizontal line; it's a slanted line. if 
+a
+=
+0
+a=0, then the original equation 
+y
+=
+a
+x
+2
++
+b
+x
++
+c
+y=ax 
+2
+ +bx+c would not be a parabola, but a straight line, which contradicts the given that it's a parabola. therefore, 
+a
+a cannot be zero, and thus 
+−
+20
+a
+−20a is not zero, meaning the line is not horizontal.
+
+therefore, the correct option is (d) a non-horizontal line.
+
+but wait a second, let's consider if there's any possibility that 
+−
+20
+a
+x
+−
+10
+b
+−20ax−10b could be a horizontal line. for that, the coefficient of x should be zero, i.e., 
+−
+20
+a
+=
+0
+−20a=0, which implies 
+a
+=
+0
+a=0. however, if 
+a
+=
+0
+a=0, the original equation 
+y
+=
+a
+x
+2
++
+b
+x
++
+c
+y=ax 
+2
+ +bx+c reduces to a linear equation, which is not a parabola. since the problem states that it's a parabola, 
+a
+a cannot be zero. hence, the line 
+y
+=
+−
+20
+a
+x
+−
+10
+b
+y=−20ax−10b is indeed a non-horizontal line.
+
+therefore, the answer should be (d) a non-horizontal line.
+
+alternatively, perhaps there's a different interpretation of the horizontal translations. maybe one is shifted left and the other right, but that wouldn't change the outcome because the difference would still be linear.
+
+alternatively, perhaps the directions are opposite in sign, but again, the final sum would still be linear.
+
+alternatively, perhaps reflecting over the x-axis changes the direction of the horizontal shift, but in our calculation, we assumed shifting right and left accordingly, and it still resulted in a linear function.
+
+so, i think the answer is (d) a non-horizontal line.
+
+however, looking back at the options, option (c) is a horizontal line, which is only possible if the slope is zero, which, as we've established, is not the case here.
+
+option (d) is a non-horizontal line, which fits our conclusion.
+
+therefore, the correct answer is (d) a non-horizontal line.
+
+**final answer**
+
+d
+d
+​

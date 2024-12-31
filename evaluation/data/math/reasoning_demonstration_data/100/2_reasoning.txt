@@ -1,1 +1,19 @@
-Reasoning: 
+Reasoning: Alright, so I've got this problem here. It says that on a map, a 12-centimeter length represents 72 kilometers. And I need to find out how many kilometers a 17-centimeter length represents. Okay, let's see.
+
+First, I think this is a question about scale on a map. So, the scale tells us how distances on the map correspond to actual distances in real life. Here, 12 centimeters on the map equals 72 kilometers in reality. I need to find out what 17 centimeters would equal.
+
+Maybe I can set up a proportion here. Like, if 12 cm is to 72 km, then 17 cm is to X km. So, it's like saying 12 cm : 72 km = 17 cm : X km.
+
+To solve for X, I can cross-multiply. So, 12 times X equals 72 times 17. That would give me 12X = 72 * 17. Then, I can solve for X by dividing both sides by 12.
+
+Wait a minute, is there a simpler way to do this? Maybe I can find out how many kilometers one centimeter represents and then multiply that by 17.
+
+So, if 12 cm is 72 km, then 1 cm would be 72 divided by 12, which is 6 km. Yeah, that makes sense. So, 1 cm equals 6 km.
+
+Then, 17 cm would be 17 times 6 km, which is... let's see, 17 times 6 is 102. So, 102 km.
+
+Is there anything I'm missing here? Maybe I should check my work. If 12 cm is 72 km, and 1 cm is 6 km, then 12 cm would be 12 times 6, which is indeed 72 km. Okay, that checks out.
+
+Alternatively, going back to the proportion method, if I have 12X = 72 * 17, then X = (72 * 17)/12. Let's calculate that. 72 divided by 12 is 6, and 6 times 17 is 102. So, again, 102 km.
+
+Hmm, both methods give me the same answer, so I think that's correct.

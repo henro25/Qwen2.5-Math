@@ -1,1 +1,29 @@
-Answer: 
+Answer: To find the area of the triangle with vertices at \((-8,0)\), \((0,8)\), and \((0,0)\), we can use the formula for the area of a right triangle:
+
+\[
+\text{area} = \frac{1}{2} \times \text{base} \times \text{height}
+\]
+
+here, the base is 8 units (from \((0,0)\) to \((-8,0)\)) and the height is 8 units (from \((0,0)\) to \((0,8)\)):
+
+\[
+\text{area} = \frac{1}{2} \times 8 \times 8 = 32 \text{ square units}
+\]
+
+to confirm, we can use the formula for the area of a triangle given its vertices \((x_1, y_1)\), \((x_2, y_2)\), and \((x_3, y_3)\):
+
+\[
+\text{area} = \left| \frac{x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)}{2} \right|
+\]
+
+plugging in the vertices \((-8,0)\), \((0,8)\), and \((0,0)\):
+
+\[
+\text{area} = \left| \frac{-8(8 - 0) + 0(0 - 0) + 0(0 - 8)}{2} \right| = \left| \frac{-64}{2} \right| = 32 \text{ square units}
+\]
+
+thus, the area of the triangle is:
+
+\[
+\boxed{32}
+\]

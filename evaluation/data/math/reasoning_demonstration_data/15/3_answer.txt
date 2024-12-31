@@ -1,1 +1,68 @@
-Answer: 
+Answer: Given the quartic polynomial \( p(x) = x^4 + a x^3 + b x^2 + c x + d \), we need to determine which of the following is the smallest:
+
+a. \( p(-1) \)
+b. the product of the zeros of \( p \)
+c. the product of the non-real zeros of \( p \)
+d. the sum of the coefficients of \( p \)
+e. the sum of the real zeros of \( p \)
+
+we start by analyzing each option:
+
+**option a: \( p(-1) \)**
+
+\[ p(-1) = 1 - a + b - c + d \]
+
+**option b: the product of the zeros of \( p \)**
+
+the product of the zeros is \( d \).
+
+**option c: the product of the non-real zeros of \( p \)**
+
+if there are non-real zeros, they come in conjugate pairs, and their product is positive.
+
+**option d: the sum of the coefficients of \( p \)**
+
+the sum of the coefficients is \( p(1) = 1 + a + b + c + d \).
+
+**option e: the sum of the real zeros of \( p \)**
+
+the sum of the real zeros is \( -a \) minus the sum of the non-real zeros.
+
+given the polynomial from the asymptote code:
+
+\[ p(x) = \frac{1}{8}x^4 - \frac{1}{3}x^3 - \frac{3}{4}x^2 + 2.7 \]
+
+we compute:
+
+**option a: \( p(-1) \)**
+
+\[ p(-1) = \frac{1}{8}(1) - \frac{1}{3}(-1) - \frac{3}{4}(1) + 2.7 \]
+\[ = 0.125 + 0.333 - 0.75 + 2.7 \]
+\[ = 2.408 \]
+
+**option b: the product of the zeros of \( p \)**
+
+the product of the zeros is \( 21.6 \).
+
+**option d: the sum of the coefficients of \( p \)**
+
+\[ p(1) = \frac{1}{8}(1) - \frac{1}{3}(1) - \frac{3}{4}(1) + 2.7 \]
+\[ = 0.125 - 0.333 - 0.75 + 2.7 \]
+\[ = 1.742 \]
+
+**option e: the sum of the real zeros of \( p \)**
+
+the sum of all zeros is \( \frac{8}{3} \approx 2.666 \).
+
+comparing the computed values:
+
+- option a: \( p(-1) \approx 2.408 \)
+- option b: product of zeros \( = 21.6 \)
+- option d: sum of coefficients \( \approx 1.742 \)
+- option e: if all zeros are real, sum is \( \approx 2.666 \)
+
+the smallest value among these is the sum of the coefficients of \( p \).
+
+therefore, the answer is:
+
+\boxed{\text{d}}

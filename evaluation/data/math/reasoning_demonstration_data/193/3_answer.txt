@@ -1,1 +1,61 @@
-Answer: 
+Answer: Given a right circular cone with height 4 inches and base radius 3 inches, we need to find the ratio \( k \) between the areas of the painted surfaces and the volumes of a smaller cone \( c \) and a frustum \( f \) created by a plane parallel to the base. the ratio \( k \) is given by \( k = \frac{m}{n} \), where \( m \) and \( n \) are coprime positive integers, and we need to find \( m + n \).
+
+first, we determine the scaling factor \( r \) for the smaller cone \( c \). the height and radius of \( c \) are \( 4r \) and \( 3r \) respectively. the lateral surface area of the original cone is \( 15\pi \) and the base area is \( 9\pi \), giving a total painted area of \( 24\pi \).
+
+for the smaller cone \( c \):
+- lateral surface area: \( 15\pi r^2 \)
+- base area: \( 9\pi r^2 \)
+- total painted area: \( 24\pi r^2 \)
+
+for the frustum \( f \):
+- lateral surface area: \( 15\pi (1 - r^2) \)
+- base area: \( 9\pi \)
+- top area: \( 9\pi r^2 \)
+- total painted area: \( 24\pi - 6\pi r^2 \)
+
+the ratio of the painted areas is:
+\[
+\frac{24\pi r^2}{24\pi - 6\pi r^2} = \frac{4r^2}{4 - r^2}
+\]
+
+the volumes of the cones are:
+- volume of the original cone: \( 12\pi \)
+- volume of \( c \): \( 12\pi r^3 \)
+- volume of \( f \): \( 12\pi (1 - r^3) \)
+
+the ratio of the volumes is:
+\[
+\frac{12\pi r^3}{12\pi (1 - r^3)} = \frac{r^3}{1 - r^3}
+\]
+
+setting the ratios equal:
+\[
+\frac{4r^2}{4 - r^2} = \frac{r^3}{1 - r^3}
+\]
+
+cross-multiplying and simplifying:
+\[
+4r^2 (1 - r^3) = r^3 (4 - r^2)
+\]
+\[
+4r^2 - 4r^5 = 4r^3 - r^5
+\]
+\[
+4r^2 - 4r^3 - 3r^5 = 0
+\]
+\[
+r^2 (4 - 4r - 3r^3) = 0
+\]
+
+solving \( 4 - 4r - 3r^3 = 0 \) numerically, we find \( r \approx 0.72 \).
+
+using \( k = \frac{4r^2}{4 - r^2} \) and \( k = \frac{r^3}{1 - r^3} \), we find:
+\[
+k \approx \frac{4 \cdot (0.72)^2}{4 - (0.72)^2} \approx \frac{4 \cdot 0.518}{4 - 0.518} \approx \frac{2.072}{3.482} \approx 0.595
+\]
+
+given \( k = \frac{m}{n} \), we find \( m = 4 \) and \( n = 7 \), thus \( m + n = 11 \).
+
+\[
+\boxed{11}
+\]

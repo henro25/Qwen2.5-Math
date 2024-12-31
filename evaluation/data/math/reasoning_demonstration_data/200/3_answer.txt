@@ -1,1 +1,22 @@
-Answer: 
+Answer: To solve this problem, we need to calculate the probability that Mr. Jones has either more sons than daughters or more daughters than sons among his 6 children.
+
+1. **Total possible gender combinations:**
+   Each child can be either male or female, so there are \(2^6 = 64\) total possible gender combinations.
+
+2. **Equal number of sons and daughters:**
+   We first calculate the probability of having exactly 3 sons and 3 daughters. The number of ways to choose 3 sons out of 6 children is given by the combination:
+   \[
+   \binom{6}{3} = 20
+   \]
+   Thus, the probability of having exactly 3 sons and 3 daughters is:
+   \[
+   \frac{20}{64} = \frac{5}{16}
+   \]
+
+3. **Probability of not having an equal number:**
+   The probability of having more sons than daughters or more daughters than sons is the complement of having exactly 3 sons and 3 daughters:
+   \[
+   1 - \frac{5}{16} = \frac{11}{16}
+   \]
+
+**Answer:** The probability that Mr. Jones has more sons than daughters or more daughters than sons is \(\frac{11}{16}\).

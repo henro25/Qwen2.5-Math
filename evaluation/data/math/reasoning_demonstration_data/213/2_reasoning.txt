@@ -1,1 +1,1319 @@
-Reasoning: 
+Reasoning: So i have this problem here: "three faces of a right rectangular prism have areas of 48, 49, and 50 square units. what is the volume of the prism, in cubic units? express your answer to the nearest whole number."
+
+alright, let's break this down. a right rectangular prism is basically a box shape, with all angles being right angles. it has three dimensions: length, width, and height. the areas of the three different faces would correspond to the areas of the sides, front, and top of the box, or something like that.
+
+so, let's denote the length as 
+l
+l, the width as 
+w
+w, and the height as 
+h
+h. the areas of the three faces would then be:
+
+- one face: 
+l
+×
+w
+=
+48
+l×w=48
+
+- another face: 
+l
+×
+h
+=
+49
+l×h=49
+
+- the third face: 
+w
+×
+h
+=
+50
+w×h=50
+
+and we need to find the volume, which is 
+v
+=
+l
+×
+w
+×
+h
+v=l×w×h.
+
+hmm, so i have three equations with three variables. maybe i can solve for one variable in terms of the others and substitute.
+
+let's see, from the first equation:
+
+l
+×
+w
+=
+48
+l×w=48 → 
+l
+=
+48
+w
+l= 
+w
+48
+​
+ 
+
+now, plug this into the second equation:
+
+48
+w
+×
+h
+=
+49
+w
+48
+​
+ ×h=49 → 
+h
+=
+49
+w
+48
+h= 
+48
+49w
+​
+ 
+
+now, plug both 
+l
+l and 
+h
+h into the third equation:
+
+w
+×
+49
+w
+48
+=
+50
+w× 
+48
+49w
+​
+ =50
+
+simplify that:
+
+49
+w
+2
+48
+=
+50
+48
+49w 
+2
+ 
+​
+ =50
+
+now, solve for 
+w
+2
+w 
+2
+ :
+
+w
+2
+=
+50
+×
+48
+49
+w 
+2
+ = 
+49
+50×48
+​
+ 
+
+calculate that:
+
+w
+2
+=
+2400
+49
+w 
+2
+ = 
+49
+2400
+​
+ 
+
+so, 
+w
+=
+2400
+49
+w= 
+49
+2400
+​
+ 
+​
+ 
+
+which simplifies to:
+
+w
+=
+2400
+7
+w= 
+7
+2400
+​
+ 
+​
+ 
+
+now, 
+2400
+=
+16
+×
+150
+=
+4
+150
+2400
+​
+ = 
+16×150
+​
+ =4 
+150
+​
+ 
+
+and 
+150
+=
+25
+×
+6
+=
+5
+6
+150
+​
+ = 
+25×6
+​
+ =5 
+6
+​
+ 
+
+so, 
+w
+=
+4
+×
+5
+6
+7
+=
+20
+6
+7
+w= 
+7
+4×5 
+6
+​
+ 
+​
+ = 
+7
+20 
+6
+​
+ 
+​
+ 
+
+okay, that's 
+w
+w. now, let's find 
+l
+l and 
+h
+h in terms of 
+w
+w.
+
+we already have 
+l
+=
+48
+w
+=
+48
+20
+6
+7
+=
+48
+×
+7
+20
+6
+=
+336
+20
+6
+=
+84
+5
+6
+l= 
+w
+48
+​
+ = 
+7
+20 
+6
+​
+ 
+​
+ 
+48
+​
+ = 
+20 
+6
+​
+ 
+48×7
+​
+ = 
+20 
+6
+​
+ 
+336
+​
+ = 
+5 
+6
+​
+ 
+84
+​
+ 
+
+similarly, 
+h
+=
+49
+w
+48
+=
+49
+×
+20
+6
+7
+48
+=
+140
+6
+48
+=
+35
+6
+12
+h= 
+48
+49w
+​
+ = 
+48
+49× 
+7
+20 
+6
+​
+ 
+​
+ 
+​
+ = 
+48
+140 
+6
+​
+ 
+​
+ = 
+12
+35 
+6
+​
+ 
+​
+ 
+
+now, the volume 
+v
+=
+l
+×
+w
+×
+h
+=
+84
+5
+6
+×
+20
+6
+7
+×
+35
+6
+12
+v=l×w×h= 
+5 
+6
+​
+ 
+84
+​
+ × 
+7
+20 
+6
+​
+ 
+​
+ × 
+12
+35 
+6
+​
+ 
+​
+ 
+
+let's multiply these fractions step by step.
+
+first, 
+84
+5
+6
+×
+20
+6
+7
+=
+84
+×
+20
+×
+6
+5
+×
+7
+×
+6
+5 
+6
+​
+ 
+84
+​
+ × 
+7
+20 
+6
+​
+ 
+​
+ = 
+5×7× 
+6
+​
+ 
+84×20× 
+6
+​
+ 
+​
+ 
+
+wait, the 
+6
+6
+​
+  in the numerator and denominator cancel out:
+
+84
+×
+20
+5
+×
+7
+=
+1680
+35
+=
+48
+5×7
+84×20
+​
+ = 
+35
+1680
+​
+ =48
+
+now, multiply by 
+35
+6
+12
+12
+35 
+6
+​
+ 
+​
+ :
+
+48
+×
+35
+6
+12
+=
+4
+×
+35
+6
+=
+140
+6
+48× 
+12
+35 
+6
+​
+ 
+​
+ =4×35 
+6
+​
+ =140 
+6
+​
+ 
+
+so, 
+v
+=
+140
+6
+v=140 
+6
+​
+ 
+
+now, to get this to a numerical value, i need to approximate 
+6
+6
+​
+ .
+
+6
+6
+​
+  is approximately 2.449.
+
+so, 
+v
+≈
+140
+×
+2.449
+=
+140
+×
+2
++
+140
+×
+0.449
+=
+280
++
+62.86
+=
+342.86
+v≈140×2.449=140×2+140×0.449=280+62.86=342.86
+
+rounding to the nearest whole number, the volume is approximately 343 cubic units.
+
+wait a minute, but let me double-check my calculations to make sure i didn't make any mistakes.
+
+first, from 
+l
+×
+w
+=
+48
+l×w=48, 
+l
+=
+48
+/
+w
+l=48/w
+
+then, 
+l
+×
+h
+=
+49
+l×h=49, so 
+h
+=
+49
+/
+l
+=
+49
+/
+(
+48
+/
+w
+)
+=
+49
+w
+/
+48
+h=49/l=49/(48/w)=49w/48. that seems correct.
+
+then, 
+w
+×
+h
+=
+50
+w×h=50, so 
+w
+×
+(
+49
+w
+/
+48
+)
+=
+50
+w×(49w/48)=50 → 
+49
+w
+2
+/
+48
+=
+50
+49w 
+2
+ /48=50 → 
+w
+2
+=
+(
+50
+×
+48
+)
+/
+49
+w 
+2
+ =(50×48)/49 → 
+w
+2
+=
+2400
+/
+49
+w 
+2
+ =2400/49 → 
+w
+=
+2400
+/
+7
+=
+16
+×
+150
+/
+7
+=
+4
+150
+/
+7
+=
+4
+×
+5
+6
+/
+7
+=
+20
+6
+/
+7
+w= 
+2400
+​
+ /7= 
+16×150
+​
+ /7=4 
+150
+​
+ /7=4×5 
+6
+​
+ /7=20 
+6
+​
+ /7. that seems correct.
+
+then, 
+l
+=
+48
+/
+w
+=
+48
+/
+(
+20
+6
+/
+7
+)
+=
+48
+×
+7
+/
+(
+20
+6
+)
+=
+336
+/
+(
+20
+6
+)
+=
+84
+/
+(
+5
+6
+)
+l=48/w=48/(20 
+6
+​
+ /7)=48×7/(20 
+6
+​
+ )=336/(20 
+6
+​
+ )=84/(5 
+6
+​
+ ). correct.
+
+then, 
+h
+=
+49
+w
+/
+48
+=
+49
+×
+(
+20
+6
+/
+7
+)
+/
+48
+=
+(
+49
+×
+20
+6
+)
+/
+(
+7
+×
+48
+)
+=
+(
+980
+6
+)
+/
+(
+336
+)
+=
+(
+35
+6
+)
+/
+12
+h=49w/48=49×(20 
+6
+​
+ /7)/48=(49×20 
+6
+​
+ )/(7×48)=(980 
+6
+​
+ )/(336)=(35 
+6
+​
+ )/12. correct.
+
+now, volume 
+v
+=
+l
+×
+w
+×
+h
+=
+(
+84
+/
+(
+5
+6
+)
+)
+×
+(
+20
+6
+/
+7
+)
+×
+(
+35
+6
+/
+12
+)
+v=l×w×h=(84/(5 
+6
+​
+ ))×(20 
+6
+​
+ /7)×(35 
+6
+​
+ /12)
+
+first, 
+(
+84
+/
+(
+5
+6
+)
+)
+×
+(
+20
+6
+/
+7
+)
+=
+(
+84
+×
+20
+6
+)
+/
+(
+5
+×
+7
+×
+6
+)
+)
+=
+(
+1680
+6
+)
+/
+(
+35
+6
+)
+)
+=
+1680
+/
+35
+=
+48
+(84/(5 
+6
+​
+ ))×(20 
+6
+​
+ /7)=(84×20 
+6
+​
+ )/(5×7× 
+6
+​
+ ))=(1680 
+6
+​
+ )/(35 
+6
+​
+ ))=1680/35=48
+
+then, 
+48
+×
+(
+35
+6
+/
+12
+)
+=
+(
+48
+×
+35
+6
+)
+/
+12
+=
+(
+1680
+6
+)
+/
+12
+=
+140
+6
+48×(35 
+6
+​
+ /12)=(48×35 
+6
+​
+ )/12=(1680 
+6
+​
+ )/12=140 
+6
+​
+ 
+
+so, 
+v
+=
+140
+6
+v=140 
+6
+​
+ , and 
+6
+≈
+2.449
+6
+​
+ ≈2.449, so 
+v
+≈
+140
+×
+2.449
+=
+342.86
+v≈140×2.449=342.86, which rounds to 343.
+
+alternatively, perhaps there is a better way to calculate this without getting into such messy algebra.
+
+let me try another approach.
+
+we have:
+
+l
+×
+w
+=
+48
+l×w=48 (1)
+
+l
+×
+h
+=
+49
+l×h=49 (2)
+
+w
+×
+h
+=
+50
+w×h=50 (3)
+
+if i multiply all three equations together:
+
+(
+l
+×
+w
+)
+×
+(
+l
+×
+h
+)
+×
+(
+w
+×
+h
+)
+=
+48
+×
+49
+×
+50
+(l×w)×(l×h)×(w×h)=48×49×50
+
+which is:
+
+l
+2
+×
+w
+2
+×
+h
+2
+=
+48
+×
+49
+×
+50
+l 
+2
+ ×w 
+2
+ ×h 
+2
+ =48×49×50
+
+taking square roots:
+
+l
+×
+w
+×
+h
+=
+48
+×
+49
+×
+50
+l×w×h= 
+48×49×50
+​
+ 
+
+so, 
+v
+=
+48
+×
+49
+×
+50
+v= 
+48×49×50
+​
+ 
+
+let's compute that.
+
+first, 
+48
+×
+49
+=
+2352
+48×49=2352
+
+then, 
+2352
+×
+50
+=
+117600
+2352×50=117600
+
+so, 
+v
+=
+117600
+v= 
+117600
+​
+ 
+
+now, 
+117600
+=
+1176
+×
+100
+=
+1176
+×
+10
+=
+10
+×
+1176
+117600
+​
+ = 
+1176×100
+​
+ = 
+1176
+​
+ ×10=10× 
+1176
+​
+ 
+
+now, 
+1176
+=
+49
+×
+24
+1176=49×24, since 49 times 24 is 1176.
+
+so, 
+1176
+=
+49
+×
+24
+=
+7
+24
+1176
+​
+ = 
+49×24
+​
+ =7 
+24
+​
+ 
+
+and 
+24
+=
+2
+6
+24
+​
+ =2 
+6
+​
+ , so 
+1176
+=
+7
+×
+2
+6
+=
+14
+6
+1176
+​
+ =7×2 
+6
+​
+ =14 
+6
+​
+ 
+
+therefore, 
+v
+=
+10
+×
+14
+6
+=
+140
+6
+v=10×14 
+6
+​
+ =140 
+6
+​
+ , which matches what i got earlier.
+
+so, 
+v
+=
+140
+6
+v=140 
+6
+​
+ , and 
+6
+≈
+2.449
+6
+​
+ ≈2.449, so 
+v
+≈
+140
+×
+2.449
+=
+342.86
+v≈140×2.449=342.86, which rounds to 343.
+
+alternatively, i can use a calculator to find a more precise value of 
+6
+6
+​
+ .
+
+6
+≈
+2.449489743
+6
+​
+ ≈2.449489743
+
+so, 
+v
+=
+140
+×
+2.449489743
+=
+140
+×
+2
++
+140
+×
+0.449489743
+=
+280
++
+62.9285642
+=
+342.9285642
+v=140×2.449489743=140×2+140×0.449489743=280+62.9285642=342.9285642
+
+rounding to the nearest whole number, that's 343.
+
+alternatively, if i want to be even more precise:
+
+140
+×
+2.449489743
+=
+342.9285642
+140×2.449489743=342.9285642, which is 342.9285642, so indeed, 343 when rounded to the nearest whole number.
+
+therefore, the volume of the prism is approximately 343 cubic units.
+
+**final answer**
+
+343
+343
+​

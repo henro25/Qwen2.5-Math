@@ -1,1 +1,4755 @@
-Reasoning: 
+Reasoning: I've got this problem here. it says that 
+z
+1
+z 
+1
+​
+  and 
+z
+2
+z 
+2
+​
+  are the roots of the quadratic equation 
+z
+2
++
+a
+z
++
+b
+=
+0
+z 
+2
+ +az+b=0, where 
+a
+a and 
+b
+b are complex numbers. and in the complex plane, the points 0, 
+z
+1
+z 
+1
+​
+ , and 
+z
+2
+z 
+2
+​
+  form the vertices of an equilateral triangle. i need to find 
+a
+2
+b
+b
+a 
+2
+ 
+​
+ .
+
+first, i need to recall some properties of quadratic equations and complex numbers. for a quadratic equation 
+z
+2
++
+a
+z
++
+b
+=
+0
+z 
+2
+ +az+b=0, the sum of the roots 
+z
+1
++
+z
+2
+=
+−
+a
+z 
+1
+​
+ +z 
+2
+​
+ =−a, and the product 
+z
+1
+z
+2
+=
+b
+z 
+1
+​
+ z 
+2
+​
+ =b.
+
+now, the condition is that 0, 
+z
+1
+z 
+1
+​
+ , and 
+z
+2
+z 
+2
+​
+  form an equilateral triangle in the complex plane. that means the distances between 0 and 
+z
+1
+z 
+1
+​
+ , 0 and 
+z
+2
+z 
+2
+​
+ , and 
+z
+1
+z 
+1
+​
+  and 
+z
+2
+z 
+2
+​
+  are all equal.
+
+let's denote the distance from 0 to 
+z
+1
+z 
+1
+​
+  as 
+∣
+z
+1
+∣
+∣z 
+1
+​
+ ∣, and similarly for 
+∣
+z
+2
+∣
+∣z 
+2
+​
+ ∣. since it's an equilateral triangle, 
+∣
+z
+1
+∣
+=
+∣
+z
+2
+∣
+=
+∣
+z
+1
+−
+z
+2
+∣
+∣z 
+1
+​
+ ∣=∣z 
+2
+​
+ ∣=∣z 
+1
+​
+ −z 
+2
+​
+ ∣.
+
+wait, actually, in an equilateral triangle, all sides are equal, so indeed 
+∣
+z
+1
+∣
+=
+∣
+z
+2
+∣
+=
+∣
+z
+1
+−
+z
+2
+∣
+∣z 
+1
+​
+ ∣=∣z 
+2
+​
+ ∣=∣z 
+1
+​
+ −z 
+2
+​
+ ∣.
+
+but maybe there's a better way to approach this using complex numbers properties.
+
+i remember that rotating a complex number by 60 degrees can be represented by multiplying by 
+e
+i
+π
+/
+3
+e 
+iπ/3
+ , which is 
+1
+2
++
+i
+3
+2
+2
+1
+​
+ +i 
+2
+3
+​
+ 
+​
+ . since an equilateral triangle can be seen as one vertex being a 60-degree rotation of another around the third.
+
+let me think about that. if i have points 0, 
+z
+1
+z 
+1
+​
+ , and 
+z
+2
+z 
+2
+​
+ , and they form an equilateral triangle, then rotating 
+z
+1
+z 
+1
+​
+  by 60 degrees around 0 should give me 
+z
+2
+z 
+2
+​
+ , or maybe around some other point.
+
+wait, perhaps i should consider the centroid or something. no, maybe that's complicating it.
+
+alternatively, since the triangle is equilateral, the angle between 
+z
+1
+z 
+1
+​
+  and 
+z
+2
+z 
+2
+​
+  should be 60 degrees, but i need to make sure about that.
+
+let me try expressing 
+z
+2
+z 
+2
+​
+  in terms of 
+z
+1
+z 
+1
+​
+ . if i rotate 
+z
+1
+z 
+1
+​
+  by 60 degrees around 0, i get 
+z
+2
+=
+z
+1
+⋅
+e
+i
+π
+/
+3
+z 
+2
+​
+ =z 
+1
+​
+ ⋅e 
+iπ/3
+ .
+
+but wait, is that correct? let me draw a quick sketch in my mind. if i have 0, 
+z
+1
+z 
+1
+​
+ , and 
+z
+2
+z 
+2
+​
+ , and i rotate 
+z
+1
+z 
+1
+​
+  by 60 degrees around 0, would that necessarily give me 
+z
+2
+z 
+2
+​
+ ? not necessarily, because the rotation could be clockwise or counterclockwise, and the center of rotation might not be 0.
+
+maybe a better approach is to use the fact that in an equilateral triangle, each vertex is a rotation of 120 degrees around the centroid.
+
+wait, but the centroid is not necessarily 0 unless the triangle is centered at the origin, which it isn't necessarily.
+
+hmm, perhaps i need to consider the vector relationships between the points.
+
+let me consider vectors from 0 to 
+z
+1
+z 
+1
+​
+  and from 0 to 
+z
+2
+z 
+2
+​
+ . for an equilateral triangle, the angle between these vectors should be 60 degrees, but i need to confirm that.
+
+alternatively, since all sides are equal, i can set up equations based on the magnitudes.
+
+so, 
+∣
+z
+1
+∣
+=
+∣
+z
+2
+∣
+=
+∣
+z
+1
+−
+z
+2
+∣
+∣z 
+1
+​
+ ∣=∣z 
+2
+​
+ ∣=∣z 
+1
+​
+ −z 
+2
+​
+ ∣.
+
+let me write that down:
+
+1. 
+∣
+z
+1
+∣
+=
+∣
+z
+2
+∣
+∣z 
+1
+​
+ ∣=∣z 
+2
+​
+ ∣
+
+2. 
+∣
+z
+1
+∣
+=
+∣
+z
+1
+−
+z
+2
+∣
+∣z 
+1
+​
+ ∣=∣z 
+1
+​
+ −z 
+2
+​
+ ∣
+
+from the first equation, 
+∣
+z
+1
+∣
+=
+∣
+z
+2
+∣
+∣z 
+1
+​
+ ∣=∣z 
+2
+​
+ ∣, which implies that both roots have the same magnitude.
+
+from the second equation, 
+∣
+z
+1
+∣
+=
+∣
+z
+1
+−
+z
+2
+∣
+∣z 
+1
+​
+ ∣=∣z 
+1
+​
+ −z 
+2
+​
+ ∣, which relates the magnitudes of 
+z
+1
+z 
+1
+​
+  and 
+z
+2
+z 
+2
+​
+  and their difference.
+
+i need to find a relationship between 
+a
+a and 
+b
+b, given that 
+z
+1
++
+z
+2
+=
+−
+a
+z 
+1
+​
+ +z 
+2
+​
+ =−a and 
+z
+1
+z
+2
+=
+b
+z 
+1
+​
+ z 
+2
+​
+ =b.
+
+maybe i can use these to express 
+a
+a and 
+b
+b in terms of 
+z
+1
+z 
+1
+​
+  and 
+z
+2
+z 
+2
+​
+ , and then substitute the conditions from the equilateral triangle.
+
+alternatively, perhaps there's a more straightforward approach using properties of equilateral triangles in the complex plane.
+
+i recall that in the complex plane, if three points form an equilateral triangle, there is a relationship involving their complex numbers and rotations.
+
+let me try to express 
+z
+2
+z 
+2
+​
+  in terms of 
+z
+1
+z 
+1
+​
+ .
+
+suppose i rotate 
+z
+1
+z 
+1
+​
+  by 60 degrees around some point to get 
+z
+2
+z 
+2
+​
+ . but around which point?
+
+wait, if i rotate 
+z
+1
+z 
+1
+​
+  around 0 by 60 degrees, i get 
+z
+1
+e
+i
+π
+/
+3
+z 
+1
+​
+ e 
+iπ/3
+ , but that may not necessarily give me 
+z
+2
+z 
+2
+​
+ , unless the triangle is positioned in a specific way.
+
+alternatively, perhaps i can use the formula for rotation around a point.
+
+the rotation of a point 
+z
+z around a point 
+c
+c by an angle 
+θ
+θ is given by 
+c
++
+e
+i
+θ
+(
+z
+−
+c
+)
+c+e 
+iθ
+ (z−c).
+
+in this case, if i rotate 
+z
+1
+z 
+1
+​
+  around 0 by 60 degrees, i get 
+z
+1
+e
+i
+π
+/
+3
+z 
+1
+​
+ e 
+iπ/3
+ . but does that correspond to 
+z
+2
+z 
+2
+​
+ ?
+
+maybe not directly. perhaps i need to consider the centroid of the triangle.
+
+the centroid 
+g
+g of the triangle with vertices at 0, 
+z
+1
+z 
+1
+​
+ , and 
+z
+2
+z 
+2
+​
+  is given by 
+g
+=
+0
++
+z
+1
++
+z
+2
+3
+=
+z
+1
++
+z
+2
+3
+g= 
+3
+0+z 
+1
+​
+ +z 
+2
+​
+ 
+​
+ = 
+3
+z 
+1
+​
+ +z 
+2
+​
+ 
+​
+ .
+
+in an equilateral triangle, rotating a vertex around the centroid by 120 degrees should give the next vertex.
+
+so, maybe i can express 
+z
+2
+z 
+2
+​
+  in terms of 
+z
+1
+z 
+1
+​
+  using this rotation.
+
+let me try that.
+
+first, find the centroid 
+g
+=
+z
+1
++
+z
+2
+3
+g= 
+3
+z 
+1
+​
+ +z 
+2
+​
+ 
+​
+ .
+
+then, to rotate 
+z
+1
+z 
+1
+​
+  around 
+g
+g by 120 degrees, i can use the rotation formula:
+
+z
+2
+=
+g
++
+e
+i
+2
+π
+/
+3
+(
+z
+1
+−
+g
+)
+z 
+2
+​
+ =g+e 
+i2π/3
+ (z 
+1
+​
+ −g).
+
+here, 
+e
+i
+2
+π
+/
+3
+e 
+i2π/3
+  is the rotation factor for 120 degrees.
+
+let me plug in 
+g
+g:
+
+z
+2
+=
+z
+1
++
+z
+2
+3
++
+e
+i
+2
+π
+/
+3
+(
+z
+1
+−
+z
+1
++
+z
+2
+3
+)
+z 
+2
+​
+ = 
+3
+z 
+1
+​
+ +z 
+2
+​
+ 
+​
+ +e 
+i2π/3
+ (z 
+1
+​
+ − 
+3
+z 
+1
+​
+ +z 
+2
+​
+ 
+​
+ ).
+
+simplify the expression inside the parentheses:
+
+z
+1
+−
+z
+1
++
+z
+2
+3
+=
+3
+z
+1
+−
+z
+1
+−
+z
+2
+3
+=
+2
+z
+1
+−
+z
+2
+3
+z 
+1
+​
+ − 
+3
+z 
+1
+​
+ +z 
+2
+​
+ 
+​
+ = 
+3
+3z 
+1
+​
+ −z 
+1
+​
+ −z 
+2
+​
+ 
+​
+ = 
+3
+2z 
+1
+​
+ −z 
+2
+​
+ 
+​
+ .
+
+so,
+
+z
+2
+=
+z
+1
++
+z
+2
+3
++
+e
+i
+2
+π
+/
+3
+⋅
+2
+z
+1
+−
+z
+2
+3
+z 
+2
+​
+ = 
+3
+z 
+1
+​
+ +z 
+2
+​
+ 
+​
+ +e 
+i2π/3
+ ⋅ 
+3
+2z 
+1
+​
+ −z 
+2
+​
+ 
+​
+ .
+
+multiply both sides by 3 to eliminate denominators:
+
+3
+z
+2
+=
+z
+1
++
+z
+2
++
+e
+i
+2
+π
+/
+3
+(
+2
+z
+1
+−
+z
+2
+)
+3z 
+2
+​
+ =z 
+1
+​
+ +z 
+2
+​
+ +e 
+i2π/3
+ (2z 
+1
+​
+ −z 
+2
+​
+ ).
+
+subtract 
+z
+1
++
+z
+2
+z 
+1
+​
+ +z 
+2
+​
+  from both sides:
+
+2
+z
+2
+−
+z
+1
+=
+e
+i
+2
+π
+/
+3
+(
+2
+z
+1
+−
+z
+2
+)
+2z 
+2
+​
+ −z 
+1
+​
+ =e 
+i2π/3
+ (2z 
+1
+​
+ −z 
+2
+​
+ ).
+
+now, let's denote 
+e
+i
+2
+π
+/
+3
+=
+ω
+e 
+i2π/3
+ =ω, where 
+ω
+3
+=
+1
+ω 
+3
+ =1 and 
+ω
+≠
+1
+ω
+
+=1.
+
+so, 
+2
+z
+2
+−
+z
+1
+=
+ω
+(
+2
+z
+1
+−
+z
+2
+)
+2z 
+2
+​
+ −z 
+1
+​
+ =ω(2z 
+1
+​
+ −z 
+2
+​
+ ).
+
+let's solve for 
+z
+2
+z 
+2
+​
+  in terms of 
+z
+1
+z 
+1
+​
+ :
+
+expand the right side:
+
+2
+z
+2
+−
+z
+1
+=
+2
+ω
+z
+1
+−
+ω
+z
+2
+2z 
+2
+​
+ −z 
+1
+​
+ =2ωz 
+1
+​
+ −ωz 
+2
+​
+ .
+
+bring all terms involving 
+z
+2
+z 
+2
+​
+  to one side and the rest to the other side:
+
+2
+z
+2
++
+ω
+z
+2
+=
+2
+ω
+z
+1
++
+z
+1
+2z 
+2
+​
+ +ωz 
+2
+​
+ =2ωz 
+1
+​
+ +z 
+1
+​
+ .
+
+factor 
+z
+2
+z 
+2
+​
+  and 
+z
+1
+z 
+1
+​
+ :
+
+z
+2
+(
+2
++
+ω
+)
+=
+z
+1
+(
+2
+ω
++
+1
+)
+z 
+2
+​
+ (2+ω)=z 
+1
+​
+ (2ω+1).
+
+therefore,
+
+z
+2
+=
+z
+1
+⋅
+2
+ω
++
+1
+2
++
+ω
+z 
+2
+​
+ =z 
+1
+​
+ ⋅ 
+2+ω
+2ω+1
+​
+ .
+
+now, recall that 
+ω
+=
+e
+i
+2
+π
+/
+3
+=
+−
+1
+2
++
+i
+3
+2
+ω=e 
+i2π/3
+ =− 
+2
+1
+​
+ +i 
+2
+3
+​
+ 
+​
+ .
+
+let me compute 
+2
+ω
++
+1
+2ω+1 and 
+2
++
+ω
+2+ω:
+
+first, 
+2
+ω
++
+1
+=
+2
+(
+−
+1
+2
++
+i
+3
+2
+)
++
+1
+=
+−
+1
++
+i
+3
++
+1
+=
+i
+3
+2ω+1=2(− 
+2
+1
+​
+ +i 
+2
+3
+​
+ 
+​
+ )+1=−1+i 
+3
+​
+ +1=i 
+3
+​
+ .
+
+second, 
+2
++
+ω
+=
+2
++
+(
+−
+1
+2
++
+i
+3
+2
+)
+=
+3
+2
++
+i
+3
+2
+2+ω=2+(− 
+2
+1
+​
+ +i 
+2
+3
+​
+ 
+​
+ )= 
+2
+3
+​
+ +i 
+2
+3
+​
+ 
+​
+ .
+
+so, 
+z
+2
+=
+z
+1
+⋅
+i
+3
+3
+2
++
+i
+3
+2
+z 
+2
+​
+ =z 
+1
+​
+ ⋅ 
+2
+3
+​
+ +i 
+2
+3
+​
+ 
+​
+ 
+i 
+3
+​
+ 
+​
+ .
+
+let me simplify the denominator:
+
+3
+2
++
+i
+3
+2
+=
+3
++
+i
+3
+2
+2
+3
+​
+ +i 
+2
+3
+​
+ 
+​
+ = 
+2
+3+i 
+3
+​
+ 
+​
+ .
+
+so,
+
+z
+2
+=
+z
+1
+⋅
+i
+3
+3
++
+i
+3
+2
+=
+z
+1
+⋅
+2
+i
+3
+3
++
+i
+3
+z 
+2
+​
+ =z 
+1
+​
+ ⋅ 
+2
+3+i 
+3
+​
+ 
+​
+ 
+i 
+3
+​
+ 
+​
+ =z 
+1
+​
+ ⋅ 
+3+i 
+3
+​
+ 
+2i 
+3
+​
+ 
+​
+ .
+
+to simplify this further, multiply numerator and denominator by the conjugate of the denominator:
+
+z
+2
+=
+z
+1
+⋅
+2
+i
+3
+(
+3
+−
+i
+3
+)
+(
+3
++
+i
+3
+)
+(
+3
+−
+i
+3
+)
+=
+z
+1
+⋅
+2
+i
+3
+(
+3
+−
+i
+3
+)
+9
++
+3
+=
+z
+1
+⋅
+2
+i
+3
+(
+3
+−
+i
+3
+)
+12
+z 
+2
+​
+ =z 
+1
+​
+ ⋅ 
+(3+i 
+3
+​
+ )(3−i 
+3
+​
+ )
+2i 
+3
+​
+ (3−i 
+3
+​
+ )
+​
+ =z 
+1
+​
+ ⋅ 
+9+3
+2i 
+3
+​
+ (3−i 
+3
+​
+ )
+​
+ =z 
+1
+​
+ ⋅ 
+12
+2i 
+3
+​
+ (3−i 
+3
+​
+ )
+​
+ .
+
+simplify the denominator:
+
+9
++
+3
+=
+12
+9+3=12.
+
+now, expand the numerator:
+
+2
+i
+3
+(
+3
+−
+i
+3
+)
+=
+6
+i
+3
+−
+2
+i
+2
+3
+=
+6
+i
+3
++
+6
+2i 
+3
+​
+ (3−i 
+3
+​
+ )=6i 
+3
+​
+ −2i 
+2
+ 3=6i 
+3
+​
+ +6 (since 
+i
+2
+=
+−
+1
+i 
+2
+ =−1).
+
+so,
+
+z
+2
+=
+z
+1
+⋅
+6
+i
+3
++
+6
+12
+=
+z
+1
+⋅
+6
+(
+i
+3
++
+1
+)
+12
+=
+z
+1
+⋅
+i
+3
++
+1
+2
+z 
+2
+​
+ =z 
+1
+​
+ ⋅ 
+12
+6i 
+3
+​
+ +6
+​
+ =z 
+1
+​
+ ⋅ 
+12
+6(i 
+3
+​
+ +1)
+​
+ =z 
+1
+​
+ ⋅ 
+2
+i 
+3
+​
+ +1
+​
+ .
+
+therefore, 
+z
+2
+=
+z
+1
+⋅
+1
++
+i
+3
+2
+z 
+2
+​
+ =z 
+1
+​
+ ⋅ 
+2
+1+i 
+3
+​
+ 
+​
+ .
+
+now, i have expressions for 
+z
+1
++
+z
+2
+z 
+1
+​
+ +z 
+2
+​
+  and 
+z
+1
+z
+2
+z 
+1
+​
+ z 
+2
+​
+  in terms of 
+a
+a and 
+b
+b:
+
+z
+1
++
+z
+2
+=
+−
+a
+z 
+1
+​
+ +z 
+2
+​
+ =−a,
+
+z
+1
+z
+2
+=
+b
+z 
+1
+​
+ z 
+2
+​
+ =b.
+
+let me substitute 
+z
+2
+z 
+2
+​
+  in terms of 
+z
+1
+z 
+1
+​
+ :
+
+z
+1
++
+z
+1
+⋅
+1
++
+i
+3
+2
+=
+−
+a
+z 
+1
+​
+ +z 
+1
+​
+ ⋅ 
+2
+1+i 
+3
+​
+ 
+​
+ =−a.
+
+factor out 
+z
+1
+z 
+1
+​
+ :
+
+z
+1
+(
+1
++
+1
++
+i
+3
+2
+)
+=
+−
+a
+z 
+1
+​
+ (1+ 
+2
+1+i 
+3
+​
+ 
+​
+ )=−a.
+
+simplify the expression inside the parentheses:
+
+1
++
+1
++
+i
+3
+2
+=
+2
+2
++
+1
++
+i
+3
+2
+=
+3
++
+i
+3
+2
+1+ 
+2
+1+i 
+3
+​
+ 
+​
+ = 
+2
+2
+​
+ + 
+2
+1+i 
+3
+​
+ 
+​
+ = 
+2
+3+i 
+3
+​
+ 
+​
+ .
+
+so,
+
+z
+1
+⋅
+3
++
+i
+3
+2
+=
+−
+a
+z 
+1
+​
+ ⋅ 
+2
+3+i 
+3
+​
+ 
+​
+ =−a.
+
+therefore,
+
+z
+1
+=
+−
+a
+⋅
+2
+3
++
+i
+3
+z 
+1
+​
+ =−a⋅ 
+3+i 
+3
+​
+ 
+2
+​
+ .
+
+let me rationalize the denominator:
+
+z
+1
+=
+−
+a
+⋅
+2
+(
+3
+−
+i
+3
+)
+(
+3
++
+i
+3
+)
+(
+3
+−
+i
+3
+)
+=
+−
+a
+⋅
+2
+(
+3
+−
+i
+3
+)
+9
++
+3
+=
+−
+a
+⋅
+2
+(
+3
+−
+i
+3
+)
+12
+=
+−
+a
+⋅
+3
+−
+i
+3
+6
+=
+−
+a
+⋅
+3
+−
+i
+3
+6
+z 
+1
+​
+ =−a⋅ 
+(3+i 
+3
+​
+ )(3−i 
+3
+​
+ )
+2(3−i 
+3
+​
+ )
+​
+ =−a⋅ 
+9+3
+2(3−i 
+3
+​
+ )
+​
+ =−a⋅ 
+12
+2(3−i 
+3
+​
+ )
+​
+ =−a⋅ 
+6
+3−i 
+3
+​
+ 
+​
+ =−a⋅ 
+6
+3−i 
+3
+​
+ 
+​
+ .
+
+simplify:
+
+z
+1
+=
+−
+a
+(
+3
+−
+i
+3
+)
+6
+=
+−
+a
+6
+(
+3
+−
+i
+3
+)
+=
+−
+a
+2
+⋅
+3
+−
+i
+3
+3
+=
+−
+a
+2
+(
+1
+−
+i
+3
+3
+)
+z 
+1
+​
+ =− 
+6
+a(3−i 
+3
+​
+ )
+​
+ =− 
+6
+a
+​
+ (3−i 
+3
+​
+ )=− 
+2
+a
+​
+ ⋅ 
+3
+3−i 
+3
+​
+ 
+​
+ =− 
+2
+a
+​
+ (1− 
+3
+i 
+3
+​
+ 
+​
+ ).
+
+hmm, maybe i should keep it as 
+z
+1
+=
+−
+a
+⋅
+3
+−
+i
+3
+6
+z 
+1
+​
+ =−a⋅ 
+6
+3−i 
+3
+​
+ 
+​
+ .
+
+now, let's find 
+z
+1
+z
+2
+=
+b
+z 
+1
+​
+ z 
+2
+​
+ =b.
+
+we have 
+z
+2
+=
+z
+1
+⋅
+1
++
+i
+3
+2
+z 
+2
+​
+ =z 
+1
+​
+ ⋅ 
+2
+1+i 
+3
+​
+ 
+​
+ , so:
+
+b
+=
+z
+1
+z
+2
+=
+z
+1
+⋅
+(
+z
+1
+⋅
+1
++
+i
+3
+2
+)
+=
+z
+1
+2
+⋅
+1
++
+i
+3
+2
+b=z 
+1
+​
+ z 
+2
+​
+ =z 
+1
+​
+ ⋅(z 
+1
+​
+ ⋅ 
+2
+1+i 
+3
+​
+ 
+​
+ )=z 
+1
+2
+​
+ ⋅ 
+2
+1+i 
+3
+​
+ 
+​
+ .
+
+but i need to express 
+a
+2
+/
+b
+a 
+2
+ /b, so perhaps i can express both 
+a
+a and 
+b
+b in terms of 
+z
+1
+z 
+1
+​
+ , and then find the ratio.
+
+alternatively, maybe there's a smarter way to relate 
+a
+a and 
+b
+b directly without going through 
+z
+1
+z 
+1
+​
+  and 
+z
+2
+z 
+2
+​
+ .
+
+let me recall that in a quadratic equation, 
+a
+=
+−
+(
+z
+1
++
+z
+2
+)
+a=−(z 
+1
+​
+ +z 
+2
+​
+ ) and 
+b
+=
+z
+1
+z
+2
+b=z 
+1
+​
+ z 
+2
+​
+ .
+
+i need to find 
+a
+2
+b
+=
+(
+z
+1
++
+z
+2
+)
+2
+z
+1
+z
+2
+b
+a 
+2
+ 
+​
+ = 
+z 
+1
+​
+ z 
+2
+​
+ 
+(z 
+1
+​
+ +z 
+2
+​
+ ) 
+2
+ 
+​
+ .
+
+expand the numerator:
+
+(
+z
+1
++
+z
+2
+)
+2
+=
+z
+1
+2
++
+2
+z
+1
+z
+2
++
+z
+2
+2
+(z 
+1
+​
+ +z 
+2
+​
+ ) 
+2
+ =z 
+1
+2
+​
+ +2z 
+1
+​
+ z 
+2
+​
+ +z 
+2
+2
+​
+ .
+
+so,
+
+a
+2
+b
+=
+z
+1
+2
++
+2
+z
+1
+z
+2
++
+z
+2
+2
+z
+1
+z
+2
+=
+z
+1
+2
+z
+1
+z
+2
++
+2
+z
+1
+z
+2
+z
+1
+z
+2
++
+z
+2
+2
+z
+1
+z
+2
+=
+z
+1
+z
+2
++
+2
++
+z
+2
+z
+1
+b
+a 
+2
+ 
+​
+ = 
+z 
+1
+​
+ z 
+2
+​
+ 
+z 
+1
+2
+​
+ +2z 
+1
+​
+ z 
+2
+​
+ +z 
+2
+2
+​
+ 
+​
+ = 
+z 
+1
+​
+ z 
+2
+​
+ 
+z 
+1
+2
+​
+ 
+​
+ + 
+z 
+1
+​
+ z 
+2
+​
+ 
+2z 
+1
+​
+ z 
+2
+​
+ 
+​
+ + 
+z 
+1
+​
+ z 
+2
+​
+ 
+z 
+2
+2
+​
+ 
+​
+ = 
+z 
+2
+​
+ 
+z 
+1
+​
+ 
+​
+ +2+ 
+z 
+1
+​
+ 
+z 
+2
+​
+ 
+​
+ .
+
+so, 
+a
+2
+b
+=
+z
+1
+z
+2
++
+2
++
+z
+2
+z
+1
+b
+a 
+2
+ 
+​
+ = 
+z 
+2
+​
+ 
+z 
+1
+​
+ 
+​
+ +2+ 
+z 
+1
+​
+ 
+z 
+2
+​
+ 
+​
+ .
+
+now, from earlier, 
+z
+2
+=
+z
+1
+⋅
+1
++
+i
+3
+2
+z 
+2
+​
+ =z 
+1
+​
+ ⋅ 
+2
+1+i 
+3
+​
+ 
+​
+ , so 
+z
+1
+z
+2
+=
+2
+1
++
+i
+3
+z 
+2
+​
+ 
+z 
+1
+​
+ 
+​
+ = 
+1+i 
+3
+​
+ 
+2
+​
+ , and 
+z
+2
+z
+1
+=
+1
++
+i
+3
+2
+z 
+1
+​
+ 
+z 
+2
+​
+ 
+​
+ = 
+2
+1+i 
+3
+​
+ 
+​
+ .
+
+let me compute 
+2
+1
++
+i
+3
+1+i 
+3
+​
+ 
+2
+​
+ :
+
+multiply numerator and denominator by the conjugate:
+
+2
+(
+1
+−
+i
+3
+)
+(
+1
++
+i
+3
+)
+(
+1
+−
+i
+3
+)
+=
+2
+(
+1
+−
+i
+3
+)
+1
++
+3
+=
+2
+(
+1
+−
+i
+3
+)
+4
+=
+1
+−
+i
+3
+2
+(1+i 
+3
+​
+ )(1−i 
+3
+​
+ )
+2(1−i 
+3
+​
+ )
+​
+ = 
+1+3
+2(1−i 
+3
+​
+ )
+​
+ = 
+4
+2(1−i 
+3
+​
+ )
+​
+ = 
+2
+1−i 
+3
+​
+ 
+​
+ .
+
+so, 
+z
+1
+z
+2
+=
+1
+−
+i
+3
+2
+z 
+2
+​
+ 
+z 
+1
+​
+ 
+​
+ = 
+2
+1−i 
+3
+​
+ 
+​
+ , and 
+z
+2
+z
+1
+=
+1
++
+i
+3
+2
+z 
+1
+​
+ 
+z 
+2
+​
+ 
+​
+ = 
+2
+1+i 
+3
+​
+ 
+​
+ .
+
+now, plug these back into the expression for 
+a
+2
+b
+b
+a 
+2
+ 
+​
+ :
+
+a
+2
+b
+=
+1
+−
+i
+3
+2
++
+2
++
+1
++
+i
+3
+2
+b
+a 
+2
+ 
+​
+ = 
+2
+1−i 
+3
+​
+ 
+​
+ +2+ 
+2
+1+i 
+3
+​
+ 
+​
+ .
+
+combine the terms:
+
+1
+−
+i
+3
+2
++
+1
++
+i
+3
+2
+=
+1
+−
+i
+3
++
+1
++
+i
+3
+2
+=
+2
+2
+=
+1
+2
+1−i 
+3
+​
+ 
+​
+ + 
+2
+1+i 
+3
+​
+ 
+​
+ = 
+2
+1−i 
+3
+​
+ +1+i 
+3
+​
+ 
+​
+ = 
+2
+2
+​
+ =1.
+
+so,
+
+a
+2
+b
+=
+1
++
+2
+=
+3
+b
+a 
+2
+ 
+​
+ =1+2=3.
+
+wait, is that right? let me double-check.
+
+i have:
+
+a
+2
+b
+=
+z
+1
+z
+2
++
+2
++
+z
+2
+z
+1
+=
+1
+−
+i
+3
+2
++
+2
++
+1
++
+i
+3
+2
+b
+a 
+2
+ 
+​
+ = 
+z 
+2
+​
+ 
+z 
+1
+​
+ 
+​
+ +2+ 
+z 
+1
+​
+ 
+z 
+2
+​
+ 
+​
+ = 
+2
+1−i 
+3
+​
+ 
+​
+ +2+ 
+2
+1+i 
+3
+​
+ 
+​
+ .
+
+combining the fractions:
+
+1
+−
+i
+3
++
+1
++
+i
+3
+2
+=
+2
+2
+=
+1
+2
+1−i 
+3
+​
+ +1+i 
+3
+​
+ 
+​
+ = 
+2
+2
+​
+ =1.
+
+adding the 2:
+
+1
++
+2
+=
+3
+1+2=3.
+
+so, 
+a
+2
+b
+=
+3
+b
+a 
+2
+ 
+​
+ =3.
+
+is this the final answer? it seems too straightforward. maybe i made a mistake somewhere.
+
+let me try another approach to verify.
+
+alternatively, consider that in an equilateral triangle, the centroid divides the medians in a 2:1 ratio, but i'm not sure if that helps directly here.
+
+alternatively, perhaps i can use the property that in an equilateral triangle, the circumradius 
+r
+r and the inradius 
+r
+r are related by 
+r
+=
+2
+r
+r=2r.
+
+but i'm dealing with complex numbers, so maybe that's not the best route.
+
+wait, perhaps i can use vectors. consider vectors 
+0
+⃗
+0
+ , 
+z
+1
+⃗
+z 
+1
+​
+ 
+​
+ , and 
+z
+2
+⃗
+z 
+2
+​
+ 
+​
+ . the condition for them to form an equilateral triangle can be expressed using dot products or cross products, but in complex plane terms, maybe there's a simpler way.
+
+alternatively, perhaps i can use the fact that rotating one vertex by 60 degrees around another gives the third vertex.
+
+let me try that.
+
+suppose i rotate 
+z
+1
+z 
+1
+​
+  by 60 degrees around 
+z
+2
+z 
+2
+​
+  to get 
+z
+3
+z 
+3
+​
+ , but in this case, 
+z
+3
+z 
+3
+​
+  would be 0, which is already given.
+
+wait, perhaps i need to consider the rotation of 
+z
+1
+z 
+1
+​
+  around 0 to get 
+z
+2
+z 
+2
+​
+ , but earlier that didn't lead directly to the answer.
+
+alternatively, maybe i can use the property that the difference 
+z
+1
+−
+z
+2
+z 
+1
+​
+ −z 
+2
+​
+  has a magnitude equal to 
+∣
+z
+1
+∣
+∣z 
+1
+​
+ ∣ and 
+∣
+z
+2
+∣
+∣z 
+2
+​
+ ∣, as established earlier.
+
+let me compute 
+∣
+z
+1
+−
+z
+2
+∣
+∣z 
+1
+​
+ −z 
+2
+​
+ ∣:
+
+∣
+z
+1
+−
+z
+2
+∣
+=
+∣
+z
+1
+−
+z
+1
+⋅
+1
++
+i
+3
+2
+∣
+=
+∣
+z
+1
+(
+1
+−
+1
++
+i
+3
+2
+)
+∣
+=
+∣
+z
+1
+∣
+⋅
+∣
+2
+−
+1
+−
+i
+3
+2
+∣
+=
+∣
+z
+1
+∣
+⋅
+∣
+1
+−
+i
+3
+2
+∣
+∣z 
+1
+​
+ −z 
+2
+​
+ ∣=∣z 
+1
+​
+ −z 
+1
+​
+ ⋅ 
+2
+1+i 
+3
+​
+ 
+​
+ ∣=∣z 
+1
+​
+ (1− 
+2
+1+i 
+3
+​
+ 
+​
+ )∣=∣z 
+1
+​
+ ∣⋅∣ 
+2
+2−1−i 
+3
+​
+ 
+​
+ ∣=∣z 
+1
+​
+ ∣⋅∣ 
+2
+1−i 
+3
+​
+ 
+​
+ ∣.
+
+compute the magnitude:
+
+∣
+1
+−
+i
+3
+∣
+=
+1
+2
++
+(
+3
+)
+2
+=
+1
++
+3
+=
+2
+∣1−i 
+3
+​
+ ∣= 
+1 
+2
+ +( 
+3
+​
+ ) 
+2
+ 
+​
+ = 
+1+3
+​
+ =2.
+
+so,
+
+∣
+z
+1
+−
+z
+2
+∣
+=
+∣
+z
+1
+∣
+⋅
+2
+2
+=
+∣
+z
+1
+∣
+∣z 
+1
+​
+ −z 
+2
+​
+ ∣=∣z 
+1
+​
+ ∣⋅ 
+2
+2
+​
+ =∣z 
+1
+​
+ ∣.
+
+which matches the condition that all sides are equal.
+
+so, that seems consistent.
+
+alternatively, perhaps i can use the formula for the area of the triangle formed by three points in the complex plane.
+
+the area is given by 
+1
+2
+∣
+im
+(
+z
+1
+z
+2
+‾
+)
+∣
+2
+1
+​
+ ∣im(z 
+1
+​
+  
+z 
+2
+​
+ 
+​
+ )∣, but i'm not sure if that helps here.
+
+alternatively, maybe i can use the fact that in an equilateral triangle, the angles between the vectors are 60 degrees.
+
+so, the angle between 
+z
+1
+z 
+1
+​
+  and 
+z
+2
+z 
+2
+​
+  should be 60 degrees.
+
+in complex numbers, the angle between two vectors 
+z
+1
+z 
+1
+​
+  and 
+z
+2
+z 
+2
+​
+  is given by 
+arg
+⁡
+(
+z
+2
+z
+1
+)
+arg( 
+z 
+1
+​
+ 
+z 
+2
+​
+ 
+​
+ ).
+
+so, 
+arg
+⁡
+(
+z
+2
+z
+1
+)
+=
+6
+0
+∘
+arg( 
+z 
+1
+​
+ 
+z 
+2
+​
+ 
+​
+ )=60 
+∘
+  or 
+6
+0
+∘
+60 
+∘
+  plus multiples of 
+12
+0
+∘
+120 
+∘
+ , depending on the orientation.
+
+but in this case, since it's an equilateral triangle, the angle should be 
+6
+0
+∘
+60 
+∘
+  or 
+12
+0
+∘
+120 
+∘
+ .
+
+wait, more precisely, the angle between 
+z
+1
+z 
+1
+​
+  and 
+z
+2
+z 
+2
+​
+  should be 
+12
+0
+∘
+120 
+∘
+ , because in the context of the triangle, the internal angles are 
+6
+0
+∘
+60 
+∘
+ , but the angle between the vectors from the origin might be different.
+
+wait, perhaps i need to think more carefully about this.
+
+let me consider 
+z
+1
+z 
+1
+​
+  and 
+z
+2
+z 
+2
+​
+  as vectors from the origin. the angle between them is 
+θ
+=
+arg
+⁡
+(
+z
+2
+z
+1
+)
+θ=arg( 
+z 
+1
+​
+ 
+z 
+2
+​
+ 
+​
+ ).
+
+in an equilateral triangle, the angle between these vectors should be 
+12
+0
+∘
+120 
+∘
+ , because each internal angle of the triangle is 
+6
+0
+∘
+60 
+∘
+ , but the angle at the origin between the two vectors is different.
+
+wait, actually, no. if 0, 
+z
+1
+z 
+1
+​
+ , and 
+z
+2
+z 
+2
+​
+  form an equilateral triangle, then the angle at the origin between 
+z
+1
+z 
+1
+​
+  and 
+z
+2
+z 
+2
+​
+  should be 
+6
+0
+∘
+60 
+∘
+ , not 
+12
+0
+∘
+120 
+∘
+ .
+
+wait, let's think about it.
+
+if i have points at 0, 
+z
+1
+z 
+1
+​
+ , and 
+z
+2
+z 
+2
+​
+ , forming an equilateral triangle, then the angle at 0 between 
+z
+1
+z 
+1
+​
+  and 
+z
+2
+z 
+2
+​
+  should be 
+6
+0
+∘
+60 
+∘
+ , because each internal angle of the triangle is 
+6
+0
+∘
+60 
+∘
+ .
+
+so, 
+arg
+⁡
+(
+z
+2
+z
+1
+)
+=
+6
+0
+∘
+arg( 
+z 
+1
+​
+ 
+z 
+2
+​
+ 
+​
+ )=60 
+∘
+ , or 
+π
+3
+3
+π
+​
+  radians.
+
+therefore, 
+z
+2
+z
+1
+=
+e
+i
+π
+/
+3
+=
+1
+2
++
+i
+3
+2
+z 
+1
+​
+ 
+z 
+2
+​
+ 
+​
+ =e 
+iπ/3
+ = 
+2
+1
+​
+ +i 
+2
+3
+​
+ 
+​
+ .
+
+so, 
+z
+2
+=
+z
+1
+⋅
+(
+1
+2
++
+i
+3
+2
+)
+z 
+2
+​
+ =z 
+1
+​
+ ⋅( 
+2
+1
+​
+ +i 
+2
+3
+​
+ 
+​
+ ).
+
+wait, but earlier i had 
+z
+2
+=
+z
+1
+⋅
+1
++
+i
+3
+2
+z 
+2
+​
+ =z 
+1
+​
+ ⋅ 
+2
+1+i 
+3
+​
+ 
+​
+ , which matches this.
+
+so, that seems consistent.
+
+then, earlier calculations led to 
+a
+2
+b
+=
+3
+b
+a 
+2
+ 
+​
+ =3.
+
+but perhaps i should consider that the angle could also be 
+−
+6
+0
+∘
+−60 
+∘
+ , so 
+arg
+⁡
+(
+z
+2
+z
+1
+)
+=
+−
+6
+0
+∘
+arg( 
+z 
+1
+​
+ 
+z 
+2
+​
+ 
+​
+ )=−60 
+∘
+ , which would give 
+z
+2
+=
+z
+1
+⋅
+e
+−
+i
+π
+/
+3
+=
+z
+1
+⋅
+(
+1
+2
+−
+i
+3
+2
+)
+z 
+2
+​
+ =z 
+1
+​
+ ⋅e 
+−iπ/3
+ =z 
+1
+​
+ ⋅( 
+2
+1
+​
+ −i 
+2
+3
+​
+ 
+​
+ ).
+
+but in that case, following similar steps, i would still get 
+a
+2
+b
+=
+3
+b
+a 
+2
+ 
+​
+ =3, since the imaginary parts would cancel out in the end.
+
+alternatively, perhaps there's a general formula for this.
+
+let me try to generalize.
+
+given that 
+z
+1
+z 
+1
+​
+  and 
+z
+2
+z 
+2
+​
+  are roots of 
+z
+2
++
+a
+z
++
+b
+=
+0
+z 
+2
+ +az+b=0, and 0, 
+z
+1
+z 
+1
+​
+ , 
+z
+2
+z 
+2
+​
+  form an equilateral triangle.
+
+we have 
+z
+1
++
+z
+2
+=
+−
+a
+z 
+1
+​
+ +z 
+2
+​
+ =−a, 
+z
+1
+z
+2
+=
+b
+z 
+1
+​
+ z 
+2
+​
+ =b.
+
+and 
+z
+2
+=
+z
+1
+e
+i
+π
+/
+3
+z 
+2
+​
+ =z 
+1
+​
+ e 
+iπ/3
+ .
+
+wait, is that correct? earlier, i thought 
+z
+2
+=
+z
+1
+⋅
+1
++
+i
+3
+2
+z 
+2
+​
+ =z 
+1
+​
+ ⋅ 
+2
+1+i 
+3
+​
+ 
+​
+ , but actually, if 
+z
+2
+=
+z
+1
+e
+i
+π
+/
+3
+z 
+2
+​
+ =z 
+1
+​
+ e 
+iπ/3
+ , then 
+z
+2
+=
+z
+1
+(
+1
+2
++
+i
+3
+2
+)
+z 
+2
+​
+ =z 
+1
+​
+ ( 
+2
+1
+​
+ +i 
+2
+3
+​
+ 
+​
+ ), which matches.
+
+so, 
+z
+2
+=
+z
+1
+e
+i
+π
+/
+3
+z 
+2
+​
+ =z 
+1
+​
+ e 
+iπ/3
+ .
+
+then, 
+z
+1
++
+z
+2
+=
+z
+1
+(
+1
++
+e
+i
+π
+/
+3
+)
+=
+−
+a
+z 
+1
+​
+ +z 
+2
+​
+ =z 
+1
+​
+ (1+e 
+iπ/3
+ )=−a, and 
+z
+1
+z
+2
+=
+z
+1
+2
+e
+i
+π
+/
+3
+=
+b
+z 
+1
+​
+ z 
+2
+​
+ =z 
+1
+2
+​
+ e 
+iπ/3
+ =b.
+
+therefore, 
+z
+1
+(
+1
++
+e
+i
+π
+/
+3
+)
+=
+−
+a
+z 
+1
+​
+ (1+e 
+iπ/3
+ )=−a, so 
+z
+1
+=
+−
+a
+/
+(
+1
++
+e
+i
+π
+/
+3
+)
+z 
+1
+​
+ =−a/(1+e 
+iπ/3
+ ).
+
+similarly, 
+b
+=
+z
+1
+2
+e
+i
+π
+/
+3
+b=z 
+1
+2
+​
+ e 
+iπ/3
+ .
+
+so, 
+b
+=
+(
+−
+a
+1
++
+e
+i
+π
+/
+3
+)
+2
+e
+i
+π
+/
+3
+b=( 
+1+e 
+iπ/3
+ 
+−a
+​
+ ) 
+2
+ e 
+iπ/3
+ .
+
+now, let's compute 
+a
+2
+b
+b
+a 
+2
+ 
+​
+ :
+
+.
+
+now, compute 
+(
+1
++
+e
+i
+π
+/
+3
+)
+2
+(1+e 
+iπ/3
+ ) 
+2
+ :
+
+(
+1
++
+e
+i
+π
+/
+3
+)
+2
+=
+1
++
+2
+e
+i
+π
+/
+3
++
+e
+i
+2
+π
+/
+3
+(1+e 
+iπ/3
+ ) 
+2
+ =1+2e 
+iπ/3
+ +e 
+i2π/3
+ .
+
+so,
+
+(
+1
++
+e
+i
+π
+/
+3
+)
+2
+e
+i
+π
+/
+3
+=
+1
++
+2
+e
+i
+π
+/
+3
++
+e
+i
+2
+π
+/
+3
+e
+i
+π
+/
+3
+=
+1
+e
+i
+π
+/
+3
++
+2
++
+e
+i
+2
+π
+/
+3
+/
+e
+i
+π
+/
+3
+e 
+iπ/3
+ 
+(1+e 
+iπ/3
+ ) 
+2
+ 
+​
+ = 
+e 
+iπ/3
+ 
+1+2e 
+iπ/3
+ +e 
+i2π/3
+ 
+​
+ = 
+e 
+iπ/3
+ 
+1
+​
+ +2+e 
+i2π/3
+ /e 
+iπ/3
+ .
+
+simplify each term:
+
+1
+e
+i
+π
+/
+3
+=
+e
+−
+i
+π
+/
+3
+e 
+iπ/3
+ 
+1
+​
+ =e 
+−iπ/3
+ ,
+
+e
+i
+2
+π
+/
+3
+/
+e
+i
+π
+/
+3
+=
+e
+i
+π
+/
+3
+e 
+i2π/3
+ /e 
+iπ/3
+ =e 
+iπ/3
+ .
+
+so,
+
+e
+−
+i
+π
+/
+3
++
+2
++
+e
+i
+π
+/
+3
+e 
+−iπ/3
+ +2+e 
+iπ/3
+ .
+
+now, recall that 
+e
+i
+π
+/
+3
++
+e
+−
+i
+π
+/
+3
+=
+2
+cos
+⁡
+(
+π
+/
+3
+)
+=
+2
+⋅
+1
+2
+=
+1
+e 
+iπ/3
+ +e 
+−iπ/3
+ =2cos(π/3)=2⋅ 
+2
+1
+​
+ =1.
+
+therefore,
+
+e
+−
+i
+π
+/
+3
++
+2
++
+e
+i
+π
+/
+3
+=
+1
++
+2
+=
+3
+e 
+−iπ/3
+ +2+e 
+iπ/3
+ =1+2=3.
+
+thus, 
+a
+2
+b
+=
+3
+b
+a 
+2
+ 
+​
+ =3.
+
+this matches my earlier result, so i think this is correct.
+
+**final answer**
+
+3
+3
+​

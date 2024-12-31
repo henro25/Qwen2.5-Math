@@ -1,1 +1,59 @@
-Answer: 
+Answer: To evaluate the infinite sum \(\sum_{n=1}^{\infty} \frac{n}{n^4 + 4}\), we first check for convergence. the general term is:
+
+\[
+a_n = \frac{n}{n^4 + 4} = \frac{1}{n^3(1 + \frac{4}{n^4})} \approx \frac{1}{n^3}
+\]
+
+since \(\sum \frac{1}{n^3}\) is a convergent p-series, our series converges.
+
+next, we factor the denominator:
+
+\[
+n^4 + 4 = (n^2 + 2n + 2)(n^2 - 2n + 2)
+\]
+
+using partial fractions, we decompose:
+
+\[
+\frac{n}{(n^2 + 2n + 2)(n^2 - 2n + 2)} = \frac{a n + b}{n^2 + 2n + 2} + \frac{c n + d}{n^2 - 2n + 2}
+\]
+
+solving for \(a\), \(b\), \(c\), and \(d\), we find:
+
+\[
+a = 0, \quad b = -\frac{1}{4}, \quad c = 0, \quad d = \frac{1}{4}
+\]
+
+thus, the decomposition is:
+
+\[
+\frac{n}{n^4 + 4} = \frac{1}{4(n^2 - 2n + 2)} - \frac{1}{4(n^2 + 2n + 2)}
+\]
+
+the sum becomes:
+
+\[
+\sum_{n=1}^{\infty} \frac{n}{n^4 + 4} = \frac{1}{4} \sum_{n=1}^{\infty} \left( \frac{1}{(n - 1)^2 + 1} - \frac{1}{(n + 1)^2 + 1} \right)
+\]
+
+shifting indices, we get:
+
+\[
+\sum_{n=1}^{\infty} \frac{n}{n^4 + 4} = \frac{1}{4} \left( \sum_{m=0}^{\infty} \frac{1}{m^2 + 1} - \sum_{k=2}^{\infty} \frac{1}{k^2 + 1} \right)
+\]
+
+the difference between these sums is:
+
+\[
+\sum_{m=0}^{\infty} \frac{1}{m^2 + 1} - \sum_{k=2}^{\infty} \frac{1}{k^2 + 1} = 1 + \frac{1}{2} = \frac{3}{2}
+\]
+
+therefore, the sum is:
+
+\[
+\sum_{n=1}^{\infty} \frac{n}{n^4 + 4} = \frac{1}{4} \cdot \frac{3}{2} = \frac{3}{8}
+\]
+
+\[
+\boxed{\frac{3}{8}}
+\]

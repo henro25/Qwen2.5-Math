@@ -1,1 +1,40 @@
 Reasoning: 
+Alright, so I've got this problem here: "What is the sum of the reciprocals of the natural-number factors of 6?" Okay, let's break this down. First off, I need to find all the natural-number factors of 6. Natural numbers are the positive integers, right? So, factors of 6 would be the numbers that divide 6 without leaving a remainder.
+
+Let me list them out. 1 times 6 is 6, so 1 and 6 are factors. Then 2 times 3 is also 6, so 2 and 3 are factors. I don't think there are any others because 4 doesn't go into 6 evenly, and neither does 5. So, the factors are 1, 2, 3, and 6.
+
+Now, the problem is asking for the sum of the reciprocals of these factors. So, I need to find 1/1 + 1/2 + 1/3 + 1/6. Let me calculate each of these:
+
+1 divided by 1 is 1.
+
+1 divided by 2 is 0.5.
+
+1 divided by 3 is approximately 0.333...
+
+1 divided by 6 is approximately 0.166...
+
+If I add these up: 1 + 0.5 is 1.5, plus 0.333 is about 1.833, plus 0.166 is roughly 2. So, is the sum 2? That seems too neat. Maybe there's a better way to do this without dealing with decimals, which can be a bit messy.
+
+Let me try adding them as fractions. The denominators are 1, 2, 3, and 6. The least common denominator here is 6. So, I'll convert each fraction to have a denominator of 6:
+
+1/1 is the same as 6/6.
+
+1/2 is 3/6.
+
+1/3 is 2/6.
+
+1/6 stays as 1/6.
+
+Now, adding them up: 6/6 + 3/6 + 2/6 + 1/6 equals (6 + 3 + 2 + 1)/6, which is 12/6. And 12 divided by 6 is indeed 2. So, the sum is 2.
+
+Wait a minute, that was much cleaner than dealing with decimals. I should probably stick to fractions for precision, especially in math problems like this.
+
+Just to double-check, are there any other factors of 6 that I might have missed? Let's see, 6 divided by 4 is 1.5, which isn't an integer, and 6 divided by 5 is 1.2, also not an integer. So, no, I didn't miss any factors.
+
+Another way to think about this is to remember that the sum of the reciprocals of the factors of a number is equal to the sum of the factors of that number divided by the number itself. So, sum of reciprocals = (sum of factors) / number.
+
+Let's verify that. The sum of the factors of 6 is 1 + 2 + 3 + 6, which is 12. Then, 12 divided by 6 is 2. Yep, that matches what I got earlier.
+
+I guess this is a useful formula to remember. It might come in handy for similar problems in the future.
+
+So, to sum it all up, the sum of the reciprocals of the natural-number factors of 6 is 2.

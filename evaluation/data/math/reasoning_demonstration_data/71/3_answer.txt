@@ -1,1 +1,37 @@
-Answer: 
+Answer: The given equation is:
+
+\[
+(x + 5)^2 = (4y - 3)^2 - 140
+\]
+
+First, we simplify and rearrange the equation:
+
+\[
+(x + 5)^2 - (4y - 3)^2 = -140
+\]
+
+Dividing both sides by -140:
+
+\[
+-\frac{(x + 5)^2}{140} + \frac{(4y - 3)^2}{140} = 1
+\]
+
+This can be rewritten as:
+
+\[
+\frac{(4y - 3)^2}{140} - \frac{(x + 5)^2}{140} = 1
+\]
+
+This is in the standard form of a hyperbola:
+
+\[
+\frac{(y - k)^2}{b^2} - \frac{(x - h)^2}{a^2} = 1
+\]
+
+Thus, the equation represents a hyperbola.
+
+The answer is:
+
+\[
+\boxed{H}
+\]

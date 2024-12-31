@@ -1,1 +1,32 @@
-Answer: 
+Answer: Given the polynomial \( p(x) = 8x^3 - 4x^2 - 42x + 45 \) and the fact that it is divisible by \((x - r)^2\), we need to find \( r \).
+
+since \((x - r)^2\) divides \( p(x) \), \( r \) must be a double root of \( p(x) \). this implies that both \( p(r) = 0 \) and \( p'(r) = 0 \).
+
+first, we find the derivative of \( p(x) \):
+\[ p'(x) = 24x^2 - 8x - 42 \]
+
+we solve the system of equations:
+1. \( p(r) = 8r^3 - 4r^2 - 42r + 45 = 0 \)
+2. \( p'(r) = 24r^2 - 8r - 42 = 0 \)
+
+solving the quadratic equation \( 24r^2 - 8r - 42 = 0 \):
+\[ 12r^2 - 4r - 21 = 0 \]
+using the quadratic formula:
+\[ r = \frac{4 \pm \sqrt{16 + 1008}}{24} = \frac{4 \pm 32}{24} \]
+this gives:
+\[ r = \frac{36}{24} = \frac{3}{2} \quad \text{or} \quad r = \frac{-28}{24} = -\frac{7}{6} \]
+
+we check which of these values satisfy \( p(r) = 0 \):
+
+for \( r = \frac{3}{2} \):
+\[ p\left(\frac{3}{2}\right) = 8\left(\frac{3}{2}\right)^3 - 4\left(\frac{3}{2}\right)^2 - 42\left(\frac{3}{2}\right) + 45 = 0 \]
+
+for \( r = -\frac{7}{6} \):
+\[ p\left(-\frac{7}{6}\right) \neq 0 \]
+
+thus, the only value that satisfies both conditions is \( r = \frac{3}{2} \).
+
+therefore, the value of \( r \) is:
+\[
+\boxed{\frac{3}{2}}
+\]

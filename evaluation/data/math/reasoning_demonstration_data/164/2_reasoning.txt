@@ -1,1 +1,69 @@
-Reasoning: 
+Reasoning: Alright, so I've got this problem here about gravitational force. It says that the gravitational force Earth exerts on an object is inversely proportional to the square of the distance between the center of the Earth and the object. Okay, so that means as you move further away from the Earth, the gravitational force decreases, and it does so with the square of the distance.
+
+Bill is on the surface of the Earth, which is 4,000 miles from the center, and the gravitational force there is 600 Newtons. Now, I need to find out what the gravitational force is when he's on the moon, which is 240,000 miles from the center of the Earth.
+
+First, I should probably recall what inverse proportionality means. If two quantities are inversely proportional, that means that as one increases, the other decreases proportionally. In this case, gravitational force (F) is inversely proportional to the square of the distance (d), so F is proportional to 1/d².
+
+So, mathematically, I can write that as F = k / d², where k is the constant of proportionality.
+
+Given that when d = 4,000 miles, F = 600 Newtons, I can use this to find the value of k.
+
+So, plugging in the values: 600 = k / (4,000)².
+
+To find k, I can rearrange this to k = 600 * (4,000)².
+
+Let me calculate that.
+
+First, 4,000 squared is 16,000,000.
+
+Then, 600 times 16,000,000 is 9,600,000,000.
+
+So, k = 9,600,000,000.
+
+Now, I need to find the gravitational force when the distance is 240,000 miles.
+
+So, F = 9,600,000,000 / (240,000)².
+
+First, calculate 240,000 squared.
+
+240,000 squared is 57,600,000,000.
+
+So, F = 9,600,000,000 / 57,600,000,000.
+
+I can simplify that fraction.
+
+Divide numerator and denominator by 9,600,000,000.
+
+So, 9,600,000,000 / 9,600,000,000 is 1.
+
+57,600,000,000 / 9,600,000,000 is 6.
+
+So, F = 1 / 6 Newtons.
+
+Wait, that seems too small. Is that right?
+
+Let me double-check my calculations.
+
+First, k = F * d² = 600 * (4,000)² = 600 * 16,000,000 = 9,600,000,000.
+
+Then, F = k / (240,000)² = 9,600,000,000 / (240,000 * 240,000).
+
+240,000 * 240,000 = 57,600,000,000.
+
+So, 9,600,000,000 / 57,600,000,000 = 1/6.
+
+Hmm, maybe it is correct. The gravitational force decreases rapidly with distance because it's inversely proportional to the square of the distance.
+
+But just to be sure, maybe I can approach it differently.
+
+I know that gravitational force decreases with the square of the distance, so if the distance increases by a factor of x, the force decreases by a factor of x squared.
+
+In this case, the distance from 4,000 miles to 240,000 miles is an increase by a factor of 240,000 / 4,000 = 60.
+
+So, the force should decrease by a factor of 60 squared, which is 3,600.
+
+So, F = 600 / 3,600 = 1/6 Newtons.
+
+Okay, that matches my previous calculation.
+
+So, the gravitational force on Bill when he's on the moon is 1/6 Newtons.

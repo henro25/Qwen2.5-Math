@@ -1,1 +1,13 @@
-Answer: 
+Answer: First, simplify the expression inside the brackets: \((12^{12} \div 12^{11})^2 \cdot 4^2\).
+
+using the exponent division rule, \(12^{12} \div 12^{11} = 12^{12-11} = 12^1 = 12\).
+
+so, the expression becomes \((12)^2 \cdot 4^2\).
+
+calculate \(12^2 = 144\) and \(4^2 = 16\).
+
+multiply these results: \(144 \times 16 = 2304\).
+
+now, divide by \(2^4\): \(2^4 = 16\), and \(2304 \div 16 = 144\).
+
+thus, the final answer is \(\boxed{144}\).

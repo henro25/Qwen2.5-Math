@@ -1,1 +1,75 @@
-Reasoning: 
+Reasoning: Let's tackle this problem step by step. so, john believes that the amount of sleep he gets the night before a test and his score on that test are inversely related. that means if he sleeps more, his score might be lower, and if he sleeps less, his score might be higher, right? hmm, it's an inverse relationship, so mathematically, it should be something like sleep times score equals a constant.
+
+on his first exam, he got eight hours of sleep and scored 70. so, if we let s be the amount of sleep and score be the exam score, then s * score = k, where k is the constant.
+
+so, for the first exam:
+
+8 hours * 70 = k
+
+k = 560
+
+now, for the second exam, he wants the average of his two scores to be 80. let's denote the score on the second exam as x. the average of the two scores is (70 + x)/2, and he wants this to be 80.
+
+so,
+
+(70 + x)/2 = 80
+
+multiply both sides by 2:
+
+70 + x = 160
+
+subtract 70 from both sides:
+
+x = 90
+
+so, he needs to score 90 on the second exam. now, since s * score = k and we know k is 560, we can find out how much sleep he needs the night before the second exam.
+
+so,
+
+s * 90 = 560
+
+to find s, divide both sides by 90:
+
+s = 560 / 90
+
+s = 6.222...
+
+rounding to the nearest tenth, s ≈ 6.2 hours.
+
+wait a minute, let me double-check that. if he sleeps 6.2 hours and scores 90, does that make sense with the inverse relationship?
+
+let's verify:
+
+6.2 * 90 = 558, which is close to 560, but not exact. maybe i should carry more decimal places in my calculation.
+
+let's calculate 560 / 90 more precisely:
+
+560 ÷ 90 = 6.2222...
+
+rounding to the nearest tenth, it's indeed 6.2 hours.
+
+alternatively, perhaps there's a better way to approach this. maybe consider the average directly in terms of the inverse relationship.
+
+wait, the problem says the average of his two exam scores is 80. so, the total of the two scores needs to be 160. we already have one score at 70, so the second needs to be 90, as i calculated earlier.
+
+given the inverse relationship, s1 * score1 = s2 * score2 = k.
+
+so, s1 * score1 = 8 * 70 = 560
+
+s2 * 90 = 560
+
+therefore, s2 = 560 / 90 ≈ 6.222... hours
+
+rounded to the nearest tenth, that's 6.2 hours.
+
+i think that's correct. maybe to be thorough, i can check if 6.2 hours times 90 equals 560.
+
+6.2 * 90 = 558, which is slightly less than 560. there's a small discrepancy due to rounding. if i use more decimal places, 560 / 90 = 6.2222..., so 6.2 is accurate to the nearest tenth.
+
+alternatively, perhaps the problem expects a different approach, but i think this is sound.
+
+**final answer**
+
+6.2
+6.2
+​

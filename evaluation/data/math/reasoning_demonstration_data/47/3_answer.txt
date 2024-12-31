@@ -1,1 +1,47 @@
-Answer: 
+Answer: To find the area of the shaded region, we start by identifying the coordinates of the vertices of the shaded triangle: (3, 9/4), (12, 9), and (3, 9).
+
+we use the formula for the area of a triangle:
+
+\[
+\text{area} = \frac{1}{2} \times \text{base} \times \text{height}
+\]
+
+the base of the triangle is the horizontal distance from (3, 9) to (12, 9), which is 9 cm. the height is the vertical distance from (3, 9/4) to the base, which is \(9 - \frac{9}{4} = \frac{27}{4}\) cm.
+
+plugging these values into the formula:
+
+\[
+\text{area} = \frac{1}{2} \times 9 \times \frac{27}{4} = \frac{1}{2} \times \frac{243}{4} = \frac{243}{8} = 30.375 \text{ cm}^2
+\]
+
+rounding to the nearest square centimeter gives 30 cm².
+
+to verify, we use the shoelace formula for the area of a polygon with vertices at (3, 9/4), (12, 9), and (3, 9):
+
+\[
+\text{area} = \frac{1}{2} \left| 3 \times 9 + 12 \times 9 + 3 \times \frac{9}{4} - 12 \times \frac{9}{4} - 3 \times 9 - 3 \times 9 \right|
+\]
+
+calculating step by step:
+
+\[
+\text{area} = \frac{1}{2} \left| 27 + 108 + \frac{27}{4} - 27 - 27 - 27 \right|
+\]
+
+simplifying inside the absolute value:
+
+\[
+27 + 108 = 135, \quad 135 + \frac{27}{4} = 141.75, \quad 141.75 - 81 = 60.75
+\]
+
+so,
+
+\[
+\text{area} = \frac{1}{2} \times 60.75 = 30.375 \text{ cm}^2
+\]
+
+rounding to the nearest square centimeter again gives 30 cm².
+
+thus, the area of the shaded region is:
+
+\boxed{30}

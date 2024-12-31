@@ -1,1 +1,26 @@
-Answer: 
+Answer: To find the total surface area of a hemisphere with radius 6 cm, including the area of its circular base, we need to consider both the curved surface area and the flat base area.
+
+1. the surface area of a full sphere is given by \(4\pi r^2\). since a hemisphere is half of a sphere, the curved surface area of the hemisphere is:
+   \[
+   \text{curved surface area} = \frac{1}{2} \times 4\pi r^2 = 2\pi r^2
+   \]
+
+2. the area of the circular base of the hemisphere is:
+   \[
+   \text{base area} = \pi r^2
+   \]
+
+3. adding these two areas together gives the total surface area of the hemisphere:
+   \[
+   \text{total surface area} = 2\pi r^2 + \pi r^2 = 3\pi r^2
+   \]
+
+4. substituting the given radius \( r = 6 \) cm:
+   \[
+   \text{total surface area} = 3\pi (6)^2 = 3\pi \times 36 = 108\pi \, \text{cm}^2
+   \]
+
+thus, the total surface area of the hemisphere is:
+\[
+\boxed{108\pi}
+\]

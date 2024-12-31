@@ -1,1 +1,21 @@
-Answer: 
+Answer: To determine the number of different positive two-digit integers that can be formed using the digits 2, 4, 6, and 7 without repeating any digit in an integer, we can approach the problem in the following way:
+
+1. **Understand the structure of a two-digit number:** It consists of a tens place and a units place.
+
+2. **Calculate the number of choices for each place:**
+   - **Tens place:** There are 4 choices (2, 4, 6, or 7).
+   - **Units place:** After choosing a digit for the tens place, there are 3 remaining choices for the units place.
+
+3. **Apply the multiplication principle:**  
+   The total number of different two-digit integers is the product of the number of choices for the tens and units places.
+   \[
+   4 \text{ (choices for tens place)} \times 3 \text{ (choices for units place)} = 12
+   \]
+
+4. **Verification using permutations:**  
+   The number of ways to arrange 4 distinct digits in 2 positions is given by the permutation formula \( P(n, r) = \frac{n!}{(n - r)!} \), where \( n = 4 \) and \( r = 2 \).  
+   \[
+   P(4, 2) = \frac{4!}{2!} = \frac{24}{2} = 12
+   \]
+
+Thus, there are **12** different positive two-digit integers that can be formed using the digits 2, 4, 6, and 7 without repeating any digit in an integer.

@@ -1,1 +1,70 @@
-Answer: 
+Answer: To find the smallest positive angle \(\theta\) for which
+
+\[
+\cos \theta = \sin 60^\circ + \cos 42^\circ - \sin 12^\circ - \cos 6^\circ,
+\]
+
+we start by using known trigonometric values and identities to simplify the right-hand side.
+
+first, we use the difference of sines and cosines identities:
+
+\[
+\sin 60^\circ - \sin 12^\circ = 2 \cos 36^\circ \sin 24^\circ,
+\]
+\[
+\cos 42^\circ - \cos 6^\circ = -2 \sin 24^\circ \sin 18^\circ.
+\]
+
+combining these, we get:
+
+\[
+\sin 60^\circ - \sin 12^\circ + \cos 42^\circ - \cos 6^\circ = 2 \cos 36^\circ \sin 24^\circ - 2 \sin 24^\circ \sin 18^\circ.
+\]
+
+factoring out \(2 \sin 24^\circ\):
+
+\[
+2 \sin 24^\circ (\cos 36^\circ - \sin 18^\circ).
+\]
+
+using the identity \(\cos 36^\circ = \sin 54^\circ\), we simplify further:
+
+\[
+\cos 36^\circ - \sin 18^\circ = \sin 54^\circ - \sin 18^\circ = 2 \cos 36^\circ \sin 18^\circ.
+\]
+
+thus, the expression becomes:
+
+\[
+2 \sin 24^\circ (2 \cos 36^\circ \sin 18^\circ) = 4 \sin 24^\circ \cos 36^\circ \sin 18^\circ.
+\]
+
+next, we calculate the numerical values of the trigonometric functions:
+
+\[
+\sin 60^\circ \approx 0.8660, \quad \cos 42^\circ \approx 0.7431, \quad \sin 12^\circ \approx 0.2079, \quad \cos 6^\circ \approx 0.9945.
+\]
+
+summing these values:
+
+\[
+0.8660 + 0.7431 - 0.2079 - 0.9945 \approx 0.4067.
+\]
+
+thus, we have:
+
+\[
+\cos \theta \approx 0.4067.
+\]
+
+using a calculator to find \(\theta\):
+
+\[
+\theta \approx \cos^{-1}(0.4067) \approx 66^\circ.
+\]
+
+therefore, the smallest positive angle \(\theta\) is:
+
+\[
+\boxed{66^\circ}
+\]

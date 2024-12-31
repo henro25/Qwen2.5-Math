@@ -1,1 +1,25 @@
-Answer: 
+Answer: **Step 1:** Determine the current number of irises.
+- Given ratio of irises to roses: 2:5.
+- Current number of roses: 25.
+- Using the proportion: \( \frac{\text{Irises}}{\text{Roses}} = \frac{2}{5} \).
+- Let \( I \) be the current number of irises:
+  \[
+  \frac{I}{25} = \frac{2}{5} \implies 5I = 2 \times 25 \implies I = 10.
+  \]
+- So, Nikki currently has 10 irises.
+
+**Step 2:** Calculate the new total number of roses after addition.
+- Nikki is adding 20 more roses to her current 25 roses:
+  \[
+  25 + 20 = 45 \text{ roses}.
+  \]
+
+**Step 3:** Determine the new total number of irises to maintain the same ratio.
+- The new number of roses is 45, and the ratio of irises to roses should remain 2:5.
+- Let \( I_{\text{new}} \) be the new total number of irises:
+  \[
+  \frac{I_{\text{new}}}{45} = \frac{2}{5} \implies 5I_{\text{new}} = 2 \times 45 \implies I_{\text{new}} = 18.
+  \]
+
+**Conclusion:**
+After adding 20 roses and the necessary irises to maintain the ratio of 2:5, Nikki will have a total of 18 irises in her garden.

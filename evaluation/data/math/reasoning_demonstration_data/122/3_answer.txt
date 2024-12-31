@@ -1,1 +1,42 @@
-Answer: 
+Answer: Given \( f(x) = x^3 + x + 1 \), we need to find a cubic polynomial \( g(x) \) such that \( g(0) = -1 \) and the roots of \( g \) are the squares of the roots of \( f \). we then need to find \( g(9) \).
+
+first, denote the roots of \( f(x) \) as \( a, b, c \). by vieta's formulas, we have:
+\[
+a + b + c = 0, \quad ab + bc + ca = 1, \quad abc = -1
+\]
+
+the roots of \( g(x) \) are \( a^2, b^2, c^2 \). thus, \( g(x) \) can be written as:
+\[
+g(x) = (x - a^2)(x - b^2)(x - c^2)
+\]
+
+using vieta's formulas for \( g(x) \), we need to find:
+\[
+a^2 + b^2 + c^2, \quad a^2b^2 + b^2c^2 + c^2a^2, \quad a^2b^2c^2
+\]
+
+we calculate:
+\[
+a^2 + b^2 + c^2 = (a + b + c)^2 - 2(ab + bc + ca) = 0^2 - 2 \cdot 1 = -2
+\]
+\[
+a^2b^2 + b^2c^2 + c^2a^2 = (ab + bc + ca)^2 - 2abc(a + b + c) = 1^2 - 2(-1)(0) = 1
+\]
+\[
+a^2b^2c^2 = (abc)^2 = (-1)^2 = 1
+\]
+
+thus, \( g(x) \) is:
+\[
+g(x) = x^3 - (-2)x^2 + 1x - 1 = x^3 + 2x^2 + x - 1
+\]
+
+given \( g(0) = -1 \), this matches the condition. now, we find \( g(9) \):
+\[
+g(9) = 9^3 + 2 \cdot 9^2 + 9 - 1 = 729 + 162 + 9 - 1 = 899
+\]
+
+therefore, the final answer is:
+\[
+\boxed{899}
+\]

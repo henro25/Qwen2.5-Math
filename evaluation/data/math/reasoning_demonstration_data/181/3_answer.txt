@@ -1,1 +1,69 @@
-Answer: 
+Answer: Given the system of equations:
+
+\[
+\log_{10} x + 2 \log_{10} (\text{gcd}(x,y)) = 60
+\]
+\[
+\log_{10} y + 2 \log_{10} (\text{lcm}(x,y)) = 570
+\]
+
+we use the properties of logarithms and the relationship between gcd and lcm:
+
+\[
+\text{gcd}(x,y) \times \text{lcm}(x,y) = x \times y
+\]
+
+rewriting the equations, we get:
+
+\[
+x \times (\text{gcd}(x,y))^2 = 10^{60}
+\]
+\[
+y \times (\text{lcm}(x,y))^2 = 10^{570}
+\]
+
+let \( d = \text{gcd}(x,y) \). then \( x = d \times a \) and \( y = d \times b \) where \( a \) and \( b \) are coprime. thus:
+
+\[
+d^3 a = 10^{60}
+\]
+\[
+d^3 a^2 b^3 = 10^{570}
+\]
+
+dividing the second equation by the first:
+
+\[
+a b^3 = 10^{510}
+\]
+
+substituting \( a = \frac{10^{60}}{d^3} \) into \( a b^3 = 10^{510} \):
+
+\[
+\frac{10^{60}}{d^3} \times b^3 = 10^{510}
+\]
+\[
+b^3 = 10^{450} \times d^3
+\]
+\[
+b = 10^{150} \times d
+\]
+
+given \( a \) and \( b \) are coprime, we find \( d = 2^{20} \times 5^{20} \), \( a = 1 \), and \( b = 2^{170} \times 5^{170} \). therefore:
+
+\[
+x = 2^{20} \times 5^{20}
+\]
+\[
+y = 2^{190} \times 5^{190}
+\]
+
+the number of prime factors (counted with multiplicity) for \( x \) is \( 20 + 20 = 40 \) and for \( y \) is \( 190 + 190 = 380 \). thus:
+
+\[
+3m + 2n = 3(40) + 2(380) = 120 + 760 = 880
+\]
+
+\[
+\boxed{880}
+\]

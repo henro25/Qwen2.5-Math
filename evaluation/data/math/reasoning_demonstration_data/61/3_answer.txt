@@ -1,1 +1,35 @@
-Answer: 
+Answer: First, we find the semi-perimeter \( s \) of triangle \( abc \):
+
+\[
+s = \frac{ab + bc + ac}{2} = \frac{13 + 14 + 15}{2} = 21
+\]
+
+next, we calculate the area \( a \) of the triangle using heron's formula:
+
+\[
+a = \sqrt{s(s-a)(s-b)(s-c)} = \sqrt{21(21-13)(21-14)(21-15)} = \sqrt{21 \cdot 8 \cdot 7 \cdot 6} = \sqrt{7056} = 84
+\]
+
+the inradius \( r \) is given by:
+
+\[
+r = \frac{a}{s} = \frac{84}{21} = 4
+\]
+
+to find the length of \( bi \), we use the formula:
+
+\[
+bi = \sqrt{r^2 + (s - b)^2}
+\]
+
+where \( b = ac = 15 \), \( s = 21 \), and \( r = 4 \):
+
+\[
+bi = \sqrt{4^2 + (21 - 15)^2} = \sqrt{16 + 36} = \sqrt{52} = 2\sqrt{13}
+\]
+
+thus, the length of \( bi \) is:
+
+\[
+\boxed{2\sqrt{13}}
+\]

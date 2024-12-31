@@ -1,1 +1,25 @@
-Answer: 
+Answer: To determine the 67th digit in the sequence formed by concatenating the integers from 50 to 1, we first calculate the total number of digits contributed by the two-digit numbers (50 to 10) and the single-digit numbers (9 to 1).
+
+1. **two-digit numbers (50 to 10):**
+   - there are \(50 - 10 + 1 = 41\) numbers.
+   - each number contributes 2 digits.
+   - total digits from two-digit numbers: \(41 \times 2 = 82\) digits.
+
+2. **single-digit numbers (9 to 1):**
+   - there are 9 numbers.
+   - each number contributes 1 digit.
+   - total digits from single-digit numbers: \(9\) digits.
+
+since 82 digits from the two-digit numbers alone exceed 67, the 67th digit must be within the two-digit numbers.
+
+3. **finding the specific digit:**
+   - each two-digit number contributes 2 digits.
+   - the number of full two-digit numbers contributing to the first 66 digits is \(\left\lfloor \frac{67 - 1}{2} \right\rfloor = 33\).
+   - the 33rd two-digit number is \(50 - (33 - 1) = 18\).
+   - the 34th two-digit number is 17.
+
+thus, the 67th digit is the first digit of the 34th two-digit number, which is 17. therefore, the 67th digit is:
+
+\[
+\boxed{1}
+\]

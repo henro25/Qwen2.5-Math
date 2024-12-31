@@ -1,1 +1,29 @@
-Answer: 
+Answer: To simplify the expression \(\sin (x - y) \cos y + \cos (x - y) \sin y\), we can use the sine addition formula:
+
+\[
+\sin(a + b) = \sin a \cos b + \cos a \sin b
+\]
+
+let \(a = x - y\) and \(b = y\). then the expression becomes:
+
+\[
+\sin((x - y) + y) = \sin(x - y) \cos y + \cos(x - y) \sin y
+\]
+
+simplifying the left side:
+
+\[
+\sin((x - y) + y) = \sin(x)
+\]
+
+thus, the expression simplifies to:
+
+\[
+\sin(x)
+\]
+
+therefore, the final answer is:
+
+\[
+\boxed{\sin x}
+\]

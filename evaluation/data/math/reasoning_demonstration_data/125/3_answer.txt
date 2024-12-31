@@ -1,1 +1,25 @@
-Answer: 
+Answer: To find the value of \( x \) in the given plane figure, we use the fact that the sum of angles around a point is \( 360^\circ \). the figure shows one angle of \( 160^\circ \) and two angles each labeled \( x^\circ \). therefore, we set up the equation:
+
+\[
+160^\circ + x^\circ + x^\circ = 360^\circ
+\]
+
+this simplifies to:
+
+\[
+160 + 2x = 360
+\]
+
+subtracting 160 from both sides, we get:
+
+\[
+2x = 200
+\]
+
+dividing both sides by 2, we find:
+
+\[
+x = 100
+\]
+
+thus, the value of \( x \) is \(\boxed{100}\).

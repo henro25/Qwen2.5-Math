@@ -1,1 +1,27 @@
-Answer: 
+Answer: To solve the equation \( 2x + 4 = |{-17 + 3}| \), follow these steps:
+
+1. **Simplify the absolute value:**
+   \[
+   -17 + 3 = -14
+   \]
+   The absolute value of \(-14\) is \(14\), so the equation becomes:
+   \[
+   2x + 4 = 14
+   \]
+
+2. **Isolate the term with \( x \):**
+   Subtract 4 from both sides:
+   \[
+   2x = 14 - 4
+   \]
+   \[
+   2x = 10
+   \]
+
+3. **Solve for \( x \):**
+   Divide both sides by 2:
+   \[
+   x = \frac{10}{2} = 5
+   \]
+
+**Answer:** \( x = 5 \)

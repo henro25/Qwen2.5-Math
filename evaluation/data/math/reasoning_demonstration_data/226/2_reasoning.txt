@@ -1,1 +1,480 @@
-Reasoning: 
+Reasoning: So i have this equation here: 
+x
+2
+=
+−
+4
+x
+x 
+2
+ =−4x. i need to find out how many nonnegative solutions there are to this equation. okay, let's start by understanding what this equation is saying.
+
+first off, nonnegative solutions mean that 
+x
+x has to be greater than or equal to zero. so, 
+x
+≥
+0
+x≥0. got it.
+
+now, looking at the equation 
+x
+2
+=
+−
+4
+x
+x 
+2
+ =−4x, i see that it's a quadratic equation. quadratic equations usually have up to two real solutions, but in this case, since we're restricting ourselves to nonnegative solutions, there might be fewer.
+
+let me try to solve this equation step by step. maybe i can rearrange it to make it easier to solve.
+
+so, 
+x
+2
+=
+−
+4
+x
+x 
+2
+ =−4x.
+
+if i move all terms to one side, i get:
+
+x
+2
++
+4
+x
+=
+0
+x 
+2
+ +4x=0
+
+hmm, that looks better. now, i can factor this equation. factoring is a common method to solve quadratic equations.
+
+let's see, both terms have an 
+x
+x in common, so i can factor that out:
+
+x
+(
+x
++
+4
+)
+=
+0
+x(x+4)=0
+
+okay, so now i have a product of two factors equal to zero. according to the zero product property, if a product of two factors is zero, then at least one of the factors must be zero.
+
+so, set each factor equal to zero:
+
+1. 
+x
+=
+0
+x=0
+
+2. 
+x
++
+4
+=
+0
+x+4=0 which implies 
+x
+=
+−
+4
+x=−4
+
+alright, so the solutions are 
+x
+=
+0
+x=0 and 
+x
+=
+−
+4
+x=−4.
+
+but wait, the problem asks for nonnegative solutions. that means 
+x
+x has to be greater than or equal to zero. so, 
+x
+=
+−
+4
+x=−4 is negative and doesn't satisfy the nonnegative condition.
+
+therefore, the only nonnegative solution is 
+x
+=
+0
+x=0.
+
+let me double-check to make sure i didn't miss anything.
+
+i can plug 
+x
+=
+0
+x=0 back into the original equation to verify:
+
+(
+0
+)
+2
+=
+−
+4
+(
+0
+)
+(0) 
+2
+ =−4(0)
+
+which simplifies to:
+
+0
+=
+0
+0=0
+
+that checks out.
+
+now, just to be thorough, let's consider if there are any other possible solutions that i might have missed.
+
+one thing i can think of is whether there are any extraneous solutions introduced during the solving process. but in this case, since i factored the equation properly and applied the zero product property correctly, i don't think that's an issue.
+
+another thing is to consider if the equation could be solved in a different way, just to confirm the solution.
+
+let me try solving the original equation differently.
+
+starting again with 
+x
+2
+=
+−
+4
+x
+x 
+2
+ =−4x, maybe i can divide both sides by 
+x
+x, but wait, i have to be careful here. if 
+x
+=
+0
+x=0, then dividing by 
+x
+x would be dividing by zero, which is undefined. so, i need to consider the case where 
+x
+=
+0
+x=0 separately.
+
+so, first, consider 
+x
+=
+0
+x=0. as i already did, plugging in gives a valid solution.
+
+now, assuming 
+x
+≠
+0
+x
+
+=0, i can divide both sides by 
+x
+x:
+
+x
+2
+x
+=
+−
+4
+x
+x
+x
+x 
+2
+ 
+​
+ = 
+x
+−4x
+​
+ 
+
+simplifying, that gives:
+
+x
+=
+−
+4
+x=−4
+
+but again, 
+x
+=
+−
+4
+x=−4 is negative, which doesn't satisfy the nonnegative condition.
+
+therefore, the only nonnegative solution is 
+x
+=
+0
+x=0.
+
+alternatively, i could graph the functions 
+y
+=
+x
+2
+y=x 
+2
+  and 
+y
+=
+−
+4
+x
+y=−4x and look for their points of intersection where 
+x
+≥
+0
+x≥0.
+
+graphing 
+y
+=
+x
+2
+y=x 
+2
+ , it's a parabola opening upwards with vertex at the origin.
+
+graphing 
+y
+=
+−
+4
+x
+y=−4x, it's a straight line with a negative slope passing through the origin.
+
+the point of intersection at 
+x
+=
+0
+x=0 is clear. for 
+x
+>
+0
+x>0, 
+y
+=
+x
+2
+y=x 
+2
+  is positive, while 
+y
+=
+−
+4
+x
+y=−4x is negative, so they don't intersect again in the nonnegative region.
+
+therefore, confirming that the only nonnegative solution is 
+x
+=
+0
+x=0.
+
+just to cover all bases, i can also consider solving the equation using the quadratic formula.
+
+the general form of a quadratic equation is 
+a
+x
+2
++
+b
+x
++
+c
+=
+0
+ax 
+2
+ +bx+c=0.
+
+comparing to my equation 
+x
+2
++
+4
+x
+=
+0
+x 
+2
+ +4x=0, i have 
+a
+=
+1
+a=1, 
+b
+=
+4
+b=4, and 
+c
+=
+0
+c=0.
+
+the quadratic formula is:
+
+x
+=
+−
+b
+±
+b
+2
+−
+4
+a
+c
+2
+a
+x= 
+2a
+−b± 
+b 
+2
+ −4ac
+​
+ 
+​
+ 
+
+plugging in the values:
+
+x
+=
+−
+4
+±
+16
+−
+0
+2
+x= 
+2
+−4± 
+16−0
+​
+ 
+​
+ 
+
+simplifying:
+
+x
+=
+−
+4
+±
+4
+2
+x= 
+2
+−4±4
+​
+ 
+
+so, two solutions:
+
+1. 
+x
+=
+−
+4
++
+4
+2
+=
+0
+2
+=
+0
+x= 
+2
+−4+4
+​
+ = 
+2
+0
+​
+ =0
+
+2. 
+x
+=
+−
+4
+−
+4
+2
+=
+−
+8
+2
+=
+−
+4
+x= 
+2
+−4−4
+​
+ = 
+2
+−8
+​
+ =−4
+
+again, 
+x
+=
+−
+4
+x=−4 is negative, so only 
+x
+=
+0
+x=0 is nonnegative.
+
+i think i've covered all possible methods to solve this equation and confirmed that the only nonnegative solution is 
+x
+=
+0
+x=0.
+
+so, the number of nonnegative solutions is one.
+
+**final answer**
+
+1
+1
+​

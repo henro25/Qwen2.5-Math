@@ -1,1 +1,294 @@
 Reasoning: 
+So i've got this problem about pascal's triangle, and i need to find out in which row there are three consecutive entries that are in the ratio 3:4:5. the top row is the 0th row, and each entry is the sum of the two entries above it. okay, let's start by recalling what pascal's triangle looks like.
+
+pascal's triangle is a triangular array of the binomial coefficients. the nth row corresponds to the coefficients of (a + b)^n. so, the entries in the nth row are c(n, 0), c(n, 1), ..., c(n, n), where c(n, k) is the binomial coefficient "n choose k".
+
+given that, if i have three consecutive entries in the nth row, they would be c(n, k), c(n, k+1), and c(n, k+2) for some k. and these are supposed to be in the ratio 3:4:5.
+
+so, i can write:
+
+c(n, k) : c(n, k+1) : c(n, k+2) = 3 : 4 : 5
+
+this means:
+
+c(n, k+1)/c(n, k) = 4/3
+
+and
+
+c(n, k+2)/c(n, k+1) = 5/4
+
+now, i know that c(n, k+1)/c(n, k) = (n - k)/(k + 1)
+
+similarly, c(n, k+2)/c(n, k+1) = (n - k - 1)/(k + 2)
+
+so, setting these equal to 4/3 and 5/4 respectively:
+
+(n - k)/(k + 1) = 4/3
+
+and
+
+(n - k - 1)/(k + 2) = 5/4
+
+now i have two equations with two variables, n and k. i can solve for them.
+
+first equation:
+
+(n - k)/(k + 1) = 4/3
+
+cross-multiplying:
+
+3(n - k) = 4(k + 1)
+
+3n - 3k = 4k + 4
+
+3n = 7k + 4
+
+so, n = (7k + 4)/3
+
+second equation:
+
+(n - k - 1)/(k + 2) = 5/4
+
+cross-multiplying:
+
+4(n - k - 1) = 5(k + 2)
+
+4n - 4k - 4 = 5k + 10
+
+4n = 9k + 14
+
+now, substitute n from the first equation into this:
+
+4*(7k + 4)/3 = 9k + 14
+
+multiply both sides by 3 to eliminate the denominator:
+
+4*(7k + 4) = 3*(9k + 14)
+
+28k + 16 = 27k + 42
+
+28k - 27k = 42 - 16
+
+k = 26
+
+now, plug k back into the expression for n:
+
+n = (7*26 + 4)/3 = (182 + 4)/3 = 186/3 = 62
+
+so, n = 62 and k = 26.
+
+wait a minute, let's check if this makes sense.
+
+first, let's verify the ratios.
+
+compute c(62,26), c(62,27), c(62,28).
+
+but calculating binomial coefficients for such large n and k directly would be tedious. maybe there's a better way to verify.
+
+alternatively, i can use the ratio properties.
+
+we have c(n, k+1)/c(n, k) = (n - k)/(k + 1)
+
+plugging in n=62 and k=26:
+
+(62 - 26)/(26 + 1) = 36/27 = 4/3
+
+similarly, c(n, k+2)/c(n, k+1) = (n - k - 1)/(k + 2) = (62 - 26 - 1)/(26 + 2) = 35/28 = 5/4
+
+so, the ratios check out.
+
+therefore, in the 62nd row, the entries c(62,26), c(62,27), c(62,28) are in the ratio 3:4:5.
+
+wait, but the problem asks for the row number, and it mentions that the top row is the 0th row. so, is the answer 62?
+
+but let's see if there might be any smaller rows that satisfy this condition. maybe there's a row with smaller n where this happens.
+
+alternatively, perhaps n=62 is indeed the smallest such row, or maybe the only one.
+
+to check if there are other possible solutions, let's consider the system of equations again.
+
+we had:
+
+n = (7k + 4)/3
+
+and
+
+4n = 9k + 14
+
+we solved for k=26 and n=62.
+
+are there any other integer solutions for k and n?
+
+well, n and k have to be integers, with 0 ≤ k ≤ n.
+
+from n = (7k + 4)/3, for n to be integer, 7k + 4 must be divisible by 3.
+
+so, 7k + 4 ≡ 0 mod 3
+
+since 7 ≡ 1 mod 3, this becomes:
+
+k + 1 ≡ 0 mod 3
+
+so, k ≡ 2 mod 3
+
+similarly, from 4n = 9k + 14, with n integer, 9k + 14 must be divisible by 4.
+
+9k + 14 ≡ 0 mod 4
+
+9 ≡ 1 mod 4, so:
+
+k + 14 ≡ 0 mod 4
+
+k ≡ -14 mod 4
+
+-14 ≡ 2 mod 4, so k ≡ 2 mod 4
+
+now, combining the two congruences:
+
+k ≡ 2 mod 3 and k ≡ 2 mod 4
+
+by the chinese remainder theorem, since 3 and 4 are coprime, there's a unique solution modulo 12.
+
+find k such that k ≡ 2 mod 3 and k ≡ 2 mod 4.
+
+let's list numbers congruent to 2 mod 4: 2, 6, 10, 14, 18, 22, etc.
+
+check which of these are ≡2 mod 3:
+
+2: 2 mod 3
+
+6: 0 mod 3
+
+10: 1 mod 3
+
+14: 2 mod 3
+
+so, k ≡ 2 mod 12.
+
+therefore, general solution is k = 12m + 2, where m is a non-negative integer.
+
+then, n = (7k + 4)/3 = (7*(12m + 2) + 4)/3 = (84m + 14 + 4)/3 = (84m + 18)/3 = 28m + 6
+
+so, for each integer m ≥ 0, we have a solution k = 12m + 2, n = 28m + 6.
+
+now, k must be less than or equal to n.
+
+so, 12m + 2 ≤ 28m + 6
+
+which simplifies to:
+
+12m + 2 ≤ 28m + 6
+
+subtract 12m from both sides:
+
+2 ≤ 16m + 6
+
+subtract 6:
+
+-4 ≤ 16m
+
+which is always true for m ≥ 0.
+
+so, for each m ≥ 0, we have a solution.
+
+let's try m=0:
+
+k=2, n=6
+
+check the ratios:
+
+c(6,2)=15, c(6,3)=20, c(6,4)=15
+
+ratios: 15:20:15, which is 3:4:3, not 3:4:5.
+
+wait, that's not matching.
+
+hmm, maybe m=0 is not valid.
+
+wait, perhaps m starts from 1.
+
+try m=1:
+
+k=14, n=34
+
+check c(34,14), c(34,15), c(34,16)
+
+this would be tedious to compute, but perhaps there's a pattern.
+
+alternatively, perhaps m=2:
+
+k=26, n=62, which is what i found earlier.
+
+given that, it seems like m=2 gives the first valid solution where the ratios are 3:4:5.
+
+wait, but for m=1, k=14, n=34:
+
+c(34,14)/c(34,13) = (34-13)/(14) = 21/14 = 3/2, which is not 4/3.
+
+wait, that doesn't make sense. maybe my earlier assumption is wrong.
+
+wait, perhaps i need to verify the ratios for m=1.
+
+compute c(34,14)/c(34,13):
+
+c(34,14)/c(34,13) = (34-13)/14 = 21/14 = 3/2, which is not 4/3.
+
+similarly, c(34,15)/c(34,14) = (34-14)/15 = 20/15 = 4/3
+
+wait, but according to earlier, c(n,k+1)/c(n,k) should be 4/3.
+
+wait, perhaps i have an error in my earlier assumption.
+
+wait, maybe i need to check more carefully.
+
+given c(n,k+1)/c(n,k) = (n - k)/(k + 1) = 4/3
+
+similarly, c(n,k+2)/c(n,k+1) = (n - k -1)/(k + 2) = 5/4
+
+earlier, with m=2, k=26, n=62, it worked.
+
+with m=1, k=14, n=34:
+
+(n - k)/(k + 1) = (34-14)/(14+1) = 20/15 = 4/3
+
+(n - k -1)/(k + 2) = (34-14-1)/(14+2) = 19/16, which is not 5/4.
+
+so, for m=1, it doesn't satisfy the second equation.
+
+wait, but according to the system of equations, it should.
+
+wait, perhaps there's a mistake in assuming that for each m, both equations are satisfied.
+
+wait, let's see.
+
+from n = 28m + 6 and k = 12m + 2.
+
+plug into the second ratio:
+
+(n - k -1)/(k + 2) = (28m + 6 - 12m - 2 -1)/(12m + 2 + 2) = (16m + 3)/(12m + 4)
+
+we want this to be 5/4.
+
+so, set (16m + 3)/(12m + 4) = 5/4
+
+cross-multiply: 4*(16m + 3) = 5*(12m + 4)
+
+64m + 12 = 60m + 20
+
+64m - 60m = 20 - 12
+
+4m = 8
+
+m = 2
+
+so, only for m=2 does this hold.
+
+therefore, the only solution is m=2, which gives k=26, n=62.
+
+hence, the answer is the 62nd row.
+
+**final answer**
+
+62
+62
+​

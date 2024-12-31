@@ -1,1 +1,37 @@
-Answer: 
+Answer: First, we calculate the total number of ways to choose two distinct integers from 1 to 50, which is given by the combination formula:
+
+\[
+\text{total ways} = \binom{50}{2} = \frac{50 \times 49}{2} = 1225
+\]
+
+next, we need to find the number of pairs where \( p + s \) is one less than a multiple of 5, i.e., \( p + s \equiv 4 \pmod{5} \). this can be rewritten as:
+
+\[
+p + s = a \cdot b + a + b \equiv 4 \pmod{5}
+\]
+
+this is equivalent to:
+
+\[
+(a + 1)(b + 1) \equiv 0 \pmod{5}
+\]
+
+this implies that at least one of \( a + 1 \) or \( b + 1 \) must be a multiple of 5, i.e., \( a \equiv 4 \pmod{5} \) or \( b \equiv 4 \pmod{5} \).
+
+there are 10 numbers between 1 and 50 that are congruent to 4 modulo 5: 4, 9, 14, 19, 24, 29, 34, 39, 44, 49.
+
+using the principle of inclusion-exclusion, the number of pairs where at least one number is congruent to 4 modulo 5 is:
+
+\[
+\text{number of favorable pairs} = \binom{50}{2} - \binom{40}{2} = 1225 - 780 = 445
+\]
+
+therefore, the probability is:
+
+\[
+\text{probability} = \frac{445}{1225} = \frac{89}{245}
+\]
+
+thus, the final answer is:
+
+\boxed{\frac{89}{245}}

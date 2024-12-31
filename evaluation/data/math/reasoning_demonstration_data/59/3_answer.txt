@@ -1,1 +1,37 @@
-Answer: 
+Answer: Given that a gasoline tank is \(\frac{7}{8}\) full and after using 12 gallons, it is half full, we need to find the total capacity of the tank when it is full.
+
+let \( x \) be the total capacity of the tank in gallons. initially, the tank contains \(\frac{7}{8}x\) gallons. after using 12 gallons, the remaining amount is \(\frac{1}{2}x\) gallons. this gives us the equation:
+
+\[
+\frac{7}{8}x - 12 = \frac{1}{2}x
+\]
+
+to solve for \( x \), we first subtract \(\frac{1}{2}x\) from both sides:
+
+\[
+\frac{7}{8}x - \frac{1}{2}x = 12
+\]
+
+next, we find a common denominator for the fractions:
+
+\[
+\frac{7}{8}x - \frac{4}{8}x = 12
+\]
+
+this simplifies to:
+
+\[
+\frac{3}{8}x = 12
+\]
+
+to isolate \( x \), we multiply both sides by the reciprocal of \(\frac{3}{8}\):
+
+\[
+x = 12 \times \frac{8}{3} = 32
+\]
+
+thus, the total capacity of the tank when it is full is:
+
+\[
+\boxed{32}
+\]

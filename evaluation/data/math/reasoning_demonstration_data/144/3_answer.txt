@@ -1,1 +1,31 @@
-Answer: 
+Answer: To solve the problem, we'll use the principle of inclusion-exclusion.
+
+1. **Total students in drama club:** 50
+
+2. **Students taking mathematics (M):** 36
+
+3. **Students taking physics (P):** 27
+
+4. **Students taking both mathematics and physics (M ∩ P):** 20
+
+Using the inclusion-exclusion principle:
+
+\[
+\text{Students taking at least one subject (M ∪ P)} = M + P - (M ∩ P)
+\]
+
+\[
+= 36 + 27 - 20 = 43
+\]
+
+Now, subtract the number of students taking at least one subject from the total number of students to find those taking neither:
+
+\[
+\text{Students taking neither} = \text{Total students} - \text{Students taking at least one subject}
+\]
+
+\[
+= 50 - 43 = 7
+\]
+
+**Answer:** 7 students take neither mathematics nor physics.

@@ -1,1 +1,12 @@
-Answer: 
+Answer: To solve the problem of finding the number of different \(4 \times 4\) arrays with entries 1 and -1, where the sum of the entries in each row and each column is 0, we need to count the number of such matrices where each row and each column contains exactly two 1's and two -1's.
+
+1. each row must have exactly two 1's and two -1's, and the same applies to each column.
+2. this is equivalent to counting the number of \(4 \times 4\) binary matrices with exactly two 1's in each row and each column.
+
+the number of such matrices is a known result in combinatorics. for a \(4 \times 4\) matrix with exactly two 1's in each row and each column, the number of such matrices is 90.
+
+therefore, the final answer is:
+
+\[
+\boxed{90}
+\]

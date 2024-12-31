@@ -1,1 +1,32 @@
-Answer: 
+Answer: Given the quadratic equation \( z^2 + az + b = 0 \) with complex roots \( z_1 \) and \( z_2 \), and the condition that 0, \( z_1 \), and \( z_2 \) form the vertices of an equilateral triangle in the complex plane, we need to find \( \frac{a^2}{b} \).
+
+first, we use the properties of the roots of the quadratic equation:
+\[ z_1 + z_2 = -a \]
+\[ z_1 z_2 = b \]
+
+since 0, \( z_1 \), and \( z_2 \) form an equilateral triangle, we have:
+\[ |z_1| = |z_2| = |z_1 - z_2| \]
+
+we express \( z_2 \) in terms of \( z_1 \) using a rotation by \( 60^\circ \):
+\[ z_2 = z_1 e^{i\pi/3} \]
+
+substituting this into the sum and product of the roots:
+\[ z_1 + z_1 e^{i\pi/3} = -a \]
+\[ z_1 (1 + e^{i\pi/3}) = -a \]
+\[ z_1 = -a / (1 + e^{i\pi/3}) \]
+
+for the product:
+\[ b = z_1 z_2 = z_1^2 e^{i\pi/3} \]
+\[ b = \left( \frac{-a}{1 + e^{i\pi/3}} \right)^2 e^{i\pi/3} \]
+
+now, we find \( \frac{a^2}{b} \):
+\[ \frac{a^2}{b} = \frac{a^2}{ \left( \frac{-a}{1 + e^{i\pi/3}} \right)^2 e^{i\pi/3} } = \frac{a^2 (1 + e^{i\pi/3})^2}{a^2 e^{i\pi/3}} = \frac{(1 + e^{i\pi/3})^2}{e^{i\pi/3}} \]
+
+expanding and simplifying:
+\[ (1 + e^{i\pi/3})^2 = 1 + 2 e^{i\pi/3} + e^{i2\pi/3} \]
+\[ \frac{(1 + e^{i\pi/3})^2}{e^{i\pi/3}} = \frac{1 + 2 e^{i\pi/3} + e^{i2\pi/3}}{e^{i\pi/3}} = e^{-i\pi/3} + 2 + e^{i\pi/3} \]
+\[ e^{-i\pi/3} + e^{i\pi/3} = 2 \cos(\pi/3) = 1 \]
+\[ e^{-i\pi/3} + 2 + e^{i\pi/3} = 1 + 2 = 3 \]
+
+thus, the final answer is:
+\[ \boxed{3} \]

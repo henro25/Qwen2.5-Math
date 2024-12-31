@@ -1,1 +1,45 @@
-Reasoning: 
+Reasoning: Let's tackle this problem step by step. so, we have p and q that are inversely proportional. i need to find the value of p when q is 15, given that p is 25 when q is 6.
+
+first, i need to recall what it means for two variables to be inversely proportional. if p and q are inversely proportional, that means their product is a constant. in other words, p times q equals some constant k. so, p * q = k.
+
+given that p = 25 when q = 6, i can plug these values into the equation to find k. so, 25 * 6 = k, which means k = 150.
+
+now, i need to find p when q = 15. using the same formula, p * q = k, and i know q is 15 and k is 150. so, p * 15 = 150.
+
+to find p, i can divide both sides of the equation by 15. that gives me p = 150 / 15.
+
+let me calculate that: 150 divided by 15 is 10.
+
+so, p should be 10 when q is 15.
+
+wait a minute, let me double-check that to make sure i didn't make any mistakes. if p is inversely proportional to q, then as q increases, p should decrease, right? here, q is increasing from 6 to 15, which is more than double, and p is decreasing from 25 to 10, which makes sense because they're inversely proportional.
+
+alternatively, i can think about the relationship in terms of ratios. since p and q are inversely proportional, the ratio of p1 to p2 should be equal to q2 to q1. so, p1/q2 = p2/q1.
+
+let me plug in the known values: 25 / 15 = p / 6.
+
+cross-multiplying, 25 * 6 = 15 * p, which is 150 = 15p.
+
+then, p = 150 / 15 = 10.
+
+that matches what i got earlier, so i think that's correct.
+
+another way to look at it is to use the formula for inverse proportionality directly. since p * q = k, and k is constant, i can set up the equation as p1 * q1 = p2 * q2.
+
+plugging in the known values: 25 * 6 = p * 15.
+
+again, 150 = 15p, so p = 10.
+
+consistently getting the same answer reinforces that p is indeed 10 when q is 15.
+
+i don't think there's any other factor i'm missing here. the relationship is straightforward inverse proportionality, and i've checked it using multiple methods.
+
+just to be thorough, let's consider if there's any possibility that p and q could have a different kind of relationship, but the problem specifically states that they are inversely proportional, so i don't need to consider direct proportionality or any other type of relationship.
+
+therefore, the final answer should be p = 10 when q = 15.
+
+**final answer**
+
+10
+10
+​

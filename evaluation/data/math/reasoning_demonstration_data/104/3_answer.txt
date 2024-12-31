@@ -1,1 +1,38 @@
-Answer: 
+Answer: First, we determine the total number of chips in the bag: \(5 + 4 + 3 = 12\).
+
+next, we calculate the probability that both chips drawn are of the same color. 
+
+1. probability both chips are blue:
+   \[
+   \left(\frac{5}{12}\right) \times \left(\frac{5}{12}\right) = \frac{25}{144}
+   \]
+
+2. probability both chips are red:
+   \[
+   \left(\frac{4}{12}\right) \times \left(\frac{4}{12}\right) = \frac{16}{144}
+   \]
+
+3. probability both chips are yellow:
+   \[
+   \left(\frac{3}{12}\right) \times \left(\frac{3}{12}\right) = \frac{9}{144}
+   \]
+
+adding these probabilities gives the probability that both chips are of the same color:
+\[
+\frac{25}{144} + \frac{16}{144} + \frac{9}{144} = \frac{50}{144}
+\]
+
+the probability that the two chips are of different colors is:
+\[
+1 - \frac{50}{144} = \frac{144}{144} - \frac{50}{144} = \frac{94}{144}
+\]
+
+simplifying \(\frac{94}{144}\):
+\[
+\frac{94 \div 2}{144 \div 2} = \frac{47}{72}
+\]
+
+thus, the probability that the two selected chips are of different colors is:
+\[
+\boxed{\frac{47}{72}}
+\]

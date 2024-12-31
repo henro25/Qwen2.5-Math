@@ -1,1 +1,39 @@
-Reasoning: 
+Reasoning: So i've got this probability problem here. there's a jar with some marbles of different colors, and i need to find the probability that if i draw two marbles without replacement, both of them are red. let's see.
+
+first, i need to know how many marbles there are in total. the jar has two red marbles, three green marbles, and ten white marbles. so, total marbles would be 2 + 3 + 10, which is 15 marbles.
+
+now, the problem is about drawing two marbles without replacement. that means once i draw the first marble, it doesn't go back into the jar, so the total number of marbles decreases by one for the second draw.
+
+i need the probability that both marbles drawn are red. so, i need to find the probability that the first marble is red and the second marble is also red.
+
+probability of the first marble being red is the number of red marbles divided by the total number of marbles, which is 2/15.
+
+now, assuming that the first marble drawn was red, there will be one red marble left and the total number of marbles left is 14. so, the probability that the second marble is also red is 1/14.
+
+since these are dependent events, i need to multiply these probabilities to get the overall probability.
+
+so, the probability that both marbles are red is (2/15) * (1/14).
+
+let me calculate that: 2 times 1 is 2, and 15 times 14 is 210. so, 2/210.
+
+i can simplify that fraction by dividing numerator and denominator by 2, which gives 1/105.
+
+wait, does that make sense? let me double-check.
+
+alternatively, i could think in terms of combinations. the number of ways to choose 2 red marbles out of 2 is c(2,2), and the total number of ways to choose any 2 marbles out of 15 is c(15,2).
+
+c(2,2) is 1, and c(15,2) is (15*14)/2 = 105. so, the probability is 1/105.
+
+okay, that matches my earlier result. so, the probability is 1/105.
+
+i think that's it.
+
+**final answer**
+
+1
+105
+105
+1
+​
+ 
+​

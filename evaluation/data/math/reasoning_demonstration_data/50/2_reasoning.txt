@@ -1,1 +1,103 @@
-Reasoning: 
+Reasoning: Alright, so I've got this problem here about marbles arranged in a line with a repeating pattern. There are gray, white, and black marbles, and they follow a specific sequence: first five gray, then four white, then three black, and this pattern repeats over and over again. The total number of marbles is 180, and I need to find out what color the 158th marble is.
+
+Okay, first things first, I need to understand the pattern. It starts with five gray marbles, then four white, then three black, and then it repeats: five gray, four white, three black, and so on. So, each complete cycle of the pattern has 5 + 4 + 3 = 12 marbles.
+
+Now, I need to find out how many complete cycles there are in 158 marbles and what's left over after those complete cycles to determine the color of the 158th marble.
+
+So, I'll divide 158 by 12 to see how many full cycles fit into 158 marbles. Let's do that calculation: 158 divided by 12.
+
+12 times 13 is 156, which is pretty close to 158. So, 13 full cycles would account for 156 marbles, and there would be 2 marbles left after that (158 - 156 = 2).
+
+Now, I need to figure out what those remaining 2 marbles look like in the pattern. Since the pattern starts with gray marbles, the first five marbles are gray. So, the 157th marble would be the first marble of the new cycle, which is gray, and the 158th marble would be the second marble in that cycle, which is also gray.
+
+Wait a minute, but let me double-check that. The pattern is five gray, four white, three black. So, positions 1-5 are gray, 6-9 are white, and 10-12 are black in each cycle.
+
+Given that, in the 13th cycle, marbles 157 to 168 would be:
+
+157: gray (position 1 in cycle)
+
+158: gray (position 2 in cycle)
+
+159: gray (position 3 in cycle)
+
+160: gray (position 4 in cycle)
+
+161: gray (position 5 in cycle)
+
+162: white (position 6 in cycle)
+
+163: white (position 7 in cycle)
+
+164: white (position 8 in cycle)
+
+165: white (position 9 in cycle)
+
+166: black (position 10 in cycle)
+
+167: black (position 11 in cycle)
+
+168: black (position 12 in cycle)
+
+So, yes, the 158th marble is gray.
+
+But just to be thorough, maybe I should consider if there's any mistake in assuming that the pattern repeats perfectly every 12 marbles, especially since the total number is 180, but I only need to go up to 158.
+
+Also, perhaps I should check if 158 is within the total number of marbles, which it is, since 180 is the total.
+
+Another way to approach this is to think about the position of the marble within its cycle. Since each cycle is 12 marbles, I can find the position by calculating 158 modulo 12.
+
+158 divided by 12 is 13 with a remainder of 2, as I calculated before. So, the position within the cycle is 2, which corresponds to the second gray marble.
+
+Alternatively, I could list out the positions:
+
+1-5: gray
+
+6-9: white
+
+10-12: black
+
+So, position 1: gray
+
+2: gray
+
+3: gray
+
+4: gray
+
+5: gray
+
+6: white
+
+7: white
+
+8: white
+
+9: white
+
+10: black
+
+11: black
+
+12: black
+
+And this repeats every 12 marbles.
+
+Given that the 158th marble is the second position in its cycle, it's gray.
+
+I think that's pretty straightforward, but I want to make sure I'm not missing anything.
+
+Wait, perhaps I should consider if the pattern changes or if there's any trick in the problem statement.
+
+The problem says: "The first five are gray, followed by four white, followed by three black, followed by five gray, followed by four white, followed by three black,...." So, it's clearly repeating every 12 marbles.
+
+I don't see any indication that the pattern changes after a certain point, so I think my approach is correct.
+
+Maybe I should check what happens if I calculate the position differently, just to confirm.
+
+Let's see, if I consider the cycle length as 12, and the position in the cycle as (158 modulo 12), which is 2, then it's gray.
+
+Alternatively, if I think of it as floor division: 158 divided by 12 is 13 with remainder 2, so it's the second marble in the cycle, which is gray.
+
+Yes, both methods lead to the same conclusion.
+
+I guess I'm confident enough that the 158th marble is gray.

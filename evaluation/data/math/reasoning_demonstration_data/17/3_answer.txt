@@ -1,1 +1,27 @@
-Answer: 
+Answer: Given the problem, we need to find the ratio of the radius of the small circle to the radius of the large circle, given that the visible gray area within the larger circle is equal to three times the area of the white circular region.
+
+first, we denote:
+- \( r \) as the radius of the larger circle.
+- \( r \) as the radius of the smaller circle.
+
+the gray area is the area of the larger circle minus the area of the smaller circle:
+\[ \text{gray area} = \pi r^2 - \pi r^2 = \pi (r^2 - r^2) \]
+
+the white area is the area of the smaller circle:
+\[ \text{white area} = \pi r^2 \]
+
+according to the problem, the gray area is three times the white area:
+\[ \pi (r^2 - r^2) = 3 \pi r^2 \]
+
+we can cancel \(\pi\) from both sides:
+\[ r^2 - r^2 = 3 r^2 \]
+
+solving for \( r^2 \):
+\[ r^2 = 4 r^2 \]
+\[ r = 2r \]
+
+thus, the ratio of the radius of the small circle to the radius of the large circle is:
+\[ \frac{r}{r} = \frac{r}{2r} = \frac{1}{2} \]
+
+therefore, the final answer is:
+\[ \boxed{\frac{1}{2}} \]

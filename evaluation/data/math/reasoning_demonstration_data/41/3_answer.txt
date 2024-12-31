@@ -1,1 +1,11 @@
-Answer: 
+Answer: 1. **Convert $204_6$ to base 10:**
+   - $204_6 = 2 \times 6^2 + 0 \times 6^1 + 4 \times 6^0$
+   - $= 2 \times 36 + 0 \times 6 + 4 \times 1$
+   - $= 72 + 0 + 4 = 76_{10}$
+
+2. **Determine the number of benches:**
+   - Total seats available: $76$
+   - People per bench: $2$
+   - Number of benches = $\frac{76}{2} = 38$
+
+**Answer:** The shop has **38 benches**.

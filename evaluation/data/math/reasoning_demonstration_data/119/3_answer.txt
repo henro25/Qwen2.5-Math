@@ -1,1 +1,63 @@
-Answer: 
+Answer: Given the vectors \(\overrightarrow{oa}\), \(\overrightarrow{ob}\), and \(\overrightarrow{oc}\) with magnitudes \(\|\overrightarrow{oa}\| = 1\), \(\|\overrightarrow{ob}\| = 1\), and \(\|\overrightarrow{oc}\| = \sqrt{2}\), and the angles \(\tan \angle aoc = 7\) and \(\angle boc = 45^\circ\), we need to find constants \(m\) and \(n\) such that \(\overrightarrow{oc} = m \overrightarrow{oa} + n \overrightarrow{ob}\).
+
+first, we determine the coordinates of \(\overrightarrow{oc}\). given \(\tan \theta = 7\), where \(\theta = \angle aoc\), we find:
+\[
+\cos \theta = \frac{\sqrt{2}}{10}, \quad \sin \theta = \frac{7\sqrt{2}}{10}
+\]
+thus, \(\overrightarrow{oc} = (\sqrt{2} \cos \theta, \sqrt{2} \sin \theta) = \left(\frac{1}{5}, \frac{7}{5}\right)\).
+
+next, we determine the coordinates of \(\overrightarrow{ob}\). given \(\angle boc = 45^\circ\), we use the dot product formula:
+\[
+\cos 45^\circ = \frac{\overrightarrow{ob} \cdot \overrightarrow{oc}}{\|\overrightarrow{ob}\| \|\overrightarrow{oc}\|}
+\]
+\[
+\frac{\sqrt{2}}{2} = \frac{a \cdot \frac{1}{5} + b \cdot \frac{7}{5}}{\sqrt{2}}
+\]
+\[
+\frac{\sqrt{2}}{2} = \frac{a + 7b}{5 \sqrt{2}}
+\]
+\[
+a + 7b = 5
+\]
+given \(a^2 + b^2 = 1\), solving the system:
+\[
+a = 5 - 7b
+\]
+\[
+(5 - 7b)^2 + b^2 = 1
+\]
+\[
+25 - 70b + 50b^2 = 1
+\]
+\[
+50b^2 - 70b + 24 = 0
+\]
+\[
+b = \frac{35 \pm 5}{50} = \frac{40}{50} = \frac{4}{5} \quad \text{or} \quad \frac{30}{50} = \frac{3}{5}
+\]
+\[
+a = 5 - 7 \left(\frac{4}{5}\right) = -\frac{3}{5} \quad \text{or} \quad 5 - 7 \left(\frac{3}{5}\right) = \frac{4}{5}
+\]
+thus, \(\overrightarrow{ob} = \left(-\frac{3}{5}, \frac{4}{5}\right)\).
+
+finally, we solve for \(m\) and \(n\):
+\[
+\left(\frac{1}{5}, \frac{7}{5}\right) = m \left(1, 0\right) + n \left(-\frac{3}{5}, \frac{4}{5}\right)
+\]
+\[
+\frac{1}{5} = m - \frac{3}{5}n
+\]
+\[
+\frac{7}{5} = \frac{4}{5}n
+\]
+\[
+n = \frac{7}{4}
+\]
+\[
+m = \frac{5}{4}
+\]
+
+thus, the ordered pair is:
+\[
+\boxed{\left( \frac{5}{4}, \frac{7}{4} \right)}
+\]

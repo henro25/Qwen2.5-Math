@@ -1,1 +1,41 @@
-Answer: 
+Answer: To find the first term of an infinite geometric series with a common ratio of \( \frac{1}{8} \) and a sum of 60, we use the formula for the sum of an infinite geometric series:
+
+\[
+s = \frac{a}{1 - r}
+\]
+
+given \( s = 60 \) and \( r = \frac{1}{8} \), we substitute these values into the formula:
+
+\[
+60 = \frac{a}{1 - \frac{1}{8}}
+\]
+
+first, calculate \( 1 - \frac{1}{8} \):
+
+\[
+1 - \frac{1}{8} = \frac{8}{8} - \frac{1}{8} = \frac{7}{8}
+\]
+
+so the equation becomes:
+
+\[
+60 = \frac{a}{\frac{7}{8}}
+\]
+
+to solve for \( a \), multiply both sides by \( \frac{7}{8} \):
+
+\[
+a = 60 \times \frac{7}{8}
+\]
+
+calculate the right-hand side:
+
+\[
+60 \times \frac{7}{8} = 60 \times 0.875 = 52.5
+\]
+
+thus, the first term of the series is:
+
+\[
+\boxed{52.5}
+\]

@@ -1,1 +1,48 @@
-Answer: 
+Answer: To solve the problem of determining how many hours it will take for the bacteria population to grow from 500 to 32,000, given that the population doubles every four hours, we can follow these steps:
+
+1. **Understand the Growth Pattern:**
+   - The bacteria double every 4 hours, meaning the population increases by a factor of 2 each time period.
+
+2. **Set Up the Exponential Growth Formula:**
+   - The general formula for exponential growth is:
+     \[
+     N = N_0 \times 2^{t/T}
+     \]
+     where:
+     - \( N \) is the final population (32,000),
+     - \( N_0 \) is the initial population (500),
+     - \( T \) is the doubling time (4 hours),
+     - \( t \) is the time in hours we need to find.
+
+3. **Substitute Known Values and Solve for \( t \):**
+   \[
+   32,000 = 500 \times 2^{t/4}
+   \]
+   - Divide both sides by 500:
+     \[
+     64 = 2^{t/4}
+     \]
+   - Recognize that \( 64 = 2^6 \), so:
+     \[
+     2^6 = 2^{t/4}
+     \]
+   - Since the bases are the same, set the exponents equal:
+     \[
+     6 = \frac{t}{4}
+     \]
+   - Multiply both sides by 4:
+     \[
+     t = 24 \text{ hours}
+     \]
+
+4. **Verification by Iterative Doubling:**
+   - Starting with 500 bacteria:
+     - After 4 hours: 1,000
+     - After 8 hours: 2,000
+     - After 12 hours: 4,000
+     - After 16 hours: 8,000
+     - After 20 hours: 16,000
+     - After 24 hours: 32,000
+   - This confirms that the population reaches 32,000 in 24 hours.
+
+**Answer:** It will take 24 hours for the bacteria population to reach exactly 32,000.

@@ -1,1 +1,25 @@
-Answer: 
+Answer: To determine the number of integer solutions to the equation \((x-2)^{(25-x^2)} = 1\), we consider the following cases:
+
+1. **base is 1**:
+   \[
+   x - 2 = 1 \implies x = 3
+   \]
+   this satisfies the equation since \((3-2)^{25-9} = 1^{16} = 1\).
+
+2. **base is -1 and exponent is even**:
+   \[
+   x - 2 = -1 \implies x = 1
+   \]
+   the exponent \(25 - x^2 = 24\) is even, so \((-1)^{24} = 1\).
+
+3. **exponent is 0 and base is not 0**:
+   \[
+   25 - x^2 = 0 \implies x^2 = 25 \implies x = \pm 5
+   \]
+   both \(x = 5\) and \(x = -5\) satisfy the equation since \((5-2)^0 = 3^0 = 1\) and \((-5-2)^0 = (-7)^0 = 1\).
+
+thus, the integer solutions are \(x = -5, 1, 3, 5\), giving a total of 4 solutions.
+
+\[
+\boxed{4}
+\]

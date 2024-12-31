@@ -1,1 +1,25 @@
-Reasoning: 
+Reasoning: Okay, so I have this problem here about Nikki's garden. She has irises and roses, and the ratio of irises to roses is 2 to 5. Right now, she has 25 roses, and she's planning to add 20 more roses, making it a total of 45 roses. But she wants to keep the same ratio of irises to roses, which is 2:5. So, I need to figure out how many irises she will have after adding the roses and some irises to maintain that ratio.
+
+First, I need to understand what the current number of irises is. Since the ratio is 2:5 and she has 25 roses, I can set up a proportion. Let's say the number of irises is I, so I/25 = 2/5. To find I, I can cross-multiply: 5I = 2*25, which is 50, so I = 10. So, she currently has 10 irises.
+
+Now, she's adding 20 more roses, which brings the total roses to 45. She wants to keep the same ratio of irises to roses, which is 2:5. So, I need to find out how many irises she should have in total when there are 45 roses.
+
+Again, setting up a proportion: new number of irises (let's call it I_new)/45 = 2/5. So, cross-multiplying, 5*I_new = 2*45, which is 90. Therefore, I_new = 18.
+
+So, after adding the roses and the necessary irises, she will have 18 irises in total.
+
+Wait, but she already has 10 irises. Does she need to add 8 more irises to go from 10 to 18? The question is asking for the total number of irises after the addition, not how many to add. So, the answer should be 18 irises in total.
+
+I think that makes sense. Let me double-check my steps:
+
+1. Current ratio: 2 irises to 5 roses.
+
+2. Current roses: 25, so current irises: (2/5)*25 = 10.
+
+3. Adding 20 roses, total roses become 45.
+
+4. To keep the ratio, irises should be (2/5)*45 = 18.
+
+5. Therefore, total irises after addition are 18.
+
+Yeah, that seems correct.

@@ -1,1 +1,43 @@
-Answer: 
+Answer: First, we find the center of the ellipse by calculating the midpoint of the endpoints of the major axis, \((-11, 4)\) and \((9, 4)\):
+
+\[
+h = \frac{-11 + 9}{2} = -1, \quad k = \frac{4 + 4}{2} = 4
+\]
+
+thus, the center of the ellipse is \((-1, 4)\).
+
+next, we determine the length of the major axis. the distance between \(-11\) and \(9\) on the x-axis is:
+
+\[
+2a = 9 - (-11) = 20 \implies a = 10
+\]
+
+we then use the point \((7, 7)\) to find \(b\). the equation of the ellipse is:
+
+\[
+\frac{(x + 1)^2}{100} + \frac{(y - 4)^2}{b^2} = 1
+\]
+
+substituting \((7, 7)\) into the equation:
+
+\[
+\frac{(7 + 1)^2}{100} + \frac{(7 - 4)^2}{b^2} = 1 \implies \frac{64}{100} + \frac{9}{b^2} = 1
+\]
+
+simplifying:
+
+\[
+\frac{16}{25} + \frac{9}{b^2} = 1 \implies \frac{9}{b^2} = 1 - \frac{16}{25} = \frac{9}{25} \implies b^2 = 25 \implies b = 5
+\]
+
+finally, the area of the ellipse is:
+
+\[
+\text{area} = \pi a b = \pi \times 10 \times 5 = 50\pi
+\]
+
+thus, the area of the ellipse is:
+
+\[
+\boxed{50\pi}
+\]

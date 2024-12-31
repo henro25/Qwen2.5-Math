@@ -1,1 +1,59 @@
-Answer: 
+Answer: To solve the problem of finding the maximum number of consecutive positive integers that can be added together without exceeding 400, we use the formula for the sum of the first $n$ consecutive positive integers:
+
+\[
+S = \frac{n(n + 1)}{2}
+\]
+
+We need to find the largest $n$ such that:
+
+\[
+\frac{n(n + 1)}{2} \leq 400
+\]
+
+Multiplying both sides by 2:
+
+\[
+n(n + 1) \leq 800
+\]
+
+This simplifies to the quadratic inequality:
+
+\[
+n^2 + n - 800 \leq 0
+\]
+
+Solving the quadratic equation $n^2 + n - 800 = 0$ using the quadratic formula:
+
+\[
+n = \frac{-1 \pm \sqrt{1 + 4 \times 800}}{2} = \frac{-1 \pm \sqrt{3201}}{2}
+\]
+
+Approximating $\sqrt{3201} \approx 56.6$, we get:
+
+\[
+n \approx \frac{-1 + 56.6}{2} \approx 27.8
+\]
+
+Since $n$ must be an integer, we check $n = 27$ and $n = 28$:
+
+- For $n = 27$: 
+
+\[
+S = \frac{27 \times 28}{2} = 378
+\]
+
+- For $n = 28$:
+
+\[
+S = \frac{28 \times 29}{2} = 406
+\]
+
+Since $406 > 400$, $n = 28$ is not acceptable, but $n = 27$ gives a sum of 378, which is under 400.
+
+We also check if starting from a different integer $k$ allows for a larger $n$. However, increasing $k$ while keeping $n$ large results in sums that either exceed 400 or do not provide a larger $n$ than 27.
+
+Thus, the maximum number of consecutive positive integers that can be added together without exceeding 400 is:
+
+\[
+\boxed{27}
+\]

@@ -1,1 +1,103 @@
-Reasoning: 
+Reasoning: So i have this problem here. it says that the side of a square is (x - 2), and there's a rectangle with length (x - 3) and width (x + 4). it also says that the area of the rectangle is twice the area of the square. i need to find the sum of the possible values of x.
+
+first, i should probably write down what i know. the area of a square is side squared, right? so, area of square is (x - 2)^2.
+
+then, the area of a rectangle is length times width. so, area of rectangle is (x - 3)(x + 4).
+
+and it says that the area of the rectangle is twice the area of the square. so, (x - 3)(x + 4) = 2*(x - 2)^2.
+
+alright, so i have this equation: (x - 3)(x + 4) = 2*(x - 2)^2.
+
+i need to solve for x.
+
+maybe i should expand both sides first.
+
+let me expand the left side: (x - 3)(x + 4).
+
+using the distributive property, that's x*(x + 4) - 3*(x + 4) = x^2 + 4x - 3x - 12 = x^2 + x - 12.
+
+now, the right side: 2*(x - 2)^2.
+
+first, expand (x - 2)^2: x^2 - 4x + 4.
+
+then multiply by 2: 2x^2 - 8x + 8.
+
+so now the equation is: x^2 + x - 12 = 2x^2 - 8x + 8.
+
+hmm, i should bring all terms to one side to set the equation to zero.
+
+subtract x^2 + x - 12 from both sides: 0 = 2x^2 - 8x + 8 - x^2 - x + 12.
+
+simplify: 0 = x^2 - 9x + 20.
+
+now, i have a quadratic equation: x^2 - 9x + 20 = 0.
+
+i need to solve for x. i can try factoring this.
+
+looking for two numbers that multiply to 20 and add to -9.
+
+hmm, -5 and -4 work because (-5)*(-4) = 20 and (-5) + (-4) = -9.
+
+so, the equation factors to: (x - 5)(x - 4) = 0.
+
+therefore, x = 5 or x = 4.
+
+but i need to check if these values make sense in the original problem.
+
+let's check x = 5.
+
+side of square: (5 - 2) = 3.
+
+area of square: 3^2 = 9.
+
+length of rectangle: (5 - 3) = 2.
+
+width of rectangle: (5 + 4) = 9.
+
+area of rectangle: 2*9 = 18.
+
+is 18 twice 9? yes, it is.
+
+now, check x = 4.
+
+side of square: (4 - 2) = 2.
+
+area of square: 2^2 = 4.
+
+length of rectangle: (4 - 3) = 1.
+
+width of rectangle: (4 + 4) = 8.
+
+area of rectangle: 1*8 = 8.
+
+is 8 twice 4? yes, it is.
+
+so both values are valid.
+
+the problem asks for the sum of the possible values of x.
+
+so, 5 + 4 = 9.
+
+wait, but is there any other possible solution? did i miss something?
+
+let me think. the quadratic equation gave me two solutions, and both checked out in the original problem. i don't think there are any restrictions on x beyond what makes the lengths positive.
+
+let me check if x can be less than 2, but in that case, the side of the square would be negative, which doesn't make sense for a length. so x must be greater than 2.
+
+for x = 4, side is 2, which is fine.
+
+for x = 5, side is 3, which is also fine.
+
+if x were less than 3, the length of the rectangle would be negative. for example, if x = 3, length is 0, which is not really a rectangle.
+
+so, x must be greater than 3 to have positive length and width for the rectangle.
+
+but in our solutions, x = 4 and x = 5, both are greater than 3, so they are valid.
+
+therefore, the sum of possible values of x is 9.
+
+**final answer**
+
+9
+9
+​

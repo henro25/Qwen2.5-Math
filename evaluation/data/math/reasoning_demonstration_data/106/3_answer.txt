@@ -1,1 +1,31 @@
-Answer: 
+Answer: Given the sequence rule:
+- if \( a_{n-1} \) is even, then \( a_n = \frac{a_{n-1}}{2} \).
+- if \( a_{n-1} \) is odd, then \( a_n = 3a_{n-1} + 1 \).
+
+we need to find how many positive integers \( a_1 \leq 2008 \) satisfy \( a_1 < a_2 \), \( a_1 < a_3 \), and \( a_1 < a_4 \).
+
+1. **determine \( a_2 \), \( a_3 \), and \( a_4 \) in terms of \( a_1 \):**
+   - if \( a_1 \) is even, \( a_2 = \frac{a_1}{2} \), which is less than \( a_1 \). thus, \( a_1 \) must be odd.
+   - if \( a_1 \) is odd, \( a_2 = 3a_1 + 1 \), which is greater than \( a_1 \).
+
+2. **for \( a_1 \) odd:**
+   - \( a_2 = 3a_1 + 1 \) (even)
+   - \( a_3 = \frac{3a_1 + 1}{2} \)
+   - \( a_4 \) depends on whether \( a_3 \) is even or odd.
+
+3. **consider \( a_1 \equiv 1 \pmod{4} \):**
+   - \( a_3 = \frac{3a_1 + 1}{2} \) is even.
+   - \( a_4 = \frac{3a_1 + 1}{4} \)
+   - \( a_1 < a_4 \) is not generally true.
+
+4. **consider \( a_1 \equiv 3 \pmod{4} \):**
+   - \( a_3 = \frac{3a_1 + 1}{2} \) is odd.
+   - \( a_4 = 3 \left( \frac{3a_1 + 1}{2} \right) + 1 = \frac{9a_1 + 5}{2} \)
+   - \( a_1 < a_4 \) is always true.
+
+5. **count the numbers \( a_1 \leq 2008 \) that are odd and \( a_1 \equiv 3 \pmod{4} \):**
+   - the sequence is \( 3, 7, 11, \ldots, 2007 \).
+   - this is an arithmetic sequence with first term 3, common difference 4, and last term 2007.
+   - number of terms: \( n = \left( \frac{2007 - 3}{4} \right) + 1 = 502 \).
+
+thus, the number of positive integers \( a_1 \leq 2008 \) that satisfy the conditions is \(\boxed{502}\).

@@ -1,1 +1,36 @@
-Answer: 
+Answer: First, we calculate the total distance for the round trip:
+\[
+\text{total distance} = 120 \text{ miles} + 120 \text{ miles} = 240 \text{ miles}
+\]
+
+given the average speed for the round trip is 45 miles per hour, we use the formula for average speed:
+\[
+\text{average speed} = \frac{\text{total distance}}{\text{total time}}
+\]
+\[
+45 = \frac{240}{\text{total time}}
+\]
+solving for total time:
+\[
+\text{total time} = \frac{240}{45} = \frac{16}{3} \text{ hours} \approx 5 \text{ hours and } 20 \text{ minutes}
+\]
+
+next, we calculate the time taken to travel from a to b at 60 miles per hour:
+\[
+\text{time from a to b} = \frac{120}{60} = 2 \text{ hours}
+\]
+
+the remaining time is for the return trip from b to a:
+\[
+\text{time from b to a} = \frac{16}{3} - 2 = \frac{16}{3} - \frac{6}{3} = \frac{10}{3} \text{ hours}
+\]
+
+finally, we calculate the speed for the return trip:
+\[
+\text{speed from b to a} = \frac{120}{\frac{10}{3}} = 120 \times \frac{3}{10} = 36 \text{ miles per hour}
+\]
+
+thus, the speed of the car traveling back from b to a is:
+\[
+\boxed{36}
+\]

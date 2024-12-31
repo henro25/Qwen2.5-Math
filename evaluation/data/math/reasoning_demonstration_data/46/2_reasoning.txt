@@ -1,1 +1,53 @@
-Reasoning: 
+Reasoning: So i've got this problem here about identifying which of the four functions are invertible and then finding the product of their labels. let's see, functions are labeled (2) through (5), and i have some graphs to look at, even though they're asymptote code, i can try to visualize them.
+
+first off, i need to remember what makes a function invertible. a function is invertible if it's bijective, meaning it's both injective (one-to-one) and surjective (onto). but in practical terms, for functions from real numbers to real numbers, we can check if a function is strictly increasing or strictly decreasing over its domain. if it's strictly monotonic, it's one-to-one and thus invertible.
+
+let's look at each function one by one.
+
+function (2): the graph is drawn using the function f(x) = x² - 2x. hmm, that's a quadratic function. quadratic functions are parabolas, and they are not one-to-one over their entire domain because they fail the horizontal line test; there are horizontal lines that intersect the graph at two points. for example, if i take y = f(x) = x² - 2x, and set y to some value, say y = 0, then 0 = x² - 2x, which gives x(x - 2) = 0, so x = 0 or x = 2. that means two different x-values give the same y-value, so it's not one-to-one.
+
+wait, but maybe the domain is restricted? the problem says the domain of function (3) is given, but nothing about function (2). assuming the domain is all real numbers, function (2) is not invertible.
+
+function (3): the graph is a set of discrete points with domain { -5, -4, -3, -2, -1, 0, 1, 2 }, and the points are:
+
+(-5,3), (-4,5), (-3,1), (-2,0), (-1,2), (0,-4), (1,-3), (2,-2).
+
+to check if this function is invertible, i need to see if it's one-to-one. that is, no two different x-values map to the same y-value.
+
+let's list the y-values:
+
+3,5,1,0,2,-4,-3,-2.
+
+are any of these y-values repeated? 3 appears once, 5 once, 1 once, 0 once, 2 once, -4 once, -3 once, -2 once. no repeats, so each y-value corresponds to exactly one x-value. therefore, this function is one-to-one and invertible.
+
+function (4): the graph is of h(x) = -arctan(x). the arctangent function is strictly increasing over its entire domain, which is all real numbers, and it's one-to-one. multiplying by -1 will flip it, but it will still be strictly decreasing, hence still one-to-one. so h(x) is invertible.
+
+function (5): the graph is of k(x) = 4/x. this is a hyperbola. the function is defined for all x except x=0. now, is it one-to-one? well, if i take two different x-values, say x=1 and x=2, then k(1)=4 and k(2)=2, which are different. it seems one-to-one, but wait, let's think about it more carefully.
+
+the function k(x) = 4/x is actually one-to-one over its domain. if i set 4/x = 4/y, then x = y, so it's one-to-one. however, its domain is all real numbers except x=0, and it's split into two parts: for x > 0, it's decreasing, and for x < 0, it's also decreasing. but since the two branches don't interfere with each other, the function is still invertible. its inverse would be k⁻¹(x) = 4/x as well, actually.
+
+wait, but the graph is split into two parts: one for x positive and one for x negative, but within each part, it's strictly decreasing, so it should be invertible.
+
+so, summarizing:
+
+- function (2): not invertible.
+
+- function (3): invertible.
+
+- function (4): invertible.
+
+- function (5): invertible.
+
+therefore, the invertible functions are labeled (3), (4), and (5). their labels are 3, 4, and 5. the product of these labels is 3 * 4 * 5 = 60.
+
+wait, but the problem says "the product of the labels", and the labels are (2) through (5). but function (3) has domain given as {-5,-4,-3,-2,-1,0,1,2}, which is a finite set, but since it's one-to-one over that domain, it's invertible.
+
+just to double-check, is there any reason to exclude function (5)? maybe because the graph is split into two parts, but as long as it's one-to-one on its domain, it's invertible.
+
+okay, i think 60 is the answer.
+
+**final answer**
+
+60
+60
+​

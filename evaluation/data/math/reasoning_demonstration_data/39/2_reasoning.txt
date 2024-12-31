@@ -1,1 +1,404 @@
-Reasoning: 
+Reasoning: So i need to find the value of cosine of 
+5
+π
+4
+4
+5π
+​
+ . hmm, i'm a bit rusty on my trigonometry, but i think i can figure this out by breaking it down step by step.
+
+first, i know that angles in trigonometry are often measured in radians, and 
+π
+π radians is equal to 180 degrees. so, 
+5
+π
+4
+4
+5π
+​
+  radians would be equal to 
+5
+4
+×
+180
+4
+5
+​
+ ×180 degrees. let me calculate that: 
+5
+4
+×
+180
+=
+225
+4
+5
+​
+ ×180=225 degrees. okay, so 
+cos
+⁡
+5
+π
+4
+cos 
+4
+5π
+​
+  is the same as 
+cos
+⁡
+22
+5
+∘
+cos225 
+∘
+ .
+
+now, i need to find the cosine of 225 degrees. i remember that the cosine function gives the x-coordinate of a point on the unit circle corresponding to a given angle. so, i should visualize where 225 degrees is on the unit circle.
+
+225 degrees is in the third quadrant because it's between 180 degrees and 270 degrees. in the third quadrant, both sine and cosine values are negative. that means 
+cos
+⁡
+22
+5
+∘
+cos225 
+∘
+  should be negative.
+
+to find the exact value, i can use the reference angle. the reference angle for 225 degrees is 225 degrees minus 180 degrees, which is 45 degrees. so, the reference angle is 45 degrees.
+
+i recall that 
+cos
+⁡
+4
+5
+∘
+=
+2
+2
+cos45 
+∘
+ = 
+2
+2
+​
+ 
+​
+ . but since 225 degrees is in the third quadrant where cosine is negative, 
+cos
+⁡
+22
+5
+∘
+=
+−
+2
+2
+cos225 
+∘
+ =− 
+2
+2
+​
+ 
+​
+ .
+
+wait a minute, is that correct? let me double-check. the cosine of 45 degrees is indeed 
+2
+2
+2
+2
+​
+ 
+​
+ , and since 225 degrees is in the third quadrant where cosine is negative, it should be negative. so, yes, 
+cos
+⁡
+22
+5
+∘
+=
+−
+2
+2
+cos225 
+∘
+ =− 
+2
+2
+​
+ 
+​
+ .
+
+alternatively, i can use the unit circle formula for cosine. the coordinates on the unit circle for an angle 
+θ
+θ are 
+(
+cos
+⁡
+θ
+,
+sin
+⁡
+θ
+)
+(cosθ,sinθ). for 
+θ
+=
+5
+π
+4
+θ= 
+4
+5π
+​
+ , the coordinates should be 
+(
+−
+2
+2
+,
+−
+2
+2
+)
+(− 
+2
+2
+​
+ 
+​
+ ,− 
+2
+2
+​
+ 
+​
+ ), which confirms that 
+cos
+⁡
+5
+π
+4
+=
+−
+2
+2
+cos 
+4
+5π
+​
+ =− 
+2
+2
+​
+ 
+​
+ .
+
+another way to look at it is by using the cosine addition formula. 
+5
+π
+4
+4
+5π
+​
+  can be expressed as 
+π
++
+π
+4
+π+ 
+4
+π
+​
+ . using the cosine addition formula:
+
+cos
+⁡
+(
+π
++
+π
+4
+)
+=
+cos
+⁡
+π
+cos
+⁡
+π
+4
+−
+sin
+⁡
+π
+sin
+⁡
+π
+4
+cos(π+ 
+4
+π
+​
+ )=cosπcos 
+4
+π
+​
+ −sinπsin 
+4
+π
+​
+ 
+
+i know that 
+cos
+⁡
+π
+=
+−
+1
+cosπ=−1, 
+sin
+⁡
+π
+=
+0
+sinπ=0, 
+cos
+⁡
+π
+4
+=
+2
+2
+cos 
+4
+π
+​
+ = 
+2
+2
+​
+ 
+​
+ , and 
+sin
+⁡
+π
+4
+=
+2
+2
+sin 
+4
+π
+​
+ = 
+2
+2
+​
+ 
+​
+ . plugging these values in:
+
+cos
+⁡
+(
+π
++
+π
+4
+)
+=
+(
+−
+1
+)
+×
+2
+2
+−
+0
+×
+2
+2
+=
+−
+2
+2
+cos(π+ 
+4
+π
+​
+ )=(−1)× 
+2
+2
+​
+ 
+​
+ −0× 
+2
+2
+​
+ 
+​
+ =− 
+2
+2
+​
+ 
+​
+ 
+
+so, this method also gives me 
+−
+2
+2
+− 
+2
+2
+​
+ 
+​
+ , which matches my earlier result.
+
+i think i've confirmed it enough times. therefore, the value of 
+cos
+⁡
+5
+π
+4
+cos 
+4
+5π
+​
+  is 
+−
+2
+2
+− 
+2
+2
+​
+ 
+​
+ .
+
+**final answer**
+
+−
+2
+2
+− 
+2
+2
+​
+ 
+​
+ 
+​

@@ -1,1 +1,416 @@
-Reasoning: 
+Reasoning: So i have this problem here: if 
+w
+z
+=
+12
+−
+8
+i
+wz=12−8i and 
+∣
+w
+∣
+=
+13
+∣w∣= 
+13
+​
+ , what is 
+∣
+z
+∣
+∣z∣? hmm, okay, let's see. i remember that when you multiply two complex numbers, their magnitudes multiply. so, maybe that's the key here.
+
+first, let's recall what the magnitude of a complex number is. if you have a complex number 
+a
++
+b
+i
+a+bi, its magnitude is 
+a
+2
++
+b
+2
+a 
+2
+ +b 
+2
+ 
+​
+ . so, for example, if 
+w
+=
+a
++
+b
+i
+w=a+bi, then 
+∣
+w
+∣
+=
+a
+2
++
+b
+2
+∣w∣= 
+a 
+2
+ +b 
+2
+ 
+​
+ .
+
+now, i have 
+w
+z
+=
+12
+−
+8
+i
+wz=12−8i. if i think about the magnitudes, 
+∣
+w
+z
+∣
+=
+∣
+w
+∣
+×
+∣
+z
+∣
+∣wz∣=∣w∣×∣z∣. that's a property of complex numbers. so, if i can find 
+∣
+w
+z
+∣
+∣wz∣, and i already know 
+∣
+w
+∣
+∣w∣, i can solve for 
+∣
+z
+∣
+∣z∣.
+
+let me compute 
+∣
+w
+z
+∣
+∣wz∣. since 
+w
+z
+=
+12
+−
+8
+i
+wz=12−8i, its magnitude is 
+1
+2
+2
++
+(
+−
+8
+)
+2
+=
+144
++
+64
+=
+208
+12 
+2
+ +(−8) 
+2
+ 
+​
+ = 
+144+64
+​
+ = 
+208
+​
+ . hmm, 
+208
+208
+​
+  seems a bit messy. maybe i can simplify it. let's see, 208 divided by 16 is 13, so 
+208
+=
+16
+×
+13
+=
+4
+13
+208
+​
+ = 
+16×13
+​
+ =4 
+13
+​
+ .
+
+okay, so 
+∣
+w
+z
+∣
+=
+4
+13
+∣wz∣=4 
+13
+​
+ , and i know 
+∣
+w
+∣
+=
+13
+∣w∣= 
+13
+​
+ . plugging into the equation 
+∣
+w
+z
+∣
+=
+∣
+w
+∣
+×
+∣
+z
+∣
+∣wz∣=∣w∣×∣z∣, i get 
+4
+13
+=
+13
+×
+∣
+z
+∣
+4 
+13
+​
+ = 
+13
+​
+ ×∣z∣.
+
+now, to solve for 
+∣
+z
+∣
+∣z∣, i can divide both sides by 
+13
+13
+​
+ . so, 
+∣
+z
+∣
+=
+4
+13
+13
+∣z∣= 
+13
+​
+ 
+4 
+13
+​
+ 
+​
+ . the 
+13
+13
+​
+  in the numerator and denominator cancel out, leaving 
+∣
+z
+∣
+=
+4
+∣z∣=4.
+
+wait a minute, does that make sense? let me double-check. if 
+∣
+w
+∣
+=
+13
+∣w∣= 
+13
+​
+  and 
+∣
+z
+∣
+=
+4
+∣z∣=4, then 
+∣
+w
+z
+∣
+=
+∣
+w
+∣
+×
+∣
+z
+∣
+=
+13
+×
+4
+=
+4
+13
+∣wz∣=∣w∣×∣z∣= 
+13
+​
+ ×4=4 
+13
+​
+ , which matches what i calculated earlier for 
+∣
+w
+z
+∣
+∣wz∣. so, it seems consistent.
+
+alternatively, maybe i should think about this in terms of the complex plane. if 
+w
+w and 
+z
+z are complex numbers, their product 
+w
+z
+wz is another complex number, and the magnitudes multiply. so, yeah, that still aligns with what i did above.
+
+is there another way to approach this problem? maybe by expressing 
+w
+w and 
+z
+z in polar form. let's see. if 
+w
+=
+r
+w
+e
+i
+θ
+w
+w=r 
+w
+​
+ e 
+iθ 
+w
+​
+ 
+  and 
+z
+=
+r
+z
+e
+i
+θ
+z
+z=r 
+z
+​
+ e 
+iθ 
+z
+​
+ 
+ , then 
+w
+z
+=
+r
+w
+r
+z
+e
+i
+(
+θ
+w
++
+θ
+z
+)
+wz=r 
+w
+​
+ r 
+z
+​
+ e 
+i(θ 
+w
+​
+ +θ 
+z
+​
+ )
+ . the magnitude of 
+w
+z
+wz is 
+r
+w
+r
+z
+r 
+w
+​
+ r 
+z
+​
+ , which again is 
+∣
+w
+∣
+×
+∣
+z
+∣
+∣w∣×∣z∣. so, this confirms the earlier property.
+
+i think i'm confident with the answer 
+∣
+z
+∣
+=
+4
+∣z∣=4.
+
+**final answer**
+
+4
+4
+​

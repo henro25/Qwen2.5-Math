@@ -1,1 +1,36 @@
-Answer: 
+Answer: To determine how many three-digit perfect squares are palindromes, we first identify the range of integers whose squares are three-digit numbers. the smallest three-digit number is 100, and the largest is 999. the square roots of these numbers are approximately 10 and 31, respectively. therefore, we consider integers from 10 to 31.
+
+next, we list the squares of these integers and check which ones are palindromes:
+
+\[
+\begin{align*}
+10^2 &= 100 & \text{(not a palindrome)} \\
+11^2 &= 121 & \text{(palindrome)} \\
+12^2 &= 144 & \text{(not a palindrome)} \\
+13^2 &= 169 & \text{(not a palindrome)} \\
+14^2 &= 196 & \text{(not a palindrome)} \\
+15^2 &= 225 & \text{(not a palindrome)} \\
+16^2 &= 256 & \text{(not a palindrome)} \\
+17^2 &= 289 & \text{(not a palindrome)} \\
+18^2 &= 324 & \text{(not a palindrome)} \\
+19^2 &= 361 & \text{(not a palindrome)} \\
+20^2 &= 400 & \text{(not a palindrome)} \\
+21^2 &= 441 & \text{(not a palindrome)} \\
+22^2 &= 484 & \text{(palindrome)} \\
+23^2 &= 529 & \text{(not a palindrome)} \\
+24^2 &= 576 & \text{(not a palindrome)} \\
+25^2 &= 625 & \text{(not a palindrome)} \\
+26^2 &= 676 & \text{(palindrome)} \\
+27^2 &= 729 & \text{(not a palindrome)} \\
+28^2 &= 784 & \text{(not a palindrome)} \\
+29^2 &= 841 & \text{(not a palindrome)} \\
+30^2 &= 900 & \text{(not a palindrome)} \\
+31^2 &= 961 & \text{(not a palindrome)}
+\end{align*}
+\]
+
+from this list, the three-digit perfect squares that are palindromes are 121, 484, and 676. therefore, there are three such numbers.
+
+\[
+\boxed{3}
+\]

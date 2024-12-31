@@ -1,1 +1,173 @@
-Reasoning: 
+Reasoning: Okay, let's see. I've got this problem here: "If Alex gives Bob a penny, Bob will have three times as many pennies as Alex has. If Bob gives Alex a penny, Bob will have twice as many pennies as Alex has. How many pennies does Bob currently have?"
+
+Alright, so I need to find out how many pennies Bob has right now. There are two scenarios given: one where Alex gives Bob a penny, and another where Bob gives Alex a penny. In each case, there's a relationship between the number of pennies they have after the transaction.
+
+First, I should probably define some variables to represent the current number of pennies each person has. Let's say:
+
+Let A = the number of pennies Alex currently has.
+
+Let B = the number of pennies Bob currently has.
+
+Now, in the first scenario, Alex gives Bob a penny. So after this transaction:
+
+Alex will have A - 1 pennies.
+
+Bob will have B + 1 pennies.
+
+And according to the problem, at this point, Bob has three times as many pennies as Alex. So:
+
+B + 1 = 3 * (A - 1)
+
+Okay, that's one equation.
+
+In the second scenario, Bob gives Alex a penny. So after this transaction:
+
+Alex will have A + 1 pennies.
+
+Bob will have B - 1 pennies.
+
+And in this case, Bob has twice as many pennies as Alex. So:
+
+B - 1 = 2 * (A + 1)
+
+Alright, now I have two equations:
+
+1) B + 1 = 3(A - 1)
+
+2) B - 1 = 2(A + 1)
+
+I need to solve these two equations to find the values of A and B, but the question specifically asks for the number of pennies Bob currently has, which is B.
+
+So, I need to solve this system of equations to find B.
+
+Let me see, I can use substitution or elimination. Maybe substitution would be easier here.
+
+From equation 1:
+
+B + 1 = 3A - 3
+
+So, B = 3A - 3 - 1
+
+B = 3A - 4
+
+Now, I can substitute this expression for B into equation 2.
+
+Equation 2: B - 1 = 2(A + 1)
+
+Substitute B:
+
+(3A - 4) - 1 = 2(A + 1)
+
+Simplify:
+
+3A - 5 = 2A + 2
+
+Now, subtract 2A from both sides:
+
+A - 5 = 2
+
+Add 5 to both sides:
+
+A = 7
+
+Now that I have A, I can plug it back into the expression for B.
+
+B = 3A - 4
+
+B = 3*7 - 4
+
+B = 21 - 4
+
+B = 17
+
+So, Bob currently has 17 pennies.
+
+Wait a minute, let me double-check that.
+
+If Alex has 7 pennies and Bob has 17 pennies:
+
+First scenario: Alex gives Bob a penny.
+
+Alex: 7 - 1 = 6
+
+Bob: 17 + 1 = 18
+
+Is 18 three times 6? Yes, because 3*6=18.
+
+Second scenario: Bob gives Alex a penny.
+
+Alex: 7 + 1 = 8
+
+Bob: 17 - 1 = 16
+
+Is 16 twice 8? Yes, because 2*8=16.
+
+Okay, that seems to check out.
+
+But just to be thorough, is there another way to approach this problem? Maybe using ratios or something else?
+
+Well, in the first scenario, after Alex gives Bob a penny, Bob has three times as many as Alex.
+
+So, the ratio of Bob's pennies to Alex's pennies is 3:1.
+
+Similarly, in the second scenario, after Bob gives Alex a penny, the ratio is 2:1.
+
+I wonder if I can set up ratios directly.
+
+Let me try that.
+
+Let A be Alex's current pennies, B be Bob's current pennies.
+
+After Alex gives Bob a penny:
+
+Alex: A - 1
+
+Bob: B + 1
+
+And B + 1 = 3(A - 1)
+
+Which is the same as the first equation I had.
+
+After Bob gives Alex a penny:
+
+Alex: A + 1
+
+Bob: B - 1
+
+And B - 1 = 2(A + 1)
+
+Same as the second equation.
+
+So, it seems like the system of equations is the best way to go.
+
+Alternatively, maybe I can think about the difference in their pennies.
+
+Let me see.
+
+Suppose I consider the difference between Bob's and Alex's pennies.
+
+Let D = B - A
+
+Then, in the first scenario, after Alex gives Bob a penny:
+
+Alex: A - 1
+
+Bob: B + 1
+
+So, difference: (B + 1) - (A - 1) = B + 1 - A + 1 = B - A + 2 = D + 2
+
+And according to the problem, Bob has three times as many as Alex at this point.
+
+So, B + 1 = 3(A - 1)
+
+Which is the same as before.
+
+Not sure if this helps.
+
+Maybe I can try expressing everything in terms of D.
+
+But perhaps that's more complicated.
+
+I think the initial approach with the two equations is the most straightforward.
+
+So, in conclusion, Bob has 17 pennies.

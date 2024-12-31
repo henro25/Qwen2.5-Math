@@ -1,1 +1,25 @@
-Answer: 
+Answer: Given that the perimeter of a square and the circumference of a circle are equal, we need to find the ratio of the area of the square to the area of the circle.
+
+1. **Perimeter and Circumference Equations:**
+   - Perimeter of the square: \( 4s \)
+   - Circumference of the circle: \( 2\pi r \)
+   - Set them equal: \( 4s = 2\pi r \)
+
+2. **Solve for \( s \) in terms of \( r \):**
+   \[
+   s = \frac{\pi r}{2}
+   \]
+
+3. **Calculate the Areas:**
+   - Area of the square: \( s^2 = \left( \frac{\pi r}{2} \right)^2 = \frac{\pi^2 r^2}{4} \)
+   - Area of the circle: \( \pi r^2 \)
+
+4. **Find the Ratio of the Areas:**
+   \[
+   \text{Ratio} = \frac{\text{Area of square}}{\text{Area of circle}} = \frac{\frac{\pi^2 r^2}{4}}{\pi r^2} = \frac{\pi^2 r^2}{4 \pi r^2} = \frac{\pi}{4}
+   \]
+
+Thus, the ratio of the area of the square to the area of the circle is:
+\[
+\boxed{\dfrac{\pi}{4}}
+\]

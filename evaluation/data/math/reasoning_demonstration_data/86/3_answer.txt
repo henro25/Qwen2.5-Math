@@ -1,1 +1,34 @@
-Answer: 
+Answer: 1. **Understand the problem:**  
+   - Angles \( A \) and \( B \) are supplementary, meaning \( A + B = 180^\circ \).
+   - Angle \( A \) is 8 times angle \( B \), so \( A = 8B \).
+
+2. **Set up the equation:**  
+   - Since \( A + B = 180^\circ \), substitute \( A \) with \( 8B \):
+     \[
+     8B + B = 180^\circ
+     \]
+   - Combine like terms:
+     \[
+     9B = 180^\circ
+     \]
+
+3. **Solve for \( B \):**  
+   - Divide both sides by 9:
+     \[
+     B = \frac{180^\circ}{9} = 20^\circ
+     \]
+
+4. **Find \( A \):**  
+   - Since \( A = 8B \), substitute \( B = 20^\circ \):
+     \[
+     A = 8 \times 20^\circ = 160^\circ
+     \]
+
+5. **Verify the solution:**  
+   - Check that \( A + B = 180^\circ \):
+     \[
+     160^\circ + 20^\circ = 180^\circ
+     \]
+   - The angles add up correctly.
+
+**Answer:** The measure of angle \( A \) is \( 160^\circ \).

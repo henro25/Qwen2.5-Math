@@ -1,1 +1,349 @@
-Reasoning: 
+Reasoning: So i have this problem here about a basketball game. shenille only attempted three-point shots and two-point shots. she made 20% of her three-point attempts and 30% of her two-point attempts. she attempted a total of 30 shots. i need to find out how many points she scored in total.
+
+first, i should probably define some variables to represent the unknowns here. let's say:
+
+let 
+x
+x be the number of three-point shots she attempted.
+
+and 
+y
+y be the number of two-point shots she attempted.
+
+i know that she attempted a total of 30 shots, so:
+
+x
++
+y
+=
+30
+x+y=30
+
+that's one equation. now, i need another equation to relate these variables.
+
+i know that she was successful on 20% of her three-point shots and 30% of her two-point shots.
+
+so, the number of successful three-point shots is 20% of 
+x
+x, which is 
+0.2
+x
+0.2x.
+
+similarly, the number of successful two-point shots is 30% of 
+y
+y, which is 
+0.3
+y
+0.3y.
+
+each successful three-point shot is worth 3 points, and each successful two-point shot is worth 2 points.
+
+so, her total points scored would be:
+
+3
+×
+0.2
+x
++
+2
+×
+0.3
+y
+3×0.2x+2×0.3y
+
+that simplifies to:
+
+0.6
+x
++
+0.6
+y
+0.6x+0.6y
+
+wait, both terms have 0.6, so maybe i can factor that:
+
+0.6
+(
+x
++
+y
+)
+0.6(x+y)
+
+but i already know that 
+x
++
+y
+=
+30
+x+y=30, so plugging that in:
+
+0.6
+×
+30
+=
+18
+0.6×30=18
+
+so, she scored 18 points in total.
+
+wait, that seems straightforward, but i'm wondering if i missed something. let me check the logic again.
+
+she attempted 
+x
+x three-pointers and 
+y
+y two-pointers, with 
+x
++
+y
+=
+30
+x+y=30.
+
+made 20% of three-pointers: 
+0.2
+x
+0.2x successful, each worth 3 points: 
+3
+×
+0.2
+x
+=
+0.6
+x
+3×0.2x=0.6x
+
+made 30% of two-pointers: 
+0.3
+y
+0.3y successful, each worth 2 points: 
+2
+×
+0.3
+y
+=
+0.6
+y
+2×0.3y=0.6y
+
+total points: 
+0.6
+x
++
+0.6
+y
+=
+0.6
+(
+x
++
+y
+)
+=
+0.6
+×
+30
+=
+18
+0.6x+0.6y=0.6(x+y)=0.6×30=18
+
+seems correct. maybe i can try another approach to confirm.
+
+alternative approach: let's find the number of successful shots.
+
+number of successful three-pointers: 
+0.2
+x
+0.2x
+
+number of successful two-pointers: 
+0.3
+y
+0.3y
+
+total points: 
+3
+(
+0.2
+x
+)
++
+2
+(
+0.3
+y
+)
+=
+0.6
+x
++
+0.6
+y
+=
+0.6
+(
+x
++
+y
+)
+=
+0.6
+×
+30
+=
+18
+3(0.2x)+2(0.3y)=0.6x+0.6y=0.6(x+y)=0.6×30=18
+
+same result.
+
+wait, is there a possibility that the percentages could lead to fractional successful shots? for example, if she attempted 10 three-pointers, 20% would be 2 successful shots.
+
+similarly, if she attempted 20 two-pointers, 30% would be 6 successful shots.
+
+total points: 
+3
+×
+2
++
+2
+×
+6
+=
+6
++
+12
+=
+18
+3×2+2×6=6+12=18
+
+again, 18 points.
+
+alternatively, if she attempted 5 three-pointers, 20% is 1 successful shot.
+
+and 25 two-pointers, 30% is 7.5 successful shots, which doesn't make sense because you can't have half a successful shot.
+
+hmm, maybe the number of attempted shots must be such that successful shots are whole numbers.
+
+wait, but in the problem, it's possible that the numbers work out to fractions, but in reality, you can't have half a shot. so perhaps there's a constraint that the number of attempted shots must be such that the successful shots are integers.
+
+but in my earlier calculation, assuming 
+x
++
+y
+=
+30
+x+y=30, and total points as 
+0.6
+×
+30
+=
+18
+0.6×30=18, it seems consistent.
+
+alternatively, perhaps there's another way to look at it.
+
+let me think in terms of expected value or average.
+
+each three-point attempt, on average, gives 
+0.2
+×
+3
+=
+0.6
+0.2×3=0.6 points.
+
+each two-point attempt, on average, gives 
+0.3
+×
+2
+=
+0.6
+0.3×2=0.6 points.
+
+so, regardless of how many of each type she attempted, as long as the total attempts are 30, the total points should be 
+30
+×
+0.6
+=
+18
+30×0.6=18 points.
+
+this seems to confirm the earlier result.
+
+but just to be thorough, let's suppose she attempted 
+x
+x three-pointers and 
+y
+=
+30
+−
+x
+y=30−x two-pointers.
+
+then, points from three-pointers: 
+3
+×
+0.2
+x
+=
+0.6
+x
+3×0.2x=0.6x
+
+points from two-pointers: 
+2
+×
+0.3
+(
+30
+−
+x
+)
+=
+0.6
+(
+30
+−
+x
+)
+2×0.3(30−x)=0.6(30−x)
+
+total points: 
+0.6
+x
++
+0.6
+(
+30
+−
+x
+)
+=
+0.6
+x
++
+18
+−
+0.6
+x
+=
+18
+0.6x+0.6(30−x)=0.6x+18−0.6x=18
+
+again, 18 points.
+
+i think this is solid. all approaches lead to the same answer.
+
+so, the answer should be 
+18
+18
+​
+ .
+
+**final answer**
+
+18
+18
+​

@@ -1,1 +1,44 @@
-Answer: 
+Answer: Given the areas of three faces of a right rectangular prism as 48, 49, and 50 square units, we need to find the volume of the prism.
+
+let the dimensions of the prism be \( l \), \( w \), and \( h \). the areas of the faces are:
+\[
+l \times w = 48, \quad l \times h = 49, \quad w \times h = 50
+\]
+
+to find the volume \( v = l \times w \times h \), we multiply the three equations:
+\[
+(l \times w) \times (l \times h) \times (w \times h) = 48 \times 49 \times 50
+\]
+\[
+(l \times w \times h)^2 = 48 \times 49 \times 50
+\]
+\[
+(l \times w \times h)^2 = 117600
+\]
+\[
+l \times w \times h = \sqrt{117600}
+\]
+
+simplifying the square root:
+\[
+\sqrt{117600} = \sqrt{1176 \times 100} = \sqrt{1176} \times 10
+\]
+\[
+1176 = 49 \times 24 \quad \text{and} \quad \sqrt{1176} = \sqrt{49 \times 24} = 7 \sqrt{24}
+\]
+\[
+\sqrt{24} = 2 \sqrt{6} \quad \text{so} \quad \sqrt{1176} = 7 \times 2 \sqrt{6} = 14 \sqrt{6}
+\]
+\[
+l \times w \times h = 10 \times 14 \sqrt{6} = 140 \sqrt{6}
+\]
+
+approximating \( \sqrt{6} \approx 2.449 \):
+\[
+v = 140 \times 2.449 \approx 342.86
+\]
+
+rounding to the nearest whole number, the volume is:
+\[
+\boxed{343}
+\]

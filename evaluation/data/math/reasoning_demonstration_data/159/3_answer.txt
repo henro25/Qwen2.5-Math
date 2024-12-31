@@ -1,1 +1,53 @@
-Answer: 
+Answer: To find the average percent score for the 100 students, we need to calculate the total sum of all the percent scores and then divide by the total number of students.
+
+given the data:
+
+\[
+\begin{array}{|c|c|}
+\hline
+\% \text{ score} & \text{number of students} \\
+\hline
+100 & 7 \\
+\hline
+90 & 18 \\
+\hline
+80 & 35 \\
+\hline
+70 & 25 \\
+\hline
+60 & 10 \\
+\hline
+50 & 3 \\
+\hline
+40 & 2 \\
+\hline
+\end{array}
+\]
+
+we calculate the total sum of all scores:
+
+\[
+\begin{align*}
+100 \times 7 &= 700 \\
+90 \times 18 &= 1620 \\
+80 \times 35 &= 2800 \\
+70 \times 25 &= 1750 \\
+60 \times 10 &= 600 \\
+50 \times 3 &= 150 \\
+40 \times 2 &= 80 \\
+\end{align*}
+\]
+
+adding these products together:
+
+\[
+700 + 1620 + 2800 + 1750 + 600 + 150 + 80 = 7700
+\]
+
+the average percent score is then:
+
+\[
+\bar{p} = \frac{7700}{100} = 77
+\]
+
+therefore, the average percent score for these 100 students is \boxed{77}.

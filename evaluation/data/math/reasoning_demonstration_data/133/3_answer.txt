@@ -1,1 +1,47 @@
-Answer: 
+Answer: First, we know that the sum of the interior angles of a pentagon is \(540^\circ\). given the angles \(a = 60^\circ\) and \(b = 85^\circ\), and knowing that \(c = d\) and \(e = 2c + 15^\circ\), we set up the equation:
+
+\[
+60^\circ + 85^\circ + c + c + (2c + 15^\circ) = 540^\circ
+\]
+
+combining like terms, we get:
+
+\[
+145^\circ + 4c + 15^\circ = 540^\circ
+\]
+
+simplifying further:
+
+\[
+160^\circ + 4c = 540^\circ
+\]
+
+subtracting \(160^\circ\) from both sides:
+
+\[
+4c = 380^\circ
+\]
+
+dividing by 4:
+
+\[
+c = 95^\circ
+\]
+
+since \(c = d\), we have \(d = 95^\circ\). now, calculating \(e\):
+
+\[
+e = 2c + 15^\circ = 2 \times 95^\circ + 15^\circ = 190^\circ + 15^\circ = 205^\circ
+\]
+
+verifying the sum of the angles:
+
+\[
+60^\circ + 85^\circ + 95^\circ + 95^\circ + 205^\circ = 540^\circ
+\]
+
+thus, the largest angle is:
+
+\[
+\boxed{205^\circ}
+\]

@@ -1,1 +1,49 @@
-Answer: 
+Answer: Given the sequence of points \((a_1, b_1)\), \((a_2, b_2)\), \((a_3, b_3)\), \ldots in the coordinate plane, defined by the recursive formula:
+
+\[
+(a_{n+1}, b_{n+1}) = (\sqrt{3}a_n - b_n, \sqrt{3}b_n + a_n)
+\]
+
+and knowing that \((a_{100}, b_{100}) = (2, 4)\), we need to find \(a_1 + b_1\) expressed using exponential notation.
+
+first, we represent the transformation as a matrix:
+
+\[
+\mathbf{v}_{n+1} = \begin{pmatrix} \sqrt{3} & -1 \\ 1 & \sqrt{3} \end{pmatrix} \mathbf{v}_n
+\]
+
+this matrix can be written as \(m = 2 r\left(\frac{\pi}{6}\right)\), where \(r(\theta)\) is the rotation matrix. therefore, \(m^{99} = 2^{99} r\left(\frac{99\pi}{6}\right) = 2^{99} r\left(\frac{33\pi}{2}\right)\), which simplifies to:
+
+\[
+m^{99} = 2^{99} \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}
+\]
+
+given \(\mathbf{v}_{100} = m^{99} \mathbf{v}_1 = \begin{pmatrix} 2 \\ 4 \end{pmatrix}\), we have:
+
+\[
+2^{99} \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix} \begin{pmatrix} a_1 \\ b_1 \end{pmatrix} = \begin{pmatrix} 2 \\ 4 \end{pmatrix}
+\]
+
+this leads to the equations:
+
+\[
+2^{99} (-b_1) = 2 \quad \text{and} \quad 2^{99} a_1 = 4
+\]
+
+solving these, we get:
+
+\[
+a_1 = 2^{-97} \quad \text{and} \quad b_1 = -2^{-98}
+\]
+
+thus, \(a_1 + b_1\) is:
+
+\[
+a_1 + b_1 = 2^{-97} - 2^{-98} = 2^{-98}(2 - 1) = 2^{-98}
+\]
+
+therefore, the final answer is:
+
+\[
+\boxed{2^{-98}}
+\]

@@ -1,1 +1,145 @@
-Reasoning: 
+Reasoning: Okay, so I have this problem here: "What is the maximum number of consecutive positive integers that can be added together before the sum exceeds 400?" Alright, I need to find out how many consecutive positive integers I can add up without the total going over 400. Let's see, consecutive positive integers would be like 1, 2, 3, 4, and so on, right? So, if I add 1 + 2 + 3 + ... up to some number n, I want that sum to be just under or equal to 400.
+
+I remember there's a formula for the sum of the first n positive integers. Isn't it n(n + 1)/2? Yeah, that sounds familiar. So, the sum S of the first n consecutive positive integers is S = n(n + 1)/2. I need to find the largest n such that S <= 400.
+
+So, I can set up the inequality: n(n + 1)/2 <= 400. To solve for n, I can multiply both sides by 2 to get rid of the denominator: n(n + 1) <= 800.
+
+Now, I need to solve for n in this quadratic inequality. Let's expand it: n^2 + n <= 800. So, n^2 + n - 800 <= 0.
+
+To find the values of n that satisfy this inequality, I can solve the quadratic equation n^2 + n - 800 = 0. Using the quadratic formula, n = [-b ± sqrt(b^2 - 4ac)] / (2a), where a = 1, b = 1, and c = -800.
+
+Plugging in the values: n = [-1 ± sqrt(1 + 3200)] / 2 = [-1 ± sqrt(3201)] / 2.
+
+Now, sqrt(3201) is approximately 56.6, so n = (-1 + 56.6)/2 ≈ 55.6/2 ≈ 27.8, and n = (-1 - 56.6)/2, which is negative and doesn't make sense in this context.
+
+So, n is approximately 27.8. But n has to be an integer because we're dealing with whole numbers of integers. So, n could be 27 or 28. I need to check which one gives a sum less than or equal to 400.
+
+Let's calculate the sum for n = 27: S = 27(27 + 1)/2 = 27*28/2 = 27*14 = 378. That's less than 400.
+
+Now, for n = 28: S = 28(28 + 1)/2 = 28*29/2 = 28*14.5 = 406. That's over 400.
+
+So, n = 27 gives a sum of 378, which is under 400, and n = 28 gives 406, which is over. Therefore, the maximum number of consecutive positive integers I can add before exceeding 400 is 27.
+
+Wait a minute, but the problem says "positive integers," and I assumed starting from 1. Is there a way to have a longer sequence if I start from a different positive integer?
+
+Oh, maybe I can start from a number higher than 1. For example, starting from 2 instead of 1. Let's try that.
+
+If I start from 2, then the sequence is 2, 3, 4, ..., up to some number m. The sum of this sequence can be calculated by subtracting the sum of the first (m - 2) integers from the sum of the first m integers.
+
+So, S = sum from 1 to m minus sum from 1 to (m - 2) = m(m + 1)/2 - (m - 2)(m - 1)/2.
+
+Simplifying that: [m(m + 1) - (m - 2)(m - 1)] / 2 = [m^2 + m - (m^2 - 3m + 2)] / 2 = [m^2 + m - m^2 + 3m - 2] / 2 = [4m - 2]/2 = 2m - 1.
+
+Wait, that seems off. Let me double-check the formula for the sum of an arithmetic series. The sum of an arithmetic series is (number of terms)/2 times the sum of the first and last terms.
+
+If I have n terms starting from k, then the last term is k + n - 1. So, the sum S = n(k + k + n - 1)/2 = n(2k + n - 1)/2.
+
+I want this sum to be less than or equal to 400: n(2k + n - 1)/2 <= 400.
+
+I need to maximize n, the number of terms, given that k is a positive integer (k >= 1).
+
+This seems more complicated than starting from 1. Maybe starting from 1 gives me the maximum n.
+
+But I should check if starting from a higher k allows for a larger n.
+
+Let's assume n is larger than 27. For example, suppose n = 28. Then, S = 28(2k + 27)/2 = 14(2k + 27).
+
+I want 14(2k + 27) <= 400.
+
+Divide both sides by 14: 2k + 27 <= 400/14 ≈ 28.57.
+
+So, 2k <= 28.57 - 27 = 1.57, which means k <= 0.785.
+
+But k has to be at least 1, so k cannot be less than 1. Therefore, with n = 28, the smallest possible k is 1, but that gives S = 28(2*1 + 27)/2 = 28*29/2 = 406, which is over 400.
+
+So, n = 28 is not possible even if I start from k = 1.
+
+What about n = 27? We already saw that starting from k = 1 gives S = 378, which is under 400.
+
+If I start from a higher k, the sum increases, so it would be worse. For example, starting from k = 2: S = 27(4 + 26)/2 = 27*30/2 = 27*15 = 405, which is over 400.
+
+Wait, but earlier I calculated for k = 1, S = 378, and for k = 2, S = 405, which is over 400.
+
+So, n = 27 is possible only if k = 1.
+
+If I try n = 26, starting from k = 2: S = 26(4 + 25)/2 = 26*29/2 = 26*14.5 = 377, which is under 400.
+
+Similarly, n = 26 starting from k = 3: S = 26(6 + 25)/2 = 26*31/2 = 26*15.5 = 403, which is over 400.
+
+So, for n = 26, k can be 1 or 2, but starting from k = 2 gives S = 403, which is over 400.
+
+Therefore, n = 26 starting from k = 1 gives S = 26(2 + 25)/2 = 26*27/2 = 26*13.5 = 351, which is under 400.
+
+Similarly, n = 27 starting from k = 1 gives S = 378, which is still under 400.
+
+Is there a way to have more than 27 terms without exceeding 400?
+
+Wait, perhaps starting from a higher k with a larger n, but that seems unlikely because increasing n increases the sum more rapidly.
+
+Let me try n = 25 starting from k = 3: S = 25(6 + 24)/2 = 25*30/2 = 25*15 = 375, which is under 400.
+
+n = 25 starting from k = 4: S = 25(8 + 24)/2 = 25*32/2 = 25*16 = 400, which is exactly 400.
+
+So, n = 25 starting from k = 4 gives S = 400.
+
+But earlier, n = 27 starting from k = 1 gives S = 378, which is under 400.
+
+So, n = 25 starting from k = 4 gives exactly 400, which is acceptable.
+
+But n = 28 starting from k = 1 gives S = 406, which is over.
+
+n = 26 starting from k = 1 gives S = 351.
+
+n = 26 starting from k = 2 gives S = 403, which is over.
+
+n = 25 starting from k = 4 gives S = 400.
+
+n = 25 starting from k = 3 gives S = 25(6 + 24)/2 = 375, which is under.
+
+n = 25 starting from k = 5 gives S = 25(10 + 24)/2 = 25*34/2 = 25*17 = 425, which is over.
+
+So, for n = 25, k can be from 1 to 4.
+
+Wait, but starting from k = 1: S = 25(2 + 24)/2 = 25*26/2 = 25*13 = 325, which is under 400.
+
+k = 2: S = 25(4 + 24)/2 = 25*28/2 = 25*14 = 350, still under.
+
+k = 3: S = 25*30/2 = 375, under.
+
+k = 4: S = 400, exactly.
+
+k = 5: S = 425, over.
+
+So, for n = 25, k can be up to 4.
+
+But n = 27 starting from k = 1 gives S = 378, which is under.
+
+n = 27 starting from k = 2: S = 27(4 + 26)/2 = 27*30/2 = 27*15 = 405, which is over.
+
+So, for n = 27, only k = 1 is acceptable.
+
+Similarly, for n = 26, k = 1 gives S = 351, which is under.
+
+k = 2 gives S = 403, which is over.
+
+So, in all these cases, the maximum n seems to be 27, starting from k = 1, giving S = 378, which is under 400.
+
+But wait, n = 25 starting from k = 4 gives S = 400, which is exactly 400.
+
+So, does that count as not exceeding 400? The problem says "before the sum exceeds 400," so I think 400 is acceptable.
+
+In that case, n = 25 with k = 4 gives S = 400.
+
+n = 26 with k = 1 gives S = 351.
+
+n = 27 with k = 1 gives S = 378.
+
+So, n = 27 gives a lower sum than n = 25 with k = 4.
+
+But n = 28 with k = 1 gives S = 406, which is over.
+
+So, n = 27 is possible, but n = 28 is not.
+
+Therefore, the maximum number of consecutive positive integers that can be added together before the sum exceeds 400 is 27.
+
+I think that's the answer.

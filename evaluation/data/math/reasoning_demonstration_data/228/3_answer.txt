@@ -1,1 +1,63 @@
-Answer: 
+Answer: First, we select one of the three clubs at random, each with a probability of \( \frac{1}{3} \). then, we calculate the probability of selecting exactly two co-presidents and one non-co-president for each club.
+
+**first club: 5 students, 2 co-presidents**
+
+\[
+\text{total ways to select 3 students: } \binom{5}{3} = 10
+\]
+\[
+\text{favorable ways: } \binom{2}{2} \times \binom{3}{1} = 1 \times 3 = 3
+\]
+\[
+\text{probability: } \frac{3}{10}
+\]
+
+**second club: 7 students, 2 co-presidents**
+
+\[
+\text{total ways to select 3 students: } \binom{7}{3} = 35
+\]
+\[
+\text{favorable ways: } \binom{2}{2} \times \binom{5}{1} = 1 \times 5 = 5
+\]
+\[
+\text{probability: } \frac{5}{35} = \frac{1}{7}
+\]
+
+**third club: 8 students, 2 co-presidents**
+
+\[
+\text{total ways to select 3 students: } \binom{8}{3} = 56
+\]
+\[
+\text{favorable ways: } \binom{2}{2} \times \binom{6}{1} = 1 \times 6 = 6
+\]
+\[
+\text{probability: } \frac{6}{56} = \frac{3}{28}
+\]
+
+now, we combine these probabilities, weighted by the probability of selecting each club:
+
+\[
+\text{total probability} = \frac{1}{3} \times \frac{3}{10} + \frac{1}{3} \times \frac{1}{7} + \frac{1}{3} \times \frac{3}{28}
+\]
+
+\[
+= \frac{1}{10} + \frac{1}{21} + \frac{1}{28}
+\]
+
+to add these fractions, we find the least common multiple (lcm) of 10, 21, and 28, which is 420:
+
+\[
+\frac{1}{10} = \frac{42}{420}, \quad \frac{1}{21} = \frac{20}{420}, \quad \frac{1}{28} = \frac{15}{420}
+\]
+
+\[
+\text{sum: } \frac{42 + 20 + 15}{420} = \frac{77}{420} = \frac{11}{60}
+\]
+
+therefore, the final answer is:
+
+\[
+\boxed{\frac{11}{60}}
+\]

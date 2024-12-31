@@ -1,1 +1,25 @@
-Answer: 
+Answer: To find the probability that the first card is a king and the second card is a heart, we consider two cases:
+
+1. **case 1: first card is the king of hearts.**
+   - probability of drawing the king of hearts first: \(\frac{1}{52}\)
+   - probability of drawing a heart second (12 hearts left out of 51 cards): \(\frac{12}{51}\)
+   - combined probability for this case: \(\frac{1}{52} \times \frac{12}{51} = \frac{12}{2652}\)
+
+2. **case 2: first card is a king that is not a heart.**
+   - probability of drawing one of the other three kings first: \(\frac{3}{52}\)
+   - probability of drawing a heart second (13 hearts left out of 51 cards): \(\frac{13}{51}\)
+   - combined probability for this case: \(\frac{3}{52} \times \frac{13}{51} = \frac{39}{2652}\)
+
+adding the probabilities of these two mutually exclusive cases gives the total probability:
+
+\[
+\text{total probability} = \frac{12}{2652} + \frac{39}{2652} = \frac{51}{2652}
+\]
+
+simplifying \(\frac{51}{2652}\):
+
+\[
+\frac{51}{2652} = \frac{51 \div 51}{2652 \div 51} = \frac{1}{52}
+\]
+
+therefore, the probability that the first card is a king and the second card is a heart is \(\boxed{\frac{1}{52}}\).

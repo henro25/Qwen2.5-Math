@@ -1,1 +1,17 @@
-Reasoning: 
+Reasoning: Okay, so I have this problem here. I need to find f(g(x)) minus g(f(x)), given that f(x) is 6x minus 9 and g(x) is x over 3 plus 2. Alright, let's see.
+
+First, I need to find f(g(x)). That means I take the function g(x) and plug it into f(x). So wherever there's an x in f(x), I replace it with g(x). So f(g(x)) would be 6 times g(x) minus 9. And since g(x) is x/3 plus 2, that would be 6 times (x/3 plus 2) minus 9.
+
+Let me calculate that. 6 times x/3 is 2x, and 6 times 2 is 12. So that's 2x plus 12, minus 9. Combining like terms, 2x plus 12 minus 9 is 2x plus 3. So f(g(x)) is 2x plus 3.
+
+Next, I need to find g(f(x)). That means plugging f(x) into g(x). So wherever there's an x in g(x), I replace it with f(x). So g(f(x)) is f(x)/3 plus 2. And f(x) is 6x minus 9, so that's (6x minus 9)/3 plus 2.
+
+Let me simplify that. 6x divided by 3 is 2x, and minus 9 divided by 3 is minus 3. So that's 2x minus 3, plus 2. Combining like terms, 2x minus 3 plus 2 is 2x minus 1. So g(f(x)) is 2x minus 1.
+
+Now, I need to find f(g(x)) minus g(f(x)). So that's (2x plus 3) minus (2x minus 1). Let's do that subtraction. 2x minus 2x is 0, and 3 minus (-1) is 3 plus 1, which is 4. So the final answer should be 4.
+
+Wait, did I do that right? Let me double-check. For f(g(x)), I had 6*(x/3 + 2) - 9, which is 2x + 12 - 9, so 2x + 3. That seems correct.
+
+For g(f(x)), I had (6x - 9)/3 + 2, which is 2x - 3 + 2, so 2x - 1. That also seems right.
+
+Then subtracting them: (2x + 3) - (2x - 1) equals 2x + 3 - 2x + 1, which is 4. Yeah, that checks out. So the answer is 4.

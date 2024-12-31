@@ -1,1 +1,47 @@
-Answer: 
+Answer: To solve the problem, we need to find the row in pascal's triangle where three consecutive entries are in the ratio \(3:4:5\). the entries in the \(n\)th row of pascal's triangle are given by the binomial coefficients \(c(n, k)\), \(c(n, k+1)\), and \(c(n, k+2)\).
+
+we start by setting up the ratios:
+
+\[
+\frac{c(n, k+1)}{c(n, k)} = \frac{4}{3} \quad \text{and} \quad \frac{c(n, k+2)}{c(n, k+1)} = \frac{5}{4}
+\]
+
+using the properties of binomial coefficients, we have:
+
+\[
+\frac{c(n, k+1)}{c(n, k)} = \frac{n - k}{k + 1} = \frac{4}{3}
+\]
+
+\[
+\frac{c(n, k+2)}{c(n, k+1)} = \frac{n - k - 1}{k + 2} = \frac{5}{4}
+\]
+
+from the first equation:
+
+\[
+3(n - k) = 4(k + 1) \implies 3n - 3k = 4k + 4 \implies 3n = 7k + 4 \implies n = \frac{7k + 4}{3}
+\]
+
+from the second equation:
+
+\[
+4(n - k - 1) = 5(k + 2) \implies 4n - 4k - 4 = 5k + 10 \implies 4n = 9k + 14
+\]
+
+substituting \(n = \frac{7k + 4}{3}\) into the second equation:
+
+\[
+4 \left(\frac{7k + 4}{3}\right) = 9k + 14 \implies \frac{28k + 16}{3} = 9k + 14 \implies 28k + 16 = 27k + 42 \implies k = 26
+\]
+
+substituting \(k = 26\) back into the expression for \(n\):
+
+\[
+n = \frac{7 \cdot 26 + 4}{3} = \frac{182 + 4}{3} = \frac{186}{3} = 62
+\]
+
+thus, the row in pascal's triangle where three consecutive entries are in the ratio \(3:4:5\) is the 62nd row.
+
+\[
+\boxed{62}
+\]

@@ -1,1 +1,38 @@
-Answer: 
+Answer: Given the equations:
+
+1. \( xyz = 1 \)
+2. \( x + \frac{1}{z} = 5 \)
+3. \( y + \frac{1}{x} = 29 \)
+
+we need to find \( z + \frac{1}{y} \).
+
+first, solve for \( z \) from the first equation:
+\[ z = \frac{1}{xy} \]
+
+substitute \( z \) into the second equation:
+\[ x + \frac{1}{\frac{1}{xy}} = 5 \]
+\[ x + xy = 5 \]
+\[ x(1 + y) = 5 \]
+\[ x = \frac{5}{1 + y} \]
+
+substitute \( x \) into the third equation:
+\[ y + \frac{1}{\frac{5}{1 + y}} = 29 \]
+\[ y + \frac{1 + y}{5} = 29 \]
+\[ 5y + 1 + y = 145 \]
+\[ 6y + 1 = 145 \]
+\[ 6y = 144 \]
+\[ y = 24 \]
+
+now, find \( x \):
+\[ x = \frac{5}{1 + 24} = \frac{5}{25} = \frac{1}{5} \]
+
+next, find \( z \):
+\[ z = \frac{1}{xy} = \frac{1}{\left( \frac{1}{5} \right) \times 24} = \frac{1}{\frac{24}{5}} = \frac{5}{24} \]
+
+finally, find \( z + \frac{1}{y} \):
+\[ z + \frac{1}{y} = \frac{5}{24} + \frac{1}{24} = \frac{6}{24} = \frac{1}{4} \]
+
+thus, the answer is:
+\[
+\boxed{\frac{1}{4}}
+\]

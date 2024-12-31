@@ -1,1 +1,27 @@
-Reasoning: 
+Reasoning: So i've got this problem here. it says that the numbers x and y are inversely proportional. hmm, i remember that if two variables are inversely proportional, their product is a constant. so, that means x times y equals some constant, let's call it k. so, x * y = k.
+
+now, the problem also says that when the sum of x and y is 42, x is twice y. okay, so if x is twice y, that means x = 2y.
+
+and their sum is 42, so x + y = 42. since x is 2y, i can substitute that into the sum equation. so, 2y + y = 42, which simplifies to 3y = 42. to find y, i divide both sides by 3, so y = 14.
+
+now that i have y, i can find x because x = 2y, which is 2 * 14 = 28. so, when the sum is 42, x is 28 and y is 14.
+
+but wait, the problem also mentions that x and y are inversely proportional, meaning x * y = k. so, let's find k using these values. k = x * y = 28 * 14.
+
+let me calculate that: 28 times 14. 28 times 10 is 280, and 28 times 4 is 112, so adding those up, 280 + 112 = 392. so, k = 392.
+
+now, the question is asking for the value of y when x = -8. since x and y are inversely proportional, x * y = k, which is 392. so, -8 * y = 392.
+
+to find y, i need to solve for y: y = 392 / (-8).
+
+let me calculate that: 392 divided by -8. 8 goes into 392, well, 8 times 49 is 392, so it's -49.
+
+so, y = -49 when x = -8.
+
+wait, let me double-check everything to make sure i didn't make any mistakes.
+
+first, i assumed that x and y are inversely proportional, so x * y = k. then, given that when x + y = 42 and x = 2y, i substituted x = 2y into x + y = 42 to get 3y = 42, so y = 14, and then x = 28. then, k = x * y = 28 * 14 = 392.
+
+then, when x = -8, y = k / x = 392 / (-8) = -49.
+
+seems correct. i don't think i missed anything here.

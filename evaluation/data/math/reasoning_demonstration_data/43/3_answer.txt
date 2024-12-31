@@ -1,1 +1,41 @@
-Answer: 
+Answer: To find the value of \( j \) such that the line through the points \((2, -9)\) and \((j, 17)\) is parallel to the line \(2x + 3y = 21\), we need to ensure that the slopes of both lines are equal.
+
+first, we find the slope of the line \(2x + 3y = 21\) by converting it to slope-intercept form \(y = mx + b\):
+
+\[
+2x + 3y = 21 \implies 3y = -2x + 21 \implies y = -\frac{2}{3}x + 7
+\]
+
+thus, the slope \( m \) of this line is \(-\frac{2}{3}\).
+
+next, we find the slope of the line passing through the points \((2, -9)\) and \((j, 17)\) using the slope formula:
+
+\[
+m = \frac{17 - (-9)}{j - 2} = \frac{26}{j - 2}
+\]
+
+since the lines are parallel, their slopes must be equal:
+
+\[
+\frac{26}{j - 2} = -\frac{2}{3}
+\]
+
+we solve for \( j \) by cross-multiplying:
+
+\[
+26 \cdot 3 = -2 \cdot (j - 2) \implies 78 = -2j + 4
+\]
+
+subtract 4 from both sides:
+
+\[
+74 = -2j
+\]
+
+divide by -2:
+
+\[
+j = -37
+\]
+
+thus, the value of \( j \) is \(\boxed{-37}\).

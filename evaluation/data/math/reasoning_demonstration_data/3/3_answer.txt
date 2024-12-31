@@ -1,1 +1,33 @@
-Answer: 
+Answer: To find the angle between the vectors \(\begin{pmatrix} 2 \\ 5 \end{pmatrix}\) and \(\begin{pmatrix} -3 \\ 7 \end{pmatrix}\), we use the formula:
+
+\[
+\cos(\theta) = \frac{\mathbf{a} \cdot \mathbf{b}}{\|\mathbf{a}\| \cdot \|\mathbf{b}\|}
+\]
+
+first, we calculate the dot product \(\mathbf{a} \cdot \mathbf{b}\):
+
+\[
+\mathbf{a} \cdot \mathbf{b} = (2)(-3) + (5)(7) = -6 + 35 = 29
+\]
+
+next, we find the magnitudes of the vectors:
+
+\[
+\|\mathbf{a}\| = \sqrt{2^2 + 5^2} = \sqrt{4 + 25} = \sqrt{29}
+\]
+
+\[
+\|\mathbf{b}\| = \sqrt{(-3)^2 + 7^2} = \sqrt{9 + 49} = \sqrt{58}
+\]
+
+substituting these into the formula for \(\cos(\theta)\):
+
+\[
+\cos(\theta) = \frac{29}{\sqrt{29} \cdot \sqrt{58}} = \frac{29}{\sqrt{29 \cdot 58}} = \frac{29}{29\sqrt{2}} = \frac{1}{\sqrt{2}}
+\]
+
+since \(\cos(45^\circ) = \frac{1}{\sqrt{2}}\), the angle \(\theta\) is:
+
+\[
+\boxed{45^\circ}
+\]

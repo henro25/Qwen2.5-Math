@@ -1,1 +1,51 @@
-Reasoning: 
+Reasoning: Alright, so I need to figure out how many perfect cubes are between 100 and 900. Okay, first things first, I should probably understand what a perfect cube is. A perfect cube is a number that can be expressed as some integer raised to the power of three. Like, 8 is a perfect cube because it's 2 cubed, and 27 is 3 cubed, and so on.
+
+So, I need to find all the numbers that are perfect cubes and fall between 100 and 900. That means I need to find all integers n such that n³ is greater than or equal to 100 and less than or equal to 900.
+
+Let me think about how to approach this. Maybe I can start by finding the smallest integer whose cube is at least 100, and the largest integer whose cube is at most 900. Then, the number of perfect cubes between 100 and 900 would be the difference between these two integers, plus one, since both endpoints might be included.
+
+First, let's find the smallest integer n such that n³ is at least 100. I can try plugging in some numbers. Let's see:
+
+- 4³ = 64, which is less than 100.
+
+- 5³ = 125, which is greater than 100.
+
+So, 5 is the smallest integer whose cube is at least 100.
+
+Next, find the largest integer n such that n³ is at most 900.
+
+- 9³ = 729, which is less than 900.
+
+- 10³ = 1000, which is greater than 900.
+
+So, 9 is the largest integer whose cube is at most 900.
+
+Now, the integers n that satisfy 5 ≤ n ≤ 9 are 5, 6, 7, 8, and 9. That's five numbers.
+
+Wait a minute, but I need to make sure that their cubes actually fall within the range 100 to 900.
+
+Let's check:
+
+- 5³ = 125, which is greater than 100 and less than 900.
+
+- 6³ = 216, also within the range.
+
+- 7³ = 343, still within range.
+
+- 8³ = 512, also within range.
+
+- 9³ = 729, which is less than 900.
+
+Looks like all of these are valid.
+
+So, there are 5 perfect cubes between 100 and 900.
+
+But, just to be thorough, I should consider if 100 and 900 are included in the range. The problem says "between 100 and 900," which might be interpreted in different ways. If it's inclusive, I need to check if 100 and 900 are perfect cubes.
+
+Is 100 a perfect cube? Let's see, the cube root of 100 is approximately 4.64, which is not an integer, so 100 is not a perfect cube.
+
+Is 900 a perfect cube? Cube root of 900 is about 9.65, also not an integer, so 900 is not a perfect cube.
+
+Therefore, even if the range were inclusive, it wouldn't change the count.
+
+So, the final answer should be 5 perfect cubes between 100 and 900.

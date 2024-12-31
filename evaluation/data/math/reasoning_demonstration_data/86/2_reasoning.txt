@@ -1,1 +1,21 @@
-Reasoning: 
+Reasoning: Alright, so I've got this problem here about supplementary angles. I remember that supplementary angles are two angles that add up to 180 degrees. So, angle A plus angle B equals 180 degrees. That's the first thing I need to keep in mind.
+
+The problem says that angle A is 8 times angle B. So, angle A = 8 * angle B. Okay, that's a direct relationship between the two angles.
+
+I need to find the measure of angle A. So, I have to find out what angle A is in degrees.
+
+Let me think about how to set this up. If angle A is 8 times angle B, then I can express angle A in terms of angle B. Let's say angle B is x degrees. Then angle A would be 8x degrees.
+
+Since they are supplementary, angle A plus angle B equals 180 degrees. So, 8x + x = 180 degrees.
+
+Combining like terms, that's 9x = 180 degrees.
+
+Now, to find x, I need to divide both sides by 9. So, x = 180 / 9, which is x = 20 degrees.
+
+Wait, that would be angle B. But the question is asking for angle A. So, angle A is 8 times angle B, which is 8 * 20 = 160 degrees.
+
+So, angle A is 160 degrees.
+
+Let me just double-check that. If angle A is 160 degrees and angle B is 20 degrees, then together they add up to 180 degrees, which makes sense because they are supplementary.
+
+I think that's it. The measure of angle A is 160 degrees.

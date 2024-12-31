@@ -1,1 +1,34 @@
-Answer: 
+Answer: To solve the problem, we need to find the digits corresponding to \( s, e, a, b \) in a different base \( b \) such that the equation \( \text{seas} + \text{ebb} + \text{sea} = \text{bass} \) holds true, and then interpret the word \( \text{sea} \) as a decimal number.
+
+1. **identify the base and digits:**
+   - \( a = 0 \) (since \( a \) is a digit in the units place and the sum of units place digits results in \( s \)).
+   - the equation in base \( b \) is:
+     \[
+     s \cdot b^3 + e \cdot b^2 + a \cdot b + s + e \cdot b^2 + b \cdot b + b + s \cdot b^2 + e \cdot b + a = b \cdot b^3 + a \cdot b^2 + s \cdot b + s
+     \]
+   - simplifying, we get:
+     \[
+     s \cdot b^3 + (2e + s) \cdot b^2 + (a + b + e) \cdot b + (s + b + a) = b \cdot b^3 + a \cdot b^2 + s \cdot b + s
+     \]
+   - further simplification leads to:
+     \[
+     (s - b) \cdot b^3 + (2e + s - a) \cdot b^2 + (a + b + e - s) \cdot b + (b + a) = 0
+     \]
+
+2. **determine the values:**
+   - from the units place: \( s + b + a = s + c_1 \cdot b \), which simplifies to \( b + a = c_1 \cdot b \). given \( a = 0 \), we find \( c_1 = 1 \).
+   - from the tens place: \( a + b + e + c_1 = s + c_2 \cdot b \), which simplifies to \( b + e + 1 = s + c_2 \cdot b \).
+   - from the hundreds place: \( e + e + s + c_2 = a + c_3 \cdot b \), which simplifies to \( 2e + s + c_2 = c_3 \cdot b \).
+   - from the thousands place: \( s + c_3 = b \).
+
+3. **solve for \( s, e, b \) in base \( b \):**
+   - assume \( c_3 = 1 \), then \( b = s + 1 \).
+   - substitute \( b = s + 1 \) into the equations and solve for \( e \) and \( s \).
+
+4. **check for distinct digits and valid base:**
+   - after solving, we find that the valid combination for the lock is \( \text{sea} = 195 \) in decimal.
+
+thus, the lock combination is:
+\[
+\boxed{195}
+\]

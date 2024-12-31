@@ -1,1 +1,47 @@
-Answer: 
+Answer: To find \( x \) in the equation \( \log_x 32 = \frac{5}{2} \), we start by converting the logarithmic form to its exponential form:
+
+\[
+x^{\frac{5}{2}} = 32
+\]
+
+next, we solve for \( x \) by raising both sides to the power of \( \frac{2}{5} \):
+
+\[
+\left( x^{\frac{5}{2}} \right)^{\frac{2}{5}} = 32^{\frac{2}{5}}
+\]
+
+simplifying the left side:
+
+\[
+x = 32^{\frac{2}{5}}
+\]
+
+since \( 32 = 2^5 \), we can rewrite the expression as:
+
+\[
+x = \left(2^5\right)^{\frac{2}{5}} = 2^{5 \times \frac{2}{5}} = 2^2 = 4
+\]
+
+to verify, we check by plugging \( x = 4 \) back into the original logarithmic equation:
+
+\[
+\log_4 32 = \frac{5}{2}
+\]
+
+this means:
+
+\[
+4^{\frac{5}{2}} = 32
+\]
+
+calculating \( 4^{\frac{5}{2}} \):
+
+\[
+4^{\frac{1}{2}} = 2 \quad \text{and} \quad 2^5 = 32
+\]
+
+thus, \( 4^{\frac{5}{2}} = 32 \), confirming the solution. therefore, the value of \( x \) is:
+
+\[
+\boxed{4}
+\]

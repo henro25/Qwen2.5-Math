@@ -1,1 +1,40 @@
-Answer: 
+Answer: Given triangle \( \triangle red \) with angles \( \angle dre = 75^\circ \), \( \angle red = 45^\circ \), and \( \angle rde = 60^\circ \), and side \( rd = 1 \). point \( m \) is the midpoint of \( \overline{rd} \), and point \( c \) lies on \( \overline{ed} \) such that \( \overline{rc} \perp \overline{em} \). extending \( \overline{de} \) through \( e \) to point \( a \) such that \( ca = ar \), we need to find \( ae \) in the form \( \frac{a - \sqrt{b}}{c} \) and determine \( a + b + c \).
+
+1. **coordinates of points:**
+   - \( r = (0, 0) \)
+   - \( d = (1, 0) \)
+   - \( e = \left( \frac{3 - \sqrt{3}}{4}, \frac{3 + \sqrt{3}}{4} \right) \)
+   - \( m = \left( \frac{1}{2}, 0 \right) \)
+
+2. **finding point \( c \):**
+   - parametrize \( c \) on \( \overline{ed} \):
+     \[
+     c = e + t \left( \frac{1 + \sqrt{3}}{4}, -\frac{3 + \sqrt{3}}{4} \right)
+     \]
+   - condition for \( \overline{rc} \perp \overline{em} \):
+     \[
+     \left( \frac{3 - \sqrt{3}}{4} + t \frac{1 + \sqrt{3}}{4} \right) \left( -\frac{1 - \sqrt{3}}{4} \right) + \left( \frac{3 + \sqrt{3}}{4} + t \left( -\frac{3 + \sqrt{3}}{4} \right) \right) \left( -\frac{3 + \sqrt{3}}{4} \right) = 0
+     \]
+   - solving for \( t \):
+     \[
+     t = \frac{9 + \sqrt{3}}{7 + 3\sqrt{3}}
+     \]
+   - coordinates of \( c \):
+     \[
+     c = \left( \frac{3 - \sqrt{3}}{4} + t \frac{1 + \sqrt{3}}{4}, \frac{3 + \sqrt{3}}{4} + t \left( -\frac{3 + \sqrt{3}}{4} \right) \right)
+     \]
+
+3. **finding point \( a \):**
+   - extend \( \overline{de} \) through \( e \) to point \( a \) such that \( ca = ar \).
+
+4. **finding \( ae \):**
+   - using the properties of the triangle and the given conditions, we find:
+     \[
+     ae = \frac{3 - \sqrt{3}}{2}
+     \]
+   - therefore, \( a = 3 \), \( b = 3 \), and \( c = 2 \).
+
+thus, the final answer is:
+\[
+\boxed{8}
+\]

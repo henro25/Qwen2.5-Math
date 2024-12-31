@@ -1,1 +1,40 @@
-Answer: 
+Answer: Given a semicircle with diameter \( cd \) and center \( o \), point \( a \) lies on the extension of \( dc \) past \( c \), point \( e \) lies on the semicircle, and \( b \) is the intersection of line segment \( ae \) with the semicircle again. we know \( ab = od \) and \( \angle eod = 45^\circ \). we need to find \( \angle bao \).
+
+1. **understanding the given information:**
+   - \( cd \) is the diameter of the semicircle.
+   - \( o \) is the center of the semicircle.
+   - \( ab = od = 1 \) (since \( od \) is the radius).
+   - \( \angle eod = 45^\circ \).
+
+2. **using the properties of the circle:**
+   - since \( \angle eod = 45^\circ \), the arc \( ed \) is also \( 45^\circ \).
+   - point \( b \) is on the semicircle, and \( ab = 1 \).
+
+3. **finding the coordinates:**
+   - \( o \) is at the origin \((0,0)\).
+   - \( d \) is at \((1,0)\).
+   - \( c \) is at \((-1,0)\).
+   - \( e \) is at \((\cos 45^\circ, \sin 45^\circ) = \left(\frac{\sqrt{2}}{2}, \frac{\sqrt{2}}{2}\right)\).
+   - \( b \) is at \((\cos 165^\circ, \sin 165^\circ)\).
+
+4. **using the law of sines in triangle \( bao \):**
+   - \( ab = 1 \), \( bo = 1 \), and \( ao = 2 \cos 15^\circ \).
+   - in triangle \( bao \), using the law of sines:
+     \[
+     \frac{1}{\sin(\angle bao)} = \frac{2 \cos 15^\circ}{\sin(180^\circ - 2 \angle bao)}
+     \]
+   - since \(\sin(180^\circ - 2 \angle bao) = \sin(2 \angle bao)\), we get:
+     \[
+     \frac{1}{\sin(\angle bao)} = \frac{2 \cos 15^\circ}{\sin(2 \angle bao)}
+     \]
+   - using \(\sin(2 \angle bao) = 2 \sin(\angle bao) \cos(\angle bao)\):
+     \[
+     \frac{1}{\sin(\angle bao)} = \frac{2 \cos 15^\circ}{2 \sin(\angle bao) \cos(\angle bao)}
+     \]
+   - simplifying, we get:
+     \[
+     \cos(\angle bao) = \cos(15^\circ)
+     \]
+   - therefore, \(\angle bao = 15^\circ\).
+
+thus, the measure of \(\angle bao\) is \(\boxed{15}\) degrees.

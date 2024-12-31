@@ -1,1 +1,39 @@
-Answer: 
+Answer: First, we solve the quadratic equation \( x^2 = x + 1 \) by rewriting it in standard form:
+
+\[ x^2 - x - 1 = 0 \]
+
+using the quadratic formula \( x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \) with \( a = 1 \), \( b = -1 \), and \( c = -1 \):
+
+\[ x = \frac{1 \pm \sqrt{1 + 4}}{2} = \frac{1 \pm \sqrt{5}}{2} \]
+
+thus, the solutions are:
+
+\[ \phi = \frac{1 + \sqrt{5}}{2} \]
+\[ \varphi = \frac{1 - \sqrt{5}}{2} \]
+
+next, we find \( (\phi - \varphi)^2 \):
+
+\[ \phi - \varphi = \left( \frac{1 + \sqrt{5}}{2} \right) - \left( \frac{1 - \sqrt{5}}{2} \right) = \frac{2\sqrt{5}}{2} = \sqrt{5} \]
+
+therefore:
+
+\[ (\phi - \varphi)^2 = (\sqrt{5})^2 = 5 \]
+
+alternatively, using vieta's formulas for the sum and product of the roots:
+
+\[ \phi + \varphi = 1 \]
+\[ \phi \varphi = -1 \]
+
+we use the identity:
+
+\[ (\phi - \varphi)^2 = (\phi + \varphi)^2 - 4\phi\varphi \]
+
+substituting the values:
+
+\[ (\phi - \varphi)^2 = 1^2 - 4(-1) = 1 + 4 = 5 \]
+
+thus, the value of \( (\phi - \varphi)^2 \) is:
+
+\[
+\boxed{5}
+\]

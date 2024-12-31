@@ -1,1 +1,742 @@
 Reasoning: 
+So i've got this problem here: for which positive integer values of 
+k
+k does the quadratic equation 
+k
+x
+2
++
+20
+x
++
+k
+=
+0
+kx 
+2
+ +20x+k=0 have rational solutions? i need to find all such 
+k
+k and list them in increasing order, separated by commas. okay, let's dive in.
+
+first off, i remember that for a quadratic equation of the form 
+a
+x
+2
++
+b
+x
++
+c
+=
+0
+ax 
+2
+ +bx+c=0, the solutions are given by the quadratic formula:
+
+x
+=
+−
+b
+±
+b
+2
+−
+4
+a
+c
+2
+a
+x= 
+2a
+−b± 
+b 
+2
+ −4ac
+​
+ 
+​
+ 
+for the solutions to be rational, the discriminant 
+d
+=
+b
+2
+−
+4
+a
+c
+d=b 
+2
+ −4ac needs to be a perfect square. because if the discriminant is a perfect square, then its square root is rational, and since all the other parts of the formula are rational (assuming 
+a
+a, 
+b
+b, and 
+c
+c are integers), the entire expression for 
+x
+x will be rational.
+
+so, in this case, 
+a
+=
+k
+a=k, 
+b
+=
+20
+b=20, and 
+c
+=
+k
+c=k. plugging these into the discriminant formula:
+
+d
+=
+(
+20
+)
+2
+−
+4
+⋅
+k
+⋅
+k
+=
+400
+−
+4
+k
+2
+d=(20) 
+2
+ −4⋅k⋅k=400−4k 
+2
+ 
+we need 
+d
+d to be a perfect square. let's denote 
+d
+=
+m
+2
+d=m 
+2
+ , where 
+m
+m is an integer. so:
+
+400
+−
+4
+k
+2
+=
+m
+2
+400−4k 
+2
+ =m 
+2
+ 
+let me rearrange this equation to make it easier to work with:
+
+4
+k
+2
++
+m
+2
+=
+400
+4k 
+2
+ +m 
+2
+ =400
+hmm, this looks like an equation involving squares. maybe i can think of this as finding integer solutions 
+(
+k
+,
+m
+)
+(k,m) to this equation, with 
+k
+k being a positive integer.
+
+wait a minute, since 
+k
+k is positive and 
+m
+2
+m 
+2
+  is non-negative, both 
+4
+k
+2
+4k 
+2
+  and 
+m
+2
+m 
+2
+  are non-negative, and their sum is 400. so, i need to find all positive integer values of 
+k
+k such that 
+4
+k
+2
+4k 
+2
+  is less than or equal to 400, and 
+400
+−
+4
+k
+2
+400−4k 
+2
+  is a perfect square.
+
+let me think about possible values of 
+k
+k. since 
+k
+k is a positive integer, let's see what values 
+k
+k can take.
+
+first, find the maximum possible 
+k
+k:
+
+4
+k
+2
+≤
+400
+  
+⟹
+  
+k
+2
+≤
+100
+  
+⟹
+  
+k
+≤
+10
+4k 
+2
+ ≤400⟹k 
+2
+ ≤100⟹k≤10
+so, 
+k
+k can be any integer from 1 to 10.
+
+now, for each 
+k
+k from 1 to 10, i can compute 
+d
+=
+400
+−
+4
+k
+2
+d=400−4k 
+2
+  and check if 
+d
+d is a perfect square.
+
+let me make a table:
+
+k
+d
+=
+400
+−
+4
+k
+2
+is 
+d
+ a perfect square?
+1
+400
+−
+4
+(
+1
+)
+2
+=
+400
+−
+4
+=
+396
+is 396 a perfect square?
+2
+400
+−
+4
+(
+2
+)
+2
+=
+400
+−
+16
+=
+384
+is 384 a perfect square?
+3
+400
+−
+4
+(
+3
+)
+2
+=
+400
+−
+36
+=
+364
+is 364 a perfect square?
+4
+400
+−
+4
+(
+4
+)
+2
+=
+400
+−
+64
+=
+336
+is 336 a perfect square?
+5
+400
+−
+4
+(
+5
+)
+2
+=
+400
+−
+100
+=
+300
+is 300 a perfect square?
+6
+400
+−
+4
+(
+6
+)
+2
+=
+400
+−
+144
+=
+256
+is 256 a perfect square?
+7
+400
+−
+4
+(
+7
+)
+2
+=
+400
+−
+196
+=
+204
+is 204 a perfect square?
+8
+400
+−
+4
+(
+8
+)
+2
+=
+400
+−
+256
+=
+144
+is 144 a perfect square?
+9
+400
+−
+4
+(
+9
+)
+2
+=
+400
+−
+324
+=
+76
+is 76 a perfect square?
+10
+400
+−
+4
+(
+10
+)
+2
+=
+400
+−
+400
+=
+0
+is 0 a perfect square?
+k
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+​
+  
+d=400−4k 
+2
+ 
+400−4(1) 
+2
+ =400−4=396
+400−4(2) 
+2
+ =400−16=384
+400−4(3) 
+2
+ =400−36=364
+400−4(4) 
+2
+ =400−64=336
+400−4(5) 
+2
+ =400−100=300
+400−4(6) 
+2
+ =400−144=256
+400−4(7) 
+2
+ =400−196=204
+400−4(8) 
+2
+ =400−256=144
+400−4(9) 
+2
+ =400−324=76
+400−4(10) 
+2
+ =400−400=0
+​
+  
+is d a perfect square?
+is 396 a perfect square?
+is 384 a perfect square?
+is 364 a perfect square?
+is 336 a perfect square?
+is 300 a perfect square?
+is 256 a perfect square?
+is 204 a perfect square?
+is 144 a perfect square?
+is 76 a perfect square?
+is 0 a perfect square?
+​
+ 
+​
+ 
+now, let's check each 
+d
+d:
+
+1. 
+d
+=
+396
+d=396: the square of 19 is 361, and 20 squared is 400. so, 396 is not a perfect square.
+
+2. 
+d
+=
+384
+d=384: 19 squared is 361, 20 squared is 400. not a perfect square.
+
+3. 
+d
+=
+364
+d=364: between 19^2 and 20^2 again. not a perfect square.
+
+4. 
+d
+=
+336
+d=336: 18^2 = 324, 19^2 = 361. not a perfect square.
+
+5. 
+d
+=
+300
+d=300: 17^2 = 289, 18^2 = 324. not a perfect square.
+
+6. 
+d
+=
+256
+d=256: 16^2 = 256. yes, perfect square.
+
+7. 
+d
+=
+204
+d=204: 14^2 = 196, 15^2 = 225. not a perfect square.
+
+8. 
+d
+=
+144
+d=144: 12^2 = 144. yes, perfect square.
+
+9. 
+d
+=
+76
+d=76: 8^2 = 64, 9^2 = 81. not a perfect square.
+
+10. 
+d
+=
+0
+d=0: 0 is a perfect square (0^2 = 0).
+
+so, from the table, 
+d
+d is a perfect square for 
+k
+=
+6
+,
+8
+,
+10
+k=6,8,10.
+
+therefore, the positive integer values of 
+k
+k that make the quadratic equation 
+k
+x
+2
++
+20
+x
++
+k
+=
+0
+kx 
+2
+ +20x+k=0 have rational solutions are 6, 8, and 10.
+
+wait a minute, i should double-check if 
+k
+=
+10
+k=10 is acceptable. plugging back into the original equation:
+
+10
+x
+2
++
+20
+x
++
+10
+=
+0
+10x 
+2
+ +20x+10=0
+
+we can simplify this by dividing all terms by 10:
+
+x
+2
++
+2
+x
++
+1
+=
+0
+x 
+2
+ +2x+1=0
+
+this factors as 
+(
+x
++
+1
+)
+2
+=
+0
+(x+1) 
+2
+ =0, so 
+x
+=
+−
+1
+x=−1, which is rational. so, it checks out.
+
+similarly, for 
+k
+=
+6
+k=6:
+
+6
+x
+2
++
+20
+x
++
+6
+=
+0
+6x 
+2
+ +20x+6=0
+
+the discriminant is 
+d
+=
+400
+−
+4
+(
+6
+)
+2
+=
+400
+−
+144
+=
+256
+=
+1
+6
+2
+d=400−4(6) 
+2
+ =400−144=256=16 
+2
+ , which is a perfect square, so rational solutions.
+
+for 
+k
+=
+8
+k=8:
+
+8
+x
+2
++
+20
+x
++
+8
+=
+0
+8x 
+2
+ +20x+8=0
+
+d
+=
+400
+−
+4
+(
+8
+)
+2
+=
+400
+−
+256
+=
+144
+=
+1
+2
+2
+d=400−4(8) 
+2
+ =400−256=144=12 
+2
+ , again a perfect square.
+
+alright, so these are the only values where 
+d
+d is a perfect square within the range of 
+k
+=
+1
+k=1 to 
+10
+10. therefore, the positive integer values of 
+k
+k are 6, 8, and 10.
+
+**final answer**
+
+6
+,
+8
+,
+10
+6,8,10
+​

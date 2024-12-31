@@ -1,1 +1,45 @@
-Reasoning: 
+Reasoning: Alright, so I've got this problem here: "How many integers between 0 and 8 inclusive have an inverse modulo 9?" Hmm, okay, let's see. I'm not super familiar with modular inverses, but I think it has something to do with finding a number that, when multiplied by another number, gives a result of 1 modulo 9. So, like, if I have a number a, its inverse modulo 9 would be some number b such that (a * b) mod 9 equals 1.
+
+First off, I need to understand what it means for a number to have an inverse modulo 9. I remember something about this being related to the greatest common divisor (GCD) of the number and the modulus. If the GCD of a and 9 is 1, then a has an inverse modulo 9. Yeah, that sounds right. So, for each number between 0 and 8, I need to check if its GCD with 9 is 1.
+
+Let me list the numbers from 0 to 8: 0, 1, 2, 3, 4, 5, 6, 7, 8.
+
+Starting with 0: What's the GCD of 0 and 9? I think GCD of 0 and any number is the number itself, so GCD(0,9) = 9. Since 9 is not 1, 0 doesn't have an inverse modulo 9.
+
+Next, 1: GCD(1,9) = 1. So, 1 has an inverse modulo 9.
+
+2: GCD(2,9). Well, 2 and 9 don't share any common factors besides 1, so GCD is 1. So, 2 has an inverse.
+
+3: GCD(3,9) = 3, because 3 divides both 3 and 9. So, GCD is 3, which is not 1. Therefore, 3 doesn't have an inverse modulo 9.
+
+4: GCD(4,9). 4 and 9 don't share any common factors besides 1, so GCD is 1. So, 4 has an inverse.
+
+5: GCD(5,9). Similarly, 5 and 9 are coprime, so GCD is 1. 5 has an inverse.
+
+6: GCD(6,9) = 3, since 3 divides both 6 and 9. So, no inverse for 6.
+
+7: GCD(7,9) = 1. So, 7 has an inverse.
+
+8: GCD(8,9) = 1. So, 8 has an inverse.
+
+So, from 0 to 8, the numbers that have inverses modulo 9 are 1, 2, 4, 5, 7, and 8. That's six numbers.
+
+Wait a minute, let me double-check that. I recall that the number of integers between 0 and n-1 that are coprime to n is given by Euler's totient function, φ(n). So, φ(9) should give me the count of numbers between 0 and 8 that have inverses modulo 9.
+
+What's φ(9)? Since 9 is 3 squared, φ(9) = 9 * (1 - 1/3) = 9 * (2/3) = 6. Yep, that matches the six numbers I listed earlier: 1, 2, 4, 5, 7, 8.
+
+But just to be thorough, maybe I should find the actual inverses for these numbers to confirm.
+
+Let's try finding the inverse of 2 modulo 9. I need a number b such that 2*b ≡ 1 mod 9. Trying b=5: 2*5=10, and 10 mod 9 is 1. So, 5 is the inverse of 2 modulo 9.
+
+Inverse of 1 modulo 9 is obviously 1, since 1*1=1 mod 9.
+
+Inverse of 4 modulo 9: find b such that 4*b ≡ 1 mod 9. Let's try b=7: 4*7=28, 28 mod 9 is 1. So, 7 is the inverse of 4.
+
+Inverse of 5 modulo 9: find b such that 5*b ≡ 1 mod 9. Let's try b=2: 5*2=10, 10 mod 9 is 1. So, 2 is the inverse of 5.
+
+Inverse of 7 modulo 9: find b such that 7*b ≡ 1 mod 9. Trying b=4: 7*4=28, 28 mod 9 is 1. So, 4 is the inverse of 7.
+
+Inverse of 8 modulo 9: find b such that 8*b ≡ 1 mod 9. Trying b=8: 8*8=64, 64 mod 9 is 1 (since 9*7=63, 64-63=1). So, 8 is its own inverse.
+
+Looks like all these inverses check out. So, indeed, there are six integers between 0 and 8 inclusive that have an inverse modulo 9.

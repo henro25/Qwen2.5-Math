@@ -1,1 +1,27 @@
-Answer: 
+Answer: To find all solutions to \( f^{-1}(x) = 0 \) for the function \( f(x) = \frac{1}{ax + b} \), where \( a \) and \( b \) are nonzero constants, we first need to determine the inverse function \( f^{-1}(x) \).
+
+starting with the equation:
+\[ y = \frac{1}{ax + b} \]
+
+we solve for \( x \) in terms of \( y \):
+\[ y(ax + b) = 1 \]
+\[ axy + by = 1 \]
+\[ axy = 1 - by \]
+\[ x = \frac{1 - by}{ay} \]
+
+thus, the inverse function is:
+\[ f^{-1}(y) = \frac{1 - by}{ay} \]
+
+we need to find \( x \) such that \( f^{-1}(x) = 0 \):
+\[ \frac{1 - bx}{ax} = 0 \]
+
+a fraction is zero when its numerator is zero:
+\[ 1 - bx = 0 \]
+\[ bx = 1 \]
+\[ x = \frac{1}{b} \]
+
+we verify that the denominator \( ax \) is not zero:
+\[ a \left( \frac{1}{b} \right) = \frac{a}{b} \neq 0 \]
+
+therefore, the solution to \( f^{-1}(x) = 0 \) is:
+\[ \boxed{\frac{1}{b}} \]

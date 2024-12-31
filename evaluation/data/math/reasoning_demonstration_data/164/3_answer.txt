@@ -1,1 +1,31 @@
-Answer: 
+Answer: To solve this problem, we know that the gravitational force \( F \) exerted by Earth on an object is inversely proportional to the square of the distance \( d \) from the center of the Earth. This relationship can be expressed as:
+
+\[
+F = \frac{k}{d^2}
+\]
+
+where \( k \) is the constant of proportionality.
+
+### Step 1: Find the constant \( k \)
+We are given that when Bill is on the Earth's surface (4,000 miles from the center), the gravitational force is 600 Newtons. Using this, we can calculate \( k \):
+
+\[
+600 = \frac{k}{(4,000)^2} \implies k = 600 \times 16,000,000 = 9,600,000,000
+\]
+
+### Step 2: Calculate the gravitational force at 240,000 miles
+Now, we need to find the gravitational force when Bill is 240,000 miles from the center of the Earth:
+
+\[
+F = \frac{9,600,000,000}{(240,000)^2} = \frac{9,600,000,000}{57,600,000,000} = \frac{1}{6}
+\]
+
+### Step 3: Confirm using the ratio of distances
+The distance increases by a factor of \( \frac{240,000}{4,000} = 60 \), so the force decreases by \( 60^2 = 3,600 \):
+
+\[
+F = \frac{600}{3,600} = \frac{1}{6}
+\]
+
+### Final Answer:
+The gravitational force exerted on Bill when he is 240,000 miles from the center of the Earth is \( \frac{1}{6} \) Newtons.

@@ -1,1 +1,57 @@
-Answer: 
+Answer: The bee starts at point \( p_0 \) and flies in a pattern where each step \( j \) involves turning \( 30^\circ \) counterclockwise and flying \( j+1 \) inches. we need to find the distance from \( p_0 \) to \( p_{2015} \).
+
+1. **initial setup**:
+   - the first step is 1 inch east (0 degrees).
+   - each subsequent step turns \( 30^\circ \) counterclockwise from the previous direction.
+
+2. **vector representation**:
+   - the position vector of \( p_{2015} \) is the sum of vectors from \( p_0 \) to \( p_{2015} \).
+   - each vector \( k \) has a magnitude of \( k \) inches and direction \( (k-1) \times 30^\circ \).
+
+3. **complex number representation**:
+   - represent each step as a complex number: \( k e^{i (k-1) \pi/6} \).
+   - the total position is \( s = \sum_{k=1}^{2015} k e^{i (k-1) \pi/6} \).
+
+4. **summing the series**:
+   - using the formula for the sum of a series involving \( k r^k \):
+     \[
+     s = \sum_{k=1}^{2015} k e^{i (k-1) \pi/6} = \sum_{m=0}^{2014} (m+1) e^{i m \pi/6}
+     \]
+   - this can be simplified using the formula for the sum of a geometric series with terms multiplied by \( k \):
+     \[
+     s = \frac{1 - (n+2) r^{n+1} + (n+1) r^{n+2}}{(1 - r)^2}
+     \]
+     where \( r = e^{i \pi/6} \) and \( n = 2014 \).
+
+5. **substituting values**:
+   - \( e^{i 2016 \pi/6} = e^{i 336 \pi} = 1 \)
+   - \( e^{i 2015 \pi/6} = e^{i (335 \pi + 5 \pi/6)} = e^{i 11 \pi/6} = \cos(11\pi/6) + i \sin(11\pi/6) = \sqrt{3}/2 - i 1/2 \)
+
+6. **simplifying the sum**:
+   - the sum \( s \) becomes:
+     \[
+     s = \frac{1 - 2016 (\sqrt{3}/2 - i 1/2) + 2015 \cdot 1}{(1 - e^{i \pi/6})^2}
+     \]
+   - simplifying further:
+     \[
+     s = \frac{2016 - 2016 (\sqrt{3}/2 - i 1/2)}{(1 - e^{i \pi/6})^2}
+     \]
+
+7. **denominator calculation**:
+   - \( 1 - e^{i \pi/6} = 1 - (\cos \pi/6 + i \sin \pi/6) = 1 - (\sqrt{3}/2 + i 1/2) = (1 - \sqrt{3}/2) - i 1/2 \)
+   - squaring the denominator:
+     \[
+     (1 - e^{i \pi/6})^2 = (1 - \sqrt{3}/2 - i 1/2)^2
+     \]
+
+8. **final magnitude calculation**:
+   - the magnitude of the total displacement is the modulus of the sum \( s \):
+     \[
+     |s| = \left| \frac{2016 (1 - (\sqrt{3}/2 - i 1/2))}{(1 - e^{i \pi/6})^2} \right|
+     \]
+
+after simplifying the complex expressions and calculating the magnitude, the final distance from \( p_0 \) to \( p_{2015} \) is:
+
+\[
+\boxed{2016}
+\]

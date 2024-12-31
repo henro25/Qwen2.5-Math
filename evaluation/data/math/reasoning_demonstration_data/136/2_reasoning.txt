@@ -1,1 +1,255 @@
 Reasoning: 
+Let's try to tackle this problem step by step. so, we have two equations involving constants a and b, and we need to find 100a + b given some conditions on the number of distinct roots of these equations.
+
+first, let's look at the first equation:
+
+(
+x
++
+a
+)
+(
+x
++
+b
+)
+(
+x
++
+12
+)
+(
+x
++
+3
+)
+2
+=
+0
+(x+3) 
+2
+ 
+(x+a)(x+b)(x+12)
+​
+ =0
+we're told this equation has exactly 3 distinct roots. for a fraction to be zero, the numerator must be zero, provided the denominator isn't zero at those points.
+
+so, the roots of the numerator are x = -a, x = -b, and x = -12. but we have to make sure that none of these roots make the denominator zero, meaning none of them should be equal to x = -3, because that would make the denominator zero, and the expression undefined.
+
+additionally, since it's a fraction, if any of the roots of the numerator coincide with the roots of the denominator, we need to consider the multiplicity. here, the denominator is (x+3)^2, so x = -3 is a double root in the denominator.
+
+but since the equation is set to zero, we're only concerned with the roots of the numerator that don't cancel out with the denominator. so, x = -3 cannot be a root of the numerator; otherwise, the factor (x+3) in the numerator would cancel with one (x+3) in the denominator, reducing the multiplicity, but since it's squared in the denominator, it might still leave a problem.
+
+wait, actually, if x = -3 is a root of the numerator, it would cancel one (x+3) from the denominator, leaving (x+3) in the denominator, so x = -3 would still be a point of discontinuity, but not a root of the equation, because the simplified expression would still have (x+3) in the denominator.
+
+therefore, for the equation to be zero, x = -a, x = -b, and x = -12 must be distinct and different from x = -3.
+
+but the problem states that there are exactly 3 distinct roots. so, we need to ensure that -a, -b, and -12 are distinct and none of them is equal to -3.
+
+wait, but if two of them are equal, but not equal to -3, then we might have fewer than 3 distinct roots. so, to have exactly 3 distinct roots, -a, -b, and -12 must all be distinct and different from -3.
+
+so, that gives us some conditions:
+
+1. -a ≠ -b ⇒ a ≠ b
+
+2. -a ≠ -12 ⇒ a ≠ 12
+
+3. -b ≠ -12 ⇒ b ≠ 12
+
+4. -a ≠ -3 ⇒ a ≠ 3
+
+5. -b ≠ -3 ⇒ b ≠ 3
+
+6. -12 ≠ -3 ⇒ which is always true since 12 ≠ 3.
+
+okay, so these are the conditions for the first equation to have exactly 3 distinct roots.
+
+now, let's look at the second equation:
+
+(
+x
++
+2
+a
+)
+(
+x
++
+3
+)
+(
+x
++
+6
+)
+(
+x
++
+b
+)
+(
+x
++
+12
+)
+=
+0
+(x+b)(x+12)
+(x+2a)(x+3)(x+6)
+​
+ =0
+this equation is supposed to have exactly 1 distinct root.
+
+again, for a fraction to be zero, the numerator must be zero, provided the denominator isn't zero at those points.
+
+so, the roots of the numerator are x = -2a, x = -3, and x = -6.
+
+but we have to make sure that these roots don't make the denominator zero, meaning x ≠ -b and x ≠ -12.
+
+additionally, we need to consider that the equation has exactly 1 distinct root, which means that among -2a, -3, and -6, only one value satisfies the equation, and the others either coincide with this value or are excluded due to the denominator being zero.
+
+so, let's think about possible scenarios:
+
+1. if -2a is equal to -3 or -6, and those are not excluded by the denominator, then we might have fewer distinct roots.
+
+2. if -3 or -6 are equal to -b or -12, they would be excluded from being roots.
+
+our goal is to have exactly one distinct root, so let's consider different cases.
+
+first, suppose that -2a is equal to -3. then, a = 1.5. then, the roots would be x = -3 and x = -6, but if a = 1.5, then x = -2a = -3, so the numerator has a double root at x = -3. however, we need to check if x = -3 is allowed.
+
+but in the denominator, if b ≠ 3 and b ≠ 12, then x = -3 is allowed unless b = 3 or b = 12.
+
+wait, the denominator is (x+b)(x+12), so x ≠ -b and x ≠ -12.
+
+so, if x = -3 is not equal to -b or -12, then x = -3 is a root.
+
+similarly, x = -6 is a root, provided it's not equal to -b or -12.
+
+wait, but we want exactly one distinct root.
+
+so, perhaps one of the roots coincides with a root in the denominator, thus being excluded, and the remaining roots coincide with each other.
+
+alternatively, maybe two of the numerator roots coincide and the third is excluded.
+
+this seems a bit tricky. maybe we need to consider specific cases.
+
+alternatively, perhaps we can consider that for the second equation to have exactly one distinct root, two of the numerator roots must coincide and the third must be excluded by the denominator.
+
+so, for example:
+
+case 1: -2a = -3, so a = 1.5
+
+then, the roots are x = -3 (double root) and x = -6.
+
+now, to have exactly one distinct root, x = -6 must be excluded, meaning x = -6 must make the denominator zero, i.e., -6 = -b or -6 = -12.
+
+so, if -6 = -b ⇒ b = 6, or -6 = -12 ⇒ b = 12.
+
+but b = 12 would make the denominator have x = -12, which is not x = -6, so only b = 6 would exclude x = -6.
+
+therefore, in this case, if a = 1.5 and b = 6, then the roots are x = -3 (double root) and x = -6 (excluded), so only x = -3 is a root.
+
+thus, one distinct root.
+
+similarly, let's consider other cases.
+
+case 2: -2a = -6 ⇒ a = 3
+
+then, the roots are x = -6 (double root) and x = -3.
+
+to have exactly one distinct root, x = -3 must be excluded, i.e., x = -3 = -b or x = -3 = -12.
+
+but x = -3 = -12 is not possible, and x = -3 = -b ⇒ b = 3.
+
+so, if a = 3 and b = 3, then the roots are x = -6 (double root) and x = -3 (excluded), so only x = -6 is a root.
+
+thus, one distinct root.
+
+case 3: -3 = -6, which is not possible.
+
+therefore, the only possible scenarios are:
+
+- a = 1.5 and b = 6
+
+- a = 3 and b = 3
+
+now, we need to check these against the conditions of the first equation.
+
+recall from the first equation, we have:
+
+1. a ≠ b
+
+2. a ≠ 12
+
+3. b ≠ 12
+
+4. a ≠ 3
+
+5. b ≠ 3
+
+so, let's check the first scenario: a = 1.5, b = 6
+
+check conditions:
+
+1. 1.5 ≠ 6 → true
+
+2. 1.5 ≠ 12 → true
+
+3. 6 ≠ 12 → true
+
+4. 1.5 ≠ 3 → true
+
+5. 6 ≠ 3 → true
+
+so, this satisfies all conditions for the first equation.
+
+now, check the second scenario: a = 3, b = 3
+
+check conditions:
+
+1. 3 ≠ 3 → false
+
+so, this violates the condition a ≠ b.
+
+therefore, this scenario is invalid.
+
+thus, the only possible solution is a = 1.5 and b = 6.
+
+now, the problem asks for 100a + b.
+
+so, 100 * 1.5 + 6 = 150 + 6 = 156.
+
+wait, but the problem likely expects integer values for a and b, but a = 1.5 is a fraction.
+
+let me double-check my reasoning.
+
+alternatively, perhaps i made a mistake in assuming a and b must be integers.
+
+the problem doesn't specify that a and b are integers, so fractional values are acceptable.
+
+alternatively, maybe there's another scenario i missed.
+
+let me consider if all three roots coincide.
+
+suppose -2a = -3 = -6, which would require a = 1.5 and also a = 3, which is impossible.
+
+therefore, that case is invalid.
+
+alternatively, perhaps two roots coincide and the third is excluded.
+
+wait, we already considered that.
+
+alternatively, maybe one of the roots is excluded, and the other two coincide.
+
+but in that case, if two roots coincide and one is excluded, we'd still have one distinct root, which matches the condition.
+
+so, perhaps there are other possibilities, but in this problem, it seems the only viable solution is a = 1.5 and b = 6.
+
+therefore, 100a + b = 150 + 6 = 156.
+
+**final answer**
+
+156
+156
+​

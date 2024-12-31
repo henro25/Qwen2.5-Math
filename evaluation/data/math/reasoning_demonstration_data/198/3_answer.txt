@@ -1,1 +1,55 @@
-Answer: 
+Answer: To find the maximum value of the expression \(\frac{x^4}{x^8 + 2x^6 - 4x^4 + 8x^2 + 16}\) for real numbers \(x\), we start by making the substitution \(y = x^2\). this transforms the expression into:
+
+\[
+\frac{y^2}{y^4 + 2y^3 - 4y^2 + 8y + 16}
+\]
+
+we need to maximize this function for \(y \geq 0\). to do this, we take the derivative of the function with respect to \(y\) and set it to zero to find critical points:
+
+\[
+f(y) = \frac{y^2}{y^4 + 2y^3 - 4y^2 + 8y + 16}
+\]
+
+the derivative is:
+
+\[
+f'(y) = \frac{2y(y^4 + 2y^3 - 4y^2 + 8y + 16) - y^2(4y^3 + 6y^2 - 8y + 8)}{(y^4 + 2y^3 - 4y^2 + 8y + 16)^2}
+\]
+
+setting the numerator to zero:
+
+\[
+2y(y^4 + 2y^3 - 4y^2 + 8y + 16) - y^2(4y^3 + 6y^2 - 8y + 8) = 0
+\]
+
+factoring out \(y\):
+
+\[
+y [2(y^4 + 2y^3 - 4y^2 + 8y + 16) - y(4y^3 + 6y^2 - 8y + 8)] = 0
+\]
+
+this simplifies to:
+
+\[
+-2y^4 - 2y^3 + 8y + 32 = 0
+\]
+
+dividing by -2:
+
+\[
+y^4 + y^3 - 4y - 16 = 0
+\]
+
+using the rational root theorem, we find that \(y = 2\) is a root. factoring out \((y - 2)\) and solving the remaining cubic equation, we find that \(y = 2\) is the only relevant critical point for \(y \geq 0\).
+
+evaluating the function at \(y = 2\):
+
+\[
+f(2) = \frac{2^2}{2^4 + 2 \cdot 2^3 - 4 \cdot 2^2 + 8 \cdot 2 + 16} = \frac{4}{16 + 16 - 16 + 16 + 16} = \frac{4}{48} = \frac{1}{12}
+\]
+
+thus, the maximum value of the expression is:
+
+\[
+\boxed{\frac{1}{12}}
+\]

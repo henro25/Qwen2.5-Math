@@ -1,1 +1,29 @@
-Reasoning: 
+Reasoning: Okay, so I've got this problem here. It says I have four digits: 2, 4, 6, and 7. I need to form different positive two-digit integers using these digits, and I can't repeat any digit in an integer. Alright, let's see.
+
+First, I need to understand what a two-digit integer is. It's a number that has a tens place and a units place. So, for example, in the number 24, 2 is in the tens place and 4 is in the units place.
+
+Now, I have to use the digits 2, 4, 6, and 7, and I can't repeat any digit in a single number. That means if I use 2 in the tens place, I can't use it again in the units place for that number.
+
+I think the best way to approach this is to list out all possible combinations. Let's start by choosing a digit for the tens place. I have four options: 2, 4, 6, or 7.
+
+If I choose 2 for the tens place, then for the units place, I can't use 2 again. So, I have to choose from 4, 6, or 7. That gives me three possibilities: 24, 26, and 27.
+
+Next, if I choose 4 for the tens place, I can't use 4 again. So, for the units place, I can use 2, 6, or 7. That gives me three more numbers: 42, 46, and 47.
+
+Then, if I choose 6 for the tens place, I can't use 6 again. So, the units place can be 2, 4, or 7. That gives me another three numbers: 62, 64, and 67.
+
+Finally, if I choose 7 for the tens place, I can't use 7 again. So, the units place can be 2, 4, or 6. That gives me three more numbers: 72, 74, and 76.
+
+So, adding those up: 3 (from 2 as tens) + 3 (from 4 as tens) + 3 (from 6 as tens) + 3 (from 7 as tens) = 12 different numbers in total.
+
+Wait a minute, is there a faster way to calculate this without listing them all out? I remember something about permutations. Permutations are arrangements of items where the order matters, and in this case, the order definitely matters because 24 is different from 42.
+
+So, for permutations of n items taken r at a time, the formula is n! / (n - r)!, where "!" denotes factorial.
+
+Here, n is 4 (since there are four digits: 2, 4, 6, 7) and r is 2 (since we're forming two-digit numbers).
+
+So, the number of permutations should be 4! / (4 - 2)! = 4! / 2! = (4 × 3 × 2 × 1) / (2 × 1) = 24 / 2 = 12.
+
+Okay, that matches what I got when I listed them all out. So, there are 12 different positive two-digit integers that can be formed using these digits without repeating any digit in an integer.
+
+I think that's the answer. Let me just double-check to make sure I haven't missed anything. The digits are distinct, and I've accounted for all possible combinations without repetition. Yeah, I'm pretty confident about this.

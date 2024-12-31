@@ -1,1 +1,51 @@
-Answer: 
+Answer: To evaluate \(\log_5 625\), we need to determine the power to which 5 must be raised to obtain 625. this can be expressed as:
+
+\[
+5^x = 625
+\]
+
+by recognizing that \(5^4 = 625\), we find that \(x = 4\). therefore, \(\log_5 625 = 4\).
+
+to confirm this result, we can use the change of base formula:
+
+\[
+\log_5 625 = \frac{\log_{10} 625}{\log_{10} 5}
+\]
+
+since \(625 = 5^4\), we have:
+
+\[
+\log_{10} 625 = \log_{10} (5^4) = 4 \log_{10} 5
+\]
+
+thus,
+
+\[
+\log_5 625 = \frac{4 \log_{10} 5}{\log_{10} 5} = 4
+\]
+
+using natural logarithms (base \(e\)):
+
+\[
+\log_5 625 = \frac{\ln 625}{\ln 5}
+\]
+
+again, since \(625 = 5^4\), we have:
+
+\[
+\ln 625 = \ln (5^4) = 4 \ln 5
+\]
+
+thus,
+
+\[
+\log_5 625 = \frac{4 \ln 5}{\ln 5} = 4
+\]
+
+both methods confirm that \(\log_5 625 = 4\).
+
+therefore, the final answer is:
+
+\[
+\boxed{4}
+\]

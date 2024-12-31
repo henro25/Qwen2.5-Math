@@ -1,1 +1,19 @@
-Answer: 
+Answer: To solve this problem, we need to determine how many coins are in a stack that is exactly 14 mm high, using U.S. coins of different thicknesses: penny (1.55 mm), nickel (1.95 mm), dime (1.35 mm), and quarter (1.75 mm).
+
+### Step 1: Single Coin Type Solutions
+- **Quarters**: 8 quarters give a total thickness of \( 8 \times 1.75 = 14 \) mm. So, one possible solution is 8 quarters.
+- **Other coins** (pennies, nickels, dimes) do not provide integer solutions when their thicknesses are multiplied by any whole number to reach exactly 14 mm.
+
+### Step 2: Mixed Coin Combinations
+We explore combinations of different coins. For example:
+- **Quarters and nickels**: After setting up the equation \( 1.75q + 1.95n = 14 \), simplifying, and solving, no integer solutions for \( q \) and \( n \) are found.
+- **Other combinations** (such as quarters and dimes, or dimes and nickels) also do not yield integer solutions when checked in a similar way.
+
+### Step 3: Conclusion
+After testing various combinations of coins and finding that only stacks with 8 coins provide the required thickness of 14 mm, we conclude that the number of coins in the stack is **8**. 
+
+Thus, the answer is:
+
+\[
+\boxed{8}
+\]

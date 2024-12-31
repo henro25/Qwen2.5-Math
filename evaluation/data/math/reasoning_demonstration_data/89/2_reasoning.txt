@@ -1,1 +1,61 @@
-Reasoning: 
+Reasoning: So i need to evaluate |2 - 4i| + |2 + 4i|. hmm, okay, i'm a bit rusty on complex numbers, but i think i remember that the absolute value or modulus of a complex number a + bi is calculated using the formula |a + bi| = √(a² + b²). so, for each of these complex numbers, i can find their moduli and then add them up.
+
+first, let's take |2 - 4i|. using the formula, that would be √(2² + (-4)²). let me calculate that:
+
+2 squared is 4, and (-4) squared is also 16. so, 4 plus 16 is 20. therefore, |2 - 4i| = √20.
+
+now, i should simplify √20. i know that 20 is 4 times 5, and √4 is 2, so √20 = 2√5.
+
+okay, moving on to |2 + 4i|. using the same formula, that's √(2² + 4²). calculating that:
+
+2 squared is 4, and 4 squared is 16. so, 4 plus 16 is again 20. therefore, |2 + 4i| = √20, which is also 2√5.
+
+now, i need to add these two moduli together: |2 - 4i| + |2 + 4i| = 2√5 + 2√5.
+
+adding them up, i get 4√5.
+
+wait a minute, is that all? it seems straightforward, but maybe i should check if there's another way to approach this problem, just to be sure.
+
+another way to look at it is to recognize that 2 - 4i and 2 + 4i are complex conjugates of each other. their moduli should be equal, which matches what i found earlier, since both are √20 or 2√5.
+
+also, in the complex plane, these points are symmetric with respect to the real axis. so, their distances from the origin should indeed be the same, which again confirms that their moduli are equal.
+
+let me also recall that the modulus of a complex number represents its distance from the origin in the complex plane. so, calculating |2 - 4i| and |2 + 4i| is like finding the distances of these points from the origin, and adding them up makes sense in this context.
+
+is there a geometric interpretation that could simplify this further? well, if i plot these points on the complex plane, 2 - 4i is at (2, -4) and 2 + 4i is at (2, 4). the distance from the origin for both would be the same, as i already calculated.
+
+alternatively, maybe i can think of these complex numbers as vectors and add them, but i don't think that's necessary here since the problem specifically asks for the sum of their moduli, not the modulus of their sum.
+
+let me double-check my calculations:
+
+for |2 - 4i|:
+
+a = 2, b = -4
+
+|2 - 4i| = √(2² + (-4)²) = √(4 + 16) = √20 = 2√5
+
+for |2 + 4i|:
+
+a = 2, b = 4
+
+|2 + 4i| = √(2² + 4²) = √(4 + 16) = √20 = 2√5
+
+adding them: 2√5 + 2√5 = 4√5
+
+seems consistent.
+
+just to be thorough, i can also recall that √20 can be simplified further since 20 = 4 * 5, and √4 = 2, so √20 = 2√5, which is what i have.
+
+is there any other property of complex numbers that could be relevant here? maybe the property that |z| = |z̄|, where z̄ is the complex conjugate of z. since 2 + 4i is the conjugate of 2 - 4i, their moduli are equal, which again confirms my earlier result.
+
+alright, i think i'm confident with this answer. the sum of the moduli is 4√5.
+
+**final answer**
+
+4
+5
+4 
+5
+​
+ 
+​

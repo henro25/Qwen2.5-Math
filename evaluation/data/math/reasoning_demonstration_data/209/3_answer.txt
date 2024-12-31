@@ -1,1 +1,41 @@
-Answer: 
+Answer: To simplify \(\sqrt{288}\), we start by finding the prime factorization of 288:
+
+\[
+288 = 2 \times 2 \times 2 \times 2 \times 2 \times 3 \times 3
+\]
+
+grouping the factors into pairs:
+
+\[
+288 = (2 \times 2) \times (2 \times 2) \times 2 \times (3 \times 3)
+\]
+
+this can be written as:
+
+\[
+288 = 2^2 \times 2^2 \times 2 \times 3^2
+\]
+
+taking the square roots of the perfect squares out of the radical:
+
+\[
+\sqrt{288} = \sqrt{2^2 \times 2^2 \times 2 \times 3^2} = \sqrt{2^2} \times \sqrt{2^2} \times \sqrt{2} \times \sqrt{3^2}
+\]
+
+simplifying each term:
+
+\[
+\sqrt{2^2} = 2, \quad \sqrt{2^2} = 2, \quad \sqrt{3^2} = 3
+\]
+
+so:
+
+\[
+\sqrt{288} = 2 \times 2 \times 3 \times \sqrt{2} = 12\sqrt{2}
+\]
+
+thus, the simplified form of \(\sqrt{288}\) is:
+
+\[
+\boxed{12\sqrt{2}}
+\]

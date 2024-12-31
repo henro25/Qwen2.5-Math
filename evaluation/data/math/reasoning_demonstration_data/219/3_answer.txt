@@ -1,1 +1,72 @@
-Answer: 
+Answer: Given two two-digit positive integers \( a \) and \( b \), we need to find the smaller of the two integers such that the average of \( a \) and \( b \) is equal to the decimal number obtained by writing one of the integers before the decimal point and the other after the decimal point.
+
+we have two possible equations based on the problem statement:
+
+1. \(\frac{a + b}{2} = a + \frac{b}{100}\)
+2. \(\frac{a + b}{2} = b + \frac{a}{100}\)
+
+### solving the first equation:
+\[
+\frac{a + b}{2} = a + \frac{b}{100}
+\]
+multiply both sides by 2:
+\[
+a + b = 2a + \frac{2b}{100}
+\]
+simplify:
+\[
+a + b = 2a + \frac{b}{50}
+\]
+subtract \( a \) from both sides:
+\[
+b = a + \frac{b}{50}
+\]
+subtract \(\frac{b}{50}\) from both sides:
+\[
+b - \frac{b}{50} = a
+\]
+factor \( b \):
+\[
+b \left(1 - \frac{1}{50}\right) = a
+\]
+\[
+b \left(\frac{49}{50}\right) = a
+\]
+thus, \( a = \frac{49}{50} b \). since \( a \) and \( b \) are integers, \( b \) must be a multiple of 50. the only two-digit multiple of 50 is 50, giving \( a = 49 \).
+
+### solving the second equation:
+\[
+\frac{a + b}{2} = b + \frac{a}{100}
+\]
+multiply both sides by 2:
+\[
+a + b = 2b + \frac{2a}{100}
+\]
+simplify:
+\[
+a + b = 2b + \frac{a}{50}
+\]
+subtract \( a/50 \) from both sides:
+\[
+a - \frac{a}{50} + b = 2b
+\]
+factor \( a \):
+\[
+a \left(1 - \frac{1}{50}\right) + b = 2b
+\]
+\[
+a \left(\frac{49}{50}\right) + b = 2b
+\]
+subtract \( b \) from both sides:
+\[
+a \left(\frac{49}{50}\right) = b
+\]
+thus, \( b = \frac{49}{50} a \). since \( a \) and \( b \) are integers, \( a \) must be a multiple of 50. the only two-digit multiple of 50 is 50, giving \( b = 49 \).
+
+### conclusion:
+the possible pairs are \( (a, b) = (49, 50) \) and \( (a, b) = (50, 49) \). in both cases, the smaller number is 49.
+
+therefore, the answer is:
+\[
+\boxed{49}
+\]

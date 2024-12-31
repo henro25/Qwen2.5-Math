@@ -1,1 +1,40 @@
-Answer: 
+Answer: To find the area of the square in which the circle \(2x^2 = -2y^2 + 12x - 4y + 20\) is inscribed, we first need to rewrite the given equation in the standard form of a circle's equation.
+
+starting with the given equation:
+\[ 2x^2 = -2y^2 + 12x - 4y + 20 \]
+
+we move all terms to one side:
+\[ 2x^2 + 2y^2 - 12x + 4y - 20 = 0 \]
+
+divide by 2 to simplify:
+\[ x^2 + y^2 - 6x + 2y - 10 = 0 \]
+
+next, we complete the square for both \(x\) and \(y\):
+
+for \(x\):
+\[ x^2 - 6x = (x - 3)^2 - 9 \]
+
+for \(y\):
+\[ y^2 + 2y = (y + 1)^2 - 1 \]
+
+substitute these back into the equation:
+\[ (x - 3)^2 - 9 + (y + 1)^2 - 1 - 10 = 0 \]
+
+combine constants:
+\[ (x - 3)^2 + (y + 1)^2 - 20 = 0 \]
+
+add 20 to both sides:
+\[ (x - 3)^2 + (y + 1)^2 = 20 \]
+
+this is the standard form of the circle's equation, where the center is \((3, -1)\) and the radius \(r = \sqrt{20} = 2\sqrt{5}\).
+
+the diameter of the circle is:
+\[ d = 2r = 2 \times 2\sqrt{5} = 4\sqrt{5} \]
+
+since the circle is inscribed in the square, the side length of the square is equal to the diameter of the circle. therefore, the area of the square is:
+\[ \text{area} = (4\sqrt{5})^2 = 16 \times 5 = 80 \]
+
+thus, the area of the square is:
+\[
+\boxed{80}
+\]

@@ -1,1 +1,103 @@
-Reasoning: 
+Reasoning: So i have this problem here: there are four points that are 5 units away from the line y = 13 and 13 units away from the point (7,13). i need to find the sum of the x and y coordinates of all four of these points. hmm, okay, let's break this down step by step.
+
+first, i need to understand what it means for a point to be a certain distance from a line and from another point. let's tackle the distance from the line y = 13 first. the distance from a point (x, y) to the line y = 13 is given by the formula for the distance from a point to a horizontal line, which is just the absolute difference in the y-coordinates. so, the distance from (x, y) to y = 13 is |y - 13|. according to the problem, this distance should be 5 units. that means:
+
+|y - 13| = 5
+
+this equation implies two possibilities:
+
+1. y - 13 = 5 ⇒ y = 18
+
+2. y - 13 = -5 ⇒ y = 8
+
+so, any point that is 5 units away from the line y = 13 must have a y-coordinate of either 18 or 8.
+
+next, these points also need to be 13 units away from the point (7,13). the distance between two points (x1, y1) and (x2, y2) is given by the distance formula:
+
+distance = √[(x2 - x1)² + (y2 - y1)²]
+
+in this case, the distance from (x, y) to (7,13) should be 13 units. so, plugging in the values:
+
+√[(x - 7)² + (y - 13)²] = 13
+
+since we already know that y is either 18 or 8, i can substitute these values into the equation and solve for x.
+
+first, let's consider y = 18:
+
+√[(x - 7)² + (18 - 13)²] = 13
+
+√[(x - 7)² + (5)²] = 13
+
+√[(x - 7)² + 25] = 13
+
+now, square both sides to eliminate the square root:
+
+(x - 7)² + 25 = 169
+
+subtract 25 from both sides:
+
+(x - 7)² = 144
+
+take the square root of both sides:
+
+x - 7 = ±12
+
+so, x = 7 + 12 = 19 or x = 7 - 12 = -5
+
+therefore, when y = 18, the x-coordinates are 19 and -5, giving us the points (19, 18) and (-5, 18).
+
+next, let's consider y = 8:
+
+√[(x - 7)² + (8 - 13)²] = 13
+
+√[(x - 7)² + (-5)²] = 13
+
+√[(x - 7)² + 25] = 13
+
+again, square both sides:
+
+(x - 7)² + 25 = 169
+
+subtract 25 from both sides:
+
+(x - 7)² = 144
+
+take the square root of both sides:
+
+x - 7 = ±12
+
+so, x = 7 + 12 = 19 or x = 7 - 12 = -5
+
+therefore, when y = 8, the x-coordinates are again 19 and -5, giving us the points (19, 8) and (-5, 8).
+
+now, i have all four points:
+
+1. (19, 18)
+
+2. (-5, 18)
+
+3. (19, 8)
+
+4. (-5, 8)
+
+the problem asks for the sum of the x- and y-coordinates of all four points. so, i need to add up all the x-coordinates and all the y-coordinates and then sum those two totals.
+
+let's calculate the sum of the x-coordinates:
+
+19 + (-5) + 19 + (-5) = 19 - 5 + 19 - 5 = 14 + 14 = 28
+
+now, the sum of the y-coordinates:
+
+18 + 18 + 8 + 8 = 36 + 16 = 52
+
+finally, the sum of all x and y coordinates is:
+
+28 + 52 = 80
+
+so, the sum of the x- and y-coordinates of all four points is 80.
+
+**final answer**
+
+80
+80
+​

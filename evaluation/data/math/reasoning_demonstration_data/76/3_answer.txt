@@ -1,1 +1,39 @@
-Answer: 
+Answer: To find the roots of the equation \( z^2 - z = 5 - 5i \), we first rearrange it to:
+
+\[ z^2 - z - (5 - 5i) = 0 \]
+
+this is a quadratic equation in the form \( az^2 + bz + c = 0 \) with \( a = 1 \), \( b = -1 \), and \( c = -5 + 5i \). using the quadratic formula \( z = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \), we get:
+
+\[ z = \frac{1 \pm \sqrt{1 - 4(-5 + 5i)}}{2} \]
+
+simplifying the discriminant:
+
+\[ 1 - 4(-5 + 5i) = 1 + 20 - 20i = 21 - 20i \]
+
+next, we find the square root of \( 21 - 20i \). assuming \( \sqrt{21 - 20i} = a + bi \), we solve:
+
+\[ (a + bi)^2 = 21 - 20i \]
+\[ a^2 - b^2 + 2abi = 21 - 20i \]
+
+this gives the system of equations:
+
+1. \( a^2 - b^2 = 21 \)
+2. \( 2ab = -20 \)
+
+solving these, we find \( a = 5 \), \( b = -2 \) or \( a = -5 \), \( b = 2 \). thus, the square roots are \( 5 - 2i \) and \( -5 + 2i \).
+
+substituting back into the quadratic formula:
+
+\[ z = \frac{1 \pm (5 - 2i)}{2} \]
+\[ z = \frac{1 \pm (-5 + 2i)}{2} \]
+
+this gives the solutions:
+
+\[ z = \frac{1 + 5 - 2i}{2} = 3 - i \]
+\[ z = \frac{1 - 5 + 2i}{2} = -2 + i \]
+
+verifying these solutions in the original equation confirms they are correct. therefore, the roots are:
+
+\[
+\boxed{3 - i, -2 + i}
+\]

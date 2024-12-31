@@ -1,1 +1,32 @@
-Answer: 
+Answer: To find a vector pointing from the origin to the given line that is parallel to \(\begin{pmatrix}2 \\ 1\end{pmatrix}\), we start with the parametric equations of the line:
+\[
+x = 4t + 2, \quad y = t + 2
+\]
+we need a vector \(\begin{pmatrix}a \\ b\end{pmatrix}\) from the origin to a point on the line, which is parallel to \(\begin{pmatrix}2 \\ 1\end{pmatrix}\). this means:
+\[
+\begin{pmatrix}a \\ b\end{pmatrix} = k \begin{pmatrix}2 \\ 1\end{pmatrix} = \begin{pmatrix}2k \\ k\end{pmatrix}
+\]
+substituting \(x = 2k\) and \(y = k\) into the parametric equations:
+\[
+2k = 4t + 2 \quad \text{and} \quad k = t + 2
+\]
+solving the second equation for \(t\):
+\[
+t = k - 2
+\]
+substituting into the first equation:
+\[
+2k = 4(k - 2) + 2 \implies 2k = 4k - 8 + 2 \implies 2k = 4k - 6 \implies -2k = -6 \implies k = 3
+\]
+then:
+\[
+t = 3 - 2 = 1
+\]
+the vector from the origin to the point on the line is:
+\[
+\begin{pmatrix}2k \\ k\end{pmatrix} = \begin{pmatrix}6 \\ 3\end{pmatrix}
+\]
+thus, the vector pointing from the origin to the line that is parallel to \(\begin{pmatrix}2 \\ 1\end{pmatrix}\) is:
+\[
+\boxed{\begin{pmatrix}6 \\ 3\end{pmatrix}}
+\]

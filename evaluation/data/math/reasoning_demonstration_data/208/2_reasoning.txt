@@ -1,1 +1,378 @@
 Reasoning: 
+So i have this problem here: i need to find the largest value of 
+x
+x such that the expression 
+x
++
+1
+8
+x
+2
+−
+65
+x
++
+8
+8x 
+2
+ −65x+8
+x+1
+​
+  is not defined. hmm, okay, let's break this down.
+
+first off, an expression like this is a rational function, which means it's a fraction where both the numerator and the denominator are polynomials. the expression is not defined when the denominator is zero because division by zero is undefined in mathematics. so, i need to find the values of 
+x
+x that make the denominator equal to zero.
+
+the denominator is 
+8
+x
+2
+−
+65
+x
++
+8
+8x 
+2
+ −65x+8. to find when this equals zero, i need to solve the quadratic equation:
+
+8
+x
+2
+−
+65
+x
++
+8
+=
+0
+8x 
+2
+ −65x+8=0
+quadratic equations can be solved using several methods: factoring, completing the square, or the quadratic formula. let me see if this quadratic can be factored easily.
+
+i need two numbers that multiply to 
+8
+×
+8
+=
+64
+8×8=64 and add up to -65. that seems tricky because 64 isn't a multiple of 65, and the numbers would have to be quite large and specific. maybe factoring isn't the best approach here.
+
+alternatively, i can use the quadratic formula, which is:
+
+x
+=
+−
+b
+±
+b
+2
+−
+4
+a
+c
+2
+a
+x= 
+2a
+−b± 
+b 
+2
+ −4ac
+​
+ 
+​
+ 
+where 
+a
+=
+8
+a=8, 
+b
+=
+−
+65
+b=−65, and 
+c
+=
+8
+c=8.
+
+plugging in these values:
+
+x
+=
+−
+(
+−
+65
+)
+±
+(
+−
+65
+)
+2
+−
+4
+×
+8
+×
+8
+2
+×
+8
+x= 
+2×8
+−(−65)± 
+(−65) 
+2
+ −4×8×8
+​
+ 
+​
+ 
+x
+=
+65
+±
+4225
+−
+256
+16
+x= 
+16
+65± 
+4225−256
+​
+ 
+​
+ 
+x
+=
+65
+±
+3969
+16
+x= 
+16
+65± 
+3969
+​
+ 
+​
+ 
+now, what is the square root of 3969? i know that 63 squared is 3969 because 60 squared is 3600 and 3 squared is 9, and cross terms give the remaining 360 + 9 = 369, but that's not quite right. wait, no:
+
+actually, 
+6
+3
+2
+=
+63
+×
+63
+63 
+2
+ =63×63. let's calculate that:
+
+6
+0
+2
+=
+3600
+60 
+2
+ =3600
+
+3
+×
+60
+×
+2
+=
+360
+3×60×2=360
+
+3
+2
+=
+9
+3 
+2
+ =9
+
+so, 
+6
+3
+2
+=
+3600
++
+360
++
+9
+=
+3969
+63 
+2
+ =3600+360+9=3969. got it.
+
+so,
+
+x
+=
+65
+±
+63
+16
+x= 
+16
+65±63
+​
+ 
+this gives two solutions:
+
+1. 
+x
+=
+65
++
+63
+16
+=
+128
+16
+=
+8
+x= 
+16
+65+63
+​
+ = 
+16
+128
+​
+ =8
+
+2. 
+x
+=
+65
+−
+63
+16
+=
+2
+16
+=
+1
+8
+x= 
+16
+65−63
+​
+ = 
+16
+2
+​
+ = 
+8
+1
+​
+ 
+
+so, the denominator is zero when 
+x
+=
+8
+x=8 or 
+x
+=
+1
+8
+x= 
+8
+1
+​
+ . that means the expression is not defined at these two points.
+
+the problem asks for the largest value of 
+x
+x where the expression is not defined. between 8 and 
+1
+8
+8
+1
+​
+ , 8 is definitely larger.
+
+wait a second, is there anything else i need to consider? like, are there any restrictions on 
+x
+x besides the denominator being zero? in this case, the numerator is 
+x
++
+1
+x+1, but that doesn't affect the definition of the expression; it only affects the value of the expression.
+
+also, i should make sure that there are no other points where the denominator could be zero. for example, if there was a common factor in the numerator and denominator that could be canceled out, that might indicate a hole in the graph, but since the numerator is 
+x
++
+1
+x+1, and the denominator is 
+8
+x
+2
+−
+65
+x
++
+8
+8x 
+2
+ −65x+8, there doesn't seem to be a common factor.
+
+let me double-check by trying to factor the denominator:
+
+8
+x
+2
+−
+65
+x
++
+8
+8x 
+2
+ −65x+8
+
+looking for two numbers that multiply to 
+8
+×
+8
+=
+64
+8×8=64 and add up to -65. as i thought earlier, this seems unlikely because 64 and -65 are close but not exact. also, since we already solved the quadratic and found the roots, i can be confident in those solutions.
+
+therefore, the expression is not defined at 
+x
+=
+8
+x=8 and 
+x
+=
+1
+8
+x= 
+8
+1
+​
+ , and the largest of these is 8.
+
+**final answer**
+
+8
+8
+​

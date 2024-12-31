@@ -1,1 +1,31 @@
-Answer: 
+Answer: Given the functions \( f(x) \) and \( g(x) \) that satisfy \( f(g(x)) = x^2 \) and \( g(f(x)) = x^3 \) for all \( x \ge 1 \), and knowing that \( g(16) = 16 \), we need to find \([g(4)]^3\).
+
+first, we use the given \( g(16) = 16 \) in the equation \( f(g(x)) = x^2 \):
+\[
+f(g(16)) = f(16) = 16^2 = 256 \implies f(16) = 256
+\]
+
+next, using \( g(f(x)) = x^3 \) with \( x = 16 \):
+\[
+g(f(16)) = g(256) = 16^3 = 4096 \implies g(256) = 4096
+\]
+
+we then use the relationship derived from the functional equations:
+\[
+[g(x)]^3 = g(x^2)
+\]
+
+setting \( x = 4 \):
+\[
+[g(4)]^3 = g(16)
+\]
+
+given \( g(16) = 16 \):
+\[
+[g(4)]^3 = 16
+\]
+
+thus, the final answer is:
+\[
+\boxed{16}
+\]

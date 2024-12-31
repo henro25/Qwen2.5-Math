@@ -1,1 +1,16 @@
-Answer: 
+Answer: 1. **Identify the given values:**
+   - Damage in Australian dollars (AUD): $30,000,000
+   - Exchange rate: 1.5 AUD = 1 USD
+
+2. **Set up the conversion equation:**
+   - To find the equivalent in USD, divide the amount in AUD by the exchange rate (1.5 AUD per USD).
+
+3. **Perform the calculation:**
+   \[
+   \text{Damage in USD} = \frac{30,000,000 \text{ AUD}}{1.5 \text{ AUD/USD}} = 20,000,000 \text{ USD}
+   \]
+
+4. **Verification:**
+   - 20,000,000 USD × 1.5 AUD/USD = 30,000,000 AUD, which confirms the calculation is correct.
+
+**Answer:** The storm caused $\$20,000,000$ in damage in American dollars.

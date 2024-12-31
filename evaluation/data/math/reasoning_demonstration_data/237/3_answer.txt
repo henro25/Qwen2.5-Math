@@ -1,1 +1,39 @@
-Answer: 
+Answer: To find the cross product of the vectors \(\begin{pmatrix} 5 \\ 2 \\ -6 \end{pmatrix}\) and \(\begin{pmatrix} 1 \\ 1 \\ 3 \end{pmatrix}\), we use the determinant method:
+
+\[
+\mathbf{a} \times \mathbf{b} = \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+5 & 2 & -6 \\
+1 & 1 & 3 \\
+\end{vmatrix}
+\]
+
+expanding this determinant, we get:
+
+\[
+\mathbf{a} \times \mathbf{b} = \mathbf{i}(2 \cdot 3 - (-6) \cdot 1) - \mathbf{j}(5 \cdot 3 - (-6) \cdot 1) + \mathbf{k}(5 \cdot 1 - 2 \cdot 1)
+\]
+
+calculating each component:
+
+\[
+\mathbf{i} \text{ component: } 2 \cdot 3 - (-6) \cdot 1 = 6 + 6 = 12
+\]
+\[
+\mathbf{j} \text{ component: } 5 \cdot 3 - (-6) \cdot 1 = 15 + 6 = 21 \quad (\text{with a negative sign, it becomes } -21)
+\]
+\[
+\mathbf{k} \text{ component: } 5 \cdot 1 - 2 \cdot 1 = 5 - 2 = 3
+\]
+
+thus, the cross product is:
+
+\[
+\mathbf{a} \times \mathbf{b} = 12\mathbf{i} - 21\mathbf{j} + 3\mathbf{k}
+\]
+
+in vector form, this is:
+
+\[
+\boxed{\begin{pmatrix} 12 \\ -21 \\ 3 \end{pmatrix}}
+\]

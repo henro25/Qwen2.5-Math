@@ -1,1 +1,26 @@
-Answer: 
+Answer: Given that \( wz = 12 - 8i \) and \( |w| = \sqrt{13} \), we need to find \( |z| \).
+
+first, we calculate the magnitude of \( wz \):
+\[
+|wz| = \sqrt{12^2 + (-8)^2} = \sqrt{144 + 64} = \sqrt{208} = 4\sqrt{13}
+\]
+
+using the property of magnitudes of complex numbers, we have:
+\[
+|wz| = |w| \times |z|
+\]
+
+substituting the known values:
+\[
+4\sqrt{13} = \sqrt{13} \times |z|
+\]
+
+solving for \( |z| \):
+\[
+|z| = \frac{4\sqrt{13}}{\sqrt{13}} = 4
+\]
+
+thus, the magnitude of \( z \) is:
+\[
+\boxed{4}
+\]

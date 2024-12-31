@@ -1,1 +1,51 @@
-Answer: 
+Answer: To solve the equation \(\frac{r+3}{r-2} = \frac{r-1}{r+1}\), we start by cross-multiplying:
+
+\[
+(r + 3)(r + 1) = (r - 1)(r - 2)
+\]
+
+expanding both sides:
+
+\[
+(r + 3)(r + 1) = r^2 + r + 3r + 3 = r^2 + 4r + 3
+\]
+
+\[
+(r - 1)(r - 2) = r^2 - 2r - r + 2 = r^2 - 3r + 2
+\]
+
+setting the expanded forms equal to each other:
+
+\[
+r^2 + 4r + 3 = r^2 - 3r + 2
+\]
+
+subtracting \(r^2\) from both sides:
+
+\[
+4r + 3 = -3r + 2
+\]
+
+adding \(3r\) to both sides:
+
+\[
+7r + 3 = 2
+\]
+
+subtracting 3 from both sides:
+
+\[
+7r = -1
+\]
+
+dividing by 7:
+
+\[
+r = -\frac{1}{7}
+\]
+
+finally, we verify that \(r = -\frac{1}{7}\) does not make any denominators zero and checks out in the original equation. thus, the solution is:
+
+\[
+\boxed{-\frac{1}{7}}
+\]

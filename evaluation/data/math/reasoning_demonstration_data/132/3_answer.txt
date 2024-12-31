@@ -1,1 +1,20 @@
-Answer: 
+Answer: To determine the sum of the prime numbers less than 10:
+
+1. **Definition of a prime number:** A prime number is a number greater than 1 that has no positive divisors other than 1 and itself.
+
+2. **List of prime numbers less than 10:**
+   - 2 (prime)
+   - 3 (prime)
+   - 4 (not prime, divisible by 2)
+   - 5 (prime)
+   - 6 (not prime, divisible by 2 and 3)
+   - 7 (prime)
+   - 8 (not prime, divisible by 2)
+   - 9 (not prime, divisible by 3)
+
+   Therefore, the prime numbers less than 10 are: 2, 3, 5, and 7.
+
+3. **Sum of these prime numbers:**
+   - 2 + 3 + 5 + 7 = 17
+
+**Answer:** The sum of the prime numbers less than 10 is 17.

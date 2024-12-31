@@ -1,1 +1,22 @@
-Answer: 
+Answer: First, we confirm that \(\delta abc\) is a right triangle with \(\angle cab = 90^\circ\), where \(a = (0,0)\), \(b = (4,0)\), and \(c = (0,3)\). the lengths of the legs are \(ab = 4\) cm and \(ac = 3\) cm.
+
+next, we find the midpoint \(m\) of the hypotenuse \(bc\). the coordinates of \(m\) are:
+\[
+m = \left( \frac{4+0}{2}, \frac{0+3}{2} \right) = (2, 1.5)
+\]
+
+to find the length of the median \(am\), we use the distance formula:
+\[
+am = \sqrt{(2-0)^2 + (1.5-0)^2} = \sqrt{4 + 2.25} = \sqrt{6.25} = 2.5 \text{ cm}
+\]
+
+alternatively, using the property of right triangles, the median to the hypotenuse is half the hypotenuse. the hypotenuse \(bc\) is:
+\[
+bc = \sqrt{4^2 + 3^2} = \sqrt{16 + 9} = \sqrt{25} = 5 \text{ cm}
+\]
+thus, the median \(am\) is:
+\[
+am = \frac{bc}{2} = \frac{5}{2} = 2.5 \text{ cm}
+\]
+
+therefore, the length of the median \(\overline{am}\) is \(\boxed{2.5}\) cm.

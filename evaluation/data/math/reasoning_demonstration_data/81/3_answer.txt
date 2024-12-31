@@ -1,1 +1,49 @@
-Answer: 
+Answer: Given the polynomial equation
+
+\[
+z^{20} - 4z^{19} + 9z^{18} - 16z^{17} + \dots + 441 = 0,
+\]
+
+we need to calculate \(\cot \left( \sum_{k = 1}^{20} \operatorname{arccot} z_k \right)\), where \(z_1, z_2, \ldots, z_{20}\) are the roots of the polynomial.
+
+first, we recognize that the polynomial has coefficients that are squares of integers with alternating signs. the general term is \( (-1)^n (n+1)^2 z^{20-n} \) for \( n = 0 \) to \( 20 \).
+
+we use the identity for the sum of arccot terms:
+
+\[
+\sum_{k=1}^{20} \operatorname{arccot} z_k = \frac{i}{2} \ln \left( \prod_{k=1}^{20} \frac{z_k + i}{z_k - i} \right).
+\]
+
+this product can be expressed in terms of the polynomial evaluated at \( i \) and \( -i \):
+
+\[
+\prod_{k=1}^{20} \frac{z_k + i}{z_k - i} = \frac{p(-i)}{p(i)},
+\]
+
+where \( p(z) \) is the given polynomial.
+
+we compute \( p(i) \) and \( p(-i) \):
+
+\[
+p(i) = 241 + 220i, \quad p(-i) = 241 - 220i.
+\]
+
+thus,
+
+\[
+\frac{p(-i)}{p(i)} = \frac{241 - 220i}{241 + 220i}.
+\]
+
+we simplify this ratio by multiplying by the conjugate:
+
+\[
+\frac{241 - 220i}{241 + 220i} \cdot \frac{241 - 220i}{241 - 220i} = \frac{(241 - 220i)^2}{241^2 + 220^2} = \frac{9681 - 106040i}{106481}.
+\]
+
+the magnitude of this complex number is 1, and its argument is twice the angle of \( \frac{241 - 220i}{241 + 220i} \).
+
+finally, we find:
+
+\[
+\cot \left( \sum_{k=1}^{20} \operatorname{arccot} z_k \right) = \cot \left( \frac{i}{2} \ln \left( \frac{241 - 220i}{241 + 220i} \right) \right) = \boxed{1}.
+\]

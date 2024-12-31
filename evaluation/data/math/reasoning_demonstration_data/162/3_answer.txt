@@ -1,1 +1,20 @@
-Answer: 
+Answer: To solve the problem of seating the eight All-Stars, with teammates sitting together, we follow these steps:
+
+1. **Treat each team as a single block:**
+   - There are three teams: Cubs (3 members), Red Sox (3 members), and Yankees (2 members).
+   - These three blocks can be arranged in \( 3! \) ways.
+
+2. **Arrange players within each block:**
+   - The 3 Cubs can be arranged among themselves in \( 3! \) ways.
+   - The 3 Red Sox can be arranged among themselves in \( 3! \) ways.
+   - The 2 Yankees can be arranged among themselves in \( 2! \) ways.
+
+3. **Calculate the total number of arrangements:**
+   \[
+   \text{Total arrangements} = 3! \times 3! \times 3! \times 2!
+   \]
+   \[
+   = 6 \times 6 \times 6 \times 2 = 432
+   \]
+
+**Answer:** There are 432 ways to seat the eight All-Stars with teammates sitting together.

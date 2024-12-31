@@ -1,1 +1,77 @@
-Reasoning: 
+Reasoning: Alright, I've got this problem here: simplify (r² + 3r - 2) - (r² + 7r - 5). Okay, so I need to subtract one polynomial from another. Let's see, I remember that when you subtract polynomials, you have to distribute the negative sign to each term in the second polynomial. So, that means I need to take each term in the second parentheses and change its sign.
+
+So, starting with the first part, (r² + 3r - 2), that stays the same because there's no negative sign in front of it. Now, for the second part, (r² + 7r - 5), I need to distribute the negative sign. That means:
+
+- r² becomes -r²
+
+- +7r becomes -7r
+
+- -5 becomes +5
+
+So, after distributing the negative sign, the expression becomes:
+
+r² + 3r - 2 - r² - 7r + 5
+
+Now, I need to combine like terms. Like terms are terms that have the same variable raised to the same power. So, let's look at the r² terms:
+
+r² - r² = 0
+
+Okay, so those cancel each other out.
+
+Next, the r terms:
+
+3r - 7r = -4r
+
+And then the constant terms:
+
+-2 + 5 = 3
+
+So, putting it all together, the simplified expression is:
+
+-4r + 3
+
+Wait a second, let me double-check that. Sometimes I make mistakes with the signs.
+
+Starting over:
+
+(r² + 3r - 2) - (r² + 7r - 5) = r² + 3r - 2 - r² - 7r + 5
+
+Combine like terms:
+
+r² - r² = 0
+
+3r - 7r = -4r
+
+-2 + 5 = 3
+
+Yeah, that seems right. So, the final simplified expression is -4r + 3.
+
+I think that's it. I don't see any other like terms to combine or any other operations to perform. It looks straightforward.
+
+Just to be extra sure, maybe I can plug in a value for r and see if both the original expression and the simplified expression give the same result.
+
+Let's choose r = 1.
+
+Original expression: (1² + 3*1 - 2) - (1² + 7*1 - 5) = (1 + 3 - 2) - (1 + 7 - 5) = (4 - 2) - (8 - 5) = 2 - 3 = -1
+
+Simplified expression: -4*1 + 3 = -4 + 3 = -1
+
+Okay, they match for r = 1.
+
+Let's try r = 2.
+
+Original: (4 + 6 - 2) - (4 + 14 - 5) = (10 - 2) - (18 - 5) = 8 - 13 = -5
+
+Simplified: -8 + 3 = -5
+
+Again, they match.
+
+One more, r = 0.
+
+Original: (0 + 0 - 2) - (0 + 0 - 5) = (-2) - (-5) = -2 + 5 = 3
+
+Simplified: 0 + 3 = 3
+
+Perfect, they match again.
+
+I'm confident now that the simplified expression is correct.

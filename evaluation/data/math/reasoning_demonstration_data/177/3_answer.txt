@@ -1,1 +1,35 @@
-Answer: 
+Answer: In right triangle \(bcd\) with \(\angle d = 90^\circ\), we have \(bc = 9\) and \(bd = 4\). we need to find \(\sin b\).
+
+first, we use the pythagorean theorem to find \(cd\):
+
+\[
+bc^2 = bd^2 + cd^2
+\]
+
+\[
+9^2 = 4^2 + cd^2
+\]
+
+\[
+81 = 16 + cd^2
+\]
+
+\[
+cd^2 = 81 - 16 = 65
+\]
+
+\[
+cd = \sqrt{65}
+\]
+
+next, we use the definition of sine for angle \(b\):
+
+\[
+\sin b = \frac{\text{opposite side}}{\text{hypotenuse}} = \frac{cd}{bc} = \frac{\sqrt{65}}{9}
+\]
+
+therefore, the final answer is:
+
+\[
+\boxed{\frac{\sqrt{65}}{9}}
+\]

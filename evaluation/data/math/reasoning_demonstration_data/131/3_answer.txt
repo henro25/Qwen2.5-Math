@@ -1,1 +1,23 @@
-Answer: 
+Answer: To determine the number of ways four people can line up if the youngest cannot be first, we can follow these steps:
+
+1. **Calculate the total number of arrangements without restrictions:**
+   - There are 4 people, so the total number of ways to arrange them is \(4! = 4 \times 3 \times 2 \times 1 = 24\).
+
+2. **Calculate the number of invalid arrangements (youngest is first):**
+   - If the youngest is first, there are 3 remaining people to arrange in the other positions, which is \(3! = 6\).
+
+3. **Subtract the invalid arrangements from the total:**
+   - \(24 - 6 = 18\).
+
+Alternatively, directly count the valid arrangements:
+
+1. **Choose someone other than the youngest for the first position:**
+   - There are 3 choices for the first position.
+
+2. **Arrange the remaining 3 people in the other positions:**
+   - This can be done in \(3! = 6\) ways.
+
+3. **Multiply the choices:**
+   - \(3 \times 6 = 18\).
+
+Thus, the number of ways the four people can line up with the youngest not being first is **18**.

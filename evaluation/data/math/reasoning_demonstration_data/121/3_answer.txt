@@ -1,1 +1,26 @@
-Answer: 
+Answer: To simplify the given trigonometric expression \(\frac{\sin x + \sin 2x}{1 + \cos x + \cos 2x}\), we can follow these steps:
+
+1. **simplify the numerator:**
+   \[
+   \sin x + \sin 2x = \sin x + 2 \sin x \cos x = \sin x (1 + 2 \cos x)
+   \]
+
+2. **simplify the denominator:**
+   \[
+   1 + \cos x + \cos 2x = 1 + \cos x + (2 \cos^2 x - 1) = \cos x + 2 \cos^2 x = \cos x (1 + 2 \cos x)
+   \]
+
+3. **combine the simplified numerator and denominator:**
+   \[
+   \frac{\sin x (1 + 2 \cos x)}{\cos x (1 + 2 \cos x)}
+   \]
+
+4. **cancel the common factor \((1 + 2 \cos x)\):**
+   \[
+   \frac{\sin x}{\cos x} = \tan x
+   \]
+
+therefore, the simplified form of the original expression is:
+\[
+\boxed{\tan x}
+\]

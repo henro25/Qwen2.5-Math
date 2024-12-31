@@ -1,1 +1,290 @@
-Reasoning: 
+Reasoning: Let's see here. so, mark borrows $10 from emily, and there's a simple interest rate of 15% every day. i need to find out the least number of days after which mark has to pay back at least twice the amount he borrowed. so, twice $10 is $20. that means i need to find the smallest number of days where the total amount to be paid back is at least $20.
+
+first, i need to understand what simple interest means. simple interest is calculated only on the principal amount, which is the initial amount borrowed. the formula for simple interest is:
+
+i
+=
+p
+×
+r
+×
+t
+i=p×r×t
+where:
+
+- 
+i
+i is the interest
+
+- 
+p
+p is the principal amount
+
+- 
+r
+r is the rate of interest per period
+
+- 
+t
+t is the time in the number of periods
+
+in this case, the principal 
+p
+p is $10, the rate 
+r
+r is 15% per day, and 
+t
+t is the number of days.
+
+so, the interest each day would be:
+
+i
+=
+10
+×
+0.15
+×
+t
+i=10×0.15×t
+wait, actually, since the rate is 15% per day, and it's simple interest, the total amount to be paid back after 
+t
+t days would be:
+
+a
+=
+p
++
+i
+=
+p
++
+(
+p
+×
+r
+×
+t
+)
+=
+p
+(
+1
++
+r
+t
+)
+a=p+i=p+(p×r×t)=p(1+rt)
+so,
+
+a
+=
+10
+(
+1
++
+0.15
+t
+)
+a=10(1+0.15t)
+we need this amount to be at least twice the borrowed amount, which is $20.
+
+so,
+
+10
+(
+1
++
+0.15
+t
+)
+≥
+20
+10(1+0.15t)≥20
+now, i can solve for 
+t
+t:
+
+first, divide both sides by 10:
+
+1
++
+0.15
+t
+≥
+2
+1+0.15t≥2
+then, subtract 1 from both sides:
+
+0.15
+t
+≥
+1
+0.15t≥1
+now, divide both sides by 0.15:
+
+t
+≥
+1
+0.15
+t≥ 
+0.15
+1
+​
+ 
+calculating 
+1
+0.15
+0.15
+1
+​
+ :
+
+1
+0.15
+=
+100
+15
+=
+20
+3
+≈
+6.
+6
+‾
+0.15
+1
+​
+ = 
+15
+100
+​
+ = 
+3
+20
+​
+ ≈6. 
+6
+ 
+so, 
+t
+t needs to be at least approximately 6.666 days.
+
+but since the number of days has to be an integer, and we can't have a fraction of a day in this context, we need to round up to the next whole number. therefore, the least integer number of days is 7.
+
+wait a minute, but let's check if 6 days would suffice.
+
+if 
+t
+=
+6
+t=6:
+
+a
+=
+10
+(
+1
++
+0.15
+×
+6
+)
+=
+10
+(
+1
++
+0.9
+)
+=
+10
+×
+1.9
+=
+19
+a=10(1+0.15×6)=10(1+0.9)=10×1.9=19
+that's $19, which is less than $20.
+
+if 
+t
+=
+7
+t=7:
+
+a
+=
+10
+(
+1
++
+0.15
+×
+7
+)
+=
+10
+(
+1
++
+1.05
+)
+=
+10
+×
+2.05
+=
+20.5
+a=10(1+0.15×7)=10(1+1.05)=10×2.05=20.5
+that's $20.5, which is more than $20.
+
+so, 7 days is the smallest integer number of days where the amount to be paid back is at least twice the borrowed amount.
+
+but let's double-check if i'm using the correct formula for simple interest in this context. simple interest is indeed 
+i
+=
+p
+r
+t
+i=prt, and the total amount is 
+a
+=
+p
++
+i
+=
+p
+(
+1
++
+r
+t
+)
+a=p+i=p(1+rt).
+
+given that, my calculations seem correct.
+
+alternatively, maybe i should consider compound interest, but the problem specifically says "simple interest."
+
+just to be thorough, if it were compound interest, the formula would be different:
+
+a
+=
+p
+(
+1
++
+r
+)
+t
+a=p(1+r) 
+t
+ 
+but since it's simple interest, i should stick with the earlier formula.
+
+therefore, the answer should be 7 days.
+
+**final answer**
+
+7
+7
+​

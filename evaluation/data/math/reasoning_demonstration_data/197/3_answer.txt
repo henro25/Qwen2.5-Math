@@ -1,1 +1,83 @@
-Answer: 
+Answer: Given the equation:
+
+\[
+\sqrt[3]{x + \sqrt[3]{x + \sqrt[3]{x + \dotsb}}} = \sqrt[3]{x \sqrt[3]{x \sqrt[3]{x \dotsm}}}
+\]
+
+we start by defining the left side as \( y \):
+
+\[
+y = \sqrt[3]{x + y}
+\]
+
+cubing both sides, we get:
+
+\[
+y^3 = x + y
+\]
+
+rearranging, we have:
+
+\[
+y^3 - y - x = 0
+\]
+
+for the right side, we define it as \( z \):
+
+\[
+z = \sqrt[3]{x z}
+\]
+
+cubing both sides, we get:
+
+\[
+z^3 = x z
+\]
+
+assuming \( z \neq 0 \), we divide by \( z \):
+
+\[
+z^2 = x
+\]
+
+since both sides are equal, we set \( y = z \). substituting \( z \) for \( y \) and \( z^2 \) for \( x \), we get:
+
+\[
+z^3 - z - z^2 = 0
+\]
+
+factoring out \( z \):
+
+\[
+z(z^2 - z - 1) = 0
+\]
+
+since \( z \neq 0 \), we solve:
+
+\[
+z^2 - z - 1 = 0
+\]
+
+using the quadratic formula:
+
+\[
+z = \frac{1 \pm \sqrt{5}}{2}
+\]
+
+taking the positive root:
+
+\[
+z = \frac{1 + \sqrt{5}}{2}
+\]
+
+since \( x = z^2 \):
+
+\[
+x = \left( \frac{1 + \sqrt{5}}{2} \right)^2 = \frac{(1 + \sqrt{5})^2}{4} = \frac{1 + 2\sqrt{5} + 5}{4} = \frac{6 + 2\sqrt{5}}{4} = \frac{3 + \sqrt{5}}{2}
+\]
+
+thus, the positive solution is:
+
+\[
+\boxed{\frac{3 + \sqrt{5}}{2}}
+\]

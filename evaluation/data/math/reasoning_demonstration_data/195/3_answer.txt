@@ -1,1 +1,50 @@
-Answer: 
+Answer: First, we start with the given equation:
+
+\[
+(x - 3)(x + 3) = 21x - 63
+\]
+
+expanding the left side, we get:
+
+\[
+x^2 - 9 = 21x - 63
+\]
+
+next, we move all terms to one side to set the equation to zero:
+
+\[
+x^2 - 21x + 54 = 0
+\]
+
+this is a quadratic equation in the form \(ax^2 + bx + c = 0\), where \(a = 1\), \(b = -21\), and \(c = 54\). we use the quadratic formula to find the solutions:
+
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\]
+
+plugging in the values:
+
+\[
+x = \frac{21 \pm \sqrt{441 - 216}}{2} = \frac{21 \pm \sqrt{225}}{2} = \frac{21 \pm 15}{2}
+\]
+
+this gives us the two solutions:
+
+\[
+p = \frac{21 + 15}{2} = 18
+\]
+\[
+q = \frac{21 - 15}{2} = 3
+\]
+
+since \(p > q\), we find \(p - q\):
+
+\[
+p - q = 18 - 3 = 15
+\]
+
+thus, the value of \(p - q\) is:
+
+\[
+\boxed{15}
+\]

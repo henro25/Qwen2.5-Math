@@ -1,1 +1,53 @@
-Answer: 
+Answer: Given the conditions:
+
+1. \( a + b + c = 60 \)
+2. \( a - 7 = N \)
+3. \( b + 7 = N \)
+4. \( 7c = N \)
+
+We express \( a \), \( b \), and \( c \) in terms of \( N \):
+
+\[
+a = N + 7, \quad b = N - 7, \quad c = \frac{N}{7}
+\]
+
+Substituting these into the first equation:
+
+\[
+(N + 7) + (N - 7) + \frac{N}{7} = 60
+\]
+
+Simplifying:
+
+\[
+2N + \frac{N}{7} = 60
+\]
+
+Combining terms:
+
+\[
+\frac{14N}{7} + \frac{N}{7} = 60 \quad \Rightarrow \quad \frac{15N}{7} = 60
+\]
+
+Multiplying both sides by 7:
+
+\[
+15N = 420
+\]
+
+Solving for \( N \):
+
+\[
+N = \frac{420}{15} = 28
+\]
+
+Finally, verifying:
+
+\[
+a = 28 + 7 = 35, \quad b = 28 - 7 = 21, \quad c = \frac{28}{7} = 4
+\]
+\[
+a + b + c = 35 + 21 + 4 = 60
+\]
+
+All conditions are satisfied, so the value of \( N \) is **28**.

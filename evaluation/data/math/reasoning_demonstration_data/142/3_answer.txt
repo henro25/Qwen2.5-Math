@@ -1,1 +1,18 @@
-Answer: 
+Answer: To simplify the expression \((r^2 + 3r - 2) - (r^2 + 7r - 5)\), follow these steps:
+
+1. **Distribute the negative sign** to each term in the second polynomial:
+   \[
+   (r^2 + 3r - 2) - (r^2 + 7r - 5) = r^2 + 3r - 2 - r^2 - 7r + 5
+   \]
+
+2. **Combine like terms**:
+   - For \(r^2\) terms: \(r^2 - r^2 = 0\)
+   - For \(r\) terms: \(3r - 7r = -4r\)
+   - For constant terms: \(-2 + 5 = 3\)
+
+3. **Simplified expression**:
+   \[
+   -4r + 3
+   \]
+
+Thus, the simplified form of the expression is \(-4r + 3\).

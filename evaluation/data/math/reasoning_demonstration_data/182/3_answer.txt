@@ -1,1 +1,48 @@
-Answer: 
+Answer: Given points \( a = (8,0,0) \), \( b = (0,-4,0) \), \( c = (0,0,6) \), and \( d = (0,0,0) \), we need to find a point \( p = (x, y, z) \) such that \( ap = bp = cp = dp \).
+
+first, we set up the distance equations:
+
+1. \( ap = \sqrt{(x - 8)^2 + y^2 + z^2} \)
+2. \( bp = \sqrt{x^2 + (y + 4)^2 + z^2} \)
+3. \( cp = \sqrt{x^2 + y^2 + (z - 6)^2} \)
+4. \( dp = \sqrt{x^2 + y^2 + z^2} \)
+
+by setting \( ap = dp \), we get:
+\[ \sqrt{(x - 8)^2 + y^2 + z^2} = \sqrt{x^2 + y^2 + z^2} \]
+squaring both sides:
+\[ (x - 8)^2 + y^2 + z^2 = x^2 + y^2 + z^2 \]
+\[ x^2 - 16x + 64 = x^2 \]
+\[ -16x + 64 = 0 \]
+\[ x = 4 \]
+
+next, setting \( bp = dp \):
+\[ \sqrt{x^2 + (y + 4)^2 + z^2} = \sqrt{x^2 + y^2 + z^2} \]
+squaring both sides:
+\[ x^2 + (y + 4)^2 + z^2 = x^2 + y^2 + z^2 \]
+\[ (y + 4)^2 = y^2 \]
+\[ y^2 + 8y + 16 = y^2 \]
+\[ 8y + 16 = 0 \]
+\[ y = -2 \]
+
+finally, setting \( cp = dp \):
+\[ \sqrt{x^2 + y^2 + (z - 6)^2} = \sqrt{x^2 + y^2 + z^2} \]
+squaring both sides:
+\[ x^2 + y^2 + (z - 6)^2 = x^2 + y^2 + z^2 \]
+\[ (z - 6)^2 = z^2 \]
+\[ z^2 - 12z + 36 = z^2 \]
+\[ -12z + 36 = 0 \]
+\[ z = 3 \]
+
+thus, the point \( p \) is \( (4, -2, 3) \).
+
+to verify, we check the distances:
+\[ ap = \sqrt{(4 - 8)^2 + (-2 - 0)^2 + (3 - 0)^2} = \sqrt{16 + 4 + 9} = \sqrt{29} \]
+\[ bp = \sqrt{(4 - 0)^2 + (-2 + 4)^2 + (3 - 0)^2} = \sqrt{16 + 4 + 9} = \sqrt{29} \]
+\[ cp = \sqrt{(4 - 0)^2 + (-2 - 0)^2 + (3 - 6)^2} = \sqrt{16 + 4 + 9} = \sqrt{29} \]
+\[ dp = \sqrt{(4 - 0)^2 + (-2 - 0)^2 + (3 - 0)^2} = \sqrt{16 + 4 + 9} = \sqrt{29} \]
+
+all distances are equal, confirming that \( p = (4, -2, 3) \) is correct.
+
+\[
+\boxed{(4, -2, 3)}
+\]

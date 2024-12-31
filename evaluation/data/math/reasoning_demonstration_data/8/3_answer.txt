@@ -1,1 +1,13 @@
-Answer: 
+Answer: To determine the number of lattice points on the hyperbola \( x^2 - y^2 = 2000^2 \), we start by factoring the equation as \( (x - y)(x + y) = 2000^2 \). let \( a = x - y \) and \( b = x + y \), so \( a \times b = 2000^2 \). we need to find integer pairs \((a, b)\) such that both \(a\) and \(b\) are even, since \(2000^2\) is divisible by 4.
+
+the prime factorization of \(2000^2\) is \(2^8 \times 5^6\). the number of even divisors of \(2000^2\) is calculated by subtracting the number of odd divisors from the total number of divisors. the total number of divisors is \((8 + 1)(6 + 1) = 63\), and the number of odd divisors is \((0 + 1)(6 + 1) = 7\). thus, the number of even divisors is \(63 - 7 = 56\).
+
+each pair \((a, b)\) corresponds to a unique solution \((x, y)\) in the first quadrant, and we need to consider the symmetry of the hyperbola. for each solution \((x, y)\) in the first quadrant, there are corresponding solutions \((-x, y)\), \((x, -y)\), and \((-x, -y)\), giving us 4 points for each pair \((a, b)\).
+
+the number of distinct pairs \((a, b)\) with \(a < b\) is half the number of even divisors, which is \(\frac{56}{2} = 28\). therefore, the number of lattice points in all quadrants is \(4 \times 28 = 112\).
+
+additionally, there are two points where \(y = 0\), namely \((2000, 0)\) and \((-2000, 0)\), which are not included in the previous count.
+
+thus, the total number of lattice points is \(112 + 2 = 114\).
+
+the final answer is \(\boxed{114}\).

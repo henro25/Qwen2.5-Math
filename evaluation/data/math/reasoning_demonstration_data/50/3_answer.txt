@@ -1,1 +1,17 @@
-Answer: 
+Answer: To solve the problem, we first identify the repeating pattern of marbles: 5 gray, 4 white, and 3 black, which totals 12 marbles per cycle.
+
+1. **Determine the cycle length:**
+   - 5 gray + 4 white + 3 black = 12 marbles per cycle.
+
+2. **Find the position within the cycle:**
+   - Calculate the remainder of 158 divided by 12:
+     \[
+     158 \div 12 = 13 \text{ remainder } 2
+     \]
+   - This means the 158th marble is the 2nd marble in the 14th cycle.
+
+3. **Identify the color based on position within the cycle:**
+   - Positions 1 to 5 in the cycle are gray.
+   - Since the 2nd position is gray, the 158th marble is gray.
+
+**Answer:** The 158th marble is gray.

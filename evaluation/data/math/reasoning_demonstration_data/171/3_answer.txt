@@ -1,1 +1,31 @@
-Answer: 
+Answer: Given that \(\mathbf{v} \times \mathbf{w} = \begin{pmatrix} 5 \\ -2 \\ 4 \end{pmatrix}\), we need to find \((\mathbf{v} + \mathbf{w}) \times (\mathbf{v} + \mathbf{w})\).
+
+first, we use the distributive property of the cross product:
+
+\[
+(\mathbf{v} + \mathbf{w}) \times (\mathbf{v} + \mathbf{w}) = \mathbf{v} \times \mathbf{v} + \mathbf{v} \times \mathbf{w} + \mathbf{w} \times \mathbf{v} + \mathbf{w} \times \mathbf{w}
+\]
+
+we know that the cross product of any vector with itself is zero:
+
+\[
+\mathbf{v} \times \mathbf{v} = \mathbf{0} \quad \text{and} \quad \mathbf{w} \times \mathbf{w} = \mathbf{0}
+\]
+
+also, using the anti-commutative property of the cross product:
+
+\[
+\mathbf{w} \times \mathbf{v} = -(\mathbf{v} \times \mathbf{w})
+\]
+
+substituting these into the expression, we get:
+
+\[
+(\mathbf{v} + \mathbf{w}) \times (\mathbf{v} + \mathbf{w}) = \mathbf{0} + \mathbf{v} \times \mathbf{w} - \mathbf{v} \times \mathbf{w} + \mathbf{0} = \mathbf{0}
+\]
+
+therefore, the final answer is:
+
+\[
+\boxed{\begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}}
+\]

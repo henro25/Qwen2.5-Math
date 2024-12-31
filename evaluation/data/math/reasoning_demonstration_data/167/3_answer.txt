@@ -1,1 +1,37 @@
-Answer: 
+Answer: To compute \( i^{600} + i^{599} + \cdots + i + 1 \), where \( i^2 = -1 \), we can use the periodicity of the powers of \( i \). the powers of \( i \) cycle every four exponents: \( i, -1, -i, 1 \).
+
+given the sum \( s = i^{600} + i^{599} + \cdots + i + 1 \), there are 601 terms. we can group the terms in sets of four, each summing to zero:
+
+\[
+i + (-1) + (-i) + 1 = 0.
+\]
+
+there are 150 complete cycles of four terms, which sum to zero, and one extra term \( i^{600} \):
+
+\[
+i^{600} = (i^4)^{150} = 1^{150} = 1.
+\]
+
+thus, the sum simplifies to:
+
+\[
+s = 0 + 1 = 1.
+\]
+
+alternatively, using the geometric series formula:
+
+\[
+s = \frac{1 - i^{601}}{1 - i}.
+\]
+
+since \( i^{601} = i \):
+
+\[
+s = \frac{1 - i}{1 - i} = 1.
+\]
+
+therefore, the final answer is:
+
+\[
+\boxed{1}
+\]

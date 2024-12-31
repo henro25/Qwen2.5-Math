@@ -1,1 +1,419 @@
-Reasoning: 
+Reasoning: I have this problem here: find the angle, in degrees, between the vectors 
+(
+2
+5
+)
+( 
+2
+5
+​
+ ) and 
+(
+−
+3
+7
+)
+( 
+−3
+7
+​
+ ). okay, so i need to find the angle between two vectors. i remember that there's a formula involving the dot product and the magnitudes of the vectors. let me try to recall that formula.
+
+i think it's something like the cosine of the angle is equal to the dot product of the vectors divided by the product of their magnitudes. yeah, that sounds right. so, mathematically, it should be:
+
+cos
+⁡
+(
+θ
+)
+=
+a
+⋅
+b
+∥
+a
+∥
+⋅
+∥
+b
+∥
+cos(θ)= 
+∥a∥⋅∥b∥
+a⋅b
+​
+ 
+where 
+a
+a and 
+b
+b are the vectors, 
+a
+⋅
+b
+a⋅b is the dot product, and 
+∥
+a
+∥
+∥a∥ and 
+∥
+b
+∥
+∥b∥ are the magnitudes of the vectors.
+
+alright, so first, i need to find the dot product of the two vectors. the vectors are 
+(
+2
+5
+)
+( 
+2
+5
+​
+ ) and 
+(
+−
+3
+7
+)
+( 
+−3
+7
+​
+ ).
+
+the dot product is calculated by multiplying corresponding components and then adding those products together. so:
+
+a
+⋅
+b
+=
+(
+2
+)
+(
+−
+3
+)
++
+(
+5
+)
+(
+7
+)
+=
+(
+−
+6
+)
++
+(
+35
+)
+=
+29
+a⋅b=(2)(−3)+(5)(7)=(−6)+(35)=29
+okay, so the dot product is 29.
+
+next, i need to find the magnitudes of each vector. the magnitude of a vector 
+(
+x
+y
+)
+( 
+x
+y
+​
+ ) is given by:
+
+∥
+a
+∥
+=
+x
+2
++
+y
+2
+∥a∥= 
+x 
+2
+ +y 
+2
+ 
+​
+ 
+so, for the first vector 
+(
+2
+5
+)
+( 
+2
+5
+​
+ ):
+
+∥
+a
+∥
+=
+2
+2
++
+5
+2
+=
+4
++
+25
+=
+29
+∥a∥= 
+2 
+2
+ +5 
+2
+ 
+​
+ = 
+4+25
+​
+ = 
+29
+​
+ 
+and for the second vector 
+(
+−
+3
+7
+)
+( 
+−3
+7
+​
+ ):
+
+∥
+b
+∥
+=
+(
+−
+3
+)
+2
++
+7
+2
+=
+9
++
+49
+=
+58
+∥b∥= 
+(−3) 
+2
+ +7 
+2
+ 
+​
+ = 
+9+49
+​
+ = 
+58
+​
+ 
+now, plugging these back into the formula for the cosine of the angle:
+
+cos
+⁡
+(
+θ
+)
+=
+29
+29
+⋅
+58
+=
+29
+29
+⋅
+58
+cos(θ)= 
+29
+​
+ ⋅ 
+58
+​
+ 
+29
+​
+ = 
+29⋅58
+​
+ 
+29
+​
+ 
+hmm, let's simplify that denominator. 29 times 58... wait, 29 is a factor of 58 since 58 divided by 2 is 29. so, 29 times 58 is 29 times 2 times 29, which is 2 times 29 squared. so:
+
+29
+⋅
+58
+=
+29
+⋅
+2
+⋅
+29
+=
+2
+⋅
+2
+9
+2
+=
+29
+2
+29⋅58
+​
+ = 
+29⋅2⋅29
+​
+ = 
+2⋅29 
+2
+ 
+​
+ =29 
+2
+​
+ 
+so now the expression for cosine is:
+
+cos
+⁡
+(
+θ
+)
+=
+29
+29
+2
+=
+1
+2
+cos(θ)= 
+29 
+2
+​
+ 
+29
+​
+ = 
+2
+​
+ 
+1
+​
+ 
+oh, that's nice! 
+1
+2
+2
+​
+ 
+1
+​
+  is a familiar value for cosine. i know that 
+cos
+⁡
+(
+4
+5
+∘
+)
+=
+1
+2
+cos(45 
+∘
+ )= 
+2
+​
+ 
+1
+​
+ . therefore, the angle 
+θ
+θ is 45 degrees.
+
+wait a second, just to make sure, i should verify if there are any other angles that have the same cosine value. cosine is positive in the first and fourth quadrants, but since we're dealing with vectors in a plane, the angle between them should be between 0 and 180 degrees. and 45 degrees is within that range, so that should be the correct angle.
+
+let me also think about the direction of the vectors to make sure it makes sense. the first vector is 
+(
+2
+5
+)
+( 
+2
+5
+​
+ ), which is in the first quadrant, and the second vector is 
+(
+−
+3
+7
+)
+( 
+−3
+7
+​
+ ), which is in the second quadrant. so, they should form an angle that's not too large, and 45 degrees seems reasonable.
+
+is there another way to check this? maybe by using the arccos function directly on the calculator. if i calculate 
+arccos
+⁡
+(
+1
+2
+)
+arccos( 
+2
+​
+ 
+1
+​
+ ), it should indeed give me 45 degrees. let me confirm that.
+
+using a calculator, 
+arccos
+⁡
+(
+1
+2
+)
+arccos( 
+2
+​
+ 
+1
+​
+ ) is approximately 45 degrees. yep, that matches what i got earlier.
+
+so, i'm confident that the angle between the two vectors is 45 degrees.
+
+**final answer**
+
+4
+5
+∘
+45 
+∘
+ 
+​

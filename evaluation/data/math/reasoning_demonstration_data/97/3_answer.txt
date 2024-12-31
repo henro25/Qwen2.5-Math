@@ -1,1 +1,21 @@
-Answer: 
+Answer: To find how many miles Shari walked, we use the formula:
+
+\[
+\text{Distance} = \text{Speed} \times \text{Time}
+\]
+
+Given:
+- Speed = 3 miles per hour
+- Time = 1.5 hours
+
+Substituting the values:
+
+\[
+\text{Distance} = 3 \, \text{miles/hour} \times 1.5 \, \text{hours} = 4.5 \, \text{miles}
+\]
+
+Since 4.5 is already to the nearest tenth, the answer is:
+
+\[
+\boxed{4.5}
+\]

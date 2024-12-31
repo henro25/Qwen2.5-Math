@@ -1,1 +1,57 @@
-Answer: 
+Answer: Given the points \((0,0)\), \((a,11)\), and \((b,37)\) as vertices of an equilateral triangle, we need to find the value of \(ab\).
+
+first, we use the distance formula to set up the equalities for the sides of the triangle:
+
+1. distance between \((0,0)\) and \((a,11)\):
+\[ d_1 = \sqrt{a^2 + 121} \]
+
+2. distance between \((a,11)\) and \((b,37)\):
+\[ d_2 = \sqrt{(b-a)^2 + 676} \]
+
+3. distance between \((b,37)\) and \((0,0)\):
+\[ d_3 = \sqrt{b^2 + 1369} \]
+
+since the triangle is equilateral, \(d_1 = d_2 = d_3\).
+
+setting \(d_1 = d_2\):
+\[ \sqrt{a^2 + 121} = \sqrt{(b-a)^2 + 676} \]
+squaring both sides:
+\[ a^2 + 121 = (b-a)^2 + 676 \]
+\[ a^2 + 121 = b^2 - 2ab + a^2 + 676 \]
+\[ 121 = b^2 - 2ab + 676 \]
+\[ b^2 - 2ab + 555 = 0 \]
+
+setting \(d_1 = d_3\):
+\[ \sqrt{a^2 + 121} = \sqrt{b^2 + 1369} \]
+squaring both sides:
+\[ a^2 + 121 = b^2 + 1369 \]
+\[ a^2 - b^2 = 1248 \]
+
+we now have the system of equations:
+1. \( b^2 - 2ab + 555 = 0 \)
+2. \( a^2 - b^2 = 1248 \)
+
+from the second equation:
+\[ a^2 = b^2 + 1248 \]
+
+substituting \(a^2\) into the first equation:
+\[ b^2 - 2ab + 555 = 0 \]
+
+using the rotation matrix for 60 degrees:
+\[ b = 0.5a - \frac{11\sqrt{3}}{2} \]
+\[ 37 = \frac{a\sqrt{3}}{2} + 5.5 \]
+\[ 31.5 = \frac{a\sqrt{3}}{2} \]
+\[ 63 = a\sqrt{3} \]
+\[ a = \frac{63}{\sqrt{3}} = 21\sqrt{3} \]
+
+substituting \(a\) back:
+\[ b = 0.5(21\sqrt{3}) - \frac{11\sqrt{3}}{2} \]
+\[ b = \frac{21\sqrt{3}}{2} - \frac{11\sqrt{3}}{2} = 5\sqrt{3} \]
+
+finally, calculating \(ab\):
+\[ ab = (21\sqrt{3})(5\sqrt{3}) = 105 \cdot 3 = 315 \]
+
+therefore, the value of \(ab\) is:
+\[
+\boxed{315}
+\]

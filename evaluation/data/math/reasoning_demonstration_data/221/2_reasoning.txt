@@ -1,1 +1,13 @@
-Reasoning: 
+Reasoning: Alright, let's see here. I've got this equation: 2x + 4 equals the absolute value of negative 17 plus 3. So, I need to find the value of x that makes this equation true.
+
+First off, I should probably simplify the right side of the equation because there's an absolute value involved. Absolute value means the distance from zero on the number line, so it's always going to be a positive number or zero.
+
+So, inside the absolute value, I have -17 plus 3. Let me calculate that: -17 plus 3 is -14. And the absolute value of -14 is 14. So now the equation looks like 2x + 4 equals 14.
+
+Okay, now I need to solve for x. I have 2x + 4 = 14. I should probably isolate x. To do that, I'll start by subtracting 4 from both sides of the equation. So, 2x + 4 - 4 equals 14 - 4, which simplifies to 2x equals 10.
+
+Now, I have 2x equals 10. To get x by itself, I need to divide both sides by 2. So, 2x divided by 2 is x, and 10 divided by 2 is 5. Therefore, x equals 5.
+
+Wait a minute, let me double-check that. If I plug x = 5 back into the original equation, does it hold true? Let's see: 2 times 5 is 10, plus 4 is 14. And the absolute value of -17 plus 3 is indeed 14. So, yeah, that checks out.
+
+I think that's the answer. x equals 5 makes the equation true.

@@ -1,1 +1,9 @@
-Answer: 
+Answer: In a single-elimination tournament, each game eliminates one team. To determine the winner from sixteen teams, fifteen teams must be eliminated. Since each game eliminates one team, the total number of games required is equal to the number of teams minus one.
+
+Thus, for sixteen teams, the number of games needed is:
+
+\[
+16 - 1 = 15
+\]
+
+**Answer:** Fifteen games will be played to determine the winner.

@@ -1,1 +1,33 @@
-Answer: 
+Answer: To find the roots of the quadratic equation \(2x^2 - 5x - 4 = 0\) in the form \(x = \frac{m \pm \sqrt{n}}{p}\), where \(m\), \(n\), and \(p\) are positive integers with a greatest common divisor of 1, we use the quadratic formula:
+
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\]
+
+for the given equation, \(a = 2\), \(b = -5\), and \(c = -4\). plugging these values into the quadratic formula:
+
+\[
+x = \frac{-(-5) \pm \sqrt{(-5)^2 - 4 \cdot 2 \cdot (-4)}}{2 \cdot 2}
+\]
+
+simplifying the expression:
+
+\[
+x = \frac{5 \pm \sqrt{25 - (-32)}}{4}
+\]
+
+\[
+x = \frac{5 \pm \sqrt{25 + 32}}{4}
+\]
+
+\[
+x = \frac{5 \pm \sqrt{57}}{4}
+\]
+
+here, \(m = 5\), \(n = 57\), and \(p = 4\). we check that the greatest common divisor of 5, 57, and 4 is 1, which satisfies the condition.
+
+thus, the value of \(n\) is:
+
+\[
+\boxed{57}
+\]

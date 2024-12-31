@@ -1,1 +1,22 @@
-Answer: 
+Answer: First, we determine the fourth vertex of the rectangle. given vertices are \((5, 11)\), \((16, 11)\), and \((16, -2)\). the fourth vertex is \((5, -2)\), forming a rectangle with vertices at \((5, 11)\), \((16, 11)\), \((16, -2)\), and \((5, -2)\).
+
+next, we analyze the circle given by the equation \((x - 5)^2 + (y + 2)^2 = 9\). this circle is centered at \((5, -2)\) with a radius of 3.
+
+the intersection of the circle and the rectangle is the part of the circle that lies within the bounds of the rectangle. the circle's horizontal range is from \(x = 2\) to \(x = 8\) and vertical range from \(y = -5\) to \(y = 1\). the rectangle's bounds are \(x = 5\) to \(x = 16\) and \(y = -2\) to \(y = 11\).
+
+the overlapping region is the part of the circle where \(x \geq 5\) and \(y \geq -2\), which forms a quarter-circle.
+
+the area of the full circle is:
+\[
+\pi r^2 = \pi \times 3^2 = 9\pi
+\]
+
+the area of the quarter-circle is:
+\[
+\frac{9\pi}{4}
+\]
+
+thus, the area of the intersection is:
+\[
+\boxed{\frac{9\pi}{4}}
+\]

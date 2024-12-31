@@ -1,1 +1,31 @@
-Answer: 
+Answer: Given that \( o \) is the circumcenter and \( h \) is the orthocenter of triangle \( abc \), with the circumradius \( r = 7 \) and the sum of the squares of the side lengths \( a^2 + b^2 + c^2 = 29 \), we need to find \( oh^2 \).
+
+using euler's formula, which states that \( oh^2 = 9r^2 - (a^2 + b^2 + c^2) \), we can substitute the given values:
+
+\[
+oh^2 = 9r^2 - (a^2 + b^2 + c^2)
+\]
+
+substituting \( r = 7 \) and \( a^2 + b^2 + c^2 = 29 \):
+
+\[
+oh^2 = 9 \times 7^2 - 29
+\]
+
+\[
+oh^2 = 9 \times 49 - 29
+\]
+
+\[
+oh^2 = 441 - 29
+\]
+
+\[
+oh^2 = 412
+\]
+
+thus, the final answer is:
+
+\[
+\boxed{412}
+\]

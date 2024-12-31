@@ -1,1 +1,32 @@
-Answer: 
+Answer: First, we analyze the equation:
+
+\[
+\frac{(x+a)(x+b)(x+12)}{(x+3)^2} = 0
+\]
+
+for this equation to have exactly 3 distinct roots, the roots \(x = -a\), \(x = -b\), and \(x = -12\) must be distinct and different from \(x = -3\). this gives us the conditions:
+
+1. \(a \neq b\)
+2. \(a \neq 12\)
+3. \(b \neq 12\)
+4. \(a \neq 3\)
+5. \(b \neq 3\)
+
+next, we analyze the second equation:
+
+\[
+\frac{(x+2a)(x+3)(x+6)}{(x+b)(x+12)} = 0
+\]
+
+for this equation to have exactly 1 distinct root, we consider the roots \(x = -2a\), \(x = -3\), and \(x = -6\), ensuring they are not excluded by the denominator. we find that:
+
+- if \(a = 1.5\) and \(b = 6\), the roots are \(x = -3\) (double root) and \(x = -6\) (excluded), giving one distinct root.
+- if \(a = 3\) and \(b = 3\), this violates \(a \neq b\).
+
+thus, the valid solution is \(a = 1.5\) and \(b = 6\). therefore, we compute:
+
+\[
+100a + b = 100 \times 1.5 + 6 = 150 + 6 = 156
+\]
+
+\boxed{156}

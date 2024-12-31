@@ -1,1 +1,16 @@
-Answer: 
+Answer: Given that \( p \) and \( q \) are inversely proportional, we know that \( p \times q = k \) for some constant \( k \).
+
+first, we find \( k \) using the given values \( p = 25 \) and \( q = 6 \):
+\[
+25 \times 6 = k \implies k = 150
+\]
+
+next, we use this constant \( k \) to find \( p \) when \( q = 15 \):
+\[
+p \times 15 = 150 \implies p = \frac{150}{15} = 10
+\]
+
+thus, the value of \( p \) when \( q = 15 \) is:
+\[
+\boxed{10}
+\]

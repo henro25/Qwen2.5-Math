@@ -1,1 +1,67 @@
-Reasoning: 
+Reasoning: So i have this problem here: a gasoline tank is 7/8 full. after 12 gallons have been used, it's half full. i need to find out how many gallons the tank holds when it's full. hmm, okay, let's see.
+
+first, i need to understand what's being asked. there's a tank that's 7/8 full initially, and then 12 gallons are used, and after that, it's half full. so, the difference between 7/8 full and half full is 12 gallons. that makes sense.
+
+maybe i can set up an equation to represent this situation. let's let x be the total capacity of the tank in gallons when it's full. then, 7/8 of x is the initial amount of gasoline in the tank, and after using 12 gallons, the amount left is half of x.
+
+so, mathematically, that would be:
+
+(7/8)x - 12 = (1/2)x
+
+okay, now i need to solve for x. i can start by getting all the x terms on one side and the constants on the other side. let's subtract (1/2)x from both sides:
+
+(7/8)x - (1/2)x - 12 = 0
+
+wait, actually, it's better to bring like terms together. so, let's subtract (1/2)x from both sides:
+
+(7/8)x - (1/2)x = 12
+
+now, i need to combine the x terms. to do that, i should have a common denominator for the fractions. the denominators are 8 and 2, so the least common denominator is 8.
+
+so, (7/8)x - (4/8)x = 12
+
+that simplifies to:
+
+(3/8)x = 12
+
+now, to solve for x, i can multiply both sides by the reciprocal of 3/8, which is 8/3.
+
+x = 12 * (8/3)
+
+let me calculate that: 12 divided by 3 is 4, and 4 times 8 is 32.
+
+so, x = 32 gallons.
+
+wait a minute, let me check if this makes sense. if the tank holds 32 gallons when full, then 7/8 of that is:
+
+7/8 * 32 = (7 * 32)/8 = (224)/8 = 28 gallons.
+
+after using 12 gallons, the remaining is 28 - 12 = 16 gallons.
+
+and half of 32 gallons is indeed 16 gallons. so, it checks out.
+
+alternatively, i can approach this problem by finding the difference between 7/8 and 1/2 of the tank's capacity, which should equal the 12 gallons used.
+
+so, difference in fractions: 7/8 - 1/2 = ?
+
+again, find a common denominator, which is 8:
+
+7/8 - 4/8 = 3/8
+
+so, 3/8 of the tank's capacity is 12 gallons.
+
+therefore, (3/8)x = 12
+
+solving for x:
+
+x = 12 * (8/3) = 32 gallons.
+
+same answer as before. good, it's consistent.
+
+i think that's the correct answer.
+
+**final answer**
+
+32
+32
+​

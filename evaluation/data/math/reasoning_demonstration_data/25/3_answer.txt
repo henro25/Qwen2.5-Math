@@ -1,1 +1,25 @@
-Answer: 
+Answer: To find the area of the circular base of the fountain, we start by noting that the repair crew places a 16-foot plank from \( a \) to \( b \) and a 10-foot plank from \( d \) to \( c \), where \( d \) is the midpoint of \( \overline{ab} \). this forms a right-angled triangle \( \triangle cda \) with \( cd = 10 \) feet, \( ad = 8 \) feet, and \( ca = r \) (the radius of the circle).
+
+using the pythagorean theorem in \( \triangle cda \):
+
+\[
+r^2 = cd^2 + ad^2
+\]
+
+substituting the given values:
+
+\[
+r^2 = 10^2 + 8^2 = 100 + 64 = 164
+\]
+
+thus, the area of the circular base is:
+
+\[
+\pi r^2 = \pi \times 164 = 164\pi
+\]
+
+therefore, the area of the circular base of the fountain is:
+
+\[
+\boxed{164\pi}
+\]

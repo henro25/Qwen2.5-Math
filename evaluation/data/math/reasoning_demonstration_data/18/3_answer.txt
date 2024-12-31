@@ -1,1 +1,20 @@
-Answer: 
+Answer: The value of $\sqrt{3^3 + 3^3 + 3^3}$ is 9.
+
+**Step-by-Step Explanation:**
+
+1. **Calculate $3^3$:**
+   \[
+   3^3 = 3 \times 3 \times 3 = 27
+   \]
+
+2. **Sum the three $3^3$ terms:**
+   \[
+   3^3 + 3^3 + 3^3 = 27 + 27 + 27 = 81
+   \]
+
+3. **Find the square root of 81:**
+   \[
+   \sqrt{81} = 9
+   \]
+
+**Answer:** 9

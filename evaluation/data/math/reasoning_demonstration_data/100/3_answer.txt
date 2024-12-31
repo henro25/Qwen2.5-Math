@@ -1,1 +1,15 @@
-Answer: 
+Answer: To solve the problem, we can use the concept of proportion based on the map's scale.
+
+1. **Determine the scale in kilometers per centimeter:**
+   - Given that 12 cm represents 72 km, we calculate the distance per centimeter:
+   \[
+   \frac{72 \text{ km}}{12 \text{ cm}} = 6 \text{ km/cm}
+   \]
+
+2. **Find the distance represented by 17 cm:**
+   - Multiply the scale by 17 cm:
+   \[
+   17 \text{ cm} \times 6 \text{ km/cm} = 102 \text{ km}
+   \]
+
+**Answer:** A 17-centimeter length on the map represents 102 kilometers.

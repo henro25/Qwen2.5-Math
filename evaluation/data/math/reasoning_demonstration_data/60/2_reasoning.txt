@@ -1,1 +1,57 @@
 Reasoning: 
+I've got this problem here: i need to find the length of a parametric curve defined by (x, y) = (2 sin t, 2 cos t) from t = 0 to t = π. hmm, parametric curves can be a bit tricky, but i think i can handle this. let's see.
+
+first, i remember that to find the length of a parametric curve, there's a formula involving integrals. i think it's something like the integral from t = a to t = b of the square root of (dx/dt)^2 + (dy/dt)^2 dt. yeah, that sounds right.
+
+so, let's write that down. the formula for the length l of a parametric curve defined by x = f(t) and y = g(t) from t = a to t = b is:
+
+l = ∫ from a to b of √[(dx/dt)^2 + (dy/dt)^2] dt.
+
+alright, in this problem, x = 2 sin t and y = 2 cos t, and t goes from 0 to π. so, i need to find dx/dt and dy/dt.
+
+let's compute dx/dt first. if x = 2 sin t, then dx/dt = 2 cos t. got that.
+
+next, dy/dt. if y = 2 cos t, then dy/dt = -2 sin t. okay, that's straightforward.
+
+now, i need to square both of these derivatives and add them up:
+
+(dx/dt)^2 + (dy/dt)^2 = (2 cos t)^2 + (-2 sin t)^2 = 4 cos² t + 4 sin² t.
+
+i can factor out the 4:
+
+4 (cos² t + sin² t).
+
+and i remember that cos² t + sin² t = 1, from the pythagorean identity. so, this simplifies to:
+
+4 * 1 = 4.
+
+so, the integrand simplifies nicely to √4, which is 2.
+
+therefore, the length l is the integral from t = 0 to t = π of 2 dt.
+
+that's pretty simple to integrate. the integral of 2 dt is 2t, evaluated from 0 to π.
+
+so, l = 2π - 2*0 = 2π - 0 = 2π.
+
+wait a minute, is that right? let me double-check.
+
+i have x = 2 sin t and y = 2 cos t. if i think about this, these are parametric equations for a circle of radius 2, but only from t = 0 to t = π, which should be half the circumference of the circle.
+
+the full circumference of a circle with radius r is 2πr, so half of that would be πr. in this case, r = 2, so half the circumference should be π*2 = 2π. that matches what i got from the integral.
+
+but just to be thorough, let me consider if there's any mistake in assuming the path is a semicircle.
+
+if i plot x = 2 sin t and y = 2 cos t for t from 0 to π, when t = 0, x = 0, y = 2; when t = π/2, x = 2, y = 0; and when t = π, x = 0, y = -2. so, it does trace a semicircle from (0,2) to (0,-2), passing through (2,0). that makes sense.
+
+alternatively, i could parameterize the circle differently, but this seems correct.
+
+so, the length should indeed be 2π.
+
+i don't think there are any mistakes in this calculation. it seems straightforward, and the verification matches up.
+
+**final answer**
+
+2
+π
+2π
+​

@@ -1,1 +1,42 @@
-Answer: 
+Answer: To determine the least number of froods for which dropping them earns more points than eating them, we compare the two scoring methods:
+
+- Dropping $n$ froods scores the sum of the first $n$ positive integers, which is given by the formula $\frac{n(n+1)}{2}$.
+- Eating $n$ froods earns $10n$ points.
+
+We need to find the smallest $n$ such that dropping froods earns more points than eating them, i.e.,
+
+\[
+\frac{n(n+1)}{2} > 10n.
+\]
+
+Multiplying both sides by 2 to eliminate the fraction:
+
+\[
+n(n+1) > 20n.
+\]
+
+Expanding and simplifying:
+
+\[
+n^2 + n > 20n \quad \Rightarrow \quad n^2 - 19n > 0.
+\]
+
+Factoring:
+
+\[
+n(n - 19) > 0.
+\]
+
+This inequality holds when $n > 19$. Since $n$ must be a positive integer, we check $n = 19$ and $n = 20$:
+
+- For $n = 19$: 
+  - Dropping: $\frac{19 \times 20}{2} = 190$ points.
+  - Eating: $10 \times 19 = 190$ points.
+  - Dropping and eating give the same score, so $n = 19$ is not sufficient.
+
+- For $n = 20$:
+  - Dropping: $\frac{20 \times 21}{2} = 210$ points.
+  - Eating: $10 \times 20 = 200$ points.
+  - Dropping gives more points than eating.
+
+Thus, the least number of froods for which dropping them earns more points than eating them is $20$.
