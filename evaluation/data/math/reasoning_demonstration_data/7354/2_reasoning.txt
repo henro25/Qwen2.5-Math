@@ -1,1 +1,95 @@
-Reasoning: 
+Reasoning: So i've got this problem here: there are three points, (1,7), (13,16), and (5,k), and i need to find the sum of the integer values of k that make the area of the triangle formed by these points as small as possible.
+
+first off, i need to recall how to find the area of a triangle given three points. i think there's a formula for that. let me see... oh yeah, i can use the shoelace formula. it goes like this:
+
+area = |(x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2))/2|
+
+so, plugging in the points (1,7), (13,16), and (5,k), i get:
+
+area = |(1*(16 - k) + 13*(k - 7) + 5*(7 - 16))/2|
+
+let me simplify that step by step. first, calculate each part inside the absolute value:
+
+1*(16 - k) = 16 - k
+
+13*(k - 7) = 13k - 91
+
+5*(7 - 16) = 5*(-9) = -45
+
+so, adding them up: (16 - k) + (13k - 91) + (-45) = 16 - k + 13k - 91 - 45
+
+combining like terms: ( -k + 13k ) + (16 - 91 - 45) = 12k - 120
+
+so, the area is |12k - 120| / 2 = |6k - 60|
+
+hmm, interesting. so the area is |6k - 60|.
+
+i need to minimize this area. since it's an absolute value, the smallest it can be is zero. so, the minimum area is zero, which happens when |6k - 60| = 0.
+
+solving for k: 6k - 60 = 0 → 6k = 60 → k = 10
+
+but wait, the problem says "where k is an integer", and it asks for the sum of the values of k for which the area is a minimum.
+
+so, if the minimum area is zero, and that occurs only when k=10, then the sum should just be 10, right?
+
+but maybe i need to consider if there are other integer values of k that make the area very small, not necessarily zero. maybe there are values around k=10 that give very small areas.
+
+let me think about this. the area is |6k - 60|, which is minimized when 6k - 60 is as close to zero as possible. since k is an integer, the closest values to k=10 are k=10 itself. if k=9, area=|54 - 60|=6, and if k=11, area=|66 - 60|=6.
+
+so, the minimal area is zero when k=10, and the next smallest area is 6 when k=9 or k=11.
+
+therefore, the only integer value of k that gives the minimum area (which is zero) is k=10.
+
+but wait, maybe the problem is considering the minimal positive area, not including zero. maybe the triangle can't have zero area.
+
+let me check. if k=10, do the three points lie on a straight line? let's see.
+
+calculate the slope between (1,7) and (13,16): m = (16 - 7)/(13 - 1) = 9/12 = 3/4
+
+now, the slope between (1,7) and (5,10): m = (10 - 7)/(5 - 1) = 3/4
+
+same slope, so yes, they are colinear when k=10, meaning the area is zero.
+
+but in terms of a triangle, if the area is zero, it's degenerate, meaning it doesn't form a proper triangle.
+
+so, perhaps the problem is considering only non-degenerate triangles, meaning area greater than zero.
+
+if that's the case, then the minimal area would be when k=9 or k=11, both giving an area of 6.
+
+so, the integer values of k that give the smallest positive area are k=9 and k=11.
+
+therefore, their sum is 9 + 11 = 20.
+
+wait a minute, but the problem says "the area of the triangle is a minimum". it doesn't specify to exclude zero.
+
+so, maybe it's acceptable to include k=10, even though it gives zero area.
+
+in that case, the sum would be 10.
+
+but to be thorough, maybe i should check what the problem expects.
+
+looking back, it says "the points (1,7), (13,16), and (5,k), where k is an integer, are vertices of a triangle. what is the sum of the values of k for which the area of the triangle is a minimum?"
+
+the word "triangle" implies three non-colinear points, so area greater than zero.
+
+therefore, k=10 might not be acceptable, and the minimal area is 6, achieved at k=9 and k=11.
+
+hence, their sum is 20.
+
+alternatively, if considering degenerate triangles, the sum is 10.
+
+i need to decide which interpretation is correct.
+
+looking up the definition, a triangle is typically defined by three non-colinear points, so area must be positive.
+
+therefore, k=10 is excluded, and the minimal area is achieved at k=9 and k=11.
+
+thus, the sum is 20.
+
+so, the answer should be \boxed{20}
+
+**final answer**
+
+20
+​	
+ 

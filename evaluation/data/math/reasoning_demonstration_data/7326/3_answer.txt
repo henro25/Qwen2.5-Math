@@ -1,1 +1,68 @@
-Answer: 
+Answer: Given \( x \) and \( y \) are positive real numbers such that \( x + y = 10 \), we need to find the minimum value of \( \frac{1}{x} + \frac{1}{y} \).
+
+first, express \( y \) in terms of \( x \): \( y = 10 - x \). then, the expression becomes:
+\[
+\frac{1}{x} + \frac{1}{10 - x}
+\]
+
+to find the minimum, we take the derivative and set it to zero:
+\[
+f(x) = \frac{1}{x} + \frac{1}{10 - x}
+\]
+\[
+f'(x) = -\frac{1}{x^2} + \frac{1}{(10 - x)^2}
+\]
+\[
+-\frac{1}{x^2} + \frac{1}{(10 - x)^2} = 0
+\]
+\[
+\frac{1}{(10 - x)^2} = \frac{1}{x^2}
+\]
+\[
+(10 - x)^2 = x^2
+\]
+\[
+100 - 20x + x^2 = x^2
+\]
+\[
+100 - 20x = 0
+\]
+\[
+x = 5
+\]
+thus, \( y = 10 - x = 5 \).
+
+substituting \( x = 5 \) and \( y = 5 \) back into the expression:
+\[
+\frac{1}{5} + \frac{1}{5} = \frac{2}{5}
+\]
+
+to confirm this is a minimum, we check the second derivative:
+\[
+f''(x) = \frac{2}{x^3} + \frac{2}{(10 - x)^3}
+\]
+at \( x = 5 \):
+\[
+f''(5) = \frac{2}{125} + \frac{2}{125} = \frac{4}{125} > 0
+\]
+this confirms a local minimum.
+
+alternatively, using the am-hm inequality:
+\[
+\frac{x + y}{2} \geq \frac{2}{\frac{1}{x} + \frac{1}{y}}
+\]
+\[
+5 \geq \frac{2}{\frac{1}{x} + \frac{1}{y}}
+\]
+\[
+\frac{1}{5} \leq \frac{\frac{1}{x} + \frac{1}{y}}{2}
+\]
+\[
+\frac{2}{5} \leq \frac{1}{x} + \frac{1}{y}
+\]
+equality holds when \( x = y = 5 \).
+
+thus, the minimum value of \( \frac{1}{x} + \frac{1}{y} \) is:
+\[
+\boxed{\frac{2}{5}}
+\]

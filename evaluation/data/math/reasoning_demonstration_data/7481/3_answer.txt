@@ -1,1 +1,36 @@
-Answer: 
+Answer: To find the smallest possible class size, we set the number of students in three rows as \( x \), and the fourth row has \( x + 1 \) students. The total number of students is then:
+
+\[
+3x + (x + 1) = 4x + 1
+\]
+
+Since the class has over 30 students, we solve the inequality:
+
+\[
+4x + 1 > 30
+\]
+
+Subtracting 1 from both sides:
+
+\[
+4x > 29
+\]
+
+Dividing by 4:
+
+\[
+x > 7.25
+\]
+
+Since \( x \) must be an integer, the smallest possible value for \( x \) is 8. Substituting \( x = 8 \):
+
+- Three rows have 8 students each.
+- One row has 9 students.
+
+The total number of students is:
+
+\[
+3(8) + 9 = 24 + 9 = 33
+\]
+
+Thus, the smallest possible class size is **33** students.

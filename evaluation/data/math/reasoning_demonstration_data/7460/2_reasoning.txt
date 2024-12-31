@@ -1,1 +1,25 @@
-Reasoning: 
+Reasoning: Alright, so I've got this math problem here: evaluate the expression a squared times a to the fifth power, and I'm told that a equals 3. Okay, let's see. I've learned a bit about exponents in class, but I'm not totally confident about all the rules. So, I need to find a^2 multiplied by a^5, and then plug in a=3.
+
+First, I should probably recall what a^2 and a^5 mean. a^2 is a multiplied by itself once, so a times a. Similarly, a^5 is a multiplied by itself four more times, so a times a times a times a times a. So, if I write it out, a^2 is a*a and a^5 is a*a*a*a*a.
+
+Now, if I multiply a^2 by a^5, that would be (a*a) * (a*a*a*a*a). So, that's a total of 2 a's multiplied by 5 a's, which should be 7 a's multiplied together. So, a^2 * a^5 equals a^(2+5), which is a^7. Is that right? Wait, I think that's one of the exponent rules: when you multiply like bases, you add the exponents.
+
+So, if I have a^m times a^n, that equals a^(m+n). Yeah, that sounds familiar from class. So, applying that here, a^2 * a^5 should be a^(2+5), which is a^7.
+
+Now that I have a^7, and I know that a equals 3, I can substitute 3 in for a. So, 3^7. I need to calculate 3 raised to the 7th power.
+
+Let me think about how to calculate 3^7. Well, 3^1 is 3. 3^2 is 9. 3^3 is 27. 3^4 is 81. 3^5 is 243. 3^6 is 729. And 3^7 is 2187. So, 3^7 is 2187.
+
+Wait, let me double-check that. 3^1 is 3. 3^2 is 3*3=9. 3^3 is 9*3=27. 3^4 is 27*3=81. 3^5 is 81*3=243. 3^6 is 243*3=729. And 3^7 is 729*3=2187. Yeah, that seems correct.
+
+So, putting it all together, a^2 * a^5 equals a^7, and when a is 3, that's 3^7, which is 2187.
+
+I think that's the answer. But let me see if there's another way to approach this, just to be sure.
+
+Another way could be to first calculate a^2 and a^5 separately and then multiply them. So, if a=3, then a^2 is 3^2, which is 9, and a^5 is 3^5, which is 243. Then, multiplying 9 and 243 should give me the same result.
+
+Let me do that multiplication: 9 times 243. Well, 9 times 200 is 1800, and 9 times 43 is 387. Adding those together, 1800 plus 387 equals 2187. So, that matches what I got earlier.
+
+Great, so both methods give me 2187. That makes me more confident that 2187 is the correct answer.
+
+I guess I'm done here. The expression evaluates to 2187 when a is 3.

@@ -1,1 +1,35 @@
-Answer: 
+Answer: Given \( x = 2001^{1002} - 2001^{-1002} \) and \( y = 2001^{1002} + 2001^{-1002} \), we need to find \( x^2 - y^2 \).
+
+first, we recognize that \( x^2 - y^2 \) is a difference of squares, which can be factored as:
+
+\[
+x^2 - y^2 = (x - y)(x + y)
+\]
+
+next, we compute \( x - y \) and \( x + y \):
+
+\[
+x - y = (2001^{1002} - 2001^{-1002}) - (2001^{1002} + 2001^{-1002}) = -2 \cdot 2001^{-1002}
+\]
+
+\[
+x + y = (2001^{1002} - 2001^{-1002}) + (2001^{1002} + 2001^{-1002}) = 2 \cdot 2001^{1002}
+\]
+
+thus,
+
+\[
+x^2 - y^2 = (-2 \cdot 2001^{-1002}) \cdot (2 \cdot 2001^{1002}) = -4 \cdot 2001^{-1002} \cdot 2001^{1002}
+\]
+
+since \( 2001^{-1002} \cdot 2001^{1002} = 2001^0 = 1 \), we have:
+
+\[
+x^2 - y^2 = -4 \cdot 1 = -4
+\]
+
+therefore, the final answer is:
+
+\[
+\boxed{-4}
+\]

@@ -1,1 +1,214 @@
-Reasoning: 
+Reasoning: So i've got this problem here. it says that the vectors a, b, and c are mutually orthogonal, which means each pair of them is perpendicular to each other. that should be useful because i know that if vectors are orthogonal, their dot product is zero.
+
+the vectors are:
+
+a = [1, 1, 1]
+
+b = [2, -3, 1]
+
+c = [4, 1, -5]
+
+and i need to find scalars p, q, and r such that:
+
+[-4, 7, 3] = p*a + q*b + r*c
+
+okay, since a, b, and c are mutually orthogonal, i can use the property of dot products to find p, q, and r individually. because if two vectors are orthogonal, their dot product is zero, which should simplify things.
+
+first, i should verify that a, b, and c are indeed mutually orthogonal. that means:
+
+a · b = 0
+
+a · c = 0
+
+b · c = 0
+
+let me check that.
+
+a · b = (1)(2) + (1)(-3) + (1)(1) = 2 - 3 + 1 = 0
+
+a · c = (1)(4) + (1)(1) + (1)(-5) = 4 + 1 - 5 = 0
+
+b · c = (2)(4) + (-3)(1) + (1)(-5) = 8 - 3 - 5 = 0
+
+yes, they are mutually orthogonal. great.
+
+now, since they are orthogonal, the coefficients p, q, and r can be found by taking the dot product of both sides of the equation with each of the vectors a, b, and c respectively.
+
+let's see:
+
+starting with the equation:
+
+[-4, 7, 3] = p*a + q*b + r*c
+
+let's take the dot product of both sides with a:
+
+[-4, 7, 3] · a = p*(a · a) + q*(b · a) + r*(c · a)
+
+but since b and c are orthogonal to a, their dot products with a are zero.
+
+so:
+
+[-4, 7, 3] · a = p*(a · a) + 0 + 0
+
+therefore:
+
+p = ([ -4, 7, 3 ] · a) / (a · a)
+
+let's compute that.
+
+first, compute a · a:
+
+a · a = (1)^2 + (1)^2 + (1)^2 = 1 + 1 + 1 = 3
+
+then, [-4, 7, 3] · a = (-4)(1) + (7)(1) + (3)(1) = -4 + 7 + 3 = 6
+
+so p = 6 / 3 = 2
+
+okay, got p = 2
+
+now, let's do the same for q by taking the dot product with b.
+
+[-4, 7, 3] · b = p*(a · b) + q*(b · b) + r*(c · b)
+
+again, a and c are orthogonal to b, so a · b = 0 and c · b = 0
+
+thus:
+
+[-4, 7, 3] · b = q*(b · b)
+
+therefore:
+
+q = ([ -4, 7, 3 ] · b) / (b · b)
+
+compute b · b:
+
+b · b = (2)^2 + (-3)^2 + (1)^2 = 4 + 9 + 1 = 14
+
+then, [-4, 7, 3] · b = (-4)(2) + (7)(-3) + (3)(1) = -8 -21 + 3 = -26
+
+so q = -26 / 14
+
+wait, can that be simplified?
+
+-26 divided by 14 is -13/7
+
+so q = -13/7
+
+hmm, that seems a bit messy, but maybe it's correct.
+
+now, for r, take the dot product with c.
+
+[-4, 7, 3] · c = p*(a · c) + q*(b · c) + r*(c · c)
+
+again, a and b are orthogonal to c, so a · c = 0 and b · c = 0
+
+thus:
+
+[-4, 7, 3] · c = r*(c · c)
+
+therefore:
+
+r = ([ -4, 7, 3 ] · c) / (c · c)
+
+compute c · c:
+
+c · c = (4)^2 + (1)^2 + (-5)^2 = 16 + 1 + 25 = 42
+
+then, [-4, 7, 3] · c = (-4)(4) + (7)(1) + (3)(-5) = -16 + 7 -15 = -24
+
+so r = -24 / 42 = -12/21 = -4/7
+
+wait, that's further simplifying.
+
+so r = -4/7
+
+alright, so summarizing:
+
+p = 2
+
+q = -13/7
+
+r = -4/7
+
+but let me check if this makes sense.
+
+let me plug these back into the original equation and see if it holds.
+
+compute p*a + q*b + r*c:
+
+p*a = 2*[1,1,1] = [2,2,2]
+
+q*b = (-13/7)*[2,-3,1] = [(-26)/7, 39/7, -13/7]
+
+r*c = (-4/7)*[4,1,-5] = [(-16)/7, -4/7, 20/7]
+
+now, add them up:
+
+[2 + (-26/7) + (-16/7), 2 + 39/7 + (-4/7), 2 + (-13/7) + 20/7]
+
+first component:
+
+2 + (-26/7) + (-16/7) = 2 + (-42/7) = 2 - 6 = -4
+
+second component:
+
+2 + 39/7 - 4/7 = 2 + 35/7 = 2 + 5 = 7
+
+third component:
+
+2 + (-13/7) + 20/7 = 2 + 7/7 = 2 + 1 = 3
+
+yes, it matches [-4,7,3], so the values of p, q, and r are correct.
+
+but just to be thorough, i should make sure that i didn't make any calculation errors.
+
+let's double-check the dot products and the divisions.
+
+first, a · a = 1+1+1=3
+
+[-4,7,3] · a = -4 + 7 + 3 = 6
+
+p = 6/3 = 2, correct.
+
+b · b = 4 + 9 + 1 = 14
+
+[-4,7,3] · b = (-8) + (-21) + 3 = -26
+
+q = -26 / 14 = -13/7, correct.
+
+c · c = 16 + 1 + 25 = 42
+
+[-4,7,3] · c = -16 + 7 -15 = -24
+
+r = -24 / 42 = -12/21 = -4/7, correct.
+
+looks good. so the ordered triple is (2, -13/7, -4/7)
+
+i can leave it like that, or maybe write it with common denominators or something, but i think fractions are fine.
+
+**final answer**
+
+(
+2
+,
+ 
+−
+13
+7
+,
+ 
+−
+4
+7
+)
+(2, − 
+7
+13
+​	
+ , − 
+7
+4
+​	
+ )
+​	
+ 

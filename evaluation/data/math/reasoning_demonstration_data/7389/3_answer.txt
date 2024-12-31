@@ -1,1 +1,63 @@
-Answer: 
+Answer: Given the five statements involving real numbers \(a\) and \(b\):
+
+1. \(\frac{1}{a} < \frac{1}{b}\)
+2. \(a^2 > b^2\)
+3. \(a < b\)
+4. \(a < 0\)
+5. \(b < 0\)
+
+we need to determine the maximum number of these statements that can be true simultaneously.
+
+### case analysis
+
+**case 1: both \(a\) and \(b\) are negative**
+
+- if \(a < b < 0\), then:
+  - \(a^2 > b^2\) (true)
+  - \(a < b\) (true)
+  - \(a < 0\) (true)
+  - \(b < 0\) (true)
+  - \(\frac{1}{a} < \frac{1}{b}\) (false, since \(\frac{1}{a}\) is closer to zero than \(\frac{1}{b}\))
+
+thus, statements 2, 3, 4, and 5 are true, but statement 1 is false.
+
+**case 2: \(a\) is negative, \(b\) is positive**
+
+- if \(a < 0\) and \(b > 0\), then:
+  - \(\frac{1}{a} < \frac{1}{b}\) (true, since \(\frac{1}{a}\) is negative and \(\frac{1}{b}\) is positive)
+  - \(a^2 > b^2\) (true if \(|a| > |b|\))
+  - \(a < b\) (true)
+  - \(a < 0\) (true)
+  - \(b < 0\) (false)
+
+thus, statements 1, 2, 3, and 4 are true, but statement 5 is false.
+
+**case 3: \(a\) is positive, \(b\) is negative**
+
+- if \(a > 0\) and \(b < 0\), then:
+  - \(\frac{1}{a} < \frac{1}{b}\) (false, since \(\frac{1}{a}\) is positive and \(\frac{1}{b}\) is negative)
+  - \(a^2 > b^2\) (true if \(|a| > |b|\))
+  - \(a < b\) (false)
+  - \(a < 0\) (false)
+  - \(b < 0\) (true)
+
+thus, only statements 2 and 5 can be true.
+
+**case 4: both \(a\) and \(b\) are positive**
+
+- if \(a > 0\) and \(b > 0\), then:
+  - \(\frac{1}{a} < \frac{1}{b}\) (true if \(a > b\))
+  - \(a^2 > b^2\) (true if \(a > b\))
+  - \(a < b\) (false if \(a > b\))
+  - \(a < 0\) (false)
+  - \(b < 0\) (false)
+
+thus, at most statements 1 and 2 can be true.
+
+### conclusion
+
+the maximum number of statements that can be true simultaneously is four, which occurs in both case 1 and case 2.
+
+\[
+\boxed{4}
+\]

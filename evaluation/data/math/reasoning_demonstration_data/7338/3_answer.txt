@@ -1,1 +1,13 @@
-Answer: 
+Answer: The mean value of the measures of the three interior angles of any triangle is 60 degrees.
+
+**Step-by-Step Explanation:**
+
+1. **Sum of Interior Angles:** In any triangle, the sum of the three interior angles is always 180 degrees.
+
+2. **Mean Calculation:** To find the mean (average) of the three angles, divide the sum of the angles by 3.
+
+   \[
+   \text{Mean} = \frac{\text{Sum of Angles}}{3} = \frac{180^\circ}{3} = 60^\circ
+   \]
+
+3. **Conclusion:** The mean value of the measures of the three interior angles of any triangle is 60 degrees.

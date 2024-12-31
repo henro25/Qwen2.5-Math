@@ -1,1 +1,35 @@
-Answer: 
+Answer: We are given that rows seat either 7 or 8 people, and 46 people are to be seated with every seat occupied. We need to determine how many rows seat exactly 8 people.
+
+Let:
+- \( x \) = number of rows with 7 seats
+- \( y \) = number of rows with 8 seats
+
+The total number of seats is:
+\[
+7x + 8y = 46
+\]
+
+We need integer solutions for \( x \) and \( y \). Solving for \( x \):
+\[
+x = \frac{46 - 8y}{7}
+\]
+
+For \( x \) to be an integer, \( 46 - 8y \) must be divisible by 7. Using modular arithmetic:
+\[
+46 \equiv 4 \pmod{7}, \quad 8y \equiv y \pmod{7}
+\]
+\[
+4 - y \equiv 0 \pmod{7} \quad \Rightarrow \quad y \equiv 4 \pmod{7}
+\]
+
+Thus, \( y = 4 \) is the smallest non-negative integer solution. Substituting \( y = 4 \) back into the equation:
+\[
+x = \frac{46 - 8(4)}{7} = \frac{14}{7} = 2
+\]
+
+Verification:
+\[
+7(2) + 8(4) = 14 + 32 = 46
+\]
+
+Therefore, there are **4 rows** that seat exactly 8 people.

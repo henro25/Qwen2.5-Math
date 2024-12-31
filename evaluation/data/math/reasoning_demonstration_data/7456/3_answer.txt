@@ -1,1 +1,31 @@
-Answer: 
+Answer: To find the unique two-digit positive integer \( t \) such that the last two digits of \( 11 \times t \) are 36, we start with the congruence:
+
+\[ 11t \equiv 36 \pmod{100} \]
+
+since \( 11 \) and \( 100 \) are coprime, the multiplicative inverse of 11 modulo 100 exists. using the extended euclidean algorithm, we find:
+
+\[ 100 = 9 \times 11 + 1 \]
+\[ 1 = 100 - 9 \times 11 \]
+
+thus, the inverse of 11 modulo 100 is \( -9 \), which is equivalent to 91 modulo 100. therefore, we have:
+
+\[ t \equiv 36 \times 91 \pmod{100} \]
+
+calculating \( 36 \times 91 \):
+
+\[ 36 \times 91 = 3276 \]
+\[ 3276 \pmod{100} = 76 \]
+
+so, \( t \equiv 76 \pmod{100} \). since \( t \) is a two-digit number, \( t = 76 \).
+
+to verify, we check:
+
+\[ 11 \times 76 = 836 \]
+
+the last two digits of 836 are indeed 36, confirming that \( t = 76 \) is correct.
+
+thus, the unique two-digit positive integer \( t \) is:
+
+\[
+\boxed{76}
+\]

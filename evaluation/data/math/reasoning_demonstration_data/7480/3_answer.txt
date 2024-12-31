@@ -1,1 +1,10 @@
-Answer: 
+Answer: The two largest one-digit primes are 7 and 5, and the largest two-digit prime is 97. To find their product:
+
+\[
+7 \times 5 = 35
+\]
+\[
+35 \times 97 = 3395
+\]
+
+Thus, the product of the two largest one-digit primes and the largest two-digit prime is **3395**.

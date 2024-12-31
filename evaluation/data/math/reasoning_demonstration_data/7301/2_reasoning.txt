@@ -1,1 +1,23 @@
-Reasoning: 
+Reasoning: Alright, so I've got this problem here about a stack of logs. It says there are 12 logs on the bottom row, and each row above has one less log than the row below it, ending with three logs at the top. I need to find out how many logs are in the entire stack.
+
+Okay, let me try to visualize this. The bottom row has 12 logs. The next row up has one less, so that's 11 logs. Then 10, and so on, until the top row has three logs. So it's like a decreasing sequence: 12, 11, 10, ..., down to 3.
+
+I think this is an arithmetic sequence because each term decreases by the same amount, which is one log each time. To find the total number of logs, I need to find the sum of this sequence.
+
+First, I need to figure out how many rows there are. I know the bottom row is 12 and the top is 3, and it decreases by one each time. So, to find the number of terms in this sequence, I can subtract the first term minus the last term and add one, because both ends are included.
+
+So, number of rows = (12 - 3) + 1 = 10 rows. Wait, let me check that again. 12 to 3, decreasing by one: 12, 11, 10, 9, 8, 7, 6, 5, 4, 3. Yeah, that's 10 rows.
+
+Now, to find the sum of an arithmetic series, I can use the formula: sum = (number of terms) × (first term + last term) / 2.
+
+Plugging in the numbers: sum = 10 × (12 + 3) / 2 = 10 × 15 / 2 = 10 × 7.5 = 75.
+
+So, there should be 75 logs in the stack.
+
+Wait a minute, does that make sense? Let me double-check. If I add them up individually: 12 + 11 = 23, plus 10 is 33, plus 9 is 42, plus 8 is 50, plus 7 is 57, plus 6 is 63, plus 5 is 68, plus 4 is 72, plus 3 is 75. Yeah, that matches.
+
+I think that's correct. But let me see if there's another way to approach this. Maybe using the formula for the sum of an arithmetic series is the quickest way, but I could also think about pairing the logs.
+
+Like, pairing the first and last terms: 12 + 3 = 15, then 11 + 4 = 15, 10 + 5 = 15, and so on. How many such pairs are there? Since there are 10 terms, there should be 5 pairs. So, 5 pairs × 15 = 75. Again, I get 75.
+
+Okay, that reinforces my answer. I'm pretty confident now that there are 75 logs in the stack.

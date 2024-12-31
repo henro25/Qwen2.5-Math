@@ -1,1 +1,14 @@
-Answer: 
+Answer: To determine the total number of logs in the stack, we can use the formula for the sum of an arithmetic series:
+
+1. **Identify the sequence:**
+   - The bottom row has 12 logs, and each row above has one less log, ending with 3 logs at the top.
+   - Sequence: 12, 11, 10, 9, 8, 7, 6, 5, 4, 3.
+
+2. **Find the number of rows:**
+   - Number of rows = (12 - 3) + 1 = 10 rows.
+
+3. **Use the sum formula for an arithmetic series:**
+   - Sum = (number of terms) × (first term + last term) / 2
+   - Sum = 10 × (12 + 3) / 2 = 10 × 15 / 2 = 10 × 7.5 = 75.
+
+**Answer:** There are **75 logs** in the stack.

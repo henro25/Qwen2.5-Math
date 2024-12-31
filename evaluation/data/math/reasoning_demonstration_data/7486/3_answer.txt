@@ -1,1 +1,21 @@
-Answer: 
+Answer: To find the determinant of the rotation matrix \(\mathbf{r}\) that rotates points around the origin by \(58^\circ\) counter-clockwise, we start with the general form of a 2d rotation matrix:
+
+\[ \mathbf{r} = \begin{pmatrix} \cos 58^\circ & -\sin 58^\circ \\ \sin 58^\circ & \cos 58^\circ \end{pmatrix} \]
+
+the determinant of a 2x2 matrix \(\begin{pmatrix} a & b \\ c & d \end{pmatrix}\) is given by \(ad - bc\). applying this to matrix \(\mathbf{r}\):
+
+\[ \det \mathbf{r} = (\cos 58^\circ)(\cos 58^\circ) - (-\sin 58^\circ)(\sin 58^\circ) \]
+
+simplifying this expression:
+
+\[ \det \mathbf{r} = \cos^2 58^\circ + \sin^2 58^\circ \]
+
+using the pythagorean identity \(\cos^2 \theta + \sin^2 \theta = 1\), we get:
+
+\[ \det \mathbf{r} = 1 \]
+
+thus, the determinant of the rotation matrix \(\mathbf{r}\) is:
+
+\[
+\boxed{1}
+\]

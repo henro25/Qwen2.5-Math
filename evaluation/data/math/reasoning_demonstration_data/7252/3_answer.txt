@@ -1,1 +1,27 @@
-Answer: 
+Answer: Given a right-angled triangle with a 60-degree angle and an inscribed circle of radius 6 cm, we need to find the length of side \(\overline{ab}\) in simplest radical form.
+
+first, we use the formula for the inradius \(r\) of a right-angled triangle:
+
+\[ r = \frac{a + b - c}{2} \]
+
+where \(a\) and \(b\) are the legs, and \(c\) is the hypotenuse. given \(r = 6\) cm, we have:
+
+\[ 6 = \frac{a + b - c}{2} \]
+\[ a + b - c = 12 \]
+
+for a 30-60-90 triangle, the sides are in the ratio \(1 : \sqrt{3} : 2\). let the sides be \(a\), \(a\sqrt{3}\), and \(2a\). plugging these into the equation:
+
+\[ a + a\sqrt{3} - 2a = 12 \]
+\[ a(\sqrt{3} - 1) = 12 \]
+\[ a = \frac{12}{\sqrt{3} - 1} \]
+\[ a = \frac{12(\sqrt{3} + 1)}{(\sqrt{3} - 1)(\sqrt{3} + 1)} = \frac{12(\sqrt{3} + 1)}{2} = 6(\sqrt{3} + 1) \]
+
+the hypotenuse \(c\) is:
+
+\[ c = 2a = 2 \times 6(\sqrt{3} + 1) = 12(\sqrt{3} + 1) \]
+
+thus, the length of \(\overline{ab}\) is:
+
+\[
+\boxed{12(\sqrt{3} + 1)}
+\]

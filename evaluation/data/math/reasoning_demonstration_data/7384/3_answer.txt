@@ -1,1 +1,29 @@
-Answer: 
+Answer: The smallest four-digit positive integer with all distinct digits that is divisible by each of its digits is **1236**.
+
+**Step-by-Step Explanation:**
+
+1. **Identify the Range:**
+   - We are looking for a four-digit number between 1000 and 9999.
+
+2. **Conditions:**
+   - All digits must be different.
+   - The number must be divisible by each of its digits.
+   - The number cannot contain zero, as division by zero is undefined.
+
+3. **Starting from the Smallest Numbers:**
+   - Begin checking from the smallest four-digit numbers while ensuring no zeros and no repeating digits.
+
+4. **Checking 1236:**
+   - Digits: 1, 2, 3, 6 (all distinct, no zeros).
+   - Divisibility:
+     - 1236 ÷ 1 = 1236 (integer).
+     - 1236 ÷ 2 = 618 (integer).
+     - 1236 ÷ 3 = 412 (integer).
+     - 1236 ÷ 6 = 206 (integer).
+   - All divisions result in integers, so 1236 meets the criteria.
+
+5. **Verification of Smaller Numbers:**
+   - After checking smaller candidates systematically (e.g., numbers starting with 10, 11, 12, 13, etc.), no valid number smaller than 1236 was found that satisfies all conditions.
+
+**Conclusion:**
+- **1236** is the smallest four-digit number with distinct, non-zero digits that is divisible by each of its digits.

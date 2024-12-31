@@ -1,1 +1,586 @@
-Reasoning: 
+Reasoning: So i have this equation here: 
+5
+x
+2
++
+4
+=
+3
+x
++
+9
+5x 
+2
+ +4=3x+9. and i need to find the value of 
+(
+10
+x
+−
+3
+)
+2
+(10x−3) 
+2
+ . hmm, okay, let's see how to approach this.
+
+first, i should probably solve for 
+x
+x in the given equation. that seems like the logical first step. so, let's rearrange the equation to make it easier to solve. i'll move all terms to one side to set the equation to zero.
+
+starting with:
+
+5
+x
+2
++
+4
+=
+3
+x
++
+9
+5x 
+2
+ +4=3x+9
+subtract 
+3
+x
+3x and 
+9
+9 from both sides to get:
+
+5
+x
+2
+−
+3
+x
++
+4
+−
+9
+=
+0
+5x 
+2
+ −3x+4−9=0
+5
+x
+2
+−
+3
+x
+−
+5
+=
+0
+5x 
+2
+ −3x−5=0
+okay, now i have a quadratic equation in the standard form 
+a
+x
+2
++
+b
+x
++
+c
+=
+0
+ax 
+2
+ +bx+c=0, where 
+a
+=
+5
+a=5, 
+b
+=
+−
+3
+b=−3, and 
+c
+=
+−
+5
+c=−5.
+
+i can solve for 
+x
+x using the quadratic formula:
+
+x
+=
+−
+b
+±
+b
+2
+−
+4
+a
+c
+2
+a
+x= 
+2a
+−b± 
+b 
+2
+ −4ac
+​	
+ 
+​	
+ 
+plugging in the values:
+
+x
+=
+−
+(
+−
+3
+)
+±
+(
+−
+3
+)
+2
+−
+4
+⋅
+5
+⋅
+(
+−
+5
+)
+2
+⋅
+5
+x= 
+2⋅5
+−(−3)± 
+(−3) 
+2
+ −4⋅5⋅(−5)
+​	
+ 
+​	
+ 
+x
+=
+3
+±
+9
++
+100
+10
+x= 
+10
+3± 
+9+100
+​	
+ 
+​	
+ 
+x
+=
+3
+±
+109
+10
+x= 
+10
+3± 
+109
+​	
+ 
+​	
+ 
+so, the solutions are:
+
+x
+=
+3
++
+109
+10
+x= 
+10
+3+ 
+109
+​	
+ 
+​	
+ 
+and
+
+x
+=
+3
+−
+109
+10
+x= 
+10
+3− 
+109
+​	
+ 
+​	
+ 
+now, i need to find 
+(
+10
+x
+−
+3
+)
+2
+(10x−3) 
+2
+ . let's see, maybe there's a way to avoid calculating the square roots explicitly. since i have expressions for 
+x
+x, perhaps i can substitute them directly into 
+(
+10
+x
+−
+3
+)
+2
+(10x−3) 
+2
+  and simplify.
+
+let's consider the expression:
+
+(
+10
+x
+−
+3
+)
+2
+(10x−3) 
+2
+ 
+if i substitute 
+x
+=
+3
+±
+109
+10
+x= 
+10
+3± 
+109
+​	
+ 
+​	
+ , i get:
+
+(
+10
+⋅
+3
+±
+109
+10
+−
+3
+)
+2
+(10⋅ 
+10
+3± 
+109
+​	
+ 
+​	
+ −3) 
+2
+ 
+(
+3
+±
+109
+−
+3
+)
+2
+(3± 
+109
+​	
+ −3) 
+2
+ 
+(
+±
+109
+)
+2
+(± 
+109
+​	
+ ) 
+2
+ 
+109
+109
+wait a minute, that's interesting. both solutions for 
+x
+x give the same value for 
+(
+10
+x
+−
+3
+)
+2
+(10x−3) 
+2
+ , which is 109. so, regardless of which root i choose, the squared expression equals 109.
+
+is there a faster way to see this without solving for 
+x
+x explicitly? maybe i can manipulate the original equation to express 
+(
+10
+x
+−
+3
+)
+2
+(10x−3) 
+2
+  in terms of the equation given.
+
+let's start with the original equation:
+
+5
+x
+2
++
+4
+=
+3
+x
++
+9
+5x 
+2
+ +4=3x+9
+i can rearrange it to:
+
+5
+x
+2
+−
+3
+x
+−
+5
+=
+0
+5x 
+2
+ −3x−5=0
+now, i need to find 
+(
+10
+x
+−
+3
+)
+2
+(10x−3) 
+2
+ . let's expand that:
+
+(
+10
+x
+−
+3
+)
+2
+=
+100
+x
+2
+−
+60
+x
++
+9
+(10x−3) 
+2
+ =100x 
+2
+ −60x+9
+hmm, i have 
+x
+2
+x 
+2
+  and 
+x
+x terms here. maybe i can express 
+100
+x
+2
+−
+60
+x
++
+9
+100x 
+2
+ −60x+9 in terms of the original equation.
+
+from the rearranged equation:
+
+5
+x
+2
+−
+3
+x
+−
+5
+=
+0
+5x 
+2
+ −3x−5=0
+i can solve for 
+5
+x
+2
+−
+3
+x
+5x 
+2
+ −3x:
+
+5
+x
+2
+−
+3
+x
+=
+5
+5x 
+2
+ −3x=5
+now, notice that in the expansion of 
+(
+10
+x
+−
+3
+)
+2
+(10x−3) 
+2
+ , i have 
+100
+x
+2
+−
+60
+x
++
+9
+100x 
+2
+ −60x+9. let's see if i can factor this in a way that relates to 
+5
+x
+2
+−
+3
+x
+5x 
+2
+ −3x.
+
+100
+x
+2
+−
+60
+x
++
+9
+=
+20
+(
+5
+x
+2
+−
+3
+x
+)
++
+9
+100x 
+2
+ −60x+9=20(5x 
+2
+ −3x)+9
+since 
+5
+x
+2
+−
+3
+x
+=
+5
+5x 
+2
+ −3x=5, substitute that in:
+
+20
+(
+5
+)
++
+9
+=
+100
++
+9
+=
+109
+20(5)+9=100+9=109
+oh, that's neat! so, without solving for 
+x
+x directly, i can find that 
+(
+10
+x
+−
+3
+)
+2
+=
+109
+(10x−3) 
+2
+ =109.
+
+this makes sense because both methods lead to the same result, which is reassuring.
+
+**final answer**
+
+109

@@ -1,1 +1,10 @@
-Answer: 
+Answer: 1. **Determine the total number of women on the plane:**
+   - Total passengers = 200
+   - Percentage of women = 60%
+   - Number of women = 60% of 200 = 0.6 × 200 = 120
+
+2. **Find the number of women in first class:**
+   - Percentage of women in first class = 10%
+   - Number of women in first class = 10% of 120 = 0.1 × 120 = 12
+
+**Answer:** There are 12 women in first class.

@@ -1,1 +1,458 @@
-Reasoning: 
+Reasoning: So i have this problem here: an integer a is called "yummy" if there exist several consecutive integers, including a, that add up to 2014. i need to find the smallest yummy integer. hmm, okay, let's break this down.
+
+first, i need to understand what it means for several consecutive integers to add up to 2014, and include a specific integer a in that sequence. so, let's say we have a sequence of k consecutive integers, and a is one of them. the sum of these k consecutive integers is 2014.
+
+let me denote the sequence of consecutive integers. if i let the first integer be n, then the sequence is n, n+1, n+2, ..., n+k-1. the sum of these k integers is:
+
+sum = n + (n+1) + (n+2) + ... + (n+k-1)
+
+i know that the sum of an arithmetic series is (number of terms) times (average of the first and last term). so, sum = k*(n + (n+k-1))/2 = k*(2n + k - 1)/2.
+
+given that this sum is 2014, so:
+
+k*(2n + k - 1)/2 = 2014
+
+let me rearrange this:
+
+k*(2n + k - 1) = 4028
+
+now, i need to find integers k and n such that this equation holds, and a is one of the integers in the sequence.
+
+since a is in the sequence, a can be expressed as n + m, where m is an integer between 0 and k-1.
+
+but maybe there's a better way to relate a directly.
+
+let me think differently. the average of the k consecutive integers is the middle term. since they are consecutive, the average is also equal to the mean of the first and last terms.
+
+wait, the sum is k times the average, which is 2014, so the average is 2014/k.
+
+but since the numbers are consecutive integers, the average should be the middle number if k is odd, or the average of the two middle numbers if k is even.
+
+but a is one of the numbers in the sequence, so a should be close to this average.
+
+this is getting a bit messy. maybe i should express a in terms of the sequence.
+
+let me consider that the sequence has a as its starting point. no, a can be anywhere in the sequence.
+
+wait, maybe i can center the sequence around a. if i have a sequence of k numbers centered at a, then a would be the middle number if k is odd, or one of the two middle numbers if k is even.
+
+but the sequence can be of any length, so perhaps i need to consider both cases where k is odd and even.
+
+alternatively, maybe i can express a in terms of n and k.
+
+from earlier, the sequence is n, n+1, ..., n+k-1, and a is one of these, say a = n + m, where m is between 0 and k-1.
+
+so, a = n + m, which means n = a - m.
+
+substituting back into the sum formula:
+
+sum = k*(2n + k - 1)/2 = 2014
+
+plugging n = a - m:
+
+k*(2(a - m) + k - 1)/2 = 2014
+
+simplify:
+
+k*(2a - 2m + k - 1)/2 = 2014
+
+multiply both sides by 2:
+
+k*(2a - 2m + k - 1) = 4028
+
+hmm, this seems complicated with two variables, m and k.
+
+maybe i need to approach this differently. let's think about the factors of 4028, since k must be a divisor of 4028.
+
+so, 4028 can be factored into its prime factors to find all possible k values.
+
+let's factorize 4028.
+
+first, 4028 is even, so divide by 2:
+
+4028 ÷ 2 = 2014
+
+2014 is also even:
+
+2014 ÷ 2 = 1007
+
+now, 1007: let's see if it's divisible by small primes.
+
+1007 ÷ 19 = 53. so, 19*53 = 1007.
+
+therefore, 4028 = 2^2 * 19 * 53
+
+so, the positive divisors of 4028 are all combinations of these prime factors.
+
+possible k values are the divisors of 4028, both positive and negative, since k can be negative (number of terms can be negative if we consider descending sequences, but k should be positive since it's the number of terms).
+
+wait, k should be a positive integer because it represents the number of terms.
+
+so, k can be any positive divisor of 4028.
+
+let me list all positive divisors of 4028.
+
+the exponents of the prime factors are:
+
+2^2, 19^1, 53^1
+
+so, the number of positive divisors is (2+1)*(1+1)*(1+1) = 3*2*2 = 12 divisors.
+
+let's list them:
+
+1, 2, 4, 19, 38, 53, 76, 106, 114, 212, 4028
+
+wait, did i miss some? let's calculate them systematically.
+
+divisors are of the form 2^a * 19^b * 53^c, where a=0,1,2; b=0,1; c=0,1.
+
+so:
+
+2^0 * 19^0 *53^0 = 1
+
+2^1 *19^0*53^0 = 2
+
+2^2*19^0*53^0 =4
+
+2^0*19^1*53^0 =19
+
+2^1*19^1*53^0 =38
+
+2^2*19^1*53^0 =76
+
+2^0*19^0*53^1 =53
+
+2^1*19^0*53^1 =106
+
+2^2*19^0*53^1 =212
+
+2^0*19^1*53^1 =1007 (19*53)
+
+2^1*19^1*53^1 =2014 (2*19*53)
+
+2^2*19^1*53^1 =4028 (4*19*53)
+
+okay, so the positive divisors are: 1,2,4,19,38,53,76,106,212,1007,2014,4028.
+
+now, for each possible k, i can find the corresponding n such that the sum of k consecutive integers starting from n is 2014.
+
+from earlier, sum = k*(2n + k -1)/2 =2014
+
+so, k*(2n + k -1) =4028
+
+thus, 2n + k -1 =4028/k
+
+then, 2n =4028/k -k +1
+
+so, n=(4028/k -k +1)/2
+
+now, n must be an integer, because it's the starting integer of the sequence.
+
+therefore, (4028/k -k +1) must be even, so that when divided by 2, n is integer.
+
+alternatively, 4028/k -k +1 must be even.
+
+since k divides 4028, 4028/k is integer.
+
+let me denote m =4028/k.
+
+so, m -k +1 must be even.
+
+thus, m -k +1 ≡0 mod 2.
+
+which means m -k ≡1 mod 2.
+
+so, m and k have opposite parity: one is even, the other is odd.
+
+now, m=4028/k.
+
+since 4028 is even, m=4028/k must be integer, and since 4028 is even, m is even if k is odd, and m is odd if k is even, because 4028 is divisible by 2 but not by 4 (since 4028=4*1007, and 1007 is odd).
+
+wait, 4028=4*1007, and 1007 is odd, so 4028 is divisible by 4 but not by 8, since 1007 is odd.
+
+wait, 4028 ÷4=1007, which is odd, so 4028 is divisible by 4 but not by 8.
+
+therefore, m=4028/k.
+
+if k is odd, then m=4028/k is even, because 4028 is divisible by 4, and k is odd, so m is even.
+
+if k is even, then 4028/k: since 4028 is divisible by 4, and k is even, let's see:
+
+if k is divisible by 2 but not by 4, then m=4028/k is even.
+
+wait, let's think differently.
+
+actually, 4028=4*19*53, so 4028 is divisible by 4 but not by 8.
+
+so, if k is even, 4028/k is even if k is divisible by 2 but not by 4, and odd if k is divisible by 4.
+
+wait, but k can be 2,4, etc.
+
+wait, k=2: 4028/2=2014, which is even.
+
+k=4:4028/4=1007, which is odd.
+
+k=19:4028/19=212, which is even.
+
+k=38:4028/38=106, even.
+
+k=53:4028/53=76, even.
+
+k=76:4028/76=53, which is odd.
+
+k=106:4028/106=38, even.
+
+k=212:4028/212=19, odd.
+
+k=1007:4028/1007=4, which is even.
+
+k=2014:4028/2014=2, even.
+
+k=4028:4028/4028=1, odd.
+
+so, m -k +1 must be even.
+
+from earlier, m and k have opposite parity.
+
+looking back at the list, for k=1 (odd), m=4028, which is even: opposite parity.
+
+k=2 (even), m=2014, even: same parity. wait, but according to earlier, m and k should have opposite parity.
+
+wait, perhaps i made a mistake there.
+
+let me re-examine.
+
+we have m -k +1 must be even.
+
+so, m -k ≡1 mod 2.
+
+which implies m ≡ k +1 mod 2.
+
+so, m and k have different parity: one is even, one is odd.
+
+looking back at the list:
+
+k=1 (odd), m=4028 (even): different parity, good.
+
+k=2 (even), m=2014 (even): same parity, which shouldn't work, but according to the formula, let's check.
+
+n=(m -k +1)/2 = (2014 -2 +1)/2=(2013)/2=1006.5, which is not integer. so, invalid.
+
+wait, but earlier i thought k must be a divisor such that m and k have different parity, but in this case, k=2 and m=2014 both even, leading to n not integer. so, indeed, only when m and k have different parity, n is integer.
+
+similarly, k=4 (even), m=1007 (odd): different parity.
+
+so, n=(1007 -4 +1)/2=(1004)/2=502, which is integer.
+
+good.
+
+similarly, k=19 (odd), m=212 (even): different parity.
+
+n=(212 -19 +1)/2=(194)/2=97, integer.
+
+good.
+
+k=38 (even), m=106 (even): same parity, invalid.
+
+n=(106-38+1)/2=(69)/2=34.5, not integer.
+
+similarly, k=53 (odd), m=76 (even): different parity.
+
+n=(76 -53 +1)/2=(24)/2=12, integer.
+
+k=76 (even), m=53 (odd): different parity.
+
+n=(53 -76 +1)/2=(-22)/2=-11, integer.
+
+k=106 (even), m=38 (even): same parity, invalid.
+
+k=212 (even), m=19 (odd): different parity.
+
+n=(19 -212 +1)/2=(-192)/2=-96, integer.
+
+k=1007 (odd), m=4 (even): different parity.
+
+n=(4 -1007 +1)/2=(-1002)/2=-501, integer.
+
+k=2014 (even), m=2 (even): same parity, invalid.
+
+k=4028 (even), m=1 (odd): different parity.
+
+n=(1 -4028 +1)/2=(-4026)/2=-2013, integer.
+
+so, the possible k values are those where m and k have different parity, which are k=1,4,19,53,76,212,1007,4028.
+
+now, for each of these k values, i can find the corresponding n, and then find a, which is one of the terms in the sequence.
+
+but i need to find the smallest a across all possible sequences.
+
+alternatively, since a is one of the terms in the sequence, and the sequence is consecutive integers starting from n, a can be expressed as n + m, where m is between 0 and k-1.
+
+so, a = n + m.
+
+but n is expressed in terms of k and m.
+
+wait, perhaps i need to express a in terms of k.
+
+let me recall that a is one of the terms in the sequence: n, n+1, ..., n+k-1.
+
+so, a = n + p, where p is between 0 and k-1.
+
+from earlier, n = (m -k +1)/2, where m =4028/k.
+
+so, a = n + p = [(4028/k -k +1)/2] + p.
+
+this seems complicated.
+
+maybe i can find a in terms of k directly.
+
+alternatively, perhaps i can consider that the sum of k consecutive integers centered around a is 2014.
+
+wait, if i have k consecutive integers, their average is 2014/k.
+
+if k is odd, then the sequence is symmetric around the central integer, which would be a.
+
+if k is even, then there is no single central integer, but the average would be between two integers.
+
+wait, but in the problem, a is one of the integers in the sequence, so if k is even, a would be one of the two middle integers.
+
+but this might be too vague.
+
+alternatively, perhaps i can express a in terms of the sum and k.
+
+wait, the sum is 2014, and there are k terms, so the average is 2014/k.
+
+if a is one of the terms, then a is less than or equal to the average plus (k-1)/2, and greater than or equal to the average minus (k-1)/2.
+
+but again, this seems too vague.
+
+let me think differently.
+
+since the sum of k consecutive integers starting from n is 2014, and a is one of these integers, i can express a as n + m, where m is between 0 and k-1.
+
+from earlier, n = (4028/k -k +1)/2.
+
+so, a = n + m = [(4028/k -k +1)/2] + m.
+
+i need to find the smallest possible a across all possible k and m.
+
+but this seems too involved.
+
+maybe i can consider that the smallest a would occur when k is as large as possible, because the starting point n would be as small as possible.
+
+wait, but k could be negative, but earlier i decided k is positive.
+
+wait, no, k is the number of terms, which is positive.
+
+but n can be negative, which would make a negative.
+
+so, to get the smallest a, perhaps i need the smallest possible n and m.
+
+but m is between 0 and k-1, so to minimize a, i should take m=0, which is a=n.
+
+therefore, a = n.
+
+so, a = n = (4028/k -k +1)/2.
+
+now, to find the smallest a, i need to find the smallest possible n, which is the smallest possible value of (4028/k -k +1)/2.
+
+this would occur when (4028/k -k +1) is minimized.
+
+since k is a positive divisor of 4028, and we have a list of possible k values:1,4,19,53,76,212,1007,4028.
+
+let's compute a for each of these k values.
+
+first, k=1:
+
+a=(4028/1 -1 +1)/2=(4028-1+1)/2=4028/2=2014.
+
+k=4:
+
+a=(4028/4 -4 +1)/2=(1007 -4 +1)/2=(1004)/2=502.
+
+k=19:
+
+a=(4028/19 -19 +1)/2=(212 -19 +1)/2=(194)/2=97.
+
+k=53:
+
+a=(4028/53 -53 +1)/2=(76 -53 +1)/2=(24)/2=12.
+
+k=76:
+
+a=(4028/76 -76 +1)/2=(53 -76 +1)/2=(-22)/2=-11.
+
+k=212:
+
+a=(4028/212 -212 +1)/2=(19 -212 +1)/2=(-192)/2=-96.
+
+k=1007:
+
+a=(4028/1007 -1007 +1)/2=(4 -1007 +1)/2=(-1002)/2=-501.
+
+k=4028:
+
+a=(4028/4028 -4028 +1)/2=(1 -4028 +1)/2=(-4026)/2=-2013.
+
+so, the possible a values are:2014,502,97,12,-11,-96,-501,-2013.
+
+the smallest among these is -2013.
+
+is there any smaller a possible? well, according to this list, -2013 is the smallest.
+
+but perhaps i need to check if there are any other k values that i missed.
+
+wait, earlier i considered only k values where m and k have different parity, which are k=1,4,19,53,76,212,1007,4028.
+
+but let's confirm if there are any other k values that satisfy the condition.
+
+looking back, the positive divisors of 4028 are 1,2,4,19,38,53,76,106,212,1007,2014,4028.
+
+but for k to be such that m and k have different parity, only the k values i listed earlier are valid.
+
+so, among these, -2013 is the smallest a.
+
+but the problem asks for the smallest integer a, and it didn't specify if a has to be positive.
+
+so, -2013 is indeed smaller than all the others.
+
+therefore, the smallest yummy integer is -2013.
+
+wait, but let's verify if for k=4028, the sequence starting from n=-2013 indeed sums to 2014.
+
+sequence: n, n+1, ..., n+4027.
+
+sum = number of terms * average =4028*(n + (n+4027))/2=4028*(2n +4027)/2=4028*(n +2013.5)
+
+set this equal to 2014:
+
+4028*(n +2013.5)=2014
+
+divide both sides by 4028:
+
+n +2013.5=2014/4028=0.5
+
+thus, n=0.5 -2013.5= -2013
+
+so, n=-2013, and the sequence is from -2013 to 4027-2013=2014.
+
+wait, 4027 terms starting from -2013 would go up to -2013 +4027 -1=2013.
+
+wait, perhaps i miscalculated.
+
+wait, n=-2013, and there are 4028 terms: -2013, -2012, ..., 2014.
+
+yes, from -2013 to 2014 inclusive.
+
+sum of these terms: there are 4028 terms, average is (-2013 +2014)/2=0.5.
+
+sum=4028*0.5=2014.
+
+perfect, it checks out.
+
+therefore, the smallest yummy integer is -2013.
+
+**final answer**
+
+−2013​	
+ 

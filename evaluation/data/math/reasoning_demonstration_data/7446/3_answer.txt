@@ -1,1 +1,35 @@
-Answer: 
+Answer: Let the total number of people be \( P \) and the total number of chairs be \( C \).
+
+We know that two-thirds of the people are seated, so the number of seated people is \( \frac{2}{3}P \), and these people are seated in three-fourths of the chairs, which gives \( \frac{3}{4}C \) chairs used.
+
+Since each seated person uses one chair, we can set up the equation:
+
+\[
+\frac{2}{3}P = \frac{3}{4}C
+\]
+
+Next, we are told there are 6 empty chairs. The number of empty chairs is \( C - \frac{3}{4}C = \frac{1}{4}C \), so:
+
+\[
+\frac{1}{4}C = 6
+\]
+
+Solving for \( C \):
+
+\[
+C = 6 \times 4 = 24
+\]
+
+Now, substitute \( C = 24 \) into the first equation:
+
+\[
+\frac{2}{3}P = \frac{3}{4} \times 24 = 18
+\]
+
+Solving for \( P \):
+
+\[
+P = 18 \times \frac{3}{2} = 27
+\]
+
+Thus, there are **27 people** in the room.

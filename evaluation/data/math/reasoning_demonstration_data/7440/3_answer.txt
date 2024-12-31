@@ -1,1 +1,37 @@
-Answer: 
+Answer: Given an equilateral triangle \( \triangle abc \) with a point \( p \) inside it, and the perpendicular distances from \( p \) to the sides \( ab \), \( bc \), and \( ca \) are \( pq = 1 \), \( pr = 2 \), and \( ps = 3 \) respectively, we need to find the side length \( ab \).
+
+first, we use the property that the sum of the perpendicular distances from any interior point to the sides of an equilateral triangle is equal to the altitude of the triangle. therefore, we have:
+
+\[
+pq + pr + ps = h
+\]
+
+where \( h \) is the altitude of the equilateral triangle. given \( pq = 1 \), \( pr = 2 \), and \( ps = 3 \), we get:
+
+\[
+1 + 2 + 3 = 6
+\]
+
+the altitude \( h \) of an equilateral triangle with side length \( s \) is given by:
+
+\[
+h = \frac{\sqrt{3}}{2} s
+\]
+
+setting the sum of the distances equal to the altitude:
+
+\[
+6 = \frac{\sqrt{3}}{2} s
+\]
+
+solving for \( s \):
+
+\[
+s = 6 \cdot \frac{2}{\sqrt{3}} = \frac{12}{\sqrt{3}} = 4\sqrt{3}
+\]
+
+thus, the side length \( ab \) is:
+
+\[
+\boxed{4\sqrt{3}}
+\]

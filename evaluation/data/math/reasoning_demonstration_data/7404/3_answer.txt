@@ -1,1 +1,17 @@
-Answer: 
+Answer: To determine the least number of digits in the repeating block of the decimal expansion of \( \frac{8}{11} \), we start by performing the long division of 8 by 11.
+
+1. \( 11 \) goes into \( 80 \) seven times (since \( 11 \times 7 = 77 \)), leaving a remainder of 3.
+2. bringing down a zero, we get 30. \( 11 \) goes into 30 two times (since \( 11 \times 2 = 22 \)), leaving a remainder of 8.
+3. this process repeats, giving the decimal expansion \( 0.\overline{72} \).
+
+the repeating block is "72", which has 2 digits.
+
+to confirm, we use the property that the length of the repeating block for a fraction \( \frac{a}{b} \) is the smallest integer \( k \) such that \( 10^k \equiv 1 \pmod{b} \).
+
+for \( b = 11 \):
+- \( 10^1 \equiv 10 \pmod{11} \)
+- \( 10^2 \equiv 100 \equiv 1 \pmod{11} \)
+
+thus, the smallest \( k \) is 2, confirming that the repeating block has 2 digits.
+
+therefore, the least number of digits in a repeating block of \( \frac{8}{11} \) is \(\boxed{2}\).

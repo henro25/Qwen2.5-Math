@@ -1,1 +1,23 @@
-Answer: 
+Answer: Given points \( a(-1, 0) \) and \( b(3, 8) \), point \( c \) is on segment \( ab \) and is three times as far from \( a \) as it is from \( b \). we need to find the coordinates of point \( c \).
+
+first, we recognize that \( c \) divides \( ab \) in the ratio \( ac:cb = 3:1 \). using the section formula, the coordinates of \( c \) are given by:
+
+\[
+c = \left( \frac{m x_b + n x_a}{m + n}, \frac{m y_b + n y_a}{m + n} \right)
+\]
+
+where \( m = 3 \) and \( n = 1 \). plugging in the values:
+
+\[
+x_c = \frac{3 \cdot 3 + 1 \cdot (-1)}{3 + 1} = \frac{9 - 1}{4} = \frac{8}{4} = 2
+\]
+
+\[
+y_c = \frac{3 \cdot 8 + 1 \cdot 0}{3 + 1} = \frac{24 + 0}{4} = \frac{24}{4} = 6
+\]
+
+thus, the coordinates of point \( c \) are:
+
+\[
+\boxed{(2, 6)}
+\]

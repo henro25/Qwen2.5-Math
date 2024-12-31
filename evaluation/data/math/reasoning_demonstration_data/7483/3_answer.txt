@@ -1,1 +1,35 @@
-Answer: 
+Answer: Given triangles \(bad\) and \(bdc\) are right triangles with \(ab = 12\) units, \(bd = 15\) units, and \(bc = 17\) units, we need to find the area of quadrilateral \(abcd\).
+
+first, we determine the lengths of the sides for each triangle using the pythagorean theorem.
+
+for triangle \(bad\):
+\[
+ab^2 + ad^2 = bd^2 \implies 12^2 + ad^2 = 15^2 \implies 144 + ad^2 = 225 \implies ad^2 = 81 \implies ad = 9 \text{ units}
+\]
+
+for triangle \(bdc\):
+\[
+bd^2 + dc^2 = bc^2 \implies 15^2 + dc^2 = 17^2 \implies 225 + dc^2 = 289 \implies dc^2 = 64 \implies dc = 8 \text{ units}
+\]
+
+next, we calculate the areas of the two right triangles.
+
+area of triangle \(bad\):
+\[
+\text{area}_{bad} = \frac{1}{2} \times ab \times ad = \frac{1}{2} \times 12 \times 9 = 54 \text{ square units}
+\]
+
+area of triangle \(bdc\):
+\[
+\text{area}_{bdc} = \frac{1}{2} \times bd \times dc = \frac{1}{2} \times 15 \times 8 = 60 \text{ square units}
+\]
+
+finally, the area of quadrilateral \(abcd\) is the sum of the areas of triangles \(bad\) and \(bdc\):
+\[
+\text{area}_{abcd} = \text{area}_{bad} + \text{area}_{bdc} = 54 + 60 = 114 \text{ square units}
+\]
+
+thus, the area of quadrilateral \(abcd\) is:
+\[
+\boxed{114}
+\]

@@ -1,1 +1,22 @@
-Answer: 
+Answer: The tenth prime number is **29**.
+
+**Step-by-Step Explanation:**
+
+1. **Understanding Prime Numbers:** Prime numbers are integers greater than 1 that have no divisors other than 1 and themselves.
+
+2. **Listing Prime Numbers:**
+   - 1st: 2
+   - 2nd: 3
+   - 3rd: 5
+   - 4th: 7
+   - 5th: 11 (as stated)
+   - 6th: 13
+   - 7th: 17
+   - 8th: 19
+   - 9th: 23
+   - 10th: 29
+
+3. **Verifying Each Candidate:**
+   - Skip non-primes like 9, 12, 14, etc., and confirm primes like 13, 17, 19, 23, and 29.
+
+Thus, the tenth prime number is **29**.

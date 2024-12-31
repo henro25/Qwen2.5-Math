@@ -1,1 +1,51 @@
-Answer: 
+Answer: Given that \( f(x) \) is an odd function, we need to determine whether \( f(f(f(x))) \) is even, odd, or neither.
+
+first, recall the definitions:
+- an even function satisfies \( f(-x) = f(x) \).
+- an odd function satisfies \( f(-x) = -f(x) \).
+
+since \( f(x) \) is odd, we have \( f(-x) = -f(x) \).
+
+now, consider \( f(f(f(x))) \). let's denote this as \( f^3(x) = f(f(f(x))) \). we need to determine the parity of \( f^3(x) \).
+
+compute \( f^3(-x) \):
+
+\[
+f^3(-x) = f(f(f(-x)))
+\]
+
+using the property of \( f \) being odd:
+
+\[
+f(-x) = -f(x)
+\]
+
+so,
+
+\[
+f^3(-x) = f(f(-f(x))) = f(-f(f(x)))
+\]
+
+again, using the property of \( f \) being odd:
+
+\[
+f(-y) = -f(y) \quad \text{for any } y
+\]
+
+here, \( y = f(f(x)) \), so:
+
+\[
+f(-f(f(x))) = -f(f(f(x))) = -f^3(x)
+\]
+
+thus,
+
+\[
+f^3(-x) = -f^3(x)
+\]
+
+this matches the definition of an odd function. therefore, \( f^3(x) \) is odd.
+
+\[
+\boxed{\text{odd}}
+\]

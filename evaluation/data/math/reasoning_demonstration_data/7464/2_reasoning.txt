@@ -1,1 +1,116 @@
-Reasoning: 
+Reasoning: Let's see. i've got this problem here: if z is a complex number such that z + z^{-1} = sqrt{3}, what is z^{2010} + z^{-2010}?
+
+first, i need to recall some properties of complex numbers. i know that any non-zero complex number can be expressed in polar form as z = r * e^{iθ}, where r is the modulus and θ is the argument. since z + z^{-1} = sqrt{3}, and z^{-1} would be 1/z, which in polar form is (1/r) * e^{-iθ}.
+
+so, z + z^{-1} = r * e^{iθ} + (1/r) * e^{-iθ} = sqrt{3}.
+
+hmm, but sqrt{3} is a real number, which suggests that the imaginary parts of z and z^{-1} might cancel each other out or something. maybe i can assume that z lies on the unit circle, so r = 1. if r = 1, then z^{-1} = e^{-iθ}, and the equation becomes e^{iθ} + e^{-iθ} = sqrt{3}.
+
+wait a minute, e^{iθ} + e^{-iθ} is equal to 2 cosθ, right? yes, from euler's formula, e^{iθ} + e^{-iθ} = 2 cosθ.
+
+so, 2 cosθ = sqrt{3}, which implies cosθ = sqrt{3}/2.
+
+what angle θ satisfies cosθ = sqrt{3}/2? well, cos(30 degrees) = sqrt{3}/2, and cos(330 degrees) is also sqrt{3}/2. in radians, that's θ = π/6 or θ = -π/6.
+
+so, z could be e^{iπ/6} or e^{-iπ/6}.
+
+now, i need to find z^{2010} + z^{-2010}.
+
+if z = e^{iπ/6}, then z^{2010} = e^{i2010*(π/6)} = e^{i335π}.
+
+wait, 2010 * π/6 is 335π.
+
+similarly, z^{-2010} = e^{-i2010*(π/6)} = e^{-i335π}.
+
+so, z^{2010} + z^{-2010} = e^{i335π} + e^{-i335π}.
+
+again, using euler's formula, this is 2 cos(335π).
+
+but cos is periodic with period 2π, so cos(335π) = cos(335π - 2π*55) because 2π*55 = 110π, and 335π - 110π = 225π.
+
+wait, that's not simplifying it properly. let's find 335π modulo 2π.
+
+335 divided by 2 is 167.5, so 2*167 = 334, and 335π - 334π = π.
+
+therefore, 335π ≡ π mod 2π.
+
+so, cos(335π) = cos(π) = -1.
+
+therefore, z^{2010} + z^{-2010} = 2*(-1) = -2.
+
+wait, but z could also be e^{-iπ/6}, let's check that.
+
+if z = e^{-iπ/6}, then z^{2010} = e^{-i2010*(π/6)} = e^{-i335π}.
+
+similarly, z^{-2010} = e^{i335π}.
+
+so, z^{2010} + z^{-2010} = e^{-i335π} + e^{i335π} = 2 cos(335π).
+
+again, 335π ≡ π mod 2π, so cos(335π) = cos(π) = -1.
+
+thus, z^{2010} + z^{-2010} = -2 in both cases.
+
+is there another way to approach this? maybe using the fact that z + z^{-1} = sqrt{3}, and trying to find a recurrence or something for z^n + z^{-n}.
+
+i recall that there's a formula for z^n + z^{-n} in terms of z + z^{-1}. maybe i can use de moivre's theorem or some trigonometric identities.
+
+alternatively, since z + z^{-1} = 2 cosθ, and i found θ = π/6 or -π/6, leading to z^{2010} + z^{-2010} = 2 cos(2010*θ).
+
+wait, but earlier i computed 2010 * π/6 = 335π, which simplifies to π modulo 2π.
+
+so, z^{2010} + z^{-2010} = 2 cos(π) = -2.
+
+is there a way to confirm this without using the polar form?
+
+maybe i can consider that z + z^{-1} = sqrt{3}, and try to find a minimal polynomial for z.
+
+let me set w = z + z^{-1} = sqrt{3}.
+
+i know that z^2 + z^{-2} = (z + z^{-1})^2 - 2 = (sqrt{3})^2 - 2 = 3 - 2 = 1.
+
+similarly, z^3 + z^{-3} = (z + z^{-1})(z^2 + z^{-2} - 1) = sqrt{3}(1 - 1) = 0.
+
+wait, no. actually, z^3 + z^{-3} = (z + z^{-1})(z^2 - 1 + z^{-2}) = sqrt{3}(1 - 1) = 0.
+
+wait, that doesn't seem right. let me recall the formula for z^n + z^{-n}.
+
+actually, z^3 + z^{-3} = (z + z^{-1})^3 - 3(z + z^{-1}).
+
+so, z^3 + z^{-3} = (sqrt{3})^3 - 3*sqrt{3} = 3*sqrt{3} - 3*sqrt{3} = 0.
+
+okay, that matches.
+
+similarly, z^4 + z^{-4} = (z^2 + z^{-2})^2 - 2 = 1^2 - 2 = -1.
+
+and z^5 + z^{-5} = (z + z^{-1})(z^4 + z^{-4}) - (z^3 + z^{-3}) = sqrt{3}*(-1) - 0 = -sqrt{3}.
+
+z^6 + z^{-6} = (z^3 + z^{-3})^2 - 2 = 0 - 2 = -2.
+
+wait a second, z^6 + z^{-6} = -2.
+
+but earlier, using the polar form, i found that z^{2010} + z^{-2010} = -2.
+
+is there a pattern here? maybe the sequence z^n + z^{-n} repeats every certain number of terms.
+
+given that z^6 + z^{-6} = -2, and z^{12} + z^{-12} would be equal to z^6 squared minus 2, which is (-2)^2 - 2 = 4 - 2 = 2.
+
+then z^{18} + z^{-18} = (z^6)^3 + (z^{-6})^3 = ... hmm, this seems messy.
+
+alternatively, since z^6 + z^{-6} = -2, maybe z^6 = -1, because (-1) + (-1)^{-1} = -1 -1 = -2.
+
+wait, if z^6 = -1, then z^{6k} = (-1)^k.
+
+so, z^{2010} = z^{6*(335)} = (z^6)^{335} = (-1)^{335} = -1.
+
+similarly, z^{-2010} = (z^6)^{-335} = (-1)^{-335} = -1.
+
+therefore, z^{2010} + z^{-2010} = -1 + (-1) = -2.
+
+this matches what i found earlier.
+
+so, the answer should be -2.
+
+**final answer**
+
+−2
+ 

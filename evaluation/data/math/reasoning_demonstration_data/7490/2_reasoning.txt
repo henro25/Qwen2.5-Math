@@ -1,1 +1,566 @@
-Reasoning: 
+Reasoning: So i've got this problem here. it says:
+
+find 
+h
+(
+x
+)
+h(x), with terms in order of decreasing degree, if
+
+9
+x
+3
+−
+3
+x
++
+1
++
+h
+(
+x
+)
+=
+3
+x
+2
+−
+5
+x
++
+3.
+9x 
+3
+ −3x+1+h(x)=3x 
+2
+ −5x+3.
+okay, so i need to find this function 
+h
+(
+x
+)
+h(x). let's see, it's being added to 
+9
+x
+3
+−
+3
+x
++
+1
+9x 
+3
+ −3x+1 to give 
+3
+x
+2
+−
+5
+x
++
+3
+3x 
+2
+ −5x+3. so, to find 
+h
+(
+x
+)
+h(x), i can think of it as subtracting 
+9
+x
+3
+−
+3
+x
++
+1
+9x 
+3
+ −3x+1 from both sides of the equation.
+
+so, starting with the equation:
+
+9
+x
+3
+−
+3
+x
++
+1
++
+h
+(
+x
+)
+=
+3
+x
+2
+−
+5
+x
++
+3.
+9x 
+3
+ −3x+1+h(x)=3x 
+2
+ −5x+3.
+if i subtract 
+9
+x
+3
+−
+3
+x
++
+1
+9x 
+3
+ −3x+1 from both sides, i should get 
+h
+(
+x
+)
+h(x) by itself on the left side. let's write that down:
+
+h
+(
+x
+)
+=
+3
+x
+2
+−
+5
+x
++
+3
+−
+(
+9
+x
+3
+−
+3
+x
++
+1
+)
+.
+h(x)=3x 
+2
+ −5x+3−(9x 
+3
+ −3x+1).
+now, i need to distribute the negative sign through the parentheses:
+
+h
+(
+x
+)
+=
+3
+x
+2
+−
+5
+x
++
+3
+−
+9
+x
+3
++
+3
+x
+−
+1.
+h(x)=3x 
+2
+ −5x+3−9x 
+3
+ +3x−1.
+wait, is that right? let me double-check the distribution. the negative sign should apply to each term inside the parentheses:
+
+−
+(
+9
+x
+3
+)
+=
+−
+9
+x
+3
+,
+−(9x 
+3
+ )=−9x 
+3
+ ,
+−
+(
+−
+3
+x
+)
+=
++
+3
+x
+,
+−(−3x)=+3x,
+−
+(
+1
+)
+=
+−
+1.
+−(1)=−1.
+yes, that looks correct. now, let's combine like terms. i have:
+
+−
+9
+x
+3
++
+3
+x
+2
++
+(
+−
+5
+x
++
+3
+x
+)
++
+(
+3
+−
+1
+)
+.
+−9x 
+3
+ +3x 
+2
+ +(−5x+3x)+(3−1).
+simplifying each group:
+
+−
+9
+x
+3
++
+3
+x
+2
+−
+2
+x
++
+2.
+−9x 
+3
+ +3x 
+2
+ −2x+2.
+so, 
+h
+(
+x
+)
+=
+−
+9
+x
+3
++
+3
+x
+2
+−
+2
+x
++
+2
+h(x)=−9x 
+3
+ +3x 
+2
+ −2x+2.
+
+but the problem says to write the terms in order of decreasing degree. let's see, degrees are based on the exponent of 
+x
+x. so, the degrees here are:
+
+- 
+−
+9
+x
+3
+−9x 
+3
+ : degree 3
+
+- 
+3
+x
+2
+3x 
+2
+ : degree 2
+
+- 
+−
+2
+x
+−2x: degree 1
+
+- 
+2
+2: degree 0
+
+they are already in decreasing order: 3, 2, 1, 0. so, that should be fine.
+
+wait a second, but sometimes people prefer not to have a negative leading coefficient. is that necessary? the problem doesn't specify that, so i think it's okay.
+
+let me just check my work again to make sure i didn't make any mistakes.
+
+starting with:
+
+9
+x
+3
+−
+3
+x
++
+1
++
+h
+(
+x
+)
+=
+3
+x
+2
+−
+5
+x
++
+3.
+9x 
+3
+ −3x+1+h(x)=3x 
+2
+ −5x+3.
+subtract 
+9
+x
+3
+−
+3
+x
++
+1
+9x 
+3
+ −3x+1 from both sides:
+
+h
+(
+x
+)
+=
+3
+x
+2
+−
+5
+x
++
+3
+−
+9
+x
+3
++
+3
+x
+−
+1.
+h(x)=3x 
+2
+ −5x+3−9x 
+3
+ +3x−1.
+combine like terms:
+
+−
+9
+x
+3
++
+3
+x
+2
+−
+2
+x
++
+2.
+−9x 
+3
+ +3x 
+2
+ −2x+2.
+seems correct.
+
+alternatively, i could plug 
+h
+(
+x
+)
+h(x) back into the original equation to verify.
+
+so, plugging 
+h
+(
+x
+)
+=
+−
+9
+x
+3
++
+3
+x
+2
+−
+2
+x
++
+2
+h(x)=−9x 
+3
+ +3x 
+2
+ −2x+2 into the left side:
+
+9
+x
+3
+−
+3
+x
++
+1
++
+(
+−
+9
+x
+3
++
+3
+x
+2
+−
+2
+x
++
+2
+)
+=
+9
+x
+3
+−
+9
+x
+3
++
+3
+x
+2
+−
+3
+x
+−
+2
+x
++
+1
++
+2
+=
+3
+x
+2
+−
+5
+x
++
+3.
+9x 
+3
+ −3x+1+(−9x 
+3
+ +3x 
+2
+ −2x+2)=9x 
+3
+ −9x 
+3
+ +3x 
+2
+ −3x−2x+1+2=3x 
+2
+ −5x+3.
+yes, that matches the right side of the equation. so, my answer is correct.
+
+i think that's all there is to it. the answer is 
+h
+(
+x
+)
+=
+−
+9
+x
+3
++
+3
+x
+2
+−
+2
+x
++
+2
+h(x)=−9x 
+3
+ +3x 
+2
+ −2x+2, and it's already in decreasing order of degree.
+
+**final answer**
+
+−9x 
+3
+ +3x 
+2
+ −2x+2

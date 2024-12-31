@@ -1,1 +1,11 @@
-Reasoning: 
+Reasoning: Alright, I need to find the arithmetic mean of these three numbers: 14, 22, and 36. I remember that the arithmetic mean is basically the average of the numbers. So, I should add them all up and then divide by how many numbers there are.
+
+First, I'll add 14 and 22. Let's see, 14 plus 22 is 36. Then, I add 36 to that, so 36 plus 36 equals 72. Okay, so the total sum is 72.
+
+Now, I need to divide this sum by the number of values I have. There are three numbers here: 14, 22, and 36. So, I should divide 72 by 3.
+
+Let me do that calculation: 72 divided by 3 is 24. So, the arithmetic mean should be 24.
+
+Wait, does that make sense? Let me double-check. If I have three numbers and their average is 24, then adding them up should give me 72, which matches what I calculated earlier. Yeah, that seems right.
+
+I don't think I made any mistakes here. It's pretty straightforward.

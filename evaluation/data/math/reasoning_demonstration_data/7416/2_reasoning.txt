@@ -1,1 +1,41 @@
-Reasoning: 
+Reasoning: Okay, so I've got this geometry problem here. It says that triangle ABC is isosceles, and angle A is congruent to angle B. That means angles A and B are equal, right? And angle C is 30 degrees more than angle A. I need to find the measure of angle C.
+
+Alright, let's start by recalling some basic facts about triangles. In any triangle, the sum of the interior angles is always 180 degrees. So, if I add up angles A, B, and C, it should equal 180 degrees.
+
+Since angle A is congruent to angle B, I can say that angle A equals angle B. Let's call the measure of angle A "x" degrees. That means angle B is also "x" degrees.
+
+Now, angle C is 30 degrees more than angle A. So, angle C would be "x + 30" degrees.
+
+So, putting it all together, the sum of the angles should be:
+
+Angle A + Angle B + Angle C = 180 degrees
+
+Which is:
+
+x + x + (x + 30) = 180
+
+Combining like terms:
+
+3x + 30 = 180
+
+Now, I need to solve for x. So, I'll subtract 30 from both sides:
+
+3x = 150
+
+Then, divide both sides by 3:
+
+x = 50
+
+So, angle A is 50 degrees, and since angle B is equal to angle A, angle B is also 50 degrees.
+
+Now, angle C is 30 degrees more than angle A, so:
+
+Angle C = 50 + 30 = 80 degrees
+
+Let me just double-check to make sure everything adds up correctly:
+
+50 (A) + 50 (B) + 80 (C) = 180 degrees
+
+Yes, that adds up to 180 degrees, so it checks out.
+
+I think that's the answer. Angle C is 80 degrees.

@@ -1,1 +1,81 @@
-Answer: 
+Answer: Given a rhombus with side length \(\sqrt{89}\) units and diagonals that differ by 6 units, we need to find its area.
+
+first, denote the lengths of the diagonals as \(d_1\) and \(d_2\), where \(d_2 = d_1 + 6\). using the property that the diagonals of a rhombus bisect each other at right angles, we can relate the side length to the diagonals using the pythagorean theorem:
+
+\[
+\left( \frac{d_1}{2} \right)^2 + \left( \frac{d_2}{2} \right)^2 = (\sqrt{89})^2
+\]
+
+substituting \(d_2 = d_1 + 6\):
+
+\[
+\left( \frac{d_1}{2} \right)^2 + \left( \frac{d_1 + 6}{2} \right)^2 = 89
+\]
+
+simplifying:
+
+\[
+\frac{d_1^2}{4} + \frac{(d_1 + 6)^2}{4} = 89
+\]
+
+combining the fractions:
+
+\[
+\frac{d_1^2 + (d_1 + 6)^2}{4} = 89
+\]
+
+multiplying both sides by 4:
+
+\[
+d_1^2 + (d_1 + 6)^2 = 356
+\]
+
+expanding and combining like terms:
+
+\[
+d_1^2 + d_1^2 + 12d_1 + 36 = 356
+\]
+\[
+2d_1^2 + 12d_1 + 36 = 356
+\]
+\[
+2d_1^2 + 12d_1 - 320 = 0
+\]
+
+dividing by 2:
+
+\[
+d_1^2 + 6d_1 - 160 = 0
+\]
+
+solving the quadratic equation:
+
+\[
+d_1 = \frac{-6 \pm \sqrt{6^2 - 4(1)(-160)}}{2(1)}
+\]
+\[
+d_1 = \frac{-6 \pm \sqrt{36 + 640}}{2}
+\]
+\[
+d_1 = \frac{-6 \pm \sqrt{676}}{2}
+\]
+\[
+d_1 = \frac{-6 \pm 26}{2}
+\]
+
+this gives:
+
+1. \( d_1 = \frac{20}{2} = 10 \)
+2. \( d_1 = \frac{-32}{2} = -16 \) (discarded as length cannot be negative)
+
+thus, \( d_1 = 10 \) units and \( d_2 = 10 + 6 = 16 \) units.
+
+the area of the rhombus is:
+
+\[
+\text{area} = \frac{d_1 \times d_2}{2} = \frac{10 \times 16}{2} = 80 \text{ square units}
+\]
+
+\[
+\boxed{80}
+\]

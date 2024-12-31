@@ -1,1 +1,26 @@
-Answer: 
+Answer: To find the value of \( x \) when \( y = 1 \) in the equation \( y = \frac{1}{3x + 1} \), follow these steps:
+
+1. **Substitute \( y = 1 \) into the equation:**
+   \[
+   1 = \frac{1}{3x + 1}
+   \]
+
+2. **Multiply both sides by \( 3x + 1 \) to eliminate the denominator:**
+   \[
+   1 \cdot (3x + 1) = 1
+   \]
+   \[
+   3x + 1 = 1
+   \]
+
+3. **Subtract 1 from both sides:**
+   \[
+   3x = 0
+   \]
+
+4. **Divide both sides by 3:**
+   \[
+   x = 0
+   \]
+
+Thus, the value of \( x \) when \( y = 1 \) is **0**.

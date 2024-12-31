@@ -1,1 +1,51 @@
-Answer: 
+Answer: To solve the problem of forming a four-person subcommittee with at least one teacher from a planning committee of 10 members (4 of whom are teachers), we can use two approaches:
+
+1. **total subcommittees minus subcommittees with no teachers:**
+
+   - total ways to choose any 4 members from 10:
+     \[
+     \binom{10}{4} = \frac{10!}{4!(10-4)!} = 210
+     \]
+
+   - ways to choose 4 members from the 6 non-teachers:
+     \[
+     \binom{6}{4} = \frac{6!}{4!(6-4)!} = 15
+     \]
+
+   - subcommittees with at least one teacher:
+     \[
+     210 - 15 = 195
+     \]
+
+2. **direct calculation of subcommittees with at least one teacher:**
+
+   - subcommittees with exactly 1 teacher and 3 non-teachers:
+     \[
+     \binom{4}{1} \times \binom{6}{3} = 4 \times 20 = 80
+     \]
+
+   - subcommittees with exactly 2 teachers and 2 non-teachers:
+     \[
+     \binom{4}{2} \times \binom{6}{2} = 6 \times 15 = 90
+     \]
+
+   - subcommittees with exactly 3 teachers and 1 non-teacher:
+     \[
+     \binom{4}{3} \times \binom{6}{1} = 4 \times 6 = 24
+     \]
+
+   - subcommittees with exactly 4 teachers:
+     \[
+     \binom{4}{4} \times \binom{6}{0} = 1 \times 1 = 1
+     \]
+
+   - total subcommittees with at least one teacher:
+     \[
+     80 + 90 + 24 + 1 = 195
+     \]
+
+both approaches confirm that the number of distinct subcommittees with at least one teacher is:
+
+\[
+\boxed{195}
+\]

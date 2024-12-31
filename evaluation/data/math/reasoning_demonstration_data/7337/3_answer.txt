@@ -1,1 +1,26 @@
-Answer: 
+Answer: Juan rolls a fair 8-sided die, and amal rolls a fair 6-sided die. we need to find the probability that the product of their rolls is a multiple of 3.
+
+first, we find the probability that neither roll is a multiple of 3.
+
+for juan's roll (1 through 8):
+- multiples of 3: 3, 6 (2 out of 8)
+- probability of not rolling a multiple of 3: \(1 - \frac{2}{8} = \frac{3}{4}\)
+
+for amal's roll (1 through 6):
+- multiples of 3: 3, 6 (2 out of 6)
+- probability of not rolling a multiple of 3: \(1 - \frac{2}{6} = \frac{2}{3}\)
+
+the probability that neither rolls a multiple of 3 is:
+\[
+\left(\frac{3}{4}\right) \times \left(\frac{2}{3}\right) = \frac{6}{12} = \frac{1}{2}
+\]
+
+therefore, the probability that at least one of them rolls a multiple of 3 is:
+\[
+1 - \frac{1}{2} = \frac{1}{2}
+\]
+
+thus, the final answer is:
+\[
+\boxed{\frac{1}{2}}
+\]

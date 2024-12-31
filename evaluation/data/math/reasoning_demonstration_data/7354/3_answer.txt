@@ -1,1 +1,49 @@
-Answer: 
+Answer: To find the sum of the integer values of \( k \) that minimize the area of the triangle formed by the points \((1, 7)\), \((13, 16)\), and \((5, k)\), we use the shoelace formula for the area of a triangle:
+
+\[
+\text{area} = \left| \frac{1 \cdot (16 - k) + 13 \cdot (k - 7) + 5 \cdot (7 - 16)}{2} \right|
+\]
+
+simplifying inside the absolute value:
+
+\[
+1 \cdot (16 - k) = 16 - k
+\]
+\[
+13 \cdot (k - 7) = 13k - 91
+\]
+\[
+5 \cdot (7 - 16) = 5 \cdot (-9) = -45
+\]
+
+combining these:
+
+\[
+16 - k + 13k - 91 - 45 = 12k - 120
+\]
+
+thus, the area is:
+
+\[
+\left| \frac{12k - 120}{2} \right| = \left| 6k - 60 \right|
+\]
+
+to minimize the area, we set \( |6k - 60| \) to be as small as possible. the smallest value is zero, which occurs when:
+
+\[
+6k - 60 = 0 \implies k = 10
+\]
+
+however, if \( k = 10 \), the points are collinear, forming a degenerate triangle with zero area. since a triangle must have a positive area, we consider the next smallest values of \( k \) that make the area minimal but positive. these values are \( k = 9 \) and \( k = 11 \), both giving an area of 6.
+
+therefore, the sum of the values of \( k \) that minimize the area is:
+
+\[
+9 + 11 = 20
+\]
+
+thus, the answer is:
+
+\[
+\boxed{20}
+\]

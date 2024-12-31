@@ -1,1 +1,26 @@
-Answer: 
+Answer: To find the measure of one interior angle of a regular hexagon, follow these steps:
+
+1. **Calculate the sum of interior angles** using the formula:
+   \[
+   (n-2) \times 180^\circ
+   \]
+   where \( n = 6 \) for a hexagon. This gives:
+   \[
+   (6-2) \times 180^\circ = 720^\circ
+   \]
+
+2. **Divide the sum by the number of angles** (which is 6 for a hexagon):
+   \[
+   \frac{720^\circ}{6} = 120^\circ
+   \]
+
+3. **Alternatively**, use exterior angles. The sum of exterior angles of any polygon is \( 360^\circ \), so for a hexagon:
+   \[
+   \frac{360^\circ}{6} = 60^\circ
+   \]
+   Since interior and exterior angles are supplementary:
+   \[
+   180^\circ - 60^\circ = 120^\circ
+   \]
+
+**Answer:** Each interior angle of a regular hexagon measures **120 degrees**.

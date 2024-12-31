@@ -1,1 +1,35 @@
-Answer: 
+Answer: To find the area of a triangle with side lengths 8, 15, and 17 units, we first check if it is a right-angled triangle by verifying the pythagorean theorem:
+
+\[
+17^2 = 8^2 + 15^2
+\]
+\[
+289 = 64 + 225
+\]
+\[
+289 = 289
+\]
+
+since the equation holds true, the triangle is a right-angled triangle with legs 8 and 15, and hypotenuse 17. the area of a right-angled triangle is given by:
+
+\[
+\text{area} = \frac{1}{2} \times \text{base} \times \text{height} = \frac{1}{2} \times 8 \times 15 = 60 \text{ square units}
+\]
+
+to confirm, we use heron's formula. first, we find the semi-perimeter \( s \):
+
+\[
+s = \frac{8 + 15 + 17}{2} = 20
+\]
+
+then, we apply heron's formula:
+
+\[
+\text{area} = \sqrt{s(s-a)(s-b)(s-c)} = \sqrt{20(20-8)(20-15)(20-17)} = \sqrt{20 \times 12 \times 5 \times 3} = \sqrt{3600} = 60 \text{ square units}
+\]
+
+both methods confirm that the area of the triangle is:
+
+\[
+\boxed{60}
+\]

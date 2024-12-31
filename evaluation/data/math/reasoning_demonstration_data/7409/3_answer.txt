@@ -1,1 +1,42 @@
-Answer: 
+Answer: To solve the inequality \((n - 2)(n + 4)(n + 8) < 0\) for integers \( -11 \leq n \leq 11 \), we first identify the critical points where each factor is zero: \( n = 2 \), \( n = -4 \), and \( n = -8 \). these points divide the number line into four intervals:
+
+1. \( n < -8 \)
+2. \(-8 < n < -4 \)
+3. \(-4 < n < 2 \)
+4. \( n > 2 \)
+
+we test each interval to determine where the product is negative:
+
+- for \( n < -8 \), choose \( n = -10 \):
+  \[
+  (-10 - 2)(-10 + 4)(-10 + 8) = (-12)(-6)(-2) = -144 \quad (\text{negative})
+  \]
+
+- for \(-8 < n < -4 \), choose \( n = -6 \):
+  \[
+  (-6 - 2)(-6 + 4)(-6 + 8) = (-8)(-2)(2) = 32 \quad (\text{positive})
+  \]
+
+- for \(-4 < n < 2 \), choose \( n = 0 \):
+  \[
+  (0 - 2)(0 + 4)(0 + 8) = (-2)(4)(8) = -64 \quad (\text{negative})
+  \]
+
+- for \( n > 2 \), choose \( n = 3 \):
+  \[
+  (3 - 2)(3 + 4)(3 + 8) = (1)(7)(11) = 77 \quad (\text{positive})
+  \]
+
+thus, the intervals where the product is negative are \( n < -8 \) and \(-4 < n < 2 \).
+
+next, we find the integer values within these intervals:
+
+- for \( n < -8 \): integers are \(-11, -10, -9\)
+- for \(-4 < n < 2 \): integers are \(-3, -2, -1, 0, 1\)
+
+counting these integers, we get a total of \( 3 + 5 = 8 \) integers.
+
+therefore, the number of integers that satisfy the inequality is:
+\[
+\boxed{8}
+\]

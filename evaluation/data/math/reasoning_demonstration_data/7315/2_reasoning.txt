@@ -1,1 +1,166 @@
 Reasoning: 
+So i have this problem here. ray is climbing stairs in different ways, and i need to find the smallest number of steps, n, that's greater than 10, based on how he climbs. let's see what the problem says.
+
+first, when ray climbs 4 steps at a time, there are 3 steps left at the top. that means that when he takes jumps of 4 steps, he doesn't land exactly on the top step; instead, he lands on the step that's 3 steps below the top. so, if n is the total number of steps, then n divided by 4 leaves a remainder of 3. in other words, n ≡ 3 mod 4.
+
+similarly, when he climbs 5 steps at a time, there are 2 steps left at the top. so, n divided by 5 leaves a remainder of 2. that means n ≡ 2 mod 5.
+
+i need to find the smallest n > 10 that satisfies both of these conditions.
+
+alright, so i have two congruences:
+
+1. n ≡ 3 mod 4
+
+2. n ≡ 2 mod 5
+
+i need to find a number n that satisfies both of these.
+
+one way to approach this is to list out numbers that satisfy each condition and find the smallest one that appears in both lists and is greater than 10.
+
+let's first list numbers that are ≡ 3 mod 4. that means numbers that are 3 more than a multiple of 4.
+
+so, starting from 0:
+
+0 + 3 = 3
+
+4 + 3 = 7
+
+8 + 3 = 11
+
+12 + 3 = 15
+
+16 + 3 = 19
+
+20 + 3 = 23
+
+24 + 3 = 27
+
+and so on.
+
+so, the sequence is: 3, 7, 11, 15, 19, 23, 27, ...
+
+now, numbers that are ≡ 2 mod 5. that means numbers that are 2 more than a multiple of 5.
+
+starting from 0:
+
+0 + 2 = 2
+
+5 + 2 = 7
+
+10 + 2 = 12
+
+15 + 2 = 17
+
+20 + 2 = 22
+
+25 + 2 = 27
+
+and so on.
+
+so, the sequence is: 2, 7, 12, 17, 22, 27, ...
+
+now, i need to find the smallest number greater than 10 that appears in both sequences.
+
+looking at the first sequence: 3, 7, 11, 15, 19, 23, 27, ...
+
+second sequence: 2, 7, 12, 17, 22, 27, ...
+
+looking for numbers greater than 10:
+
+from the first sequence: 11, 15, 19, 23, 27,...
+
+from the second sequence: 12, 17, 22, 27,...
+
+looking for common numbers: 27 is common.
+
+but is there any smaller number than 27 that is in both sequences and greater than 10?
+
+let's see:
+
+11 is in the first sequence, but is 11 in the second sequence? looking at the second sequence: 12, 17, 22, 27,... no, 11 is not there.
+
+15 is in the first sequence; is 15 in the second sequence? the second sequence has 12, 17, 22, 27,... no, 15 is not there.
+
+19 is in the first sequence; is 19 in the second sequence? second sequence: 12, 17, 22, 27,... no, not there.
+
+23 is in the first sequence; is 23 in the second sequence? second sequence: 12, 17, 22, 27,... no.
+
+then 27 is in both sequences.
+
+is there any number smaller than 27 that satisfies both conditions and is greater than 10? it seems not.
+
+but maybe i should check if there's a better way to solve this without listing out numbers, in case n could be larger and listing isn't efficient.
+
+let me try solving the system of congruences.
+
+we have:
+
+n ≡ 3 mod 4
+
+n ≡ 2 mod 5
+
+i can express n as n = 4k + 3 for some integer k.
+
+now, substitute this into the second congruence:
+
+4k + 3 ≡ 2 mod 5
+
+so, 4k + 3 - 2 ≡ 0 mod 5
+
+4k + 1 ≡ 0 mod 5
+
+4k ≡ -1 mod 5
+
+but -1 mod 5 is the same as 4 mod 5, because -1 + 5 = 4.
+
+so, 4k ≡ 4 mod 5
+
+now, i can divide both sides by 4, but i have to be careful because division in modular arithmetic requires that 4 and 5 are coprime, which they are, since gcd(4,5)=1.
+
+so, k ≡ 1 mod 5
+
+therefore, k = 5m + 1 for some integer m.
+
+now, substitute back into n = 4k + 3:
+
+n = 4(5m + 1) + 3 = 20m + 4 + 3 = 20m + 7
+
+so, n = 20m + 7
+
+now, i need to find the smallest n > 10.
+
+so, set 20m + 7 > 10
+
+20m > 3
+
+m > 3/20
+
+since m is an integer, the smallest m is m=0.
+
+then n=20*0 +7=7, but 7 is not greater than 10.
+
+next m=1: n=20*1 +7=27, which is greater than 10.
+
+so, n=27 is the smallest n>10 that satisfies both conditions.
+
+wait, but earlier i saw that 27 is in both sequences, and it seems to be the smallest greater than 10.
+
+but just to confirm, is there any n between 10 and 27 that satisfies both conditions?
+
+looking back at the sequences:
+
+first sequence: 11,15,19,23,27,...
+
+second sequence:12,17,22,27,...
+
+no overlap before 27.
+
+therefore, n=27 is indeed the smallest number greater than 10 that satisfies both conditions.
+
+so, the answer should be 27.
+
+**final answer**
+
+27
+​	
+ 

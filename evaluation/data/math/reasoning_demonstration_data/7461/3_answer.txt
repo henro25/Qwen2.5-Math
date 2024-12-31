@@ -1,1 +1,31 @@
-Answer: 
+Answer: To find the smallest positive integer \( n \) such that all the roots of \( z^4 - z^2 + 1 = 0 \) are \( n^{\text{th}} \) roots of unity, we start by solving the equation.
+
+first, we substitute \( w = z^2 \), transforming the equation into \( w^2 - w + 1 = 0 \). solving this quadratic equation using the quadratic formula, we get:
+\[ w = \frac{1 \pm \sqrt{-3}}{2} = \frac{1 \pm i\sqrt{3}}{2} \]
+
+these solutions can be written in polar form as:
+\[ w = e^{i\pi/3} \quad \text{and} \quad w = e^{-i\pi/3} \]
+
+since \( w = z^2 \), we have:
+\[ z^2 = e^{i\pi/3} \quad \text{or} \quad z^2 = e^{-i\pi/3} \]
+
+taking square roots, the roots of the original equation are:
+\[ z = \pm e^{i\pi/6}, \pm e^{-i\pi/6} \]
+
+these roots can be expressed as:
+\[ z_1 = e^{i\pi/6}, \quad z_2 = e^{i5\pi/6}, \quad z_3 = e^{i7\pi/6}, \quad z_4 = e^{i11\pi/6} \]
+
+to determine the smallest \( n \) such that \( z^n = 1 \) for all these roots, we need \( n \) to be a multiple of the orders of these roots. the order of a root \( e^{i\theta} \) is the smallest positive integer \( m \) such that \( e^{i\theta m} = 1 \), which implies \( \theta m \) is a multiple of \( 2\pi \).
+
+for each root:
+- \( e^{i\pi/6} \): order is 12
+- \( e^{i5\pi/6} \): order is 12
+- \( e^{i7\pi/6} \): order is 12
+- \( e^{i11\pi/6} \): order is 12
+
+thus, the smallest \( n \) that is a multiple of the orders of all roots is the least common multiple (lcm) of 12, which is 12.
+
+therefore, the smallest positive integer \( n \) is:
+\[
+\boxed{12}
+\]

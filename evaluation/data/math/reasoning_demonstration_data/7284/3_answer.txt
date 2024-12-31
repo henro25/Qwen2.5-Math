@@ -1,1 +1,12 @@
-Answer: 
+Answer: To determine the number of sides of a regular polygon with each exterior angle measuring 15 degrees, we can use the fact that the sum of all exterior angles of any polygon is 360 degrees. Since the polygon is regular, each exterior angle is equal.
+
+1. **Sum of exterior angles**: 360 degrees.
+2. **Measure of each exterior angle**: 15 degrees.
+
+To find the number of sides (n), divide the total sum of the exterior angles by the measure of one exterior angle:
+
+\[
+n = \frac{360^\circ}{15^\circ} = 24
+\]
+
+Thus, the polygon has 24 sides.

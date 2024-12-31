@@ -1,1 +1,36 @@
-Answer: 
+Answer: To solve the problem, we start by noting that in a regular hexagon, each interior angle is 120 degrees. we extend sides \(\overline{ab}\) and \(\overline{ef}\) to meet at point \(p\).
+
+we use the properties of the regular hexagon and the coordinates of the vertices to find the intersection point \(p\). the coordinates of the vertices are:
+- \(a: (1, 0)\)
+- \(b: (0.5, \sqrt{3}/2)\)
+- \(e: (-0.5, -\sqrt{3}/2)\)
+- \(f: (0.5, -\sqrt{3}/2)\)
+
+the equations of the lines extending \(\overline{ab}\) and \(\overline{ef}\) are:
+- line \(ab\): \(y = -\sqrt{3} x + \sqrt{3}\)
+- line \(ef\): \(y = -\sqrt{3}/2\)
+
+setting \(y = -\sqrt{3}/2\) in the equation of \(ab\):
+\[
+-\sqrt{3}/2 = -\sqrt{3} x + \sqrt{3}
+\]
+solving for \(x\):
+\[
+-\sqrt{3}/2 - \sqrt{3} = -\sqrt{3} x \implies -\frac{3\sqrt{3}}{2} = -\sqrt{3} x \implies x = \frac{3}{2}
+\]
+thus, point \(p\) is at \((3/2, -\sqrt{3}/2)\).
+
+to find the angle at \(p\), we use vectors:
+- vector \(pa = (-1/2, \sqrt{3}/2)\)
+- vector \(pf = (-1, 0)\)
+
+the angle between these vectors is given by:
+\[
+\cos(\theta) = \frac{pa \cdot pf}{|pa| |pf|} = \frac{(-1/2)(-1) + (\sqrt{3}/2)(0)}{1 \cdot 1} = \frac{1/2}{1} = \frac{1}{2}
+\]
+thus, \(\theta = \arccos(1/2) = 60^\circ\).
+
+therefore, the measure of angle \(p\) is:
+\[
+\boxed{60^\circ}
+\]

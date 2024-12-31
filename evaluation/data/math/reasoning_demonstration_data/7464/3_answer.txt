@@ -1,1 +1,45 @@
-Answer: 
+Answer: Given that \( z \) is a complex number such that \( z + z^{-1} = \sqrt{3} \), we need to find the value of \( z^{2010} + z^{-2010} \).
+
+first, we recognize that \( z + z^{-1} = 2 \cos \theta \), where \( \theta \) is the argument of \( z \). thus, we have:
+
+\[
+2 \cos \theta = \sqrt{3} \implies \cos \theta = \frac{\sqrt{3}}{2}
+\]
+
+this implies that \( \theta = \frac{\pi}{6} \) or \( \theta = -\frac{\pi}{6} \).
+
+next, we need to find \( z^{2010} + z^{-2010} \). using the polar form of \( z \), we have:
+
+\[
+z = e^{i\pi/6} \quad \text{or} \quad z = e^{-i\pi/6}
+\]
+
+thus,
+
+\[
+z^{2010} = e^{i \cdot 2010 \cdot \pi/6} = e^{i \cdot 335\pi}
+\]
+\[
+z^{-2010} = e^{-i \cdot 2010 \cdot \pi/6} = e^{-i \cdot 335\pi}
+\]
+
+since \( 335\pi \) is equivalent to \( \pi \) modulo \( 2\pi \), we have:
+
+\[
+e^{i \cdot 335\pi} = e^{i\pi} = -1
+\]
+\[
+e^{-i \cdot 335\pi} = e^{-i\pi} = -1
+\]
+
+therefore,
+
+\[
+z^{2010} + z^{-2010} = e^{i \cdot 335\pi} + e^{-i \cdot 335\pi} = -1 + (-1) = -2
+\]
+
+thus, the value is:
+
+\[
+\boxed{-2}
+\]

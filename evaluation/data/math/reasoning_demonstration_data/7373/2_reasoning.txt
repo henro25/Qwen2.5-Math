@@ -1,1 +1,82 @@
-Reasoning: 
+Reasoning: So i have this problem: what is the largest 4-digit integer congruent to 15 mod 22? hmm, okay, let's break this down.
+
+first, i need to understand what it means for a number to be congruent to 15 modulo 22. in math terms, if a number x is congruent to 15 mod 22, that means when you divide x by 22, the remainder is 15. so, x ≡ 15 mod 22.
+
+now, i need to find the largest 4-digit number that satisfies this condition. the largest 4-digit number is 9999. so, i need to check if 9999 is congruent to 15 mod 22, or if not, find the largest number less than 9999 that is.
+
+to do this, i can use the division algorithm. any integer x can be expressed as x = 22 * q + r, where q is the quotient and r is the remainder when x is divided by 22, and 0 ≤ r < 22.
+
+in this case, r should be 15. so, x = 22 * q + 15.
+
+i need to find the largest x that is a 4-digit number, so x ≤ 9999.
+
+so, 22 * q + 15 ≤ 9999.
+
+let's solve for q:
+
+22 * q ≤ 9999 - 15
+
+22 * q ≤ 9984
+
+q ≤ 9984 / 22
+
+let me calculate that.
+
+9984 divided by 22. let's do that division.
+
+22 times 454 is 22 * 400 = 8800, 22 * 50 = 1100, so 22 * 450 = 9900.
+
+9984 - 9900 = 84.
+
+now, 22 * 3 = 66, and 84 - 66 = 18, which is less than 22, so q = 454 + 3 = 457, but there's a remainder of 18, which means q = 457 with a remainder.
+
+wait, actually, i'm trying to find q such that 22 * q ≤ 9984.
+
+so, q = floor(9984 / 22).
+
+let me calculate 9984 / 22.
+
+22 * 454 = 9988, which is greater than 9984, so q = 454 - 1 = 453.
+
+wait, no. let me calculate it properly.
+
+22 * 454 = 9988, which is larger than 9984, so q = 453.
+
+let's check 22 * 453 = 9966.
+
+yes, 22 * 453 = 9966.
+
+so, the largest q is 453.
+
+therefore, the largest x is 22 * 453 + 15 = 9966 + 15 = 9981.
+
+so, 9981 is the largest 4-digit number that is congruent to 15 mod 22.
+
+wait a second, is there a larger number than 9981 that is still a 4-digit number and satisfies x ≡ 15 mod 22?
+
+let me check if 9981 + 22 is still a 4-digit number.
+
+9981 + 22 = 10003, which is a 5-digit number, so that's too big.
+
+therefore, 9981 is indeed the largest 4-digit number that is congruent to 15 mod 22.
+
+let me verify this.
+
+if i divide 9981 by 22, what is the remainder?
+
+9981 / 22.
+
+22 * 453 = 9966.
+
+9981 - 9966 = 15.
+
+yes, the remainder is 15, so 9981 ≡ 15 mod 22.
+
+perfect.
+
+so, the answer should be 9981.
+
+**final answer**
+
+9981
+ 

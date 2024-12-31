@@ -1,1 +1,25 @@
-Answer: 
+Answer: To determine how many whole numbers lie in the interval between \(\frac{5}{3}\) and \(2\pi\), we first find the approximate values of these numbers:
+
+\[
+\frac{5}{3} \approx 1.6667 \quad \text{and} \quad 2\pi \approx 6.2832
+\]
+
+we need to find the whole numbers \(n\) such that:
+
+\[
+1.6667 < n < 6.2832
+\]
+
+the whole numbers that satisfy this inequality are:
+
+\[
+2, 3, 4, 5, 6
+\]
+
+counting these numbers, we find there are 5 whole numbers in total.
+
+thus, the number of whole numbers in the interval is:
+
+\[
+\boxed{5}
+\]

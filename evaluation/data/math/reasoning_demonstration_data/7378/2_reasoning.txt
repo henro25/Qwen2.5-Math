@@ -1,1 +1,528 @@
-Reasoning: 
+Reasoning: So i've got this problem here: find the largest integer 
+n
+n for which 
+1
+2
+n
+12 
+n
+  evenly divides 
+20
+!
+20!. okay, first things first, i need to understand what this is asking. so, 
+20
+!
+20! means 20 factorial, which is the product of all positive integers from 1 to 20. and i need to find the highest power of 12 that divides evenly into this big number.
+
+hmm, i remember that when we're dealing with factorials and divisibility, prime factorization is usually the way to go. so, maybe i should start by breaking down 12 into its prime factors. let's see, 12 is equal to 
+2
+2
+×
+3
+2 
+2
+ ×3. got it. so, 
+1
+2
+n
+=
+(
+2
+2
+×
+3
+)
+n
+=
+2
+2
+n
+×
+3
+n
+12 
+n
+ =(2 
+2
+ ×3) 
+n
+ =2 
+2n
+ ×3 
+n
+ .
+
+now, if 
+1
+2
+n
+12 
+n
+  divides 
+20
+!
+20!, that means 
+20
+!
+20! must have at least 
+2
+2
+n
+2 
+2n
+  and 
+3
+n
+3 
+n
+  in its prime factorization. so, i need to find the highest power of 2 and 3 in 
+20
+!
+20!, and then see what's the largest 
+n
+n that satisfies both conditions.
+
+alright, to find the exponent of a prime 
+p
+p in 
+n
+!
+n!, i recall there's a formula for that. it's called legendre's formula, i think. it says that the exponent of 
+p
+p in 
+n
+!
+n! is equal to 
+∑
+k
+=
+1
+∞
+⌊
+n
+p
+k
+⌋
+∑ 
+k=1
+∞
+​	
+ ⌊ 
+p 
+k
+ 
+n
+​	
+ ⌋, where 
+⌊
+x
+⌋
+⌊x⌋ is the floor function, which gives the greatest integer less than or equal to 
+x
+x.
+
+so, let's apply that to find the exponent of 2 in 
+20
+!
+20!. that would be:
+
+⌊
+20
+2
+⌋
++
+⌊
+20
+4
+⌋
++
+⌊
+20
+8
+⌋
++
+⌊
+20
+16
+⌋
++
+⌊
+20
+32
+⌋
++
+…
+⌊ 
+2
+20
+​	
+ ⌋+⌊ 
+4
+20
+​	
+ ⌋+⌊ 
+8
+20
+​	
+ ⌋+⌊ 
+16
+20
+​	
+ ⌋+⌊ 
+32
+20
+​	
+ ⌋+…
+
+calculating each term:
+
+⌊
+20
+2
+⌋
+=
+10
+⌊ 
+2
+20
+​	
+ ⌋=10
+
+⌊
+20
+4
+⌋
+=
+5
+⌊ 
+4
+20
+​	
+ ⌋=5
+
+⌊
+20
+8
+⌋
+=
+2
+⌊ 
+8
+20
+​	
+ ⌋=2
+
+⌊
+20
+16
+⌋
+=
+1
+⌊ 
+16
+20
+​	
+ ⌋=1
+
+⌊
+20
+32
+⌋
+=
+0
+⌊ 
+32
+20
+​	
+ ⌋=0 (since 32 is greater than 20, and floor of anything less than 1 is 0)
+
+so, adding them up: 10 + 5 + 2 + 1 = 18. therefore, the exponent of 2 in 
+20
+!
+20! is 18.
+
+now, for the exponent of 3 in 
+20
+!
+20!:
+
+⌊
+20
+3
+⌋
++
+⌊
+20
+9
+⌋
++
+⌊
+20
+27
+⌋
++
+…
+⌊ 
+3
+20
+​	
+ ⌋+⌊ 
+9
+20
+​	
+ ⌋+⌊ 
+27
+20
+​	
+ ⌋+…
+
+calculating each term:
+
+⌊
+20
+3
+⌋
+=
+6
+⌊ 
+3
+20
+​	
+ ⌋=6
+
+⌊
+20
+9
+⌋
+=
+2
+⌊ 
+9
+20
+​	
+ ⌋=2
+
+⌊
+20
+27
+⌋
+=
+0
+⌊ 
+27
+20
+​	
+ ⌋=0 (since 27 is greater than 20)
+
+so, adding them up: 6 + 2 = 8. therefore, the exponent of 3 in 
+20
+!
+20! is 8.
+
+now, going back to 
+1
+2
+n
+=
+2
+2
+n
+×
+3
+n
+12 
+n
+ =2 
+2n
+ ×3 
+n
+ . for 
+1
+2
+n
+12 
+n
+  to divide 
+20
+!
+20!, we need 
+2
+n
+≤
+18
+2n≤18 and 
+n
+≤
+8
+n≤8.
+
+so, solving for 
+n
+n:
+
+from 
+2
+n
+≤
+18
+2n≤18, we get 
+n
+≤
+9
+n≤9.
+
+from 
+n
+≤
+8
+n≤8, we get 
+n
+≤
+8
+n≤8.
+
+therefore, the largest integer 
+n
+n that satisfies both conditions is 
+n
+=
+8
+n=8.
+
+wait a minute, but just to be sure, maybe i should check if 
+1
+2
+8
+12 
+8
+  indeed divides 
+20
+!
+20! without leaving a remainder.
+
+let's see, 
+1
+2
+8
+=
+(
+2
+2
+×
+3
+)
+8
+=
+2
+16
+×
+3
+8
+12 
+8
+ =(2 
+2
+ ×3) 
+8
+ =2 
+16
+ ×3 
+8
+ .
+
+we already found that 
+20
+!
+20! has 
+2
+18
+2 
+18
+  and 
+3
+8
+3 
+8
+ , so yes, 
+2
+16
+2 
+16
+  is less than 
+2
+18
+2 
+18
+ , and 
+3
+8
+3 
+8
+  is equal to 
+3
+8
+3 
+8
+ , so it should divide evenly.
+
+but just to be thorough, maybe i should check if 
+n
+=
+9
+n=9 is possible. for 
+n
+=
+9
+n=9, 
+1
+2
+9
+=
+2
+18
+×
+3
+9
+12 
+9
+ =2 
+18
+ ×3 
+9
+ .
+
+now, 
+20
+!
+20! has 
+2
+18
+2 
+18
+  and 
+3
+8
+3 
+8
+ , so 
+3
+9
+3 
+9
+  would require an extra 3 that isn't present in 
+20
+!
+20!. therefore, 
+n
+=
+9
+n=9 is not possible.
+
+therefore, the largest integer 
+n
+n is indeed 8.
+
+**final answer**
+
+8
+ 

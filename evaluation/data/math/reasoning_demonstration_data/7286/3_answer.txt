@@ -1,1 +1,57 @@
-Answer: 
+Answer: Given trapezoid \(abcd\) with \(bc\) perpendicular to \(ab\) and \(cd\), and diagonals \(ac\) and \(bd\) perpendicular, we need to find \(bc^2\). we know \(ab = \sqrt{11}\) and \(ad = \sqrt{1001}\).
+
+first, we use the property of quadrilaterals with perpendicular diagonals:
+\[
+ab^2 + cd^2 = ad^2 + bc^2
+\]
+substituting the known values:
+\[
+(\sqrt{11})^2 + cd^2 = (\sqrt{1001})^2 + bc^2
+\]
+\[
+11 + cd^2 = 1001 + bc^2
+\]
+rearranging gives:
+\[
+cd^2 - bc^2 = 990
+\]
+
+next, we use the coordinate approach to find another relationship. placing \(b\) at \((0,0)\), \(c\) at \((0, h)\), \(a\) at \((\sqrt{11}, 0)\), and \(d\) at \((d, h)\), we use the distance formula for \(ad\):
+\[
+ad = \sqrt{(d - \sqrt{11})^2 + h^2} = \sqrt{1001}
+\]
+\[
+(d - \sqrt{11})^2 + h^2 = 1001
+\]
+using \(h^2 = \sqrt{11} \cdot d\):
+\[
+(d - \sqrt{11})^2 + \sqrt{11} \cdot d = 1001
+\]
+expanding and simplifying:
+\[
+d^2 - 2\sqrt{11}d + 11 + \sqrt{11}d = 1001
+\]
+\[
+d^2 - \sqrt{11}d + 11 = 1001
+\]
+\[
+d^2 - \sqrt{11}d - 990 = 0
+\]
+
+solving the quadratic equation for \(d\):
+\[
+d = \frac{\sqrt{11} \pm \sqrt{11 + 4 \cdot 990}}{2}
+\]
+\[
+d = \frac{\sqrt{11} \pm \sqrt{3971}}{2}
+\]
+
+finally, solving for \(h^2\):
+\[
+h^2 = 110
+\]
+
+thus, the value of \(bc^2\) is:
+\[
+\boxed{110}
+\]

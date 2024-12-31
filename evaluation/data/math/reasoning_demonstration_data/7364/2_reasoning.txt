@@ -1,1 +1,57 @@
 Reasoning: 
+So i've got this problem here. there's a matrix m, and two vectors v and w. i know that m times v is [2, 3] and m times w is [-2, -5]. i need to find m times (v + 3w). hmm, okay, let's see.
+
+first, i recall that matrix multiplication is linear. that means m times a sum of vectors is the same as the sum of m times each vector. so, m(v + 3w) should be equal to m*v + m*(3w). and since scalar multiplication can be pulled out, m*(3w) is the same as 3*m*w.
+
+so, putting that together, m(v + 3w) = m*v + 3*m*w.
+
+i already know what m*v and m*w are. m*v is [2, 3], and m*w is [-2, -5]. so, plugging those in:
+
+m(v + 3w) = [2, 3] + 3*[ -2, -5 ].
+
+now, i need to compute 3 times [-2, -5]. that should be [3*(-2), 3*(-5)] = [-6, -15].
+
+so, now i have [2, 3] + [-6, -15]. to add these vectors, i add the corresponding components:
+
+2 + (-6) = -4
+
+3 + (-15) = -12
+
+therefore, m(v + 3w) should be [-4, -12].
+
+wait a minute, let me double-check that. maybe i should verify if i applied the linearity correctly.
+
+matrix multiplication is indeed linear, so m(a*v + b*w) = a*m*v + b*m*w, where a and b are scalars. in this case, a is 1 for v and b is 3 for w. yeah, that seems right.
+
+alternatively, if i think about the matrix m, it's probably a 2x2 matrix since it's mapping vectors to 2-dimensional vectors. but i don't need to know m explicitly to solve this problem, which is good because that would be more complicated.
+
+let me consider if there's another way to approach this. maybe by finding m itself? but no, that's unnecessary for this problem. the linearity approach seems straightforward and efficient.
+
+just to be thorough, let's assume m is a 2x2 matrix:
+
+m = [a b]
+
+[c d]
+
+then, m*v = [a*v1 + b*v2, c*v1 + d*v2] = [2, 3]
+
+and m*w = [a*w1 + b*w2, c*w1 + d*w2] = [-2, -5]
+
+but without knowing v and w themselves, it's impossible to solve for a, b, c, d. so, yeah, that's not helpful here.
+
+back to the original approach. it seems solid.
+
+wait, maybe i should check if the vectors v and w are linearly independent. if they are, then the matrix m is uniquely determined by its action on them, provided they form a basis. but again, i don't think that's necessary for this problem.
+
+okay, i'm pretty confident that m(v + 3w) = m*v + 3*m*w = [2, 3] + 3*[-2, -5] = [2 - 6, 3 - 15] = [-4, -12].
+
+i'll go with that as the final answer.
+
+**final answer**
+
+(
+−
+4
+−
+12
+)

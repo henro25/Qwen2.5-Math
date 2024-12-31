@@ -1,1 +1,13 @@
-Answer: 
+Answer: To determine how many 270-page books Robert can read in six hours, we start by calculating the total number of pages he can read in that time. Since he reads 90 pages per hour, in six hours he reads:
+
+\[
+90 \, \text{pages/hour} \times 6 \, \text{hours} = 540 \, \text{pages}
+\]
+
+Next, to find how many 270-page books he can read, we divide the total pages he can read by the number of pages in one book:
+
+\[
+\frac{540 \, \text{pages}}{270 \, \text{pages/book}} = 2 \, \text{books}
+\]
+
+Thus, Robert can read **2 books** in six hours.

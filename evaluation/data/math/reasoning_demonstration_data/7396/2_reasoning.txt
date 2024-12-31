@@ -1,1 +1,56 @@
 Reasoning: 
+So i've got this problem here: let x = 2001^{1002} - 2001^{-1002} and y = 2001^{1002} + 2001^{-1002}. i need to find x^2 - y^2. hmm, that looks a bit intimidating with those big exponents, but maybe there's a way to simplify it.
+
+first off, i know that x^2 - y^2 is a difference of squares, which factors into (x - y)(x + y). but in this case, x and y are already expressed in terms of 2001^{1002} and its reciprocal. maybe there's a pattern or identity that can help simplify this expression without dealing with such large exponents directly.
+
+let me write down what x and y are:
+
+x = 2001^{1002} - 2001^{-1002}
+
+y = 2001^{1002} + 2001^{-1002}
+
+so, x^2 - y^2 = (x - y)(x + y)
+
+but wait, let's compute x - y and x + y separately.
+
+x - y = (2001^{1002} - 2001^{-1002}) - (2001^{1002} + 2001^{-1002}) = -2 * 2001^{-1002}
+
+x + y = (2001^{1002} - 2001^{-1002}) + (2001^{1002} + 2001^{-1002}) = 2 * 2001^{1002}
+
+so, x^2 - y^2 = (-2 * 2001^{-1002}) * (2 * 2001^{1002}) = -4 * 2001^{-1002} * 2001^{1002}
+
+now, 2001^{-1002} * 2001^{1002} = 2001^{0} = 1
+
+so, x^2 - y^2 = -4 * 1 = -4
+
+wait, that seems too straightforward. did i miss something? let me double-check.
+
+starting over:
+
+x = a - 1/a, where a = 2001^{1002}
+
+y = a + 1/a
+
+then x^2 - y^2 = (a - 1/a)^2 - (a + 1/a)^2
+
+expanding both squares:
+
+(a^2 - 2*(a)*(1/a) + (1/a)^2) - (a^2 + 2*(a)*(1/a) + (1/a)^2)
+
+= a^2 - 2 + 1/a^2 - a^2 - 2 - 1/a^2
+
+= -4
+
+okay, that matches what i got earlier. so it seems correct. maybe there's a more elegant way to see this, but this approach works.
+
+alternatively, using the identity x^2 - y^2 = (x - y)(x + y), which i already did, and it led to the same conclusion.
+
+i think this is the answer: x^2 - y^2 = -4
+
+**final answer**
+
+−
+4
+−4
+​	
+ 

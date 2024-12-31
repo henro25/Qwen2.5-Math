@@ -1,1 +1,29 @@
-Answer: 
+Answer: To solve the problem, we can use similar triangles. Here's a step-by-step explanation:
+
+1. **Setting up the scenario**:
+   - Let the height of the pole be \( h \) meters.
+   - The cable stretches from the top of the pole (point T) to a point on the ground (point B), which is 3 meters from the base of the pole (point A).
+   - Leah walks 2.5 meters from A towards B and her head touches the cable at this point (point C). Leah is 1.5 meters tall, and point C is 0.5 meters from B.
+
+2. **Using similar triangles**:
+   - The large triangle formed by the pole (TA), the ground (AB), and the cable (TB) is similar to the smaller triangle formed from point C to the top of Leah's head.
+   - The ratio of corresponding sides in similar triangles is equal.
+
+3. **Setting up the proportion**:
+   - The height of the pole is \( h \), and the height at point C is 1.5 meters.
+   - The base of the large triangle is 3 meters, and the base of the smaller triangle is 0.5 meters.
+
+   The proportion is:
+   \[
+   \frac{h}{1.5} = \frac{3}{0.5}
+   \]
+   Simplifying:
+   \[
+   \frac{h}{1.5} = 6
+   \]
+   Solving for \( h \):
+   \[
+   h = 1.5 \times 6 = 9 \, \text{meters}
+   \]
+
+Thus, the height of the telephone pole is **9 meters**.

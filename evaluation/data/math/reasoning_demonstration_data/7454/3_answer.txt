@@ -1,1 +1,25 @@
-Answer: 
+Answer: To find the greatest common divisor (GCD) of 1407 and 903, we can use the Euclidean algorithm, which works as follows:
+
+1. **Step 1:** Divide 1407 by 903:
+   - 1407 ÷ 903 = 1 with a remainder of 504.
+
+2. **Step 2:** Divide 903 by 504:
+   - 903 ÷ 504 = 1 with a remainder of 399.
+
+3. **Step 3:** Divide 504 by 399:
+   - 504 ÷ 399 = 1 with a remainder of 105.
+
+4. **Step 4:** Divide 399 by 105:
+   - 399 ÷ 105 = 3 with a remainder of 84.
+
+5. **Step 5:** Divide 105 by 84:
+   - 105 ÷ 84 = 1 with a remainder of 21.
+
+6. **Step 6:** Divide 84 by 21:
+   - 84 ÷ 21 = 4 with a remainder of 0.
+
+Since the last non-zero remainder is 21, the GCD of 1407 and 903 is **21**. 
+
+To verify, both 1407 ÷ 21 = 67 and 903 ÷ 21 = 43 are whole numbers, confirming that 21 is indeed the GCD. 
+
+**Answer:** The greatest common divisor of 1407 and 903 is **21**.

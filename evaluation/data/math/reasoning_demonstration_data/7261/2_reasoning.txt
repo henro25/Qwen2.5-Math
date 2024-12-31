@@ -1,1 +1,15 @@
-Reasoning: 
+Reasoning: Alright, so I've got this problem here: (243)^(3/5). I need to figure out what that equals. Okay, first things first, I should remember what it means to raise a number to a fractional power. I think the denominator of the fraction is the root you take, and the numerator is the power you raise it to. So, for (243)^(3/5), that should be the fifth root of 243, raised to the third power. Or maybe it's the same as raising 243 to the third power and then taking the fifth root. Wait, which one is it?
+
+I think it's the same either way because of the properties of exponents. Let me see, exponent rules say that (a^(m))^n = a^(m*n), so (243^(1/5))^3 should be the same as 243^(3/5). Yeah, that makes sense. So I need to find the fifth root of 243 and then cube that result.
+
+Now, what's the fifth root of 243? I know that 3^5 is 243 because 3 times 3 is 9, times 3 is 27, times 3 is 81, times 3 is 243. So, the fifth root of 243 is 3. That was easier than I thought.
+
+So, if the fifth root of 243 is 3, then I just need to cube that. 3 cubed is 3 times 3 times 3, which is 9 times 3, so 27. So, (243)^(3/5) should be 27.
+
+Wait, let me double-check that. Maybe there's another way to look at it. I recall that sometimes you can simplify the base first if it's a power of some number. 243 is a power of 3, as I just figured out, 3^5. So, (3^5)^(3/5). Using the exponent rule (a^m)^n = a^(m*n), that would be 3^(5*(3/5)) = 3^3 = 27. Yeah, that matches what I got before.
+
+Is there any other way to approach this? Maybe using logarithms or something, but that seems more complicated for such a straightforward problem. I think I've got it right.
+
+Just to be thorough, maybe I can plug it back in or see if there's another verification. If I take 27 and raise it to the 5/3 power, do I get back to 243? Let's see, 27^(5/3). The denominator is 3, so the cube root of 27 is 3, and then 3 to the fifth power is 243. Yep, that checks out.
+
+So, I'm confident that (243)^(3/5) equals 27.

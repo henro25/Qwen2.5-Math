@@ -1,1 +1,61 @@
-Answer: 
+Answer: Given the equations \( 3^a = 81^{b+2} \) and \( 125^b = 5^{a-3} \), we need to find the product \( ab \).
+
+first, we express everything with the same base numbers:
+
+1. for \( 3^a = 81^{b+2} \):
+   \[
+   81 = 3^4 \implies 81^{b+2} = (3^4)^{b+2} = 3^{4(b+2)}
+   \]
+   therefore:
+   \[
+   3^a = 3^{4(b+2)} \implies a = 4(b + 2)
+   \]
+
+2. for \( 125^b = 5^{a-3} \):
+   \[
+   125 = 5^3 \implies 125^b = (5^3)^b = 5^{3b}
+   \]
+   therefore:
+   \[
+   5^{3b} = 5^{a-3} \implies 3b = a - 3
+   \]
+
+now we have two equations:
+\[
+a = 4(b + 2)
+\]
+\[
+3b = a - 3
+\]
+
+substitute \( a = 4(b + 2) \) into \( 3b = a - 3 \):
+\[
+3b = 4(b + 2) - 3
+\]
+\[
+3b = 4b + 8 - 3
+\]
+\[
+3b = 4b + 5
+\]
+\[
+3b - 4b = 5
+\]
+\[
+-b = 5 \implies b = -5
+\]
+
+substitute \( b = -5 \) back into \( a = 4(b + 2) \):
+\[
+a = 4(-5 + 2) = 4(-3) = -12
+\]
+
+thus, \( a = -12 \) and \( b = -5 \). the product \( ab \) is:
+\[
+ab = (-12) \times (-5) = 60
+\]
+
+therefore, the final answer is:
+\[
+\boxed{60}
+\]

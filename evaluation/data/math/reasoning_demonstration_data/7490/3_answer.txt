@@ -1,1 +1,35 @@
-Answer: 
+Answer: To find \( h(x) \), we start with the given equation:
+
+\[
+9x^3 - 3x + 1 + h(x) = 3x^2 - 5x + 3.
+\]
+
+we isolate \( h(x) \) by subtracting \( 9x^3 - 3x + 1 \) from both sides:
+
+\[
+h(x) = 3x^2 - 5x + 3 - (9x^3 - 3x + 1).
+\]
+
+next, we distribute the negative sign through the parentheses:
+
+\[
+h(x) = 3x^2 - 5x + 3 - 9x^3 + 3x - 1.
+\]
+
+we then combine like terms:
+
+\[
+h(x) = -9x^3 + 3x^2 - 2x + 2.
+\]
+
+the terms are already in order of decreasing degree. to verify, we substitute \( h(x) \) back into the original equation:
+
+\[
+9x^3 - 3x + 1 + (-9x^3 + 3x^2 - 2x + 2) = 3x^2 - 5x + 3,
+\]
+
+which simplifies correctly. therefore, the final answer is:
+
+\[
+\boxed{-9x^3 + 3x^2 - 2x + 2}
+\]

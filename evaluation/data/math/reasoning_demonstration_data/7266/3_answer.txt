@@ -1,1 +1,36 @@
-Answer: 
+Answer: To solve \( n(o(n(o(n(o(3))))) \), we start by evaluating the innermost function and work our way outwards.
+
+1. start with \( o(3) \):
+   \[
+   o(3) = 3^2 = 9
+   \]
+
+2. next, evaluate \( n(o(3)) \):
+   \[
+   n(9) = 2 \sqrt{9} = 2 \times 3 = 6
+   \]
+
+3. then, evaluate \( o(n(o(3))) \):
+   \[
+   o(6) = 6^2 = 36
+   \]
+
+4. next, evaluate \( n(o(n(o(3)))) \):
+   \[
+   n(36) = 2 \sqrt{36} = 2 \times 6 = 12
+   \]
+
+5. then, evaluate \( o(n(o(n(o(3))))) \):
+   \[
+   o(12) = 12^2 = 144
+   \]
+
+6. finally, evaluate \( n(o(n(o(n(o(3))))) \):
+   \[
+   n(144) = 2 \sqrt{144} = 2 \times 12 = 24
+   \]
+
+thus, the final answer is:
+\[
+\boxed{24}
+\]

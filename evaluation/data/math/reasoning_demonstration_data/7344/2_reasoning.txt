@@ -1,1 +1,301 @@
-Reasoning: 
+Reasoning: So i've got this problem here: "let 
+n
+n be the sum of the divisors of 200. what is the largest prime factor of 
+n
+n?" okay, let's break this down step by step. i'm a bit rusty on some of these number theory concepts, but i think i can figure this out.
+
+first, i need to find the sum of the divisors of 200. that means i need to list all the numbers that divide 200 evenly and then add them up. but that seems a bit tedious if i do it by listing them one by one. there must be a better way.
+
+wait a minute, i remember something about the formula for the sum of divisors. i think it's related to the prime factorization of the number. yeah, if a number 
+n
+n has a prime factorization of 
+n
+=
+p
+1
+a
+1
+×
+p
+2
+a
+2
+×
+⋯
+×
+p
+k
+a
+k
+n=p 
+1
+a 
+1
+​	
+ 
+​	
+ ×p 
+2
+a 
+2
+​	
+ 
+​	
+ ×⋯×p 
+k
+a 
+k
+​	
+ 
+​	
+ , then the sum of its divisors is given by:
+
+σ
+(
+n
+)
+=
+(
+1
++
+p
+1
++
+p
+1
+2
++
+⋯
++
+p
+1
+a
+1
+)
+×
+(
+1
++
+p
+2
++
+p
+2
+2
++
+⋯
++
+p
+2
+a
+2
+)
+×
+⋯
+×
+(
+1
++
+p
+k
++
+p
+k
+2
++
+⋯
++
+p
+k
+a
+k
+)
+σ(n)=(1+p 
+1
+​	
+ +p 
+1
+2
+​	
+ +⋯+p 
+1
+a 
+1
+​	
+ 
+​	
+ )×(1+p 
+2
+​	
+ +p 
+2
+2
+​	
+ +⋯+p 
+2
+a 
+2
+​	
+ 
+​	
+ )×⋯×(1+p 
+k
+​	
+ +p 
+k
+2
+​	
+ +⋯+p 
+k
+a 
+k
+​	
+ 
+​	
+ )
+so, first things first, i need to find the prime factorization of 200.
+
+let's start by dividing 200 by the smallest prime, which is 2.
+
+200 divided by 2 is 100.
+
+100 divided by 2 is 50.
+
+50 divided by 2 is 25.
+
+25 divided by 2 doesn't work, so i move to the next prime, which is 5.
+
+25 divided by 5 is 5.
+
+5 divided by 5 is 1.
+
+so, the prime factors are 2, 2, 2, 5, and 5.
+
+therefore, the prime factorization of 200 is 
+2
+3
+×
+5
+2
+2 
+3
+ ×5 
+2
+ .
+
+now, using the formula for the sum of divisors:
+
+σ
+(
+200
+)
+=
+(
+1
++
+2
++
+2
+2
++
+2
+3
+)
+×
+(
+1
++
+5
++
+5
+2
+)
+σ(200)=(1+2+2 
+2
+ +2 
+3
+ )×(1+5+5 
+2
+ )
+let's calculate each part separately.
+
+first, 
+1
++
+2
++
+4
++
+8
+=
+15
+1+2+4+8=15.
+
+second, 
+1
++
+5
++
+25
+=
+31
+1+5+25=31.
+
+now, multiply these two results together: 
+15
+×
+31
+=
+465
+15×31=465.
+
+so, 
+n
+=
+465
+n=465.
+
+now, i need to find the largest prime factor of 465.
+
+to do that, i'll start by checking if 465 is divisible by the smallest primes and work my way up.
+
+first, check if 465 is divisible by 2. since it's odd, it's not divisible by 2.
+
+next, check 3. to check divisibility by 3, i can add the digits: 4 + 6 + 5 = 15, and 15 is divisible by 3, so 465 is divisible by 3.
+
+let's divide 465 by 3: 465 ÷ 3 = 155.
+
+so, 3 is a prime factor, and now i have 155 left.
+
+next, check if 155 is divisible by 3. adding the digits: 1 + 5 + 5 = 11, which is not divisible by 3, so no.
+
+next prime is 5. since 155 ends with a 5, it's divisible by 5.
+
+155 ÷ 5 = 31.
+
+so, 5 is another prime factor, and now i have 31 left.
+
+31 is a prime number itself, so the prime factors of 465 are 3, 5, and 31.
+
+among these, the largest prime factor is 31.
+
+wait a second, is there a possibility i missed a larger prime factor? let's double-check.
+
+465 divided by 3 is 155.
+
+155 divided by 5 is 31.
+
+31 is prime, so no further division is possible.
+
+yes, i think that's correct.
+
+so, the largest prime factor of 
+n
+=
+465
+n=465 is 31.
+
+**final answer**
+
+31
+ 

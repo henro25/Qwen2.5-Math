@@ -1,1 +1,16 @@
 Reasoning: 
+Okay, let's see. I have this problem here: "Sixty percent of a plane's passengers are women and ten percent of those women are in first class. What is the number of women in first class if the plane is carrying 200 passengers?"
+
+Alright, first things first, I need to understand what's being asked. So, there's a plane with 200 passengers total. Out of these, 60% are women. Then, out of those women, 10% are in first class. I need to find out how many women are in first class.
+
+Hmm, maybe I should start by finding out how many women are on the plane. If 60% of the passengers are women, and there are 200 passengers, then I can calculate 60% of 200 to find the number of women.
+
+So, 60% of 200 is... let's see, 10% of 200 is 20, so 60% would be 6 times 20, which is 120. So, there are 120 women on the plane.
+
+Now, out of these 120 women, 10% are in first class. So, I need to find 10% of 120. Again, 10% of 120 is 12. So, there are 12 women in first class.
+
+Wait a minute, that seems straightforward. But maybe I should double-check my calculations to be sure.
+
+Let me see, 60% of 200 passengers are women. 200 times 0.6 equals 120 women. Then, 10% of those women are in first class. 120 times 0.1 equals 12 women in first class.
+
+Yeah, that seems correct. I think I've got it.

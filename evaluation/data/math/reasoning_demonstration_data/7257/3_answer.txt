@@ -1,1 +1,14 @@
-Answer: 
+Answer: To find the greatest common divisor (GCD) of 75 and 360, we can use the Euclidean algorithm:
+
+1. **Divide 360 by 75**:
+   - 360 ÷ 75 = 4 with a remainder of 60.
+
+2. **Divide 75 by 60**:
+   - 75 ÷ 60 = 1 with a remainder of 15.
+
+3. **Divide 60 by 15**:
+   - 60 ÷ 15 = 4 with no remainder.
+
+Since there is no remainder, the GCD is the last non-zero remainder, which is **15**.
+
+Thus, the greatest common divisor of 75 and 360 is **15**.

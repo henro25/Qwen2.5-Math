@@ -1,1 +1,51 @@
-Reasoning: 
+Reasoning: So i have this trigonometry problem here: if sec x plus tan x equals 5 over 2, then i need to find sec x minus tan x. hmm, let's see how to approach this.
+
+first, i recall that sec x is 1 over cos x, and tan x is sin x over cos x. so, sec x plus tan x is 1/cos x plus sin x/cos x, which simplifies to (1 + sin x)/cos x. but i'm not sure if that's helpful right now.
+
+wait, maybe there's a better way. i remember that there are some identities involving sec x and tan x. specifically, i think that sec^2 x minus tan^2 x equals 1. yeah, that's right! so, sec^2 x minus tan^2 x = 1.
+
+now, if i have sec x plus tan x and sec x minus tan x, maybe i can use these to find one in terms of the other. let's see, if i multiply (sec x + tan x) by (sec x - tan x), what do i get? using the difference of squares formula, that should be sec^2 x minus tan^2 x, which is 1, according to the identity i just recalled.
+
+so, (sec x + tan x)(sec x - tan x) = 1.
+
+i know that sec x + tan x is 5/2, so plugging that in:
+
+(5/2)(sec x - tan x) = 1.
+
+now, i can solve for sec x - tan x by dividing both sides by 5/2, which is the same as multiplying by 2/5:
+
+sec x - tan x = 1 * (2/5) = 2/5.
+
+wait a minute, that seems straightforward. is there anything i'm missing here? maybe i should check if this makes sense.
+
+let me verify by finding sec x and tan x individually. if sec x + tan x = 5/2 and sec x - tan x = 2/5, then i can solve for sec x and tan x by adding and subtracting these equations.
+
+adding them: (sec x + tan x) + (sec x - tan x) = 5/2 + 2/5.
+
+that gives 2 sec x = (25/10 + 4/10) = 29/10.
+
+so, sec x = 29/20.
+
+subtracting them: (sec x + tan x) - (sec x - tan x) = 5/2 - 2/5.
+
+that gives 2 tan x = (25/10 - 4/10) = 21/10.
+
+so, tan x = 21/20.
+
+now, let's check if sec^2 x - tan^2 x equals 1.
+
+sec^2 x = (29/20)^2 = 841/400.
+
+tan^2 x = (21/20)^2 = 441/400.
+
+subtracting them: 841/400 - 441/400 = 400/400 = 1.
+
+yes, that checks out. so, my answer for sec x - tan x being 2/5 seems correct.
+
+i think that's it. it wasn't too bad after all. just using the identity and solving the equations.
+
+**final answer**
+
+2
+5
+ 

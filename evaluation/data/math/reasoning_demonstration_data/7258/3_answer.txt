@@ -1,1 +1,27 @@
-Answer: 
+Answer: To find the y-intercept of the line given by the equation \( 3x + 5y = 20 \), we set \( x = 0 \) and solve for \( y \):
+
+\[
+3(0) + 5y = 20 \implies 5y = 20 \implies y = \frac{20}{5} = 4
+\]
+
+thus, the y-intercept is at the point \( (0, 4) \).
+
+to confirm, we can rewrite the equation in slope-intercept form \( y = mx + b \):
+
+\[
+3x + 5y = 20 \implies 5y = -3x + 20 \implies y = -\frac{3}{5}x + 4
+\]
+
+here, \( b = 4 \), which confirms the y-intercept is \( (0, 4) \).
+
+finally, verifying by plugging \( x = 0 \) and \( y = 4 \) back into the original equation:
+
+\[
+3(0) + 5(4) = 20 \implies 0 + 20 = 20
+\]
+
+this confirms the solution is correct.
+
+\[
+\boxed{(0, 4)}
+\]

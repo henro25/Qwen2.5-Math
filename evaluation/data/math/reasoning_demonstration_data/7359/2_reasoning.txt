@@ -1,1 +1,33 @@
-Reasoning: 
+Reasoning: Alright, so I have this problem here about rainfall in Mathborough for the years 2003 and 2004. Let me see if I can figure this out.
+
+First, it says that in 2003, the average monthly rainfall was 41.5 mm. Okay, average monthly rainfall means that each month, on average, it rained 41.5 mm. So, if I want to find the total rainfall for the whole year, I probably need to add up the rainfall for each month.
+
+Since it's an average, and there are 12 months in a year, I can multiply the average monthly rainfall by 12 to get the total rainfall for the year. So, for 2003, the total rainfall would be 41.5 mm multiplied by 12. Let me calculate that:
+
+41.5 mm/month * 12 months = 498 mm.
+
+Okay, so in 2003, the total rainfall was 498 mm.
+
+Now, in 2004, the average monthly rainfall was 2 mm more than in 2003. So, if in 2003 it was 41.5 mm per month on average, then in 2004 it was 41.5 mm + 2 mm = 43.5 mm per month on average.
+
+Again, to find the total rainfall for 2004, I need to multiply the average monthly rainfall by 12:
+
+43.5 mm/month * 12 months = ?
+
+Let me do that multiplication. 43.5 times 12.
+
+First, 40 times 12 is 480.
+
+Then, 3.5 times 12 is 42.
+
+Adding those together: 480 + 42 = 522 mm.
+
+So, the total rainfall in Mathborough in 2004 was 522 mm.
+
+Wait a minute, is that all? It seems straightforward. Is there anything I'm missing?
+
+Let me double-check. The average monthly rainfall in 2003 is 41.5 mm. In 2004, it's 2 mm more, so 43.5 mm per month. Multiply by 12 months to get the yearly total.
+
+Yeah, that seems right. I don't think there's any trick here. It's just about understanding what average means and how to calculate total from average.
+
+I guess that's it.

@@ -1,1 +1,51 @@
-Answer: 
+Answer: To solve the problem, we use the concept of inverse variation, where the force needed to loosen the bolt (F) varies inversely with the length of the wrench handle (L). This relationship can be expressed as:
+
+\[
+F \times L = k
+\]
+
+where \( k \) is a constant.
+
+### Step 1: Find the constant \( k \)
+Given:
+\[
+F_1 = 375 \text{ pounds}, \quad L_1 = 9 \text{ inches}
+\]
+
+\[
+k = F_1 \times L_1 = 375 \times 9 = 3375
+\]
+
+### Step 2: Find the force for the new length
+Given the new length:
+\[
+L_2 = 15 \text{ inches}
+\]
+
+We use the same constant \( k \) to find the new force \( F_2 \):
+
+\[
+F_2 \times L_2 = k
+\]
+\[
+F_2 \times 15 = 3375
+\]
+\[
+F_2 = \frac{3375}{15} = 225 \text{ pounds}
+\]
+
+### Step 3: Verification using ratio
+The ratio of the lengths is:
+
+\[
+\frac{L_1}{L_2} = \frac{9}{15} = \frac{3}{5}
+\]
+
+Since force varies inversely with length:
+
+\[
+F_2 = F_1 \times \frac{L_1}{L_2} = 375 \times \frac{3}{5} = 225 \text{ pounds}
+\]
+
+### Conclusion:
+A wrench with a handle length of 15 inches will require **225 pounds** of force to loosen the same bolt.

@@ -1,1 +1,11 @@
-Answer: 
+Answer: To find \(\sin\left(-\frac{\pi}{2}\right)\), we can use the properties of the sine function and the unit circle.
+
+1. recall that sine is an odd function, meaning \(\sin(-\theta) = -\sin(\theta)\).
+2. therefore, \(\sin\left(-\frac{\pi}{2}\right) = -\sin\left(\frac{\pi}{2}\right)\).
+3. we know that \(\sin\left(\frac{\pi}{2}\right) = 1\).
+
+thus, \(\sin\left(-\frac{\pi}{2}\right) = -1\).
+
+\[
+\boxed{-1}
+\]

@@ -1,1 +1,38 @@
-Reasoning: 
+Reasoning: So i have this problem here: angle a is in the second quadrant and sin a is 3/4. i need to find cos a. okay, let's think about this step by step.
+
+first, i remember that in trigonometry, the quadrants are important because they tell me about the signs of the trigonometric functions. the second quadrant is where angles are between 90 degrees and 180 degrees, or in radians, between π/2 and π. in this quadrant, i know that sine is positive and cosine is negative. so, since angle a is in the second quadrant and sin a is positive, that makes sense.
+
+now, i need to find cos a. i recall the pythagorean identity, which is sin²a + cos²a = 1. this identity should help me find cos a because i already know sin a.
+
+given sin a = 3/4, so sin²a = (3/4)² = 9/16.
+
+plugging that into the identity: 9/16 + cos²a = 1.
+
+to solve for cos²a, i'll subtract 9/16 from both sides: cos²a = 1 - 9/16.
+
+1 is the same as 16/16, so cos²a = 16/16 - 9/16 = 7/16.
+
+now, to find cos a, i take the square root of both sides: cos a = ±√(7/16).
+
+simplifying the square root: √(7)/4.
+
+but wait, since angle a is in the second quadrant, and i know that cosine is negative there, so cos a should be negative.
+
+therefore, cos a = -√7 / 4.
+
+let me double-check that. sin a is positive, which is correct for the second quadrant. cosine is negative there, so having a negative value makes sense.
+
+alternatively, i could think about the unit circle. if sin a is 3/4, that means the y-coordinate is 3/4, and since it's in the second quadrant, the x-coordinate should be negative. the x-coordinate is cos a.
+
+using the pythagorean theorem, x² + y² = 1, so x² + (3/4)² = 1, which again gives x² = 1 - 9/16 = 7/16, so x = -√7/4.
+
+yeah, that confirms my earlier result.
+
+i don't think i made any mistakes here. the signs are correct for the second quadrant, and the calculations seem right.
+
+**final answer**
+
+−
+7
+4	
+ 

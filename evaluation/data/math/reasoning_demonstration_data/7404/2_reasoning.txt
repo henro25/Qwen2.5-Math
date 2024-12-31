@@ -1,1 +1,72 @@
-Reasoning: 
+Reasoning: So i have this problem here: "the decimal expansion of 8/11 is a repeating decimal. what is the least number of digits in a repeating block of 8/11?" okay, let's see. i know that when you divide two numbers and the division doesn't come out evenly, you can get a decimal that either terminates or repeats. in this case, it's saying that 8 divided by 11 is a repeating decimal, and i need to find the smallest number of digits that repeat in that decimal.
+
+first off, i should probably try dividing 8 by 11 to see what the decimal looks like. let's do that long division.
+
+so, 11 goes into 8 zero times, so i write 0., and then bring down a zero to make 80.
+
+now, 11 goes into 80 seven times because 11 times 7 is 77. so i write 7, subtract 77 from 80, and get 3.
+
+bring down another zero to make 30. 11 goes into 30 two times, since 11 times 2 is 22. subtract 22 from 30, and get 8.
+
+wait a minute, i've got 8 again. this seems familiar. so, bringing down another zero to make 80. and we already know that 11 goes into 80 seven times, and this cycle repeats.
+
+so, the decimal expansion is 0.727272..., where "72" repeats indefinitely.
+
+therefore, the repeating block is "72", which has two digits.
+
+but the question is asking for the least number of digits in a repeating block. so, is it always two digits for 8/11?
+
+let me check if there's a smaller repeating block. could it be just one digit repeating?
+
+suppose the repeating block was one digit, like "7". then the decimal would be 0.7777..., which is 7/9. but 7/9 is not equal to 8/11, so that doesn't work.
+
+alternatively, if it were "2" repeating, that would be 0.2222..., which is 2/9, also not equal to 8/11.
+
+so, one digit doesn't work. what about two digits? we have 0.727272..., which is 72/99, since 0.ababab... equals ab/99.
+
+let me check if 72/99 equals 8/11.
+
+simplify 72/99: both numerator and denominator are divisible by 9. 72 ÷ 9 is 8, and 99 ÷ 9 is 11. so, 72/99 simplifies to 8/11. perfect, that matches.
+
+so, the repeating block is "72", and it has two digits.
+
+but is there a way to confirm that two is indeed the smallest possible number of digits in the repeating block?
+
+i recall that for fractions of the form a/b, where b is co-prime to 10, the length of the repeating block is equal to the order of 10 modulo b.
+
+in other words, the smallest positive integer k such that 10^k ≡ 1 mod b.
+
+so, for b = 11, i need to find the smallest k where 10^k ≡ 1 mod 11.
+
+let me calculate 10^k mod 11 for k = 1,2,3,...
+
+10^1 = 10 mod 11 is 10.
+
+10^2 = 100 mod 11. 11*9 = 99, so 100 - 99 = 1. so, 10^2 ≡ 1 mod 11.
+
+therefore, k = 2 is the smallest integer where this holds.
+
+this confirms that the repeating block has 2 digits.
+
+alternatively, i can think about the period of the decimal expansion.
+
+the period is the smallest number of digits that repeat.
+
+given that 11 is a prime number, and 10 and 11 are co-prime, the period should divide φ(11), where φ is euler's totient function.
+
+φ(11) = 10, since 11 is prime.
+
+so, the period should be a divisor of 10.
+
+the divisors of 10 are 1,2,5,10.
+
+we've already seen that k=2 works, and k=1 doesn't.
+
+so, the period is 2.
+
+therefore, the least number of digits in a repeating block of 8/11 is 2.
+
+**final answer**
+
+2
+ 

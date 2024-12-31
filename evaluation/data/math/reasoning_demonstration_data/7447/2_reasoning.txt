@@ -1,1 +1,6604 @@
-Reasoning: 
+Reasoning: So i have this matrix a, which is a 2x2 matrix:
+
+a
+=
+(
+4
+1
+−
+9
+−
+2
+ 
+)
+a=( 
+4
+−9
+​	
+  
+1
+−2
+​	
+ )
+and i need to compute 
+a
+100
+a 
+100
+ . that seems like a really high power, and doing it directly by multiplying the matrix by itself 100 times would be super tedious and time-consuming. there must be a smarter way to approach this.
+
+first, i recall that for matrices, one common method to compute high powers is to diagonalize the matrix if possible. diagonalization involves finding a matrix p such that 
+p
+−
+1
+a
+p
+=
+d
+p 
+−1
+ ap=d, where 
+d
+d is a diagonal matrix. if i can do that, then 
+a
+100
+=
+p
+d
+100
+p
+−
+1
+a 
+100
+ =pd 
+100
+ p 
+−1
+ , and since 
+d
+d is diagonal, raising it to the 100th power is straightforward.
+
+so, the first step is to check if 
+a
+a is diagonalizable. to do that, i need to find its eigenvalues and eigenvectors.
+
+to find the eigenvalues, i need to solve the characteristic equation:
+
+det
+⁡
+(
+a
+−
+λ
+i
+)
+=
+0
+det(a−λi)=0
+where 
+i
+i is the identity matrix and 
+λ
+λ represents the eigenvalues.
+
+let's compute 
+a
+−
+λ
+i
+a−λi:
+
+a
+−
+λ
+i
+=
+(
+4
+−
+λ
+1
+−
+9
+−
+2
+−
+λ
+ 
+)
+a−λi=( 
+4−λ
+−9
+​	
+  
+1
+−2−λ
+​	
+ )
+now, the determinant of this matrix is:
+
+det
+⁡
+(
+a
+−
+λ
+i
+)
+=
+(
+4
+−
+λ
+)
+(
+−
+2
+−
+λ
+)
+−
+(
+−
+9
+)
+(
+1
+)
+=
+(
+4
+−
+λ
+)
+(
+−
+2
+−
+λ
+)
++
+9
+det(a−λi)=(4−λ)(−2−λ)−(−9)(1)=(4−λ)(−2−λ)+9
+let's expand this:
+
+(
+4
+−
+λ
+)
+(
+−
+2
+−
+λ
+)
+=
+4
+(
+−
+2
+)
++
+4
+(
+−
+λ
+)
+−
+λ
+(
+−
+2
+)
+−
+λ
+(
+λ
+)
+=
+−
+8
+−
+4
+λ
++
+2
+λ
+−
+λ
+2
+=
+−
+8
+−
+2
+λ
+−
+λ
+2
+(4−λ)(−2−λ)=4(−2)+4(−λ)−λ(−2)−λ(λ)=−8−4λ+2λ−λ 
+2
+ =−8−2λ−λ 
+2
+ 
+adding 9:
+
+−
+8
+−
+2
+λ
+−
+λ
+2
++
+9
+=
+1
+−
+2
+λ
+−
+λ
+2
+−8−2λ−λ 
+2
+ +9=1−2λ−λ 
+2
+ 
+so, the characteristic equation is:
+
+−
+λ
+2
+−
+2
+λ
++
+1
+=
+0
+−λ 
+2
+ −2λ+1=0
+i can multiply both sides by -1 to make it easier:
+
+λ
+2
++
+2
+λ
+−
+1
+=
+0
+λ 
+2
+ +2λ−1=0
+now, to solve this quadratic equation for 
+λ
+λ, i'll use the quadratic formula:
+
+λ
+=
+−
+b
+±
+b
+2
+−
+4
+a
+c
+2
+a
+λ= 
+2a
+−b± 
+b 
+2
+ −4ac
+​	
+ 
+​	
+ 
+here, 
+a
+=
+1
+a=1, 
+b
+=
+2
+b=2, and 
+c
+=
+−
+1
+c=−1, so:
+
+λ
+=
+−
+2
+±
+(
+2
+)
+2
+−
+4
+(
+1
+)
+(
+−
+1
+)
+2
+(
+1
+)
+=
+−
+2
+±
+4
++
+4
+2
+=
+−
+2
+±
+8
+2
+=
+−
+2
+±
+2
+2
+2
+=
+−
+1
+±
+2
+λ= 
+2(1)
+−2± 
+(2) 
+2
+ −4(1)(−1)
+​	
+ 
+​	
+ = 
+2
+−2± 
+4+4
+​	
+ 
+​	
+ = 
+2
+−2± 
+8
+​	
+ 
+​	
+ = 
+2
+−2±2 
+2
+​	
+ 
+​	
+ =−1± 
+2
+​	
+ 
+so, the eigenvalues are:
+
+λ
+1
+=
+−
+1
++
+2
+,
+λ
+2
+=
+−
+1
+−
+2
+λ 
+1
+​	
+ =−1+ 
+2
+​	
+ ,λ 
+2
+​	
+ =−1− 
+2
+​	
+ 
+since the eigenvalues are distinct, the matrix 
+a
+a is diagonalizable. that's good news!
+
+next, i need to find the eigenvectors corresponding to each eigenvalue.
+
+starting with 
+λ
+1
+=
+−
+1
++
+2
+λ 
+1
+​	
+ =−1+ 
+2
+​	
+ , i need to solve:
+
+(
+a
+−
+λ
+1
+i
+)
+v
+=
+0
+(a−λ 
+1
+​	
+ i)v=0
+substituting 
+λ
+1
+λ 
+1
+​	
+ :
+
+(
+4
+−
+(
+−
+1
++
+2
+)
+1
+−
+9
+−
+2
+−
+(
+−
+1
++
+2
+)
+ 
+)
+(
+v
+1
+v
+2
+ 
+)
+=
+(
+5
+−
+2
+1
+−
+9
+−
+1
+−
+2
+ 
+)
+(
+v
+1
+v
+2
+ 
+)
+=
+(
+0
+0
+ 
+)
+( 
+4−(−1+ 
+2
+​	
+ )
+−9
+​	
+  
+1
+−2−(−1+ 
+2
+​	
+ )
+​	
+ )( 
+v 
+1
+​	
+ 
+v 
+2
+​	
+ 
+​	
+ )=( 
+5− 
+2
+​	
+ 
+−9
+​	
+  
+1
+−1− 
+2
+​	
+ 
+​	
+ )( 
+v 
+1
+​	
+ 
+v 
+2
+​	
+ 
+​	
+ )=( 
+0
+0
+​	
+ )
+this gives us the system of equations:
+
+(
+5
+−
+2
+)
+v
+1
++
+v
+2
+=
+0
+−
+9
+v
+1
++
+(
+−
+1
+−
+2
+)
+v
+2
+=
+0
+(5− 
+2
+​	
+ )v 
+1
+​	
+ +v 
+2
+​	
+ =0
+−9v 
+1
+​	
+ +(−1− 
+2
+​	
+ )v 
+2
+​	
+ =0
+from the first equation, we can express 
+v
+2
+v 
+2
+​	
+  in terms of 
+v
+1
+v 
+1
+​	
+ :
+
+v
+2
+=
+−
+(
+5
+−
+2
+)
+v
+1
+v 
+2
+​	
+ =−(5− 
+2
+​	
+ )v 
+1
+​	
+ 
+so, an eigenvector corresponding to 
+λ
+1
+λ 
+1
+​	
+  is:
+
+v
+1
+=
+(
+1
+−
+(
+5
+−
+2
+)
+ 
+)
+v 
+1
+​	
+ =( 
+1
+−(5− 
+2
+​	
+ )
+​	
+ )
+similarly, for 
+λ
+2
+=
+−
+1
+−
+2
+λ 
+2
+​	
+ =−1− 
+2
+​	
+ , we solve:
+
+(
+a
+−
+λ
+2
+i
+)
+v
+=
+0
+(a−λ 
+2
+​	
+ i)v=0
+substituting 
+λ
+2
+λ 
+2
+​	
+ :
+
+(
+4
+−
+(
+−
+1
+−
+2
+)
+1
+−
+9
+−
+2
+−
+(
+−
+1
+−
+2
+)
+ 
+)
+(
+v
+1
+v
+2
+ 
+)
+=
+(
+5
++
+2
+1
+−
+9
+−
+1
++
+2
+ 
+)
+(
+v
+1
+v
+2
+ 
+)
+=
+(
+0
+0
+ 
+)
+( 
+4−(−1− 
+2
+​	
+ )
+−9
+​	
+  
+1
+−2−(−1− 
+2
+​	
+ )
+​	
+ )( 
+v 
+1
+​	
+ 
+v 
+2
+​	
+ 
+​	
+ )=( 
+5+ 
+2
+​	
+ 
+−9
+​	
+  
+1
+−1+ 
+2
+​	
+ 
+​	
+ )( 
+v 
+1
+​	
+ 
+v 
+2
+​	
+ 
+​	
+ )=( 
+0
+0
+​	
+ )
+this gives us:
+
+(
+5
++
+2
+)
+v
+1
++
+v
+2
+=
+0
+−
+9
+v
+1
++
+(
+−
+1
++
+2
+)
+v
+2
+=
+0
+(5+ 
+2
+​	
+ )v 
+1
+​	
+ +v 
+2
+​	
+ =0
+−9v 
+1
+​	
+ +(−1+ 
+2
+​	
+ )v 
+2
+​	
+ =0
+from the first equation:
+
+v
+2
+=
+−
+(
+5
++
+2
+)
+v
+1
+v 
+2
+​	
+ =−(5+ 
+2
+​	
+ )v 
+1
+​	
+ 
+so, an eigenvector corresponding to 
+λ
+2
+λ 
+2
+​	
+  is:
+
+v
+2
+=
+(
+1
+−
+(
+5
++
+2
+)
+ 
+)
+v 
+2
+​	
+ =( 
+1
+−(5+ 
+2
+​	
+ )
+​	
+ )
+now, i can form the matrix 
+p
+p whose columns are the eigenvectors:
+
+p
+=
+(
+1
+1
+−
+(
+5
+−
+2
+)
+−
+(
+5
++
+2
+)
+ 
+)
+p=( 
+1
+−(5− 
+2
+​	
+ )
+​	
+  
+1
+−(5+ 
+2
+​	
+ )
+​	
+ )
+and the diagonal matrix 
+d
+d with eigenvalues on the diagonal:
+
+d
+=
+(
+−
+1
++
+2
+0
+0
+−
+1
+−
+2
+ 
+)
+d=( 
+−1+ 
+2
+​	
+ 
+0
+​	
+  
+0
+−1− 
+2
+​	
+ 
+​	
+ )
+now, 
+a
+100
+=
+p
+d
+100
+p
+−
+1
+a 
+100
+ =pd 
+100
+ p 
+−1
+ .
+
+to compute this, i need to find 
+p
+−
+1
+p 
+−1
+ . let's compute the determinant of 
+p
+p:
+
+det
+⁡
+(
+p
+)
+=
+(
+1
+)
+(
+−
+(
+5
++
+2
+)
+)
+−
+(
+1
+)
+(
+−
+(
+5
+−
+2
+)
+)
+=
+−
+5
+−
+2
++
+5
+−
+2
+=
+−
+2
+2
+det(p)=(1)(−(5+ 
+2
+​	
+ ))−(1)(−(5− 
+2
+​	
+ ))=−5− 
+2
+​	
+ +5− 
+2
+​	
+ =−2 
+2
+​	
+ 
+so, the inverse of 
+p
+p is:
+
+p
+−
+1
+=
+1
+det
+⁡
+(
+p
+)
+(
+−
+(
+5
++
+2
+)
+−
+1
+5
+−
+2
+1
+ 
+)
+=
+1
+−
+2
+2
+(
+−
+(
+5
++
+2
+)
+−
+1
+5
+−
+2
+1
+ 
+)
+p 
+−1
+ = 
+det(p)
+1
+​	
+ ( 
+−(5+ 
+2
+​	
+ )
+5− 
+2
+​	
+ 
+​	
+  
+−1
+1
+​	
+ )= 
+−2 
+2
+​	
+ 
+1
+​	
+ ( 
+−(5+ 
+2
+​	
+ )
+5− 
+2
+​	
+ 
+​	
+  
+−1
+1
+​	
+ )
+simplifying:
+
+p
+−
+1
+=
+1
+−
+2
+2
+(
+−
+(
+5
++
+2
+)
+−
+1
+5
+−
+2
+1
+ 
+)
+=
+1
+2
+2
+(
+5
++
+2
+1
+−
+5
++
+2
+−
+1
+ 
+)
+p 
+−1
+ = 
+−2 
+2
+​	
+ 
+1
+​	
+ ( 
+−(5+ 
+2
+​	
+ )
+5− 
+2
+​	
+ 
+​	
+  
+−1
+1
+​	
+ )= 
+2 
+2
+​	
+ 
+1
+​	
+ ( 
+5+ 
+2
+​	
+ 
+−5+ 
+2
+​	
+ 
+​	
+  
+1
+−1
+​	
+ )
+now, 
+d
+100
+d 
+100
+  is straightforward since 
+d
+d is diagonal:
+
+d
+100
+=
+(
+(
+−
+1
++
+2
+)
+100
+0
+0
+(
+−
+1
+−
+2
+)
+100
+ 
+)
+d 
+100
+ =( 
+(−1+ 
+2
+​	
+ ) 
+100
+ 
+0
+​	
+  
+0
+(−1− 
+2
+​	
+ ) 
+100
+ 
+​	
+ )
+putting it all together:
+
+a
+100
+=
+p
+d
+100
+p
+−
+1
+=
+(
+1
+1
+−
+(
+5
+−
+2
+)
+−
+(
+5
++
+2
+)
+ 
+)
+(
+(
+−
+1
++
+2
+)
+100
+0
+0
+(
+−
+1
+−
+2
+)
+100
+ 
+)
+1
+2
+2
+(
+5
++
+2
+1
+−
+5
++
+2
+−
+1
+ 
+)
+a 
+100
+ =pd 
+100
+ p 
+−1
+ =( 
+1
+−(5− 
+2
+​	
+ )
+​	
+  
+1
+−(5+ 
+2
+​	
+ )
+​	
+ )( 
+(−1+ 
+2
+​	
+ ) 
+100
+ 
+0
+​	
+  
+0
+(−1− 
+2
+​	
+ ) 
+100
+ 
+​	
+ ) 
+2 
+2
+​	
+ 
+1
+​	
+ ( 
+5+ 
+2
+​	
+ 
+−5+ 
+2
+​	
+ 
+​	
+  
+1
+−1
+​	
+ )
+this looks pretty messy. maybe there's a better way to handle this.
+
+alternatively, since 
+a
+a satisfies its own characteristic equation, i can use the cayley-hamilton theorem, which states that a matrix satisfies its own characteristic equation. the characteristic equation we found was:
+
+λ
+2
++
+2
+λ
+−
+1
+=
+0
+λ 
+2
+ +2λ−1=0
+so, 
+a
+2
++
+2
+a
+−
+i
+=
+0
+a 
+2
+ +2a−i=0, where 
+0
+0 is the zero matrix.
+
+this gives a recurrence relation for powers of 
+a
+a:
+
+a
+2
+=
+−
+2
+a
++
+i
+a 
+2
+ =−2a+i
+maybe i can use this to find a pattern or a general formula for 
+a
+n
+a 
+n
+ .
+
+let me try to find a pattern by computing the first few powers of 
+a
+a:
+
+a
+1
+=
+a
+=
+(
+4
+1
+−
+9
+−
+2
+ 
+)
+a 
+1
+ =a=( 
+4
+−9
+​	
+  
+1
+−2
+​	
+ )
+a
+2
+=
+−
+2
+a
++
+i
+=
+−
+2
+(
+4
+1
+−
+9
+−
+2
+ 
+)
++
+(
+1
+0
+0
+1
+ 
+)
+=
+(
+−
+8
++
+1
+−
+2
++
+0
+18
++
+0
+4
++
+1
+ 
+)
+=
+(
+−
+7
+−
+2
+18
+5
+ 
+)
+a 
+2
+ =−2a+i=−2( 
+4
+−9
+​	
+  
+1
+−2
+​	
+ )+( 
+1
+0
+​	
+  
+0
+1
+​	
+ )=( 
+−8+1
+18+0
+​	
+  
+−2+0
+4+1
+​	
+ )=( 
+−7
+18
+​	
+  
+−2
+5
+​	
+ )
+a
+3
+=
+a
+⋅
+a
+2
+=
+(
+4
+1
+−
+9
+−
+2
+ 
+)
+(
+−
+7
+−
+2
+18
+5
+ 
+)
+=
+(
+4
+(
+−
+7
+)
++
+1
+(
+18
+)
+4
+(
+−
+2
+)
++
+1
+(
+5
+)
+−
+9
+(
+−
+7
+)
++
+(
+−
+2
+)
+(
+18
+)
+−
+9
+(
+−
+2
+)
++
+(
+−
+2
+)
+(
+5
+)
+ 
+)
+=
+(
+−
+28
++
+18
+−
+8
++
+5
+63
+−
+36
+18
+−
+10
+ 
+)
+=
+(
+−
+10
+−
+3
+27
+8
+ 
+)
+a 
+3
+ =a⋅a 
+2
+ =( 
+4
+−9
+​	
+  
+1
+−2
+​	
+ )( 
+−7
+18
+​	
+  
+−2
+5
+​	
+ )=( 
+4(−7)+1(18)
+−9(−7)+(−2)(18)
+​	
+  
+4(−2)+1(5)
+−9(−2)+(−2)(5)
+​	
+ )=( 
+−28+18
+63−36
+​	
+  
+−8+5
+18−10
+​	
+ )=( 
+−10
+27
+​	
+  
+−3
+8
+​	
+ )
+hmm, that seems arbitrary. maybe using the recurrence relation is better.
+
+from the cayley-hamilton theorem, we have:
+
+a
+2
+=
+−
+2
+a
++
+i
+a 
+2
+ =−2a+i
+let's try to find a general expression for 
+a
+n
+a 
+n
+  in terms of 
+a
+a and 
+i
+i.
+
+assume that 
+a
+n
+=
+p
+a
++
+q
+i
+a 
+n
+ =pa+qi, where p and q are scalars to be determined.
+
+let's test this assumption for n=1 and n=2:
+
+for n=1:
+
+a
+1
+=
+p
+a
++
+q
+i
+  
+⟹
+  
+a
+=
+p
+a
++
+q
+i
+a 
+1
+ =pa+qi⟹a=pa+qi
+comparing coefficients, we get:
+
+p
+=
+1
+,
+q
+=
+0
+p=1,q=0
+for n=2:
+
+a
+2
+=
+p
+a
++
+q
+i
+a 
+2
+ =pa+qi
+but from the cayley-hamilton theorem:
+
+a
+2
+=
+−
+2
+a
++
+i
+a 
+2
+ =−2a+i
+so, p = -2, q = 1.
+
+that matches.
+
+now, assume that for some n, 
+a
+n
+=
+p
+n
+a
++
+q
+n
+i
+a 
+n
+ =p 
+n
+​	
+ a+q 
+n
+​	
+ i, and find a recurrence relation for p_n and q_n.
+
+using the relation 
+a
+n
++
+1
+=
+a
+⋅
+a
+n
+a 
+n+1
+ =a⋅a 
+n
+ :
+
+a
+n
++
+1
+=
+a
+(
+p
+n
+a
++
+q
+n
+i
+)
+=
+p
+n
+a
+2
++
+q
+n
+a
+a 
+n+1
+ =a(p 
+n
+​	
+ a+q 
+n
+​	
+ i)=p 
+n
+​	
+ a 
+2
+ +q 
+n
+​	
+ a
+but 
+a
+2
+=
+−
+2
+a
++
+i
+a 
+2
+ =−2a+i, so:
+
+a
+n
++
+1
+=
+p
+n
+(
+−
+2
+a
++
+i
+)
++
+q
+n
+a
+=
+(
+−
+2
+p
+n
++
+q
+n
+)
+a
++
+p
+n
+i
+a 
+n+1
+ =p 
+n
+​	
+ (−2a+i)+q 
+n
+​	
+ a=(−2p 
+n
+​	
+ +q 
+n
+​	
+ )a+p 
+n
+​	
+ i
+therefore, we have:
+
+a
+n
++
+1
+=
+(
+−
+2
+p
+n
++
+q
+n
+)
+a
++
+p
+n
+i
+a 
+n+1
+ =(−2p 
+n
+​	
+ +q 
+n
+​	
+ )a+p 
+n
+​	
+ i
+comparing this with the assumed form 
+a
+n
++
+1
+=
+p
+n
++
+1
+a
++
+q
+n
++
+1
+i
+a 
+n+1
+ =p 
+n+1
+​	
+ a+q 
+n+1
+​	
+ i, we get the recurrence relations:
+
+p
+n
++
+1
+=
+−
+2
+p
+n
++
+q
+n
+q
+n
++
+1
+=
+p
+n
+p 
+n+1
+​	
+ =−2p 
+n
+​	
+ +q 
+n
+​	
+ 
+q 
+n+1
+​	
+ =p 
+n
+​	
+ 
+this is a system of linear recurrences. to solve it, i can write it in matrix form or look for a pattern.
+
+let's try to find a pattern by computing the first few terms.
+
+we already have:
+
+for n=1:
+
+p
+1
+=
+1
+,
+q
+1
+=
+0
+p 
+1
+​	
+ =1,q 
+1
+​	
+ =0
+for n=2:
+
+p
+2
+=
+−
+2
+,
+q
+2
+=
+1
+p 
+2
+​	
+ =−2,q 
+2
+​	
+ =1
+for n=3:
+
+p
+3
+=
+−
+2
+p
+2
++
+q
+2
+=
+−
+2
+(
+−
+2
+)
++
+1
+=
+4
++
+1
+=
+5
+q
+3
+=
+p
+2
+=
+−
+2
+p 
+3
+​	
+ =−2p 
+2
+​	
+ +q 
+2
+​	
+ =−2(−2)+1=4+1=5
+q 
+3
+​	
+ =p 
+2
+​	
+ =−2
+for n=4:
+
+p
+4
+=
+−
+2
+p
+3
++
+q
+3
+=
+−
+2
+(
+5
+)
++
+(
+−
+2
+)
+=
+−
+10
+−
+2
+=
+−
+12
+q
+4
+=
+p
+3
+=
+5
+p 
+4
+​	
+ =−2p 
+3
+​	
+ +q 
+3
+​	
+ =−2(5)+(−2)=−10−2=−12
+q 
+4
+​	
+ =p 
+3
+​	
+ =5
+for n=5:
+
+p
+5
+=
+−
+2
+p
+4
++
+q
+4
+=
+−
+2
+(
+−
+12
+)
++
+5
+=
+24
++
+5
+=
+29
+q
+5
+=
+p
+4
+=
+−
+12
+p 
+5
+​	
+ =−2p 
+4
+​	
+ +q 
+4
+​	
+ =−2(−12)+5=24+5=29
+q 
+5
+​	
+ =p 
+4
+​	
+ =−12
+i can see that the sequences for p_n and q_n are alternating in sign and growing in magnitude, but it's not immediately obvious what the general form is.
+
+maybe i can solve the recurrence relations directly.
+
+we have:
+
+p
+n
++
+1
+=
+−
+2
+p
+n
++
+q
+n
+q
+n
++
+1
+=
+p
+n
+p 
+n+1
+​	
+ =−2p 
+n
+​	
+ +q 
+n
+​	
+ 
+q 
+n+1
+​	
+ =p 
+n
+​	
+ 
+substituting the second equation into the first:
+
+p
+n
++
+1
+=
+−
+2
+p
+n
++
+p
+n
+−
+1
+p 
+n+1
+​	
+ =−2p 
+n
+​	
+ +p 
+n−1
+​	
+ 
+wait, if 
+q
+n
+=
+p
+n
+−
+1
+q 
+n
+​	
+ =p 
+n−1
+​	
+ , then:
+
+p
+n
++
+1
+=
+−
+2
+p
+n
++
+p
+n
+−
+1
+p 
+n+1
+​	
+ =−2p 
+n
+​	
+ +p 
+n−1
+​	
+ 
+so, we have a second-order linear recurrence for p_n:
+
+p
+n
++
+1
++
+2
+p
+n
+−
+p
+n
+−
+1
+=
+0
+p 
+n+1
+​	
+ +2p 
+n
+​	
+ −p 
+n−1
+​	
+ =0
+the characteristic equation for this recurrence is:
+
+r
+2
++
+2
+r
+−
+1
+=
+0
+r 
+2
+ +2r−1=0
+solving for r:
+
+r
+=
+−
+2
+±
+4
++
+4
+2
+=
+−
+2
+±
+8
+2
+=
+−
+2
+±
+2
+2
+2
+=
+−
+1
+±
+2
+r= 
+2
+−2± 
+4+4
+​	
+ 
+​	
+ = 
+2
+−2± 
+8
+​	
+ 
+​	
+ = 
+2
+−2±2 
+2
+​	
+ 
+​	
+ =−1± 
+2
+​	
+ 
+so, the general solution for p_n is:
+
+p
+n
+=
+a
+(
+−
+1
++
+2
+)
+n
++
+b
+(
+−
+1
+−
+2
+)
+n
+p 
+n
+​	
+ =a(−1+ 
+2
+​	
+ ) 
+n
+ +b(−1− 
+2
+​	
+ ) 
+n
+ 
+similarly, since 
+q
+n
+=
+p
+n
+−
+1
+q 
+n
+​	
+ =p 
+n−1
+​	
+ , we have:
+
+q
+n
+=
+a
+(
+−
+1
++
+2
+)
+n
+−
+1
++
+b
+(
+−
+1
+−
+2
+)
+n
+−
+1
+q 
+n
+​	
+ =a(−1+ 
+2
+​	
+ ) 
+n−1
+ +b(−1− 
+2
+​	
+ ) 
+n−1
+ 
+now, using the initial conditions to solve for a and b.
+
+for n=1:
+
+p
+1
+=
+a
+(
+−
+1
++
+2
+)
+1
++
+b
+(
+−
+1
+−
+2
+)
+1
+=
+a
+(
+−
+1
++
+2
+)
++
+b
+(
+−
+1
+−
+2
+)
+=
+1
+p 
+1
+​	
+ =a(−1+ 
+2
+​	
+ ) 
+1
+ +b(−1− 
+2
+​	
+ ) 
+1
+ =a(−1+ 
+2
+​	
+ )+b(−1− 
+2
+​	
+ )=1
+for n=2:
+
+p
+2
+=
+a
+(
+−
+1
++
+2
+)
+2
++
+b
+(
+−
+1
+−
+2
+)
+2
+=
+a
+(
+1
+−
+2
+2
++
+2
+)
++
+b
+(
+1
++
+2
+2
++
+2
+)
+=
+a
+(
+3
+−
+2
+2
+)
++
+b
+(
+3
++
+2
+2
+)
+=
+−
+2
+p 
+2
+​	
+ =a(−1+ 
+2
+​	
+ ) 
+2
+ +b(−1− 
+2
+​	
+ ) 
+2
+ =a(1−2 
+2
+​	
+ +2)+b(1+2 
+2
+​	
+ +2)=a(3−2 
+2
+​	
+ )+b(3+2 
+2
+​	
+ )=−2
+so, we have the system of equations:
+
+a
+(
+−
+1
++
+2
+)
++
+b
+(
+−
+1
+−
+2
+)
+=
+1
+(1)
+a
+(
+3
+−
+2
+2
+)
++
+b
+(
+3
++
+2
+2
+)
+=
+−
+2
+(2)
+a(−1+ 
+2
+​	
+ )+b(−1− 
+2
+​	
+ )=1(1)
+a(3−2 
+2
+​	
+ )+b(3+2 
+2
+​	
+ )=−2(2)
+let's solve this system for a and b.
+
+first, equation (1):
+
+−
+a
+−
+b
++
+a
+2
+−
+b
+2
+=
+1
+−a−b+a 
+2
+​	
+ −b 
+2
+​	
+ =1
+grouping like terms:
+
+(
+−
+a
+−
+b
+)
++
+(
+a
+−
+b
+)
+2
+=
+1
+(−a−b)+(a−b) 
+2
+​	
+ =1
+since 
+2
+2
+​	
+  is irrational, the coefficients of the rational and irrational parts must separately equal the corresponding parts on the right side. therefore:
+
+−
+a
+−
+b
+=
+1
+(a)
+a
+−
+b
+=
+0
+(b)
+−a−b=1(a)
+a−b=0(b)
+from equation (b):
+
+a
+=
+b
+a=b
+substituting into equation (a):
+
+−
+a
+−
+a
+=
+1
+  
+⟹
+  
+−
+2
+a
+=
+1
+  
+⟹
+  
+a
+=
+−
+1
+2
+−a−a=1⟹−2a=1⟹a=− 
+2
+1
+​	
+ 
+since 
+a
+=
+b
+a=b, then 
+b
+=
+−
+1
+2
+b=− 
+2
+1
+​	
+ 
+
+now, plugging a and b back into the expressions for p_n and q_n:
+
+p
+n
+=
+−
+1
+2
+(
+−
+1
++
+2
+)
+n
+−
+1
+2
+(
+−
+1
+−
+2
+)
+n
+q
+n
+=
+−
+1
+2
+(
+−
+1
++
+2
+)
+n
+−
+1
+−
+1
+2
+(
+−
+1
+−
+2
+)
+n
+−
+1
+p 
+n
+​	
+ =− 
+2
+1
+​	
+ (−1+ 
+2
+​	
+ ) 
+n
+ − 
+2
+1
+​	
+ (−1− 
+2
+​	
+ ) 
+n
+ 
+q 
+n
+​	
+ =− 
+2
+1
+​	
+ (−1+ 
+2
+​	
+ ) 
+n−1
+ − 
+2
+1
+​	
+ (−1− 
+2
+​	
+ ) 
+n−1
+ 
+therefore, the general expression for 
+a
+n
+a 
+n
+  is:
+
+a
+n
+=
+p
+n
+a
++
+q
+n
+i
+=
+(
+−
+1
+2
+(
+−
+1
++
+2
+)
+n
+−
+1
+2
+(
+−
+1
+−
+2
+)
+n
+)
+a
++
+(
+−
+1
+2
+(
+−
+1
++
+2
+)
+n
+−
+1
+−
+1
+2
+(
+−
+1
+−
+2
+)
+n
+−
+1
+)
+i
+a 
+n
+ =p 
+n
+​	
+ a+q 
+n
+​	
+ i=(− 
+2
+1
+​	
+ (−1+ 
+2
+​	
+ ) 
+n
+ − 
+2
+1
+​	
+ (−1− 
+2
+​	
+ ) 
+n
+ )a+(− 
+2
+1
+​	
+ (−1+ 
+2
+​	
+ ) 
+n−1
+ − 
+2
+1
+​	
+ (−1− 
+2
+​	
+ ) 
+n−1
+ )i
+this still seems quite complicated. maybe there's a better way to express this.
+
+alternatively, since we have the eigenvalues and eigenvectors, perhaps i can express 
+a
+100
+a 
+100
+  directly using them.
+
+recall that:
+
+a
+100
+=
+p
+d
+100
+p
+−
+1
+a 
+100
+ =pd 
+100
+ p 
+−1
+ 
+where:
+
+p
+=
+(
+1
+1
+−
+(
+5
+−
+2
+)
+−
+(
+5
++
+2
+)
+ 
+)
+,
+d
+=
+(
+−
+1
++
+2
+0
+0
+−
+1
+−
+2
+ 
+)
+,
+p
+−
+1
+=
+1
+2
+2
+(
+5
++
+2
+1
+−
+5
++
+2
+−
+1
+ 
+)
+p=( 
+1
+−(5− 
+2
+​	
+ )
+​	
+  
+1
+−(5+ 
+2
+​	
+ )
+​	
+ ),d=( 
+−1+ 
+2
+​	
+ 
+0
+​	
+  
+0
+−1− 
+2
+​	
+ 
+​	
+ ),p 
+−1
+ = 
+2 
+2
+​	
+ 
+1
+​	
+ ( 
+5+ 
+2
+​	
+ 
+−5+ 
+2
+​	
+ 
+​	
+  
+1
+−1
+​	
+ )
+so, plugging in:
+
+a
+100
+=
+(
+1
+1
+−
+(
+5
+−
+2
+)
+−
+(
+5
++
+2
+)
+ 
+)
+(
+(
+−
+1
++
+2
+)
+100
+0
+0
+(
+−
+1
+−
+2
+)
+100
+ 
+)
+1
+2
+2
+(
+5
++
+2
+1
+−
+5
++
+2
+−
+1
+ 
+)
+a 
+100
+ =( 
+1
+−(5− 
+2
+​	
+ )
+​	
+  
+1
+−(5+ 
+2
+​	
+ )
+​	
+ )( 
+(−1+ 
+2
+​	
+ ) 
+100
+ 
+0
+​	
+  
+0
+(−1− 
+2
+​	
+ ) 
+100
+ 
+​	
+ ) 
+2 
+2
+​	
+ 
+1
+​	
+ ( 
+5+ 
+2
+​	
+ 
+−5+ 
+2
+​	
+ 
+​	
+  
+1
+−1
+​	
+ )
+this is quite involved, but perhaps i can simplify it further.
+
+first, let's compute the product of the first two matrices:
+
+(
+1
+1
+−
+(
+5
+−
+2
+)
+−
+(
+5
++
+2
+)
+ 
+)
+(
+(
+−
+1
++
+2
+)
+100
+0
+0
+(
+−
+1
+−
+2
+)
+100
+ 
+)
+=
+(
+1
+⋅
+(
+−
+1
++
+2
+)
+100
+1
+⋅
+(
+−
+1
+−
+2
+)
+100
+−
+(
+5
+−
+2
+)
+⋅
+(
+−
+1
++
+2
+)
+100
+−
+(
+5
++
+2
+)
+⋅
+(
+−
+1
+−
+2
+)
+100
+ 
+)
+( 
+1
+−(5− 
+2
+​	
+ )
+​	
+  
+1
+−(5+ 
+2
+​	
+ )
+​	
+ )( 
+(−1+ 
+2
+​	
+ ) 
+100
+ 
+0
+​	
+  
+0
+(−1− 
+2
+​	
+ ) 
+100
+ 
+​	
+ )=( 
+1⋅(−1+ 
+2
+​	
+ ) 
+100
+ 
+−(5− 
+2
+​	
+ )⋅(−1+ 
+2
+​	
+ ) 
+100
+ 
+​	
+  
+1⋅(−1− 
+2
+​	
+ ) 
+100
+ 
+−(5+ 
+2
+​	
+ )⋅(−1− 
+2
+​	
+ ) 
+100
+ 
+​	
+ )
+then, multiply this by 
+p
+−
+1
+p 
+−1
+ :
+
+a
+100
+=
+(
+(
+−
+1
++
+2
+)
+100
+(
+−
+1
+−
+2
+)
+100
+−
+(
+5
+−
+2
+)
+(
+−
+1
++
+2
+)
+100
+−
+(
+5
++
+2
+)
+(
+−
+1
+−
+2
+)
+100
+ 
+)
+⋅
+1
+2
+2
+(
+5
++
+2
+1
+−
+5
++
+2
+−
+1
+ 
+)
+a 
+100
+ =( 
+(−1+ 
+2
+​	
+ ) 
+100
+ 
+−(5− 
+2
+​	
+ )(−1+ 
+2
+​	
+ ) 
+100
+ 
+​	
+  
+(−1− 
+2
+​	
+ ) 
+100
+ 
+−(5+ 
+2
+​	
+ )(−1− 
+2
+​	
+ ) 
+100
+ 
+​	
+ )⋅ 
+2 
+2
+​	
+ 
+1
+​	
+ ( 
+5+ 
+2
+​	
+ 
+−5+ 
+2
+​	
+ 
+​	
+  
+1
+−1
+​	
+ )
+now, let's perform the matrix multiplication:
+
+the (1,1) entry:
+
+(
+−
+1
++
+2
+)
+100
+⋅
+5
++
+2
+2
+2
++
+(
+−
+1
+−
+2
+)
+100
+⋅
+−
+5
++
+2
+2
+2
+(−1+ 
+2
+​	
+ ) 
+100
+ ⋅ 
+2 
+2
+​	
+ 
+5+ 
+2
+​	
+ 
+​	
+ +(−1− 
+2
+​	
+ ) 
+100
+ ⋅ 
+2 
+2
+​	
+ 
+−5+ 
+2
+​	
+ 
+​	
+ 
+the (1,2) entry:
+
+(
+−
+1
++
+2
+)
+100
+⋅
+1
+2
+2
++
+(
+−
+1
+−
+2
+)
+100
+⋅
+−
+1
+2
+2
+(−1+ 
+2
+​	
+ ) 
+100
+ ⋅ 
+2 
+2
+​	
+ 
+1
+​	
+ +(−1− 
+2
+​	
+ ) 
+100
+ ⋅ 
+2 
+2
+​	
+ 
+−1
+​	
+ 
+the (2,1) entry:
+
+−
+(
+5
+−
+2
+)
+(
+−
+1
++
+2
+)
+100
+⋅
+5
++
+2
+2
+2
++
+−
+(
+5
++
+2
+)
+(
+−
+1
+−
+2
+)
+100
+⋅
+−
+5
++
+2
+2
+2
+−(5− 
+2
+​	
+ )(−1+ 
+2
+​	
+ ) 
+100
+ ⋅ 
+2 
+2
+​	
+ 
+5+ 
+2
+​	
+ 
+​	
+ +−(5+ 
+2
+​	
+ )(−1− 
+2
+​	
+ ) 
+100
+ ⋅ 
+2 
+2
+​	
+ 
+−5+ 
+2
+​	
+ 
+​	
+ 
+the (2,2) entry:
+
+−
+(
+5
+−
+2
+)
+(
+−
+1
++
+2
+)
+100
+⋅
+1
+2
+2
++
+−
+(
+5
++
+2
+)
+(
+−
+1
+−
+2
+)
+100
+⋅
+−
+1
+2
+2
+−(5− 
+2
+​	
+ )(−1+ 
+2
+​	
+ ) 
+100
+ ⋅ 
+2 
+2
+​	
+ 
+1
+​	
+ +−(5+ 
+2
+​	
+ )(−1− 
+2
+​	
+ ) 
+100
+ ⋅ 
+2 
+2
+​	
+ 
+−1
+​	
+ 
+this is getting really complicated. maybe there's a better approach.
+
+let me think differently. since the eigenvalues are 
+−
+1
+±
+2
+−1± 
+2
+​	
+ , and they are real and distinct, the matrix 
+a
+a can be expressed in terms of its eigenvalues and eigenvectors, and powers of 
+a
+a can be expressed similarly.
+
+alternatively, perhaps i can use the fact that 
+a
+a can be expressed as 
+a
+=
+i
++
+n
+a=i+n, where 
+n
+n is a nilpotent matrix, but given the eigenvalues, that doesn't seem applicable here.
+
+wait, maybe i can consider the jordan form, but since the matrix is diagonalizable, the jordan form is just the diagonal matrix of eigenvalues.
+
+alternatively, perhaps i can use the fact that 
+a
+a satisfies its characteristic equation and find a pattern in the powers based on that.
+
+let me see what 
+a
+n
+a 
+n
+  looks like in terms of 
+a
+a and 
+i
+i.
+
+from earlier, i have:
+
+a
+n
+=
+p
+n
+a
++
+q
+n
+i
+a 
+n
+ =p 
+n
+​	
+ a+q 
+n
+​	
+ i
+with the recurrence:
+
+p
+n
++
+1
+=
+−
+2
+p
+n
++
+q
+n
+q
+n
++
+1
+=
+p
+n
+p 
+n+1
+​	
+ =−2p 
+n
+​	
+ +q 
+n
+​	
+ 
+q 
+n+1
+​	
+ =p 
+n
+​	
+ 
+and the general solution for 
+p
+n
+p 
+n
+​	
+  is:
+
+p
+n
+=
+a
+(
+−
+1
++
+2
+)
+n
++
+b
+(
+−
+1
+−
+2
+)
+n
+p 
+n
+​	
+ =a(−1+ 
+2
+​	
+ ) 
+n
+ +b(−1− 
+2
+​	
+ ) 
+n
+ 
+with 
+a
+=
+b
+=
+−
+1
+2
+a=b=− 
+2
+1
+​	
+ 
+
+similarly, 
+q
+n
+=
+p
+n
+−
+1
+q 
+n
+​	
+ =p 
+n−1
+​	
+ , so:
+
+q
+n
+=
+a
+(
+−
+1
++
+2
+)
+n
+−
+1
++
+b
+(
+−
+1
+−
+2
+)
+n
+−
+1
+q 
+n
+​	
+ =a(−1+ 
+2
+​	
+ ) 
+n−1
+ +b(−1− 
+2
+​	
+ ) 
+n−1
+ 
+therefore:
+
+a
+n
+=
+−
+1
+2
+[
+(
+−
+1
++
+2
+)
+n
+a
++
+(
+−
+1
+−
+2
+)
+n
+a
+]
+−
+1
+2
+[
+(
+−
+1
++
+2
+)
+n
+−
+1
+i
++
+(
+−
+1
+−
+2
+)
+n
+−
+1
+i
+]
+a 
+n
+ =− 
+2
+1
+​	
+ [(−1+ 
+2
+​	
+ ) 
+n
+ a+(−1− 
+2
+​	
+ ) 
+n
+ a]− 
+2
+1
+​	
+ [(−1+ 
+2
+​	
+ ) 
+n−1
+ i+(−1− 
+2
+​	
+ ) 
+n−1
+ i]
+this seems too convoluted. maybe there's a different approach altogether.
+
+wait a minute, perhaps i can use the fact that 
+a
+a can be expressed in terms of its eigenvalues and eigenvectors, and then use that to compute 
+a
+100
+a 
+100
+ .
+
+alternatively, maybe i can use the fact that 
+a
+a is similar to a diagonal matrix, and thus its powers are easy to compute.
+
+wait, that's essentially what i did earlier with the diagonalization approach.
+
+perhaps another way is to consider the matrix exponential, but that might not be simpler for integer powers.
+
+alternatively, maybe i can use the minimal polynomial of 
+a
+a, but since the characteristic polynomial is already degree 2 and the matrix is diagonalizable, the minimal polynomial is the same as the characteristic polynomial.
+
+given that, perhaps i can express 
+a
+100
+a 
+100
+  in terms of 
+a
+a and 
+i
+i using the characteristic equation.
+
+from the characteristic equation:
+
+a
+2
+=
+−
+2
+a
++
+i
+a 
+2
+ =−2a+i
+then, 
+a
+3
+=
+a
+⋅
+a
+2
+=
+a
+(
+−
+2
+a
++
+i
+)
+=
+−
+2
+a
+2
++
+a
+=
+−
+2
+(
+−
+2
+a
++
+i
+)
++
+a
+=
+4
+a
+−
+2
+i
++
+a
+=
+5
+a
+−
+2
+i
+a 
+3
+ =a⋅a 
+2
+ =a(−2a+i)=−2a 
+2
+ +a=−2(−2a+i)+a=4a−2i+a=5a−2i
+
+similarly, 
+a
+4
+=
+a
+⋅
+a
+3
+=
+a
+(
+5
+a
+−
+2
+i
+)
+=
+5
+a
+2
+−
+2
+a
+=
+5
+(
+−
+2
+a
++
+i
+)
+−
+2
+a
+=
+−
+10
+a
++
+5
+i
+−
+2
+a
+=
+−
+12
+a
++
+5
+i
+a 
+4
+ =a⋅a 
+3
+ =a(5a−2i)=5a 
+2
+ −2a=5(−2a+i)−2a=−10a+5i−2a=−12a+5i
+
+i can see a pattern here, but it's not immediately clear how to generalize it for 
+a
+100
+a 
+100
+ .
+
+alternatively, perhaps i can use the fact that the eigenvalues are 
+−
+1
+±
+2
+−1± 
+2
+​	
+ , and thus the matrix can be expressed in terms of these eigenvalues, and then raise them to the 100th power.
+
+but this seems similar to the diagonalization approach.
+
+alternatively, maybe i can consider the matrix as a linear recurrence relation.
+
+wait, perhaps using the fact that the entries of 
+a
+n
+a 
+n
+  satisfy a linear recurrence based on the characteristic equation.
+
+given that 
+a
+2
+=
+−
+2
+a
++
+i
+a 
+2
+ =−2a+i, then for any power n >= 2, 
+a
+n
+=
+−
+2
+a
+n
+−
+1
++
+a
+n
+−
+2
+a 
+n
+ =−2a 
+n−1
+ +a 
+n−2
+ 
+
+this is a linear recurrence relation for the matrix powers.
+
+now, perhaps i can find a closed-form expression for 
+a
+n
+a 
+n
+  using this recurrence.
+
+this is similar to solving a linear recurrence for sequences, where the general solution is a linear combination of terms based on the roots of the characteristic equation.
+
+given that, and since we have the eigenvalues, perhaps i can express 
+a
+n
+a 
+n
+  as a linear combination of 
+λ
+1
+n
+λ 
+1
+n
+​	
+  and 
+λ
+2
+n
+λ 
+2
+n
+​	
+ , similar to how it's done for sequences.
+
+specifically, maybe:
+
+a
+n
+=
+c
+1
+λ
+1
+n
+v
+1
++
+c
+2
+λ
+2
+n
+v
+2
+a 
+n
+ =c 
+1
+​	
+ λ 
+1
+n
+​	
+ v 
+1
+​	
+ +c 
+2
+​	
+ λ 
+2
+n
+​	
+ v 
+2
+​	
+ 
+but this doesn't seem directly applicable since 
+v
+1
+v 
+1
+​	
+  and \mathbf{v}_2\) are eigenvectors, and i need to reconstruct the matrix.
+
+alternatively, perhaps i can express 
+a
+n
+a 
+n
+  in terms of the eigenvalues and eigenvectors as follows:
+
+a
+n
+=
+p
+d
+n
+p
+−
+1
+a 
+n
+ =pd 
+n
+ p 
+−1
+ 
+which is exactly the diagonalization approach.
+
+given that, and having computed 
+p
+p, 
+d
+d, and 
+p
+−
+1
+p 
+−1
+ , perhaps i should just proceed with that, even if it's a bit messy.
+
+so, summarizing:
+
+a
+100
+=
+p
+d
+100
+p
+−
+1
+=
+(
+1
+1
+−
+(
+5
+−
+2
+)
+−
+(
+5
++
+2
+)
+ 
+)
+(
+(
+−
+1
++
+2
+)
+100
+0
+0
+(
+−
+1
+−
+2
+)
+100
+ 
+)
+⋅
+1
+2
+2
+(
+5
++
+2
+1
+−
+5
++
+2
+−
+1
+ 
+)
+a 
+100
+ =pd 
+100
+ p 
+−1
+ =( 
+1
+−(5− 
+2
+​	
+ )
+​	
+  
+1
+−(5+ 
+2
+​	
+ )
+​	
+ )( 
+(−1+ 
+2
+​	
+ ) 
+100
+ 
+0
+​	
+  
+0
+(−1− 
+2
+​	
+ ) 
+100
+ 
+​	
+ )⋅ 
+2 
+2
+​	
+ 
+1
+​	
+ ( 
+5+ 
+2
+​	
+ 
+−5+ 
+2
+​	
+ 
+​	
+  
+1
+−1
+​	
+ )
+now, to compute this, i need to perform the matrix multiplications step by step.
+
+first, multiply the first two matrices:
+
+(
+1
+1
+−
+(
+5
+−
+2
+)
+−
+(
+5
++
+2
+)
+ 
+)
+(
+(
+−
+1
++
+2
+)
+100
+0
+0
+(
+−
+1
+−
+2
+)
+100
+ 
+)
+=
+(
+1
+⋅
+(
+−
+1
++
+2
+)
+100
++
+1
+⋅
+0
+1
+⋅
+0
++
+1
+⋅
+(
+−
+1
+−
+2
+)
+100
+−
+(
+5
+−
+2
+)
+⋅
+(
+−
+1
++
+2
+)
+100
++
+−
+(
+5
++
+2
+)
+⋅
+0
+−
+(
+5
+−
+2
+)
+⋅
+0
++
+−
+(
+5
++
+2
+)
+⋅
+(
+−
+1
+−
+2
+)
+100
+ 
+)
+( 
+1
+−(5− 
+2
+​	
+ )
+​	
+  
+1
+−(5+ 
+2
+​	
+ )
+​	
+ )( 
+(−1+ 
+2
+​	
+ ) 
+100
+ 
+0
+​	
+  
+0
+(−1− 
+2
+​	
+ ) 
+100
+ 
+​	
+ )=( 
+1⋅(−1+ 
+2
+​	
+ ) 
+100
+ +1⋅0
+−(5− 
+2
+​	
+ )⋅(−1+ 
+2
+​	
+ ) 
+100
+ +−(5+ 
+2
+​	
+ )⋅0
+​	
+  
+1⋅0+1⋅(−1− 
+2
+​	
+ ) 
+100
+ 
+−(5− 
+2
+​	
+ )⋅0+−(5+ 
+2
+​	
+ )⋅(−1− 
+2
+​	
+ ) 
+100
+ 
+​	
+ )
+simplifying:
+
+=
+(
+(
+−
+1
++
+2
+)
+100
+(
+−
+1
+−
+2
+)
+100
+−
+(
+5
+−
+2
+)
+(
+−
+1
++
+2
+)
+100
+−
+(
+5
++
+2
+)
+(
+−
+1
+−
+2
+)
+100
+ 
+)
+=( 
+(−1+ 
+2
+​	
+ ) 
+100
+ 
+−(5− 
+2
+​	
+ )(−1+ 
+2
+​	
+ ) 
+100
+ 
+​	
+  
+(−1− 
+2
+​	
+ ) 
+100
+ 
+−(5+ 
+2
+​	
+ )(−1− 
+2
+​	
+ ) 
+100
+ 
+​	
+ )
+now, multiply this by 
+p
+−
+1
+p 
+−1
+ :
+
+(
+(
+−
+1
++
+2
+)
+100
+(
+−
+1
+−
+2
+)
+100
+−
+(
+5
+−
+2
+)
+(
+−
+1
++
+2
+)
+100
+−
+(
+5
++
+2
+)
+(
+−
+1
+−
+2
+)
+100
+ 
+)
+⋅
+1
+2
+2
+(
+5
++
+2
+1
+−
+5
++
+2
+−
+1
+ 
+)
+( 
+(−1+ 
+2
+​	
+ ) 
+100
+ 
+−(5− 
+2
+​	
+ )(−1+ 
+2
+​	
+ ) 
+100
+ 
+​	
+  
+(−1− 
+2
+​	
+ ) 
+100
+ 
+−(5+ 
+2
+​	
+ )(−1− 
+2
+​	
+ ) 
+100
+ 
+​	
+ )⋅ 
+2 
+2
+​	
+ 
+1
+​	
+ ( 
+5+ 
+2
+​	
+ 
+−5+ 
+2
+​	
+ 
+​	
+  
+1
+−1
+​	
+ )
+compute each entry of the resulting matrix:
+
+(1,1):
+
+(
+−
+1
++
+2
+)
+100
+⋅
+5
++
+2
+2
+2
++
+(
+−
+1
+−
+2
+)
+100
+⋅
+−
+5
++
+2
+2
+2
+(−1+ 
+2
+​	
+ ) 
+100
+ ⋅ 
+2 
+2
+​	
+ 
+5+ 
+2
+​	
+ 
+​	
+ +(−1− 
+2
+​	
+ ) 
+100
+ ⋅ 
+2 
+2
+​	
+ 
+−5+ 
+2
+​	
+ 
+​	
+ 
+(1,2):
+
+(
+−
+1
++
+2
+)
+100
+⋅
+1
+2
+2
++
+(
+−
+1
+−
+2
+)
+100
+⋅
+−
+1
+2
+2
+(−1+ 
+2
+​	
+ ) 
+100
+ ⋅ 
+2 
+2
+​	
+ 
+1
+​	
+ +(−1− 
+2
+​	
+ ) 
+100
+ ⋅ 
+2 
+2
+​	
+ 
+−1
+​	
+ 
+(2,1):
+
+−
+(
+5
+−
+2
+)
+(
+−
+1
++
+2
+)
+100
+⋅
+5
++
+2
+2
+2
++
+−
+(
+5
++
+2
+)
+(
+−
+1
+−
+2
+)
+100
+⋅
+−
+5
++
+2
+2
+2
+−(5− 
+2
+​	
+ )(−1+ 
+2
+​	
+ ) 
+100
+ ⋅ 
+2 
+2
+​	
+ 
+5+ 
+2
+​	
+ 
+​	
+ +−(5+ 
+2
+​	
+ )(−1− 
+2
+​	
+ ) 
+100
+ ⋅ 
+2 
+2
+​	
+ 
+−5+ 
+2
+​	
+ 
+​	
+ 
+(2,2):
+
+−
+(
+5
+−
+2
+)
+(
+−
+1
++
+2
+)
+100
+⋅
+1
+2
+2
++
+−
+(
+5
++
+2
+)
+(
+−
+1
+−
+2
+)
+100
+⋅
+−
+1
+2
+2
+−(5− 
+2
+​	
+ )(−1+ 
+2
+​	
+ ) 
+100
+ ⋅ 
+2 
+2
+​	
+ 
+1
+​	
+ +−(5+ 
+2
+​	
+ )(−1− 
+2
+​	
+ ) 
+100
+ ⋅ 
+2 
+2
+​	
+ 
+−1
+​	
+ 
+this is extremely cumbersome. maybe there's a better way to approach this.
+
+let me think again about the general expression for 
+a
+n
+a 
+n
+ :
+
+a
+n
+=
+p
+n
+a
++
+q
+n
+i
+a 
+n
+ =p 
+n
+​	
+ a+q 
+n
+​	
+ i
+with the recurrence relations:
+
+p
+n
++
+1
+=
+−
+2
+p
+n
++
+q
+n
+q
+n
++
+1
+=
+p
+n
+p 
+n+1
+​	
+ =−2p 
+n
+​	
+ +q 
+n
+​	
+ 
+q 
+n+1
+​	
+ =p 
+n
+​	
+ 
+and the general solution for 
+p
+n
+p 
+n
+​	
+ :
+
+p
+n
+=
+a
+(
+−
+1
++
+2
+)
+n
++
+b
+(
+−
+1
+−
+2
+)
+n
+p 
+n
+​	
+ =a(−1+ 
+2
+​	
+ ) 
+n
+ +b(−1− 
+2
+​	
+ ) 
+n
+ 
+with 
+a
+=
+b
+=
+−
+1
+2
+a=b=− 
+2
+1
+​	
+ , and 
+q
+n
+=
+p
+n
+−
+1
+q 
+n
+​	
+ =p 
+n−1
+​	
+ , so:
+
+q
+n
+=
+−
+1
+2
+(
+−
+1
++
+2
+)
+n
+−
+1
+−
+1
+2
+(
+−
+1
+−
+2
+)
+n
+−
+1
+q 
+n
+​	
+ =− 
+2
+1
+​	
+ (−1+ 
+2
+​	
+ ) 
+n−1
+ − 
+2
+1
+​	
+ (−1− 
+2
+​	
+ ) 
+n−1
+ 
+therefore, plugging back into 
+a
+n
+a 
+n
+ :
+
+a
+n
+=
+(
+−
+1
+2
+(
+−
+1
++
+2
+)
+n
+−
+1
+2
+(
+−
+1
+−
+2
+)
+n
+)
+a
++
+(
+−
+1
+2
+(
+−
+1
++
+2
+)
+n
+−
+1
+−
+1
+2
+(
+−
+1
+−
+2
+)
+n
+−
+1
+)
+i
+a 
+n
+ =(− 
+2
+1
+​	
+ (−1+ 
+2
+​	
+ ) 
+n
+ − 
+2
+1
+​	
+ (−1− 
+2
+​	
+ ) 
+n
+ )a+(− 
+2
+1
+​	
+ (−1+ 
+2
+​	
+ ) 
+n−1
+ − 
+2
+1
+​	
+ (−1− 
+2
+​	
+ ) 
+n−1
+ )i
+now, for 
+n
+=
+100
+n=100:
+
+a
+100
+=
+(
+−
+1
+2
+(
+−
+1
++
+2
+)
+100
+−
+1
+2
+(
+−
+1
+−
+2
+)
+100
+)
+a
++
+(
+−
+1
+2
+(
+−
+1
++
+2
+)
+99
+−
+1
+2
+(
+−
+1
+−
+2
+)
+99
+)
+i
+a 
+100
+ =(− 
+2
+1
+​	
+ (−1+ 
+2
+​	
+ ) 
+100
+ − 
+2
+1
+​	
+ (−1− 
+2
+​	
+ ) 
+100
+ )a+(− 
+2
+1
+​	
+ (−1+ 
+2
+​	
+ ) 
+99
+ − 
+2
+1
+​	
+ (−1− 
+2
+​	
+ ) 
+99
+ )i
+this still seems quite complicated, but perhaps i can factor out 
+−
+1
+2
+− 
+2
+1
+​	
+ :
+
+a
+100
+=
+−
+1
+2
+[
+(
+−
+1
++
+2
+)
+100
++
+(
+−
+1
+−
+2
+)
+100
+]
+a
+−
+1
+2
+[
+(
+−
+1
++
+2
+)
+99
++
+(
+−
+1
+−
+2
+)
+99
+]
+i
+a 
+100
+ =− 
+2
+1
+​	
+ [(−1+ 
+2
+​	
+ ) 
+100
+ +(−1− 
+2
+​	
+ ) 
+100
+ ]a− 
+2
+1
+​	
+ [(−1+ 
+2
+​	
+ ) 
+99
+ +(−1− 
+2
+​	
+ ) 
+99
+ ]i
+now, notice that 
+−
+1
++
+2
+−1+ 
+2
+​	
+  and 
+−
+1
+−
+2
+−1− 
+2
+​	
+  are reciprocals of each other because:
+
+(
+−
+1
++
+2
+)
+(
+−
+1
+−
+2
+)
+=
+1
+−
+2
+=
+−
+1
+(−1+ 
+2
+​	
+ )(−1− 
+2
+​	
+ )=1−2=−1
+but i'm not sure if that helps directly here.
+
+alternatively, perhaps i can use the fact that these terms are related through complex conjugation, but since they are real numbers, that might not apply.
+
+another thought: perhaps i can express 
+(
+−
+1
++
+2
+)
+n
+(−1+ 
+2
+​	
+ ) 
+n
+  and 
+(
+−
+1
+−
+2
+)
+n
+(−1− 
+2
+​	
+ ) 
+n
+  in terms of hyperbolic functions or something similar, but that might be overcomplicating things.
+
+alternatively, perhaps i can consider that 
+(
+−
+1
++
+2
+)
+(−1+ 
+2
+​	
+ ) is less than 1 in magnitude, and 
+(
+−
+1
+−
+2
+)
+(−1− 
+2
+​	
+ ) is less than 1 in magnitude in absolute value, but actually, 
+−
+1
+−
+2
+−1− 
+2
+​	
+  is approximately -2.414, which is greater than 1 in magnitude.
+
+wait, let's calculate the magnitudes:
+
+∣
+−
+1
++
+2
+∣
+≈
+∣
+−
+1
++
+1.414
+∣
+=
+∣
+0.414
+∣
+=
+0.414
+∣
+−
+1
+−
+2
+∣
+≈
+∣
+−
+1
+−
+1.414
+∣
+=
+∣
+−
+2.414
+∣
+=
+2.414
+∣−1+ 
+2
+​	
+ ∣≈∣−1+1.414∣=∣0.414∣=0.414
+∣−1− 
+2
+​	
+ ∣≈∣−1−1.414∣=∣−2.414∣=2.414
+so, one eigenvalue has magnitude less than 1, and the other has magnitude greater than 1.
+
+this means that as n increases, the term with 
+(
+−
+1
+−
+2
+)
+n
+(−1− 
+2
+​	
+ ) 
+n
+  will dominate, while the term with 
+(
+−
+1
++
+2
+)
+n
+(−1+ 
+2
+​	
+ ) 
+n
+  will become negligible.
+
+however, since n=100 is very large, and 
+(
+−
+1
+−
+2
+)
+100
+(−1− 
+2
+​	
+ ) 
+100
+  is a huge number, while 
+(
+−
+1
++
+2
+)
+100
+(−1+ 
+2
+​	
+ ) 
+100
+  is a very small number (since its magnitude is less than 1), perhaps for practical purposes, the term with 
+(
+−
+1
++
+2
+)
+100
+(−1+ 
+2
+​	
+ ) 
+100
+  can be considered negligible.
+
+but for an exact expression, i need to keep both terms.
+
+given that, perhaps i can accept that 
+a
+100
+a 
+100
+  will have entries involving 
+(
+−
+1
++
+2
+)
+100
+(−1+ 
+2
+​	
+ ) 
+100
+  and 
+(
+−
+1
+−
+2
+)
+100
+(−1− 
+2
+​	
+ ) 
+100
+ , and that's as simplified as it gets.
+
+alternatively, maybe there's a way to express these terms in a more compact form.
+
+let me consider the general expression again:
+
+a
+100
+=
+−
+1
+2
+[
+(
+−
+1
++
+2
+)
+100
++
+(
+−
+1
+−
+2
+)
+100
+]
+a
+−
+1
+2
+[
+(
+−
+1
++
+2
+)
+99
++
+(
+−
+1
+−
+2
+)
+99
+]
+i
+a 
+100
+ =− 
+2
+1
+​	
+ [(−1+ 
+2
+​	
+ ) 
+100
+ +(−1− 
+2
+​	
+ ) 
+100
+ ]a− 
+2
+1
+​	
+ [(−1+ 
+2
+​	
+ ) 
+99
+ +(−1− 
+2
+​	
+ ) 
+99
+ ]i
+i can factor out 
+(
+−
+1
++
+2
+)
+99
+(−1+ 
+2
+​	
+ ) 
+99
+  and 
+(
+−
+1
+−
+2
+)
+99
+(−1− 
+2
+​	
+ ) 
+99
+ :
+
+a
+100
+=
+−
+1
+2
+[
+(
+−
+1
++
+2
+)
+99
+(
+−
+1
++
+2
+)
++
+(
+−
+1
+−
+2
+)
+99
+(
+−
+1
+−
+2
+)
+]
+a
+−
+1
+2
+[
+(
+−
+1
++
+2
+)
+99
++
+(
+−
+1
+−
+2
+)
+99
+]
+i
+a 
+100
+ =− 
+2
+1
+​	
+ [(−1+ 
+2
+​	
+ ) 
+99
+ (−1+ 
+2
+​	
+ )+(−1− 
+2
+​	
+ ) 
+99
+ (−1− 
+2
+​	
+ )]a− 
+2
+1
+​	
+ [(−1+ 
+2
+​	
+ ) 
+99
+ +(−1− 
+2
+​	
+ ) 
+99
+ ]i
+but this doesn't seem to lead to significant simplification.
+
+another idea: perhaps i can use the fact that 
+(
+−
+1
++
+2
+)
+(−1+ 
+2
+​	
+ ) and 
+(
+−
+1
+−
+2
+)
+(−1− 
+2
+​	
+ ) are roots of the characteristic equation, and find a relationship between them.
+
+alternatively, maybe i can consider expressing 
+a
+100
+a 
+100
+  in terms of lower powers and look for a pattern, but that seems impractical for such a high power.
+
+given all this, perhaps the expression i have for 
+a
+100
+a 
+100
+  is as simplified as it can be without numerical approximation.
+
+therefore, the final expression for 
+a
+100
+a 
+100
+  is:
+
+a
+100
+=
+−
+1
+2
+[
+(
+−
+1
++
+2
+)
+100
++
+(
+−
+1
+−
+2
+)
+100
+]
+(
+4
+1
+−
+9
+−
+2
+ 
+)
+−
+1
+2
+[
+(
+−
+1
++
+2
+)
+99
++
+(
+−
+1
+−
+2
+)
+99
+]
+(
+1
+0
+0
+1
+ 
+)
+a 
+100
+ =− 
+2
+1
+​	
+ [(−1+ 
+2
+​	
+ ) 
+100
+ +(−1− 
+2
+​	
+ ) 
+100
+ ]( 
+4
+−9
+​	
+  
+1
+−2
+​	
+ )− 
+2
+1
+​	
+ [(−1+ 
+2
+​	
+ ) 
+99
+ +(−1− 
+2
+​	
+ ) 
+99
+ ]( 
+1
+0
+​	
+  
+0
+1
+​	
+ )
+this is an exact expression, but it's quite unwieldy. for practical purposes, one might consider numerical approximation of the terms involving 
+(
+−
+1
++
+2
+)
+100
+(−1+ 
+2
+​	
+ ) 
+100
+  and 
+(
+−
+1
+−
+2
+)
+100
+(−1− 
+2
+​	
+ ) 
+100
+ , but that would not be an exact answer.
+
+therefore, the final answer is:
+
+a
+100
+=
+−
+1
+2
+[
+(
+−
+1
++
+2
+)
+100
++
+(
+−
+1
+−
+2
+)
+100
+]
+(
+4
+1
+−
+9
+−
+2
+ 
+)
+−
+1
+2
+[
+(
+−
+1
++
+2
+)
+99
++
+(
+−
+1
+−
+2
+)
+99
+]
+(
+1
+0
+0
+1
+ 
+)
+a 
+100
+ =− 
+2
+1
+​	
+ [(−1+ 
+2
+​	
+ ) 
+100
+ +(−1− 
+2
+​	
+ ) 
+100
+ ]( 
+4
+−9
+​	
+  
+1
+−2
+​	
+ )− 
+2
+1
+​	
+ [(−1+ 
+2
+​	
+ ) 
+99
+ +(−1− 
+2
+​	
+ ) 
+99
+ ]( 
+1
+0
+​	
+  
+0
+1
+​	
+ )
+​	
+ 

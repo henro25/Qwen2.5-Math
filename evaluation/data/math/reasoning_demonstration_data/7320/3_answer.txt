@@ -1,1 +1,60 @@
-Answer: 
+Answer: First, we confirm that point \( a = (-1, -2) \) lies on line \( l_1 \) with equation \( 3x - 2y = 1 \):
+
+\[
+3(-1) - 2(-2) = -3 + 4 = 1
+\]
+
+next, we find the intersection point \( b \) of \( l_1 \) and \( l_2 \) (where \( l_2 \) is \( y = 1 \)):
+
+\[
+3x - 2(1) = 1 \implies 3x - 2 = 1 \implies 3x = 3 \implies x = 1
+\]
+
+thus, point \( b \) is \( (1, 1) \).
+
+for line \( l_3 \), which has a positive slope \( m \) and passes through \( a \), we use the point-slope form:
+
+\[
+y + 2 = m(x + 1) \implies y = m(x + 1) - 2
+\]
+
+to find point \( c \), where \( l_3 \) meets \( l_2 \) ( \( y = 1 \)):
+
+\[
+1 = m(x + 1) - 2 \implies m(x + 1) = 3 \implies x + 1 = \frac{3}{m} \implies x = \frac{3}{m} - 1
+\]
+
+thus, point \( c \) is \( \left( \frac{3}{m} - 1, 1 \right) \).
+
+using the shoelace formula to find the area of triangle \( abc \):
+
+\[
+\text{area} = \frac{1}{2} \left| (-1)(1 - 1) + 1(1 - (-2)) + \left( \frac{3}{m} - 1 \right)(-2 - 1) \right|
+\]
+
+simplifying:
+
+\[
+0 + 3 + \left( -\frac{9}{m} + 3 \right) = 6 - \frac{9}{m}
+\]
+
+given the area is 3:
+
+\[
+\frac{1}{2} \left| 6 - \frac{9}{m} \right| = 3 \implies \left| 6 - \frac{9}{m} \right| = 6
+\]
+
+solving for \( m \):
+
+\[
+6 - \frac{9}{m} = 6 \implies -\frac{9}{m} = 0 \quad (\text{not possible})
+\]
+\[
+6 - \frac{9}{m} = -6 \implies -\frac{9}{m} = -12 \implies \frac{9}{m} = 12 \implies m = \frac{9}{12} = \frac{3}{4}
+\]
+
+thus, the slope of \( l_3 \) is:
+
+\[
+\boxed{\frac{3}{4}}
+\]

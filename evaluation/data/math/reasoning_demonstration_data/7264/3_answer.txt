@@ -1,1 +1,50 @@
-Answer: 
+Answer: Given that two mathematicians arrive at the cafeteria independently and randomly between 9 a.m. and 10 a.m., and each stays for exactly \( m \) minutes, we need to find \( m \) in the form \( a - b\sqrt{c} \) where \( a, b, \) and \( c \) are positive integers, and \( c \) is square-free, given that the probability that one arrives while the other is in the cafeteria is 40%.
+
+first, we model the arrival times \( x \) and \( y \) as uniformly distributed between 0 and 60 minutes. the condition that one arrives while the other is there translates to \( |x - y| < m \).
+
+the probability that \( |x - y| < m \) is given by:
+\[
+p(|x - y| < m) = \frac{m}{60} - \frac{m^2}{2 \times 3600}
+\]
+given \( p(|x - y| < m) = 0.4 \), we have:
+\[
+\frac{m}{60} - \frac{m^2}{7200} = 0.4
+\]
+multiplying through by 7200 to clear the denominators:
+\[
+120m - m^2 = 2880
+\]
+rearranging into a standard quadratic form:
+\[
+m^2 - 120m + 2880 = 0
+\]
+solving this quadratic equation using the quadratic formula:
+\[
+m = \frac{120 \pm \sqrt{120^2 - 4 \cdot 1 \cdot 2880}}{2}
+\]
+\[
+m = \frac{120 \pm \sqrt{14400 - 11520}}{2}
+\]
+\[
+m = \frac{120 \pm \sqrt{2880}}{2}
+\]
+simplifying \( \sqrt{2880} \):
+\[
+\sqrt{2880} = \sqrt{64 \times 45} = 8 \sqrt{45} = 8 \times 3 \sqrt{5} = 24\sqrt{5}
+\]
+thus:
+\[
+m = \frac{120 \pm 24\sqrt{5}}{2} = 60 \pm 12\sqrt{5}
+\]
+since \( m \) must be less than 60, we take:
+\[
+m = 60 - 12\sqrt{5}
+\]
+therefore, \( a = 60 \), \( b = 12 \), and \( c = 5 \). summing these values:
+\[
+a + b + c = 60 + 12 + 5 = 77
+\]
+
+\[
+\boxed{77}
+\]

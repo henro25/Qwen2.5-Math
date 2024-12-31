@@ -1,1 +1,18 @@
-Answer: 
+Answer: To evaluate the expression \( a^2 \cdot a^5 \) when \( a = 3 \):
+
+1. **Apply the exponent rule for multiplication:**
+   \[
+   a^2 \cdot a^5 = a^{2+5} = a^7
+   \]
+
+2. **Substitute \( a = 3 \):**
+   \[
+   a^7 = 3^7
+   \]
+
+3. **Calculate \( 3^7 \):**
+   \[
+   3^7 = 3 \times 3 \times 3 \times 3 \times 3 \times 3 \times 3 = 2187
+   \]
+
+Therefore, the value of the expression is **2187**.

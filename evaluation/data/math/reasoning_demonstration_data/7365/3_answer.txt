@@ -1,1 +1,33 @@
-Answer: 
+Answer: Given that \(\mathbf{a} \begin{pmatrix} 5 \\ -2 \end{pmatrix} = \begin{pmatrix} -15 \\ 6 \end{pmatrix}\), we need to find \(\mathbf{a}^5 \begin{pmatrix} 5 \\ -2 \end{pmatrix}\).
+
+first, we check if \(\begin{pmatrix} 5 \\ -2 \end{pmatrix}\) is an eigenvector of \(\mathbf{a}\). we see that:
+
+\[
+\mathbf{a} \begin{pmatrix} 5 \\ -2 \end{pmatrix} = \begin{pmatrix} -15 \\ 6 \end{pmatrix} = -3 \begin{pmatrix} 5 \\ -2 \end{pmatrix}
+\]
+
+this confirms that \(\begin{pmatrix} 5 \\ -2 \end{pmatrix}\) is an eigenvector of \(\mathbf{a}\) with eigenvalue \(-3\).
+
+using the property of eigenvalues, we have:
+
+\[
+\mathbf{a}^5 \begin{pmatrix} 5 \\ -2 \end{pmatrix} = (-3)^5 \begin{pmatrix} 5 \\ -2 \end{pmatrix}
+\]
+
+calculating \((-3)^5\):
+
+\[
+(-3)^5 = -243
+\]
+
+thus:
+
+\[
+\mathbf{a}^5 \begin{pmatrix} 5 \\ -2 \end{pmatrix} = -243 \begin{pmatrix} 5 \\ -2 \end{pmatrix} = \begin{pmatrix} -243 \cdot 5 \\ -243 \cdot (-2) \end{pmatrix} = \begin{pmatrix} -1215 \\ 486 \end{pmatrix}
+\]
+
+therefore, the final answer is:
+
+\[
+\boxed{\begin{pmatrix} -1215 \\ 486 \end{pmatrix}}
+\]

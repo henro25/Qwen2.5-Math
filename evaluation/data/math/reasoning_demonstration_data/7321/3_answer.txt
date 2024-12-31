@@ -1,1 +1,25 @@
-Answer: 
+Answer: Given that \(\sec x + \tan x = \frac{5}{2}\), we need to find \(\sec x - \tan x\).
+
+we use the identity \(\sec^2 x - \tan^2 x = 1\). this can be factored as:
+
+\[
+(\sec x + \tan x)(\sec x - \tan x) = 1
+\]
+
+substituting \(\sec x + \tan x = \frac{5}{2}\) into the equation:
+
+\[
+\left(\frac{5}{2}\right)(\sec x - \tan x) = 1
+\]
+
+solving for \(\sec x - \tan x\):
+
+\[
+\sec x - \tan x = \frac{1}{\frac{5}{2}} = \frac{2}{5}
+\]
+
+thus, the value of \(\sec x - \tan x\) is:
+
+\[
+\boxed{\frac{2}{5}}
+\]

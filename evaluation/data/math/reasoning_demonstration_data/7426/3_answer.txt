@@ -1,1 +1,45 @@
-Answer: 
+Answer: Given the equations:
+
+\[ x^3 - 3xy^2 = 2005 \]
+\[ y^3 - 3x^2 y = 2004 \]
+
+we set \( x = k y \) where \( k = \frac{x}{y} \). substituting \( x = k y \) into both equations, we get:
+
+\[ y^3 (k^3 - 3k) = 2005 \]
+\[ y^3 (1 - 3k^2) = 2004 \]
+
+solving for \( y^3 \) from the second equation:
+
+\[ y^3 = \frac{2004}{1 - 3k^2} \]
+
+substituting this into the first equation:
+
+\[ \frac{2004}{1 - 3k^2} (k^3 - 3k) = 2005 \]
+
+this simplifies to the cubic equation:
+
+\[ 2004 k^3 + 6015 k^2 - 6012 k - 2005 = 0 \]
+
+we need to find the product:
+
+\[ \left(1 - \frac{x_1}{y_1}\right)\left(1 - \frac{x_2}{y_2}\right)\left(1 - \frac{x_3}{y_3}\right) = (1 - k_1)(1 - k_2)(1 - k_3) \]
+
+using vieta's formulas for the roots \( k_1, k_2, k_3 \) of the cubic equation \( 2004 k^3 + 6015 k^2 - 6012 k - 2005 = 0 \):
+
+\[ k_1 + k_2 + k_3 = -\frac{6015}{2004} \]
+\[ k_1 k_2 + k_1 k_3 + k_2 k_3 = \frac{-6012}{2004} \]
+\[ k_1 k_2 k_3 = -\frac{-2005}{2004} \]
+
+the product is:
+
+\[ (1 - k_1)(1 - k_2)(1 - k_3) = 1 - (k_1 + k_2 + k_3) + (k_1 k_2 + k_1 k_3 + k_2 k_3) - k_1 k_2 k_3 \]
+
+substituting the values from vieta's formulas:
+
+\[ 1 + \frac{6015 - 6012 - 2005}{2004} = 1 + \frac{-2002}{2004} = 1 - \frac{2002}{2004} = \frac{2004 - 2002}{2004} = \frac{2}{2004} = \frac{1}{1002} \]
+
+thus, the final answer is:
+
+\[
+\boxed{\frac{1}{1002}}
+\]

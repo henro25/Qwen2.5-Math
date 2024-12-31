@@ -1,1 +1,23 @@
-Answer: 
+Answer: To determine the number of ways to distribute 5 indistinguishable balls into 2 distinguishable boxes, we can use the following reasoning:
+
+1. since the balls are indistinguishable, we only need to consider the number of balls in each box, not which specific balls are in which box.
+2. let \( a \) be the number of balls in box a and \( b \) be the number of balls in box b. we need to find all pairs \((a, b)\) such that \( a + b = 5 \) and both \( a \) and \( b \) are non-negative integers.
+3. the possible pairs \((a, b)\) are: \((0, 5), (1, 4), (2, 3), (3, 2), (4, 1), (5, 0)\), which gives us 6 possible distributions.
+
+using the combinatorial formula for distributing \( n \) indistinguishable objects into \( k \) distinguishable boxes, we have:
+
+\[
+\binom{n + k - 1}{k - 1}
+\]
+
+for \( n = 5 \) balls and \( k = 2 \) boxes:
+
+\[
+\binom{5 + 2 - 1}{2 - 1} = \binom{6}{1} = 6
+\]
+
+thus, the number of ways to distribute the 5 balls into 2 boxes is:
+
+\[
+\boxed{6}
+\]

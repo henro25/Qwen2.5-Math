@@ -1,1 +1,30 @@
-Answer: 
+Answer: To simplify the expression \(\frac{\cos x}{1 + \sin x} + \frac{1 + \sin x}{\cos x}\), we can follow these steps:
+
+1. find a common denominator for the two fractions:
+   \[
+   \frac{\cos x}{1 + \sin x} + \frac{1 + \sin x}{\cos x} = \frac{\cos^2 x + (1 + \sin x)^2}{(1 + \sin x)(\cos x)}
+   \]
+
+2. expand and simplify the numerator:
+   \[
+   \cos^2 x + (1 + \sin x)^2 = \cos^2 x + 1 + 2\sin x + \sin^2 x
+   \]
+   using the pythagorean identity \(\cos^2 x + \sin^2 x = 1\):
+   \[
+   1 + 1 + 2\sin x = 2 + 2\sin x
+   \]
+
+3. substitute back into the expression:
+   \[
+   \frac{2 + 2\sin x}{(1 + \sin x)(\cos x)} = \frac{2(1 + \sin x)}{(1 + \sin x)(\cos x)}
+   \]
+
+4. cancel the common factor \((1 + \sin x)\):
+   \[
+   \frac{2}{\cos x} = 2\sec x
+   \]
+
+thus, the simplified form of the given expression is:
+\[
+\boxed{2\sec x}
+\]

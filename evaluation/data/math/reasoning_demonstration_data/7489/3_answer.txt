@@ -1,1 +1,14 @@
-Answer: 
+Answer: To determine the number of ways to choose a starting lineup consisting of a quarterback, a running back, an offensive lineman, and a wide receiver from a football team of 10 members, where only 3 members can play offensive lineman, we can follow these steps:
+
+1. **choose the offensive lineman (ol):** there are 3 choices for this position.
+2. **choose the quarterback (qb):** after choosing the ol, there are 9 remaining players to choose from for the qb.
+3. **choose the running back (rb):** after choosing the ol and qb, there are 8 remaining players to choose from for the rb.
+4. **choose the wide receiver (wr):** after choosing the ol, qb, and rb, there are 7 remaining players to choose from for the wr.
+
+thus, the total number of ways to choose the starting lineup is calculated by multiplying the number of choices for each position:
+
+\[
+3 \times 9 \times 8 \times 7 = 1512
+\]
+
+therefore, the number of ways to choose the starting lineup is \(\boxed{1512}\).

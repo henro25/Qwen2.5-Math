@@ -1,1 +1,1018 @@
-Reasoning: 
+Reasoning: So i have this problem: for 
+−
+25
+≤
+x
+≤
+25
+−25≤x≤25, find the maximum value of 
+25
++
+x
++
+25
+−
+x
+25+x
+​	
+ + 
+25−x
+​	
+ . hmm, interesting. i need to find the maximum value of this expression within the given range for 
+x
+x.
+
+first, i should probably understand the expression better. it’s the sum of two square roots: one involving 
+25
++
+x
+25+x and the other 
+25
+−
+x
+25−x. since 
+x
+x is between -25 and 25, both 
+25
++
+x
+25+x and 
+25
+−
+x
+25−x will be non-negative, which means the square roots are real numbers. that’s good because i don’t have to worry about imaginary numbers here.
+
+maybe i can simplify the expression or find a way to maximize it. one approach that comes to mind is to consider the function 
+f
+(
+x
+)
+=
+25
++
+x
++
+25
+−
+x
+f(x)= 
+25+x
+​	
+ + 
+25−x
+​	
+  and find its maximum value over the interval 
+[
+−
+25
+,
+25
+]
+[−25,25].
+
+to find the maximum of a function on a closed interval, i can use calculus: find the critical points by taking the derivative and setting it to zero, then evaluate the function at those points and at the endpoints of the interval.
+
+alright, let’s try that. first, find 
+f
+′
+(
+x
+)
+f 
+′
+ (x).
+
+f
+(
+x
+)
+=
+25
++
+x
++
+25
+−
+x
+f(x)= 
+25+x
+​	
+ + 
+25−x
+​	
+ 
+
+the derivative of 
+25
++
+x
+25+x
+​	
+  with respect to 
+x
+x is 
+1
+2
+25
++
+x
+2 
+25+x
+​	
+ 
+1
+​	
+ , and the derivative of 
+25
+−
+x
+25−x
+​	
+  is 
+−
+1
+2
+25
+−
+x
+2 
+25−x
+​	
+ 
+−1
+​	
+ .
+
+so,
+
+f
+′
+(
+x
+)
+=
+1
+2
+25
++
+x
+−
+1
+2
+25
+−
+x
+f 
+′
+ (x)= 
+2 
+25+x
+​	
+ 
+1
+​	
+ − 
+2 
+25−x
+​	
+ 
+1
+​	
+ 
+
+set 
+f
+′
+(
+x
+)
+=
+0
+f 
+′
+ (x)=0 to find critical points:
+
+1
+2
+25
++
+x
+−
+1
+2
+25
+−
+x
+=
+0
+2 
+25+x
+​	
+ 
+1
+​	
+ − 
+2 
+25−x
+​	
+ 
+1
+​	
+ =0
+
+simplify:
+
+1
+25
++
+x
+=
+1
+25
+−
+x
+25+x
+​	
+ 
+1
+​	
+ = 
+25−x
+​	
+ 
+1
+​	
+ 
+
+which implies:
+
+25
++
+x
+=
+25
+−
+x
+25+x
+​	
+ = 
+25−x
+​	
+ 
+
+square both sides:
+
+25
++
+x
+=
+25
+−
+x
+25+x=25−x
+
+simplify:
+
+x
+=
+−
+x
+x=−x
+
+which means 
+x
+=
+0
+x=0
+
+so, the only critical point in the interval is at 
+x
+=
+0
+x=0.
+
+now, evaluate 
+f
+(
+x
+)
+f(x) at 
+x
+=
+0
+x=0, 
+x
+=
+−
+25
+x=−25, and 
+x
+=
+25
+x=25:
+
+first, at 
+x
+=
+0
+x=0:
+
+f
+(
+0
+)
+=
+25
++
+0
++
+25
+−
+0
+=
+25
++
+25
+=
+5
++
+5
+=
+10
+f(0)= 
+25+0
+​	
+ + 
+25−0
+​	
+ = 
+25
+​	
+ + 
+25
+​	
+ =5+5=10
+
+next, at 
+x
+=
+25
+x=25:
+
+f
+(
+25
+)
+=
+25
++
+25
++
+25
+−
+25
+=
+50
++
+0
+=
+50
++
+0
+=
+50
+f(25)= 
+25+25
+​	
+ + 
+25−25
+​	
+ = 
+50
+​	
+ + 
+0
+​	
+ = 
+50
+​	
+ +0= 
+50
+​	
+ 
+
+similarly, at 
+x
+=
+−
+25
+x=−25:
+
+f
+(
+−
+25
+)
+=
+25
+−
+25
++
+25
++
+25
+=
+0
++
+50
+=
+0
++
+50
+=
+50
+f(−25)= 
+25−25
+​	
+ + 
+25+25
+​	
+ = 
+0
+​	
+ + 
+50
+​	
+ =0+ 
+50
+​	
+ = 
+50
+​	
+ 
+
+now, compare these values:
+
+f
+(
+0
+)
+=
+10
+f(0)=10
+
+f
+(
+25
+)
+=
+50
+≈
+7.07
+f(25)= 
+50
+​	
+ ≈7.07
+
+f
+(
+−
+25
+)
+=
+50
+≈
+7.07
+f(−25)= 
+50
+​	
+ ≈7.07
+
+so, the maximum value is at 
+x
+=
+0
+x=0, and it's 10.
+
+wait a minute, that seems straightforward. but maybe there's another way to confirm this result. perhaps i can consider squaring the expression to make it easier to handle.
+
+let’s consider 
+f
+(
+x
+)
+=
+25
++
+x
++
+25
+−
+x
+f(x)= 
+25+x
+​	
+ + 
+25−x
+​	
+ . if i square both sides:
+
+f
+(
+x
+)
+2
+=
+(
+25
++
+x
++
+25
+−
+x
+)
+2
+f(x) 
+2
+ =( 
+25+x
+​	
+ + 
+25−x
+​	
+ ) 
+2
+ 
+
+expanding the right side:
+
+f
+(
+x
+)
+2
+=
+(
+25
++
+x
+)
++
+2
+(
+25
++
+x
+)
+(
+25
+−
+x
+)
++
+(
+25
+−
+x
+)
+f(x) 
+2
+ =(25+x)+2 
+(25+x)(25−x)
+​	
+ +(25−x)
+
+simplify:
+
+f
+(
+x
+)
+2
+=
+25
++
+x
++
+25
+−
+x
++
+2
+(
+25
+)
+2
+−
+x
+2
+f(x) 
+2
+ =25+x+25−x+2 
+(25) 
+2
+ −x 
+2
+ 
+​	
+ 
+
+which simplifies further to:
+
+f
+(
+x
+)
+2
+=
+50
++
+2
+625
+−
+x
+2
+f(x) 
+2
+ =50+2 
+625−x 
+2
+ 
+​	
+ 
+
+so, 
+f
+(
+x
+)
+2
+=
+50
++
+2
+625
+−
+x
+2
+f(x) 
+2
+ =50+2 
+625−x 
+2
+ 
+​	
+ 
+
+now, to maximize 
+f
+(
+x
+)
+f(x), i need to maximize 
+f
+(
+x
+)
+2
+f(x) 
+2
+ , since the square function is increasing for non-negative values.
+
+so, maximize 
+50
++
+2
+625
+−
+x
+2
+50+2 
+625−x 
+2
+ 
+​	
+ 
+
+the term 
+625
+−
+x
+2
+625−x 
+2
+  is maximized when 
+x
+2
+x 
+2
+  is minimized, which occurs at 
+x
+=
+0
+x=0.
+
+at 
+x
+=
+0
+x=0, 
+625
+−
+x
+2
+=
+625
+625−x 
+2
+ =625, so 
+625
+=
+25
+625
+​	
+ =25, and 
+2
+×
+25
+=
+50
+2×25=50, so 
+f
+(
+x
+)
+2
+=
+50
++
+50
+=
+100
+f(x) 
+2
+ =50+50=100, and 
+f
+(
+x
+)
+=
+10
+f(x)=10, which matches what i found earlier.
+
+alternatively, when 
+x
+=
+±
+25
+x=±25, 
+625
+−
+x
+2
+=
+625
+−
+625
+=
+0
+625−x 
+2
+ =625−625=0, so 
+0
+=
+0
+0
+​	
+ =0, and 
+f
+(
+x
+)
+2
+=
+50
++
+0
+=
+50
+f(x) 
+2
+ =50+0=50, so 
+f
+(
+x
+)
+=
+50
+f(x)= 
+50
+​	
+ , again matching previous calculations.
+
+therefore, the maximum value of 
+f
+(
+x
+)
+f(x) is indeed 10, achieved at 
+x
+=
+0
+x=0.
+
+another way to think about this is to consider the symmetry of the function. the expression 
+25
++
+x
++
+25
+−
+x
+25+x
+​	
+ + 
+25−x
+​	
+  is symmetric around 
+x
+=
+0
+x=0, meaning that it has the same value for 
+x
+x and 
+−
+x
+−x. this suggests that the maximum is likely at 
+x
+=
+0
+x=0.
+
+moreover, considering the behavior of the function, as 
+∣
+x
+∣
+∣x∣ increases from 0 to 25, one of the square roots increases while the other decreases, but the sum seems to decrease overall, which is consistent with the derivative approach and the earlier calculations.
+
+i could also consider plotting the function to visualize its behavior, but since i don't have graphing tools right now, i'll rely on the analytical methods.
+
+alternatively, i might think about whether there’s a trigonometric substitution that could simplify the expression, but given that the expression involves square roots of linear functions, maybe not necessary here.
+
+perhaps i can also consider the cauchy-schwarz inequality or other inequalities to bound the expression, but since i've already found the maximum via calculus and confirmed it through squaring the expression, it seems sufficient.
+
+wait, maybe i can try to use the am-qm inequality or something similar. let’s see.
+
+the arithmetic mean of 
+25
++
+x
+25+x
+​	
+  and 
+25
+−
+x
+25−x
+​	
+  is 
+25
++
+x
++
+25
+−
+x
+2
+2
+25+x
+​	
+ + 
+25−x
+​	
+ 
+​	
+ , and the quadratic mean is 
+25
++
+x
++
+25
+−
+x
+2
+=
+50
+2
+=
+25
+=
+5
+2
+25+x+25−x
+​	
+ 
+​	
+ = 
+2
+50
+​	
+ 
+​	
+ = 
+25
+​	
+ =5.
+
+by the am-qm inequality, 
+25
++
+x
++
+25
+−
+x
+2
+≤
+5
+2
+25+x
+​	
+ + 
+25−x
+​	
+ 
+​	
+ ≤5, which implies 
+25
++
+x
++
+25
+−
+x
+≤
+10
+25+x
+​	
+ + 
+25−x
+​	
+ ≤10, which matches the maximum value i found earlier.
+
+equality in am-qm occurs when 
+25
++
+x
+=
+25
+−
+x
+25+x
+​	
+ = 
+25−x
+​	
+ , which again happens at 
+x
+=
+0
+x=0. so this confirms that the maximum is indeed 10 at 
+x
+=
+0
+x=0.
+
+this seems pretty solid. i can’t think of any other methods that would give a different result, and all the approaches i’ve tried so far point to the same conclusion.
+
+therefore, the maximum value of 
+25
++
+x
++
+25
+−
+x
+25+x
+​	
+ + 
+25−x
+​	
+  for 
+−
+25
+≤
+x
+≤
+25
+−25≤x≤25 is 10, achieved when 
+x
+=
+0
+x=0.
+
+**final answer**
+
+10
+ 

@@ -1,1 +1,18 @@
-Reasoning: 
+Reasoning: Alright, so I've got this formula here: L equals 25 times T to the fourth power divided by H squared. And I need to find L when T is 4 and H is 8. Okay, let's see. First, I need to plug in the values of T and H into the formula. So, T is 4, H is 8.
+
+Let me write it down: L = (25 * (4)^4) / (8)^2.
+
+Now, I need to calculate 4 to the fourth power. I know that 4 squared is 16, and 4 cubed is 64, and 4 to the fourth is 256. So, 4^4 is 256.
+
+Next, 8 squared is 64. So, H squared is 64.
+
+Now, plug those back into the formula: L = (25 * 256) / 64.
+
+Let me calculate 25 times 256. Hmm, 25 times 200 is 5,000, and 25 times 56 is 1,400, so total is 6,400.
+
+So, L = 6,400 / 64.
+
+Now, I need to divide 6,400 by 64. Let's see, 64 times 100 is 6,400, so 6,400 divided by 64 is 100.
+
+Wait, is that right? Let me double-check. 64 times 100 is indeed 6,400. Yeah, that seems correct.
+

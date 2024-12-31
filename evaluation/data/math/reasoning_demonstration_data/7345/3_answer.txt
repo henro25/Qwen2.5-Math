@@ -1,1 +1,80 @@
-Answer: 
+Answer: To find the area of the region enclosed by the graph of the equation \( x^2 - 14x + 3y + 70 = 21 + 11y - y^2 \) that lies below the line \( y = x - 3 \), we start by simplifying the given equation:
+
+\[
+x^2 - 14x + 3y + 70 = 21 + 11y - y^2
+\]
+
+rearranging terms:
+
+\[
+x^2 - 14x + y^2 - 8y + 49 = 0
+\]
+
+completing the square for both \( x \) and \( y \):
+
+\[
+(x - 7)^2 - 49 + (y - 4)^2 - 16 + 49 = 0
+\]
+
+simplifying:
+
+\[
+(x - 7)^2 + (y - 4)^2 = 16
+\]
+
+this represents a circle with center \((7, 4)\) and radius 4.
+
+next, we find the intersection points of the line \( y = x - 3 \) with the circle:
+
+\[
+(x - 7)^2 + ((x - 3) - 4)^2 = 16
+\]
+
+simplifying:
+
+\[
+(x - 7)^2 + (x - 7)^2 = 16
+\]
+
+\[
+2(x - 7)^2 = 16
+\]
+
+\[
+(x - 7)^2 = 8
+\]
+
+\[
+x = 7 \pm 2\sqrt{2}
+\]
+
+corresponding \( y \) values:
+
+\[
+y = (7 + 2\sqrt{2}) - 3 = 4 + 2\sqrt{2}
+\]
+\[
+y = (7 - 2\sqrt{2}) - 3 = 4 - 2\sqrt{2}
+\]
+
+the points of intersection are \((7 + 2\sqrt{2}, 4 + 2\sqrt{2})\) and \((7 - 2\sqrt{2}, 4 - 2\sqrt{2})\).
+
+since the line \( y = x - 3 \) passes through the center of the circle, it divides the circle into two equal halves. therefore, the area below the line is half the area of the circle.
+
+the area of the circle is:
+
+\[
+\pi r^2 = \pi \times 4^2 = 16\pi
+\]
+
+thus, the area below the line is:
+
+\[
+\frac{16\pi}{2} = 8\pi
+\]
+
+the final answer is:
+
+\[
+\boxed{8\pi}
+\]

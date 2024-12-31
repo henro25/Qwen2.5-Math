@@ -1,1 +1,56 @@
-Reasoning: 
+Reasoning: So i've got this problem here. it says that there's a matrix a, and when it multiplies the vector [5; -2], it gives [-15; 6]. then, i need to find a raised to the fifth power times the same vector, a⁵ times [5; -2]. okay, let's see how to approach this.
+
+first, i need to understand what's going on here. i have a matrix a that, when multiplied by [5; -2], gives [-15; 6]. so, mathematically, that's:
+
+a * [5; -2] = [-15; 6]
+
+i need to find a⁵ * [5; -2]. hmm. that seems like it could be related to eigenvalues or eigenvectors, but i'm not sure yet.
+
+let me think about what it means for a matrix to act on a vector like this. if a * v = λv, then v is an eigenvector of a with eigenvalue λ. in that case, a⁵ * v would be λ⁵ * v, which would make things much simpler.
+
+so, is [5; -2] an eigenvector of a? well, if a * [5; -2] = [-15; 6], then let's see if [-15; 6] is a scalar multiple of [5; -2]. let's check:
+
+is there a scalar λ such that [-15; 6] = λ * [5; -2]?
+
+let's solve for λ:
+
+-15 = λ * 5 → λ = -3
+
+6 = λ * (-2) → λ = -3
+
+okay, so λ is -3 in both cases. that means [5; -2] is indeed an eigenvector of a with eigenvalue -3.
+
+great, so now that i know that [5; -2] is an eigenvector of a with eigenvalue -3, i can use the property that a⁵ * v = λ⁵ * v, where v is the eigenvector and λ is the eigenvalue.
+
+so, a⁵ * [5; -2] = (-3)⁵ * [5; -2]
+
+now, (-3)⁵ is (-3) multiplied by itself five times. let's calculate that:
+
+(-3)⁵ = -243
+
+so, a⁵ * [5; -2] = -243 * [5; -2] = [ -243*5 ; -243*(-2) ] = [ -1215 ; 486 ]
+
+therefore, the answer should be [ -1215; 486 ].
+
+wait, let me double-check that calculation to make sure i didn't make a mistake.
+
+first, (-3)⁵ = -243, that's correct because an odd power of a negative number is negative.
+
+then, -243 * 5 is indeed -1215.
+
+and -243 * (-2) is 486, since a negative times a negative is positive.
+
+looks good to me.
+
+so, the final answer is:
+
+a⁵ * [5; -2] = [ -1215; 486 ]
+
+**final answer**
+
+( 
+−1215
+486
+ )
+
+ 

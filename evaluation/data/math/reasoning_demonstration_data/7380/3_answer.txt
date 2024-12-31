@@ -1,1 +1,51 @@
-Answer: 
+Answer: To solve the problem, we start by placing the triangle \(abc\) with \(b\) at \((0,0)\), \(c\) at \((25,0)\), and finding the coordinates of \(a\). using the distance formula, we find:
+
+\[
+x^2 + y^2 = 144 \quad \text{and} \quad (x-25)^2 + y^2 = 289
+\]
+
+subtracting these equations:
+
+\[
+(x-25)^2 + y^2 - x^2 - y^2 = 289 - 144 \implies x^2 - 50x + 625 + y^2 - x^2 - y^2 = 145 \implies -50x + 625 = 145 \implies x = 9.6
+\]
+
+substituting \(x = 9.6\) back:
+
+\[
+(9.6)^2 + y^2 = 144 \implies 92.16 + y^2 = 144 \implies y^2 = 51.84 \implies y = 7.2
+\]
+
+thus, \(a\) is at \((9.6, 7.2)\).
+
+next, we consider the rectangle \(pqrs\) with \(p\) on \(ab\), \(q\) on \(ac\), and \(r, s\) on \(bc\). since \(pq\) is parallel to \(bc\), triangles \(apq\) and \(abc\) are similar. the height from \(a\) to \(pq\) is \(7.2 - h\), where \(h\) is the height of the rectangle.
+
+using the similarity ratio:
+
+\[
+\frac{\omega}{25} = \frac{7.2 - h}{7.2} \implies \omega = 25 \cdot \frac{7.2 - h}{7.2} \implies h = 7.2 - \frac{7.2}{25} \omega
+\]
+
+the area of the rectangle is:
+
+\[
+\text{area} = \omega \cdot h = \omega \left(7.2 - \frac{7.2}{25} \omega\right) = 7.2 \omega - \frac{7.2}{25} \omega^2
+\]
+
+thus, the coefficient \(\beta\) is:
+
+\[
+\beta = \frac{7.2}{25} = \frac{36}{125}
+\]
+
+since 36 and 125 are relatively prime, \(m = 36\) and \(n = 125\), giving:
+
+\[
+m + n = 36 + 125 = 161
+\]
+
+therefore, the final answer is:
+
+\[
+\boxed{161}
+\]

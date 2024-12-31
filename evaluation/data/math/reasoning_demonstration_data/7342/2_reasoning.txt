@@ -1,1 +1,94 @@
 Reasoning: 
+Alright, so I've got this problem here: "Eleven is the fifth prime number. What is the tenth prime number?" Okay, let's see. I know that prime numbers are numbers greater than 1 that have no positive divisors other than 1 and themselves. So, like 2, 3, 5, 7, 11, and so on.
+
+First, I need to confirm if eleven is indeed the fifth prime number. Let's list them out:
+
+1. 2 (the first prime)
+
+2. 3 (second)
+
+3. 5 (third)
+
+4. 7 (fourth)
+
+5. 11 (fifth)
+
+Wait a minute, what about 9? Is 9 a prime number? No, 9 is divisible by 3, so it's not prime. So, after 7, the next prime is 11. Okay, that checks out.
+
+Now, I need to find the tenth prime number. So, I need to list out the primes up to the tenth one.
+
+Starting from 11, the fifth prime, let's find the next five primes to get to the tenth.
+
+6th prime: 13 (it's only divisible by 1 and 13)
+
+7th prime: 17 (only divisible by 1 and 17)
+
+8th prime: 19 (only divisible by 1 and 19)
+
+9th prime: 23 (only divisible by 1 and 23)
+
+10th prime: 29 (only divisible by 1 and 29)
+
+So, the tenth prime number is 29.
+
+But wait, let me double-check to make sure I didn't skip any primes or include any non-primes.
+
+After 11, the next number is 12, which is divisible by 2, 3, 4, 6, so not prime.
+
+13 is prime.
+
+14 is not prime (divisible by 2 and 7).
+
+15 is not prime (divisible by 3 and 5).
+
+16 is not prime (divisible by 2, 4, 8).
+
+17 is prime.
+
+18 is not prime (divisible by 2, 3, 6, 9).
+
+19 is prime.
+
+20 is not prime (divisible by 2, 4, 5, 10).
+
+21 is not prime (divisible by 3 and 7).
+
+22 is not prime (divisible by 2 and 11).
+
+23 is prime.
+
+24 is not prime (divisible by 2, 3, 4, 6, 8, 12).
+
+25 is not prime (divisible by 5).
+
+26 is not prime (divisible by 2 and 13).
+
+27 is not prime (divisible by 3 and 9).
+
+28 is not prime (divisible by 2, 4, 7, 14).
+
+29 is prime.
+
+So, counting them again:
+
+1. 2
+
+2. 3
+
+3. 5
+
+4. 7
+
+5. 11
+
+6. 13
+
+7. 17
+
+8. 19
+
+9. 23
+
+10. 29
+
+Yes, that seems correct. The tenth prime number is 29.

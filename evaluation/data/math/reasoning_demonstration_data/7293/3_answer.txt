@@ -1,1 +1,31 @@
-Answer: 
+Answer: To find the minimum value of the quadratic function \( 5x^2 - 20x + 1357 \), we first determine the vertex of the parabola, as it opens upwards (since the coefficient of \( x^2 \) is positive).
+
+using the formula for the x-coordinate of the vertex, \( x = -\frac{b}{2a} \), where \( a = 5 \), \( b = -20 \), and \( c = 1357 \):
+
+\[
+x = -\frac{-20}{2 \times 5} = \frac{20}{10} = 2
+\]
+
+next, we substitute \( x = 2 \) back into the original equation to find the corresponding y-value:
+
+\[
+y = 5(2)^2 - 20(2) + 1357 = 5(4) - 40 + 1357 = 20 - 40 + 1357 = 1337
+\]
+
+to confirm, we complete the square for the quadratic expression:
+
+\[
+5x^2 - 20x + 1357 = 5(x^2 - 4x) + 1357
+\]
+
+completing the square inside the parentheses:
+
+\[
+5(x^2 - 4x + 4 - 4) + 1357 = 5((x - 2)^2 - 4) + 1357 = 5(x - 2)^2 - 20 + 1357 = 5(x - 2)^2 + 1337
+\]
+
+thus, the vertex form is \( 5(x - 2)^2 + 1337 \), and the minimum value occurs at \( x = 2 \), giving the minimum value of the function as:
+
+\[
+\boxed{1337}
+\]

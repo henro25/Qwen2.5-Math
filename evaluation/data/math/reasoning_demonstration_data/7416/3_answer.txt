@@ -1,1 +1,24 @@
-Answer: 
+Answer: 1. **Identify the given information:**
+   - Triangle ABC is isosceles with angle A congruent to angle B.
+   - Angle C is 30 degrees more than angle A.
+
+2. **Set up variables:**
+   - Let angle A = angle B = x degrees.
+   - Then, angle C = x + 30 degrees.
+
+3. **Use the triangle angle sum property:**
+   - The sum of the interior angles in a triangle is 180 degrees.
+   - Therefore, angle A + angle B + angle C = 180 degrees.
+
+4. **Substitute the variables into the equation:**
+   - x + x + (x + 30) = 180
+
+5. **Simplify and solve for x:**
+   - 3x + 30 = 180
+   - 3x = 150
+   - x = 50
+
+6. **Find the measure of angle C:**
+   - Angle C = x + 30 = 50 + 30 = 80 degrees.
+
+**Answer:** The measure of angle C is 80 degrees.

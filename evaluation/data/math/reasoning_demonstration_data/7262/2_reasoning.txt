@@ -1,1 +1,91 @@
-Reasoning: 
+Reasoning: So i've got this problem here: "a fair 6-sided die is rolled once. if i roll n, then i win $6 - n$ dollars. what is the expected value of my win, in dollars?" okay, let's try to break this down step by step.
+
+first, i need to understand what expected value means. from what i remember, the expected value is like the average outcome you'd expect if you did the experiment many times. so, in this case, if i rolled the die a bunch of times and calculated my winnings each time, the expected value would be the average of all those winnings.
+
+the die is fair, which means each face (1 through 6) has an equal probability of landing face up. so, the probability of rolling any particular number n is 1/6.
+
+now, the problem says that if i roll n, i win $6 - n$ dollars. so, for each possible outcome of the die roll, i can calculate the corresponding win.
+
+let me list out the possible outcomes and their associated winnings:
+
+- if i roll a 1, i win $6 - 1 = $5
+
+- if i roll a 2, i win $6 - 2 = $4
+
+- if i roll a 3, i win $6 - 3 = $3
+
+- if i roll a 4, i win $6 - 4 = $2
+
+- if i roll a 5, i win $6 - 5 = $1
+
+- if i roll a 6, i win $6 - 6 = $0
+
+so, my possible winnings are $5, $4, $3, $2, $1, and $0, corresponding to rolling a 1 through 6, respectively.
+
+to find the expected value, i need to multiply each possible win by its probability and then add all those up. since the die is fair, each outcome has a probability of 1/6.
+
+so, the expected value e is:
+
+e = (probability of rolling 1) * (win when rolling 1) + (probability of rolling 2) * (win when rolling 2) + ... + (probability of rolling 6) * (win when rolling 6)
+
+plugging in the numbers:
+
+e = (1/6)*5 + (1/6)*4 + (1/6)*3 + (1/6)*2 + (1/6)*1 + (1/6)*0
+
+now, i can factor out the 1/6 since it's common to all terms:
+
+e = (1/6)*(5 + 4 + 3 + 2 + 1 + 0)
+
+let me calculate the sum inside the parentheses:
+
+5 + 4 = 9
+
+9 + 3 = 12
+
+12 + 2 = 14
+
+14 + 1 = 15
+
+15 + 0 = 15
+
+so, e = (1/6)*15
+
+now, 15 divided by 6 is 2.5.
+
+so, the expected value is $2.50.
+
+wait a minute, does this make sense? let me double-check.
+
+alternatively, i know that the expected value of a discrete random variable is the sum of each outcome multiplied by its probability.
+
+in this case, the outcomes are the winnings: 5, 4, 3, 2, 1, 0, each with probability 1/6.
+
+adding them up: 5 + 4 + 3 + 2 + 1 + 0 = 15
+
+divide by 6: 15/6 = 2.5
+
+yes, that seems consistent.
+
+is there another way to think about this problem that might confirm my answer?
+
+well, the die is fair, so the average roll is (1+2+3+4+5+6)/6 = 21/6 = 3.5
+
+but in this problem, the win is $6 - n$, where n is the roll.
+
+so, the average win should be $6 - (average roll)
+
+since the average roll is 3.5, then the average win is 6 - 3.5 = 2.5
+
+yes, that matches my previous calculation.
+
+alternatively, i could think about the linearity of expectation. the expected value of 6 - n is 6 - e(n), where e(n) is the expected value of n.
+
+since e(n) is 3.5, then e(6 - n) = 6 - 3.5 = 2.5
+
+again, the same answer.
+
+okay, i feel confident that the expected value of my win is $2.50.
+
+**final answer**
+
+2.5

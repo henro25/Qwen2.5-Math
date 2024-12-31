@@ -1,1 +1,44 @@
-Answer: 
+Answer: Given \( a + b = 10 \) and \( ab = 17 \), we need to find the value of \( a^3 + b^3 \).
+
+first, we use the identity:
+\[
+(a + b)^3 = a^3 + b^3 + 3ab(a + b)
+\]
+substituting the given values:
+\[
+10^3 = a^3 + b^3 + 3 \cdot 17 \cdot 10
+\]
+\[
+1000 = a^3 + b^3 + 510
+\]
+solving for \( a^3 + b^3 \):
+\[
+a^3 + b^3 = 1000 - 510 = 490
+\]
+
+to verify, we use the sum of cubes formula:
+\[
+a^3 + b^3 = (a + b)(a^2 - ab + b^2)
+\]
+first, find \( a^2 + b^2 \) using:
+\[
+(a + b)^2 = a^2 + 2ab + b^2
+\]
+\[
+10^2 = a^2 + 2 \cdot 17 + b^2
+\]
+\[
+100 = a^2 + 34 + b^2
+\]
+\[
+a^2 + b^2 = 100 - 34 = 66
+\]
+now, substitute back:
+\[
+a^3 + b^3 = (10)(66 - 17) = 10 \times 49 = 490
+\]
+
+thus, the value of \( a^3 + b^3 \) is:
+\[
+\boxed{490}
+\]

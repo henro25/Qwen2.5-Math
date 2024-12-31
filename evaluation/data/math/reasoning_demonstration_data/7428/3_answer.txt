@@ -1,1 +1,50 @@
-Answer: 
+Answer: First, we define the function \( f(n) \) based on the rules provided:
+
+\[
+f(n) = \left\{
+\begin{array}{cl}
+6 & \text{if } n \text{ is a multiple of both 2 and 3}, \\
+2 & \text{if } n \text{ is only a multiple of 2}, \\
+0 & \text{if } n \text{ is not a multiple of 2}.
+\end{array}
+\right.
+\]
+
+next, we calculate the points for each roll:
+
+for allie's rolls (5, 4, 1, 2):
+\[
+\begin{aligned}
+f(5) &= 0, \\
+f(4) &= 2, \\
+f(1) &= 0, \\
+f(2) &= 2.
+\end{aligned}
+\]
+total points for allie:
+\[
+0 + 2 + 0 + 2 = 4.
+\]
+
+for betty's rolls (6, 3, 3, 2):
+\[
+\begin{aligned}
+f(6) &= 6, \\
+f(3) &= 0, \\
+f(3) &= 0, \\
+f(2) &= 2.
+\end{aligned}
+\]
+total points for betty:
+\[
+6 + 0 + 0 + 2 = 8.
+\]
+
+finally, the product of allie's total points and betty's total points is:
+\[
+4 \times 8 = 32.
+\]
+
+\[
+\boxed{32}
+\]

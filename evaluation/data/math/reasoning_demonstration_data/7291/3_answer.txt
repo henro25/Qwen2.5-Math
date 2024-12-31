@@ -1,1 +1,30 @@
-Answer: 
+Answer: 1. **Identify the relationship:**
+   - Mickey's age is 4 years less than 300% of Jerry's age.
+   - 300% of Jerry's age is equivalent to 3 times Jerry's age.
+
+2. **Set up the equation:**
+   - Let Jerry's age be \( J \).
+   - Mickey's age = \( 3J - 4 \).
+   - Given Mickey is 14 years old:
+     \[
+     14 = 3J - 4
+     \]
+
+3. **Solve for \( J \):**
+   - Add 4 to both sides:
+     \[
+     14 + 4 = 3J
+     \]
+     \[
+     18 = 3J
+     \]
+   - Divide both sides by 3:
+     \[
+     J = \frac{18}{3} = 6
+     \]
+
+4. **Verification:**
+   - 300% of 6 is \( 3 \times 6 = 18 \).
+   - 18 minus 4 equals 14, which matches Mickey's age.
+
+**Answer:** Jerry is 6 years old.

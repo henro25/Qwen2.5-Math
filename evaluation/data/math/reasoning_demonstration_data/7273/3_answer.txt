@@ -1,1 +1,38 @@
-Answer: 
+Answer: Given the equation \(\cos(2a - b) + \sin(a + b) = 2\) and \(ab = 4\), we need to find the length of \(bc\).
+
+first, we recognize that the maximum value of both \(\cos\) and \(\sin\) functions is 1. therefore, for their sum to be 2, both \(\cos(2a - b)\) and \(\sin(a + b)\) must each be equal to 1.
+
+1. \(\cos(2a - b) = 1\)
+2. \(\sin(a + b) = 1\)
+
+from \(\sin(a + b) = 1\), we have:
+\[ a + b = 90^\circ \]
+
+using the angle sum property of a triangle \(a + b + c = 180^\circ\), we find:
+\[ c = 180^\circ - (a + b) = 180^\circ - 90^\circ = 90^\circ \]
+
+thus, triangle \(abc\) is a right-angled triangle at \(c\).
+
+next, from \(\cos(2a - b) = 1\), we have:
+\[ 2a - b = 0^\circ \]
+\[ 2a = b \]
+
+substituting \(b = 2a\) into \(a + b = 90^\circ\):
+\[ a + 2a = 90^\circ \]
+\[ 3a = 90^\circ \]
+\[ a = 30^\circ \]
+\[ b = 2a = 60^\circ \]
+
+therefore, the angles are \(a = 30^\circ\), \(b = 60^\circ\), and \(c = 90^\circ\), forming a 30-60-90 triangle.
+
+in a 30-60-90 triangle, the sides are in the ratio \(1 : \sqrt{3} : 2\). given that \(ab = 4\) (the hypotenuse), we have:
+\[ 2x = 4 \]
+\[ x = 2 \]
+
+thus, the side opposite the 30° angle (which is \(bc\)) is:
+\[ bc = x = 2 \]
+
+therefore, the length of \(bc\) is:
+\[
+\boxed{2}
+\]

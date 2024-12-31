@@ -1,1 +1,53 @@
-Answer: 
+Answer: To find the value of \( a \) that makes the piecewise function \( f(x) \) continuous at \( x = 3 \), we need to ensure that the function meets the conditions of continuity at that point.
+
+the function is defined as:
+\[
+f(x) =
+\begin{cases}
+3x^2 + 2 & \text{if } x \le 3, \\
+ax - 1 & \text{if } x > 3.
+\end{cases}
+\]
+
+**first condition: \( f(3) \) is defined.**
+
+for \( x = 3 \), we use the first part of the piecewise function:
+\[
+f(3) = 3(3)^2 + 2 = 27 + 2 = 29.
+\]
+
+**second condition: the limit of \( f(x) \) as \( x \) approaches 3 exists.**
+
+we need to check both the left-hand limit and the right-hand limit.
+
+left-hand limit:
+\[
+\lim_{x \to 3^-} f(x) = 3(3)^2 + 2 = 29.
+\]
+
+right-hand limit:
+\[
+\lim_{x \to 3^+} f(x) = a(3) - 1 = 3a - 1.
+\]
+
+for the limit to exist at \( x = 3 \), the left-hand limit must equal the right-hand limit:
+\[
+29 = 3a - 1.
+\]
+
+**third condition: the limit as \( x \) approaches 3 equals \( f(3) \).**
+
+we set the right-hand limit equal to \( f(3) \):
+\[
+3a - 1 = 29.
+\]
+
+solving for \( a \):
+\[
+3a = 30 \implies a = 10.
+\]
+
+thus, the value of \( a \) that makes the function continuous at \( x = 3 \) is:
+\[
+\boxed{10}
+\]

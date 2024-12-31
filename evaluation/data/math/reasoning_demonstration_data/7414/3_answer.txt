@@ -1,1 +1,63 @@
-Answer: 
+Answer: Given the equation:
+
+\[
+\frac{ \left( \frac{1}{2} \right)^2 + \left( \frac{1}{3} \right)^2 }{ \left( \frac{1}{4} \right)^2 + \left( \frac{1}{5} \right)^2 } = \frac{13x}{41y}
+\]
+
+first, we simplify the left side:
+
+\[
+\left( \frac{1}{2} \right)^2 = \frac{1}{4}, \quad \left( \frac{1}{3} \right)^2 = \frac{1}{9}
+\]
+\[
+\frac{1}{4} + \frac{1}{9} = \frac{9}{36} + \frac{4}{36} = \frac{13}{36}
+\]
+
+\[
+\left( \frac{1}{4} \right)^2 = \frac{1}{16}, \quad \left( \frac{1}{5} \right)^2 = \frac{1}{25}
+\]
+\[
+\frac{1}{16} + \frac{1}{25} = \frac{25}{400} + \frac{16}{400} = \frac{41}{400}
+\]
+
+thus, the left side becomes:
+
+\[
+\frac{ \frac{13}{36} }{ \frac{41}{400} } = \frac{13}{36} \times \frac{400}{41} = \frac{13 \times 400}{36 \times 41} = \frac{5200}{1476}
+\]
+
+simplifying \(\frac{5200}{1476}\):
+
+\[
+\frac{5200 \div 4}{1476 \div 4} = \frac{1300}{369}
+\]
+
+setting this equal to \(\frac{13x}{41y}\):
+
+\[
+\frac{1300}{369} = \frac{13x}{41y}
+\]
+
+cross-multiplying:
+
+\[
+1300 \times 41y = 13x \times 369
+\]
+\[
+53300y = 4797x
+\]
+\[
+x = \frac{53300}{4797} y = \frac{100}{9} y
+\]
+
+thus:
+
+\[
+\frac{\sqrt{x}}{\sqrt{y}} = \sqrt{\frac{x}{y}} = \sqrt{\frac{100}{9}} = \frac{10}{3}
+\]
+
+therefore, the final answer is:
+
+\[
+\boxed{\frac{10}{3}}
+\]

@@ -1,1 +1,21 @@
-Answer: 
+Answer: First, we consider the original setup of the tripod with three legs each of length 5 feet and the top of the tripod 4 feet from the ground. the base points a, b, and c form an equilateral triangle on the ground, with each side of the triangle being \(3\sqrt{3}\) feet.
+
+when one leg breaks off at the lower 1 foot, the new length of that leg is 4 feet. we need to find the new height \(h\) of the top of the tripod from the ground.
+
+we place the top of the tripod at \(t(0,0,k)\) and the base points at \(a'(x,y,0)\), \(b(-\frac{3}{2}, \frac{3\sqrt{3}}{2}, 0)\), and \(c(-\frac{3}{2}, -\frac{3\sqrt{3}}{2}, 0)\).
+
+using the distance formula, we have:
+\[
+\sqrt{x^2 + y^2 + k^2} = 4 \implies x^2 + y^2 + k^2 = 16
+\]
+\[
+\sqrt{\left(-\frac{3}{2}\right)^2 + \left(\frac{3\sqrt{3}}{2}\right)^2 + k^2} = 5 \implies \frac{9}{4} + \frac{27}{4} + k^2 = 25 \implies 9 + k^2 = 25 \implies k^2 = 16 \implies k = 4
+\]
+
+thus, the new height \(h\) of the top of the tripod from the ground is 4 feet. this can be written as \(\frac{4}{\sqrt{1}}\), where \(m = 4\) and \(n = 1\).
+
+finally, we find:
+\[
+\</think>
+
+\boxed{5}

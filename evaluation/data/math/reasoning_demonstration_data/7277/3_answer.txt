@@ -1,1 +1,41 @@
-Answer: 
+Answer: To compute \(\begin{pmatrix} 1 & -1 \\ 1 & 0 \end{pmatrix}^3\), we first find \(a^2\) and then use it to find \(a^3\).
+
+given:
+\[ a = \begin{pmatrix} 1 & -1 \\ 1 & 0 \end{pmatrix} \]
+
+first, compute \(a^2\):
+\[ a^2 = a \times a = \begin{pmatrix} 1 & -1 \\ 1 & 0 \end{pmatrix} \times \begin{pmatrix} 1 & -1 \\ 1 & 0 \end{pmatrix} \]
+
+calculate each element of \(a^2\):
+\[
+\begin{aligned}
+&\text{first row, first column:} \quad 1 \cdot 1 + (-1) \cdot 1 = 1 - 1 = 0, \\
+&\text{first row, second column:} \quad 1 \cdot (-1) + (-1) \cdot 0 = -1 + 0 = -1, \\
+&\text{second row, first column:} \quad 1 \cdot 1 + 0 \cdot 1 = 1 + 0 = 1, \\
+&\text{second row, second column:} \quad 1 \cdot (-1) + 0 \cdot 0 = -1 + 0 = -1.
+\end{aligned}
+\]
+
+thus,
+\[ a^2 = \begin{pmatrix} 0 & -1 \\ 1 & -1 \end{pmatrix} \]
+
+next, compute \(a^3\):
+\[ a^3 = a^2 \times a = \begin{pmatrix} 0 & -1 \\ 1 & -1 \end{pmatrix} \times \begin{pmatrix} 1 & -1 \\ 1 & 0 \end{pmatrix} \]
+
+calculate each element of \(a^3\):
+\[
+\begin{aligned}
+&\text{first row, first column:} \quad 0 \cdot 1 + (-1) \cdot 1 = 0 - 1 = -1, \\
+&\text{first row, second column:} \quad 0 \cdot (-1) + (-1) \cdot 0 = 0 + 0 = 0, \\
+&\text{second row, first column:} \quad 1 \cdot 1 + (-1) \cdot 1 = 1 - 1 = 0, \\
+&\text{second row, second column:} \quad 1 \cdot (-1) + (-1) \cdot 0 = -1 + 0 = -1.
+\end{aligned}
+\]
+
+thus,
+\[ a^3 = \begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix} \]
+
+therefore, the final answer is:
+\[
+\boxed{\begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix}}
+\]

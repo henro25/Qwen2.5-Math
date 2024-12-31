@@ -1,1 +1,21 @@
-Answer: 
+Answer: Given that the norm of vector \(\mathbf{v}\), denoted as \(\|\mathbf{v}\|\), is 4, we need to find \(\mathbf{v} \cdot \mathbf{v}\).
+
+we know that the norm of a vector is related to its dot product with itself by the formula:
+\[
+\|\mathbf{v}\|^2 = \mathbf{v} \cdot \mathbf{v}
+\]
+
+given \(\|\mathbf{v}\| = 4\), we can square both sides to get:
+\[
+\|\mathbf{v}\|^2 = 4^2 = 16
+\]
+
+therefore, we have:
+\[
+\mathbf{v} \cdot \mathbf{v} = 16
+\]
+
+thus, the final answer is:
+\[
+\boxed{16}
+\]

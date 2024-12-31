@@ -1,1 +1,72 @@
-Reasoning: 
+Reasoning: So i've got this problem here: there's a planning committee with 10 members, and exactly four of them are teachers. i need to form a four-person subcommittee, and it has to have at least one teacher. the question is asking for the number of distinct subcommittees possible under these conditions.
+
+first, i need to understand what "distinct subcommittees" means. i think it means that the order in which we select the members doesn't matter; it's just about who is in the subcommittee, not the order they're listed in. so, this sounds like a combination problem.
+
+the total number of ways to choose any four members from the 10, without any restrictions, would be the combination of 10 choose 4, which is written as c(10,4). i know that the formula for combinations is c(n,k) = n! / (k!(n-k)!), where "n!" means n factorial, which is the product of all positive integers up to n.
+
+so, c(10,4) = 10! / (4! * (10-4)!) = 10! / (4! * 6!) = (10*9*8*7) / (4*3*2*1) = 210.
+
+but wait, the problem says there must be at least one teacher in the subcommittee. so, if i just calculate c(10,4), that includes all possible four-member groups, some of which might have no teachers at all. i need to exclude those subcommittees that have no teachers.
+
+so, how many subcommittees have no teachers? well, there are 10 members total, and 4 are teachers, which means there are 10 - 4 = 6 non-teachers.
+
+so, the number of ways to choose a four-person subcommittee with no teachers would be c(6,4), because i'm choosing all four members from the 6 non-teachers.
+
+calculating c(6,4): 6! / (4! * (6-4)!) = 6! / (4! * 2!) = (6*5) / (2*1) = 15.
+
+therefore, the number of subcommittees with at least one teacher would be the total number of subcommittees minus the number of subcommittees with no teachers.
+
+so, that would be 210 (total) - 15 (no teachers) = 195.
+
+therefore, there are 195 distinct subcommittees possible that include at least one teacher.
+
+wait a minute, is there another way to approach this? maybe directly calculating the number of subcommittees with at least one teacher instead of subtracting the ones with no teachers from the total.
+
+let's try that. if i want at least one teacher, that means the subcommittee could have 1, 2, 3, or 4 teachers.
+
+so, i can calculate the number of subcommittees with exactly one teacher, plus exactly two teachers, plus exactly three teachers, plus exactly four teachers.
+
+first, exactly one teacher: that would be choosing 1 teacher from 4 and 3 non-teachers from 6.
+
+so, c(4,1) * c(6,3).
+
+c(4,1) is 4.
+
+c(6,3) is 6! / (3! * 3!) = (6*5*4)/(3*2*1) = 20.
+
+so, 4 * 20 = 80.
+
+next, exactly two teachers: c(4,2) * c(6,2).
+
+c(4,2) = 6.
+
+c(6,2) = 15.
+
+so, 6 * 15 = 90.
+
+then, exactly three teachers: c(4,3) * c(6,1).
+
+c(4,3) = 4.
+
+c(6,1) = 6.
+
+so, 4 * 6 = 24.
+
+finally, exactly four teachers: c(4,4) * c(6,0).
+
+c(4,4) = 1.
+
+c(6,0) = 1.
+
+so, 1 * 1 = 1.
+
+now, adding them all up: 80 + 90 + 24 + 1 = 195.
+
+okay, so i get the same answer as before, which is reassuring. it looks like 195 is the correct number of distinct subcommittees that include at least one teacher.
+
+i think this makes sense. both approaches led me to the same result, so i'm confident that 195 is the right answer.
+
+**final answer**
+
+195
+ 

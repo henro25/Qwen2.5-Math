@@ -1,1 +1,26 @@
-Answer: 
+Answer: To find \( f(f(f(2))) \), we start by evaluating the function \( f \) at each step based on the given piecewise definition:
+
+\[ f(x) = \begin{cases} 
+\sqrt{x} & \text{if } x > 4, \\
+x^2 & \text{if } x \leq 4.
+\end{cases} \]
+
+1. first, we find \( f(2) \):
+   \[
+   2 \leq 4 \implies f(2) = 2^2 = 4.
+   \]
+
+2. next, we find \( f(f(2)) = f(4) \):
+   \[
+   4 \leq 4 \implies f(4) = 4^2 = 16.
+   \]
+
+3. finally, we find \( f(f(f(2))) = f(16) \):
+   \[
+   16 > 4 \implies f(16) = \sqrt{16} = 4.
+   \]
+
+thus, the final answer is:
+\[
+\boxed{4}
+\]

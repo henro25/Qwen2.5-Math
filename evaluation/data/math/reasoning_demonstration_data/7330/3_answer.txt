@@ -1,1 +1,73 @@
-Answer: 
+Answer: Given the equations:
+
+\[
+x_1 + x_2 + \dots + x_n = 1000
+\]
+
+\[
+x_1^4 + x_2^4 + \dots + x_n^4 = 512000
+\]
+
+we need to find the smallest positive integer \( n \) for which this is possible.
+
+first, we use the power mean inequality, which states that for \( r > s \):
+
+\[
+\left( \frac{1}{n} \sum_{i=1}^n x_i^r \right)^{1/r} \geq \left( \frac{1}{n} \sum_{i=1}^n x_i^s \right)^{1/s}
+\]
+
+applying this to our problem with \( r = 4 \) and \( s = 1 \):
+
+\[
+\left( \frac{1}{n} \sum_{i=1}^n x_i^4 \right)^{1/4} \geq \left( \frac{1}{n} \sum_{i=1}^n x_i \right)
+\]
+
+substituting the given sums:
+
+\[
+\left( \frac{512000}{n} \right)^{1/4} \geq \frac{1000}{n}
+\]
+
+raising both sides to the 4th power:
+
+\[
+\frac{512000}{n} \geq \left( \frac{1000}{n} \right)^4
+\]
+
+simplifying:
+
+\[
+512000 n^3 \geq 1000^4
+\]
+
+\[
+512000 n^3 \geq 10^{12}
+\]
+
+\[
+n^3 \geq \frac{10^{12}}{512000}
+\]
+
+\[
+n^3 \geq 5^9
+\]
+
+\[
+n \geq 125
+\]
+
+to confirm, if \( n = 125 \), let \( x_i = 8 \) for all \( i \):
+
+\[
+\sum_{i=1}^{125} x_i = 125 \times 8 = 1000
+\]
+
+\[
+\sum_{i=1}^{125} x_i^4 = 125 \times 8^4 = 125 \times 4096 = 512000
+\]
+
+thus, the smallest positive integer \( n \) is:
+
+\[
+\boxed{125}
+\]

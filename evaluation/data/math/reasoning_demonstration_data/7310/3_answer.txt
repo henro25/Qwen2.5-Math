@@ -1,1 +1,49 @@
-Answer: 
+Answer: To find the maximum value of the expression
+
+\[
+\cos \theta_1 \sin \theta_2 + \cos \theta_2 \sin \theta_3 + \cos \theta_3 \sin \theta_4 + \cos \theta_4 \sin \theta_5 + \cos \theta_5 \sin \theta_1,
+\]
+
+we consider using the cauchy-schwarz inequality. we define two vectors:
+
+\[
+\mathbf{a} = (\cos \theta_1, \cos \theta_2, \cos \theta_3, \cos \theta_4, \cos \theta_5)
+\]
+\[
+\mathbf{b} = (\sin \theta_2, \sin \theta_3, \sin \theta_4, \sin \theta_5, \sin \theta_1)
+\]
+
+the expression can be written as the dot product of these vectors:
+
+\[
+s = \mathbf{a} \cdot \mathbf{b}
+\]
+
+by the cauchy-schwarz inequality:
+
+\[
+s \leq \|\mathbf{a}\| \cdot \|\mathbf{b}\|
+\]
+
+where:
+
+\[
+\|\mathbf{a}\| = \sqrt{ \cos^2 \theta_1 + \cos^2 \theta_2 + \cos^2 \theta_3 + \cos^2 \theta_4 + \cos^2 \theta_5 }
+\]
+\[
+\|\mathbf{b}\| = \sqrt{ \sin^2 \theta_2 + \sin^2 \theta_3 + \sin^2 \theta_4 + \sin^2 \theta_5 + \sin^2 \theta_1 }
+\]
+
+we know that:
+
+\[
+\|\mathbf{a}\|^2 + \|\mathbf{b}\|^2 = (\cos^2 \theta_1 + \cos^2 \theta_2 + \cos^2 \theta_3 + \cos^2 \theta_4 + \cos^2 \theta_5) + (\sin^2 \theta_1 + \sin^2 \theta_2 + \sin^2 \theta_3 + \sin^2 \theta_4 + \sin^2 \theta_5) = 5
+\]
+
+thus, let \( a = \|\mathbf{a}\| \) and \( b = \|\mathbf{b}\| \), then \( a^2 + b^2 = 5 \). by the am-qm inequality, the product \( a b \) is maximized when \( a = b = \sqrt{\frac{5}{2}} \), giving \( a b = \frac{5}{2} \).
+
+therefore, the maximum value of the given expression is:
+
+\[
+\boxed{\frac{5}{2}}
+\]

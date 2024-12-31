@@ -1,1 +1,41 @@
-Answer: 
+Answer: To find \( f^{-1}(7) + f^{-1}(46) \) for the function \( f(x) \) defined piecewise, we need to determine the values of \( x \) such that \( f(x) = 7 \) and \( f(x) = 46 \).
+
+the function is:
+\[
+f(x) = 
+\begin{cases} 
+x + 3 & \text{if } x < 20, \\
+2x - 2 & \text{if } x \ge 20.
+\end{cases}
+\]
+
+first, find \( f^{-1}(7) \):
+
+1. consider \( x < 20 \):
+   \[
+   x + 3 = 7 \implies x = 7 - 3 = 4
+   \]
+   since \( 4 < 20 \), this is valid. thus, \( f^{-1}(7) = 4 \).
+
+next, find \( f^{-1}(46) \):
+
+1. consider \( x < 20 \):
+   \[
+   x + 3 = 46 \implies x = 46 - 3 = 43
+   \]
+   since \( 43 \ge 20 \), this is invalid.
+
+2. consider \( x \ge 20 \):
+   \[
+   2x - 2 = 46 \implies 2x = 46 + 2 = 48 \implies x = 24
+   \]
+   since \( 24 \ge 20 \), this is valid. thus, \( f^{-1}(46) = 24 \).
+
+finally, add the results:
+\[
+f^{-1}(7) + f^{-1}(46) = 4 + 24 = 28
+\]
+
+\[
+\boxed{28}
+\]

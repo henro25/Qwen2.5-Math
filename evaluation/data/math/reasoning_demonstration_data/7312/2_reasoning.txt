@@ -1,1 +1,258 @@
-Reasoning: 
+Reasoning: Let's tackle this problem step by step. so, we have two squares, and the ratio of their areas is 32 over 63. we need to find the ratio of their side lengths, rationalize the denominator, and express it in the form a times the square root of b over c, where a, b, and c are integers. then, we have to find the sum of a, b, and c.
+
+first, i recall that the area of a square is side length squared. so, if i have two squares with side lengths, let's say, s and t, then their areas would be s² and t², respectively.
+
+given that the ratio of their areas is 32 over 63, i can write:
+
+s
+2
+t
+2
+=
+32
+63
+t 
+2
+ 
+s 
+2
+ 
+​	
+ = 
+63
+32
+​	
+ 
+i need to find the ratio of their side lengths, which is s over t. so, if i take the square root of both sides of the equation, i should be able to find s/t.
+
+let me do that:
+
+s
+t
+=
+32
+63
+t
+s
+​	
+ = 
+63
+32
+​	
+ 
+​	
+ 
+now, i need to simplify this square root expression. to do that, i can separate the square root of the numerator and the denominator:
+
+32
+63
+=
+32
+63
+63
+32
+​	
+ 
+​	
+ = 
+63
+​	
+ 
+32
+​	
+ 
+​	
+ 
+next, i should simplify the square roots of 32 and 63 individually.
+
+starting with 32:
+
+32 can be factored into 16 times 2, and since 16 is a perfect square, its square root is 4.
+
+so,
+
+32
+=
+16
+×
+2
+=
+16
+×
+2
+=
+4
+2
+32
+​	
+ = 
+16×2
+​	
+ = 
+16
+​	
+ × 
+2
+​	
+ =4 
+2
+​	
+ 
+now, for 63:
+
+63 can be factored into 9 times 7, and 9 is a perfect square with a square root of 3.
+
+so,
+
+63
+=
+9
+×
+7
+=
+9
+×
+7
+=
+3
+7
+63
+​	
+ = 
+9×7
+​	
+ = 
+9
+​	
+ × 
+7
+​	
+ =3 
+7
+​	
+ 
+now, plugging these back into the ratio:
+
+s
+t
+=
+4
+2
+3
+7
+t
+s
+​	
+ = 
+3 
+7
+​	
+ 
+4 
+2
+​	
+ 
+​	
+ 
+but the problem says to rationalize the denominator. that means i need to eliminate the square root in the denominator. to do that, i can multiply both the numerator and the denominator by the square root of 7.
+
+let's do that:
+
+4
+2
+3
+7
+×
+7
+7
+=
+4
+2
+×
+7
+3
+×
+7
+=
+4
+14
+21
+3 
+7
+​	
+ 
+4 
+2
+​	
+ 
+​	
+ × 
+7
+​	
+ 
+7
+​	
+ 
+​	
+ = 
+3×7
+4 
+2
+​	
+ × 
+7
+​	
+ 
+​	
+ = 
+21
+4 
+14
+​	
+ 
+​	
+ 
+so, the ratio of the side lengths is 4 times the square root of 14 over 21.
+
+now, the problem asks for this ratio in the form a times the square root of b over c, where a, b, and c are integers. it looks like it's already in that form, where a is 4, b is 14, and c is 21.
+
+but wait, i should check if this can be simplified further. specifically, i should see if 4 and 21 have any common factors.
+
+4 and 21 are both divisible by 1, but that's it. so, the fraction 4 over 21 is already in its simplest form.
+
+therefore, the ratio of the side lengths is:
+
+4
+14
+21
+21
+4 
+14
+​	
+ 
+​	
+ 
+and the sum of a, b, and c is 4 + 14 + 21.
+
+let's calculate that:
+
+4 + 14 is 18, plus 21 is 39.
+
+so, the sum is 39.
+
+i think that's the answer. but just to be sure, let me double-check my steps.
+
+first, i started with the area ratio being 32 over 63, and i correctly took the square root to find the side length ratio.
+
+then, i simplified the square roots of 32 and 63 correctly, getting 4√2 and 3√7, respectively.
+
+next, i rationalized the denominator by multiplying numerator and denominator by √7, which gave me 4√14 over 21.
+
+finally, i checked if 4 and 21 have any common factors and confirmed they don't, so the expression is fully simplified.
+
+therefore, the sum of a, b, and c is indeed 39.
+
+**final answer**
+
+39
+ 

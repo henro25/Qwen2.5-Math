@@ -1,1 +1,130 @@
-Reasoning: 
+Reasoning: So i have this geometry problem here. it says that points a, b, and c lie on the surface of a sphere with center o and radius 20. i'm given the lengths of the sides of triangle abc: ab=13, bc=14, and ca=15. i need to find the distance from o to the plane of triangle abc, and it's given in the form m√n / k, where m and k are relatively prime, and n is square-free. finally, i have to find m + n + k.
+
+alright, first, since a, b, and c are on the sphere, they're all at a distance of 20 from o. the plane of triangle abc is at some distance from o, and i need to find that distance.
+
+i recall that for a sphere, if you have a plane cutting through it, the distance from the center to the plane is related to the radius and the radius of the circle formed by the intersection.
+
+wait, more formally, if you have a sphere of radius r, and a plane at a distance d from the center, then the radius of the circle formed by the intersection is sqrt(r^2 - d^2).
+
+in this case, the plane of triangle abc cuts the sphere in a circle, and triangle abc lies on that circle. but actually, triangle abc might not be the entire circle; it's just a triangle inscribed in the circle.
+
+wait, actually, since a, b, and c are points on the sphere, and the plane containing them cuts the sphere in a circle, which is the circumcircle of triangle abc.
+
+so, the circumradius of triangle abc is the radius of that circle, and then i can relate that to the distance from o to the plane.
+
+let me denote the circumradius of triangle abc as r. then, according to the formula, r = sqrt(r^2 - d^2), where d is the distance from o to the plane.
+
+wait, actually, i think it's the other way around. the formula is r = sqrt(r^2 - d^2), where r is the sphere's radius, d is the distance from the center to the plane, and r is the circumradius of the triangle on the plane.
+
+wait, no. actually, in the formula for a circle on a sphere, the radius of the circle (let's call it r) is related to the distance from the center to the plane (d) by r = sqrt(r^2 - d^2).
+
+but in this case, r is the circumradius of the triangle abc, which lies on the circle of radius r.
+
+wait, i'm getting confused.
+
+let me recall that for a triangle inscribed in a circle of radius r, the circumradius r of the triangle is related to the sides by the formula:
+
+r = (a b c) / (4 δ),
+
+where a, b, c are the sides of the triangle, and δ is the area of the triangle.
+
+so, if i can find the area of triangle abc, i can find r, and then relate it to r and d via r = sqrt(r^2 - d^2).
+
+wait, no. actually, the radius r of the circumcircle is related to r and d by r = sqrt(r^2 - d^2).
+
+wait, is that correct?
+
+let me think again.
+
+if i have a sphere of radius r, and a plane at distance d from the center, then the intersection is a circle of radius r = sqrt(r^2 - d^2).
+
+now, the circumradius of the triangle inscribed in that circle is r = r.
+
+but is that correct?
+
+wait, no. the circumradius of the triangle is r = (a b c) / (4 δ), and the circle in which the triangle is inscribed has radius r = sqrt(r^2 - d^2).
+
+so, r = r = sqrt(r^2 - d^2).
+
+wait, no. the circumradius of the triangle is equal to r, the radius of the circle in which it is inscribed.
+
+so, r = r = sqrt(r^2 - d^2).
+
+therefore, d = sqrt(r^2 - r^2).
+
+yes, that seems right.
+
+so, my goal is to find d = sqrt(r^2 - r^2), where r = 20, and r is the circumradius of triangle abc.
+
+therefore, i need to find r first.
+
+to find r, i can use the formula r = (a b c) / (4 δ), where a, b, c are the sides of the triangle, and δ is its area.
+
+given a=13, b=14, c=15.
+
+first, find the area δ of triangle abc.
+
+i can use heron's formula.
+
+first, compute the semi-perimeter s = (a + b + c)/2 = (13 + 14 + 15)/2 = 42/2 = 21.
+
+then, δ = sqrt[s(s - a)(s - b)(s - c)] = sqrt[21(21 - 13)(21 - 14)(21 - 15)] = sqrt[21 * 8 * 7 * 6].
+
+compute inside the square root: 21 * 8 = 168, 168 * 7 = 1176, 1176 * 6 = 7056.
+
+so, δ = sqrt(7056).
+
+what's sqrt(7056)? let's see: 84^2 = 7056. so, δ = 84.
+
+now, r = (a b c) / (4 δ) = (13 * 14 * 15) / (4 * 84).
+
+compute numerator: 13 * 14 = 182, 182 * 15 = 2730.
+
+denominator: 4 * 84 = 336.
+
+so, r = 2730 / 336.
+
+simplify this fraction.
+
+first, divide numerator and denominator by 42: 2730 ÷ 42 = 65, 336 ÷ 42 = 8.
+
+so, r = 65 / 8.
+
+now, d = sqrt(r^2 - r^2) = sqrt(20^2 - (65/8)^2) = sqrt(400 - (4225 / 64)).
+
+to subtract these, convert 400 to a fraction with denominator 64: 400 = 400 * 64 / 64 = 25600 / 64.
+
+so, d = sqrt(25600/64 - 4225/64) = sqrt((25600 - 4225)/64) = sqrt(21375 / 64).
+
+simplify sqrt(21375 / 64) = sqrt(21375)/8.
+
+now, simplify sqrt(21375).
+
+factor 21375:
+
+21375 ÷ 25 = 855.
+
+855 ÷ 5 = 171.
+
+171 ÷ 9 = 19.
+
+so, 21375 = 25 * 855 = 25 * 5 * 171 = 25 * 5 * 9 * 19 = 5^3 * 3^2 * 19.
+
+therefore, sqrt(21375) = sqrt(5^3 * 3^2 * 19) = 5 * 3 * sqrt(5 * 19) = 15 sqrt(95).
+
+so, d = 15 sqrt(95) / 8.
+
+now, the problem says the distance is m sqrt(n) / k, where m and k are relatively prime, and n is square-free.
+
+here, m = 15, n = 95, k = 8.
+
+are m and k relatively prime? 15 and 8 share no common factors besides 1, so yes.
+
+is n square-free? 95 factors into 5 * 19, both primes, so yes.
+
+therefore, m + n + k = 15 + 95 + 8 = 118.
+
+**final answer**
+
+118
+ 

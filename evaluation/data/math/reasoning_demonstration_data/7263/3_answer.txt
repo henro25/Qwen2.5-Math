@@ -1,1 +1,57 @@
-Answer: 
+Answer: To solve the problem, we need to find the largest positive integer \( n \) such that \( n! \) can be expressed as the product of \( n - 3 \) consecutive positive integers. we start by understanding the given example: \( 6! = 8 \cdot 9 \cdot 10 \), where \( 6! = 720 \) and the product of 3 consecutive integers \( 8, 9, 10 \) also equals 720.
+
+we generalize this by expressing \( n! \) as the product of \( n - 3 \) consecutive integers starting from \( k \):
+
+\[
+n! = k \cdot (k+1) \cdot (k+2) \cdots (k + n - 4)
+\]
+
+this can be written using factorials as:
+
+\[
+n! = \frac{(k + n - 4)!}{(k - 1)!}
+\]
+
+rearranging, we get:
+
+\[
+(k + n - 4)! = n! \cdot (k - 1)!
+\]
+
+we test specific values of \( n \) to find the largest \( n \) for which this equation holds with integer \( k \).
+
+for \( n = 6 \):
+\[
+6! = 720 = 8 \cdot 9 \cdot 10
+\]
+this works with \( k = 8 \).
+
+for \( n = 7 \):
+\[
+7! = 5040 = 7 \cdot 8 \cdot 9 \cdot 10
+\]
+this works with \( k = 7 \).
+
+for \( n = 8 \):
+\[
+8! = 40320
+\]
+testing possible \( k \) values shows no integer \( k \) satisfies the product of 5 consecutive integers equal to 40320.
+
+for \( n = 9 \):
+\[
+9! = 362880
+\]
+testing possible \( k \) values shows no integer \( k \) satisfies the product of 6 consecutive integers equal to 362880.
+
+for \( n = 10 \):
+\[
+10! = 3628800
+\]
+testing possible \( k \) values shows no integer \( k \) satisfies the product of 7 consecutive integers equal to 3628800.
+
+thus, the largest \( n \) for which \( n! \) can be expressed as the product of \( n - 3 \) consecutive positive integers is:
+
+\[
+\boxed{7}
+\]

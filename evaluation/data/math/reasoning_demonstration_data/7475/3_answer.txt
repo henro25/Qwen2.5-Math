@@ -1,1 +1,43 @@
-Answer: 
+Answer: Given five points \((- \tfrac{3}{2}, 1)\), \((0,0)\), \((0,2)\), \((3,0)\), and \((3,2)\), we need to find the length of the minor axis of the ellipse passing through these points, with axes parallel to the coordinate axes.
+
+the general equation of the ellipse is:
+
+\[
+\frac{(x-h)^2}{a^2} + \frac{(y-k)^2}{b^2} = 1
+\]
+
+we start with the general conic equation \(ax^2 + cy^2 + dx + ey + f = 0\) and use the given points to form a system of equations. after solving, we find:
+
+\[
+f = 0, \quad 4c + 2e = 0, \quad 9a + 3d = 0, \quad 9a + 4c + 3d + 2e = 0
+\]
+
+from these, we derive:
+
+\[
+d = -3a, \quad e = -2c, \quad c = \frac{27}{4}a
+\]
+
+substituting these into the conic equation and completing the square, we get:
+
+\[
+(x - \tfrac{3}{2})^2 + \frac{27}{4}(y - 1)^2 = 9
+\]
+
+dividing by 9:
+
+\[
+\frac{(x - \tfrac{3}{2})^2}{9} + \frac{(y - 1)^2}{\frac{4}{3}} = 1
+\]
+
+thus, the semi-major axis \(a = 3\) and the semi-minor axis \(b = \frac{2\sqrt{3}}{3}\). the length of the minor axis is:
+
+\[
+2b = 2 \times \frac{2\sqrt{3}}{3} = \frac{4\sqrt{3}}{3}
+\]
+
+therefore, the length of the minor axis is:
+
+\[
+\boxed{\frac{4\sqrt{3}}{3}}
+\]

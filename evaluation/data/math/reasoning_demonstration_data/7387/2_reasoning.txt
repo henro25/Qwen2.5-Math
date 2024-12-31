@@ -1,1 +1,75 @@
-Reasoning: 
+Reasoning: Alright, so I've got this problem here about seating arrangements. It says that each row seats either 7 or 8 people, and there are 46 people to be seated with every seat occupied. I need to find out how many rows seat exactly 8 people.
+
+Hmm, okay, let's see. So, there are rows that can have either 7 or 8 people, and all seats are filled. So, the total number of seats is exactly 46, and all of them are occupied.
+
+I think I can set up some kind of equation here. Let's say the number of rows with 7 people is x, and the number of rows with 8 people is y. So, the total number of rows would be x plus y.
+
+And the total number of seats would be 7x plus 8y, right? Because each row with 7 people has 7 seats, and each row with 8 people has 8 seats.
+
+So, 7x + 8y = 46.
+
+And also, the total number of rows is x + y, but I don't know what that is. Maybe I need another equation.
+
+Wait, I don't have any information about the total number of rows. Hmm.
+
+Is there another way to approach this? Maybe I can think about it in terms of how many extra seats the rows with 8 have compared to the rows with 7.
+
+Like, if all rows had 7 seats, then the total number of seats would be 7 times the number of rows. But some rows have one extra seat because they have 8 seats instead of 7.
+
+So, the extra seats would be y, since each row with 8 has one extra seat compared to a row with 7.
+
+And the total number of seats is 46, which is more than if all rows had 7 seats.
+
+Wait, maybe I can set it up like this:
+
+Let’s say there are r rows in total. If all rows had 7 seats, there would be 7r seats. But since some rows have 8 seats, there are y rows with one extra seat each, so total seats would be 7r + y = 46.
+
+But I still have two variables here, r and y.
+
+Maybe I need to express r in terms of y or vice versa.
+
+From the first part, r = x + y, and x is the number of rows with 7 seats.
+
+But this seems a bit complicated. Maybe I should go back to the original equation: 7x + 8y = 46.
+
+I need to find integer solutions for x and y, since the number of rows can't be a fraction.
+
+So, I need to find values of x and y that satisfy 7x + 8y = 46, where x and y are non-negative integers.
+
+Let’s try to solve for one variable in terms of the other.
+
+Let’s solve for x: 7x = 46 - 8y, so x = (46 - 8y)/7.
+
+I need x to be an integer, so (46 - 8y) must be divisible by 7.
+
+So, 46 - 8y ≡ 0 mod 7.
+
+Let’s calculate 46 mod 7: 46 divided by 7 is 6 with a remainder of 4, so 46 ≡ 4 mod 7.
+
+And 8y mod 7: 8 mod 7 is 1, so 8y ≡ y mod 7.
+
+So, 4 - y ≡ 0 mod 7, which means y ≡ 4 mod 7.
+
+So, y could be 4, 11, 18, etc., but y has to be such that x is non-negative.
+
+Let’s try y = 4.
+
+Then x = (46 - 8*4)/7 = (46 - 32)/7 = 14/7 = 2.
+
+So, x = 2, y = 4.
+
+Does that work? Let’s check: 7*2 + 8*4 = 14 + 32 = 46. Yep, that works.
+
+Let’s see if there are other possible y values.
+
+Next possible y is y = 4 + 7 = 11.
+
+Then x = (46 - 8*11)/7 = (46 - 88)/7 = (-42)/7 = -6.
+
+Negative number of rows doesn't make sense, so y can't be 11.
+
+What about y = 4 - 7 = -3? That's negative too, so y can't be negative.
+
+So, the only possible solution is y = 4 and x = 2.
+
+Therefore, there are 4 rows that seat exactly 8 people.

@@ -1,1 +1,55 @@
-Reasoning: 
+Reasoning: Alright, so I've got this problem here: "A pizza parlor offers six toppings. What is the greatest number of four-topping pizzas that can be made such that no two pizzas have the same topping combination?" Okay, let's see. So, they have six different toppings, and they want to make pizzas with four toppings each, and no two pizzas should have the same combination of toppings. I need to find out the maximum number of such unique four-topping pizzas.
+
+First, I need to understand what it means for two pizzas to have the same topping combination. If I have, say, pepperoni, mushrooms, olives, and bell peppers on one pizza, and another pizza has mushrooms, olives, bell peppers, and pepperoni, that's the same combination, just listed in a different order. So, the order in which the toppings are placed doesn't matter; it's the combination that counts.
+
+So, this sounds like a combinations problem in mathematics. Combinations are used when the order doesn't matter, which is exactly the case here. I remember that the formula for combinations is n choose k, which is n! divided by (k! times (n-k)!)), where n is the total number of items to choose from, and k is the number of items to choose.
+
+In this case, n is 6 because there are six toppings, and k is 4 because each pizza has four toppings. So, the formula should be 6 choose 4, which is 6! / (4! * (6-4)!)) = 6! / (4! * 2!) = (6*5*4*3*2*1)/(4*3*2*1 * 2*1) = (720)/(24 * 2) = 720/48 = 15.
+
+So, according to this, there should be 15 unique four-topping pizzas possible with six toppings, where no two pizzas have the same combination.
+
+Wait a minute, is that all there is to it? It seems straightforward, but maybe I'm missing something. Let me think again.
+
+Suppose the six toppings are A, B, C, D, E, and F. I need to choose any four of these for a pizza, and no two pizzas should have the same set of four toppings.
+
+Let me list them out to verify:
+
+1. A, B, C, D
+
+2. A, B, C, E
+
+3. A, B, C, F
+
+4. A, B, D, E
+
+5. A, B, D, F
+
+6. A, B, E, F
+
+7. A, C, D, E
+
+8. A, C, D, F
+
+9. A, C, E, F
+
+10. A, D, E, F
+
+11. B, C, D, E
+
+12. B, C, D, F
+
+13. B, C, E, F
+
+14. B, D, E, F
+
+15. C, D, E, F
+
+Okay, that's 15 combinations, and they all seem unique. So, it looks like the answer is indeed 15.
+
+But, to make sure, maybe I should consider if there's any restriction I haven't thought of. The problem just says "no two pizzas have the same topping combination," and it doesn't mention anything about the order of toppings or any other constraints. So, I think I'm good.
+
+I could also think about it in terms of binary choices. For each topping, you can choose to include it or not. But since we're fixing the number of toppings to four, it's more about selecting exactly four out of six.
+
+Another way to look at it is by considering the number of ways to exclude two toppings, since choosing four toppings out of six is the same as excluding two toppings out of six. So, 6 choose 2 is also 15, which matches what I got earlier.
+
+This double-checking makes me more confident that 15 is the correct answer.

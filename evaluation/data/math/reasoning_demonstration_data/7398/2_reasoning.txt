@@ -1,1 +1,31 @@
-Reasoning: 
+Reasoning: Okay, so I've got this problem here about Coach Grunt preparing a starting lineup for his basketball team, the Grunters. There are 12 players on the team, and two of them, Ace and Zeppo, are league All-Stars and will definitely be in the starting lineup. The starting lineup has 5 players, and the order doesn't matter. I need to figure out how many different starting lineups are possible.
+
+Alright, first things first, I need to understand what's being asked. We have 12 players total, and we need to choose 5 for the starting lineup. But two of those players, Ace and Zeppo, are already guaranteed spots in the lineup. So, that means out of the 5 starting spots, 2 are already taken by Ace and Zeppo. That leaves 3 spots to be filled by the remaining players.
+
+So, how many players are left to choose from after accounting for Ace and Zeppo? Well, there are 12 players in total, and we're using 2 of them, so 12 minus 2 equals 10 players left. These 10 players are the ones we can choose from to fill the remaining 3 spots in the starting lineup.
+
+Now, the problem says that the order of the players in the lineup doesn't matter. That means it's a combination problem, not a permutation problem. In combinations, the order doesn't matter, whereas in permutations, it does.
+
+So, I need to find the number of combinations of 10 players taken 3 at a time. The formula for combinations is n choose k, which is n! divided by (k! times (n minus k)!)). So, in this case, it's 10 choose 3, which would be 10! divided by (3! times (10 minus 3)!)).
+
+Let me calculate that. 10 factorial is 10 times 9 times 8 times 7 times 6 times 5 times 4 times 3 times 2 times 1, which is 3,628,800. 3 factorial is 3 times 2 times 1, which is 6. And (10 minus 3) factorial is 7!, which is 5,040.
+
+So, plugging in the numbers: 3,628,800 divided by (6 times 5,040). Let's calculate the denominator first: 6 times 5,040 is 30,240.
+
+Now, 3,628,800 divided by 30,240 equals... let's see... 3,628,800 divided by 30,240. Hmm, I think I can simplify this by dividing numerator and denominator by 10 to make it easier: 362,880 divided by 3,024.
+
+Wait, that's still a bit messy. Maybe I can cancel out some factors. Let's see, 3,628,800 divided by 30,240.
+
+I know that 30,240 times 120 is 3,628,800 because 30,240 times 100 is 3,024,000, and 30,240 times 20 is 604,800, and adding them together gives 3,628,800. So, 3,628,800 divided by 30,240 is 120.
+
+So, there are 120 different ways to choose the remaining 3 players from the 10 available players.
+
+Therefore, the total number of different starting lineups possible is 120.
+
+Wait, but let me double-check that. Is there another way to look at this problem to confirm that 120 is indeed the correct answer?
+
+Another approach could be to consider that Ace and Zeppo are already in the lineup, so we're only choosing 3 more players from the remaining 10. As I said before, that's a combination problem: 10 choose 3.
+
+I can also recall that 10 choose 3 is a standard combination that is equal to 120, which matches my previous calculation.
+
+So, I'm confident that 120 is the correct number of different starting lineups possible.

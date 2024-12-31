@@ -1,1 +1,55 @@
-Answer: 
+Answer: Given the coordinates of points \( a(2, 12) \), \( b(12, 0) \), and \( c(0, p) \), we need to find the value of \( p \) such that the area of \(\triangle abc\) is 27.
+
+we use the shoelace formula to find the area of the triangle:
+
+\[
+\text{area} = \left| \frac{1}{2} \left( x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \right) \right|
+\]
+
+substituting the coordinates of points \( a \), \( b \), and \( c \):
+
+\[
+\text{area} = \left| \frac{1}{2} \left( 2(0 - p) + 12(p - 12) + 0(12 - 0) \right) \right| = 27
+\]
+
+simplifying inside the absolute value:
+
+\[
+2(0 - p) + 12(p - 12) + 0 = -2p + 12p - 144 = 10p - 144
+\]
+
+thus, the area equation becomes:
+
+\[
+\left| \frac{10p - 144}{2} \right| = 27
+\]
+
+this implies:
+
+\[
+\left| 10p - 144 \right| = 54
+\]
+
+solving the absolute value equation:
+
+\[
+10p - 144 = 54 \quad \text{or} \quad 10p - 144 = -54
+\]
+
+for the first equation:
+
+\[
+10p - 144 = 54 \implies 10p = 198 \implies p = 19.8
+\]
+
+for the second equation:
+
+\[
+10p - 144 = -54 \implies 10p = 90 \implies p = 9
+\]
+
+since \( p = 19.8 \) is not feasible (as it is above the y-coordinate of point \( q(0, 12) \)), the valid solution is:
+
+\[
+\boxed{9}
+\]

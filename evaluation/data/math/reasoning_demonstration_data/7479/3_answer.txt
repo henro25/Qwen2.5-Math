@@ -1,1 +1,50 @@
-Answer: 
+Answer: To determine the smallest yummy integer \( a \), we need to find a sequence of consecutive integers that includes \( a \) and sums to 2014. the sum of \( k \) consecutive integers starting from \( n \) is given by:
+
+\[
+\text{sum} = k \left( n + \frac{k-1}{2} \right) = 2014
+\]
+
+this can be rearranged to:
+
+\[
+k(2n + k - 1) = 4028
+\]
+
+we need to find integer solutions for \( k \) and \( n \) such that \( a \) is one of the integers in the sequence. the possible values of \( k \) are the divisors of 4028. the positive divisors of 4028 are:
+
+\[
+1, 2, 4, 19, 38, 53, 76, 106, 212, 1007, 2014, 4028
+\]
+
+for each \( k \), we solve for \( n \):
+
+\[
+n = \frac{4028/k - k + 1}{2}
+\]
+
+we then find \( a \) as \( n \) (the smallest term in the sequence):
+
+\[
+a = n
+\]
+
+calculating \( a \) for each \( k \):
+
+\[
+\begin{aligned}
+&k = 1: & a &= \frac{4028/1 - 1 + 1}{2} = 2014 \\
+&k = 4: & a &= \frac{4028/4 - 4 + 1}{2} = 502 \\
+&k = 19: & a &= \frac{4028/19 - 19 + 1}{2} = 97 \\
+&k = 53: & a &= \frac{4028/53 - 53 + 1}{2} = 12 \\
+&k = 76: & a &= \frac{4028/76 - 76 + 1}{2} = -11 \\
+&k = 212: & a &= \frac{4028/212 - 212 + 1}{2} = -96 \\
+&k = 1007: & a &= \frac{4028/1007 - 1007 + 1}{2} = -501 \\
+&k = 4028: & a &= \frac{4028/4028 - 4028 + 1}{2} = -2013 \\
+\end{aligned}
+\]
+
+the smallest value of \( a \) is:
+
+\[
+\boxed{-2013}
+\]

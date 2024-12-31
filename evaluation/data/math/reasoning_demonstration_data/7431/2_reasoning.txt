@@ -1,1 +1,92 @@
-Reasoning: 
+Reasoning: So i need to find the value of 'a' that makes this piecewise function continuous. alright, let's see. continuity means that there are no jumps or breaks in the graph at the point where the function changes its definition, which in this case is at x = 3.
+
+first, i should recall what it means for a function to be continuous at a point. a function f(x) is continuous at x = c if three conditions are met:
+
+1. f(c) is defined.
+
+2. the limit of f(x) as x approaches c exists.
+
+3. the limit of f(x) as x approaches c is equal to f(c).
+
+in this problem, the function f(x) is defined differently for x ≤ 3 and x > 3. so, the point of interest is x = 3.
+
+let's check each condition one by one.
+
+**first condition: f(3) is defined.**
+
+for x = 3, since 3 ≤ 3, we use the first part of the piecewise function:
+
+f(3) = 3*(3)^2 + 2 = 3*9 + 2 = 27 + 2 = 29.
+
+so, f(3) is defined and equals 29.
+
+**second condition: the limit of f(x) as x approaches 3 exists.**
+
+for the limit to exist at x = 3, the left-hand limit (as x approaches 3 from the left) and the right-hand limit (as x approaches 3 from the right) must both exist and be equal.
+
+let's find the left-hand limit:
+
+lim (x→3⁻) f(x) = lim (x→3⁻) (3x² + 2) = 3*(3)^2 + 2 = 27 + 2 = 29.
+
+now, the right-hand limit:
+
+lim (x→3⁺) f(x) = lim (x→3⁺) (a*x - 1) = a*3 - 1 = 3a - 1.
+
+so, for the limit to exist at x = 3, the left-hand limit must equal the right-hand limit:
+
+29 = 3a - 1.
+
+**third condition: the limit as x approaches 3 equals f(3).**
+
+we already have that the limit as x approaches 3 is 3a - 1, and f(3) is 29. so, setting them equal:
+
+3a - 1 = 29.
+
+now, solve for 'a':
+
+3a = 29 + 1
+
+3a = 30
+
+a = 10.
+
+wait, but let me double-check that.
+
+given that the function is continuous at x = 3, and i've set the left-hand limit equal to the right-hand limit and to f(3), which all equal 29, solving for 'a' gives a = 10.
+
+is there anything else i need to consider? maybe check if the function is continuous elsewhere, but since the function is defined differently only at x = 3, and both pieces are polynomials which are continuous everywhere on their domains, the only point of concern is x = 3.
+
+let me verify by plugging a = 10 back into the function.
+
+for x ≤ 3:
+
+f(x) = 3x² + 2.
+
+for x > 3:
+
+f(x) = 10x - 1.
+
+at x = 3:
+
+f(3) = 29.
+
+now, check the right-hand limit with a = 10:
+
+lim (x→3⁺) f(x) = 10*3 - 1 = 30 - 1 = 29.
+
+which matches f(3).
+
+so, it seems correct.
+
+alternatively, maybe i can graph both parts to see if they connect smoothly at x = 3.
+
+for x ≤ 3, f(x) = 3x² + 2 is a parabola opening upwards, and for x > 3, f(x) = 10x - 1 is a straight line.
+
+at x = 3, both should have the same y-value, which is 29, ensuring continuity.
+
+i don't see any mistakes in my reasoning. therefore, a should be 10.
+
+**final answer**
+
+10
+ 

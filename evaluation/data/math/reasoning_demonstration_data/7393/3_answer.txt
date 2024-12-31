@@ -1,1 +1,16 @@
-Answer: 
+Answer: To find the arithmetic mean of 14, 22, and 36:
+
+1. **Calculate the sum of the numbers:**
+   \[
+   14 + 22 + 36 = 72
+   \]
+
+2. **Count the number of values:**
+   There are 3 values.
+
+3. **Divide the sum by the number of values:**
+   \[
+   \frac{72}{3} = 24
+   \]
+
+**Answer:** The arithmetic mean of 14, 22, and 36 is 24.

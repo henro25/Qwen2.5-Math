@@ -1,1 +1,47 @@
-Answer: 
+Answer: To determine the value of \( a \) for which the equation \( 3(2x - a) = 2(3x + 12) \) has infinitely many solutions, we start by expanding both sides of the equation.
+
+first, expand the left side:
+\[
+3(2x - a) = 6x - 3a
+\]
+
+next, expand the right side:
+\[
+2(3x + 12) = 6x + 24
+\]
+
+this gives us the equation:
+\[
+6x - 3a = 6x + 24
+\]
+
+to find the value of \( a \), we subtract \( 6x \) from both sides:
+\[
+-3a = 24
+\]
+
+solving for \( a \), we divide both sides by -3:
+\[
+a = \frac{24}{-3} = -8
+\]
+
+to verify, if \( a = -8 \), the original equation becomes:
+\[
+3(2x - (-8)) = 2(3x + 12)
+\]
+which simplifies to:
+\[
+3(2x + 8) = 2(3x + 12)
+\]
+
+expanding both sides again:
+\[
+6x + 24 = 6x + 24
+\]
+
+this equation is always true for any \( x \), confirming that there are infinitely many solutions when \( a = -8 \).
+
+thus, the value of \( a \) that makes the equation have infinitely many solutions is:
+\[
+\boxed{-8}
+\]

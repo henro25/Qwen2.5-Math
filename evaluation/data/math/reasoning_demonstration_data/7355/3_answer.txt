@@ -1,1 +1,35 @@
-Answer: 
+Answer: 1. **Substitute the given values into the formula:**
+   \[
+   L = \frac{25T^4}{H^2}
+   \]
+   where \( T = 4 \) and \( H = 8 \):
+   \[
+   L = \frac{25 \times (4)^4}{(8)^2}
+   \]
+
+2. **Calculate \( 4^4 \):**
+   \[
+   4^4 = 4 \times 4 \times 4 \times 4 = 256
+   \]
+
+3. **Calculate \( 8^2 \):**
+   \[
+   8^2 = 8 \times 8 = 64
+   \]
+
+4. **Substitute these values back into the equation:**
+   \[
+   L = \frac{25 \times 256}{64}
+   \]
+
+5. **Multiply 25 by 256:**
+   \[
+   25 \times 256 = 6,400
+   \]
+
+6. **Divide 6,400 by 64:**
+   \[
+   \frac{6,400}{64} = 100
+   \]
+
+**Answer:** \( L = 100 \)

@@ -1,1 +1,35 @@
-Answer: 
+Answer: 1. **Identify the known values:**
+   - Total number of people taking either English or French: 25.
+   - Number of people taking both English and French: 2.
+   - The number of people in the English class is twice the number in the French class.
+
+2. **Define variables:**
+   - Let \( F \) represent the number of people taking French.
+   - Then, the number of people taking English is \( E = 2F \).
+
+3. **Set up the equation for total students:**
+   \[
+   E + F - \text{Both} = 25
+   \]
+   Substituting the known values:
+   \[
+   2F + F - 2 = 25
+   \]
+   Simplifying:
+   \[
+   3F - 2 = 25
+   \]
+   \[
+   3F = 27
+   \]
+   \[
+   F = 9
+   \]
+   Therefore, \( E = 2F = 18 \).
+
+4. **Find the number of people taking only English:**
+   \[
+   \text{English only} = E - \text{Both} = 18 - 2 = 16
+   \]
+
+**Answer:** 16 people are taking English but not French.

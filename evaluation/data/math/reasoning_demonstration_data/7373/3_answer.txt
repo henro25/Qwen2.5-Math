@@ -1,1 +1,41 @@
-Answer: 
+Answer: To find the largest 4-digit integer congruent to \(15 \pmod{22}\), we start by expressing the number \(x\) in the form \(x = 22q + 15\), where \(q\) is an integer. we need \(x\) to be a 4-digit number, so \(x \leq 9999\).
+
+\[
+22q + 15 \leq 9999
+\]
+
+subtract 15 from both sides:
+
+\[
+22q \leq 9984
+\]
+
+divide both sides by 22:
+
+\[
+q \leq \frac{9984}{22}
+\]
+
+calculating the division:
+
+\[
+q \leq 453.8181
+\]
+
+since \(q\) must be an integer, the largest possible value for \(q\) is 453. substituting \(q = 453\) back into the expression for \(x\):
+
+\[
+x = 22 \times 453 + 15 = 9966 + 15 = 9981
+\]
+
+to verify, we check the remainder when 9981 is divided by 22:
+
+\[
+9981 \div 22 = 453 \text{ remainder } 15
+\]
+
+thus, \(9981 \equiv 15 \pmod{22}\), confirming that 9981 is indeed the largest 4-digit number satisfying the condition.
+
+\[
+\boxed{9981}
+\]

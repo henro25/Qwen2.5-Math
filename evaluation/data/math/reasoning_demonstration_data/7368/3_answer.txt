@@ -1,1 +1,14 @@
-Answer: 
+Answer: Given that each bag of dummies contains \( n \) pieces, and \( n \equiv 7 \pmod{9} \), we need to find the smallest number of pieces left over when the dummies in three bags are divided equally among 9 kids.
+
+first, we express \( n \) in terms of \( k \):
+\[ n = 9k + 7 \]
+
+for three bags, the total number of dummies is:
+\[ 3n = 3(9k + 7) = 27k + 21 \]
+
+when dividing \( 27k + 21 \) by 9, we find the remainder:
+\[ 27k \equiv 0 \pmod{9} \]
+\[ 21 \equiv 3 \pmod{9} \]
+
+thus, the remainder when \( 3n \) is divided by 9 is always 3. therefore, the smallest number of pieces that could possibly be left over is:
+\[ \boxed{3} \]

@@ -1,1 +1,69 @@
-Answer: 
+Answer: Given the equation \( 8 \tan \theta = 3 \cos \theta \) and the range \( 0 < \theta < \pi \), we need to find the value of \(\sin \theta\).
+
+first, we substitute \(\tan \theta\) with \(\frac{\sin \theta}{\cos \theta}\):
+
+\[
+8 \left( \frac{\sin \theta}{\cos \theta} \right) = 3 \cos \theta
+\]
+
+multiplying both sides by \(\cos \theta\):
+
+\[
+8 \sin \theta = 3 \cos^2 \theta
+\]
+
+using the pythagorean identity \(\cos^2 \theta = 1 - \sin^2 \theta\):
+
+\[
+8 \sin \theta = 3 (1 - \sin^2 \theta)
+\]
+
+expanding and rearranging terms:
+
+\[
+8 \sin \theta = 3 - 3 \sin^2 \theta
+\]
+
+\[
+3 \sin^2 \theta + 8 \sin \theta - 3 = 0
+\]
+
+letting \( x = \sin \theta \), we solve the quadratic equation:
+
+\[
+3x^2 + 8x - 3 = 0
+\]
+
+using the quadratic formula \( x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \):
+
+\[
+x = \frac{-8 \pm \sqrt{64 + 36}}{6} = \frac{-8 \pm \sqrt{100}}{6} = \frac{-8 \pm 10}{6}
+\]
+
+this gives two solutions:
+
+\[
+x = \frac{2}{6} = \frac{1}{3} \quad \text{and} \quad x = \frac{-18}{6} = -3
+\]
+
+since \(\sin \theta\) cannot be \(-3\), we have:
+
+\[
+\sin \theta = \frac{1}{3}
+\]
+
+to verify, we use \(\cos^2 \theta = 1 - \sin^2 \theta\):
+
+\[
+\cos^2 \theta = 1 - \left( \frac{1}{3} \right)^2 = 1 - \frac{1}{9} = \frac{8}{9}
+\]
+
+\[
+\cos \theta = \pm \frac{2\sqrt{2}}{3}
+\]
+
+both \(\cos \theta = \frac{2\sqrt{2}}{3}\) and \(\cos \theta = -\frac{2\sqrt{2}}{3}\) satisfy the original equation within the given range. therefore, the value of \(\sin \theta\) is:
+
+\[
+\boxed{\frac{1}{3}}
+\]

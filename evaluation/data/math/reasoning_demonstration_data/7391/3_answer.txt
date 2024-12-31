@@ -1,1 +1,11 @@
-Answer: 
+Answer: To find how many times the athlete's heart beats during a 26-mile race:
+
+1. **Calculate the total time of the race:**
+   - The athlete runs at a pace of 5 minutes per mile.
+   - Total time = 5 minutes/mile × 26 miles = 130 minutes.
+
+2. **Determine the total number of heartbeats:**
+   - The heart beats 150 times per minute.
+   - Total beats = 150 beats/minute × 130 minutes = 19,500 beats.
+
+**Answer:** The athlete's heart beats 19,500 times during the race.

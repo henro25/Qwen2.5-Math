@@ -1,1 +1,43 @@
-Answer: 
+Answer: Given the functional equation:
+
+\[ f(x) + f(2x + y) + 5xy = f(3x - y) + 2x^2 + 1 \]
+
+we need to determine the value of \( f(10) \).
+
+first, we set \( y = 0 \):
+
+\[ f(x) + f(2x) = f(3x) + 2x^2 + 1 \]
+
+next, we set \( y = x \):
+
+\[ f(x) + f(3x) + 5x^2 = f(2x) + 2x^2 + 1 \]
+
+we now have two equations:
+
+1. \( f(x) + f(2x) = f(3x) + 2x^2 + 1 \)
+2. \( f(x) + f(3x) + 5x^2 = f(2x) + 2x^2 + 1 \)
+
+from equation (1), we solve for \( f(3x) \):
+
+\[ f(3x) = f(x) + f(2x) - 2x^2 - 1 \]
+
+substitute this into equation (2):
+
+\[ f(x) + [f(x) + f(2x) - 2x^2 - 1] + 5x^2 = f(2x) + 2x^2 + 1 \]
+\[ 2f(x) + f(2x) + 3x^2 - 1 = f(2x) + 2x^2 + 1 \]
+\[ 2f(x) + x^2 - 1 = 1 \]
+\[ 2f(x) + x^2 = 2 \]
+\[ 2f(x) = 2 - x^2 \]
+\[ f(x) = 1 - \frac{x^2}{2} \]
+
+we verify this solution by substituting \( f(x) = 1 - \frac{x^2}{2} \) back into the original equation, confirming it holds true.
+
+finally, we find \( f(10) \):
+
+\[ f(10) = 1 - \frac{10^2}{2} = 1 - \frac{100}{2} = 1 - 50 = -49 \]
+
+thus, the value of \( f(10) \) is:
+
+\[
+\boxed{-49}
+\]

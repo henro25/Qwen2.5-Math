@@ -1,1 +1,15 @@
-Reasoning: 
+Reasoning: Okay, so I have this problem: "What is the measure, in degrees, of one interior angle of a regular hexagon?" Alright, first things first, I need to understand what a regular hexagon is. I know that a hexagon is a six-sided polygon, and "regular" means all sides and all angles are equal. So, in a regular hexagon, each side is the same length, and each interior angle is the same measure.
+
+Now, I need to find the measure of one of those interior angles. I've heard there are formulas for finding the sum of the interior angles of a polygon, and then you can find the measure of one angle if it's regular. Let me recall that formula. I think it's something like (n-2)*180 degrees, where n is the number of sides.
+
+So, for a hexagon, n would be 6. Plugging that in, the sum of the interior angles would be (6-2)*180 = 4*180 = 720 degrees. Since all the interior angles are equal in a regular hexagon, I can divide that sum by the number of angles, which is also 6. So, each interior angle would be 720/6 = 120 degrees.
+
+Wait a minute, does that make sense? Let me double-check. I've seen regular hexagons in some diagrams, and I think each angle is indeed 120 degrees. But I want to make sure I'm not missing something.
+
+Another way to think about it is by dividing the hexagon into triangles. If I draw lines from one vertex to all the others, I can split the hexagon into four triangles. Each triangle's angles sum up to 180 degrees, so four triangles would give me 4*180 = 720 degrees, which matches the sum I got earlier. Then, dividing by six sides gives me 120 degrees per angle.
+
+Is there another method? Maybe using exterior angles? I remember that the sum of exterior angles of any polygon is 360 degrees. For a regular polygon, each exterior angle would be 360 divided by the number of sides. So, for a hexagon, that would be 360/6 = 60 degrees per exterior angle.
+
+Since interior and exterior angles are supplementary in a polygon, meaning they add up to 180 degrees, then each interior angle would be 180 - 60 = 120 degrees. Okay, that confirms it again.
+
+I think I'm confident that each interior angle of a regular hexagon is 120 degrees. I can't think of any other way this could be approached, but it seems consistent across different methods.

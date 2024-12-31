@@ -1,1 +1,109 @@
-Reasoning: 
+Reasoning: So i've got this probability problem here: alli rolls a standard 6-sided die twice. what's the probability that the two numbers she rolls differ by 2? and i need to express the answer as a common fraction.
+
+okay, first things first, i need to understand what's being asked. we're dealing with two rolls of a die, and we want the difference between the two numbers to be exactly 2. since it's a standard die, each face has numbers from 1 to 6, and each roll is independent of the other.
+
+so, the possible outcomes for each roll are 1, 2, 3, 4, 5, or 6. when rolling the die twice, the total number of possible outcomes is 6 times 6, which is 36. that makes sense because for each of the 6 outcomes of the first roll, there are 6 possible outcomes for the second roll.
+
+now, i need to find out how many of these 36 possible outcomes have numbers that differ by exactly 2. let's think about this.
+
+one way to approach this is to list all the possible pairs where the difference is 2 and then count them. let's see:
+
+- if the first roll is 1, what can the second roll be? well, 1 plus 2 is 3, so if the second roll is 3, the difference is 2. alternatively, if the second roll is 1 minus 2, that's -1, but since we're dealing with positive numbers on the die, that's not possible. so only one possible outcome here: (1,3).
+
+- if the first roll is 2, then the second roll can be 2 plus 2, which is 4, or 2 minus 2, which is 0. but 0 isn't on the die, so only (2,4).
+
+- if the first roll is 3, second roll can be 3 plus 2 = 5, or 3 minus 2 = 1. both 1 and 5 are on the die, so (3,1) and (3,5).
+
+- if the first roll is 4, second roll can be 4 plus 2 = 6, or 4 minus 2 = 2. both are valid, so (4,2) and (4,6).
+
+- if the first roll is 5, second roll can be 5 plus 2 = 7, which is not on the die, or 5 minus 2 = 3. so only (5,3).
+
+- if the first roll is 6, second roll can be 6 plus 2 = 8, which is not on the die, or 6 minus 2 = 4. so only (6,4).
+
+okay, so listing all these out:
+
+(1,3), (2,4), (3,1), (3,5), (4,2), (4,6), (5,3), (6,4).
+
+that's a total of 8 favorable outcomes.
+
+now, since there are 36 possible outcomes in total, the probability should be the number of favorable outcomes divided by the total number of possible outcomes.
+
+so, probability = 8 / 36.
+
+this can be simplified by dividing numerator and denominator by 4: 8 ÷ 4 = 2, and 36 ÷ 4 = 9. so, 2/9.
+
+wait, but i should double-check if i missed any possible pairs.
+
+let me think differently. instead of fixing the first roll and finding the second, maybe i can consider the pairs where the absolute difference is 2.
+
+that is, |a - b| = 2, where a and b are the results of the two rolls.
+
+so, a - b = 2 or b - a = 2.
+
+let's list all such pairs:
+
+a=1, b=3 (since 3-1=2)
+
+a=2, b=4 (4-2=2)
+
+a=3, b=1 (3-1=2, but wait, 1-3=-2, so absolute difference is 2)
+
+a=3, b=5 (5-3=2)
+
+a=4, b=2 (4-2=2)
+
+a=4, b=6 (6-4=2)
+
+a=5, b=3 (5-3=2)
+
+a=6, b=4 (6-4=2)
+
+again, that's 8 pairs. so, i think that's correct.
+
+alternatively, i could think about it in terms of ordered pairs.
+
+each pair (a,b) is distinct from (b,a), unless a=b, but in this case, a and b differ by 2, so a ≠ b.
+
+so, there are no repeated pairs here.
+
+alternatively, another way to think about it is to fix the difference and count.
+
+for difference of 2:
+
+the smaller number can be from 1 to 4, because 4 + 2 = 6, which is the maximum on the die.
+
+so, smaller number can be 1,2,3,4.
+
+for each of these, the larger number is the smaller plus 2.
+
+so, for smaller=1, larger=3
+
+smaller=2, larger=4
+
+smaller=3, larger=5
+
+smaller=4, larger=6
+
+now, since the rolls are ordered (first and second), each of these gives two possible ordered pairs:
+
+(1,3) and (3,1)
+
+(2,4) and (4,2)
+
+(3,5) and (5,3)
+
+(4,6) and (6,4)
+
+that's 8 ordered pairs again.
+
+so, all methods point to 8 favorable outcomes out of 36 total possible outcomes.
+
+therefore, the probability is 8/36, which simplifies to 2/9.
+
+so, the final answer should be \boxed{\dfrac{2}{9}}
+
+**final answer**
+
+2
+9
+ 

@@ -1,1 +1,118 @@
-Reasoning: 
+Reasoning: So i've got this probability problem here. it seems a bit tricky at first, but i'll try to break it down step by step. let's see what it's asking for.
+
+we have two mathematicians who each take a morning coffee break every day. they arrive at the cafeteria independently, at random times between 9 a.m. and 10 a.m., and each stays for exactly m minutes. the probability that either one arrives while the other is in the cafeteria is given as 40%, or 0.4. we need to find m in the form a - b√c, where a, b, and c are positive integers, and c is square-free. finally, we have to find the sum a + b + c.
+
+alright, so first, i need to understand what it means for one to arrive while the other is there. since they arrive independently and at random times between 9 and 10 a.m., and each stays for m minutes, the condition is that the time difference between their arrival times is less than m minutes.
+
+let me think about how to model this.
+
+let's denote the arrival times of the two mathematicians as x and y, where x and y are uniformly distributed between 0 and 60 minutes (since 9 a.m. to 10 a.m. is 60 minutes).
+
+the condition that one arrives while the other is there translates to |x - y| < m.
+
+so, the probability that |x - y| < m is given as 0.4.
+
+i recall that for two independent uniform variables on [0, t], the probability that |x - y| < m is 2m/t - m²/t², assuming m ≤ t.
+
+wait, let's verify that.
+
+actually, for two independent uniform variables on [0, t], the probability density function of |x - y| is f(z) = (t - z)/t² for 0 ≤ z ≤ t.
+
+therefore, the probability that |x - y| < m is the integral from 0 to m of f(z) dz, which is the integral from 0 to m of (t - z)/t² dz.
+
+let's compute that integral:
+
+∫₀^m (t - z)/t² dz = [ (t z - 0.5 z²)/t² ] from 0 to m = (t m - 0.5 m²)/t² = (t m)/t² - (0.5 m²)/t² = m/t - (m²)/(2 t²)
+
+so, p(|x - y| < m) = m/t - m²/(2 t²)
+
+in this problem, t = 60 minutes.
+
+given that p(|x - y| < m) = 0.4, so:
+
+m/60 - m²/(2 * 3600) = 0.4
+
+let's simplify that equation:
+
+m/60 - m²/7200 = 0.4
+
+to make it easier, let's multiply both sides by 7200 to eliminate denominators:
+
+7200*(m/60 - m²/7200) = 7200*0.4
+
+this gives:
+
+7200*(m/60) - 7200*(m²/7200) = 2880
+
+simplify each term:
+
+7200*(m/60) = 120 m
+
+7200*(m²/7200) = m²
+
+so, the equation becomes:
+
+120 m - m² = 2880
+
+let's rearrange it:
+
+m² - 120 m + 2880 = 0
+
+now, we have a quadratic equation: m² - 120 m + 2880 = 0
+
+i need to solve for m.
+
+using the quadratic formula:
+
+m = [120 ± √(120² - 4*1*2880)] / 2
+
+compute the discriminant:
+
+d = 120² - 4*1*2880 = 14400 - 11520 = 2880
+
+so, m = [120 ± √2880]/2
+
+simplify √2880.
+
+first, factor 2880:
+
+2880 = 64 * 45 = 64 * 9 * 5 = 8² * 3² * 5
+
+therefore, √2880 = √(8² * 3² * 5) = 8*3*√5 = 24√5
+
+so, m = [120 ± 24√5]/2 = 60 ± 12√5
+
+since m must be less than 60 (they can't stay longer than the hour), we take the smaller value:
+
+m = 60 - 12√5
+
+so, a = 60, b = 12, c = 5
+
+therefore, a + b + c = 60 + 12 + 5 = 77
+
+wait, but let me double-check everything to make sure i didn't make a mistake.
+
+first, the probability formula: p(|x - y| < m) = m/t - m²/(2 t²)
+
+with t = 60, m/60 - m²/(7200) = 0.4
+
+multiplying both sides by 7200: 120 m - m² = 2880
+
+then m² - 120 m + 2880 = 0
+
+quadratic formula: m = [120 ± √(14400 - 11520)] / 2 = [120 ± √2880]/2
+
+simplify √2880: 2880 = 64*45, and √45 = 3√5, so √2880 = 8*3√5 = 24√5
+
+thus, m = [120 ± 24√5]/2 = 60 ± 12√5
+
+since m must be less than 60, m = 60 - 12√5
+
+so, a = 60, b = 12, c = 5, and a + b + c = 77
+
+seems correct.
+
+**final answer**
+
+77
+ 

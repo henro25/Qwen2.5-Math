@@ -1,1 +1,25 @@
-Answer: 
+Answer: To find the volume of a round swimming pool that is 16 feet in diameter and 4 feet deep throughout, we use the formula for the volume of a cylinder: \( v = \pi r^2 h \).
+
+1. the diameter of the pool is 16 feet, so the radius \( r \) is half of that:
+   \[
+   r = \frac{16}{2} = 8 \text{ feet}
+   \]
+
+2. the depth (height) \( h \) of the pool is 4 feet.
+
+3. plugging these values into the volume formula:
+   \[
+   v = \pi (8)^2 (4)
+   \]
+
+4. calculate \( (8)^2 \):
+   \[
+   8^2 = 64
+   \]
+
+5. multiply by the height:
+   \[
+   v = \pi \times 64 \times 4 = 256\pi
+   \]
+
+thus, the volume of the pool is \(\boxed{256\pi}\) cubic feet.

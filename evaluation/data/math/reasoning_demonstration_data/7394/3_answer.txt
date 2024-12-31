@@ -1,1 +1,30 @@
-Answer: 
+Answer: Given that \( x \) is a positive multiple of 8, \( x^2 > 100 \), and \( x < 20 \), we need to find the value of \( x \).
+
+first, we list the positive multiples of 8 that are less than 20:
+\[ 8, 16 \]
+
+next, we check which of these values satisfy \( x^2 > 100 \):
+
+for \( x = 8 \):
+\[ 8^2 = 64 \]
+since \( 64 \) is not greater than 100, \( x = 8 \) does not work.
+
+for \( x = 16 \):
+\[ 16^2 = 256 \]
+since \( 256 \) is greater than 100, \( x = 16 \) works.
+
+to confirm, we solve the inequality \( x^2 > 100 \) with \( x = 8k \) where \( k \) is a positive integer:
+\[ (8k)^2 > 100 \]
+\[ 64k^2 > 100 \]
+\[ k^2 > \frac{100}{64} \]
+\[ k^2 > 1.5625 \]
+\[ k > \sqrt{1.5625} \]
+\[ k > 1.25 \]
+
+since \( k \) must be an integer, the smallest possible value for \( k \) is 2:
+\[ x = 8 \times 2 = 16 \]
+
+thus, the only value of \( x \) that satisfies all the conditions is:
+\[
+\boxed{16}
+\]

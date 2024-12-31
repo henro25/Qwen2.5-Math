@@ -1,1 +1,43 @@
-Reasoning: 
+Reasoning: So i need to find the value of sine of negative pi over 2, which is sin(-π/2). hmm, i'm a bit rusty on trigonometric functions, but i remember that sine is one of the primary trigonometric functions, and it's related to the angles in a right triangle. but since the angle here is negative and in terms of pi, it might be better to think in terms of the unit circle.
+
+first, let's recall that in the unit circle, angles are measured from the positive x-axis, and positive angles go counterclockwise while negative angles go clockwise. so, an angle of -π/2 would mean i'm starting from the positive x-axis and rotating clockwise by π/2 radians.
+
+now, π radians is 180 degrees, so π/2 radians is 90 degrees. therefore, -π/2 radians is a rotation of -90 degrees from the positive x-axis. that means i'm looking at the angle that points directly downward along the negative y-axis.
+
+on the unit circle, the coordinates of a point corresponding to an angle θ are (cosθ, sinθ). so, for θ = -π/2, the coordinates should be (cos(-π/2), sin(-π/2)). i need to find the sine of that angle.
+
+i remember that cosine is an even function, which means cos(-θ) = cosθ, and sine is an odd function, meaning sin(-θ) = -sinθ. so, sin(-π/2) = -sin(π/2).
+
+now, what is sin(π/2)? well, π/2 radians is 90 degrees, and on the unit circle, that's the point at the top of the circle, which has coordinates (0,1). so, cos(π/2) = 0 and sin(π/2) = 1.
+
+therefore, sin(-π/2) = -1.
+
+wait a second, let me double-check that. i know that sine represents the y-coordinate on the unit circle. for θ = -π/2, the point should indeed be at (0, -1), because rotating clockwise by π/2 lands me at the bottom of the circle. so, the y-coordinate is -1, which confirms that sin(-π/2) = -1.
+
+alternatively, i can think about the graph of the sine function. the sine function is symmetric about the origin because it's an odd function. so, its graph is symmetric with respect to the origin, meaning that sin(-x) = -sin(x). since sin(π/2) = 1, then sin(-π/2) should be -1.
+
+i can also recall the values of sine for common angles:
+
+- sin(0) = 0
+
+- sin(π/6) = 1/2
+
+- sin(π/4) = √2/2
+
+- sin(π/3) = √3/2
+
+- sin(π/2) = 1
+
+and since sine is negative in the third and fourth quadrants, and -π/2 is in the fourth quadrant, it makes sense that the sine value is negative there.
+
+another way to look at it is using the unit circle definitions directly. starting at (1,0) for 0 radians, rotating clockwise by π/2 radians brings me to (0,-1), so the sine of that angle is the y-coordinate, which is -1.
+
+i think that's solid. to be extra sure, maybe i can plug it into a calculator to verify, but since this is a standard angle, i'm confident in the answer.
+
+so, sin(-π/2) = -1.
+
+**final answer**
+
+−1
+​	
+ 

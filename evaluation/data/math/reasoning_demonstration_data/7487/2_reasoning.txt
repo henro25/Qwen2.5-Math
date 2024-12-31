@@ -1,1 +1,31 @@
-Reasoning: 
+Reasoning: Alright, so I have this problem here: "You have 50 dimes and 20 quarters. What percent of the value of your money is in quarters?" Okay, let's see how to approach this.
+
+First, I need to understand what's being asked. They want to know what percentage of the total money I have is made up of quarters. So, I have both dimes and quarters, and I need to find out how much of the total value comes from the quarters.
+
+Okay, step one is to figure out the total value of the dimes and the total value of the quarters separately. Then, I'll add those two amounts to get the total money I have. After that, I'll see what portion of that total is from the quarters and convert that into a percentage.
+
+Let me start with the dimes. I have 50 dimes. I know that each dime is worth 10 cents, or $0.10. So, if I have 50 dimes, I can multiply 50 by $0.10 to get the total value of the dimes.
+
+50 dimes * $0.10/dime = $5.00
+
+So, the dimes are worth $5.00 in total.
+
+Next, the quarters. I have 20 quarters. Each quarter is worth 25 cents, or $0.25. So, 20 quarters times $0.25 per quarter should give me the total value of the quarters.
+
+20 quarters * $0.25/quarter = $5.00
+
+Wait a minute, that's also $5.00. So, both the dimes and the quarters are worth $5.00 each?
+
+Wait, that seems a bit odd. Let me double-check that. 20 quarters at $0.25 each is indeed $5.00. And 50 dimes at $0.10 each is $5.00. So, together, I have $5.00 from dimes and $5.00 from quarters, totaling $10.00.
+
+Now, I need to find out what percent of this $10.00 comes from the quarters. Since the quarters are worth $5.00 out of the total $10.00, I can set up a fraction: $5.00 (quarters) divided by $10.00 (total), and then multiply by 100 to get the percentage.
+
+So, ($5.00 / $10.00) * 100 = 50%
+
+So, 50% of the total value is in quarters.
+
+Wait, but the problem seems too straightforward. Is there any trick here? Let me think again.
+
+Another way to approach this is to consider the number of coins and their values. But no, I think the way I did it is correct. The total value from quarters is $5.00, and the total money is $10.00, so the percentage is indeed 50%.
+
+I guess that's the answer. I don't see any mistakes in my calculations.

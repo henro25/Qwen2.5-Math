@@ -1,1 +1,8 @@
-Answer: 
+Answer: To find the smallest positive integer with exactly 10 positive divisors, we use the relationship between a number's prime factorization and the number of its divisors. If a number \( n \) is expressed as \( n = p^a \times q^b \times r^c \), where \( p, q, r \) are primes and \( a, b, c \) are their respective exponents, the total number of divisors is given by \( (a+1)(b+1)(c+1) \).
+
+We need this product to be 10. The possible ways to factor 10 are:
+
+1. \( 10 = 10 \times 1 \): This corresponds to a number with a single prime factor raised to the 9th power, i.e., \( n = p^9 \). Choosing the smallest prime, \( p = 2 \), gives \( n = 2^9 = 512 \).
+2. \( 10 = 5 \times 2 \): This corresponds to a number with two prime factors, one raised to the 4th power and the other to the 1st power, i.e., \( n = p^4 \times q^1 \). Using the smallest primes, \( p = 2 \) and \( q = 3 \), gives \( n = 2^4 \times 3 = 16 \times 3 = 48 \).
+
+Comparing the two options, 48 is smaller than 512. Therefore, the smallest positive integer with exactly 10 positive divisors is **48**.

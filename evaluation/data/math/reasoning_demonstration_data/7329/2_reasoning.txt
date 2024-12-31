@@ -1,1 +1,678 @@
-Reasoning: 
+Reasoning: So i've got this probability problem here. it says, "ten standard 6-sided dice are rolled. what is the probability that exactly one of the dice shows a 1?" and i need to express the answer as a decimal rounded to the nearest thousandth. alright, let's break this down.
+
+first off, i know that a standard die has six faces, numbered from 1 to 6. so, when we roll one die, the probability of getting a 1 is 1 out of 6, which is 
+1
+6
+6
+1
+​	
+ , and the probability of not getting a 1 is 
+5
+6
+6
+5
+​	
+ .
+
+now, we're rolling ten dice, and we want exactly one of them to show a 1. this sounds like a binomial probability problem because we have a fixed number of trials (10 dice), each with two possible outcomes (either it's a 1 or it's not), and the trials are independent.
+
+in binomial probability, the formula to find the probability of getting exactly 
+k
+k successes in 
+n
+n trials is:
+
+p
+(
+k
+)
+=
+c
+(
+n
+,
+k
+)
+×
+p
+k
+×
+(
+1
+−
+p
+)
+n
+−
+k
+p(k)=c(n,k)×p 
+k
+ ×(1−p) 
+n−k
+ 
+where:
+
+- 
+c
+(
+n
+,
+k
+)
+c(n,k) is the combination of 
+n
+n things taken 
+k
+k at a time.
+
+- 
+p
+p is the probability of success on a single trial.
+
+- 
+1
+−
+p
+1−p is the probability of failure on a single trial.
+
+in this problem:
+
+- 
+n
+=
+10
+n=10 (since we're rolling 10 dice)
+
+- 
+k
+=
+1
+k=1 (we want exactly one die to show a 1)
+
+- 
+p
+=
+1
+6
+p= 
+6
+1
+​	
+  (probability of rolling a 1)
+
+- 
+1
+−
+p
+=
+5
+6
+1−p= 
+6
+5
+​	
+  (probability of not rolling a 1)
+
+so, plugging these values into the formula:
+
+p
+(
+1
+)
+=
+c
+(
+10
+,
+1
+)
+×
+(
+1
+6
+)
+1
+×
+(
+5
+6
+)
+9
+p(1)=c(10,1)×( 
+6
+1
+​	
+ ) 
+1
+ ×( 
+6
+5
+​	
+ ) 
+9
+ 
+now, i need to calculate 
+c
+(
+10
+,
+1
+)
+c(10,1). i recall that 
+c
+(
+n
+,
+k
+)
+c(n,k) is calculated as:
+
+c
+(
+n
+,
+k
+)
+=
+n
+!
+k
+!
+(
+n
+−
+k
+)
+!
+c(n,k)= 
+k!(n−k)!
+n!
+​	
+ 
+so, for 
+c
+(
+10
+,
+1
+)
+c(10,1):
+
+c
+(
+10
+,
+1
+)
+=
+10
+!
+1
+!
+(
+10
+−
+1
+)
+!
+=
+10
+!
+1
+!
+×
+9
+!
+=
+10
+×
+9
+!
+1
+×
+9
+!
+=
+10
+c(10,1)= 
+1!(10−1)!
+10!
+​	
+ = 
+1!×9!
+10!
+​	
+ = 
+1×9!
+10×9!
+​	
+ =10
+okay, so 
+c
+(
+10
+,
+1
+)
+=
+10
+c(10,1)=10.
+
+next, 
+(
+1
+6
+)
+1
+=
+1
+6
+( 
+6
+1
+​	
+ ) 
+1
+ = 
+6
+1
+​	
+ .
+
+and 
+(
+5
+6
+)
+9
+( 
+6
+5
+​	
+ ) 
+9
+  is 
+(
+5
+6
+)
+( 
+6
+5
+​	
+ ) raised to the 9th power.
+
+so, putting it all together:
+
+p
+(
+1
+)
+=
+10
+×
+1
+6
+×
+(
+5
+6
+)
+9
+p(1)=10× 
+6
+1
+​	
+ ×( 
+6
+5
+​	
+ ) 
+9
+ 
+now, i need to compute 
+(
+5
+6
+)
+9
+( 
+6
+5
+​	
+ ) 
+9
+ . this seems a bit tricky without a calculator, but i can approximate it or use logarithms, but since the problem asks for a decimal rounded to the nearest thousandth, i should probably use a calculator for accuracy.
+
+let me calculate 
+(
+5
+6
+)
+9
+( 
+6
+5
+​	
+ ) 
+9
+ :
+
+first, 
+5
+6
+≈
+0.833333...
+6
+5
+​	
+ ≈0.833333...
+
+so, 
+0.833333..
+.
+9
+0.833333... 
+9
+ . let's see:
+
+0.83333
+3
+2
+=
+0.694444
+0.833333 
+2
+ =0.694444
+
+0.83333
+3
+3
+=
+0.833333
+×
+0.694444
+≈
+0.580246
+0.833333 
+3
+ =0.833333×0.694444≈0.580246
+
+0.83333
+3
+4
+≈
+0.833333
+×
+0.580246
+≈
+0.482253
+0.833333 
+4
+ ≈0.833333×0.580246≈0.482253
+
+0.83333
+3
+5
+≈
+0.833333
+×
+0.482253
+≈
+0.402712
+0.833333 
+5
+ ≈0.833333×0.482253≈0.402712
+
+0.83333
+3
+6
+≈
+0.833333
+×
+0.402712
+≈
+0.335557
+0.833333 
+6
+ ≈0.833333×0.402712≈0.335557
+
+0.83333
+3
+7
+≈
+0.833333
+×
+0.335557
+≈
+0.279623
+0.833333 
+7
+ ≈0.833333×0.335557≈0.279623
+
+0.83333
+3
+8
+≈
+0.833333
+×
+0.279623
+≈
+0.232015
+0.833333 
+8
+ ≈0.833333×0.279623≈0.232015
+
+0.83333
+3
+9
+≈
+0.833333
+×
+0.232015
+≈
+0.193429
+0.833333 
+9
+ ≈0.833333×0.232015≈0.193429
+
+so, 
+(
+5
+6
+)
+9
+≈
+0.193429
+( 
+6
+5
+​	
+ ) 
+9
+ ≈0.193429
+
+now, plugging back into the equation:
+
+p
+(
+1
+)
+=
+10
+×
+1
+6
+×
+0.193429
+≈
+10
+×
+0.166666
+×
+0.193429
+p(1)=10× 
+6
+1
+​	
+ ×0.193429≈10×0.166666×0.193429
+wait, hold on. 
+1
+6
+≈
+0.166666
+6
+1
+​	
+ ≈0.166666, right? so, 10 times 0.166666 is approximately 1.66666.
+
+then, 1.66666 times 0.193429.
+
+let's calculate that:
+
+1.66666 * 0.193429
+
+first, 1 * 0.193429 = 0.193429
+
+0.66666 * 0.193429
+
+0.6 * 0.193429 = 0.1160574
+
+0.06666 * 0.193429 ≈ 0.012889
+
+so, total is approximately 0.193429 + 0.1160574 + 0.012889 ≈ 0.3223754
+
+so, p(1) ≈ 0.3223754
+
+now, the problem asks for the probability rounded to the nearest thousandth, which is three decimal places.
+
+so, 0.3223754 rounds to 0.322.
+
+wait, but let's double-check my calculations because sometimes when you do it manually, you can make mistakes.
+
+alternatively, maybe there's a better way to calculate this.
+
+alternatively, perhaps using the exact values.
+
+let's see.
+
+we have:
+
+p(1) = 10 * (1/6) * (5/6)^9
+
+we can calculate (5/6)^9 exactly.
+
+but that might be time-consuming without a calculator.
+
+alternatively, maybe use logarithms.
+
+but that's probably more complicated.
+
+alternatively, maybe use the binomial probability formula directly with a calculator.
+
+assuming i have a calculator, i can calculate (5/6)^9.
+
+let me see:
+
+(5/6) = 0.833333...
+
+0.833333^9.
+
+alternatively, using a calculator, 0.833333^9 is approximately 0.1934515.
+
+then, p(1) = 10 * (1/6) * 0.1934515
+
+1/6 is approximately 0.1666667.
+
+so, 10 * 0.1666667 = 1.6666667
+
+then, 1.6666667 * 0.1934515 ≈ 0.322419
+
+rounded to the nearest thousandth is 0.322.
+
+wait, earlier i got 0.3223754, which also rounds to 0.322.
+
+but let's confirm if this is correct.
+
+alternatively, perhaps i should consider that the exact value is different.
+
+alternatively, perhaps there's a better way to approximate this.
+
+alternatively, perhaps i can use the natural logarithm to calculate (5/6)^9.
+
+ln(5/6) = ln(5) - ln(6)
+
+ln(5) ≈ 1.6094379
+
+ln(6) ≈ 1.7917595
+
+so, ln(5/6) ≈ 1.6094379 - 1.7917595 = -0.1823216
+
+then, (5/6)^9 = e^(9 * ln(5/6)) = e^(-0.1823216 * 9) = e^(-1.6408944)
+
+now, e^(-1.6408944) ≈ ?
+
+we know that e^(-1) ≈ 0.3678794
+
+e^(-0.6408944) ≈ ?
+
+wait, this seems more complicated.
+
+alternatively, perhaps it's better to accept that with manual calculations, it's error-prone, and just stick with the approximate value i have.
+
+alternatively, perhaps i can think of it differently.
+
+alternatively, perhaps i can use the fact that the probability is 10 * (1/6) * (5/6)^9.
+
+alternatively, perhaps i can recognize that this is a standard binomial probability calculation, and accept that the approximate value is 0.322.
+
+alternatively, perhaps i can consider that with 10 dice, the expected number of 1's is 10 * (1/6) ≈ 1.6667, which is higher than 1, so getting exactly one 1 is less than the expected value, but still significant.
+
+alternatively, perhaps i can consider that the probability should be around 0.322.
+
+alternatively, perhaps i can use the complement rule or something, but that seems unnecessary here.
+
+alternatively, perhaps i can consider that the exact value is 10 * (1/6) * (5/6)^9.
+
+calculating this exactly:
+
+first, 5^9 = 1953125
+
+6^9 = 10077696
+
+so, (5/6)^9 = 1953125 / 10077696
+
+then, p(1) = 10 * (1/6) * (1953125 / 10077696)
+
+simplify:
+
+10 * (1/6) = 10/6 = 5/3
+
+so, p(1) = (5/3) * (1953125 / 10077696) = (5 * 1953125) / (3 * 10077696)
+
+calculate numerator: 5 * 1953125 = 9,765,625
+
+denominator: 3 * 10,077,696 = 30,233,088
+
+so, p(1) = 9,765,625 / 30,233,088
+
+now, divide 9,765,625 by 30,233,088.
+
+let's see:
+
+30,233,088 divided by 9,765,625 is approximately 3.09375
+
+wait, no, actually, 9,765,625 divided by 30,233,088 is approximately 0.322.
+
+yes, 9,765,625 / 30,233,088 ≈ 0.322.
+
+so, p(1) ≈ 0.322.
+
+therefore, the probability is approximately 0.322.
+
+so, the final answer is 0.322.
+
+**final answer**
+
+0.322
+ 

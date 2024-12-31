@@ -1,1 +1,49 @@
-Answer: 
+Answer: Given the product of two consecutive page numbers is \( 18,360 \), we need to find their sum.
+
+let the two consecutive page numbers be \( n \) and \( n + 1 \). therefore, we have:
+
+\[
+n(n + 1) = 18,360
+\]
+
+expanding and rearranging the equation:
+
+\[
+n^2 + n - 18,360 = 0
+\]
+
+this is a quadratic equation in the form \( an^2 + bn + c = 0 \) with \( a = 1 \), \( b = 1 \), and \( c = -18,360 \). using the quadratic formula:
+
+\[
+n = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\]
+
+substituting the values:
+
+\[
+n = \frac{-1 \pm \sqrt{1 + 4 \cdot 18,360}}{2} = \frac{-1 \pm \sqrt{73,441}}{2}
+\]
+
+since \( \sqrt{73,441} = 271 \):
+
+\[
+n = \frac{-1 \pm 271}{2}
+\]
+
+this gives two possible solutions:
+
+\[
+n = \frac{-1 + 271}{2} = 135 \quad \text{or} \quad n = \frac{-1 - 271}{2} = -136
+\]
+
+since page numbers cannot be negative, we have \( n = 135 \). therefore, the two consecutive page numbers are 135 and 136. their sum is:
+
+\[
+135 + 136 = 271
+\]
+
+thus, the sum of the two page numbers is:
+
+\[
+\boxed{271}
+\]

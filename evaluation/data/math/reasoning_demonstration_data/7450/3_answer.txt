@@ -1,1 +1,25 @@
-Answer: 
+Answer: Given vectors \(\mathbf{a}, \mathbf{b}, \mathbf{c}\), we need to find the determinant of the matrix whose column vectors are \(\mathbf{a} \times \mathbf{b}, \mathbf{b} \times \mathbf{c}, \mathbf{c} \times \mathbf{a}\) in terms of the determinant \(d\) of the matrix with columns \(\mathbf{a}, \mathbf{b}, \mathbf{c}\).
+
+first, we denote the original matrix as \(m = [\mathbf{a} \mathbf{b} \mathbf{c}]\), so \(\det(m) = d\).
+
+the new matrix is \(m' = [\mathbf{a} \times \mathbf{b}, \mathbf{b} \times \mathbf{c}, \mathbf{c} \times \mathbf{a}]\), and we need to find \(\det(m')\).
+
+we use the property that \(\det(m' m^t) = d^3\), where \(m^t\) is the transpose of \(m\). this implies:
+
+\[
+\det(m') \det(m^t) = d^3
+\]
+
+since \(\det(m^t) = \det(m) = d\), we have:
+
+\[
+\det(m') \cdot d = d^3 \implies \det(m') = d^2
+\]
+
+thus, the determinant of the matrix whose columns are \(\mathbf{a} \times \mathbf{b}, \mathbf{b} \times \mathbf{c}, \mathbf{c} \times \mathbf{a}\) is equal to \(d^2\).
+
+therefore, the ordered pair \((k, n)\) is:
+
+\[
+\boxed{(1, 2)}
+\]
