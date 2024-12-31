@@ -1,1 +1,42 @@
-Answer: 
+Answer: Given the quadratic equation \(2x^2 - 3x = 11\), we rewrite it as \(2x^2 - 3x - 11 = 0\). the roots \(r\) and \(s\) satisfy \(r + s = \frac{3}{2}\) and \(rs = -\frac{11}{2}\).
+
+we need to compute \((4r^3 - 4s^3)(r - s)^{-1}\). first, factor out the 4:
+
+\[
+\frac{4(r^3 - s^3)}{r - s}
+\]
+
+using the difference of cubes formula, \(r^3 - s^3 = (r - s)(r^2 + rs + s^2)\), we get:
+
+\[
+\frac{4(r - s)(r^2 + rs + s^2)}{r - s} = 4(r^2 + rs + s^2)
+\]
+
+next, express \(r^2 + rs + s^2\) in terms of \(r + s\) and \(rs\):
+
+\[
+r^2 + s^2 = (r + s)^2 - 2rs
+\]
+\[
+r^2 + rs + s^2 = (r^2 + s^2) + rs = (r + s)^2 - rs
+\]
+
+substitute the known values:
+
+\[
+(r + s)^2 = \left(\frac{3}{2}\right)^2 = \frac{9}{4}
+\]
+\[
+rs = -\frac{11}{2}
+\]
+\[
+r^2 + rs + s^2 = \frac{9}{4} - \left(-\frac{11}{2}\right) = \frac{9}{4} + \frac{22}{4} = \frac{31}{4}
+\]
+
+thus, the expression simplifies to:
+
+\[
+4 \times \frac{31}{4} = 31
+\]
+
+the value of \((4r^3 - 4s^3)(r - s)^{-1}\) is \(\boxed{31}\).

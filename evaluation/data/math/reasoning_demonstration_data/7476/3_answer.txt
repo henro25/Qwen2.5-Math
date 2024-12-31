@@ -1,1 +1,37 @@
-Answer: 
+Answer: Given the tetrahedron \(abcd\) with faces \(abc\) and \(bcd\) meeting at an angle of \(30^\circ\), the areas of faces \(abc\) and \(bcd\) are 120 and 80 respectively, and the length of edge \(bc\) is 10. we need to find the volume of the tetrahedron.
+
+first, we use the formula for the volume of a tetrahedron when given the areas of two adjacent faces, the length of their common edge, and the dihedral angle between them:
+
+\[
+v = \frac{2 \times \text{area of } abc \times \text{area of } bcd \times \sin(\theta)}{3 \times bc}
+\]
+
+plugging in the given values:
+
+\[
+v = \frac{2 \times 120 \times 80 \times \sin(30^\circ)}{3 \times 10}
+\]
+
+since \(\sin(30^\circ) = 0.5\):
+
+\[
+v = \frac{2 \times 120 \times 80 \times 0.5}{30}
+\]
+
+simplifying the numerator:
+
+\[
+2 \times 120 \times 80 \times 0.5 = 9600
+\]
+
+then:
+
+\[
+v = \frac{9600}{30} = 320
+\]
+
+thus, the volume of the tetrahedron is:
+
+\[
+\boxed{320}
+\]

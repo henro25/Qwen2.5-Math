@@ -1,1 +1,19 @@
-Answer: 
+Answer: First, we translate the endpoints of segment \( s_1 \) by 2 units to the right and 3 units up. the endpoints of \( s_1 \) are \( (4,1) \) and \( (-8,5) \).
+
+translating these points:
+\[
+(4,1) \rightarrow (4+2, 1+3) = (6,4)
+\]
+\[
+(-8,5) \rightarrow (-8+2, 5+3) = (-6,8)
+\]
+
+next, we find the midpoint of segment \( s_2 \) with endpoints \( (6,4) \) and \( (-6,8) \) using the midpoint formula:
+\[
+m = \left( \frac{6 + (-6)}{2}, \frac{4 + 8}{2} \right) = \left( \frac{0}{2}, \frac{12}{2} \right) = (0, 6)
+\]
+
+thus, the midpoint of segment \( s_2 \) is:
+\[
+\boxed{(0,6)}
+\]

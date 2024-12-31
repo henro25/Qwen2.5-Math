@@ -1,1 +1,42 @@
-Answer: 
+Answer: To solve the problem, we need to find a number \( x \) that can be added to both the numerator and denominator of the fraction \(\frac{3}{5}\) such that the resulting fraction is equal to \(\frac{5}{6}\).
+
+1. **Set up the equation:**
+   \[
+   \frac{3 + x}{5 + x} = \frac{5}{6}
+   \]
+
+2. **Cross-multiply to eliminate the fractions:**
+   \[
+   6(3 + x) = 5(5 + x)
+   \]
+   Simplify both sides:
+   \[
+   18 + 6x = 25 + 5x
+   \]
+
+3. **Solve for \( x \):**
+   \[
+   18 + 6x - 5x = 25
+   \]
+   \[
+   18 + x = 25
+   \]
+   \[
+   x = 25 - 18
+   \]
+   \[
+   x = 7
+   \]
+
+4. **Verify the solution:**
+   Add \( x = 7 \) to both the numerator and denominator of \(\frac{3}{5}\):
+   \[
+   \frac{3 + 7}{5 + 7} = \frac{10}{12}
+   \]
+   Simplify \(\frac{10}{12}\):
+   \[
+   \frac{10}{12} = \frac{5}{6}
+   \]
+   The solution is correct.
+
+**Answer:** The number that should be added is \( 7 \).

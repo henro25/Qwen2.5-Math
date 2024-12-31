@@ -1,1 +1,109 @@
-Reasoning: 
+Reasoning: So i have this problem here: there's a triangle abc that's isosceles with sides 25 cm, 25 cm, and 48 cm. i need to find its area in square centimeters. okay, first things first, since it's an isosceles triangle, that means two sides are equal, and in this case, those sides are both 25 cm, with the base being 48 cm.
+
+now, to find the area of a triangle, the standard formula is (base * height)/2. i have the base, which is 48 cm, but i don't have the height. so, i need to find the height of this triangle.
+
+since it's an isosceles triangle, the height will drop from the apex (the vertex opposite the base) straight down to the base, splitting the base into two equal parts. that means each half of the base will be 48/2 = 24 cm.
+
+now, i can think of this as forming two right-angled triangles within the original triangle. each of these right triangles will have:
+
+- one leg equal to half the base, which is 24 cm.
+
+- the other leg equal to the height of the original triangle, which i'll call h.
+
+- the hypotenuse equal to the equal side of the original triangle, which is 25 cm.
+
+so, i can use the pythagorean theorem here. the pythagorean theorem states that in a right-angled triangle, the square of the hypotenuse (c) is equal to the sum of the squares of the other two sides (a and b): c² = a² + b².
+
+in this case, the hypotenuse is 25 cm, one leg is 24 cm, and the other leg is h. plugging into the formula:
+
+25² = 24² + h²
+
+let me calculate the squares:
+
+25 squared is 625, and 24 squared is 576.
+
+so, 625 = 576 + h²
+
+now, to solve for h², i subtract 576 from both sides:
+
+625 - 576 = h²
+
+that gives me:
+
+49 = h²
+
+to find h, i take the square root of both sides:
+
+h = √49
+
+h = 7 cm
+
+okay, so the height of the triangle is 7 cm.
+
+now, going back to the area formula: (base * height)/2
+
+plugging in the values:
+
+area = (48 cm * 7 cm)/2
+
+first, multiply 48 and 7:
+
+48 * 7 = 336
+
+then divide by 2:
+
+336 / 2 = 168
+
+so, the area of the triangle is 168 square centimeters.
+
+wait a minute, let me just double-check that to make sure i didn't make any calculation errors.
+
+first, confirming the pythagorean theorem step:
+
+25² = 625
+
+24² = 576
+
+625 - 576 = 49
+
+√49 = 7, that's correct.
+
+then, area = (48 * 7)/2 = 336/2 = 168, that seems right.
+
+alternatively, i could use heron's formula to verify the area. heron's formula states that the area of a triangle with sides a, b, and c is:
+
+area = √[s(s-a)(s-b)(s-c)]
+
+where s is the semi-perimeter of the triangle, s = (a + b + c)/2.
+
+in this case, a = 25, b = 25, c = 48.
+
+so, s = (25 + 25 + 48)/2 = (98)/2 = 49 cm
+
+then, area = √[49(49-25)(49-25)(49-48)] = √[49 * 24 * 24 * 1]
+
+first, calculate inside the square root:
+
+49 * 24 = 1176
+
+1176 * 24 = 28224
+
+28224 * 1 = 28224
+
+so, area = √28224
+
+what's the square root of 28224?
+
+well, 168 squared is 28224 because 170 squared is 28900, which is higher, and 160 squared is 25600, which is lower. so, 168^2 = 28224.
+
+therefore, area = 168 cm², which matches what i got earlier.
+
+so, both methods give me the same answer, which is reassuring. therefore, the area of triangle abc is 168 square centimeters.
+
+**final answer**
+
+the area of triangle 
+a
+b
+c
+abc is \boxed{168} square centimeters.

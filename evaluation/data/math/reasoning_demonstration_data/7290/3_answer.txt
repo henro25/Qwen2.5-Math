@@ -1,1 +1,36 @@
-Answer: 
+Answer: Given the equations of the lines:
+
+1. \( y = k \) for \( k = -10, -9, \ldots, 10 \) (21 lines),
+2. \( y = \sqrt{3}x + 2k \) for \( k = -10, -9, \ldots, 10 \) (21 lines),
+3. \( y = -\sqrt{3}x + 2k \) for \( k = -10, -9, \ldots, 10 \) (21 lines),
+
+these lines form equilateral triangles with side length \( \frac{2}{\sqrt{3}} \).
+
+to find the number of such triangles, we need to count the number of triplets \((k, m, n)\) that satisfy the condition \( |n - k + m| = 1 \).
+
+the total number of triplets is calculated as follows:
+
+1. for \( k \geq 1 \):
+   \[
+   \sum_{k=1}^{10} (42 - 2k) = 42 \times 10 - 2 \times \sum_{k=1}^{10} k = 420 - 2 \times 55 = 420 - 110 = 310
+   \]
+
+2. for \( k \leq -1 \):
+   \[
+   \sum_{k=-10}^{-1} (42 + 2k) = \sum_{m=1}^{10} (42 - 2m) = 42 \times 10 - 2 \times \sum_{m=1}^{10} m = 420 - 110 = 310
+   \]
+
+3. for \( k = 0 \):
+   \[
+   40
+   \]
+
+adding these together:
+\[
+310 + 310 + 40 = 660
+\]
+
+thus, the number of equilateral triangles formed is:
+\[
+\boxed{660}
+\]

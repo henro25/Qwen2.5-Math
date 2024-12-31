@@ -1,1 +1,19 @@
-Reasoning: 
+Reasoning: Okay, so I have this problem here about force and wrenches. It says that the force needed to loosen a bolt varies inversely with the length of the handle of the wrench used. Hmm, I think that means that as the handle gets longer, the force needed decreases, and vice versa. So, like, if I have a longer wrench, I don't need to push as hard to get the bolt loose.
+
+Alright, they gave me a wrench with a handle length of 9 inches that requires 375 pounds of force. And I need to find out how much force is needed if the wrench handle is 15 inches long. So, the force varies inversely with the length, which I believe means that force times length is a constant. So, F times L equals some constant k.
+
+Let me write that down: F * L = k.
+
+So, for the first wrench, F1 * L1 = k, which is 375 pounds times 9 inches. Let me calculate that: 375 * 9 = 3375. So, k is 3375.
+
+Now, for the second wrench with a handle length of 15 inches, I need to find the force F2 such that F2 * 15 = 3375.
+
+So, F2 = 3375 / 15.
+
+Let me do that division: 3375 divided by 15. Well, 15 times 200 is 3000, and 15 times 25 is 375, so 200 plus 25 is 225. So, F2 should be 225 pounds.
+
+Wait, does that make sense? Let me double-check. If I have a longer handle, the force should be less, and indeed, 225 is less than 375, so that seems right.
+
+Maybe I can think of it another way. The lengths are 9 inches and 15 inches. The ratio of lengths is 15/9, which simplifies to 5/3. Since force varies inversely with length, the force should be inversely proportional to that ratio. So, F2 = F1 * (L1 / L2) = 375 * (9/15) = 375 * (3/5) = 225 pounds. Yeah, that matches what I got before.
+
+I think that's the answer. 225 pounds of force are needed for the 15-inch wrench.

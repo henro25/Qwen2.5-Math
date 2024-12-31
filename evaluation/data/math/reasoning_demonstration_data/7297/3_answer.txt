@@ -1,1 +1,43 @@
-Answer: 
+Answer: To find all real numbers \( k \) such that
+\[
+\left\| k \begin{pmatrix} 2 \\ -3 \end{pmatrix} - \begin{pmatrix} 4 \\ 7 \end{pmatrix} \right\| = 2 \sqrt{13},
+\]
+we start by computing the vector inside the norm:
+\[
+k \begin{pmatrix} 2 \\ -3 \end{pmatrix} - \begin{pmatrix} 4 \\ 7 \end{pmatrix} = \begin{pmatrix} 2k - 4 \\ -3k - 7 \end{pmatrix}.
+\]
+the norm of this vector is:
+\[
+\sqrt{(2k - 4)^2 + (-3k - 7)^2} = 2\sqrt{13}.
+\]
+squaring both sides to eliminate the square root, we get:
+\[
+(2k - 4)^2 + (-3k - 7)^2 = 52.
+\]
+expanding and combining like terms:
+\[
+4k^2 - 16k + 16 + 9k^2 + 42k + 49 = 52,
+\]
+\[
+13k^2 + 26k + 65 = 52.
+\]
+subtracting 52 from both sides:
+\[
+13k^2 + 26k + 13 = 0.
+\]
+dividing by 13:
+\[
+k^2 + 2k + 1 = 0.
+\]
+this factors to:
+\[
+(k + 1)^2 = 0,
+\]
+so the solution is:
+\[
+k = -1.
+\]
+thus, the only real solution is:
+\[
+\boxed{-1}.
+\]

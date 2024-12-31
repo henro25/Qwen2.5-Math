@@ -1,1 +1,27 @@
-Answer: 
+Answer: To determine the probability that a randomly selected domino from a complete set is a double, we first need to find the total number of unique dominoes in the set and the number of doubles.
+
+a domino is composed of two squares, each showing an integer from 0 to 9. each integer is paired with every integer exactly once, and dominoes are symmetrical (e.g., (2,5) is the same as (5,2)).
+
+1. calculate the total number of unique dominoes:
+   - the number of ways to choose 2 different numbers from 0 to 9, where order doesn't matter, is given by the combination formula \( \binom{10}{2} \):
+     \[
+     \binom{10}{2} = \frac{10 \times 9}{2 \times 1} = 45
+     \]
+   - there are also 10 doubles: (0,0), (1,1), ..., (9,9).
+
+   therefore, the total number of dominoes is:
+   \[
+   45 + 10 = 55
+   \]
+
+2. the number of doubles is 10.
+
+3. the probability of selecting a double is the number of doubles divided by the total number of dominoes:
+   \[
+   \frac{10}{55} = \frac{2}{11}
+   \]
+
+thus, the probability that a randomly selected domino is a double is:
+\[
+\boxed{\frac{2}{11}}
+\]

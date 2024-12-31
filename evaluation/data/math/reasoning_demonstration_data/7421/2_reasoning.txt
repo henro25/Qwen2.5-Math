@@ -1,1 +1,501 @@
-Reasoning: 
+Reasoning: So i've got this problem here: let 
+f
+(
+x
+)
+=
+x
+2
+−
+x
++
+2010
+f(x)=x 
+2
+ −x+2010. i need to find the greatest common divisor (gcd) of 
+f
+(
+100
+)
+f(100) and 
+f
+(
+101
+)
+f(101). hmm, okay, let's start by understanding what the gcd is. the gcd of two numbers is the largest number that divides both of them without leaving a remainder.
+
+first, i should probably compute 
+f
+(
+100
+)
+f(100) and 
+f
+(
+101
+)
+f(101) separately.
+
+so, for 
+f
+(
+100
+)
+f(100):
+
+f
+(
+100
+)
+=
+10
+0
+2
+−
+100
++
+2010
+=
+10000
+−
+100
++
+2010
+=
+10000
+−
+100
+=
+9900
+;
+9900
++
+2010
+=
+11910
+f(100)=100 
+2
+ −100+2010=10000−100+2010=10000−100=9900;9900+2010=11910
+wait, that seems a bit messy. let me double-check that calculation:
+
+10
+0
+2
+=
+10
+,
+000
+100 
+2
+ =10,000
+10
+,
+000
+−
+100
+=
+9
+,
+900
+10,000−100=9,900
+9
+,
+900
++
+2010
+=
+11
+,
+910
+9,900+2010=11,910
+yes, that's correct. so, 
+f
+(
+100
+)
+=
+11
+,
+910
+f(100)=11,910.
+
+now, for 
+f
+(
+101
+)
+f(101):
+
+f
+(
+101
+)
+=
+10
+1
+2
+−
+101
++
+2010
+f(101)=101 
+2
+ −101+2010
+first, calculate 
+10
+1
+2
+101 
+2
+ . i know that 
+10
+0
+2
+=
+10
+,
+000
+100 
+2
+ =10,000, and 
+10
+1
+2
+=
+(
+100
++
+1
+)
+2
+=
+10
+0
+2
++
+2
+×
+100
+×
+1
++
+1
+2
+=
+10
+,
+000
++
+200
++
+1
+=
+10
+,
+201
+101 
+2
+ =(100+1) 
+2
+ =100 
+2
+ +2×100×1+1 
+2
+ =10,000+200+1=10,201.
+
+so,
+
+f
+(
+101
+)
+=
+10
+,
+201
+−
+101
++
+2010
+=
+10
+,
+201
+−
+101
+=
+10
+,
+100
+f(101)=10,201−101+2010=10,201−101=10,100
+10
+,
+100
++
+2010
+=
+12
+,
+110
+10,100+2010=12,110
+therefore, 
+f
+(
+101
+)
+=
+12
+,
+110
+f(101)=12,110.
+
+now, i need to find the gcd of 11,910 and 12,110. to find the gcd, one common method is the euclidean algorithm. it involves repeatedly replacing the larger number with the difference between the larger and smaller number until both numbers are equal, and that number is the gcd.
+
+alternatively, since both numbers are large, maybe factoring them would be time-consuming. the euclidean algorithm is probably more efficient here.
+
+let's recall how the euclidean algorithm works:
+
+1. given two numbers, a and b, where a > b.
+
+2. replace a with a - b.
+
+3. repeat the process until a equals b; that value is the gcd.
+
+wait, actually, a more efficient version is:
+
+1. divide a by b to get the remainder r.
+
+2. replace a with b and b with r.
+
+3. repeat until b is zero; the gcd is the last non-zero remainder.
+
+yes, that's better, especially for larger numbers.
+
+so, let's apply that here.
+
+let a = 12,110 and b = 11,910.
+
+first step:
+
+12
+,
+110
+÷
+11
+,
+910
+=
+1
+ with a remainder of 
+200
+12,110÷11,910=1 with a remainder of 200
+so, now set a = 11,910 and b = 200.
+
+next step:
+
+11
+,
+910
+÷
+200
+=
+59
+ with a remainder of 
+110
+11,910÷200=59 with a remainder of 110
+(set a = 200, b = 110)
+
+next:
+
+200
+÷
+110
+=
+1
+ with a remainder of 
+90
+200÷110=1 with a remainder of 90
+(set a = 110, b = 90)
+
+next:
+
+110
+÷
+90
+=
+1
+ with a remainder of 
+20
+110÷90=1 with a remainder of 20
+(set a = 90, b = 20)
+
+next:
+
+90
+÷
+20
+=
+4
+ with a remainder of 
+10
+90÷20=4 with a remainder of 10
+(set a = 20, b = 10)
+
+next:
+
+20
+÷
+10
+=
+2
+ with a remainder of 
+0
+20÷10=2 with a remainder of 0
+since the remainder is 0, the last non-zero remainder is 10. therefore, the gcd is 10.
+
+wait a minute, is that correct? let me double-check.
+
+starting with 12,110 and 11,910.
+
+12,110 ÷ 11,910 = 1, remainder 200.
+
+11,910 ÷ 200 = 59, remainder 110.
+
+200 ÷ 110 = 1, remainder 90.
+
+110 ÷ 90 = 1, remainder 20.
+
+90 ÷ 20 = 4, remainder 10.
+
+20 ÷ 10 = 2, remainder 0.
+
+yes, that seems correct. so, the gcd is 10.
+
+but, just to be thorough, maybe i should check if 10 indeed divides both numbers.
+
+let's see:
+
+11,910 ÷ 10 = 1,191, which is an integer.
+
+12,110 ÷ 10 = 1,211, which is also an integer.
+
+so, yes, 10 is a common divisor.
+
+is there a larger number that divides both?
+
+well, the euclidean algorithm is supposed to give the greatest common divisor, so unless i made a mistake in the calculation, 10 should be the correct answer.
+
+alternatively, i can try to see if 20 divides both numbers.
+
+11,910 ÷ 20 = 595.5, which is not an integer.
+
+12,110 ÷ 20 = 605.5, also not an integer.
+
+so, 20 is not a divisor of both.
+
+what about 5?
+
+11,910 ÷ 5 = 2,382, which is an integer.
+
+12,110 ÷ 5 = 2,422, which is also an integer.
+
+so, 5 is a common divisor, but it's smaller than 10, which is already a common divisor. so, 10 is larger.
+
+what about 2?
+
+11,910 ÷ 2 = 5,955, integer.
+
+12,110 ÷ 2 = 6,055, integer.
+
+again, 2 is a common divisor but smaller than 10.
+
+what about 1?
+
+of course, 1 divides everything, but it's smaller than 10.
+
+so, it seems 10 is indeed the greatest common divisor.
+
+but, is there a way to confirm this without the euclidean algorithm? maybe by factoring both numbers.
+
+let's try factoring 11,910 and 12,110.
+
+first, factor 11,910.
+
+11,910 is even, so divisible by 2.
+
+11,910 ÷ 2 = 5,955.
+
+5,955 ends with 5, so divisible by 5.
+
+5,955 ÷ 5 = 1,191.
+
+1,191: let's see, sum of digits is 1+1+9+1=12, which is divisible by 3, so 1,191 ÷ 3 = 397.
+
+397 is a prime number, i believe.
+
+so, the prime factors of 11,910 are 2 × 5 × 3 × 397.
+
+now, factor 12,110.
+
+12,110 is even, so divisible by 2.
+
+12,110 ÷ 2 = 6,055.
+
+6,055 ends with 5, so divisible by 5.
+
+6,055 ÷ 5 = 1,211.
+
+1,211: let's check if it's divisible by 3: 1+2+1+1=5, not divisible by 3.
+
+next, check for 7: 1,211 ÷ 7 is approximately 173, but 7 × 173 = 1,211? let's check: 7 × 170 = 1,190, plus 7 × 3 = 21, total 1,211. yes, so 1,211 ÷ 7 = 173.
+
+is 173 a prime number? let's check.
+
+check divisibility by primes less than sqrt(173), which is approximately 13.15. so, check primes up to 13.
+
+173 ÷ 2: no.
+
+173 ÷ 3: 1+7+3=11, not divisible by 3.
+
+173 ÷ 5: doesn't end with 0 or 5.
+
+173 ÷ 7: 7 × 24 = 168, remainder 5.
+
+173 ÷ 11: 11 × 15 = 165, remainder 8.
+
+173 ÷ 13: 13 × 13 = 169, remainder 4.
+
+so, 173 is a prime number.
+
+therefore, the prime factors of 12,110 are 2 × 5 × 7 × 173.
+
+now, to find the gcd, we take the product of the smallest powers of all common prime factors.
+
+looking at both factorizations:
+
+11,910: 2 × 5 × 3 × 397
+
+12,110: 2 × 5 × 7 × 173
+
+the common prime factors are 2 and 5, each to the first power.
+
+therefore, gcd = 2 × 5 = 10.
+
+yes, this confirms our earlier result from the euclidean algorithm.
+
+so, the greatest common divisor of 
+f
+(
+100
+)
+f(100) and 
+f
+(
+101
+)
+f(101) is 10.
+
+**final answer**
+
+10
+ 

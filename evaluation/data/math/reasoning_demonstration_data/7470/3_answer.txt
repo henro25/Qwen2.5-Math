@@ -1,1 +1,11 @@
-Answer: 
+Answer: Given nonzero real numbers \( x \) and \( y \), we need to find the minimum \( m \) and maximum \( m \) of the expression \(\frac{|x + y|}{|x| + |y|}\), and then determine \( m - m \).
+
+first, we use the triangle inequality, which states \( |x + y| \leq |x| + |y| \). this implies that \(\frac{|x + y|}{|x| + |y|} \leq 1\). therefore, the maximum value \( m \) is 1.
+
+next, we consider the minimum value. the expression \(\frac{|x + y|}{|x| + |y|}\) is always non-negative because both the numerator and the denominator are non-negative. to find the minimum value, we consider the case when \( x + y = 0 \), which implies \( y = -x \). in this case, \( |x + y| = |x - x| = 0 \), and \( |x| + |y| = |x| + |-x| = 2|x| \). thus, \(\frac{|x + y|}{|x| + |y|} = \frac{0}{2|x|} = 0\). therefore, the minimum value \( m \) is 0.
+
+hence, \( m - m = 1 - 0 = 1 \).
+
+\[
+\boxed{1}
+\]

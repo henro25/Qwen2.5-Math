@@ -1,1 +1,61 @@
-Answer: 
+Answer: Given the operation \( a \star b = \frac{\sqrt{a+b}}{\sqrt{a-b}} \), we need to find \( x \) such that \( x \star 24 = 7 \).
+
+starting with the equation:
+
+\[
+\frac{\sqrt{x + 24}}{\sqrt{x - 24}} = 7
+\]
+
+we square both sides to eliminate the square roots:
+
+\[
+\left( \frac{\sqrt{x + 24}}{\sqrt{x - 24}} \right)^2 = 7^2
+\]
+
+this simplifies to:
+
+\[
+\frac{x + 24}{x - 24} = 49
+\]
+
+next, we solve the rational equation by cross-multiplying:
+
+\[
+x + 24 = 49(x - 24)
+\]
+
+distributing the 49 on the right side:
+
+\[
+x + 24 = 49x - 1176
+\]
+
+we then isolate \( x \) by subtracting \( x \) from both sides:
+
+\[
+24 = 48x - 1176
+\]
+
+adding 1176 to both sides:
+
+\[
+1200 = 48x
+\]
+
+finally, dividing both sides by 48:
+
+\[
+x = \frac{1200}{48} = 25
+\]
+
+we verify that \( x = 25 \) satisfies the original equation:
+
+\[
+\frac{\sqrt{25 + 24}}{\sqrt{25 - 24}} = \frac{\sqrt{49}}{\sqrt{1}} = \frac{7}{1} = 7
+\]
+
+thus, the solution is valid, and the final answer is:
+
+\[
+\boxed{25}
+\]

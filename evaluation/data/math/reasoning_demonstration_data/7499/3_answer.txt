@@ -1,1 +1,79 @@
-Answer: 
+Answer: To solve the equation \(\sqrt{1 + \sqrt{2 + \sqrt{x}}} = \sqrt[3]{1 + \sqrt{x}}\), we start by letting \(y = \sqrt{x}\), which transforms the equation into:
+
+\[
+\sqrt{1 + \sqrt{2 + y}} = \sqrt[3]{1 + y}
+\]
+
+next, we square both sides to eliminate the square root on the left:
+
+\[
+1 + \sqrt{2 + y} = \left(\sqrt[3]{1 + y}\right)^2
+\]
+
+subtract 1 from both sides:
+
+\[
+\sqrt{2 + y} = \left(\sqrt[3]{1 + y}\right)^2 - 1
+\]
+
+square both sides again to eliminate the square root:
+
+\[
+2 + y = \left(\left(\sqrt[3]{1 + y}\right)^2 - 1\right)^2
+\]
+
+let \(z = \sqrt[3]{1 + y}\), then \(z^3 = 1 + y\) or \(y = z^3 - 1\). substitute this into the equation:
+
+\[
+2 + (z^3 - 1) = (z^2 - 1)^2
+\]
+
+simplify and solve for \(z\):
+
+\[
+z^3 + 1 = z^4 - 2z^2 + 1
+\]
+
+\[
+z^4 - z^3 - 2z^2 = 0
+\]
+
+factor out \(z^2\):
+
+\[
+z^2(z^2 - z - 2) = 0
+\]
+
+this gives \(z = 0\) or \(z^2 - z - 2 = 0\). solving \(z^2 - z - 2 = 0\) using the quadratic formula:
+
+\[
+z = \frac{1 \pm \sqrt{9}}{2} = 2 \text{ or } -1
+\]
+
+for \(z = 2\):
+
+\[
+y = z^3 - 1 = 8 - 1 = 7
+\]
+
+thus, \(x = y^2 = 49\). verify by substituting back into the original equation:
+
+left side:
+
+\[
+\sqrt{1 + \sqrt{2 + \sqrt{49}}} = \sqrt{1 + \sqrt{2 + 7}} = \sqrt{1 + \sqrt{9}} = \sqrt{1 + 3} = \sqrt{4} = 2
+\]
+
+right side:
+
+\[
+\sqrt[3]{1 + \sqrt{49}} = \sqrt[3]{1 + 7} = \sqrt[3]{8} = 2
+\]
+
+both sides are equal, confirming \(x = 49\) is a solution. for \(z = -1\), \(y = -2\) is not possible as \(y = \sqrt{x}\) must be non-negative.
+
+thus, the only solution is:
+
+\[
+\boxed{49}
+\]

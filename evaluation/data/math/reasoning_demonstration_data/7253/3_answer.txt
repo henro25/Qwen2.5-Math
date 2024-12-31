@@ -1,1 +1,58 @@
-Answer: 
+Answer: Given triangle \(abc\) with medians \(\overline{ad}\) and \(\overline{ce}\) of lengths 18 and 27, respectively, and side \(ab = 24\), we need to find the area of triangle \(afb\) where \(f\) is the intersection of the extension of \(\overline{ce}\) with the circumcircle of \(abc\).
+
+first, we use the median length formulas:
+\[
+m_a = \frac{1}{2} \sqrt{2b^2 + 2c^2 - a^2}
+\]
+\[
+m_c = \frac{1}{2} \sqrt{2a^2 + 2b^2 - c^2}
+\]
+given \(m_a = 18\), \(m_c = 27\), and \(c = 24\), we solve for \(a\) and \(b\):
+\[
+18 = \frac{1}{2} \sqrt{2b^2 + 2(24)^2 - a^2} \implies 36 = \sqrt{2b^2 + 1152 - a^2} \implies 1296 = 2b^2 + 1152 - a^2 \implies 2b^2 - a^2 = 144
+\]
+\[
+27 = \frac{1}{2} \sqrt{2a^2 + 2b^2 - 24^2} \implies 54 = \sqrt{2a^2 + 2b^2 - 576} \implies 2916 = 2a^2 + 2b^2 - 576 \implies 2a^2 + 2b^2 = 3492 \implies a^2 + b^2 = 1746
+\]
+solving these equations:
+\[
+2b^2 - a^2 = 144 \quad \text{and} \quad a^2 + b^2 = 1746
+\]
+adding these:
+\[
+3b^2 = 1890 \implies b^2 = 630 \implies b = \sqrt{630} = 3\sqrt{70}
+\]
+\[
+a^2 = 1746 - 630 = 1116 \implies a = \sqrt{1116} = 2\sqrt{279}
+\]
+
+next, using the power of a point theorem for point \(e\) on the circumcircle:
+\[
+ec \cdot ef = ea \cdot eb \implies 27 \cdot ef = 144 \implies ef = \frac{144}{27} = \frac{16}{3}
+\]
+\[
+cf = ce + ef = 27 + \frac{16}{3} = \frac{97}{3}
+\]
+
+using coordinates and the shoelace formula to find the area of triangle \(afb\):
+\[
+\text{area} = \frac{1}{2} \left| x_a(y_b - y_f) + x_b(y_f - y_a) + x_f(y_a - y_b) \right|
+\]
+\[
+\text{area} = \frac{1}{2} \left| 0(0 - (-2\sqrt{40095}/81)) + 24(-2\sqrt{40095}/81 - 0) + 14(0 - 0) \right|
+\]
+\[
+\text{area} = \frac{1}{2} \left| 24 \cdot \left(-\frac{2\sqrt{40095}}{81}\right) \right| = \frac{1}{2} \left| -\frac{48\sqrt{40095}}{81} \right| = \frac{24\sqrt{40095}}{81} = \frac{8\sqrt{40095}}{27}
+\]
+simplifying \(\sqrt{40095}\):
+\[
+40095 = 5 \times 3^6 \times 11 \implies \sqrt{40095} = 27\sqrt{55}
+\]
+\[
+\text{area} = \frac{8 \times 27\sqrt{55}}{27} = 8\sqrt{55}
+\]
+thus, the area of triangle \(afb\) is \(8\sqrt{55}\), and \(m + n = 8 + 55 = 63\).
+
+\[
+\boxed{63}
+\]

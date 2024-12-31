@@ -1,1 +1,30 @@
-Answer: 
+Answer: Let \( x \) be the number of days sam worked, and \( y \) be the number of days he did not work. we know:
+
+1. \( x + y = 20 \)
+2. \( 60x - 30y = 660 \)
+
+from the first equation, we solve for \( x \):
+
+\[ x = 20 - y \]
+
+substitute this into the second equation:
+
+\[ 60(20 - y) - 30y = 660 \]
+\[ 1200 - 60y - 30y = 660 \]
+\[ 1200 - 90y = 660 \]
+\[ -90y = 660 - 1200 \]
+\[ -90y = -540 \]
+\[ y = \frac{-540}{-90} \]
+\[ y = 6 \]
+
+thus, sam did not work for 6 days. to verify, if \( y = 6 \), then \( x = 20 - 6 = 14 \). his earnings would be:
+
+\[ 14 \times 60 = 840 \]
+\[ 6 \times 30 = 180 \]
+\[ 840 - 180 = 660 \]
+
+this matches the given total of $660. therefore, the final answer is:
+
+\[
+\boxed{6}
+\]

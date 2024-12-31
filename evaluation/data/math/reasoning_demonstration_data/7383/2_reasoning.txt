@@ -1,1 +1,147 @@
-Reasoning: 
+Reasoning: So i have this problem about equilateral triangles and their perimeters. let's see what it's asking.
+
+we start with an equilateral triangle with sides of length 2 units. then, each subsequent triangle has sides that are 150% of the previous one. we're supposed to do this four times and find the percent increase in the perimeter from the first to the fourth triangle. and then, express the answer to the nearest tenth.
+
+first, i need to understand what's happening here. we have four triangles in total. the first one has sides of 2 units. the second one has sides that are 150% of the first, which is 1.5 times 2, so 3 units. the third one has sides that are 150% of the second one, so 1.5 times 3, which is 4.5 units. the fourth one would be 1.5 times 4.5, which is... let me calculate that.
+
+1.5 times 4.5 is 6.75 units. so, the sides are growing by a factor of 1.5 each time.
+
+now, since all the triangles are equilateral, their perimeters are just three times the side length. so, the perimeter of the first triangle is 3 times 2, which is 6 units.
+
+the second triangle has a perimeter of 3 times 3, which is 9 units.
+
+the third one is 3 times 4.5, which is 13.5 units.
+
+and the fourth one is 3 times 6.75, which is 20.25 units.
+
+so, the perimeters are: 6, 9, 13.5, and 20.25 units for the four triangles, respectively.
+
+now, the problem asks for the percent increase in the perimeter from the first to the fourth triangle.
+
+percent increase is calculated as:
+
+percent increase
+=
+(
+new value
+−
+original value
+original value
+)
+×
+100
+%
+percent increase=( 
+original value
+new value−original value
+​	
+ )×100%
+in this case, the original perimeter is 6 units, and the new perimeter is 20.25 units.
+
+so, plugging in the values:
+
+percent increase
+=
+(
+20.25
+−
+6
+6
+)
+×
+100
+%
+percent increase=( 
+6
+20.25−6
+​	
+ )×100%
+first, calculate the difference: 20.25 - 6 = 14.25.
+
+then, divide by the original value: 14.25 / 6 = 2.375.
+
+finally, multiply by 100%: 2.375 × 100% = 237.5%.
+
+so, the percent increase is 237.5%.
+
+wait a minute, is that correct? let me double-check.
+
+starting with side length 2, then 3, then 4.5, then 6.75.
+
+perimeters: 6, 9, 13.5, 20.25.
+
+difference: 20.25 - 6 = 14.25.
+
+14.25 / 6 = 2.375.
+
+2.375 × 100% = 237.5%.
+
+yes, that seems right.
+
+alternatively, i could think about the ratio of the perimeters. since each side is multiplied by 1.5 each time, the perimeter is also multiplied by 1.5 each time because perimeter is proportional to side length.
+
+so, from the first to the fourth triangle, that's three multiplications by 1.5 (since first to second is one multiplication, second to third is another, and third to fourth is the third).
+
+so, the scale factor for the perimeters is 
+1.
+5
+3
+1.5 
+3
+ .
+
+let me calculate that:
+
+1.
+5
+3
+=
+1.5
+×
+1.5
+×
+1.5
+1.5 
+3
+ =1.5×1.5×1.5.
+
+first, 1.5 × 1.5 = 2.25.
+
+then, 2.25 × 1.5 = 3.375.
+
+so, the perimeter of the fourth triangle is 3.375 times the first one.
+
+so, the increase is 3.375 - 1 = 2.375 times, or 237.5%.
+
+this matches my previous calculation. so, i'm confident that 237.5% is the correct percent increase.
+
+just to be thorough, let's see if there's another way to look at it.
+
+the general formula for percent increase is indeed what i used. alternatively, sometimes people might consider multiplying by 100% to find percentage, but in this case, it's straightforward.
+
+also, since the triangles are similar (all equilateral triangles are similar), their perimeters scale with the side lengths. so, scaling side lengths by 1.5 each time scales perimeters by 1.5 each time.
+
+therefore, after three scalings (from first to fourth triangle), the perimeter is scaled by 
+1.
+5
+3
+=
+3.375
+1.5 
+3
+ =3.375.
+
+hence, the increase is 
+3.375
+−
+1
+=
+2.375
+3.375−1=2.375, which is 237.5%.
+
+i don't see any mistakes here.
+
+**final answer**
+
+237.5%​	
+ 

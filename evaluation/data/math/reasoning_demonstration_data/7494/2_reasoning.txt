@@ -1,1 +1,31 @@
-Reasoning: 
+Reasoning: Alright, so I have to find the greatest common factor of 2835 and 8960. I remember that the greatest common factor, or GCF, is the largest number that divides both of these numbers without leaving a remainder. But I'm a bit rusty on the exact method to find it. I think there are a couple of ways to approach this, like listing out all the factors of each number and then finding the largest one they have in common, but that seems time-consuming, especially with such big numbers.
+
+Maybe there's a better way. Oh, right! I think the Euclidean algorithm is a more efficient method for finding the GCF of two numbers. I've heard of it before, but I'm not entirely sure how it works. Let me try to recall. I believe it involves dividing the larger number by the smaller one and then using the remainder to continue the process. It's like a loop where you keep doing this until the remainder is zero, and the last non-zero remainder is the GCF.
+
+Let me see if I can apply that here. So, we have 8960 and 2835. Since 8960 is larger, I'll divide 8960 by 2835.
+
+First, how many times does 2835 go into 8960? Let's do some quick division. 2835 times 3 is 8505, and 2835 times 4 is 11340, which is too big. So, 3 times. That means 2835 times 3 is 8505, and subtracting that from 8960 gives a remainder of 455.
+
+So now, I take 2835 and divide it by 455. How many times does 455 go into 2835? Let's see, 455 times 6 is 2730, and 455 times 7 is 3185, which is too big. So, 6 times. 455 times 6 is 2730, and subtracting that from 2835 gives a remainder of 105.
+
+Next, I take 455 and divide it by 105. How many times does 105 go into 455? 105 times 4 is 420, and 105 times 5 is 525, which is too big. So, 4 times. 105 times 4 is 420, and subtracting that from 455 leaves a remainder of 35.
+
+Now, I take 105 and divide it by 35. How many times does 35 go into 105? That's exactly 3 times, with no remainder.
+
+Since the remainder is now zero, the last non-zero remainder is 35. So, is 35 the GCF of 2835 and 8960?
+
+Wait a minute, I should probably double-check this to make sure I didn't make any mistakes along the way. Let's verify if 35 indeed divides both 2835 and 8960 without leaving a remainder.
+
+First, 2835 divided by 35. 35 times 80 is 2800, and 35 times 81 is 2835, so yes, it divides evenly.
+
+Now, 8960 divided by 35. 35 times 256 is 8960, so that also divides evenly.
+
+Okay, that seems correct. But just to be thorough, maybe I should try to see if there's a larger number that also divides both numbers. Let's think about the factors of 35. 35 is 5 times 7. So, could there be a larger factor, like 105? Let's check if 105 divides both numbers.
+
+2835 divided by 105. 105 times 27 is 2835, so yes, it divides evenly.
+
+8960 divided by 105. Let's see, 105 times 85 is 8925, and 105 times 86 is 8970, which is too big. So, 105 doesn't divide 8960 evenly, because 8960 minus 8925 is 35, which is not zero. So, 105 isn't a common factor.
+
+Alright, that confirms that 35 is indeed the greatest common factor of 2835 and 8960.
+
+I think that's it. I used the Euclidean algorithm, checked my work, and confirmed that 35 is the correct GCF.

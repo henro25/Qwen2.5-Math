@@ -1,1 +1,28 @@
-Answer: 
+Answer: To find the ratio of the side length of an equilateral triangle to the side length of a square, given that both have perimeters of 48 inches, follow these steps:
+
+1. **Determine the side length of the triangle:**
+   - An equilateral triangle has 3 equal sides.
+   - Let the side length be \( t \).
+   - The perimeter is \( 3t = 48 \).
+   - Solving for \( t \): 
+     \[
+     t = \frac{48}{3} = 16 \text{ inches}.
+     \]
+
+2. **Determine the side length of the square:**
+   - A square has 4 equal sides.
+   - Let the side length be \( s \).
+   - The perimeter is \( 4s = 48 \).
+   - Solving for \( s \):
+     \[
+     s = \frac{48}{4} = 12 \text{ inches}.
+     \]
+
+3. **Find the ratio of the side of the triangle to the side of the square:**
+   - The ratio is \( \frac{t}{s} = \frac{16}{12} \).
+   - Simplify the fraction by dividing both numerator and denominator by their greatest common divisor, which is 4:
+     \[
+     \frac{16 \div 4}{12 \div 4} = \frac{4}{3}.
+     \]
+
+**Answer:** The ratio of the side length of the triangle to the side length of the square is \(\boxed{\dfrac{4}{3}}\).

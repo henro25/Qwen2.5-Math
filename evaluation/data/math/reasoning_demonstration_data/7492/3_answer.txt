@@ -1,1 +1,23 @@
-Answer: 
+Answer: To evaluate the expression \(\left\lceil{\frac{5}{4}}\right\rceil + \left\lfloor{-\frac{5}{4}}\right\rfloor\), we start by understanding the ceiling and floor functions.
+
+the ceiling function \(\lceil x \rceil\) gives the smallest integer greater than or equal to \(x\), and the floor function \(\lfloor x \rfloor\) gives the largest integer less than or equal to \(x\).
+
+first, we find \(\left\lceil{\frac{5}{4}}\right\rceil\):
+\[
+\frac{5}{4} = 1.25 \quad \text{and} \quad \left\lceil{1.25}\right\rceil = 2
+\]
+
+next, we find \(\left\lfloor{-\frac{5}{4}}\right\rfloor\):
+\[
+-\frac{5}{4} = -1.25 \quad \text{and} \quad \left\lfloor{-1.25}\right\rfloor = -2
+\]
+
+adding these results together:
+\[
+2 + (-2) = 0
+\]
+
+thus, the final answer is:
+\[
+\boxed{0}
+\]

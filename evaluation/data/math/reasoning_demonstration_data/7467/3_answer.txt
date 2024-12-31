@@ -1,1 +1,57 @@
-Answer: 
+Answer: To solve the equation \(\frac{r+9}{r-3} = \frac{r-2}{r+5}\), we start by cross-multiplying:
+
+\[
+(r + 9)(r + 5) = (r - 2)(r - 3)
+\]
+
+expanding both sides, we get:
+
+\[
+r^2 + 14r + 45 = r^2 - 5r + 6
+\]
+
+subtracting \(r^2\) from both sides simplifies to:
+
+\[
+14r + 45 = -5r + 6
+\]
+
+adding \(5r\) to both sides:
+
+\[
+19r + 45 = 6
+\]
+
+subtracting 45 from both sides:
+
+\[
+19r = -39
+\]
+
+dividing both sides by 19:
+
+\[
+r = \frac{-39}{19}
+\]
+
+to verify, we substitute \(r = \frac{-39}{19}\) back into the original equation and check both sides:
+
+left side:
+
+\[
+\frac{\frac{-39}{19} + 9}{\frac{-39}{19} - 3} = \frac{\frac{132}{19}}{\frac{-96}{19}} = -\frac{11}{8}
+\]
+
+right side:
+
+\[
+\frac{\frac{-39}{19} - 2}{\frac{-39}{19} + 5} = \frac{\frac{-77}{19}}{\frac{56}{19}} = -\frac{11}{8}
+\]
+
+both sides are equal, confirming the solution. additionally, \(r = \frac{-39}{19}\) does not make any denominators zero, so it is valid.
+
+thus, the final answer is:
+
+\[
+\boxed{-\dfrac{39}{19}}
+\]

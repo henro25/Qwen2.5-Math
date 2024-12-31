@@ -1,1 +1,31 @@
-Answer: 
+Answer: Given triangle \(abc\) with \(ab = 3\), \(ac = 6\), and \(bc = 8\), and point \(d\) on \(\overline{bc}\) such that \(\overline{ad}\) bisects \(\angle bac\), we need to find \(\cos \angle bad\).
+
+first, we use the angle bisector theorem to find the lengths of \(bd\) and \(dc\):
+
+\[
+\frac{bd}{dc} = \frac{ab}{ac} = \frac{3}{6} = \frac{1}{2}
+\]
+
+thus,
+
+\[
+bd = \frac{1}{3} \times 8 = \frac{8}{3}, \quad dc = \frac{2}{3} \times 8 = \frac{16}{3}
+\]
+
+next, we use the law of cosines to find \(\cos \angle bac\):
+
+\[
+\cos \angle bac = \frac{ab^2 + ac^2 - bc^2}{2 \cdot ab \cdot ac} = \frac{3^2 + 6^2 - 8^2}{2 \cdot 3 \cdot 6} = \frac{9 + 36 - 64}{36} = \frac{-19}{36}
+\]
+
+using the half-angle formula for cosine:
+
+\[
+\cos \left( \frac{\angle bac}{2} \right) = \sqrt{\frac{1 + \cos \angle bac}{2}} = \sqrt{\frac{1 - \frac{19}{36}}{2}} = \sqrt{\frac{\frac{17}{36}}{2}} = \sqrt{\frac{17}{72}} = \frac{\sqrt{34}}{12}
+\]
+
+thus, the final answer is:
+
+\[
+\boxed{\frac{\sqrt{34}}{12}}
+\]

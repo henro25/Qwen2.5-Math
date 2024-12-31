@@ -1,1 +1,19 @@
-Reasoning: 
+Reasoning: Alright, so I've got this problem here: "What is the base-ten number represented by the base-eight number 31?" Okay, base-eight, that's octal, right? And I need to convert that to base-ten, which is decimal, the usual numbering system we use every day.
+
+First, I need to remember how base conversions work. In base-eight, each digit represents a power of eight, starting from the rightmost digit, which is eight to the power of zero. So, for the number 31 in base-eight, the rightmost digit is 1, and that's in the eight-to-the-zero place, which is just 1. The next digit to the left is 3, and that's in the eight-to-the-first place, which is 8.
+
+So, to convert 31 from base-eight to base-ten, I need to multiply each digit by its corresponding power of eight and then add them up. Let's see, the 1 is in the 8^0 place, so that's 1 times 1, which is 1. The 3 is in the 8^1 place, so that's 3 times 8, which is 24. Then, I just add those together: 24 plus 1 equals 25.
+
+Wait a minute, that seems straightforward, but maybe I should double-check. Sometimes when dealing with different bases, it's easy to mix up the places or miscalculate the powers.
+
+Let me try another way. I know that in base-eight, each digit can be from 0 to 7. So, 31 in base-eight shouldn't have any digit higher than 7, and indeed, both 3 and 1 are fine.
+
+Another way to think about it is to consider the place values. The rightmost digit is the units place (8^0), the next one is the eights place (8^1), then the sixty-fours place (8^2), and so on. Since 31 only has two digits, we only need to consider 8^0 and 8^1.
+
+So, 3 times 8 is 24, plus 1 times 1 is 1, totaling 25. That matches what I got earlier. I think that's correct.
+
+Just to be extra sure, maybe I can convert it back from base-ten to base-eight and see if I get 31 again. If I take 25 in base-ten and convert it to base-eight:
+
+25 divided by 8 is 3 with a remainder of 1. So, the least significant digit is 1, and the next digit is 3. So, that's 31 in base-eight. Perfect, it matches the original number.
+
+I think I'm confident now that 31 in base-eight is equal to 25 in base-ten.

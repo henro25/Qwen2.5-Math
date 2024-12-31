@@ -1,1 +1,39 @@
-Answer: 
+Answer: Given triangle \(abc\) with sides \(ab = 9\), \(bc = 12\), and \(ac = 15\), and \(cd\) as the angle bisector of \(\angle c\), we need to find the length of \(cd\).
+
+first, we use the angle bisector theorem, which states that \(\frac{ad}{db} = \frac{ac}{bc} = \frac{15}{12} = \frac{5}{4}\). let \(ad = 5x\) and \(db = 4x\). since \(ad + db = ab = 9\), we have:
+\[
+5x + 4x = 9 \implies 9x = 9 \implies x = 1
+\]
+thus, \(ad = 5\) and \(db = 4\).
+
+next, we apply stewart's theorem to find \(cd\). stewart's theorem states:
+\[
+b^2 m + c^2 n = a (d^2 + m n)
+\]
+where \(a = ab = 9\), \(b = ac = 15\), \(c = bc = 12\), \(m = ad = 5\), \(n = db = 4\), and \(d = cd\). plugging in the values, we get:
+\[
+15^2 \cdot 4 + 12^2 \cdot 5 = 9 (cd^2 + 5 \cdot 4)
+\]
+\[
+225 \cdot 4 + 144 \cdot 5 = 9 (cd^2 + 20)
+\]
+\[
+900 + 720 = 9 (cd^2 + 20)
+\]
+\[
+1620 = 9 (cd^2 + 20)
+\]
+\[
+1620 = 9cd^2 + 180
+\]
+\[
+1440 = 9cd^2
+\]
+\[
+160 = cd^2
+\]
+\[
+cd = \sqrt{160} = 4\sqrt{10}
+\]
+
+thus, the length of \(cd\) is \(\boxed{4\sqrt{10}}\).

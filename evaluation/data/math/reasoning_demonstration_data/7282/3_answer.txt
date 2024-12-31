@@ -1,1 +1,31 @@
-Answer: 
+Answer: To find the value of \( x \), we start with the formula for the average of three numbers: 
+
+\[
+\text{Average} = \frac{12 + 21 + x}{3}
+\]
+
+We are given that the average is 18, so:
+
+\[
+\frac{12 + 21 + x}{3} = 18
+\]
+
+Multiplying both sides by 3:
+
+\[
+12 + 21 + x = 54
+\]
+
+Simplifying the left side:
+
+\[
+33 + x = 54
+\]
+
+Subtracting 33 from both sides gives:
+
+\[
+x = 21
+\]
+
+Thus, the value of \( x \) is 21.

@@ -1,1 +1,13 @@
-Answer: 
+Answer: To compute \(\cos 210^\circ\), we can use the unit circle and properties of trigonometric functions in different quadrants.
+
+1. recognize that \(210^\circ\) is in the third quadrant, where cosine values are negative.
+2. express \(210^\circ\) as \(180^\circ + 30^\circ\).
+3. use the formula for cosine of a sum of angles: \(\cos(180^\circ + x) = -\cos(x)\).
+4. therefore, \(\cos(210^\circ) = \cos(180^\circ + 30^\circ) = -\cos(30^\circ)\).
+5. recall that \(\cos(30^\circ) = \frac{\sqrt{3}}{2}\).
+
+thus, \(\cos(210^\circ) = -\frac{\sqrt{3}}{2}\).
+
+\[
+\boxed{-\dfrac{\sqrt{3}}{2}}
+\]

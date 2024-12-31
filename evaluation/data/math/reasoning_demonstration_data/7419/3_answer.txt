@@ -1,1 +1,36 @@
-Answer: 
+Answer: Given a right triangle \(abc\) with the right angle at \(b\), where \(ac = \sqrt{61}\) and \(ab = 5\), we need to find the length \(cp\) where a circle centered on \(ab\) is tangent to \(ac\) and \(bc\).
+
+first, we use the pythagorean theorem to find \(bc\):
+\[
+ac^2 = ab^2 + bc^2 \implies (\sqrt{61})^2 = 5^2 + bc^2 \implies 61 = 25 + bc^2 \implies bc^2 = 36 \implies bc = 6
+\]
+
+next, we place the points in a coordinate system:
+- \(b = (0, 0)\)
+- \(c = (0, 6)\)
+- \(a = (5, 0)\)
+
+the equation of line \(ac\) is:
+\[
+y = -\frac{6}{5}x + 6
+\]
+
+the center of the circle, \(o\), is on \(ab\) at \((h, 0)\) with radius \(r = h\). the perpendicular distance from \(o\) to \(ac\) is:
+\[
+\frac{|6h - 30|}{\sqrt{61}} = h \implies 30 - 6h = h \sqrt{61} \implies h = \frac{30}{\sqrt{61} + 6}
+\]
+
+the coordinates of \(p\) are found by solving the intersection of the line from \(o\) to \(p\) with slope \(\frac{5}{6}\) and the line \(ac\):
+\[
+\left( \frac{25h + 180}{61}, \frac{-30h + 150}{61} \right)
+\]
+
+the distance \(cp\) is:
+\[
+cp = \sqrt{\left( \frac{25h + 180}{61} \right)^2 + \left( \frac{-30h - 216}{61} \right)^2} = \sqrt{\frac{(25h + 180)^2 + (-30h - 216)^2}{61^2}} = \sqrt{\frac{1525h^2 + 21960h + 79056}{3721}} = \sqrt{36} = 6
+\]
+
+thus, the length \(cp\) is:
+\[
+\boxed{6}
+\]

@@ -1,1 +1,21 @@
-Answer: 
+Answer: Given that \(\mathbf{m} \mathbf{v} = \begin{pmatrix} 2 \\ 3 \end{pmatrix}\) and \(\mathbf{m} \mathbf{w} = \begin{pmatrix} -2 \\ -5 \end{pmatrix}\), we need to compute \(\mathbf{m} (\mathbf{v} + 3 \mathbf{w})\).
+
+using the linearity property of matrix multiplication, we have:
+\[
+\mathbf{m} (\mathbf{v} + 3 \mathbf{w}) = \mathbf{m} \mathbf{v} + 3 \mathbf{m} \mathbf{w}
+\]
+
+substituting the given values:
+\[
+\mathbf{m} \mathbf{v} = \begin{pmatrix} 2 \\ 3 \end{pmatrix} \quad \text{and} \quad 3 \mathbf{m} \mathbf{w} = 3 \begin{pmatrix} -2 \\ -5 \end{pmatrix} = \begin{pmatrix} -6 \\ -15 \end{pmatrix}
+\]
+
+adding these vectors:
+\[
+\begin{pmatrix} 2 \\ 3 \end{pmatrix} + \begin{pmatrix} -6 \\ -15 \end{pmatrix} = \begin{pmatrix} 2 - 6 \\ 3 - 15 \end{pmatrix} = \begin{pmatrix} -4 \\ -12 \end{pmatrix}
+\]
+
+therefore, the final answer is:
+\[
+\boxed{\begin{pmatrix} -4 \\ -12 \end{pmatrix}}
+\]

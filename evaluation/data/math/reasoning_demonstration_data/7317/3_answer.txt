@@ -1,1 +1,33 @@
-Answer: 
+Answer: To find the time \( t \) when the ball reaches a height of 25 feet, we start with the given height equation:
+
+\[ h = 45 - 7t - 6t^2 \]
+
+set \( h = 25 \):
+
+\[ 25 = 45 - 7t - 6t^2 \]
+
+rearrange to standard quadratic form:
+
+\[ 0 = 20 - 7t - 6t^2 \]
+\[ 6t^2 + 7t - 20 = 0 \]
+
+using the quadratic formula \( t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \) with \( a = 6 \), \( b = 7 \), and \( c = -20 \):
+
+\[ t = \frac{-7 \pm \sqrt{49 + 480}}{12} \]
+\[ t = \frac{-7 \pm \sqrt{529}}{12} \]
+\[ t = \frac{-7 \pm 23}{12} \]
+
+this gives two solutions:
+
+\[ t = \frac{16}{12} = \frac{4}{3} \]
+\[ t = \frac{-30}{12} = -2.5 \]
+
+since time cannot be negative, the valid solution is:
+
+\[ t = \frac{4}{3} \]
+
+thus, the ball reaches a height of 25 feet in:
+
+\[
+\boxed{\frac{4}{3} \text{ seconds}}
+\]

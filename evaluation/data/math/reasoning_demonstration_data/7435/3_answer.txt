@@ -1,1 +1,22 @@
-Answer: 
+Answer: To determine the values of \( x \) for which the expression \( \frac{\log{(3 - x)}}{\sqrt{x - 1}} \) is defined, we need to consider the conditions under which both the numerator and the denominator are defined and the denominator is non-zero.
+
+1. for the logarithm function \(\log{(3 - x)}\) to be defined, the argument must be positive:
+   \[
+   3 - x > 0 \implies x < 3
+   \]
+
+2. for the square root function \(\sqrt{x - 1}\) to be defined and non-zero, the argument must be positive:
+   \[
+   x - 1 > 0 \implies x > 1
+   \]
+
+combining these two conditions, we get:
+\[
+1 < x < 3
+\]
+
+thus, the expression \(\frac{\log{(3 - x)}}{\sqrt{x - 1}}\) is defined for all real numbers \( x \) such that \( 1 < x < 3 \).
+
+\[
+\boxed{1 < x < 3}
+\]

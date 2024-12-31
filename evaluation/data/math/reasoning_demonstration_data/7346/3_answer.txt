@@ -1,1 +1,49 @@
-Answer: 
+Answer: Given that \( x \) is nonzero and the numbers \(\{x\}\), \(\lfloor x \rfloor\), and \( x \) form an arithmetic sequence in that order, we need to find \( x \). here, \(\{x\} = x - \lfloor x \rfloor\).
+
+first, we set up the condition for an arithmetic sequence:
+\[
+\lfloor x \rfloor - \{x\} = x - \lfloor x \rfloor
+\]
+substituting \(\{x\} = x - \lfloor x \rfloor\):
+\[
+\lfloor x \rfloor - (x - \lfloor x \rfloor) = x - \lfloor x \rfloor
+\]
+simplifying:
+\[
+\lfloor x \rfloor - x + \lfloor x \rfloor = x - \lfloor x \rfloor
+\]
+\[
+2\lfloor x \rfloor - x = x - \lfloor x \rfloor
+\]
+\[
+3\lfloor x \rfloor = 2x
+\]
+let \(\lfloor x \rfloor = n\), where \( n \) is an integer:
+\[
+n = \frac{2}{3}x \implies x = \frac{3}{2}n
+\]
+since \( n \leq x < n + 1 \):
+\[
+n \leq \frac{3}{2}n < n + 1
+\]
+solving the inequalities:
+\[
+n \leq \frac{3}{2}n \implies 0 \leq \frac{1}{2}n \implies n \geq 0
+\]
+\[
+\frac{3}{2}n < n + 1 \implies \frac{1}{2}n < 1 \implies n < 2
+\]
+thus, \( n \) can be 0 or 1. since \( x \neq 0 \), \( n \neq 0 \), so \( n = 1 \):
+\[
+x = \frac{3}{2} \cdot 1 = \frac{3}{2}
+\]
+verifying:
+\[
+\{x\} = x - \lfloor x \rfloor = \frac{3}{2} - 1 = \frac{1}{2}
+\]
+the sequence is \(\left\{\frac{1}{2}, 1, \frac{3}{2}\right\}\), which is arithmetic with common difference \(\frac{1}{2}\).
+
+therefore, the solution is:
+\[
+\boxed{\frac{3}{2}}
+\]

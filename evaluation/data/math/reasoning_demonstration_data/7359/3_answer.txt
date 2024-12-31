@@ -1,1 +1,9 @@
-Answer: 
+Answer: In 2003, the average monthly rainfall in Mathborough was 41.5 mm. In 2004, the average monthly rainfall was 2 mm more than in 2003, which means the average monthly rainfall in 2004 was 41.5 mm + 2 mm = 43.5 mm.
+
+To find the total rainfall for 2004, multiply the average monthly rainfall by 12:
+
+\[
+43.5 \, \text{mm/month} \times 12 \, \text{months} = 522 \, \text{mm}
+\]
+
+Thus, the total amount of rain that fell in Mathborough in 2004 was **522 mm**.

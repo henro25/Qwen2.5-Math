@@ -1,1 +1,65 @@
-Answer: 
+Answer: To find the probability that a point \( p \) randomly selected from the rectangular region with vertices \((0,0)\), \((2,0)\), \((2,1)\), and \((0,1)\) is closer to the origin \((0,0)\) than to the point \((3,1)\), we start by setting up the inequality for the distances:
+
+\[
+\sqrt{x^2 + y^2} < \sqrt{(x - 3)^2 + (y - 1)^2}
+\]
+
+squaring both sides and simplifying, we get:
+
+\[
+x^2 + y^2 < (x - 3)^2 + (y - 1)^2
+\]
+
+\[
+x^2 + y^2 < x^2 - 6x + 9 + y^2 - 2y + 1
+\]
+
+\[
+0 < -6x + 10 - 2y
+\]
+
+\[
+6x + 2y < 10
+\]
+
+\[
+3x + y < 5
+\]
+
+next, we find the area within the rectangle where \( 3x + y < 5 \). the total area of the rectangle is:
+
+\[
+\text{total area} = 2 \times 1 = 2
+\]
+
+the line \( 3x + y = 5 \) intersects the rectangle at points \(\left(\frac{5}{3}, 0\right)\) and \(\left(\frac{4}{3}, 1\right)\). the area below this line within the rectangle is calculated by integrating:
+
+\[
+\text{area} = \int_{0}^{\frac{4}{3}} 1 \, dx + \int_{\frac{4}{3}}^{\frac{5}{3}} (5 - 3x) \, dx
+\]
+
+calculating these integrals:
+
+\[
+\int_{0}^{\frac{4}{3}} 1 \, dx = \frac{4}{3}
+\]
+
+\[
+\int_{\frac{4}{3}}^{\frac{5}{3}} (5 - 3x) \, dx = \left[5x - \frac{3}{2}x^2 \right]_{\frac{4}{3}}^{\frac{5}{3}} = \frac{25}{6} - 4 = \frac{1}{6}
+\]
+
+adding these areas:
+
+\[
+\text{area} = \frac{4}{3} + \frac{1}{6} = \frac{9}{6} = \frac{3}{2}
+\]
+
+the probability is then:
+
+\[
+\text{probability} = \frac{\text{area where } 3x + y < 5}{\text{total area}} = \frac{\frac{3}{2}}{2} = \frac{3}{4}
+\]
+
+thus, the final answer is:
+
+\boxed{\frac{3}{4}}

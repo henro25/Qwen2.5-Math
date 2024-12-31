@@ -1,1 +1,25 @@
-Answer: 
+Answer: To solve for \( y \) in the equation \( 3y + 7y = 282 - 8(y - 3) \), follow these steps:
+
+1. **Simplify both sides:**
+   - Left side: \( 3y + 7y = 10y \)
+   - Right side: Use the distributive property:
+     \[
+     282 - 8(y - 3) = 282 - 8y + 24 = 306 - 8y
+     \]
+   
+2. **Set the simplified equation:**
+   \[
+   10y = 306 - 8y
+   \]
+
+3. **Add \( 8y \) to both sides:**
+   \[
+   10y + 8y = 306 \quad \Rightarrow \quad 18y = 306
+   \]
+
+4. **Solve for \( y \) by dividing both sides by 18:**
+   \[
+   y = \frac{306}{18} = 17
+   \]
+
+Thus, the solution is \( y = 17 \).

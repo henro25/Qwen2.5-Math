@@ -1,1 +1,57 @@
-Reasoning: 
+Reasoning: Okay, so I've got this problem here, and I need to figure out how many people are taking English but not French. Let's see, Max says that out of 25 people taking either English or French, only he and Liz are taking both. So, that means there are 2 people taking both classes.
+
+Then Liz says there are exactly twice as many people in the English class as there are in the French class. So, English class has double the number of people compared to the French class.
+
+I'm a bit confused about how to approach this. Maybe I should use some kind of diagram or formula to keep track of the numbers. I've heard about Venn diagrams being useful for problems involving overlapping sets. Let me try that.
+
+So, imagine two circles overlapping each other. One circle represents the English class, and the other represents the French class. The overlapping part is the people who are taking both classes, which we know is 2 people.
+
+Now, the total number of people taking either English or French is 25. That means the sum of the people in English only, French only, and both should add up to 25.
+
+Let me denote:
+
+- E as the number of people taking English.
+
+- F as the number of people taking French.
+
+- Both as the number of people taking both, which is 2.
+
+According to the problem, E = 2F.
+
+Also, the total number of people is E + F - Both = 25. Wait, why do we subtract Both? Oh, right, because those who are taking both are counted twice if we just add E and F, so we need to subtract the overlap once.
+
+So, E + F - 2 = 25.
+
+But since E = 2F, I can substitute that into the equation:
+
+2F + F - 2 = 25
+
+That simplifies to 3F - 2 = 25
+
+Then, 3F = 27
+
+So, F = 9
+
+Then, E = 2F = 18
+
+So, there are 18 people taking English and 9 taking French, with 2 taking both.
+
+But the question is asking for the number of people taking English but not French. So, that would be the total English students minus those taking both.
+
+So, 18 - 2 = 16.
+
+Wait, does that make sense? Let me double-check.
+
+Total in English: 18
+
+Total in French: 9
+
+Both: 2
+
+So, English only: 18 - 2 = 16
+
+French only: 9 - 2 = 7
+
+Then, total students: English only + French only + both = 16 + 7 + 2 = 25, which matches the given total.
+
+Looks good. So, the answer should be 16 people taking English but not French.

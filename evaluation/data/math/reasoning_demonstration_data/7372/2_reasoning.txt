@@ -1,1 +1,538 @@
-Reasoning: 
+Reasoning: So i need to find 
+f
+−
+1
+(
+7
+)
++
+f
+−
+1
+(
+46
+)
+f 
+−1
+ (7)+f 
+−1
+ (46) for the function 
+f
+(
+x
+)
+f(x) defined piecewise. the function is:
+
+f
+(
+x
+)
+=
+{
+x
++
+3
+if 
+x
+<
+20
+,
+2
+x
+−
+2
+if 
+x
+≥
+20.
+ 
+f(x)={ 
+x+3
+2x−2
+​	
+  
+if x<20,
+if x≥20.
+​	
+ 
+first, i should recall what an inverse function is. the inverse function 
+f
+−
+1
+(
+y
+)
+f 
+−1
+ (y) gives me the value of 
+x
+x such that 
+f
+(
+x
+)
+=
+y
+f(x)=y. so, for each 
+y
+y, i need to find the corresponding 
+x
+x that makes 
+f
+(
+x
+)
+=
+y
+f(x)=y.
+
+but since 
+f
+(
+x
+)
+f(x) is defined piecewise, i need to consider which piece to use based on the value of 
+y
+y.
+
+let me start by finding 
+f
+−
+1
+(
+7
+)
+f 
+−1
+ (7).
+
+i need to solve 
+f
+(
+x
+)
+=
+7
+f(x)=7.
+
+first, i need to determine which piece of the function to use. since 
+f
+(
+x
+)
+=
+x
++
+3
+f(x)=x+3 when 
+x
+<
+20
+x<20 and 
+f
+(
+x
+)
+=
+2
+x
+−
+2
+f(x)=2x−2 when 
+x
+≥
+20
+x≥20, i should check which one could give me 
+y
+=
+7
+y=7.
+
+let's consider both cases.
+
+case 1: 
+x
+<
+20
+x<20, so 
+f
+(
+x
+)
+=
+x
++
+3
+f(x)=x+3.
+
+set 
+x
++
+3
+=
+7
+x+3=7.
+
+then 
+x
+=
+7
+−
+3
+=
+4
+x=7−3=4.
+
+now, check if this 
+x
+x satisfies 
+x
+<
+20
+x<20. yes, 4 < 20, so this is valid.
+
+so, 
+f
+−
+1
+(
+7
+)
+=
+4
+f 
+−1
+ (7)=4.
+
+now, find 
+f
+−
+1
+(
+46
+)
+f 
+−1
+ (46).
+
+again, set 
+f
+(
+x
+)
+=
+46
+f(x)=46.
+
+consider both cases.
+
+case 1: 
+x
+<
+20
+x<20, 
+f
+(
+x
+)
+=
+x
++
+3
+f(x)=x+3.
+
+set 
+x
++
+3
+=
+46
+x+3=46.
+
+then 
+x
+=
+46
+−
+3
+=
+43
+x=46−3=43.
+
+but wait, 43 is not less than 20. so this doesn't satisfy 
+x
+<
+20
+x<20. therefore, this case is invalid.
+
+case 2: 
+x
+≥
+20
+x≥20, 
+f
+(
+x
+)
+=
+2
+x
+−
+2
+f(x)=2x−2.
+
+set 
+2
+x
+−
+2
+=
+46
+2x−2=46.
+
+then 
+2
+x
+=
+46
++
+2
+=
+48
+2x=46+2=48.
+
+so, 
+x
+=
+48
+/
+2
+=
+24
+x=48/2=24.
+
+check if 
+x
+≥
+20
+x≥20. yes, 24 >= 20, so this is valid.
+
+therefore, 
+f
+−
+1
+(
+46
+)
+=
+24
+f 
+−1
+ (46)=24.
+
+now, add them up: 
+f
+−
+1
+(
+7
+)
++
+f
+−
+1
+(
+46
+)
+=
+4
++
+24
+=
+28
+f 
+−1
+ (7)+f 
+−1
+ (46)=4+24=28.
+
+wait a minute, is that all? it seems straightforward, but i should double-check if there are any other possibilities or if i missed something.
+
+let me verify the inverse function definitions.
+
+for 
+f
+(
+x
+)
+f(x), since it's piecewise-defined, the inverse will also be piecewise, but i handled it by considering each case separately, which seems correct.
+
+also, for 
+f
+−
+1
+(
+7
+)
+f 
+−1
+ (7), i found 
+x
+=
+4
+x=4, and for 
+f
+−
+1
+(
+46
+)
+f 
+−1
+ (46), 
+x
+=
+24
+x=24, which are in their respective domains. so, no issues there.
+
+alternatively, i could think about the ranges of each piece of 
+f
+(
+x
+)
+f(x) to see if there are overlapping or any concerns.
+
+for 
+x
+<
+20
+x<20, 
+f
+(
+x
+)
+=
+x
++
+3
+f(x)=x+3, so the range is 
+(
+−
+∞
+,
+23
+)
+(−∞,23), since as 
+x
+x approaches 20 from below, 
+f
+(
+x
+)
+f(x) approaches 23.
+
+for 
+x
+≥
+20
+x≥20, 
+f
+(
+x
+)
+=
+2
+x
+−
+2
+f(x)=2x−2, so the range is 
+[
+38
+,
+∞
+)
+[38,∞), because when 
+x
+=
+20
+x=20, 
+f
+(
+x
+)
+=
+2
+∗
+20
+−
+2
+=
+38
+f(x)=2∗20−2=38, and it increases from there.
+
+wait a second, according to this, 
+f
+(
+x
+)
+f(x) for 
+x
+<
+20
+x<20 gives 
+f
+(
+x
+)
+<
+23
+f(x)<23, and for 
+x
+≥
+20
+x≥20, 
+f
+(
+x
+)
+≥
+38
+f(x)≥38.
+
+but in my earlier calculation, for 
+y
+=
+46
+y=46, i used the second piece and got 
+x
+=
+24
+x=24, which is fine since 46 >= 38.
+
+however, for 
+y
+=
+7
+y=7, 7 < 23, so it should be in the first piece, which i correctly used.
+
+but what about values between 23 and 38? it seems there are no outputs from 
+f
+(
+x
+)
+f(x) in that interval. does that matter for this problem? probably not, since we're only asked for 
+y
+=
+7
+y=7 and 
+y
+=
+46
+y=46, which are within the defined ranges.
+
+so, i think my answer is correct.
+
+**final answer**
+
+28
+ 

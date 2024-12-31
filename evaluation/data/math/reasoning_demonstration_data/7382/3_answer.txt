@@ -1,1 +1,38 @@
-Answer: 
+Answer: Given \( a \equiv 18 \pmod{42} \) and \( b \equiv 73 \pmod{42} \), we need to find an integer \( n \) in the set \(\{100, 101, 102, \ldots, 140, 141\}\) such that \( a - b \equiv n \pmod{42} \).
+
+first, we reduce \( b \) modulo 42:
+\[ 73 \div 42 = 1 \text{ remainder } 31 \]
+thus, \( b \equiv 31 \pmod{42} \).
+
+next, we calculate \( a - b \) modulo 42:
+\[ a - b \equiv 18 - 31 \pmod{42} \]
+\[ 18 - 31 = -13 \]
+\[ -13 \pmod{42} = 42 - 13 = 29 \]
+so, \( a - b \equiv 29 \pmod{42} \).
+
+we need to find \( n \) such that \( n \equiv 29 \pmod{42} \) and \( 100 \leq n \leq 141 \). this can be written as:
+\[ n = 42k + 29 \]
+for some integer \( k \).
+
+we solve for \( k \) in the inequality:
+\[ 100 \leq 42k + 29 \leq 141 \]
+
+first, solve the lower bound:
+\[ 42k + 29 \geq 100 \]
+\[ 42k \geq 71 \]
+\[ k \geq \frac{71}{42} \approx 1.69 \]
+so, \( k \geq 2 \).
+
+next, solve the upper bound:
+\[ 42k + 29 \leq 141 \]
+\[ 42k \leq 112 \]
+\[ k \leq \frac{112}{42} \approx 2.67 \]
+so, \( k \leq 2 \).
+
+thus, \( k = 2 \). substituting \( k \) back into the equation for \( n \):
+\[ n = 42 \cdot 2 + 29 = 84 + 29 = 113 \]
+
+therefore, the integer \( n \) in the set \(\{100, 101, 102, \ldots, 140, 141\}\) that satisfies \( a - b \equiv n \pmod{42} \) is:
+\[
+\boxed{113}
+\]

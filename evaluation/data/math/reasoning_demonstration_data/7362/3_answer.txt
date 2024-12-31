@@ -1,1 +1,67 @@
-Answer: 
+Answer: Given a large sphere with a volume of \(288\pi\) cubic units and a smaller sphere with a volume that is \(12.5\%\), or \(\frac{1}{8}\), of the larger sphere's volume, we need to find the ratio of the radius of the smaller sphere to the radius of the larger sphere.
+
+first, we use the volume formula for a sphere, \(v = \frac{4}{3}\pi r^3\), to find the radius of the larger sphere:
+
+\[
+\frac{4}{3}\pi r_{\text{large}}^3 = 288\pi
+\]
+
+canceling \(\pi\) from both sides:
+
+\[
+\frac{4}{3} r_{\text{large}}^3 = 288
+\]
+
+multiplying both sides by \(\frac{3}{4}\):
+
+\[
+r_{\text{large}}^3 = 288 \times \frac{3}{4} = 216
+\]
+
+taking the cube root:
+
+\[
+r_{\text{large}} = \sqrt[3]{216} = 6
+\]
+
+next, we find the volume of the smaller sphere:
+
+\[
+\text{volume of smaller sphere} = 0.125 \times 288\pi = 36\pi
+\]
+
+using the volume formula again for the smaller sphere:
+
+\[
+\frac{4}{3}\pi r_{\text{small}}^3 = 36\pi
+\]
+
+canceling \(\pi\) from both sides:
+
+\[
+\frac{4}{3} r_{\text{small}}^3 = 36
+\]
+
+multiplying both sides by \(\frac{3}{4}\):
+
+\[
+r_{\text{small}}^3 = 36 \times \frac{3}{4} = 27
+\]
+
+taking the cube root:
+
+\[
+r_{\text{small}} = \sqrt[3]{27} = 3
+\]
+
+the ratio of the radius of the smaller sphere to the radius of the larger sphere is:
+
+\[
+\frac{r_{\text{small}}}{r_{\text{large}}} = \frac{3}{6} = \frac{1}{2}
+\]
+
+thus, the final answer is:
+
+\[
+\boxed{\frac{1}{2}}
+\]

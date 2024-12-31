@@ -1,1 +1,21 @@
-Reasoning: 
+Reasoning: Alright, so I've got this problem here: simplify (√5)^4. Okay, first things first, I need to understand what this expression means. So, √5 is the square root of 5, right? And then that whole thing is raised to the fourth power. Hmm, exponents with radicals... I think there's a way to simplify this without having to calculate the square root first and then raise it to the fourth power, which could get messy.
+
+Let me recall some exponent rules. I know that when you have a power raised to another power, you can multiply the exponents. So, like (a^m)^n = a^(m*n). Does that apply here? Wait, but √5 is the same as 5 to the power of 1/2, right? Because square root is the same as raising to the 1/2 power. So, (√5)^4 is the same as (5^(1/2))^4.
+
+Okay, so using the exponent rule I just remembered, I can multiply the exponents: 1/2 times 4. Let me calculate that: 1/2 * 4 = 2. So, that means (5^(1/2))^4 = 5^2. And 5 squared is 25. So, does that mean (√5)^4 is equal to 25?
+
+Wait a minute, let me double-check that. Maybe I should try calculating it another way to make sure I'm not making a mistake. So, √5 is approximately 2.236. If I raise that to the fourth power, I can do it step by step.
+
+First, (2.236)^2 is about 5, because √5 squared is 5. Then, 5 squared is 25. So, that confirms it. (√5)^4 is indeed 25.
+
+But is there a more straightforward way to see this without using decimal approximations? Let me think. Since √5 is 5^(1/2), and raising that to the fourth power gives 5^(1/2 * 4) = 5^2 = 25. Yeah, that seems solid.
+
+I guess another way to look at it is to consider that squaring the square root of a number gives you the number itself. So, (√5)^2 = 5. Then, raising that result to the second power again gives 5^2 = 25. So, (√5)^4 = ((√5)^2)^2 = 5^2 = 25. That makes sense too.
+
+I'm trying to think if there's any other exponent rule or property of radicals that I should consider here. I know that √(a^b) = a^(b/2), but in this case, it's the square root raised to a power, not the square root of a power. So, I think the approach I took is the right one.
+
+Let me also consider negative exponents, but in this case, all exponents are positive, so that shouldn't be an issue. And since 5 is positive, taking its square root is straightforward; no need to worry about imaginary numbers or anything like that.
+
+Just to cover all bases, what if the base was negative? Like, if it was √(-5), but that's not the case here. The problem specifically has √5, which is the positive square root of 5.
+
+Okay, I feel confident that (√5)^4 simplifies to 25. I don't see any other way to interpret this expression that would lead to a different result.

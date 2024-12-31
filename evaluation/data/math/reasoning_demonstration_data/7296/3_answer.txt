@@ -1,1 +1,33 @@
-Answer: 
+Answer: To determine the possible whole number values of \( n \) that allow the sticks of lengths 5 cm, 9 cm, and \( n \) cm to form a triangle, we use the triangle inequality theorem. the inequalities are:
+
+1. \( 5 + 9 > n \)
+2. \( 5 + n > 9 \)
+3. \( 9 + n > 5 \)
+
+simplifying these inequalities:
+
+1. \( 14 > n \) or \( n < 14 \)
+2. \( 5 + n > 9 \) which simplifies to \( n > 4 \)
+3. \( 9 + n > 5 \) which simplifies to \( n > -4 \) (but since \( n \) is positive, this is always true)
+
+combining the relevant inequalities, we get:
+
+\[ 4 < n < 14 \]
+
+since \( n \) must be a whole number, the possible values of \( n \) are:
+
+\[ 5, 6, 7, 8, 9, 10, 11, 12, 13 \]
+
+to find the sum of these values, we use the formula for the sum of an arithmetic series:
+
+\[ \text{sum} = \frac{n}{2} \times (a + l) \]
+
+where \( n = 9 \), \( a = 5 \), and \( l = 13 \):
+
+\[ \text{sum} = \frac{9}{2} \times (5 + 13) = 4.5 \times 18 = 81 \]
+
+thus, the sum of all possible whole number values of \( n \) is:
+
+\[
+\boxed{81}
+\]

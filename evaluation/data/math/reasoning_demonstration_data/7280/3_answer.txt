@@ -1,1 +1,16 @@
-Answer: 
+Answer: To solve the problem, we need to find the greatest integer multiple of 8 with all unique digits and then find the remainder when this number is divided by 1000.
+
+1. **finding the largest three-digit number divisible by 8 with unique digits:**
+   - the largest three-digit number with unique digits is 987, but it is not divisible by 8.
+   - checking subsequent numbers, we find that 984 is divisible by 8 and has unique digits.
+
+2. **constructing the largest number with unique digits ending in 984:**
+   - we start with the largest possible digits and ensure no repetition.
+   - the digits used in 984 are 9, 8, and 4.
+   - the largest number formed by prepending unique digits to 984 is 7653210984.
+
+3. **finding the remainder when this number is divided by 1000:**
+   - the last three digits of 7653210984 are 984.
+   - therefore, the remainder when 7653210984 is divided by 1000 is 984.
+
+thus, the remainder when \( n \) is divided by 1000 is \(\boxed{984}\).

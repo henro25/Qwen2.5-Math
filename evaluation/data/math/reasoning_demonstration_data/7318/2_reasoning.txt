@@ -1,1 +1,24 @@
 Reasoning: 
+Alright, so I've got this problem here: I need to find a number that I can add to both the numerator and denominator of the fraction 3/5, and after adding that number, the new fraction should be equal to 5/6. Okay, let's see how to approach this.
+
+First, I need to understand what it means to add the same number to both the numerator and the denominator. So, if I call that number "x," then the new numerator will be 3 + x, and the new denominator will be 5 + x. And this new fraction, (3 + x)/(5 + x), should be equal to 5/6.
+
+So, the equation I need to solve is (3 + x)/(5 + x) = 5/6. I think I can solve this by cross-multiplying to get rid of the fractions. That means I'll multiply both sides by (5 + x) and by 6 to eliminate the denominators.
+
+So, cross-multiplying gives me 6*(3 + x) = 5*(5 + x). Let me calculate that: 6*3 is 18, and 6*x is 6x, so the left side is 18 + 6x. On the right side, 5*5 is 25, and 5*x is 5x, so it's 25 + 5x.
+
+Now I have the equation 18 + 6x = 25 + 5x. I need to solve for x. I can start by getting all the x terms on one side and the constants on the other. So, maybe subtract 5x from both sides: 18 + 6x - 5x = 25 + 5x - 5x, which simplifies to 18 + x = 25.
+
+Then, subtract 18 from both sides: 18 + x - 18 = 25 - 18, so x = 7.
+
+Wait a minute, does that make sense? Let me check by plugging x back into the original fractions. So, the new numerator would be 3 + 7 = 10, and the new denominator would be 5 + 7 = 12. So, the new fraction is 10/12. Does 10/12 equal 5/6? Well, 10 divided by 12 is 5/6 when simplified, because both 10 and 12 are divisible by 2: 10 ÷ 2 = 5 and 12 ÷ 2 = 6. So, yes, it checks out.
+
+But, just to be thorough, let me consider if there's another way to approach this problem. Maybe using proportions or ratios. If (3 + x)/(5 + x) = 5/6, perhaps I can set up a proportion and solve for x.
+
+Alternatively, I could think about the difference between the original fraction and the target fraction and see how adding x affects that difference. But I think the cross-multiplication method is straightforward and gets me to the answer quickly.
+
+I should also consider if there are any restrictions on x. For example, the denominator can't be zero, so 5 + x ≠ 0, which means x ≠ -5. But in this case, x = 7, which is fine.
+
+Is there a possibility that no such x exists, or that there might be multiple solutions? Well, in this equation, it's a linear equation in one variable, so there should be only one solution, which is x = 7.
+
+I guess I've covered the bases here. I solved the equation, checked my solution by plugging it back in, and considered if there are any special cases or alternative methods. Everything seems to be in order.

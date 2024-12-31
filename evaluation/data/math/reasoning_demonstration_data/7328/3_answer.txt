@@ -1,1 +1,9 @@
-Answer: 
+Answer: To determine the greatest number of unique four-topping pizzas that can be made from six available toppings, we use combinations, since the order of toppings does not matter.
+
+We are choosing 4 toppings out of 6, which is represented by the combination formula:
+
+\[
+\binom{6}{4} = \frac{6!}{4!(6-4)!} = \frac{6!}{4! \cdot 2!} = \frac{6 \times 5}{2 \times 1} = 15
+\]
+
+Thus, the greatest number of unique four-topping pizzas is **15**.

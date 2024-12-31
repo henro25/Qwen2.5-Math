@@ -1,1 +1,22 @@
-Answer: 
+Answer: To determine the smallest digit \( d \) such that the number \( 437{,}d03 \) is divisible by 9, we use the rule that a number is divisible by 9 if the sum of its digits is divisible by 9.
+
+first, we calculate the sum of the known digits:
+\[
+4 + 3 + 7 + 0 + 3 = 17
+\]
+including \( d \), the sum becomes:
+\[
+17 + d
+\]
+for \( 437{,}d03 \) to be divisible by 9, \( 17 + d \) must be a multiple of 9. the smallest multiple of 9 that is greater than or equal to 17 is 18. therefore:
+\[
+17 + d = 18 \implies d = 1
+\]
+we verify that \( d = 1 \) is indeed the smallest digit by checking if any smaller digit (e.g., \( d = 0 \)) works:
+\[
+17 + 0 = 17 \quad (\text{not divisible by 9})
+\]
+thus, the smallest digit \( d \) that makes \( 437{,}d03 \) divisible by 9 is:
+\[
+\boxed{1}
+\]

@@ -1,1 +1,24 @@
-Answer: 
+Answer: Cameron writes down the smallest positive multiple of 20 that is a perfect square, the smallest positive multiple of 20 that is a perfect cube, and all the multiples of 20 between them. To find how many integers are in Cameron's list, we proceed as follows:
+
+1. **Smallest multiple of 20 that is a perfect square:**
+   - The prime factorization of 20 is \(2^2 \times 5\).
+   - To make it a perfect square, all exponents must be even. Thus, we need to multiply by another 5, giving \(2^2 \times 5^2 = 100\).
+   - Therefore, the smallest multiple of 20 that is a perfect square is **100**.
+
+2. **Smallest multiple of 20 that is a perfect cube:**
+   - Again, the prime factorization of 20 is \(2^2 \times 5\).
+   - To make it a perfect cube, all exponents must be multiples of 3. Thus, we need to multiply by \(2 \times 5^2\), giving \(2^3 \times 5^3 = 1000\).
+   - Therefore, the smallest multiple of 20 that is a perfect cube is **1000**.
+
+3. **Counting all multiples of 20 between 100 and 1000, inclusive:**
+   - The sequence is 100, 120, 140, ..., 1000.
+   - Using the formula for the number of terms in an arithmetic sequence: 
+     \[
+     \text{Number of terms} = \left(\frac{\text{Last term} - \text{First term}}{\text{Common difference}}\right) + 1
+     \]
+     Substituting the values:
+     \[
+     \left(\frac{1000 - 100}{20}\right) + 1 = \left(\frac{900}{20}\right) + 1 = 45 + 1 = 46
+     \]
+
+Thus, there are **46 integers** in Cameron's list.

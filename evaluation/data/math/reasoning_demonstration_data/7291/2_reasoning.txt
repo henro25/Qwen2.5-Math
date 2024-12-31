@@ -1,1 +1,27 @@
-Reasoning: 
+Reasoning: Alright, so I've got this problem here. It says, "Mickey's age is 4 years less than 300% of Jerry's age. If Mickey is 14 years old, how old is Jerry?" Okay, let's see. I need to find Jerry's age, and I know Mickey's age is 14.
+
+First, I should probably understand what "300% of Jerry's age" means. Percentage can be a bit tricky sometimes. So, 300% of something is the same as 3 times that something, right? Because 100% is the whole, so 300% would be three times as much. So, 300% of Jerry's age is 3 times Jerry's age.
+
+Now, the problem says Mickey's age is 4 years less than that. So, Mickey's age equals 3 times Jerry's age minus 4 years. And we know Mickey is 14 years old. So, I can set up an equation like this:
+
+Mickey's age = 3 * Jerry's age - 4
+
+Plugging in the known value:
+
+14 = 3 * Jerry's age - 4
+
+Now, I need to solve for Jerry's age. Let's see, first I should get rid of that -4 on the right side. To do that, I can add 4 to both sides of the equation:
+
+14 + 4 = 3 * Jerry's age - 4 + 4
+
+Which simplifies to:
+
+18 = 3 * Jerry's age
+
+Now, to find Jerry's age, I just need to divide both sides by 3:
+
+18 / 3 = Jerry's age
+
+So, Jerry's age is 6 years old.
+
+Wait a minute, let me double-check that. If Jerry is 6, then 300% of 6 is 18, and 18 minus 4 is 14, which matches Mickey's age. Yeah, that makes sense. I think that's the right answer.

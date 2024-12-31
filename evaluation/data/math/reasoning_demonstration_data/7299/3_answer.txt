@@ -1,1 +1,19 @@
-Answer: 
+Answer: To find the base 2 representation of \(84_{10}\), we can use the method of dividing by 2 and recording the remainders:
+
+1. \(84 \div 2 = 42\) with a remainder of 0.
+2. \(42 \div 2 = 21\) with a remainder of 0.
+3. \(21 \div 2 = 10\) with a remainder of 1.
+4. \(10 \div 2 = 5\) with a remainder of 0.
+5. \(5 \div 2 = 2\) with a remainder of 1.
+6. \(2 \div 2 = 1\) with a remainder of 0.
+7. \(1 \div 2 = 0\) with a remainder of 1.
+
+reading the remainders from bottom to top, we get \(1010100_2\).
+
+to verify, we convert \(1010100_2\) back to decimal:
+
+\[
+1 \times 2^6 + 0 \times 2^5 + 1 \times 2^4 + 0 \times 2^3 + 1 \times 2^2 + 0 \times 2^1 + 0 \times 2^0 = 64 + 0 + 16 + 0 + 4 + 0 + 0 = 84
+\]
+
+thus, the base 2 representation of \(84_{10}\) is \(\boxed{1010100}\).

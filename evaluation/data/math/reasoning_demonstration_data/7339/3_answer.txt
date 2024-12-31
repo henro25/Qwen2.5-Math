@@ -1,1 +1,28 @@
-Answer: 
+Answer: **Step 1:** Determine the value in US dollars.
+
+- 1 US dollar = 7 Namibian dollars.
+- Therefore, to convert Namibian dollars to US dollars:  
+  \[
+  \text{US dollars} = \frac{105 \text{ Namibian dollars}}{7} = 15 \text{ US dollars}.
+  \]
+
+**Step 2:** Convert US dollars to Chinese yuan.
+
+- 1 US dollar = 6 Chinese yuan.
+- Thus,  
+  \[
+  15 \text{ US dollars} \times 6 \text{ Chinese yuan/US dollar} = 90 \text{ Chinese yuan}.
+  \]
+
+**Step 3:** Alternatively, use direct conversion between Namibian dollars and Chinese yuan.
+
+- Given that 7 Namibian dollars = 6 Chinese yuan, the conversion factor is:  
+  \[
+  \frac{6 \text{ Chinese yuan}}{7 \text{ Namibian dollars}}.
+  \]
+- Therefore,  
+  \[
+  105 \text{ Namibian dollars} \times \frac{6}{7} = 90 \text{ Chinese yuan}.
+  \]
+
+**Answer:** The painting costs 90 Chinese yuan.

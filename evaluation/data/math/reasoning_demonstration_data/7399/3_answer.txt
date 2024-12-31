@@ -1,1 +1,14 @@
-Answer: 
+Answer: To determine the number of ways to choose a President and a Vice-President from a group of 5 people, where they cannot be the same person, follow these steps:
+
+1. **Choose the President**: There are 5 possible choices for the President.
+2. **Choose the Vice-President**: After selecting the President, there are 4 remaining people to choose from for the Vice-President.
+
+Since the positions of President and Vice-President are distinct, the order in which they are selected matters. Therefore, for each choice of President, there are 4 choices for Vice-President.
+
+The total number of ways to make these selections is:
+
+\[
+5 \times 4 = 20
+\]
+
+Hence, there are **20** ways to choose a President and a Vice-President from a group of 5 people.

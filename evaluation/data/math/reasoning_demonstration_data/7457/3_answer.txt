@@ -1,1 +1,22 @@
-Answer: 
+Answer: First, we start with the initial position of the square as abcd. we then alternate between rotating the square 90 degrees clockwise and reflecting it over its vertical line of symmetry.
+
+1. initial position: abcd
+2. rotate 90 degrees clockwise: dabc
+3. reflect over vertical line of symmetry: cbad
+4. rotate 90 degrees clockwise: dcba
+5. reflect over vertical line of symmetry: adcb
+6. rotate 90 degrees clockwise: bdac
+7. reflect over vertical line of symmetry: cadb
+8. rotate 90 degrees clockwise: abcd (cycle repeats)
+
+the pattern repeats every 7 steps. to find the position of the 2007th square, we calculate \( 2007 \mod 7 \):
+
+\[ 2007 = 7 \times 286 + 5 \]
+
+thus, the 2007th square corresponds to the 5th position in the cycle, which is adcb.
+
+therefore, the position of the 2007th square is:
+
+\[
+\boxed{adcb}
+\]

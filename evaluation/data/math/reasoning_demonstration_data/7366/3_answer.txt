@@ -1,1 +1,15 @@
-Answer: 
+Answer: Given that the average of four different positive whole numbers is 4, their total sum is \(4 \times 4 = 16\). we aim to maximize the difference between the largest and smallest numbers.
+
+to maximize the difference, we set the smallest number to 1. the remaining three numbers must sum to \(16 - 1 = 15\). to maximize the largest number, we minimize the other two numbers, which are 2 and 3. thus, the largest number is \(16 - (1 + 2 + 3) = 10\).
+
+the four numbers are 1, 2, 3, and 10, with the difference between the largest and smallest being \(10 - 1 = 9\).
+
+the average of the other two numbers (2 and 3) is:
+\[
+\frac{2 + 3}{2} = 2.5
+\]
+
+therefore, the final answer is:
+\[
+\boxed{2.5}
+\]

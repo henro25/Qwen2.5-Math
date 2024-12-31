@@ -1,1 +1,41 @@
-Answer: 
+Answer: To determine the value of \( x \) that satisfies \(\sqrt[5]{x\sqrt{x^3}} = 3\), we start by expressing the equation in terms of exponents:
+
+\[
+\sqrt[5]{x \sqrt{x^3}} = 3
+\]
+
+this can be rewritten as:
+
+\[
+(x \cdot (x^3)^{1/2})^{1/5} = 3
+\]
+
+simplifying inside the root:
+
+\[
+(x \cdot x^{3/2})^{1/5} = 3
+\]
+
+combining the exponents:
+
+\[
+(x^{1 + 3/2})^{1/5} = 3 \implies (x^{5/2})^{1/5} = 3
+\]
+
+this simplifies to:
+
+\[
+x^{1/2} = 3
+\]
+
+to solve for \( x \), we square both sides:
+
+\[
+(x^{1/2})^2 = 3^2 \implies x = 9
+\]
+
+thus, the value of \( x \) that satisfies the equation is:
+
+\[
+\boxed{9}
+\]

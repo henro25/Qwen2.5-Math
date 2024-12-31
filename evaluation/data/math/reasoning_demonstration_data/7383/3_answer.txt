@@ -1,1 +1,23 @@
-Answer: 
+Answer: We start with an equilateral triangle with sides of length 2 units. each subsequent triangle has sides that are 150% of the previous one. we need to find the percent increase in the perimeter from the first to the fourth triangle.
+
+first, we calculate the side lengths of the triangles:
+- first triangle: side length = 2 units
+- second triangle: side length = \(1.5 \times 2 = 3\) units
+- third triangle: side length = \(1.5 \times 3 = 4.5\) units
+- fourth triangle: side length = \(1.5 \times 4.5 = 6.75\) units
+
+next, we calculate the perimeters of the triangles:
+- first triangle: perimeter = \(3 \times 2 = 6\) units
+- second triangle: perimeter = \(3 \times 3 = 9\) units
+- third triangle: perimeter = \(3 \times 4.5 = 13.5\) units
+- fourth triangle: perimeter = \(3 \times 6.75 = 20.25\) units
+
+the percent increase in the perimeter from the first to the fourth triangle is calculated as follows:
+\[
+\text{percent increase} = \left( \frac{20.25 - 6}{6} \right) \times 100\%
+\]
+\[
+\text{percent increase} = \left( \frac{14.25}{6} \right) \times 100\% = 2.375 \times 100\% = 237.5\%
+\]
+
+thus, the percent increase in the perimeter from the first to the fourth triangle is \(\boxed{237.5\%}\).

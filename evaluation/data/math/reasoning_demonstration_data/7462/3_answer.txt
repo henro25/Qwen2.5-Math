@@ -1,1 +1,47 @@
-Answer: 
+Answer: Given a cyclic pentagon \(abcde\) with \(ab = bc = cd = de = 4\) and \(ae = 1\), we need to find \((1 - \cos \angle b)(1 - \cos \angle ace)\).
+
+first, we use the fact that the pentagon is inscribed in a circle, and the chord lengths are related to the central angles. let the central angles corresponding to \(ab, bc, cd, de\) be \(\alpha\) and for \(ae\) be \(\beta\). we have:
+
+\[ 4\alpha + \beta = 2\pi \]
+
+using the chord length formula:
+
+\[ 4 = 2r \sin\left(\frac{\alpha}{2}\right) \implies \sin\left(\frac{\alpha}{2}\right) = \frac{2}{r} \]
+\[ 1 = 2r \sin\left(\frac{\beta}{2}\right) \implies \sin\left(\frac{\beta}{2}\right) = \frac{0.5}{r} \]
+
+since \(\beta = 2\pi - 4\alpha\), we have:
+
+\[ \sin\left(\frac{\beta}{2}\right) = \sin(\pi - 2\alpha) = \sin(2\alpha) = 2 \sin \alpha \cos \alpha \]
+\[ 2 \sin \alpha \cos \alpha = \frac{0.5}{r} \]
+
+using \(\sin \alpha = 2 \sin\left(\frac{\alpha}{2}\right) \cos\left(\frac{\alpha}{2}\right)\):
+
+\[ \sin \alpha = \frac{4}{r} \sqrt{1 - \frac{4}{r^2}} \]
+\[ 2 \sin \alpha \cos \alpha = \frac{1}{4r} \]
+
+next, we find \((1 - \cos \angle b)\) and \((1 - \cos \angle ace)\):
+
+for \(\angle b\):
+
+\[ \cos \angle b = 1 - \frac{ac^2}{32} \]
+\[ (1 - \cos \angle b) = \frac{ac^2}{32} \]
+
+for \(\angle ace\):
+
+\[ ae^2 = ac^2 + ce^2 - 2 \cdot ac \cdot ce \cdot \cos(\angle ace) \]
+\[ 1 = 2 \cdot ac^2 - 2 \cdot ac^2 \cos(\angle ace) \]
+\[ 1 - \cos(\angle ace) = \frac{1}{2 ac^2} \]
+
+given \(ac^2 = 32(1 - \cos \alpha)\):
+
+\[ (1 - \cos \angle ace) = \frac{1}{64(1 - \cos \alpha)} \]
+
+thus:
+
+\[ (1 - \cos \angle b)(1 - \cos \angle ace) = (1 - \cos \alpha) \cdot \frac{1}{64(1 - \cos \alpha)} = \frac{1}{64} \]
+
+therefore, the final answer is:
+
+\[
+\boxed{\frac{1}{64}}
+\]

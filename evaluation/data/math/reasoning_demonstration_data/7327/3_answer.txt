@@ -1,1 +1,24 @@
-Answer: 
+Answer: To solve the problem:
+
+1. **Identify the sides of the triangle:**
+   - The longest side (hypotenuse) is 5 meters.
+   - The shortest side (one leg) is 3 meters.
+
+2. **Use the Pythagorean theorem to find the other leg:**
+   \[
+   a^2 + b^2 = c^2
+   \]
+   Substituting the known values:
+   \[
+   3^2 + b^2 = 5^2 \\
+   9 + b^2 = 25 \\
+   b^2 = 16 \\
+   b = 4 \, \text{meters}
+   \]
+
+3. **Calculate the area of the right triangle:**
+   \[
+   \text{Area} = \frac{\text{base} \times \text{height}}{2} = \frac{3 \times 4}{2} = 6 \, \text{square meters}
+   \]
+
+**Answer:** The area of the triangle is 6 square meters.

@@ -1,1 +1,39 @@
-Answer: 
+Answer: To determine how many integers from 1 through 9999, inclusive, do not contain any of the digits 2, 3, 4, or 5, we consider the allowed digits: 0, 1, 6, 7, 8, and 9. we break down the problem by the number of digits in the numbers:
+
+1. **1-digit numbers (1 to 9):**
+   - allowed digits: 1, 6, 7, 8, 9 (5 options)
+
+2. **2-digit numbers (10 to 99):**
+   - first digit: 1, 6, 7, 8, 9 (5 options)
+   - second digit: 0, 1, 6, 7, 8, 9 (6 options)
+   - total: \(5 \times 6 = 30\) numbers
+
+3. **3-digit numbers (100 to 999):**
+   - first digit: 1, 6, 7, 8, 9 (5 options)
+   - second digit: 0, 1, 6, 7, 8, 9 (6 options)
+   - third digit: 0, 1, 6, 7, 8, 9 (6 options)
+   - total: \(5 \times 6 \times 6 = 180\) numbers
+
+4. **4-digit numbers (1000 to 9999):**
+   - first digit: 1, 6, 7, 8, 9 (5 options)
+   - second, third, and fourth digits: 0, 1, 6, 7, 8, 9 (6 options each)
+   - total: \(5 \times 6 \times 6 \times 6 = 1080\) numbers
+
+summing up all the possibilities:
+\[
+5 + 30 + 180 + 1080 = 1295
+\]
+
+alternatively, considering all 4-digit numbers with leading zeros (from 0000 to 9999), we have:
+\[
+6^4 = 1296 \text{ numbers}
+\]
+excluding 0000, which is not in the range, we get:
+\[
+1296 - 1 = 1295
+\]
+
+thus, the final answer is:
+\[
+\boxed{1295}
+\]

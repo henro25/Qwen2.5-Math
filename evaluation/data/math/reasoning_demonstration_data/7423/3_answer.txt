@@ -1,1 +1,23 @@
-Answer: 
+Answer: Given two arithmetic sequences \( a \) and \( b \) that both start with 30 and have common differences of absolute value 10, with sequence \( a \) increasing and sequence \( b \) decreasing, we need to find the absolute value of the difference between the 51st term of sequence \( a \) and the 51st term of sequence \( b \).
+
+first, we determine the general formulas for the \( n \)-th terms of the sequences:
+
+for sequence \( a \):
+\[ a_n = 30 + (n-1) \cdot 10 \]
+
+for sequence \( b \):
+\[ b_n = 30 - (n-1) \cdot 10 \]
+
+next, we find the 51st terms of each sequence:
+
+for sequence \( a \):
+\[ a_{51} = 30 + (51-1) \cdot 10 = 30 + 50 \cdot 10 = 30 + 500 = 530 \]
+
+for sequence \( b \):
+\[ b_{51} = 30 - (51-1) \cdot 10 = 30 - 50 \cdot 10 = 30 - 500 = -470 \]
+
+now, we calculate the absolute value of the difference between these two terms:
+\[ |a_{51} - b_{51}| = |530 - (-470)| = |530 + 470| = |1000| = 1000 \]
+
+thus, the absolute value of the difference between the 51st term of sequence \( a \) and the 51st term of sequence \( b \) is:
+\[ \boxed{1000} \]

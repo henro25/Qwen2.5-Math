@@ -1,1 +1,613 @@
-Reasoning: 
+Reasoning: Alright, so I've got this problem: I need to find the smallest four-digit positive integer where all the digits are different, and the number itself is divisible by each of its digits. Hmm, that sounds a bit tricky, but let's break it down.
+
+First off, I need a four-digit number, so it has to be between 1000 and 9999. Also, all the digits have to be different, which means no repeating numbers in the thousands, hundreds, tens, or ones places. And finally, the number has to be divisible by each of its digits. So, if the number is ABCD, then ABCD must be divisible by A, B, C, and D individually.
+
+Okay, let's think about the smallest four-digit number possible. That would be 1000, but wait, the digits aren't all different there—there are three zeros. So, that's out. The next one would be 1001, but again, zeros repeat. This pattern seems to continue with 1002, 1003, etc., all having repeated zeros.
+
+So, maybe I need to look for a number that starts with 1 and has distinct digits. Let's consider 1023. But wait, is 1023 divisible by each of its digits? Let's check: 1, 0, 2, 3. Oh, but it has a zero, and division by zero is undefined. So, that won't work. Any number that has a zero in it can't be considered because division by zero isn't possible. So, I need to find a four-digit number with no zeros and all distinct digits that is divisible by each of its digits.
+
+Alright, that narrows it down a bit. So, the number can't have a zero, and all digits must be different. Let's try 1234. Is 1234 divisible by 1, 2, 3, and 4? Well, 1234 divided by 1 is 1234, which is fine. Divided by 2 is 617, which is fine. Divided by 3 is approximately 411.333, which is not an integer, so that doesn't work. So, 1234 isn't divisible by 3.
+
+Next, let's try 1235. Divided by 1 is 1235, which is fine. Divided by 2 is 617.5, which isn't an integer, so that doesn't work either. How about 1236? Divided by 1 is 1236, divided by 2 is 618, divided by 3 is 412, and divided by 6 is 206. So, 1236 seems to be divisible by all its digits: 1, 2, 3, and 6. But wait, does it have all distinct digits? 1, 2, 3, 6—yes, all different. So, 1236 seems to fit the criteria.
+
+But is this the smallest possible? Let's see if there's a smaller four-digit number that meets the requirements. The next smaller number would be 1203, but that has a zero, which we can't have. Then 1204, which also has a zero. So, skipping those, 1205 has a zero, and so on. It seems like 1236 might be the smallest, but let's check a few more to be sure.
+
+What about 1122? Well, that has repeating digits, so it's out. 1123 has repeating 1s. 1124 has repeating 1s. 1125 has repeating 1s. This pattern suggests that any number starting with 11 will have repeating digits, so I should skip those.
+
+Next, 1132 has repeating 1s. 1133 has repeating 1s and 3s. 1134 has repeating 1s. So, again, no good. It looks like numbers starting with 11 are out.
+
+Moving on to 1142, which has repeating 1s. 1143 has repeating 1s. 1144 has repeating 1s and 4s. 1145 has repeating 1s. Not helpful.
+
+Okay, maybe I should consider numbers starting with 12. I already checked 1234 and 1236. What about 1245? Let's see: 1, 2, 4, 5. Divisible by 1 is fine. Divided by 2 is 622.5, which isn't an integer, so that doesn't work.
+
+Next, 1248: divided by 1 is 1248, divided by 2 is 624, divided by 4 is 312, divided by 8 is 156. So, 1248 is divisible by all its digits. But is it smaller than 1236? 1236 is smaller than 1248, so 1236 is still a better candidate.
+
+Let's check 1242: but that has repeating 2s. So, out. 1243: divided by 1 is 1243, divided by 2 is 621.5, not an integer. So, no.
+
+1244 has repeating 4s. 1245 I already checked. 1246: divided by 1 is 1246, divided by 2 is 623, divided by 4 is 311.5, not an integer. So, no.
+
+1247: divided by 1 is 1247, divided by 2 is 623.5, not an integer. 1249: divided by 1 is 1249, divided by 2 is 624.5, not an integer.
+
+So, moving on to 1254: divided by 1 is 1254, divided by 2 is 627, divided by 5 is 250.8, not an integer. So, no.
+
+1256: divided by 1 is 1256, divided by 2 is 628, divided by 5 is 251.2, not an integer. So, no.
+
+1258: divided by 1 is 1258, divided by 2 is 629, divided by 5 is 251.6, not an integer.
+
+1259: divided by 1 is 1259, divided by 2 is 629.5, not an integer.
+
+So, 1236 still seems to be the smallest so far. Let's check a few more to be sure.
+
+1264: divided by 1 is 1264, divided by 2 is 632, divided by 6 is 210.666..., not an integer.
+
+1265: divided by 1 is 1265, divided by 2 is 632.5, not an integer.
+
+1268: divided by 1 is 1268, divided by 2 is 634, divided by 6 is 211.333..., not an integer.
+
+1269: divided by 1 is 1269, divided by 2 is 634.5, not an integer.
+
+1274: divided by 1 is 1274, divided by 2 is 637, divided by 7 is 182, divided by 4 is 318.5, not an integer.
+
+1275: divided by 1 is 1275, divided by 2 is 637.5, not an integer.
+
+1276: divided by 1 is 1276, divided by 2 is 638, divided by 7 is 182.285..., not an integer.
+
+1278: divided by 1 is 1278, divided by 2 is 639, divided by 7 is 182.571..., not an integer.
+
+1279: divided by 1 is 1279, divided by 2 is 639.5, not an integer.
+
+1284: divided by 1 is 1284, divided by 2 is 642, divided by 8 is 160.5, not an integer.
+
+1285: divided by 1 is 1285, divided by 2 is 642.5, not an integer.
+
+1286: divided by 1 is 1286, divided by 2 is 643, divided by 8 is 160.75, not an integer.
+
+1287: divided by 1 is 1287, divided by 2 is 643.5, not an integer.
+
+1289: divided by 1 is 1289, divided by 2 is 644.5, not an integer.
+
+1294: divided by 1 is 1294, divided by 2 is 647, divided by 9 is 143.777..., not an integer.
+
+1295: divided by 1 is 1295, divided by 2 is 647.5, not an integer.
+
+1296: divided by 1 is 1296, divided by 2 is 648, divided by 9 is 144, divided by 6 is 216. So, 1296 is divisible by all its digits: 1, 2, 9, 6. But is it smaller than 1236? No, 1236 is smaller.
+
+1298: divided by 1 is 1298, divided by 2 is 649, divided by 9 is 144.222..., not an integer.
+
+1299: divided by 1 is 1299, divided by 2 is 649.5, not an integer.
+
+So, after checking these numbers, 1236 still seems to be the smallest four-digit number with all distinct digits that is divisible by each of its digits.
+
+Wait a minute, perhaps there's a smaller number than 1236 that meets the criteria. Let's try 1128: but it has repeating 1s, so that's out.
+
+1134: has repeating 1s. 1146: repeating 1s. 1152: repeating 1s. 1158: repeating 1s. 1164: repeating 1s. 1176: repeating 1s. 1182: repeating 1s. 1188: repeating 1s and 8s. 1194: repeating 1s.
+
+So, none of these work. Let's try numbers starting with 13.
+
+1302: has a zero. 1308: has a zero. 1312: repeating 1s and 3s. 1314: repeating 1s. 1316: repeating 1s. 1318: repeating 1s. 1324: divided by 1 is 1324, divided by 3 is 441.333..., not an integer.
+
+1326: divided by 1 is 1326, divided by 3 is 442, divided by 2 is 663, divided by 6 is 221. So, 1326 is divisible by all its digits: 1, 3, 2, 6. But is it smaller than 1236? No, 1236 is still smaller.
+
+1328: divided by 1 is 1328, divided by 3 is 442.666..., not an integer.
+
+1332: repeating 3s. 1335: repeating 3s. 1338: repeating 3s. 1344: repeating 4s. 1356: divided by 1 is 1356, divided by 3 is 452, divided by 5 is 271.2, not an integer.
+
+1362: divided by 1 is 1362, divided by 3 is 454, divided by 6 is 227, divided by 2 is 681. So, 1362 is divisible by all its digits: 1, 3, 6, 2. But it's larger than 1236.
+
+1368: divided by 1 is 1368, divided by 3 is 456, divided by 6 is 228, divided by 8 is 171. So, 1368 is divisible by all its digits, but again, larger than 1236.
+
+So, 1236 still holds as the smallest so far. Let's check numbers starting with 10.
+
+1023: has a zero. 1029: has a zero. 1032: has a zero. 1035: has a zero. 1038: has a zero. 1041: has a zero and repeating 1s. 1044: has a zero and repeating 4s. 1047: has a zero. 1053: has a zero. 1056: has a zero. 1059: has a zero. 1062: has a zero. 1065: has a zero. 1068: has a zero. 1071: has a zero and repeating 1s. 1074: has a zero. 1077: has repeating 7s and a zero. 1083: has a zero. 1086: has a zero. 1089: has a zero.
+
+So, no luck there.
+
+How about numbers starting with 14?
+
+1402: has a zero. 1403: has a zero. 1404: has a zero and repeating 4s. 1405: has a zero. 1406: has a zero. 1407: has a zero. 1408: has a zero. 1409: has a zero. 1412: repeating 1s. 1413: repeating 1s. 1414: repeating 4s and 1s. 1415: repeating 1s. 1416: repeating 1s. 1417: repeating 1s. 1418: repeating 1s. 1419: repeating 1s. 1425: divided by 1 is 1425, divided by 4 is 356.25, not an integer.
+
+1428: divided by 1 is 1428, divided by 4 is 357, divided by 2 is 714, divided by 8 is 178.5, not an integer.
+
+1435: divided by 1 is 1435, divided by 4 is 358.75, not an integer.
+
+1436: divided by 1 is 1436, divided by 4 is 359, divided by 3 is 478.666..., not an integer.
+
+1438: divided by 1 is 1438, divided by 4 is 359.5, not an integer.
+
+1439: divided by 1 is 1439, divided by 4 is 359.75, not an integer.
+
+1442: repeating 4s. 1443: repeating 4s. 1445: repeating 4s. 1446: repeating 4s. 1447: repeating 4s. 1448: repeating 4s. 1449: repeating 4s.
+
+So, no good there.
+
+Alright, maybe numbers starting with 15.
+
+1502: has a zero. 1503: has a zero. 1504: has a zero. 1505: has a zero. 1506: has a zero. 1507: has a zero. 1508: has a zero. 1509: has a zero. 1512: repeating 1s and 5s. 1513: repeating 1s. 1514: repeating 1s. 1515: repeating 1s and 5s. 1516: repeating 1s. 1517: repeating 1s. 1518: repeating 1s. 1519: repeating 1s. 1524: divided by 1 is 1524, divided by 5 is 304.8, not an integer.
+
+1527: divided by 1 is 1527, divided by 5 is 305.4, not an integer.
+
+1528: divided by 1 is 1528, divided by 5 is 305.6, not an integer.
+
+1529: divided by 1 is 1529, divided by 5 is 305.8, not an integer.
+
+1532: divided by 1 is 1532, divided by 5 is 306.4, not an integer.
+
+1534: divided by 1 is 1534, divided by 5 is 306.8, not an integer.
+
+1536: divided by 1 is 1536, divided by 5 is 307.2, not an integer.
+
+1538: divided by 1 is 1538, divided by 5 is 307.6, not an integer.
+
+1539: divided by 1 is 1539, divided by 5 is 307.8, not an integer.
+
+1542: divided by 1 is 1542, divided by 5 is 308.4, not an integer.
+
+1543: divided by 1 is 1543, divided by 5 is 308.6, not an integer.
+
+1546: divided by 1 is 1546, divided by 5 is 309.2, not an integer.
+
+1547: divided by 1 is 1547, divided by 5 is 309.4, not an integer.
+
+1548: divided by 1 is 1548, divided by 5 is 309.6, not an integer.
+
+1549: divided by 1 is 1549, divided by 5 is 309.8, not an integer.
+
+So, no luck there either.
+
+This seems to be getting tedious. Maybe there's a smarter way to approach this problem instead of checking every single number.
+
+Let's think about the divisibility conditions. The number must be divisible by each of its digits: A, B, C, D.
+
+So, ABCD must be divisible by A, B, C, and D.
+
+Since A is the thousands digit, it can't be zero, and none of the digits can be zero, as we've already established.
+
+Also, to minimize the number, we'd want A to be as small as possible, preferably 1.
+
+So, let's assume A is 1. Then, we need to find B, C, D such that 1BCD is divisible by 1, B, C, and D, with all digits distinct.
+
+Since any number is divisible by 1, we can ignore that condition.
+
+So, the number must be divisible by B, C, and D, and all digits must be distinct.
+
+Given that A is 1, let's look for the smallest possible number starting with 1.
+
+So, 1023 was out because of zero and non-divisibility.
+
+1029: has zero.
+
+1032: has zero.
+
+1035: has zero.
+
+1038: has zero.
+
+1041: has zero.
+
+1044: has zero.
+
+1047: has zero.
+
+1053: has zero.
+
+1056: has zero.
+
+1059: has zero.
+
+1062: has zero.
+
+1065: has zero.
+
+1068: has zero.
+
+1071: has zero.
+
+1074: has zero.
+
+1077: has zero.
+
+1083: has zero.
+
+1086: has zero.
+
+1089: has zero.
+
+So, none of these work.
+
+Next, try numbers starting with 11, but they have repeating digits.
+
+Then 12.
+
+1203: has zero.
+
+1204: has zero.
+
+1205: has zero.
+
+1206: has zero.
+
+1207: has zero.
+
+1208: has zero.
+
+1209: has zero.
+
+1212: repeating 1s and 2s.
+
+1213: repeating 1s.
+
+1214: repeating 1s.
+
+1215: repeating 1s.
+
+1216: repeating 1s.
+
+1217: repeating 1s.
+
+1218: repeating 1s.
+
+1219: repeating 1s.
+
+1221: repeating 1s and 2s.
+
+1224: repeating 2s.
+
+1225: repeating 2s.
+
+1227: repeating 2s.
+
+1228: repeating 2s.
+
+1229: repeating 2s.
+
+1230: has zero.
+
+1231: repeating 1s.
+
+1232: repeating 2s and 1s.
+
+1233: repeating 3s.
+
+1234: as checked earlier, not divisible by 3.
+
+1235: has zero.
+
+1236: as checked earlier, divisible by 1,2,3,6.
+
+So, 1236 seems to be a candidate.
+
+But let's see if there's a smaller number than 1236 that meets the criteria.
+
+Looking back, perhaps I missed some numbers.
+
+Wait, 1128: has repeating 1s.
+
+1134: repeating 1s.
+
+1146: repeating 1s.
+
+1152: repeating 1s.
+
+1158: repeating 1s.
+
+1164: repeating 1s.
+
+1176: repeating 1s.
+
+1182: repeating 1s.
+
+1188: repeating 1s and 8s.
+
+1194: repeating 1s.
+
+So, none of these work.
+
+How about starting with 13?
+
+1302: has zero.
+
+1308: has zero.
+
+1312: repeating 1s.
+
+1314: repeating 1s.
+
+1316: repeating 1s.
+
+1318: repeating 1s.
+
+1320: has zero.
+
+1323: repeating 3s.
+
+1326: as checked earlier, divisible by 1,3,2,6.
+
+But it's larger than 1236.
+
+So, 1236 is still the smallest so far.
+
+Is there any number between 1000 and 1236 that meets the criteria?
+
+Let's check 1203: has zero.
+
+1204: has zero.
+
+1205: has zero.
+
+1206: has zero.
+
+1207: has zero.
+
+1208: has zero.
+
+1209: has zero.
+
+1212: repeating digits.
+
+1213: repeating digits.
+
+1214: repeating digits.
+
+1215: repeating digits.
+
+1216: repeating digits.
+
+1217: repeating digits.
+
+1218: repeating digits.
+
+1219: repeating digits.
+
+1221: repeating digits.
+
+1224: repeating digits.
+
+1225: repeating digits.
+
+1227: repeating digits.
+
+1228: repeating digits.
+
+1229: repeating digits.
+
+1230: has zero.
+
+1231: repeating digits.
+
+1232: repeating digits.
+
+1233: repeating digits.
+
+1234: not divisible by 3.
+
+1235: has zero.
+
+1236: meets the criteria.
+
+So, it seems that 1236 is indeed the smallest four-digit number with all distinct digits that is divisible by each of its digits.
+
+Just to be thorough, let's check numbers starting with 1 and having digits in ascending order, as that might give us a smaller number.
+
+1234: already checked.
+
+1235: has zero in the thousands place when considering divisibility by 5, but still, it's invalid due to earlier issues.
+
+Wait, 1234: not divisible by 3.
+
+1235: not divisible by 5, since 1235 divided by 5 is 247, which is an integer, but does it have a zero? No, but 1235 has digits 1,2,3,5. 1235 divided by 1 is 1235, by 2 is 617.5, not an integer.
+
+So, no.
+
+1236: digits 1,2,3,6. Divisible by all.
+
+Is there any number between 1000 and 1236 that fits the criteria?
+
+Let's check 1000 to 1236, excluding numbers with zero or repeating digits.
+
+Starting from 1023, which has zero.
+
+1029: zero.
+
+1032: zero.
+
+1035: zero.
+
+1038: zero.
+
+1041: zero.
+
+1044: zero.
+
+1047: zero.
+
+1053: zero.
+
+1056: zero.
+
+1059: zero.
+
+1062: zero.
+
+1065: zero.
+
+1068: zero.
+
+1071: zero.
+
+1074: zero.
+
+1077: zero.
+
+1083: zero.
+
+1086: zero.
+
+1089: zero.
+
+1092: zero.
+
+1095: zero.
+
+1098: zero.
+
+1102: zero.
+
+1103: zero.
+
+1104: zero.
+
+1105: zero.
+
+1106: zero.
+
+1107: zero.
+
+1108: zero.
+
+1109: zero.
+
+1110: zero and repeating digits.
+
+1112: repeating digits.
+
+1113: repeating digits.
+
+1114: repeating digits.
+
+1115: repeating digits.
+
+1116: repeating digits.
+
+1117: repeating digits.
+
+1118: repeating digits.
+
+1119: repeating digits.
+
+1120: zero.
+
+1122: repeating digits.
+
+1125: zero.
+
+1128: repeating digits.
+
+1130: zero.
+
+1131: repeating digits.
+
+1132: repeating digits.
+
+1133: repeating digits.
+
+1134: repeating digits.
+
+1135: zero.
+
+1138: zero.
+
+1140: zero.
+
+1143: repeating digits.
+
+1146: repeating digits.
+
+1149: repeating digits.
+
+1152: repeating digits.
+
+1155: repeating digits.
+
+1158: repeating digits.
+
+1161: repeating digits.
+
+1164: repeating digits.
+
+1167: repeating digits.
+
+1170: zero.
+
+1173: repeating digits.
+
+1176: repeating digits.
+
+1179: repeating digits.
+
+1182: repeating digits.
+
+1185: repeating digits.
+
+1188: repeating digits.
+
+1191: repeating digits.
+
+1194: repeating digits.
+
+1197: repeating digits.
+
+1200: zero.
+
+1203: zero.
+
+1204: zero.
+
+1205: zero.
+
+1206: zero.
+
+1207: zero.
+
+1208: zero.
+
+1209: zero.
+
+1210: zero.
+
+1212: repeating digits.
+
+1213: repeating digits.
+
+1214: repeating digits.
+
+1215: repeating digits.
+
+1216: repeating digits.
+
+1217: repeating digits.
+
+1218: repeating digits.
+
+1219: repeating digits.
+
+1220: zero.
+
+1221: repeating digits.
+
+1224: repeating digits.
+
+1225: repeating digits.
+
+1227: repeating digits.
+
+1228: repeating digits.
+
+1229: repeating digits.
+
+1230: zero.
+
+1231: repeating digits.
+
+1232: repeating digits.
+
+1233: repeating digits.
+
+1234: not divisible by 3.
+
+1235: zero.
+
+1236: meets the criteria.
+
+So, after checking all these, it seems that 1236 is indeed the smallest four-digit number with all distinct digits that is divisible by each of its digits.
+
+I think that's the answer.

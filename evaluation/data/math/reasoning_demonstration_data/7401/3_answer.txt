@@ -1,1 +1,48 @@
-Answer: 
+Answer: To find the largest number composed of digits 3 and 2, where the sum of the digits is 11, we need to consider the possible combinations of 3's and 2's that add up to 11.
+
+let \( a \) be the number of 3's and \( b \) be the number of 2's. we have the equation:
+
+\[ 3a + 2b = 11 \]
+
+we need to find non-negative integer solutions for \( a \) and \( b \):
+
+1. if \( a = 0 \):
+   \[ 2b = 11 \]
+   this does not yield an integer \( b \).
+
+2. if \( a = 1 \):
+   \[ 3(1) + 2b = 11 \]
+   \[ 3 + 2b = 11 \]
+   \[ 2b = 8 \]
+   \[ b = 4 \]
+   this gives the combination: one 3 and four 2's.
+
+3. if \( a = 2 \):
+   \[ 3(2) + 2b = 11 \]
+   \[ 6 + 2b = 11 \]
+   \[ 2b = 5 \]
+   this does not yield an integer \( b \).
+
+4. if \( a = 3 \):
+   \[ 3(3) + 2b = 11 \]
+   \[ 9 + 2b = 11 \]
+   \[ 2b = 2 \]
+   \[ b = 1 \]
+   this gives the combination: three 3's and one 2.
+
+5. if \( a = 4 \):
+   \[ 3(4) + 2b = 11 \]
+   \[ 12 + 2b = 11 \]
+   this does not yield a valid solution.
+
+the possible combinations are:
+- one 3 and four 2's: \( 32222 \)
+- three 3's and one 2: \( 3332 \)
+
+comparing these, \( 32222 \) is a 5-digit number and \( 3332 \) is a 4-digit number. therefore, \( 32222 \) is larger.
+
+thus, the largest number composed of digits 3 and 2, whose digits sum to 11, is:
+
+\[
+\boxed{32222}
+\]

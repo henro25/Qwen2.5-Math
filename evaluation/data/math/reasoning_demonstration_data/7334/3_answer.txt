@@ -1,1 +1,25 @@
-Answer: 
+Answer: To find the length of the base of an isosceles triangle with congruent sides of 5 cm each and a perimeter of 17 cm, follow these steps:
+
+1. **Understand the given information:**
+   - The triangle is isosceles, meaning it has two equal sides.
+   - The lengths of the two congruent sides are 5 cm each.
+   - The perimeter of the triangle is 17 cm.
+
+2. **Set up the equation for the perimeter:**
+   - Let the base be denoted by \( b \).
+   - The perimeter is the sum of all sides: \( 5 + 5 + b = 17 \).
+
+3. **Solve for the base \( b \):**
+   \[
+   10 + b = 17 \\
+   b = 17 - 10 \\
+   b = 7 \text{ cm}
+   \]
+
+4. **Verify the triangle inequality:**
+   - Check that the sum of any two sides is greater than the third side:
+     - \( 5 + 5 > 7 \) (10 > 7, true)
+     - \( 5 + 7 > 5 \) (12 > 5, true)
+     - \( 5 + 7 > 5 \) (12 > 5, true)
+
+Since all conditions are satisfied, the length of the base is **7 cm**.

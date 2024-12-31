@@ -1,1 +1,24 @@
-Answer: 
+Answer: To determine the range of \( x \) such that \(\angle a\) is the largest angle in the triangle, we need to ensure that side \( bc \) (opposite \(\angle a\)) is the longest side. given the side lengths \( ab = x+4 \), \( ac = 3x \), and \( bc = x+9 \), we set up the following inequalities:
+
+1. \( x + 9 > x + 4 \) (always true, no restriction)
+2. \( x + 9 > 3x \) which simplifies to \( x < 4.5 \)
+
+additionally, we need to satisfy the triangle inequalities:
+
+1. \( (x + 4) + (3x) > x + 9 \) which simplifies to \( x > \frac{5}{3} \)
+2. \( (x + 4) + (x + 9) > 3x \) which simplifies to \( x < 13 \)
+3. \( (3x) + (x + 9) > x + 4 \) which simplifies to \( x > -\frac{5}{3} \) (less restrictive than \( x > \frac{5}{3} \))
+
+combining these, we get \( \frac{5}{3} < x < 4.5 \).
+
+to find the least possible value of \( n - m \):
+
+\[
+n - m = 4.5 - \frac{5}{3} = \frac{9}{2} - \frac{5}{3} = \frac{27}{6} - \frac{10}{6} = \frac{17}{6}
+\]
+
+thus, the least possible value of \( n - m \) is:
+
+\[
+\boxed{\frac{17}{6}}
+\]

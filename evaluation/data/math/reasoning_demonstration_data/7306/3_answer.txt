@@ -1,1 +1,37 @@
-Answer: 
+Answer: To express \(1.\overline{27}\) as a common fraction in lowest terms, we start by setting \(x = 1.\overline{27}\). this means \(x = 1.272727...\).
+
+next, we multiply both sides by 100 to shift the decimal point two places to the right:
+
+\[
+100x = 127.272727...
+\]
+
+we then subtract the original equation from this new equation:
+
+\[
+100x - x = 127.272727... - 1.272727...
+\]
+
+this simplifies to:
+
+\[
+99x = 126
+\]
+
+solving for \(x\), we get:
+
+\[
+x = \frac{126}{99}
+\]
+
+to simplify \(\frac{126}{99}\), we find the greatest common divisor (gcd) of 126 and 99, which is 9. dividing both the numerator and the denominator by 9:
+
+\[
+\frac{126 \div 9}{99 \div 9} = \frac{14}{11}
+\]
+
+thus, the fraction representation of \(1.\overline{27}\) in lowest terms is:
+
+\[
+\boxed{\frac{14}{11}}
+\]

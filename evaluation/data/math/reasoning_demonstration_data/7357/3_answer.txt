@@ -1,1 +1,25 @@
-Answer: 
+Answer: To find the area of the isosceles triangle \(abc\) with sides 25 cm, 25 cm, and 48 cm, we first determine the height \(h\) by splitting the triangle into two right-angled triangles. each right-angled triangle has a hypotenuse of 25 cm, one leg of 24 cm (half of the base 48 cm), and the other leg as the height \(h\).
+
+using the pythagorean theorem:
+\[
+25^2 = 24^2 + h^2
+\]
+\[
+625 = 576 + h^2
+\]
+\[
+h^2 = 625 - 576 = 49
+\]
+\[
+h = \sqrt{49} = 7 \text{ cm}
+\]
+
+the area of the triangle is then calculated using the formula:
+\[
+\text{area} = \frac{1}{2} \times \text{base} \times \text{height}
+\]
+\[
+\text{area} = \frac{1}{2} \times 48 \times 7 = \frac{336}{2} = 168 \text{ square centimeters}
+\]
+
+thus, the area of triangle \(abc\) is \(\boxed{168}\) square centimeters.

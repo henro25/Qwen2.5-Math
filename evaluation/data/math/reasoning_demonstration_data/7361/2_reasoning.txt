@@ -1,1 +1,42 @@
-Reasoning: 
+Reasoning: So i need to find the value of cos 210 degrees. hmm, i'm a bit rusty on trigonometry, but i remember that the unit circle is a good way to approach this. let me recall some basics.
+
+first, the unit circle is a circle with a radius of 1, and angles are measured from the positive x-axis going counterclockwise. so, 210 degrees is more than 180 degrees but less than 270 degrees, which means it's in the third quadrant of the unit circle.
+
+i also remember that in the third quadrant, both sine and cosine values are negative. wait, is that right? let me think. in the first quadrant, both are positive; in the second, sine is positive and cosine is negative; in the third, both are negative; and in the fourth, sine is negative and cosine is positive. yeah, so in the third quadrant, cosine is negative.
+
+now, 210 degrees is 180 degrees plus 30 degrees. so, it's 180 + 30. i think there's a formula for cosine of (180 + x). let me see... oh, right! there's a formula for cosine of (180 degrees + x), which is cos(180 + x) = -cos(x). wait, is that correct?
+
+let me verify that. i know that cos(180 + x) = -cos(x), and sin(180 + x) = -sin(x). yes, that seems right. so, cos(210) = cos(180 + 30) = -cos(30).
+
+okay, so i need to find cos(30 degrees) and then take its negative. i remember that cos(30 degrees) is √3/2. so, cos(210 degrees) should be -√3/2.
+
+wait a minute, let me double-check that. maybe i should recall the exact values of cosine for common angles. cos(0) is 1, cos(30) is √3/2, cos(45) is √2/2, cos(60) is 1/2, and cos(90) is 0. yeah, that's correct.
+
+but to be thorough, maybe i should use the unit circle coordinates for 210 degrees. the coordinates on the unit circle for an angle θ are (cos θ, sin θ). for 210 degrees, since it's in the third quadrant, both coordinates should be negative.
+
+i can also think of 210 degrees as 180 + 30 degrees, so the reference angle is 30 degrees. the reference angle is the acute angle that the terminal side makes with the x-axis. so, for 210 degrees, the reference angle is 30 degrees.
+
+in the third quadrant, cosine is negative, so cos(210) = -cos(30) = -√3/2.
+
+alternatively, i could use the formula for cosine of a sum of angles. the formula is cos(a + b) = cos a cos b - sin a sin b. so, cos(180 + 30) = cos 180 cos 30 - sin 180 sin 30.
+
+i know that cos 180 is -1, sin 180 is 0, cos 30 is √3/2, and sin 30 is 1/2.
+
+plugging in the values: cos(210) = (-1)(√3/2) - (0)(1/2) = -√3/2 - 0 = -√3/2.
+
+so, that confirms my earlier result.
+
+just to be extra sure, maybe i can look at the sine and cosine values for 210 degrees using the unit circle coordinates.
+
+for 210 degrees, the coordinates are (cos 210, sin 210). since it's 180 + 30, the x-coordinate should be -cos(30), and the y-coordinate should be -sin(30). so, cos 210 = -cos(30) = -√3/2, and sin 210 = -sin(30) = -1/2.
+
+yes, that matches what i got before.
+
+i think that's solid. so, the value of cos 210 degrees is -√3/2.
+
+**final answer**
+
+−
+3
+2	
+ 

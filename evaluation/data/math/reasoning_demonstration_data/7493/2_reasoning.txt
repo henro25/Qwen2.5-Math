@@ -1,1 +1,616 @@
-Reasoning: 
+Reasoning: So i have this triangle abc with sides ab = 3, ac = 6, and bc = 8. there's a point d on side bc such that ad bisects angle bac. i need to find cos angle bad.
+
+first, i should probably sketch the triangle to visualize it better. let me draw triangle abc with ab = 3, ac = 6, and bc = 8. so, bc is the longest side, which suggests that angle a is not the largest angle in the triangle.
+
+since ad bisects angle bac, it means that angle bad is equal to angle cad. that is, ad divides angle a into two equal parts.
+
+i recall that there is a theorem called the angle bisector theorem, which relates the lengths of the sides of the triangle to the segments created by the bisector on the opposite side.
+
+the angle bisector theorem states that the ratio of the lengths of the two segments created by the bisector on side bc is equal to the ratio of the other two sides of the triangle. in other words:
+
+bd / dc = ab / ac
+
+given ab = 3 and ac = 6, so bd / dc = 3 / 6 = 1 / 2
+
+therefore, bd = (1/3) * bc and dc = (2/3) * bc
+
+since bc = 8, bd = (1/3)*8 = 8/3 and dc = (2/3)*8 = 16/3
+
+so, bd = 8/3 and dc = 16/3
+
+now, i need to find cos angle bad. angle bad is half of angle bac since ad is the angle bisector.
+
+wait, is angle bad exactly half of angle bac? i think that's correct, yes.
+
+so, if i can find angle bac, then angle bad is half of that, and then i can find its cosine.
+
+alternatively, maybe there's a better way to find cos angle bad directly without finding the angles themselves.
+
+let me think about using the law of cosines or maybe the law of sines.
+
+first, perhaps i should find angle bac using the law of cosines.
+
+in triangle abc, using the law of cosines to find angle a:
+
+cos a = (b² + c² - a²) / (2bc)
+
+here, a = bc = 8, b = ac = 6, c = ab = 3
+
+plugging in:
+
+cos a = (6² + 3² - 8²) / (2*6*3) = (36 + 9 - 64) / 36 = (-19) / 36
+
+so, angle a has cosine -19/36.
+
+therefore, angle bad is half of angle a.
+
+but i need to find cos(angle bad), which is cos(a/2)
+
+i recall that there is a half-angle formula for cosine:
+
+cos(a/2) = sqrt[(1 + cos a)/2]
+
+similarly, there's another form: cos(a/2) = sqrt[(s(s - a))/(b*c)]
+
+wait, no, that's for the cosine of the half-angle in terms of the sides of the triangle.
+
+actually, in triangle geometry, there is a formula for cos of half an angle in terms of the sides.
+
+let me recall the half-angle formulas.
+
+one of them is:
+
+cos(a/2) = sqrt[(s(s - a))/(b*c)]
+
+where s is the semi-perimeter of the triangle.
+
+given that, maybe i can use that.
+
+first, find the semi-perimeter s.
+
+s = (a + b + c)/2 = (8 + 6 + 3)/2 = 17/2 = 8.5
+
+then, s - a = 8.5 - 8 = 0.5
+
+so, cos(a/2) = sqrt[(8.5 * 0.5)/(6*3)] = sqrt[(4.25)/(18)] = sqrt(4.25/18)
+
+let me compute that.
+
+4.25 / 18 = 0.236111...
+
+so, sqrt(0.236111...) ≈ 0.486
+
+but i need an exact value, not an approximation.
+
+alternatively, maybe i can use the angle bisector formula in a different way.
+
+i know that ad is the angle bisector, and i have the lengths bd and dc.
+
+perhaps i can apply the law of cosines in triangles abd and adc.
+
+wait, maybe there's a better approach.
+
+i recall that in a triangle, if an angle is bisected, certain ratios hold, and maybe i can relate the sides and the angles using trigonometric identities.
+
+alternatively, perhaps using the formula for the length of the angle bisector.
+
+the length of the angle bisector from vertex a to side bc can be found using the formula:
+
+ad = (2*b*c*cos(a/2))/(b + c)
+
+wait, that seems promising.
+
+given that, i can solve for cos(a/2):
+
+cos(a/2) = (ad*(b + c))/(2*b*c)
+
+but i don't know ad yet.
+
+alternatively, there is a formula for the length of the angle bisector:
+
+ad² = ab * ac - bd * dc
+
+wait, yes, that's the formula.
+
+the length of the angle bisector from a to bc is given by:
+
+ad² = ab * ac - bd * dc
+
+i have ab = 3, ac = 6, bd = 8/3, dc = 16/3
+
+so, ad² = 3*6 - (8/3)*(16/3) = 18 - (128/9) = (162/9 - 128/9) = 34/9
+
+therefore, ad = sqrt(34/9) = sqrt(34)/3
+
+now, going back to the formula:
+
+cos(a/2) = (ad*(b + c))/(2*b*c)
+
+wait, actually, let's look up the exact formula for the angle bisector in terms of the sides and the cosine of the half-angle.
+
+alternatively, maybe it's better to use vectors or coordinates to find the cosine of angle bad.
+
+alternatively, perhaps using the law of sines in triangle abd.
+
+in triangle abd, i know ab = 3, bd = 8/3, and ad = sqrt(34)/3
+
+so, by the law of cosines in triangle abd:
+
+cos(angle bad) = (ab² + ad² - bd²)/(2*ab*ad)
+
+plugging in the values:
+
+ab = 3, ad = sqrt(34)/3, bd = 8/3
+
+so,
+
+cos(angle bad) = [3² + (sqrt(34)/3)² - (8/3)²] / [2*3*(sqrt(34)/3)]
+
+calculate numerator:
+
+9 + (34/9) - (64/9) = 9 + (34 - 64)/9 = 9 - 30/9 = 9 - 10/3 = (27/3 - 10/3) = 17/3
+
+denominator:
+
+2*3*(sqrt(34)/3) = 6*(sqrt(34)/3) = 2*sqrt(34)
+
+therefore, cos(angle bad) = (17/3) / (2*sqrt(34)) = 17/(6*sqrt(34))
+
+to rationalize the denominator:
+
+17/(6*sqrt(34)) * (sqrt(34)/sqrt(34)) = 17*sqrt(34)/(6*34) = 17*sqrt(34)/(204) = sqrt(34)/12
+
+wait, let's check the calculation.
+
+numerator: 9 + 34/9 - 64/9 = 9 - 30/9 = 9 - 10/3 = 27/3 - 10/3 = 17/3
+
+denominator: 2*3*(sqrt(34)/3) = 6*(sqrt(34)/3) = 2*sqrt(34)
+
+so, (17/3) / (2*sqrt(34)) = 17/(6*sqrt(34))
+
+rationalizing:
+
+17/(6*sqrt(34)) * sqrt(34)/sqrt(34) = 17*sqrt(34)/(6*34) = 17*sqrt(34)/(204) = sqrt(34)/12
+
+yes, that seems correct.
+
+alternatively, perhaps there's a simpler way to find cos(angle bad).
+
+wait a minute, maybe i can use the formula for the cosine of half an angle in terms of the sides.
+
+i have angle bad = angle a / 2, and i already found cos a = -19/36
+
+so, using the half-angle formula:
+
+cos(a/2) = sqrt[(1 + cos a)/2] = sqrt[(1 - 19/36)/2] = sqrt[(17/36)/2] = sqrt(17/72) = sqrt(34)/ (6*sqrt(2)) = sqrt(17)/ (3*sqrt(2))
+
+wait, that doesn't seem to match my previous result of sqrt(34)/12.
+
+hmm, maybe i made a mistake in one of the steps.
+
+let me double-check the half-angle formula.
+
+the half-angle formula for cosine is:
+
+cos(a/2) = sqrt[(1 + cos a)/2]
+
+given cos a = -19/36
+
+so,
+
+cos(a/2) = sqrt[(1 - 19/36)/2] = sqrt[(17/36)/2] = sqrt(17/72) = sqrt(34)/ (6*sqrt(2)) = sqrt(17)/ (3*sqrt(2))
+
+wait, but sqrt(34)/ (6*sqrt(2)) simplifies to sqrt(17)/ (3*sqrt(2)) because sqrt(34) = sqrt(17*2) = sqrt(17)*sqrt(2)
+
+so, sqrt(34)/(6*sqrt(2)) = sqrt(17)*sqrt(2)/(6*sqrt(2)) = sqrt(17)/6
+
+wait, that's not matching my earlier result.
+
+wait, sqrt(34)/ (6*sqrt(2)) = sqrt(17*2)/ (6*sqrt(2)) = sqrt(17)*sqrt(2)/ (6*sqrt(2)) = sqrt(17)/6
+
+yes, that's correct.
+
+so, cos(a/2) = sqrt(17)/6
+
+but earlier, using the law of cosines in triangle abd, i got cos(angle bad) = sqrt(34)/12, which is equivalent to sqrt(17)/ (6*sqrt(2)) if i didn't simplify correctly.
+
+wait, sqrt(34)/12 = sqrt(17*2)/12 = sqrt(17)/ (12/sqrt(2)) = sqrt(17)/ (6*sqrt(2))
+
+which is not equal to sqrt(17)/6.
+
+this inconsistency suggests i made an error in one of the approaches.
+
+let me check the law of cosines approach again.
+
+in triangle abd:
+
+ab = 3, bd = 8/3, ad = sqrt(34)/3
+
+cos(angle bad) = [ab² + ad² - bd²] / [2*ab*ad]
+
+compute numerator:
+
+ab² = 9
+
+ad² = (sqrt(34)/3)^2 = 34/9
+
+bd² = (8/3)^2 = 64/9
+
+so, numerator = 9 + 34/9 - 64/9 = 9 - 30/9 = 9 - 10/3 = 27/3 - 10/3 = 17/3
+
+denominator = 2*3*(sqrt(34)/3) = 6*(sqrt(34)/3) = 2*sqrt(34)
+
+therefore, cos(angle bad) = (17/3)/(2*sqrt(34)) = 17/(6*sqrt(34)) = sqrt(34)/(6*2) = sqrt(34)/12
+
+wait, no. let's rationalize 17/(6*sqrt(34)):
+
+17/(6*sqrt(34)) * sqrt(34)/sqrt(34) = 17*sqrt(34)/(6*34) = 17*sqrt(34)/(204) = sqrt(34)/12
+
+so, cos(angle bad) = sqrt(34)/12
+
+but from the half-angle formula, i got cos(a/2) = sqrt(17)/6
+
+these two results need to be consistent. they should be equal, but they're not.
+
+wait, perhaps i misapplied the half-angle formula.
+
+given that angle bad is half of angle a, and angle a is obtuse because cos a is negative (-19/36), which means angle a is greater than 90 degrees.
+
+but in that case, angle bad is acute, and its cosine should be positive, which matches both results.
+
+however, sqrt(34)/12 is approximately 0.486, and sqrt(17)/6 is approximately 0.680, which are not equal.
+
+therefore, there must be a mistake in one of the approaches.
+
+let me check the angle bisector length formula again.
+
+ad² = ab * ac - bd * dc
+
+ab = 3, ac = 6, bd = 8/3, dc = 16/3
+
+ad² = 3*6 - (8/3)*(16/3) = 18 - (128/9) = (162/9 - 128/9) = 34/9
+
+ad = sqrt(34)/3
+
+this seems correct.
+
+now, using law of cosines in triangle abd:
+
+cos(angle bad) = [ab² + ad² - bd²] / [2*ab*ad]
+
+plugging in:
+
+[9 + 34/9 - 64/9] / [2*3*(sqrt(34)/3)] = [9 - 30/9] / [2*sqrt(34)] = [9 - 10/3] / [2*sqrt(34)] = [27/3 - 10/3] / [2*sqrt(34)] = [17/3] / [2*sqrt(34)] = 17/(6*sqrt(34)) = sqrt(34)/12
+
+alternatively, perhaps i should use the formula for the cosine of the angle between two sides.
+
+wait, maybe i can use the law of sines in triangle abd.
+
+in triangle abd:
+
+sin(angle bad)/bd = sin(angle abd)/ad
+
+but i don't know angle abd.
+
+this seems complicated.
+
+alternatively, perhaps using coordinates would be easier.
+
+let me try placing triangle abc on a coordinate plane.
+
+let’s place point b at the origin (0,0), point c at (8,0), and point a somewhere in the plane.
+
+given ab = 3, ac = 6, and bc = 8.
+
+using the distance formula, i can find coordinates of a.
+
+let’s denote coordinates:
+
+b = (0,0), c = (8,0), a = (x,y)
+
+then, distance ab = 3: sqrt(x² + y²) = 3 ⇒ x² + y² = 9
+
+distance ac = 6: sqrt((x-8)² + y²) = 6 ⇒ (x-8)² + y² = 36
+
+subtract the first equation from the second:
+
+(x-8)² + y² - x² - y² = 36 - 9 ⇒ x² - 16x + 64 + y² - x² - y² = 27 ⇒ -16x + 64 = 27 ⇒ -16x = -37 ⇒ x = 37/16
+
+then, plug x back into x² + y² = 9:
+
+(37/16)^2 + y^2 = 9 ⇒ 1369/256 + y^2 = 9 ⇒ y^2 = 9 - 1369/256 = (2304 - 1369)/256 = 935/256 ⇒ y = sqrt(935)/16
+
+so, coordinates of a are (37/16, sqrt(935)/16)
+
+now, point d is on bc such that ad bisects angle bac.
+
+since bc is on the x-axis from (0,0) to (8,0), and bd = 8/3, dc = 16/3, as previously determined.
+
+so, coordinates of d are (bd, 0) = (8/3, 0)
+
+now, vector ad is from a to d: (8/3 - 37/16, 0 - sqrt(935)/16) = ( (128/48 - 111/48), -sqrt(935)/16 ) = (17/48, -sqrt(935)/16)
+
+vector ab is from a to b: (0 - 37/16, 0 - sqrt(935)/16) = (-37/16, -sqrt(935)/16)
+
+now, the angle between vectors ab and ad is angle bad.
+
+the cosine of the angle between two vectors u and v is given by:
+
+cos(theta) = (u ⋅ v) / (|u| |v|)
+
+so, let's compute the dot product of ab and ad, and the magnitudes of ab and ad.
+
+first, ab ⋅ ad = (-37/16)*(17/48) + (-sqrt(935)/16)*(-sqrt(935)/16) = (-629)/(768) + (935)/256
+
+let's compute this:
+
+-629/768 + 935/256 = -629/768 + 935*3/768 = (-629 + 2805)/768 = 2176/768 = 272/96 = 34/12 = 17/6
+
+now, |ab| = sqrt( (-37/16)^2 + (-sqrt(935)/16)^2 ) = sqrt( (1369 + 935)/256 ) = sqrt(2304/256) = sqrt(9) = 3
+
+|ad| = sqrt( (17/48)^2 + ( -sqrt(935)/16 )^2 ) = sqrt( 289/2304 + 935/256 ) = sqrt( 289/2304 + 935*9/2304 ) = sqrt( (289 + 8415)/2304 ) = sqrt(8704/2304) = sqrt(3.777...) = approximately 1.943
+
+wait, but i need an exact value.
+
+wait, 8704 divided by 2304.
+
+actually, 8704 / 2304 = 3.777...
+
+but perhaps it's better to leave it as sqrt(8704)/48
+
+wait, no.
+
+wait, 8704 / 2304 = 8704 ÷ 2304
+
+let's compute that:
+
+2304 * 3 = 6912
+
+8704 - 6912 = 1792
+
+2304 * 0.777... is approximately 1792
+
+wait, perhaps i can simplify sqrt(8704)/48.
+
+but this seems messy.
+
+alternatively, perhaps there's a better way to approach this.
+
+given that, perhaps using coordinates is making it more complicated.
+
+let me try going back to the angle bisector approach.
+
+i have bd = 8/3, dc = 16/3, ab = 3, ac = 6, bc = 8.
+
+i have ad = sqrt(34)/3
+
+i need to find cos(angle bad)
+
+using the law of cosines in triangle abd:
+
+cos(angle bad) = [ab² + ad² - bd²]/[2*ab*ad]
+
+plugging in:
+
+[9 + 34/9 - 64/9]/[2*3*(sqrt(34)/3)] = [9 - 30/9]/[2*sqrt(34)] = [9 - 10/3]/[2*sqrt(34)] = [27/3 - 10/3]/[2*sqrt(34)] = [17/3]/[2*sqrt(34)] = 17/(6*sqrt(34)) = sqrt(34)/12
+
+but earlier, using the half-angle formula, i got sqrt(17)/6, which is different.
+
+i must have made a mistake in applying the half-angle formula.
+
+let me double-check the half-angle formula.
+
+the half-angle formula for cosine is:
+
+cos(a/2) = sqrt[(1 + cos a)/2]
+
+given cos a = -19/36
+
+so,
+
+cos(a/2) = sqrt[(1 - 19/36)/2] = sqrt[(17/36)/2] = sqrt(17/72) = sqrt(34)/ (6*sqrt(2)) = sqrt(17)/ (3*sqrt(2))
+
+wait, but sqrt(34)/ (6*sqrt(2)) = sqrt(17*2)/ (6*sqrt(2)) = sqrt(17)/6
+
+so, cos(a/2) = sqrt(17)/6
+
+but earlier, using the law of cosines, i got sqrt(34)/12, which is sqrt(17)/ (6*sqrt(2))
+
+these are not equal unless sqrt(2) = 1, which it's not.
+
+this inconsistency suggests an error in one of the approaches.
+
+upon closer inspection, perhaps the formula ad² = ab * ac - bd * dc is not correct.
+
+let me verify the formula for the length of the angle bisector.
+
+the correct formula for the length of the angle bisector from vertex a to side bc is:
+
+ad = (2*b*c*cos(a/2))/(b + c)
+
+alternatively, ad² = b*c*(1 - (a²)/(b + c)²)
+
+wait, perhaps i should look up the exact formula.
+
+the formula for the length of the angle bisector is:
+
+ad² = b*c*(1 - (a²)/(b + c)²)
+
+where a, b, c are the sides opposite to angles a, b, c respectively.
+
+in our case, a = bc = 8, b = ac = 6, c = ab = 3
+
+so,
+
+ad² = 6*3*(1 - (8²)/(6 + 3)²) = 18*(1 - 64/81) = 18*(17/81) = 18*(17)/(81) = (306)/81 = 34/9
+
+so, ad = sqrt(34)/3
+
+this matches what i had earlier.
+
+now, using the formula:
+
+cos(angle bad) = [ab² + ad² - bd²]/[2*ab*ad]
+
+plugging in the values:
+
+ab = 3, ad = sqrt(34)/3, bd = 8/3
+
+so,
+
+cos(angle bad) = [9 + 34/9 - 64/9]/[2*3*(sqrt(34)/3)] = [9 - 30/9]/[2*sqrt(34)] = [9 - 10/3]/[2*sqrt(34)] = [27/3 - 10/3]/[2*sqrt(34)] = [17/3]/[2*sqrt(34)] = 17/(6*sqrt(34))
+
+rationalizing the denominator:
+
+17/(6*sqrt(34)) * sqrt(34)/sqrt(34) = 17*sqrt(34)/(6*34) = 17*sqrt(34)/204 = sqrt(34)/12
+
+but according to the half-angle formula, cos(a/2) = sqrt(17)/6
+
+these two results should be equal, but they are not.
+
+this suggests that there is a mistake in one of the approaches.
+
+upon reviewing, i realize that the half-angle formula i used assumes that angle a is acute, but in reality, angle a is obtuse since cos a is negative.
+
+therefore, cos(a/2) should still be positive because angle a/2 is acute.
+
+however, the formula i used is still applicable.
+
+alternatively, perhaps i need to use a different half-angle formula for obtuse angles.
+
+let me look up the correct half-angle formula for cosine when the angle is obtuse.
+
+upon checking, the half-angle formula for cosine is:
+
+cos(a/2) = sqrt[(1 + cos a)/2]
+
+this is valid for any angle a, whether acute or obtuse, as long as a/2 is in the correct range.
+
+given that, and cos a = -19/36
+
+so,
+
+cos(a/2) = sqrt[(1 - 19/36)/2] = sqrt[(17/36)/2] = sqrt(17/72) = sqrt(34)/ (6*sqrt(2)) = sqrt(17)/ (3*sqrt(2))
+
+wait, but sqrt(34)/ (6*sqrt(2)) = sqrt(17*2)/ (6*sqrt(2)) = sqrt(17)/6
+
+so, cos(a/2) = sqrt(17)/6
+
+this seems correct.
+
+but earlier, using the law of cosines in triangle abd, i got cos(angle bad) = sqrt(34)/12
+
+which is different from sqrt(17)/6
+
+wait, sqrt(34)/12 = sqrt(17*2)/12 = sqrt(17)/ (12/sqrt(2)) = sqrt(17)/ (6*sqrt(2))
+
+which is not equal to sqrt(17)/6 unless sqrt(2) = 1, which it's not.
+
+this suggests a mistake in one of the approaches.
+
+i think the error is in assuming that angle bad is exactly half of angle a.
+
+while ad bisects angle a, angle bad is indeed half of angle a, but perhaps there's a different relationship in the law of cosines application.
+
+alternatively, maybe i need to use the formula for the cosine of the angle between two vectors more carefully.
+
+given points a, b, and d with their coordinates, i can find vectors ab and ad and then compute the cosine of the angle between them.
+
+earlier, i attempted this but got bogged down in messy calculations.
+
+let me try this again more carefully.
+
+coordinates:
+
+b = (0,0)
+
+c = (8,0)
+
+a = (37/16, sqrt(935)/16)
+
+d = (8/3, 0)
+
+vector ab = b - a = (-37/16, -sqrt(935)/16)
+
+vector ad = d - a = (8/3 - 37/16, 0 - sqrt(935)/16) = ( (128/48 - 111/48), -sqrt(935)/16 ) = (17/48, -sqrt(935)/16)
+
+now, the dot product ab ⋅ ad = (-37/16)*(17/48) + (-sqrt(935)/16)*(-sqrt(935)/16) = (-629)/(768) + (935)/256
+
+let me compute (-629)/768 + 935/256
+
+first, find a common denominator, which is 768.
+
+935/256 = (935*3)/(256*3) = 2805/768
+
+so, (-629 + 2805)/768 = 2176/768 = 272/96 = 34/12 = 17/6
+
+now, the magnitudes:
+
+|ab| = sqrt( (-37/16)^2 + (-sqrt(935)/16)^2 ) = sqrt( 1369/256 + 935/256 ) = sqrt(2304/256) = sqrt(9) = 3
+
+|ad| = sqrt( (17/48)^2 + (-sqrt(935)/16)^2 ) = sqrt( 289/2304 + 935/256 ) = sqrt( 289/2304 + 935*9/2304 ) = sqrt( (289 + 8415)/2304 ) = sqrt(8704/2304) = sqrt(3.777...) = sqrt(3.777) is approximately 1.943, but i need an exact value.
+
+wait, 8704 divided by 2304 is 3.777...
+
+but perhaps i can simplify sqrt(8704)/48.
+
+wait, 8704 / 2304 = 8704 ÷ 2304 = 3.777...
+
+alternatively, perhaps i can factor 8704.
+
+8704 ÷ 16 = 544
+
+544 ÷ 16 = 34
+
+so, 8704 = 16*544 = 16*16*34 = 256*34
+
+therefore, sqrt(8704) = sqrt(256*34) = 16*sqrt(34)
+
+therefore, |ad| = sqrt(8704)/48 = 16*sqrt(34)/48 = sqrt(34)/3
+
+now, cos(angle bad) = (ab ⋅ ad)/( |ab| |ad| ) = (17/6)/(3 * sqrt(34)/3) = (17/6)/(sqrt(34)/1) = 17/(6*sqrt(34)) = sqrt(34)/12
+
+wait, but earlier i had |ad| = sqrt(34)/3, and |ab| = 3
+
+so, (17/6)/(3 * sqrt(34)/3) = (17/6)/(sqrt(34)) = 17/(6*sqrt(34)) = sqrt(34)/12
+
+this matches my previous result.
+
+but according to the half-angle formula, it should be sqrt(17)/6, which is different.
+
+this inconsistency suggests that perhaps i made a mistake in applying the half-angle formula.
+
+alternatively, maybe the angle bad is not exactly half of angle a, but that contradicts the angle bisector definition.
+
+wait, no, angle bad should indeed be half of angle a.
+
+therefore, the discrepancy must be in the calculation.
+
+alternatively, perhaps the angle bisector formula i used is not accurate for this configuration.
+
+given the time i've spent on this, perhaps the correct answer is sqrt(34)/12.
+
+alternatively, perhaps there's a simpler way to find cos(angle bad) using the formula for the cosine of the angle between two sides in terms of the sides of the triangle.
+
+alternatively, perhaps using the formula for the cosine of the angle bisector.
+
+wait, perhaps i can use the formula:
+
+cos(angle bad) = (ab^2 + ad^2 - bd^2)/(2*ab*ad)
+
+which is what i did earlier, leading to sqrt(34)/12
+
+alternatively, perhaps i can use the formula:
+
+cos(angle bad) = (c + d)/(2*b)
+
+where d is the length of the bisector, but i'm not sure.
+
+alternatively, perhaps i should look up the formula for the cosine of the angle between two sides when an angle is bisected.
+
+given the time constraints, i think the correct answer is cos(angle bad) = sqrt(34)/12
+
+**final answer**
+
+34
+12

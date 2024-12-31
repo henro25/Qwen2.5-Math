@@ -1,1 +1,1367 @@
 Reasoning: 
+So i've got this problem here: find the integer that's closest to 
+1000
+×
+∑
+n
+=
+3
+10000
+1
+n
+2
+−
+4
+1000×∑ 
+n=3
+10000
+​	
+  
+n 
+2
+ −4
+1
+​	
+ . hmm, okay, let's see how to tackle this.
+
+first off, the sum is from 
+n
+=
+3
+n=3 to 
+n
+=
+10000
+n=10000 of 
+1
+/
+(
+n
+2
+−
+4
+)
+1/(n 
+2
+ −4), and then multiply that sum by 1000 and find the closest integer. it seems a bit daunting at first because the upper limit is 10,000, but maybe there's a way to simplify this sum.
+
+i notice that the denominator is 
+n
+2
+−
+4
+n 
+2
+ −4, which looks like a difference of squares. so, 
+n
+2
+−
+4
+=
+(
+n
+−
+2
+)
+(
+n
++
+2
+)
+n 
+2
+ −4=(n−2)(n+2). maybe i can use partial fractions to break this down.
+
+let’s try expressing 
+1
+/
+(
+n
+2
+−
+4
+)
+1/(n 
+2
+ −4) as partial fractions:
+
+1
+n
+2
+−
+4
+=
+a
+n
+−
+2
++
+b
+n
++
+2
+n 
+2
+ −4
+1
+​	
+ = 
+n−2
+a
+​	
+ + 
+n+2
+b
+​	
+ 
+to find 
+a
+a and 
+b
+b, i can solve:
+
+1
+=
+a
+(
+n
++
+2
+)
++
+b
+(
+n
+−
+2
+)
+1=a(n+2)+b(n−2)
+let’s choose values for 
+n
+n to make this easier. if 
+n
+=
+2
+n=2:
+
+1
+=
+a
+(
+4
+)
++
+b
+(
+0
+)
+→
+a
+=
+1
+4
+1=a(4)+b(0)→a= 
+4
+1
+​	
+ 
+if 
+n
+=
+−
+2
+n=−2:
+
+1
+=
+a
+(
+0
+)
++
+b
+(
+−
+4
+)
+→
+b
+=
+−
+1
+4
+1=a(0)+b(−4)→b=− 
+4
+1
+​	
+ 
+so, the partial fractions decomposition is:
+
+1
+n
+2
+−
+4
+=
+1
+4
+(
+1
+n
+−
+2
+−
+1
+n
++
+2
+)
+n 
+2
+ −4
+1
+​	
+ = 
+4
+1
+​	
+ ( 
+n−2
+1
+​	
+ − 
+n+2
+1
+​	
+ )
+cool, so now the sum becomes:
+
+∑
+n
+=
+3
+10000
+1
+n
+2
+−
+4
+=
+1
+4
+∑
+n
+=
+3
+10000
+(
+1
+n
+−
+2
+−
+1
+n
++
+2
+)
+n=3
+∑
+10000
+​	
+  
+n 
+2
+ −4
+1
+​	
+ = 
+4
+1
+​	
+  
+n=3
+∑
+10000
+​	
+ ( 
+n−2
+1
+​	
+ − 
+n+2
+1
+​	
+ )
+this looks like a telescoping series, where a lot of terms will cancel out. let’s write out the first few terms to see the pattern:
+
+for 
+n
+=
+3
+n=3:
+
+1
+3
+−
+2
+−
+1
+3
++
+2
+=
+1
+−
+1
+5
+3−2
+1
+​	
+ − 
+3+2
+1
+​	
+ =1− 
+5
+1
+​	
+ 
+for 
+n
+=
+4
+n=4:
+
+1
+4
+−
+2
+−
+1
+4
++
+2
+=
+1
+2
+−
+1
+6
+4−2
+1
+​	
+ − 
+4+2
+1
+​	
+ = 
+2
+1
+​	
+ − 
+6
+1
+​	
+ 
+for 
+n
+=
+5
+n=5:
+
+1
+5
+−
+2
+−
+1
+5
++
+2
+=
+1
+3
+−
+1
+7
+5−2
+1
+​	
+ − 
+5+2
+1
+​	
+ = 
+3
+1
+​	
+ − 
+7
+1
+​	
+ 
+for 
+n
+=
+6
+n=6:
+
+1
+6
+−
+2
+−
+1
+6
++
+2
+=
+1
+4
+−
+1
+8
+6−2
+1
+​	
+ − 
+6+2
+1
+​	
+ = 
+4
+1
+​	
+ − 
+8
+1
+​	
+ 
+and so on, up to 
+n
+=
+10000
+n=10000:
+
+1
+10000
+−
+2
+−
+1
+10000
++
+2
+=
+1
+9998
+−
+1
+10002
+10000−2
+1
+​	
+ − 
+10000+2
+1
+​	
+ = 
+9998
+1
+​	
+ − 
+10002
+1
+​	
+ 
+now, if i add all these up, a lot of the terms should cancel each other out. specifically, the 
+−
+1
+/
+5
+−1/5 from the first term will cancel with the 
+1
+/
+5
+1/5 that would appear when 
+n
+=
+5
+n=5, but wait, in the second term, it's 
+−
+1
+/
+6
+−1/6, which will cancel with the 
+1
+/
+6
+1/6 from when 
+n
+=
+6
+n=6, and so on.
+
+actually, looking more carefully, the negative part of one term cancels with the positive part of a term four steps ahead. wait, no, let me think again.
+
+let’s consider that for each 
+n
+n, the negative part is 
+−
+1
+/
+(
+n
++
+2
+)
+−1/(n+2), which corresponds to the positive 
+1
+/
+(
+m
+−
+2
+)
+1/(m−2) when 
+m
+=
+n
++
+4
+m=n+4. wait, perhaps i need to see it more clearly.
+
+let’s list out the positive and negative parts separately.
+
+positive parts:
+
+1
+/
+(
+n
+−
+2
+)
+1/(n−2) for 
+n
+=
+3
+n=3 to 
+10000
+10000: that's 
+1
+/
+1
+,
+1
+/
+2
+,
+1
+/
+3
+,
+…
+,
+1
+/
+9998
+1/1,1/2,1/3,…,1/9998
+
+negative parts:
+
+−
+1
+/
+(
+n
++
+2
+)
+−1/(n+2) for 
+n
+=
+3
+n=3 to 
+10000
+10000: that's 
+−
+1
+/
+5
+,
+−
+1
+/
+6
+,
+−
+1
+/
+7
+,
+…
+,
+−
+1
+/
+10002
+−1/5,−1/6,−1/7,…,−1/10002
+
+now, the sum of positive parts is:
+
+∑
+n
+=
+1
+9998
+1
+n
+n=1
+∑
+9998
+​	
+  
+n
+1
+​	
+ 
+and the sum of negative parts is:
+
+−
+∑
+n
+=
+5
+10002
+1
+n
+− 
+n=5
+∑
+10002
+​	
+  
+n
+1
+​	
+ 
+so, combining them:
+
+∑
+n
+=
+3
+10000
+1
+n
+2
+−
+4
+=
+1
+4
+(
+∑
+n
+=
+1
+9998
+1
+n
+−
+∑
+n
+=
+5
+10002
+1
+n
+)
+n=3
+∑
+10000
+​	
+  
+n 
+2
+ −4
+1
+​	
+ = 
+4
+1
+​	
+ ( 
+n=1
+∑
+9998
+​	
+  
+n
+1
+​	
+ − 
+n=5
+∑
+10002
+​	
+  
+n
+1
+​	
+ )
+now, let's simplify the expression inside the parentheses:
+
+∑
+n
+=
+1
+9998
+1
+n
+−
+∑
+n
+=
+5
+10002
+1
+n
+=
+(
+1
+1
++
+1
+2
++
+1
+3
++
+1
+4
++
+∑
+n
+=
+5
+9998
+1
+n
+)
+−
+(
+∑
+n
+=
+5
+9998
+1
+n
++
+1
+9999
++
+1
+10000
++
+1
+10001
++
+1
+10002
+)
+n=1
+∑
+9998
+​	
+  
+n
+1
+​	
+ − 
+n=5
+∑
+10002
+​	
+  
+n
+1
+​	
+ =( 
+1
+1
+​	
+ + 
+2
+1
+​	
+ + 
+3
+1
+​	
+ + 
+4
+1
+​	
+ + 
+n=5
+∑
+9998
+​	
+  
+n
+1
+​	
+ )−( 
+n=5
+∑
+9998
+​	
+  
+n
+1
+​	
+ + 
+9999
+1
+​	
+ + 
+10000
+1
+​	
+ + 
+10001
+1
+​	
+ + 
+10002
+1
+​	
+ )
+notice that 
+∑
+n
+=
+5
+9998
+1
+n
+∑ 
+n=5
+9998
+​	
+  
+n
+1
+​	
+  cancels out:
+
+1
+1
++
+1
+2
++
+1
+3
++
+1
+4
+−
+(
+1
+9999
++
+1
+10000
++
+1
+10001
++
+1
+10002
+)
+1
+1
+​	
+ + 
+2
+1
+​	
+ + 
+3
+1
+​	
+ + 
+4
+1
+​	
+ −( 
+9999
+1
+​	
+ + 
+10000
+1
+​	
+ + 
+10001
+1
+​	
+ + 
+10002
+1
+​	
+ )
+so, the sum simplifies to:
+
+1
+4
+(
+1
++
+1
+2
++
+1
+3
++
+1
+4
+−
+1
+9999
+−
+1
+10000
+−
+1
+10001
+−
+1
+10002
+)
+4
+1
+​	
+ (1+ 
+2
+1
+​	
+ + 
+3
+1
+​	
+ + 
+4
+1
+​	
+ − 
+9999
+1
+​	
+ − 
+10000
+1
+​	
+ − 
+10001
+1
+​	
+ − 
+10002
+1
+​	
+ )
+now, let's compute this expression numerically.
+
+first, compute the harmonic numbers:
+
+1
++
+1
+2
++
+1
+3
++
+1
+4
+=
+1
++
+0.5
++
+0.333...
++
+0.25
+=
+2.0833...
+1+ 
+2
+1
+​	
+ + 
+3
+1
+​	
+ + 
+4
+1
+​	
+ =1+0.5+0.333...+0.25=2.0833...
+and the small terms:
+
+1
+9999
+≈
+0.00010001
+,
+1
+10000
+=
+0.0001
+,
+1
+10001
+≈
+0.00009999
+,
+1
+10002
+≈
+0.00009998
+9999
+1
+​	
+ ≈0.00010001, 
+10000
+1
+​	
+ =0.0001, 
+10001
+1
+​	
+ ≈0.00009999, 
+10002
+1
+​	
+ ≈0.00009998
+so, their sum is approximately:
+
+0.00010001
++
+0.0001
++
+0.00009999
++
+0.00009998
+≈
+0.00039998
+0.00010001+0.0001+0.00009999+0.00009998≈0.00039998
+now, subtracting the small terms from the harmonic sum:
+
+2.0833...
+−
+0.00039998
+≈
+2.0829
+2.0833...−0.00039998≈2.0829
+then, multiply by 1/4:
+
+1
+4
+×
+2.0829
+≈
+0.5207
+4
+1
+​	
+ ×2.0829≈0.5207
+now, multiply by 1000:
+
+1000
+×
+0.5207
+=
+520.7
+1000×0.5207=520.7
+so, the closest integer to 520.7 is 521.
+
+but wait a minute, let's double-check the calculations to make sure i didn't make any mistakes.
+
+first, the partial fraction decomposition seems correct:
+
+1
+n
+2
+−
+4
+=
+1
+4
+(
+1
+n
+−
+2
+−
+1
+n
++
+2
+)
+n 
+2
+ −4
+1
+​	
+ = 
+4
+1
+​	
+ ( 
+n−2
+1
+​	
+ − 
+n+2
+1
+​	
+ )
+then, summing from 
+n
+=
+3
+n=3 to 
+n
+=
+10000
+n=10000, the telescoping series cancels out most terms, leaving:
+
+1
+4
+(
+1
++
+1
+2
++
+1
+3
++
+1
+4
+−
+1
+9999
+−
+1
+10000
+−
+1
+10001
+−
+1
+10002
+)
+4
+1
+​	
+ (1+ 
+2
+1
+​	
+ + 
+3
+1
+​	
+ + 
+4
+1
+​	
+ − 
+9999
+1
+​	
+ − 
+10000
+1
+​	
+ − 
+10001
+1
+​	
+ − 
+10002
+1
+​	
+ )
+calculating the harmonic sum:
+
+1
++
+1
+2
++
+1
+3
++
+1
+4
+=
+12
+12
++
+6
+12
++
+4
+12
++
+3
+12
+=
+25
+12
+≈
+2.083333...
+1+ 
+2
+1
+​	
+ + 
+3
+1
+​	
+ + 
+4
+1
+​	
+ = 
+12
+12
+​	
+ + 
+12
+6
+​	
+ + 
+12
+4
+​	
+ + 
+12
+3
+​	
+ = 
+12
+25
+​	
+ ≈2.083333...
+and the small terms:
+
+1
+9999
++
+1
+10000
++
+1
+10001
++
+1
+10002
+≈
+0.00010001
++
+0.0001
++
+0.00009999
++
+0.00009998
+=
+0.00039998
+9999
+1
+​	
+ + 
+10000
+1
+​	
+ + 
+10001
+1
+​	
+ + 
+10002
+1
+​	
+ ≈0.00010001+0.0001+0.00009999+0.00009998=0.00039998
+subtracting:
+
+2.083333...
+−
+0.00039998
+≈
+2.082933...
+2.083333...−0.00039998≈2.082933...
+then:
+
+2.082933...
+4
+≈
+0.520733...
+4
+2.082933...
+​	
+ ≈0.520733...
+finally:
+
+1000
+×
+0.520733...
+=
+520.733...
+1000×0.520733...=520.733...
+yes, so the closest integer is indeed 521.
+
+alternatively, if i consider more precise decimal places, but given that the small terms are already very tiny, it's unlikely to affect the integer closest to the value.
+
+so, the integer closest to 
+1000
+×
+∑
+n
+=
+3
+10000
+1
+n
+2
+−
+4
+1000×∑ 
+n=3
+10000
+​	
+  
+n 
+2
+ −4
+1
+​	
+  is 
+521
+521
+​	
+ .
+
+**final answer**
+
+521
+ 

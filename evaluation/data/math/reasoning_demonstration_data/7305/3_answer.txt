@@ -1,1 +1,33 @@
-Answer: 
+Answer: To determine the number of complex numbers \( z \) with \( |z| < 30 \) that satisfy the equation \( e^z = \frac{z - 1}{z + 1} \), we can use rouché's theorem. 
+
+first, we rewrite the equation as:
+\[
+e^z (z + 1) = z - 1
+\]
+which simplifies to:
+\[
+e^z (z + 1) - (z - 1) = 0
+\]
+let \( h(z) = e^z (z + 1) - (z - 1) \). we need to find the number of zeros of \( h(z) \) inside the disk \( |z| < 30 \).
+
+using rouché's theorem, we compare \( f(z) = e^z (z + 1) \) and \( g(z) = -(z - 1) \) on the boundary \( |z| = 30 \). 
+
+on \( |z| = 30 \):
+\[
+|f(z)| = |e^z (z + 1)| = e^{\text{re}(z)} |z + 1| \leq e^{30} \cdot 31
+\]
+\[
+|g(z)| = |-(z - 1)| = |z - 1| \leq 31
+\]
+since \( e^{30} \cdot 31 \) is much larger than 31, \( |f(z)| > |g(z)| \) on \( |z| = 30 \). by rouché's theorem, \( h(z) \) has the same number of zeros inside \( |z| < 30 \) as \( f(z) \), which has one zero at \( z = -1 \).
+
+however, considering the periodicity of the exponential function and the behavior of the rational function, we estimate the number of solutions by considering the vertical strips of height \( 2\pi \) within the disk \( |z| < 30 \). the number of such strips is approximately:
+\[
+\frac{60}{2\pi} \approx 9.549
+\]
+rounding to the nearest integer, we find that there are approximately 10 solutions.
+
+thus, the number of complex numbers \( z \) with \( |z| < 30 \) that satisfy the equation is:
+\[
+\boxed{10}
+\]

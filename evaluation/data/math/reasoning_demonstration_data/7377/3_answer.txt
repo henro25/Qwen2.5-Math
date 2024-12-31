@@ -1,1 +1,27 @@
-Answer: 
+Answer: Given the diagram with points \( a, b, c, \) and \( d \), we need to find the length of \( ac \) to the nearest tenth of a centimeter. the given lengths are \( ab = 13 \) cm, \( dc = 20 \) cm, and \( ad = 5 \) cm.
+
+first, we use the coordinates provided in the asymptote code:
+- \( a(0,0) \)
+- \( d(5,0) \)
+- \( b(5,12) \)
+- \( c(21,12) \)
+
+to find the length of \( ac \), we use the distance formula:
+\[
+ac = \sqrt{(21 - 0)^2 + (12 - 0)^2} = \sqrt{21^2 + 12^2} = \sqrt{441 + 144} = \sqrt{585}
+\]
+
+next, we approximate \( \sqrt{585} \):
+\[
+\sqrt{585} \approx 24.186 \text{ cm}
+\]
+
+rounding to the nearest tenth, we get:
+\[
+ac \approx 24.2 \text{ cm}
+\]
+
+thus, the length of \( ac \) is:
+\[
+\boxed{24.2}
+\]

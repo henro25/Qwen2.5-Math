@@ -1,1 +1,24 @@
-Answer: 
+Answer: Given the function \( f \) and its inverse \( f^{-1} \), we know the following values:
+- \( f(3) = 4 \)
+- \( f(5) = 1 \)
+- \( f(2) = 5 \)
+
+from these, we can determine:
+- \( f^{-1}(4) = 3 \)
+- \( f^{-1}(1) = 5 \)
+- \( f^{-1}(5) = 2 \)
+
+we need to evaluate \( f^{-1}(f^{-1}(5) + f^{-1}(4)) \).
+
+first, we find:
+\[ f^{-1}(5) = 2 \]
+\[ f^{-1}(4) = 3 \]
+
+next, we sum these values:
+\[ f^{-1}(5) + f^{-1}(4) = 2 + 3 = 5 \]
+
+finally, we find:
+\[ f^{-1}(5) = 2 \]
+
+thus, the final answer is:
+\[ \boxed{2} \]

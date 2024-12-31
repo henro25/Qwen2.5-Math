@@ -1,1 +1,15 @@
-Answer: 
+Answer: Coach Grunt is preparing a 5-person starting lineup from a team of 12 players, with Ace and Zeppo guaranteed spots. This means 3 more players need to be selected from the remaining 10 players. Since the order of the players doesn't matter, this is a combination problem.
+
+The number of ways to choose 3 players from 10 is given by the combination formula:
+
+\[
+\binom{10}{3} = \frac{10!}{3!(10-3)!} = \frac{10!}{3! \cdot 7!}
+\]
+
+Simplifying:
+
+\[
+\binom{10}{3} = \frac{10 \times 9 \times 8}{3 \times 2 \times 1} = 120
+\]
+
+Thus, there are **120** different starting lineups possible.

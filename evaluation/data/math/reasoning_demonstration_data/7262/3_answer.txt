@@ -1,1 +1,31 @@
-Answer: 
+Answer: To find the expected value of the win when rolling a fair 6-sided die, where the win is $6 - n$ dollars if the die shows $n$, we follow these steps:
+
+1. list the possible outcomes and their corresponding wins:
+   - roll 1: win $5
+   - roll 2: win $4
+   - roll 3: win $3
+   - roll 4: win $2
+   - roll 5: win $1
+   - roll 6: win $0
+
+2. calculate the expected value by summing the products of each win and its probability:
+   \[
+   e = \left(\frac{1}{6}\right) \times 5 + \left(\frac{1}{6}\right) \times 4 + \left(\frac{1}{6}\right) \times 3 + \left(\frac{1}{6}\right) \times 2 + \left(\frac{1}{6}\right) \times 1 + \left(\frac{1}{6}\right) \times 0
+   \]
+
+3. factor out the common probability \(\frac{1}{6}\):
+   \[
+   e = \frac{1}{6} \times (5 + 4 + 3 + 2 + 1 + 0)
+   \]
+
+4. calculate the sum inside the parentheses:
+   \[
+   5 + 4 + 3 + 2 + 1 + 0 = 15
+   \]
+
+5. divide by 6 to find the expected value:
+   \[
+   e = \frac{15}{6} = 2.5
+   \]
+
+thus, the expected value of the win is \(\boxed{2.5}\) dollars.

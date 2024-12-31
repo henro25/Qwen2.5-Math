@@ -1,1 +1,22 @@
-Answer: 
+Answer: To find the probability that all three Escher prints are placed consecutively when hanging 10 pieces of art in a row, follow these steps:
+
+1. **Calculate the total number of ways to arrange 10 pieces of art:**
+   - This is simply \(10!\), as there are 10 distinct pieces.
+
+2. **Calculate the number of favorable arrangements where the three Escher prints are together:**
+   - Treat the three Escher prints as a single unit. This gives us 8 units to arrange (the group of Escher prints plus the other 7 pieces).
+   - The 8 units can be arranged in \(8!\) ways.
+   - Within the group, the three Escher prints can be arranged among themselves in \(3!\) ways.
+   - So, the total number of favorable arrangements is \(8! \times 3!\).
+
+3. **Calculate the probability:**
+   - The probability is the number of favorable arrangements divided by the total number of arrangements:
+   \[
+   \text{Probability} = \frac{8! \times 3!}{10!}
+   \]
+   - Simplifying:
+   \[
+   10! = 10 \times 9 \times 8! \quad \text{so} \quad \frac{8! \times 3!}{10!} = \frac{3!}{10 \times 9} = \frac{6}{90} = \frac{1}{15}
+   \]
+
+**Answer:** The probability that all three Escher prints are placed consecutively is \(\frac{1}{15}\).

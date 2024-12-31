@@ -1,1 +1,109 @@
-Reasoning: 
+Reasoning: So i need to find a quadratic polynomial p(x) that satisfies three conditions: p(-2) = 13, p(1) = -2, and p(3) = 8. quadratic polynomials have the general form p(x) = ax² + bx + c, where a, b, and c are constants that i need to determine.
+
+first, since it's a quadratic polynomial, it should have exactly three coefficients: a, b, and c. i have three points given, so i can set up three equations based on these points and solve for a, b, and c.
+
+let's plug in the points one by one.
+
+1. for p(-2) = 13:
+
+p(-2) = a*(-2)² + b*(-2) + c = 13
+
+simplify: 4a - 2b + c = 13
+
+2. for p(1) = -2:
+
+p(1) = a*(1)² + b*(1) + c = -2
+
+simplify: a + b + c = -2
+
+3. for p(3) = 8:
+
+p(3) = a*(3)² + b*(3) + c = 8
+
+simplify: 9a + 3b + c = 8
+
+now, i have a system of three equations:
+
+1. 4a - 2b + c = 13
+
+2. a + b + c = -2
+
+3. 9a + 3b + c = 8
+
+i need to solve this system for a, b, and c. i can use substitution or elimination. i'll try elimination.
+
+first, let's subtract equation 2 from equation 1 to eliminate c:
+
+(4a - 2b + c) - (a + b + c) = 13 - (-2)
+
+4a - 2b + c - a - b - c = 15
+
+3a - 3b = 15
+
+simplify: a - b = 5  → equation 4
+
+next, subtract equation 2 from equation 3:
+
+(9a + 3b + c) - (a + b + c) = 8 - (-2)
+
+9a + 3b + c - a - b - c = 10
+
+8a + 2b = 10
+
+simplify: 4a + b = 5  → equation 5
+
+now, i have two equations:
+
+4. a - b = 5
+
+5. 4a + b = 5
+
+i can add these two equations to eliminate b:
+
+(a - b) + (4a + b) = 5 + 5
+
+a - b + 4a + b = 10
+
+5a = 10
+
+so, a = 2
+
+now, plug a = 2 into equation 4:
+
+2 - b = 5
+
+-b = 3
+
+b = -3
+
+now, plug a = 2 and b = -3 into equation 2 to find c:
+
+2 + (-3) + c = -2
+
+-1 + c = -2
+
+c = -1
+
+so, the coefficients are a = 2, b = -3, and c = -1.
+
+therefore, the quadratic polynomial is p(x) = 2x² - 3x - 1.
+
+wait a minute, i should check if this actually satisfies all three points.
+
+let's verify:
+
+1. p(-2) = 2*(-2)² - 3*(-2) - 1 = 2*4 + 6 - 1 = 8 + 6 - 1 = 13 ✓
+
+2. p(1) = 2*(1)² - 3*(1) - 1 = 2 - 3 - 1 = -2 ✓
+
+3. p(3) = 2*(3)² - 3*(3) - 1 = 2*9 - 9 - 1 = 18 - 9 - 1 = 8 ✓
+
+all points satisfy the polynomial, so i think this is correct.
+
+**final answer**
+
+2x 
+2
+ −3x−1
+​	
+ 

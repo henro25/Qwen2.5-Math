@@ -1,1 +1,31 @@
-Answer: 
+Answer: Given the equation \( x^{2017} - 2x + 1 = 0 \) and \( x \neq 1 \), we need to find the value of \( x^{2016} + x^{2015} + \dots + x + 1 \).
+
+first, we recognize that the sum \( x^{2016} + x^{2015} + \dots + x + 1 \) is a geometric series, which can be expressed using the formula for the sum of a geometric series:
+
+\[
+s = \frac{x^{2017} - 1}{x - 1}
+\]
+
+from the given equation, we have:
+
+\[
+x^{2017} = 2x - 1
+\]
+
+substituting \( x^{2017} = 2x - 1 \) into the sum formula, we get:
+
+\[
+s = \frac{2x - 1 - 1}{x - 1} = \frac{2x - 2}{x - 1} = \frac{2(x - 1)}{x - 1}
+\]
+
+since \( x \neq 1 \), we can cancel \( x - 1 \) in the numerator and denominator:
+
+\[
+s = 2
+\]
+
+thus, the value of \( x^{2016} + x^{2015} + \dots + x + 1 \) is:
+
+\[
+\boxed{2}
+\]

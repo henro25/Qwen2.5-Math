@@ -1,1 +1,31 @@
-Reasoning: 
+Reasoning: Alright, so I've got this math problem here. It says that an equilateral triangle and a square both have perimeters of 48 inches, and I need to find the ratio of the length of the side of the triangle to the length of the side of the square, and express it as a common fraction. Hmm, okay, let's see.
+
+First, I know that an equilateral triangle has all three sides equal, and a square has all four sides equal. So, if I can find the length of one side of the triangle and one side of the square, then I can find their ratio.
+
+The perimeter of a shape is the sum of the lengths of all its sides. So, for the triangle, since all three sides are equal, if I let the length of one side be, say, 't', then the perimeter would be 3 times 't', right? So, 3t = 48 inches.
+
+Similarly, for the square, if one side is 's', then the perimeter is 4 times 's', so 4s = 48 inches.
+
+Okay, so I can solve for 't' and 's' from these equations. Let's do that.
+
+For the triangle: 3t = 48, so t = 48 / 3 = 16 inches.
+
+For the square: 4s = 48, so s = 48 / 4 = 12 inches.
+
+Now, I need the ratio of the side of the triangle to the side of the square, which is t:s, or 16:12.
+
+To express this ratio as a common fraction, I can write it as 16/12. But I should simplify this fraction by dividing both numerator and denominator by their greatest common divisor, which is 4.
+
+So, 16 divided by 4 is 4, and 12 divided by 4 is 3. Therefore, the simplified ratio is 4/3.
+
+Wait a minute, but ratios are usually expressed in the form a:b, not necessarily as a fraction, but since the problem asks for a common fraction, 4/3 seems correct.
+
+Let me just double-check my calculations to make sure I didn't make any mistakes.
+
+Perimeter of triangle: 3t = 48 → t = 16.
+
+Perimeter of square: 4s = 48 → s = 12.
+
+Ratio t/s = 16/12 = 4/3.
+
+Yeah, that seems right. I don't think I missed anything here.

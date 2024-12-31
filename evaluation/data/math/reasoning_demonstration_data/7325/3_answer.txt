@@ -1,1 +1,25 @@
-Answer: 
+Answer: To convert the decimal number \( 115_{10} \) to base 11, we follow these steps:
+
+1. divide \( 115 \) by \( 11 \) and find the quotient and remainder:
+   \[
+   115 \div 11 = 10 \quad \text{with a remainder of} \quad 5
+   \]
+   so, the remainder is \( 5 \), which is the least significant digit (rightmost digit) in base 11.
+
+2. take the quotient \( 10 \) and divide by \( 11 \):
+   \[
+   10 \div 11 = 0 \quad \text{with a remainder of} \quad 10
+   \]
+   the remainder is \( 10 \), which is represented as \( a \) in base 11.
+
+3. reading the remainders from last to first, the base 11 representation of \( 115_{10} \) is \( a5_{11} \).
+
+to verify, we convert \( a5_{11} \) back to base 10:
+\[
+a5_{11} = 10 \times 11^1 + 5 \times 11^0 = 10 \times 11 + 5 \times 1 = 110 + 5 = 115
+\]
+
+thus, the base 11 representation of \( 115_{10} \) is:
+\[
+\boxed{a5_{11}}
+\]

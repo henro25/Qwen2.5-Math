@@ -1,1 +1,33 @@
-Answer: 
+Answer: To find \( x \) such that \(\log_x 81 = \log_2 16\), we start by evaluating \(\log_2 16\). since \( 2^4 = 16 \), we have:
+
+\[
+\log_2 16 = 4
+\]
+
+this simplifies the original equation to:
+
+\[
+\log_x 81 = 4
+\]
+
+this means that \( x^4 = 81 \). to solve for \( x \), we take the fourth root of both sides:
+
+\[
+x = \sqrt[4]{81}
+\]
+
+since \( 81 = 3^4 \), we have:
+
+\[
+\sqrt[4]{81} = 3
+\]
+
+thus, \( x = 3 \).
+
+to verify, we check that \(\log_3 81 = 4\) and \(\log_2 16 = 4\), confirming that both sides are equal when \( x = 3 \).
+
+therefore, the solution is:
+
+\[
+\boxed{3}
+\]

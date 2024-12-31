@@ -1,1 +1,49 @@
-Answer: 
+Answer: To find the maximum value of \( \sqrt{25 + x} + \sqrt{25 - x} \) for \( -25 \le x \le 25 \), we consider the function \( f(x) = \sqrt{25 + x} + \sqrt{25 - x} \).
+
+first, we find the critical points by taking the derivative and setting it to zero:
+
+\[
+f'(x) = \frac{1}{2\sqrt{25 + x}} - \frac{1}{2\sqrt{25 - x}} = 0
+\]
+
+this implies:
+
+\[
+\frac{1}{\sqrt{25 + x}} = \frac{1}{\sqrt{25 - x}} \implies \sqrt{25 + x} = \sqrt{25 - x} \implies 25 + x = 25 - x \implies x = 0
+\]
+
+next, we evaluate \( f(x) \) at the critical point and the endpoints of the interval:
+
+\[
+f(0) = \sqrt{25 + 0} + \sqrt{25 - 0} = 5 + 5 = 10
+\]
+
+\[
+f(25) = \sqrt{25 + 25} + \sqrt{25 - 25} = \sqrt{50} + 0 = \sqrt{50} \approx 7.07
+\]
+
+\[
+f(-25) = \sqrt{25 - 25} + \sqrt{25 + 25} = 0 + \sqrt{50} = \sqrt{50} \approx 7.07
+\]
+
+thus, the maximum value is at \( x = 0 \), and it is 10.
+
+to confirm, we consider squaring the expression:
+
+\[
+f(x)^2 = (\sqrt{25 + x} + \sqrt{25 - x})^2 = 25 + x + 25 - x + 2\sqrt{(25 + x)(25 - x)} = 50 + 2\sqrt{625 - x^2}
+\]
+
+maximizing \( f(x)^2 \):
+
+\[
+50 + 2\sqrt{625 - x^2}
+\]
+
+the term \( 625 - x^2 \) is maximized at \( x = 0 \):
+
+\[
+625 - 0 = 625 \implies \sqrt{625} = 25 \implies 2 \times 25 = 50 \implies f(x)^2 = 50 + 50 = 100 \implies f(x) = 10
+\]
+
+therefore, the maximum value of \( \sqrt{25 + x} + \sqrt{25 - x} \) for \( -25 \le x \le 25 \) is \boxed{10}.

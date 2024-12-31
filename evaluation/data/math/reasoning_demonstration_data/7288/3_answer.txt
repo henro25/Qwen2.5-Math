@@ -1,1 +1,38 @@
-Answer: 
+Answer: To find \(\sin \left( \sin^{-1} \frac{3}{5} + \tan^{-1} 2 \right)\), we use the sine addition formula:
+
+\[
+\sin(a + b) = \sin a \cos b + \cos a \sin b
+\]
+
+let \(a = \sin^{-1} \frac{3}{5}\) and \(b = \tan^{-1} 2\).
+
+1. for \(a = \sin^{-1} \frac{3}{5}\):
+   \[
+   \sin a = \frac{3}{5}, \quad \cos a = \sqrt{1 - \sin^2 a} = \sqrt{1 - \left(\frac{3}{5}\right)^2} = \frac{4}{5}
+   \]
+
+2. for \(b = \tan^{-1} 2\):
+   \[
+   \tan b = 2, \quad \sin b = \frac{2}{\sqrt{5}}, \quad \cos b = \frac{1}{\sqrt{5}}
+   \]
+
+using the sine addition formula:
+\[
+\sin(a + b) = \sin a \cos b + \cos a \sin b
+\]
+\[
+= \left(\frac{3}{5}\right) \left(\frac{1}{\sqrt{5}}\right) + \left(\frac{4}{5}\right) \left(\frac{2}{\sqrt{5}}\right)
+\]
+\[
+= \frac{3}{5\sqrt{5}} + \frac{8}{5\sqrt{5}} = \frac{11}{5\sqrt{5}}
+\]
+
+rationalizing the denominator:
+\[
+\frac{11}{5\sqrt{5}} \cdot \frac{\sqrt{5}}{\sqrt{5}} = \frac{11\sqrt{5}}{25}
+\]
+
+thus, the final answer is:
+\[
+\boxed{\frac{11\sqrt{5}}{25}}
+\]

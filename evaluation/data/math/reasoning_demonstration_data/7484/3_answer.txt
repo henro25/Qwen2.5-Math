@@ -1,1 +1,16 @@
-Answer: 
+Answer: To find the greatest common factor (GCF) of 32 and 48:
+
+1. **List the factors:**
+   - Factors of 32: 1, 2, 4, 8, 16, 32
+   - Factors of 48: 1, 2, 3, 4, 6, 8, 12, 16, 24, 48
+
+2. **Identify common factors:** 1, 2, 4, 8, 16
+
+3. **Determine the greatest common factor:** 16
+
+Alternatively, using **prime factorization:**
+   - 32 = 2^5
+   - 48 = 2^4 × 3
+   - The common prime factor is 2, and the lowest power is 2^4 = 16.
+
+**Answer:** The greatest common factor of 32 and 48 is **16**.

@@ -1,1 +1,35 @@
-Answer: 
+Answer: Let the original number be \( x \).
+
+1. juan adds 2 to it: \( x + 2 \).
+2. he multiplies the answer by 2: \( 2(x + 2) \).
+3. he subtracts 2 from the result: \( 2(x + 2) - 2 \).
+4. he divides that number by 2: \( \frac{2(x + 2) - 2}{2} \).
+
+given that the final result is 7, we set up the equation:
+
+\[
+\frac{2(x + 2) - 2}{2} = 7
+\]
+
+simplify the left side:
+
+\[
+\frac{2x + 4 - 2}{2} = 7 \implies \frac{2x + 2}{2} = 7 \implies x + 1 = 7
+\]
+
+solving for \( x \):
+
+\[
+x + 1 = 7 \implies x = 7 - 1 \implies x = 6
+\]
+
+to verify, we substitute \( x = 6 \) back into the original operations:
+
+1. add 2: \( 6 + 2 = 8 \).
+2. multiply by 2: \( 8 \times 2 = 16 \).
+3. subtract 2: \( 16 - 2 = 14 \).
+4. divide by 2: \( 14 \div 2 = 7 \).
+
+the operations confirm that the original number is indeed 6.
+
+thus, the original number is \(\boxed{6}\).

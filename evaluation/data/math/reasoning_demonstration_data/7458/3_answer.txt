@@ -1,1 +1,39 @@
-Answer: 
+Answer: To find the largest value of \( c \) such that \( 1 \) is in the range of \( f(x) = x^2 - 5x + c \), we need to ensure that the equation \( f(x) = 1 \) has at least one real solution. this means solving:
+
+\[ x^2 - 5x + c = 1 \]
+
+rewriting it in standard quadratic form:
+
+\[ x^2 - 5x + (c - 1) = 0 \]
+
+the discriminant \( d \) of this quadratic equation must be non-negative for real solutions to exist. the discriminant is given by:
+
+\[ d = b^2 - 4ac \]
+
+here, \( a = 1 \), \( b = -5 \), and \( c = c - 1 \). thus,
+
+\[ d = (-5)^2 - 4(1)(c - 1) = 25 - 4(c - 1) = 25 - 4c + 4 = 29 - 4c \]
+
+for real solutions, we need:
+
+\[ 29 - 4c \geq 0 \]
+
+solving for \( c \):
+
+\[ 29 - 4c \geq 0 \]
+\[ -4c \geq -29 \]
+\[ c \leq \frac{29}{4} \]
+
+therefore, the largest value of \( c \) is \( \frac{29}{4} \). to confirm, if \( c = \frac{29}{4} \), the discriminant is zero, indicating exactly one real solution:
+
+\[ x^2 - 5x + \frac{25}{4} = 0 \]
+\[ \left(x - \frac{5}{2}\right)^2 = 0 \]
+\[ x = \frac{5}{2} \]
+
+this confirms that \( 1 \) is in the range of \( f(x) \) when \( c = \frac{29}{4} \).
+
+thus, the largest value of \( c \) such that \( 1 \) is in the range of \( f(x) = x^2 - 5x + c \) is:
+
+\[
+\boxed{\frac{29}{4}}
+\]

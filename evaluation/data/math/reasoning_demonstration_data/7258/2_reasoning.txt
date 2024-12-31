@@ -1,1 +1,326 @@
-Reasoning: 
+Reasoning: So i've got this equation here: 
+3
+x
++
+5
+y
+=
+20
+3x+5y=20, and i need to find the y-intercept. hmm, y-intercept... i remember that the y-intercept is the point where the line crosses the y-axis. and on the y-axis, the x-coordinate is always 0. so, to find the y-intercept, i should set 
+x
+=
+0
+x=0 and solve for 
+y
+y.
+
+let me try that. if 
+x
+=
+0
+x=0, then plugging into the equation:
+
+3
+(
+0
+)
++
+5
+y
+=
+20
+3(0)+5y=20
+
+simplifying that, 
+0
++
+5
+y
+=
+20
+0+5y=20, which is just 
+5
+y
+=
+20
+5y=20.
+
+now, to solve for 
+y
+y, i need to divide both sides by 5:
+
+y
+=
+20
+5
+y= 
+5
+20
+​	
+ 
+
+so, 
+y
+=
+4
+y=4.
+
+therefore, the y-intercept is at the point where 
+x
+=
+0
+x=0 and 
+y
+=
+4
+y=4, which is the ordered pair 
+(
+0
+,
+4
+)
+(0,4).
+
+wait a second, is there another way to find the y-intercept? maybe using the slope-intercept form of a line, which is 
+y
+=
+m
+x
++
+b
+y=mx+b, where 
+b
+b is the y-intercept.
+
+let me try rearranging the original equation into slope-intercept form.
+
+starting with 
+3
+x
++
+5
+y
+=
+20
+3x+5y=20, i can solve for 
+y
+y:
+
+first, subtract 
+3
+x
+3x from both sides:
+
+5
+y
+=
+−
+3
+x
++
+20
+5y=−3x+20
+
+then, divide every term by 5:
+
+y
+=
+−
+3
+5
+x
++
+4
+y=− 
+5
+3
+​	
+ x+4
+
+so, in this form, 
+b
+=
+4
+b=4, which confirms that the y-intercept is 
+(
+0
+,
+4
+)
+(0,4).
+
+okay, that matches what i got earlier. it seems consistent.
+
+just to be thorough, maybe i can graph this line and see where it crosses the y-axis.
+
+if 
+x
+=
+0
+x=0, 
+y
+=
+4
+y=4, so that's one point: 
+(
+0
+,
+4
+)
+(0,4).
+
+let me find another point to confirm the line.
+
+suppose 
+y
+=
+0
+y=0, then:
+
+3
+x
++
+5
+(
+0
+)
+=
+20
+3x+5(0)=20
+
+so, 
+3
+x
+=
+20
+3x=20, which means 
+x
+=
+20
+3
+x= 
+3
+20
+​	
+ , approximately 6.666...
+
+so, another point is 
+(
+20
+3
+,
+0
+)
+( 
+3
+20
+​	
+ ,0).
+
+plotting these two points, 
+(
+0
+,
+4
+)
+(0,4) and 
+(
+20
+3
+,
+0
+)
+( 
+3
+20
+​	
+ ,0), and drawing a straight line through them should give me the graph of 
+3
+x
++
+5
+y
+=
+20
+3x+5y=20.
+
+looking at this graph, indeed, it crosses the y-axis at 
+y
+=
+4
+y=4, which reinforces that the y-intercept is 
+(
+0
+,
+4
+)
+(0,4).
+
+i think i've covered all the bases here. i used substitution by setting 
+x
+=
+0
+x=0, converted the equation to slope-intercept form, and even considered plotting points to visualize the line. all methods point to the same y-intercept.
+
+just to be extra sure, maybe i can plug in 
+x
+=
+0
+x=0 and 
+y
+=
+4
+y=4 back into the original equation to verify.
+
+original equation: 
+3
+x
++
+5
+y
+=
+20
+3x+5y=20
+
+plugging in 
+x
+=
+0
+x=0 and 
+y
+=
+4
+y=4:
+
+3
+(
+0
+)
++
+5
+(
+4
+)
+=
+0
++
+20
+=
+20
+3(0)+5(4)=0+20=20, which matches the right side of the equation.
+
+perfect, that checks out.
+
+i don't think there's anything else to do here. the y-intercept is clearly 
+(
+0
+,
+4
+)
+(0,4).
+
+**final answer**
+
+(0, 4)
+​	
+ 

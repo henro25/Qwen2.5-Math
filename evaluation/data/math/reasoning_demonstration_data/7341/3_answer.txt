@@ -1,1 +1,27 @@
-Answer: 
+Answer: 1. **Define Variables:**
+   - Let Joe's age be \( J \).
+   - Billy's age is twice Joe's age, so Billy's age is \( 2J \).
+
+2. **Set Up the Equation:**
+   - The sum of their ages is 45:
+     \[
+     J + 2J = 45
+     \]
+
+3. **Solve for \( J \):**
+   - Combine like terms:
+     \[
+     3J = 45
+     \]
+   - Divide both sides by 3:
+     \[
+     J = 15
+     \]
+
+4. **Find Billy's Age:**
+   - Since Billy is twice Joe's age:
+     \[
+     2J = 2 \times 15 = 30
+     \]
+
+**Answer:** Billy is 30 years old.

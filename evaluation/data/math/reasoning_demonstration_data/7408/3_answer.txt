@@ -1,1 +1,23 @@
-Answer: 
+Answer: Given the equation \(3 \cdot f(x) + 4 \cdot g(x) = h(x)\) where \(f(x)\), \(g(x)\), and \(h(x)\) are polynomials, and knowing that \(\deg(f(x)) = 8\) and \(\deg(h(x)) = 9\), we need to find the minimum possible degree of \(g(x)\).
+
+first, we express \(g(x)\) in terms of \(f(x)\) and \(h(x)\):
+
+\[
+4 \cdot g(x) = h(x) - 3 \cdot f(x)
+\]
+
+\[
+g(x) = \frac{h(x) - 3 \cdot f(x)}{4}
+\]
+
+the degree of \(h(x) - 3 \cdot f(x)\) is determined by the highest degree term in \(h(x)\) since \(\deg(h(x)) = 9\) and \(\deg(3 \cdot f(x)) = 8\). therefore, \(\deg(h(x) - 3 \cdot f(x)) = 9\).
+
+thus, \(\deg(g(x)) = \deg\left(\frac{h(x) - 3 \cdot f(x)}{4}\right) = 9\).
+
+to confirm, if \(g(x)\) had a degree less than 9, say 8, then \(4 \cdot g(x)\) would have degree 8, and \(3 \cdot f(x)\) also has degree 8, making their sum have degree 8, which contradicts the degree of \(h(x)\) being 9. therefore, \(g(x)\) must have degree at least 9.
+
+hence, the minimum possible degree of \(g(x)\) is:
+
+\[
+\boxed{9}
+\]

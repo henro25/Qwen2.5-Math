@@ -1,1 +1,38 @@
-Answer: 
+Answer: To determine the number of pairs of positive integers \((m, n)\) that satisfy \(m^2 + n < 22\), we consider each possible value of \(m\) and find the corresponding range of \(n\).
+
+1. for \(m = 1\):
+   \[
+   1^2 + n < 22 \implies 1 + n < 22 \implies n < 21
+   \]
+   thus, \(n\) can be any integer from 1 to 20, giving 20 possible pairs.
+
+2. for \(m = 2\):
+   \[
+   2^2 + n < 22 \implies 4 + n < 22 \implies n < 18
+   \]
+   thus, \(n\) can be any integer from 1 to 17, giving 17 possible pairs.
+
+3. for \(m = 3\):
+   \[
+   3^2 + n < 22 \implies 9 + n < 22 \implies n < 13
+   \]
+   thus, \(n\) can be any integer from 1 to 12, giving 12 possible pairs.
+
+4. for \(m = 4\):
+   \[
+   4^2 + n < 22 \implies 16 + n < 22 \implies n < 6
+   \]
+   thus, \(n\) can be any integer from 1 to 5, giving 5 possible pairs.
+
+5. for \(m \geq 5\):
+   \[
+   m^2 \geq 25 \implies m^2 + n \geq 25 + 1 = 26 > 22
+   \]
+   thus, there are no solutions for \(m \geq 5\).
+
+summing up all possible pairs:
+\[
+20 + 17 + 12 + 5 = 54
+\]
+
+therefore, the total number of pairs \((m, n)\) that satisfy \(m^2 + n < 22\) is \(\boxed{54}\).

@@ -1,1 +1,16 @@
-Answer: 
+Answer: To determine how many integer values of \( n \) between 1 and 349 inclusive make the decimal representation of \( \frac{n}{350} \) terminate, we need to ensure that the denominator in the lowest terms has only the prime factors 2 and 5.
+
+given \( 350 = 2 \times 5^2 \times 7 \), the fraction \( \frac{n}{350} \) will have a terminating decimal if the 7 in the denominator is canceled out by a factor of 7 in \( n \). therefore, \( n \) must be a multiple of 7.
+
+we need to count the multiples of 7 between 1 and 349. the smallest multiple of 7 in this range is 7, and the largest is 343 (since \( 7 \times 49 = 343 \)).
+
+the number of multiples of 7 in this range is:
+\[
+\left\lfloor \frac{349}{7} \right\rfloor = 49
+\]
+
+thus, there are 49 integer values of \( n \) for which \( \frac{n}{350} \) has a terminating decimal.
+
+\[
+\boxed{49}
+\]

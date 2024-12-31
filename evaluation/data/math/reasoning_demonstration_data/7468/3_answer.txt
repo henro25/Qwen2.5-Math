@@ -1,1 +1,33 @@
-Answer: 
+Answer: To find the period of \( y = \sin x + \cos x \), we start by considering the periods of the individual functions. both \(\sin x\) and \(\cos x\) have a period of \(2\pi\). we need to determine if the sum has the same period or a different one.
+
+first, we use the angle addition formulas:
+\[
+\sin(x + p) = \sin x \cos p + \cos x \sin p
+\]
+\[
+\cos(x + p) = \cos x \cos p - \sin x \sin p
+\]
+adding these, we get:
+\[
+\sin(x + p) + \cos(x + p) = \sin x (\cos p - \sin p) + \cos x (\sin p + \cos p)
+\]
+for this to equal \(\sin x + \cos x\) for all \(x\), the coefficients must match:
+\[
+\cos p - \sin p = 1 \quad \text{and} \quad \sin p + \cos p = 1
+\]
+adding these equations:
+\[
+(\cos p - \sin p) + (\sin p + \cos p) = 2 \cos p = 2 \implies \cos p = 1 \implies p = 2\pi k
+\]
+the smallest positive \(p\) is \(2\pi\).
+
+alternatively, using the phase shift formula:
+\[
+\sin x + \cos x = \sqrt{2} \sin(x + \frac{\pi}{4})
+\]
+the period of \(\sin(x + \frac{\pi}{4})\) is \(2\pi\), confirming that the period of \(y = \sin x + \cos x\) is \(2\pi\).
+
+thus, the period of \( y = \sin x + \cos x \) is:
+\[
+\boxed{2\pi}
+\]

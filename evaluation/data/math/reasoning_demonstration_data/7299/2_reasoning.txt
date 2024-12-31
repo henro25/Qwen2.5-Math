@@ -1,1 +1,338 @@
-Reasoning: 
+Reasoning: So i need to find the base 2 representation of 84 in base 10. that means i need to convert the decimal number 84 into binary. okay, let's think about how to do that.
+
+first, i know that binary is base 2, which means it only uses 0 and 1. each digit in a binary number represents a power of 2, starting from the rightmost digit, which is 
+2
+0
+2 
+0
+ , then 
+2
+1
+2 
+1
+ , 
+2
+2
+2 
+2
+ , and so on.
+
+one way to convert a decimal number to binary is to divide the number by 2 repeatedly and keep track of the remainders. the binary representation is the sequence of remainders read from bottom to top.
+
+so, let's try that with 84.
+
+first, divide 84 by 2:
+
+84
+÷
+2
+=
+42
+84÷2=42 with a remainder of 0.
+
+now, take 42 and divide by 2:
+
+42
+÷
+2
+=
+21
+42÷2=21 with a remainder of 0.
+
+next, divide 21 by 2:
+
+21
+÷
+2
+=
+10
+21÷2=10 with a remainder of 1.
+
+then, divide 10 by 2:
+
+10
+÷
+2
+=
+5
+10÷2=5 with a remainder of 0.
+
+next, divide 5 by 2:
+
+5
+÷
+2
+=
+2
+5÷2=2 with a remainder of 1.
+
+then, divide 2 by 2:
+
+2
+÷
+2
+=
+1
+2÷2=1 with a remainder of 0.
+
+finally, divide 1 by 2:
+
+1
+÷
+2
+=
+0
+1÷2=0 with a remainder of 1.
+
+now, i have the remainders: 0, 0, 1, 0, 1, 0, 1.
+
+to get the binary number, i need to read these remainders from bottom to top. so, starting from the last remainder:
+
+1 (from 1 ÷ 2)
+
+0 (from 2 ÷ 2)
+
+1 (from 5 ÷ 2)
+
+0 (from 10 ÷ 2)
+
+1 (from 21 ÷ 2)
+
+0 (from 42 ÷ 2)
+
+0 (from 84 ÷ 2)
+
+so, putting them together: 1010100.
+
+wait, let me check if that's correct. maybe i should verify by converting it back to decimal to see if it equals 84.
+
+starting with the binary number 1010100:
+
+the rightmost digit is 
+2
+0
+2 
+0
+ , then 
+2
+1
+2 
+1
+ , up to 
+2
+6
+2 
+6
+  since there are 7 digits.
+
+so, let's calculate:
+
+1
+×
+2
+6
+=
+1
+×
+64
+=
+64
+1×2 
+6
+ =1×64=64
+
+0
+×
+2
+5
+=
+0
+×
+32
+=
+0
+0×2 
+5
+ =0×32=0
+
+1
+×
+2
+4
+=
+1
+×
+16
+=
+16
+1×2 
+4
+ =1×16=16
+
+0
+×
+2
+3
+=
+0
+×
+8
+=
+0
+0×2 
+3
+ =0×8=0
+
+1
+×
+2
+2
+=
+1
+×
+4
+=
+4
+1×2 
+2
+ =1×4=4
+
+0
+×
+2
+1
+=
+0
+×
+2
+=
+0
+0×2 
+1
+ =0×2=0
+
+0
+×
+2
+0
+=
+0
+×
+1
+=
+0
+0×2 
+0
+ =0×1=0
+
+now, add them up: 64 + 0 + 16 + 0 + 4 + 0 + 0 = 84.
+
+okay, that matches the original number, so 1010100 in binary is indeed 84 in decimal.
+
+alternatively, i could have used the method of finding the highest power of 2 less than or equal to 84 and subtracting it, then repeating the process with the remainder.
+
+let's try that approach to confirm.
+
+the powers of 2 are: 2^0=1, 2^1=2, 2^2=4, 2^3=8, 2^4=16, 2^5=32, 2^6=64, 2^7=128.
+
+since 2^7=128 is greater than 84, the highest power less than or equal to 84 is 2^6=64.
+
+so, 84 - 64 = 20. that corresponds to a 1 in the 
+2
+6
+2 
+6
+  place.
+
+now, take 20 and find the highest power of 2 less than or equal to 20, which is 16 (
+2
+4
+2 
+4
+ ).
+
+20 - 16 = 4. that's a 1 in the 
+2
+4
+2 
+4
+  place.
+
+next, 4 is exactly 
+2
+2
+2 
+2
+ , so 4 - 4 = 0. that's a 1 in the 
+2
+2
+2 
+2
+  place.
+
+now, the remaining positions are 0.
+
+so, putting it all together:
+
+2
+6
+2 
+6
+ : 1
+
+2
+5
+2 
+5
+ : 0 (since we skipped 
+2
+5
+2 
+5
+ =32, which is more than 20)
+
+2
+4
+2 
+4
+ : 1
+
+2
+3
+2 
+3
+ : 0 (since we skipped 
+2
+3
+2 
+3
+ =8, which is more than 4)
+
+2
+2
+2 
+2
+ : 1
+
+2
+1
+2 
+1
+ : 0
+
+2
+0
+2 
+0
+ : 0
+
+so, again, 1010100.
+
+seems consistent with the previous method.
+
+i think that's correct.
+
+**final answer**
+
+1010100
+ 

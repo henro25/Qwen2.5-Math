@@ -1,1 +1,255 @@
-Reasoning: 
+Reasoning: So i have this problem: find the minimum value of the quadratic function 
+5
+x
+2
+−
+20
+x
++
+1357
+5x 
+2
+ −20x+1357. hmm, i've seen quadratic functions before, and i know they graph as parabolas. since the coefficient of 
+x
+2
+x 
+2
+  is positive (5), the parabola opens upwards, which means it has a minimum point at its vertex. so, to find the minimum value, i need to find the vertex of this parabola.
+
+i remember there are a couple of ways to find the vertex of a quadratic function. one way is to use the formula for the x-coordinate of the vertex, which is 
+x
+=
+−
+b
+2
+a
+x=− 
+2a
+b
+​	
+ , where the quadratic is in the form 
+a
+x
+2
++
+b
+x
++
+c
+ax 
+2
+ +bx+c. another way is to complete the square, which can also give me the vertex form of the quadratic.
+
+let me try the first method. in the given quadratic, 
+a
+=
+5
+a=5, 
+b
+=
+−
+20
+b=−20, and 
+c
+=
+1357
+c=1357. plugging into the formula:
+
+x
+=
+−
+−
+20
+2
+×
+5
+=
+20
+10
+=
+2
+x=− 
+2×5
+−20
+​	
+ = 
+10
+20
+​	
+ =2
+so, the x-coordinate of the vertex is 2. now, to find the minimum value, i need to plug this back into the original equation to find the corresponding y-value.
+
+y
+=
+5
+(
+2
+)
+2
+−
+20
+(
+2
+)
++
+1357
+=
+5
+(
+4
+)
+−
+40
++
+1357
+=
+20
+−
+40
++
+1357
+=
+−
+20
++
+1357
+=
+1337
+y=5(2) 
+2
+ −20(2)+1357=5(4)−40+1357=20−40+1357=−20+1357=1337
+so, the minimum value of the function is 1337.
+
+wait a second, just to make sure i did this right, let me try completing the square for the same quadratic.
+
+starting with 
+5
+x
+2
+−
+20
+x
++
+1357
+5x 
+2
+ −20x+1357, i can factor out the coefficient of 
+x
+2
+x 
+2
+  from the first two terms:
+
+5
+(
+x
+2
+−
+4
+x
+)
++
+1357
+5(x 
+2
+ −4x)+1357
+now, to complete the square inside the parentheses, i take half of the coefficient of x, which is -4, so half of that is -2, and then square it to get 4.
+
+5
+(
+x
+2
+−
+4
+x
++
+4
+−
+4
+)
++
+1357
+=
+5
+(
+(
+x
+−
+2
+)
+2
+−
+4
+)
++
+1357
+5(x 
+2
+ −4x+4−4)+1357=5((x−2) 
+2
+ −4)+1357
+distribute the 5:
+
+5
+(
+x
+−
+2
+)
+2
+−
+20
++
+1357
+5(x−2) 
+2
+ −20+1357
+combine the constants:
+
+5
+(
+x
+−
+2
+)
+2
++
+1337
+5(x−2) 
+2
+ +1337
+so, the vertex form is 
+5
+(
+x
+−
+2
+)
+2
++
+1337
+5(x−2) 
+2
+ +1337, and since the squared term is always non-negative and multiplied by 5, the smallest it can be is 0, which occurs when 
+x
+=
+2
+x=2. therefore, the minimum value of the function is indeed 1337.
+
+just to double-check, maybe i can graph this function or think about its behavior. as x increases or decreases from 2, the 
+(
+x
+−
+2
+)
+2
+(x−2) 
+2
+  term increases, making the entire expression larger. so, yes, the minimum should be at x = 2, and the value there is 1337.
+
+i think i'm confident with this answer now.
+
+**final answer**
+
+1337
+ 

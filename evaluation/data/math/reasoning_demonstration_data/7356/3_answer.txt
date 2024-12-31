@@ -1,1 +1,27 @@
-Answer: 
+Answer: To determine the digit \( d \) such that the five-digit number \( 2345d \) is a multiple of 9, we use the rule that a number is divisible by 9 if the sum of its digits is a multiple of 9.
+
+first, we calculate the sum of the known digits:
+\[
+2 + 3 + 4 + 5 = 14
+\]
+we need \( 14 + d \) to be a multiple of 9. the possible multiples of 9 in the range of \( 14 + d \) (where \( d \) is a single digit from 0 to 9) are 18 and 27. since 27 is too large (it would require \( d = 13 \), which is not a single digit), we consider 18.
+
+setting up the equation:
+\[
+14 + d = 18
+\]
+solving for \( d \):
+\[
+d = 18 - 14 = 4
+\]
+
+to verify, we check the sum of the digits of \( 23454 \):
+\[
+2 + 3 + 4 + 5 + 4 = 18
+\]
+since 18 is a multiple of 9, the digit \( d \) that makes \( 2345d \) a multiple of 9 is indeed 4.
+
+thus, the final answer is:
+\[
+\boxed{4}
+\]

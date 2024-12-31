@@ -1,1 +1,19 @@
-Answer: 
+Answer: To find the slope of a line parallel to the line \(2x - 4y = 9\), we need to determine the slope of the given line. 
+
+starting with the equation:
+\[2x - 4y = 9\]
+
+we isolate \(y\) by first subtracting \(2x\) from both sides:
+\[-4y = -2x + 9\]
+
+next, we divide every term by \(-4\):
+\[y = \frac{-2x + 9}{-4}\]
+
+simplifying the fraction:
+\[y = \frac{1}{2}x - \frac{9}{4}\]
+
+the equation is now in the form \(y = mx + b\), where \(m\) is the slope. thus, the slope \(m\) is:
+\[m = \frac{1}{2}\]
+
+since parallel lines have the same slope, the slope of any line parallel to the given line is:
+\[\boxed{\frac{1}{2}}\]

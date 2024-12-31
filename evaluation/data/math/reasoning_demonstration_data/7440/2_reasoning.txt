@@ -1,1 +1,168 @@
-Reasoning: 
+Reasoning: So i've got this problem here. there's an equilateral triangle abc, and there's a point p inside it. from p, perpendiculars are drawn to each side: pq to ab, pr to bc, and ps to ca. i'm given that pq is 1, pr is 2, and ps is 3, and i need to find the length of side ab in terms of radicals.
+
+first, since abc is an equilateral triangle, all its sides are equal, and all its angles are 60 degrees. that should help simplify things because of the symmetry.
+
+i remember there's a formula related to the distances from an interior point to the sides of a triangle. maybe something involving area? let me think.
+
+in any triangle, the sum of the areas of the smaller triangles formed by connecting the interior point to the vertices equals the area of the whole triangle. so, if i consider point p inside triangle abc, then the areas of triangles pab, pbc, and pca should add up to the area of abc.
+
+let's denote the side length of the equilateral triangle abc as s. so, the area of abc is (√3/4)s².
+
+now, the area of triangle pab can be calculated as (1/2)*base*height. here, the base is ab, which is s, and the height is pq, which is 1. so, area of pab is (1/2)*s*1 = s/2.
+
+similarly, the area of pbc is (1/2)*s*pr = (1/2)*s*2 = s.
+
+and the area of pca is (1/2)*s*ps = (1/2)*s*3 = (3s)/2.
+
+adding these up: s/2 + s + 3s/2 = (s/2 + 2s/2 + 3s/2) = (6s)/2 = 3s.
+
+this sum should equal the area of abc, which is (√3/4)s². so:
+
+3s = (√3/4)s²
+
+let me solve for s.
+
+first, i can divide both sides by s (assuming s ≠ 0, which it isn't since it's a side length):
+
+3 = (√3/4)s
+
+now, solve for s:
+
+s = 3 * (4/√3) = 12/√3
+
+to rationalize the denominator:
+
+s = 12/√3 * √3/√3 = (12√3)/3 = 4√3
+
+wait a minute, that seems straightforward, but i recall there's a formula in an equilateral triangle that the sum of the perpendicular distances from any interior point to the sides is equal to the altitude of the triangle.
+
+is that correct? let me check.
+
+the altitude (height) h of an equilateral triangle with side s is h = (√3/2)s.
+
+and indeed, in an equilateral triangle, the sum of the distances from any interior point to the three sides is equal to the altitude.
+
+so, pq + pr + ps = h
+
+given pq = 1, pr = 2, ps = 3, their sum is 1 + 2 + 3 = 6.
+
+therefore, h = 6.
+
+but h is also (√3/2)s, so:
+
+(√3/2)s = 6
+
+solving for s:
+
+s = 6 * 2 / √3 = 12/√3 = 4√3 after rationalizing.
+
+wait, that matches what i got earlier. so, s = 4√3.
+
+but the problem says "in terms of radicals," and 4√3 is already in that form. so, i think that's the answer.
+
+but just to be thorough, maybe i should consider if there's another approach or if i've missed something.
+
+alternatively, i could use coordinate geometry. let's place the triangle abc with side ab on the x-axis.
+
+let me set point a at (0,0), point b at (s,0), and point c at (s/2, (√3/2)s), since it's an equilateral triangle.
+
+now, point p has coordinates (x,y), and the feet of the perpendiculars to the sides can be found using the equations of the sides.
+
+first, find the equations of the sides:
+
+ab: y = 0
+
+bc: from b(s,0) to c(s/2, (√3/2)s), the slope is m = [(√3/2)s - 0]/[s/2 - s] = [(√3/2)s]/(-s/2) = -√3
+
+so, equation of bc: y - 0 = -√3(x - s), which simplifies to y = -√3 x + √3 s
+
+similarly, ca: from c(s/2, (√3/2)s) to a(0,0), slope m = [(√3/2)s - 0]/[s/2 - 0] = (√3/2)s / (s/2) = √3
+
+equation of ca: y - 0 = √3(x - 0), so y = √3 x
+
+now, find the perpendicular distances from p(x,y) to each side.
+
+distance from p to ab (y=0):
+
+pq = y
+
+given pq = 1, so y = 1
+
+distance from p to bc (y = -√3 x + √3 s):
+
+the formula for distance from a point (x0,y0) to a line ax + by + c = 0 is |ax0 + by0 + c| / sqrt(a² + b²)
+
+first, write bc in standard form: √3 x + y - √3 s = 0
+
+so, distance pr = |√3 x + y - √3 s| / sqrt(3 + 1) = |√3 x + y - √3 s| / 2
+
+given pr = 2, so |√3 x + y - √3 s| / 2 = 2 ⇒ |√3 x + y - √3 s| = 4
+
+similarly, distance from p to ca (y = √3 x):
+
+write in standard form: -√3 x + y = 0
+
+distance ps = |-√3 x + y| / sqrt(3 + 1) = |-√3 x + y| / 2
+
+given ps = 3, so |-√3 x + y| / 2 = 3 ⇒ |-√3 x + y| = 6
+
+now, since y = 1, plug that into the equations.
+
+first equation: |√3 x + 1 - √3 s| = 4
+
+second equation: |-√3 x + 1| = 6
+
+let's solve the second equation first: |-√3 x + 1| = 6
+
+this gives two cases:
+
+1) -√3 x + 1 = 6 ⇒ -√3 x = 5 ⇒ x = -5/√3
+
+2) -√3 x + 1 = -6 ⇒ -√3 x = -7 ⇒ x = 7/√3
+
+now, plug these into the first equation.
+
+first case: x = -5/√3
+
+|√3*(-5/√3) + 1 - √3 s| = | -5 + 1 - √3 s | = | -4 - √3 s | = 4
+
+so, | -4 - √3 s | = 4
+
+this gives two possibilities:
+
+a) -4 - √3 s = 4 ⇒ -√3 s = 8 ⇒ s = -8/√3 (not possible, since side length is positive)
+
+b) -4 - √3 s = -4 ⇒ -√3 s = 0 ⇒ s = 0 (not possible)
+
+so, this case doesn't work.
+
+second case: x = 7/√3
+
+|√3*(7/√3) + 1 - √3 s| = |7 + 1 - √3 s| = |8 - √3 s| = 4
+
+so, |8 - √3 s| = 4
+
+again, two possibilities:
+
+a) 8 - √3 s = 4 ⇒ -√3 s = -4 ⇒ s = 4/√3
+
+b) 8 - √3 s = -4 ⇒ -√3 s = -12 ⇒ s = 12/√3 = 4√3
+
+now, s must be positive, and 4/√3 is approximately 2.309, while 4√3 is about 6.928. but from earlier, using the area method, i got s = 4√3.
+
+wait, but according to the second case, s could be 4/√3 or 4√3. but from the area approach, it seems s should be 4√3. maybe s = 4/√3 is not valid in this context.
+
+let me check which one makes sense.
+
+if s = 4/√3, then the altitude h = (√3/2)s = (√3/2)*(4/√3) = 2, but earlier we had pq + pr + ps = 6, which should equal the altitude, but here h = 2, which doesn't match 6. so s = 4/√3 is invalid.
+
+therefore, s = 4√3 is the correct solution.
+
+so, ab = 4√3.
+
+**final answer**
+
+4
+3
+​	
+ 

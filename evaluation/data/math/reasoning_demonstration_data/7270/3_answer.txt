@@ -1,1 +1,90 @@
-Answer: 
+Answer: Given the function \( f \) with the property that for positive integers \( a, b, n \) such that \( a + b = 2^n \), the equation \( f(a) + f(b) = n^2 \) holds, we need to find \( f(2002) \).
+
+first, we compute \( f \) for smaller values of \( a \):
+
+1. for \( n = 1 \):
+   \[
+   a + b = 2^1 = 2 \implies (a, b) = (1, 1) \implies f(1) + f(1) = 1^2 = 1 \implies f(1) = \frac{1}{2}
+   \]
+
+2. for \( n = 2 \):
+   \[
+   a + b = 2^2 = 4 \implies (a, b) = (1, 3), (2, 2), (3, 1)
+   \]
+   \[
+   f(1) + f(3) = 2^2 = 4 \implies \frac{1}{2} + f(3) = 4 \implies f(3) = \frac{7}{2}
+   \]
+   \[
+   f(2) + f(2) = 4 \implies 2f(2) = 4 \implies f(2) = 2
+   \]
+
+3. for \( n = 3 \):
+   \[
+   a + b = 2^3 = 8 \implies (a, b) = (1, 7), (2, 6), (3, 5), (4, 4), (5, 3), (6, 2), (7, 1)
+   \]
+   \[
+   f(1) + f(7) = 3^2 = 9 \implies \frac{1}{2} + f(7) = 9 \implies f(7) = \frac{17}{2}
+   \]
+   \[
+   f(2) + f(6) = 9 \implies 2 + f(6) = 9 \implies f(6) = 7
+   \]
+   \[
+   f(3) + f(5) = 9 \implies \frac{7}{2} + f(5) = 9 \implies f(5) = \frac{11}{2}
+   \]
+   \[
+   f(4) + f(4) = 9 \implies 2f(4) = 9 \implies f(4) = \frac{9}{2}
+   \]
+
+next, we find \( f(2002) \):
+
+1. for \( n = 11 \):
+   \[
+   a + b = 2^{11} = 2048 \implies (a, b) = (2002, 46)
+   \]
+   \[
+   f(2002) + f(46) = 11^2 = 121
+   \]
+
+2. for \( n = 6 \):
+   \[
+   a + b = 2^6 = 64 \implies (a, b) = (46, 18)
+   \]
+   \[
+   f(46) + f(18) = 6^2 = 36
+   \]
+
+3. for \( n = 5 \):
+   \[
+   a + b = 2^5 = 32 \implies (a, b) = (18, 14)
+   \]
+   \[
+   f(18) + f(14) = 5^2 = 25
+   \]
+
+4. for \( n = 4 \):
+   \[
+   a + b = 2^4 = 16 \implies (a, b) = (14, 2)
+   \]
+   \[
+   f(14) + f(2) = 4^2 = 16 \implies f(14) + 2 = 16 \implies f(14) = 14
+   \]
+
+5. using \( f(14) = 14 \):
+   \[
+   f(18) = 25 - f(14) = 25 - 14 = 11
+   \]
+
+6. using \( f(18) = 11 \):
+   \[
+   f(46) = 36 - f(18) = 36 - 11 = 25
+   \]
+
+7. using \( f(46) = 25 \):
+   \[
+   f(2002) = 121 - f(46) = 121 - 25 = 96
+   \]
+
+thus, the value of \( f(2002) \) is:
+\[
+\boxed{96}
+\]

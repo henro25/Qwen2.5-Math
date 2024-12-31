@@ -1,1 +1,15 @@
-Answer: 
+Answer: To find the greatest common factor (GCF) of 2835 and 8960, we use the Euclidean algorithm:
+
+1. Divide 8960 by 2835:
+   - 8960 ÷ 2835 = 3 with a remainder of 455.
+
+2. Divide 2835 by 455:
+   - 2835 ÷ 455 = 6 with a remainder of 105.
+
+3. Divide 455 by 105:
+   - 455 ÷ 105 = 4 with a remainder of 35.
+
+4. Divide 105 by 35:
+   - 105 ÷ 35 = 3 with a remainder of 0.
+
+Since the remainder is now zero, the last non-zero remainder is 35. Therefore, the greatest common factor of 2835 and 8960 is **35**.

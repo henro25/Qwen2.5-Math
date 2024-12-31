@@ -1,1 +1,101 @@
-Answer: 
+Answer: To find the quadratic polynomial \( p(x) = ax^2 + bx + c \) that satisfies the conditions \( p(-2) = 13 \), \( p(1) = -2 \), and \( p(3) = 8 \), we set up the following system of equations:
+
+1. \( 4a - 2b + c = 13 \)
+2. \( a + b + c = -2 \)
+3. \( 9a + 3b + c = 8 \)
+
+first, we subtract equation 2 from equation 1 to eliminate \( c \):
+
+\[
+(4a - 2b + c) - (a + b + c) = 13 - (-2)
+\]
+\[
+4a - 2b + c - a - b - c = 15
+\]
+\[
+3a - 3b = 15
+\]
+\[
+a - b = 5 \quad \text{(equation 4)}
+\]
+
+next, we subtract equation 2 from equation 3 to eliminate \( c \):
+
+\[
+(9a + 3b + c) - (a + b + c) = 8 - (-2)
+\]
+\[
+9a + 3b + c - a - b - c = 10
+\]
+\[
+8a + 2b = 10
+\]
+\[
+4a + b = 5 \quad \text{(equation 5)}
+\]
+
+we now solve the system of equations 4 and 5:
+
+\[
+a - b = 5
+\]
+\[
+4a + b = 5
+\]
+
+adding these two equations to eliminate \( b \):
+
+\[
+(a - b) + (4a + b) = 5 + 5
+\]
+\[
+a - b + 4a + b = 10
+\]
+\[
+5a = 10
+\]
+\[
+a = 2
+\]
+
+substituting \( a = 2 \) into equation 4:
+
+\[
+2 - b = 5
+\]
+\[
+-b = 3
+\]
+\[
+b = -3
+\]
+
+finally, substituting \( a = 2 \) and \( b = -3 \) into equation 2 to find \( c \):
+
+\[
+2 + (-3) + c = -2
+\]
+\[
+-1 + c = -2
+\]
+\[
+c = -1
+\]
+
+thus, the quadratic polynomial is:
+
+\[
+p(x) = 2x^2 - 3x - 1
+\]
+
+verifying the polynomial with the given points:
+
+1. \( p(-2) = 2(-2)^2 - 3(-2) - 1 = 8 + 6 - 1 = 13 \)
+2. \( p(1) = 2(1)^2 - 3(1) - 1 = 2 - 3 - 1 = -2 \)
+3. \( p(3) = 2(3)^2 - 3(3) - 1 = 18 - 9 - 1 = 8 \)
+
+all points satisfy the polynomial, so the final answer is:
+
+\[
+\boxed{2x^2 - 3x - 1}
+\]

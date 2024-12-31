@@ -1,1 +1,39 @@
-Answer: 
+Answer: To find the probability that exactly one of the ten standard 6-sided dice shows a 1, we use the binomial probability formula:
+
+\[
+p(k) = c(n, k) \times p^k \times (1-p)^{n-k}
+\]
+
+where:
+- \(n = 10\)
+- \(k = 1\)
+- \(p = \frac{1}{6}\)
+- \(1-p = \frac{5}{6}\)
+
+first, we calculate the combination \(c(10, 1)\):
+
+\[
+c(10, 1) = \frac{10!}{1!(10-1)!} = 10
+\]
+
+next, we calculate \(\left(\frac{5}{6}\right)^9\):
+
+\[
+\left(\frac{5}{6}\right)^9 \approx 0.1934515
+\]
+
+now, we plug these values into the binomial probability formula:
+
+\[
+p(1) = 10 \times \left(\frac{1}{6}\right) \times \left(\frac{5}{6}\right)^9
+\]
+
+\[
+p(1) = 10 \times 0.1666667 \times 0.1934515 \approx 0.322
+\]
+
+therefore, the probability that exactly one of the dice shows a 1 is:
+
+\[
+\boxed{0.322}
+\]

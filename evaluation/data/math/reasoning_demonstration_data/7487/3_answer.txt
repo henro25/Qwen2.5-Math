@@ -1,1 +1,18 @@
-Answer: 
+Answer: 1. **Calculate the total value of the dimes:**
+   - Number of dimes: 50
+   - Value per dime: $0.10
+   - Total value of dimes: 50 * $0.10 = $5.00
+
+2. **Calculate the total value of the quarters:**
+   - Number of quarters: 20
+   - Value per quarter: $0.25
+   - Total value of quarters: 20 * $0.25 = $5.00
+
+3. **Calculate the total value of all the money:**
+   - Total value = Value of dimes + Value of quarters = $5.00 + $5.00 = $10.00
+
+4. **Determine the percentage of the total value that is in quarters:**
+   - Percentage = (Value of quarters / Total value) * 100
+   - Percentage = ($5.00 / $10.00) * 100 = 50%
+
+**Answer:** 50% of the value of your money is in quarters.

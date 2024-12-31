@@ -1,1 +1,35 @@
-Answer: 
+Answer: To solve for \( a \), we start with the equation:
+
+\[
+a + \frac{a}{3} = \frac{8}{3}
+\]
+
+First, we combine like terms. Rewriting \( a \) as \( \frac{3a}{3} \), we get:
+
+\[
+\frac{3a}{3} + \frac{a}{3} = \frac{4a}{3}
+\]
+
+So, the equation becomes:
+
+\[
+\frac{4a}{3} = \frac{8}{3}
+\]
+
+Next, we multiply both sides by 3 to eliminate the denominators:
+
+\[
+4a = 8
+\]
+
+Finally, dividing both sides by 4:
+
+\[
+a = 2
+\]
+
+Thus, the value of \( a \) is:
+
+\[
+\boxed{2}
+\]

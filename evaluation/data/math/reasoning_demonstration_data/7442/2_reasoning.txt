@@ -1,1 +1,378 @@
-Reasoning: 
+Reasoning: So i've got this problem here. sam is hired for a 20-day period. on days he works, he earns $60, and if he doesn't work a day, $30 is subtracted from his earnings. at the end of the 20 days, he received $660. the question is, how many days did he not work?
+
+first, i need to figure out a way to set this up. maybe i can use some algebra here. let's see.
+
+let me define some variables to make this easier. let's say:
+
+let 
+x
+x be the number of days sam worked.
+
+and 
+y
+y be the number of days he did not work.
+
+i know that the total number of days is 20, so:
+
+x
++
+y
+=
+20
+x+y=20
+
+that's one equation.
+
+now, for the earnings. for each day he works, he earns $60, so his total earnings from working days would be 
+60
+x
+60x.
+
+for each day he doesn't work, $30 is subtracted from his earnings. so, the total subtraction would be 
+30
+y
+30y.
+
+his total earnings would then be:
+
+60
+x
+−
+30
+y
+=
+660
+60x−30y=660
+
+now i have two equations:
+
+1. 
+x
++
+y
+=
+20
+x+y=20
+
+2. 
+60
+x
+−
+30
+y
+=
+660
+60x−30y=660
+
+i can solve this system of equations to find the values of 
+x
+x and 
+y
+y.
+
+maybe i can solve the first equation for one variable and substitute into the second equation.
+
+from equation 1:
+
+x
+=
+20
+−
+y
+x=20−y
+
+now, substitute this into equation 2:
+
+60
+(
+20
+−
+y
+)
+−
+30
+y
+=
+660
+60(20−y)−30y=660
+
+let me simplify this:
+
+first, distribute the 60:
+
+60
+×
+20
+=
+1200
+60×20=1200
+
+60
+×
+(
+−
+y
+)
+=
+−
+60
+y
+60×(−y)=−60y
+
+so:
+
+1200
+−
+60
+y
+−
+30
+y
+=
+660
+1200−60y−30y=660
+
+combine like terms:
+
+1200
+−
+90
+y
+=
+660
+1200−90y=660
+
+now, subtract 1200 from both sides:
+
+−
+90
+y
+=
+660
+−
+1200
+−90y=660−1200
+
+−
+90
+y
+=
+−
+540
+−90y=−540
+
+now, divide both sides by -90:
+
+y
+=
+−
+540
+−
+90
+y= 
+−90
+−540
+​	
+ 
+
+y
+=
+6
+y=6
+
+so, according to this, sam did not work for 6 days.
+
+wait a minute, let me double-check that.
+
+if 
+y
+=
+6
+y=6, then from equation 1:
+
+x
+=
+20
+−
+6
+=
+14
+x=20−6=14
+
+so, he worked for 14 days and didn't work for 6 days.
+
+let's check if this makes sense with the earnings.
+
+he worked for 14 days at $60 per day:
+
+14
+×
+60
+=
+840
+14×60=840
+
+he didn't work for 6 days, so $30 is subtracted each day:
+
+6
+×
+30
+=
+180
+6×30=180
+
+total earnings:
+
+840
+−
+180
+=
+660
+840−180=660
+
+yes, that matches the given total of $660. so, it seems correct.
+
+but just to be thorough, maybe i can try another method to confirm.
+
+alternatively, i can think of it in terms of net earnings per day.
+
+on days he works, he earns $60.
+
+on days he doesn't work, he loses $30.
+
+so, the average per day can be calculated.
+
+total earnings over 20 days is $660, so average per day is 
+660
+20
+=
+33
+20
+660
+​	
+ =33 dollars per day.
+
+now, let's consider the net earnings per day.
+
+let me define the net earnings per day as:
+
+net earnings per day
+=
+earnings from working
+−
+loss from not working
+net earnings per day=earnings from working−loss from not working
+
+but that might not be the best way to think about it.
+
+alternatively, think of it as:
+
+if he worked all 20 days, he would have earned 
+20
+×
+60
+=
+1200
+20×60=1200 dollars.
+
+but since he didn't work some days, for each day he didn't work, he loses $60 (the amount he would have earned from working) and actually loses an additional $30, so total loss per not working day is $90.
+
+wait, that might be a different way to look at it.
+
+wait, no. the problem says that for each day he doesn't work, $30 is subtracted from his earnings. it doesn't say he loses the $60 he would have earned plus an additional $30.
+
+so, perhaps it's just that for days he doesn't work, $30 is subtracted, regardless of what he would have earned.
+
+in that case, the total earnings can be seen as:
+
+total earnings = (number of days worked × $60) − (number of days not worked × $30)
+
+which is what i had earlier: 
+60
+x
+−
+30
+y
+=
+660
+60x−30y=660
+
+and 
+x
++
+y
+=
+20
+x+y=20
+
+so, that seems consistent.
+
+alternatively, maybe i can think about it in terms of the difference in earnings between working and not working.
+
+if he works a day, he earns $60.
+
+if he doesn't work, he loses $30.
+
+so, the difference in earnings between working and not working is 
+60
+−
+(
+−
+30
+)
+=
+90
+60−(−30)=90 dollars.
+
+wait, no. if he doesn't work, $30 is subtracted, so it's like he has -$30 for that day.
+
+so, the difference in earnings between working and not working is 
+60
+−
+(
+−
+30
+)
+=
+90
+60−(−30)=90 dollars.
+
+so, for each day he works instead of not working, he gains an additional $90.
+
+now, if he had not worked all 20 days, he would have:
+
+20
+×
+(
+−
+30
+)
+=
+−
+600
+20×(−30)=−600 dollars.
+
+but he actually received $660, which is $660 - (-600) = $1260 more than if he hadn't worked at all.
+
+since each working day gives him an extra $90, the number of days he worked is 
+1260
+90
+=
+14
+90
+1260
+​	
+ =14 days.
+
+therefore, he worked 14 days and didn't work 6 days.
+
+this matches what i got earlier.
+
+so, both methods confirm that he didn't work for 6 days.
+
+i think that's solid.
+
+**final answer**
+
+6
+ 

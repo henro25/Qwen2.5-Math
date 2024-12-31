@@ -1,1 +1,27 @@
-Reasoning: 
+Reasoning: Alright, let's tackle this problem step by step. So, we have an average of 10 numbers being 85. That means if I add up all those 10 numbers and then divide by 10, I get 85. To find the total sum of these numbers, I can multiply the average by the number of values. So, 85 times 10 should give me the total sum.
+
+Wait, what's 85 times 10? That's easy, it's 850. So, the sum of all 10 numbers is 850.
+
+Now, the problem says that two numbers, 70 and 76, are removed from this set. I need to find the average of the remaining numbers. First, I should find out what the new sum is after removing these two numbers.
+
+So, I need to subtract 70 and 76 from the original sum. Let's see, 850 minus 70 is 780, and then 780 minus 76 is... hmm, 780 minus 70 is 710, and then minus 6 more is 704. So, the new sum should be 704.
+
+Now, how many numbers are left? Originally, there were 10 numbers, and we removed 2, so there should be 8 numbers left.
+
+To find the new average, I need to divide the new sum by the number of remaining numbers. So, that's 704 divided by 8.
+
+What's 704 divided by 8? Let's see, 8 times 80 is 640, and 8 times 8 is 64, so 80 plus 8 is 88. Therefore, 8 times 88 is 704.
+
+So, the new average should be 88.
+
+Wait a minute, that seems straightforward. But let me double-check to make sure I didn't make any mistakes.
+
+First, total sum of 10 numbers is 85 times 10, which is 850. Correct.
+
+Remove 70 and 76, so subtract 70 plus 76, which is 146 from 850. 850 minus 146 is indeed 704.
+
+Number of remaining numbers is 10 minus 2, which is 8.
+
+Then, 704 divided by 8 is 88.
+
+Yeah, that checks out. I think that's the correct answer.

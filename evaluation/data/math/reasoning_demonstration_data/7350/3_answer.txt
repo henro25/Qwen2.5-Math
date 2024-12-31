@@ -1,1 +1,18 @@
-Answer: 
+Answer: To determine the number of 5-digit integers that can be formed using the digits 1, 2, 3, 4, and 5, with each digit used exactly once, and with the condition that the digit 1 is to the left of the digit 2, we start by calculating the total number of permutations of these 5 digits.
+
+the total number of permutations is given by \(5!\):
+\[
+5! = 5 \times 4 \times 3 \times 2 \times 1 = 120
+\]
+
+next, we consider the condition that 1 must be to the left of 2. for any pair of distinct positions in the 5-digit number, one will be to the left of the other. since there are no restrictions on the other digits, and the only condition is about the relative positions of 1 and 2, exactly half of the total permutations will have 1 to the left of 2.
+
+thus, the number of desired permutations is:
+\[
+\frac{120}{2} = 60
+\]
+
+therefore, the number of such integers where 1 is to the left of 2 is:
+\[
+\boxed{60}
+\]

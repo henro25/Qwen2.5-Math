@@ -1,1 +1,23 @@
-Answer: 
+Answer: **Step 1:** Calculate the total sum of the original 10 numbers.
+
+- Average = 85
+- Number of values = 10
+- Total sum = 85 * 10 = 850
+
+**Step 2:** Subtract the removed numbers (70 and 76) from the total sum.
+
+- Sum of removed numbers = 70 + 76 = 146
+- New sum = 850 - 146 = 704
+
+**Step 3:** Determine the number of remaining numbers.
+
+- Original count = 10
+- Numbers removed = 2
+- Remaining numbers = 10 - 2 = 8
+
+**Step 4:** Calculate the new average.
+
+- New average = New sum / Remaining numbers
+- New average = 704 / 8 = 88
+
+**Answer:** The average of the remaining numbers is 88.

@@ -1,1 +1,33 @@
-Answer: 
+Answer: Given points \( a \), \( b \), and \( c \) on the surface of a sphere with center \( o \) and radius 20, and side lengths \( ab = 13 \), \( bc = 14 \), and \( ca = 15 \), we need to find the distance from \( o \) to the plane of \( \triangle abc \) in the form \( \frac{m\sqrt{n}}{k} \), where \( m \), \( n \), and \( k \) are positive integers, \( m \) and \( k \) are relatively prime, and \( n \) is square-free. finally, we need to find \( m + n + k \).
+
+first, we find the area \( \delta \) of \( \triangle abc \) using heron's formula:
+\[
+s = \frac{a + b + c}{2} = \frac{13 + 14 + 15}{2} = 21
+\]
+\[
+\delta = \sqrt{s(s-a)(s-b)(s-c)} = \sqrt{21(21-13)(21-14)(21-15)} = \sqrt{21 \cdot 8 \cdot 7 \cdot 6} = \sqrt{7056} = 84
+\]
+
+next, we find the circumradius \( r \) of \( \triangle abc \):
+\[
+r = \frac{abc}{4\delta} = \frac{13 \cdot 14 \cdot 15}{4 \cdot 84} = \frac{2730}{336} = \frac{65}{8}
+\]
+
+the distance \( d \) from \( o \) to the plane of \( \triangle abc \) is given by:
+\[
+d = \sqrt{r^2 - r^2} = \sqrt{20^2 - \left(\frac{65}{8}\right)^2} = \sqrt{400 - \frac{4225}{64}} = \sqrt{\frac{25600 - 4225}{64}} = \sqrt{\frac{21375}{64}} = \frac{\sqrt{21375}}{8}
+\]
+
+simplifying \( \sqrt{21375} \):
+\[
+21375 = 5^3 \cdot 3^2 \cdot 19 \implies \sqrt{21375} = 15\sqrt{95}
+\]
+\[
+d = \frac{15\sqrt{95}}{8}
+\]
+
+thus, \( m = 15 \), \( n = 95 \), and \( k = 8 \). therefore, \( m + n + k = 15 + 95 + 8 = 118 \).
+
+\[
+\boxed{118}
+\]

@@ -1,1 +1,119 @@
-Reasoning: 
+Reasoning: Alright, so I've got this problem here about a telephone pole supported by a steel cable. The cable goes from the top of the pole to a point on the ground that's 3 meters away from the base of the pole. Then, Leah walks 2.5 meters from the base towards where the cable is attached, and when she does that, her head just touches the cable. She's 1.5 meters tall, and I need to find out how tall the pole is.
+
+Okay, first, I need to visualize this. There's a pole, let's say it's vertical, going straight up from the ground. Then, there's a cable that goes from the top of the pole down to the ground, 3 meters away from the base. So, if I imagine the base of the pole at point A, and the point where the cable is anchored on the ground at point B, which is 3 meters away from A.
+
+Now, Leah starts at the base of the pole and walks 2.5 meters towards point B. So, she's now at a point, let's call it C, which is 2.5 meters from A and (3 - 2.5) = 0.5 meters from B.
+
+At this point, her head just touches the cable. So, the height of the cable at point C is equal to her height, which is 1.5 meters.
+
+I think this forms similar triangles. The big triangle is from the top of the pole to the ground, with the base being 3 meters. The smaller triangle is from the top of Leah's head to the ground at point C, with the base being 0.5 meters.
+
+Wait, no. Actually, the smaller triangle should be from the top of the pole down to point C, and then from point C to the ground.
+
+Let me try to set this up more carefully.
+
+Let’s denote the height of the pole as h meters.
+
+The cable stretches from the top of the pole (point T) to point B on the ground, which is 3 meters from the base A of the pole.
+
+So, triangle TAB is a right triangle, with TA being the height h, AB being 3 meters, and TB being the cable.
+
+Now, Leah walks 2.5 meters from A towards B, so she is at point C, which is 2.5 meters from A and 0.5 meters from B.
+
+At point C, her head touches the cable, and her height is 1.5 meters.
+
+So, at point C, the cable is 1.5 meters above the ground.
+
+So, if I look at the cable from T to B, and at point C, which is 0.5 meters from B, the height is 1.5 meters.
+
+I think I can use similar triangles here.
+
+Let's consider the big triangle TAB, and a smaller triangle that is similar to it.
+
+From point C, the cable goes up to T and down to B.
+
+Wait, perhaps I should consider the cable as a straight line, and find the equation of that line.
+
+Let me set up a coordinate system.
+
+Let’s place point A at the origin (0,0), and point B at (3,0), since it's 3 meters from A.
+
+Then, the top of the pole, point T, is at (0,h).
+
+The cable is the line from T(0,h) to B(3,0).
+
+The equation of the cable can be found using the two points.
+
+The slope m of TB is (0 - h)/(3 - 0) = -h/3.
+
+So, the equation of the cable is y = (-h/3)x + h.
+
+Now, Leah is at point C, which is 2.5 meters from A, so her x-coordinate is 2.5.
+
+At x = 2.5, the y-coordinate of the cable is y = (-h/3)(2.5) + h = - (2.5h)/3 + h = (-2.5h + 3h)/3 = (0.5h)/3 = h/6.
+
+Wait, that can't be right.
+
+Wait, let me recalculate that.
+
+y = (-h/3)(2.5) + h = - (2.5h)/3 + h = (-2.5h + 3h)/3 = (0.5h)/3 = h/6.
+
+Yes, that's correct.
+
+But according to the problem, at point C, the cable is at a height equal to Leah's height, which is 1.5 meters.
+
+So, y = 1.5 meters when x = 2.5 meters.
+
+Therefore, h/6 = 1.5.
+
+So, h = 1.5 * 6 = 9 meters.
+
+Wait, that seems straightforward. Is there anything I'm missing?
+
+Let me double-check.
+
+The equation of the cable is y = (-h/3)x + h.
+
+At x = 2.5, y = 1.5.
+
+So, 1.5 = (-h/3)(2.5) + h.
+
+Simplify: 1.5 = - (2.5h)/3 + h.
+
+To combine the terms, I can write h as 3h/3.
+
+So, 1.5 = -2.5h/3 + 3h/3 = (0.5h)/3.
+
+Wait, that doesn't seem right.
+
+Wait, 3h/3 - 2.5h/3 = 0.5h/3.
+
+So, 1.5 = 0.5h / 3.
+
+Wait, that would be 1.5 = h/6, which gives h = 9 meters.
+
+But earlier, I thought h/6 = 1.5, so h = 9 meters.
+
+But in my first calculation, I thought h/6 = 1.5, which is correct.
+
+But let me see if there's another way to approach this.
+
+Maybe using similar triangles.
+
+The big triangle TAB has height h and base 3 meters.
+
+At point C, which is 0.5 meters from B, the height is 1.5 meters.
+
+So, the smaller triangle from C to B has base 0.5 meters and height 1.5 meters.
+
+So, the ratio of heights should be the same as the ratio of bases.
+
+So, h / 1.5 = 3 / 0.5.
+
+So, h / 1.5 = 6.
+
+Therefore, h = 1.5 * 6 = 9 meters.
+
+Okay, that matches my previous answer.
+
+So, the height of the pole is 9 meters.

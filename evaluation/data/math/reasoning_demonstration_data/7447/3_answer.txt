@@ -1,1 +1,43 @@
-Answer: 
+Answer: To compute \(\mathbf{a}^{100}\) for the matrix \(\mathbf{a} = \begin{pmatrix} 4 & 1 \\ -9 & -2 \end{pmatrix}\), we use the diagonalization method. first, we find the eigenvalues by solving the characteristic equation:
+
+\[
+\det(\mathbf{a} - \lambda \mathbf{i}) = 0 \implies \lambda^2 + 2\lambda - 1 = 0
+\]
+
+the eigenvalues are:
+
+\[
+\lambda_1 = -1 + \sqrt{2}, \quad \lambda_2 = -1 - \sqrt{2}
+\]
+
+next, we find the eigenvectors corresponding to these eigenvalues. for \(\lambda_1 = -1 + \sqrt{2}\), the eigenvector is \(\mathbf{v}_1 = \begin{pmatrix} 1 \\ -(5 - \sqrt{2}) \end{pmatrix}\), and for \(\lambda_2 = -1 - \sqrt{2}\), the eigenvector is \(\mathbf{v}_2 = \begin{pmatrix} 1 \\ -(5 + \sqrt{2}) \end{pmatrix}\).
+
+we form the matrix \(\mathbf{p}\) with these eigenvectors as columns and the diagonal matrix \(\mathbf{d}\) with the eigenvalues on the diagonal:
+
+\[
+\mathbf{p} = \begin{pmatrix} 1 & 1 \\ -(5 - \sqrt{2}) & -(5 + \sqrt{2}) \end{pmatrix}, \quad \mathbf{d} = \begin{pmatrix} -1 + \sqrt{2} & 0 \\ 0 & -1 - \sqrt{2} \end{pmatrix}
+\]
+
+the inverse of \(\mathbf{p}\) is:
+
+\[
+\mathbf{p}^{-1} = \frac{1}{-2\sqrt{2}} \begin{pmatrix} 5 + \sqrt{2} & 1 \\ -5 + \sqrt{2} & -1 \end{pmatrix}
+\]
+
+using the diagonalization formula \(\mathbf{a}^{100} = \mathbf{p} \mathbf{d}^{100} \mathbf{p}^{-1}\), we have:
+
+\[
+\mathbf{a}^{100} = \begin{pmatrix} 1 & 1 \\ -(5 - \sqrt{2}) & -(5 + \sqrt{2}) \end{pmatrix} \begin{pmatrix} (-1 + \sqrt{2})^{100} & 0 \\ 0 & (-1 - \sqrt{2})^{100} \end{pmatrix} \frac{1}{-2\sqrt{2}} \begin{pmatrix} 5 + \sqrt{2} & 1 \\ -5 + \sqrt{2} & -1 \end{pmatrix}
+\]
+
+this expression can be further simplified to:
+
+\[
+\mathbf{a}^{100} = -\frac{1}{2} \left[ (-1 + \sqrt{2})^{100} + (-1 - \sqrt{2})^{100} \right] \begin{pmatrix} 4 & 1 \\ -9 & -2 \end{pmatrix} - \frac{1}{2} \left[ (-1 + \sqrt{2})^{99} + (-1 - \sqrt{2})^{99} \right] \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}
+\]
+
+thus, the final answer is:
+
+\[
+\boxed{\mathbf{a}^{100} = -\frac{1}{2} \left[ (-1 + \sqrt{2})^{100} + (-1 - \sqrt{2})^{100} \right] \begin{pmatrix} 4 & 1 \\ -9 & -2 \end{pmatrix} - \frac{1}{2} \left[ (-1 + \sqrt{2})^{99} + (-1 - \sqrt{2})^{99} \right] \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}}
+\]

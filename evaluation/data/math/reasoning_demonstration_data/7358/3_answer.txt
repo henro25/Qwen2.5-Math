@@ -1,1 +1,21 @@
-Answer: 
+Answer: To solve the equation \(\left\lfloor x \lfloor x \rfloor \right\rfloor = 29\), we denote \(\lfloor x \rfloor\) as \(n\), where \(n\) is an integer. thus, \(n \leq x < n+1\) and the equation becomes \(\left\lfloor x \cdot n \right\rfloor = 29\). this implies \(29 \leq x \cdot n < 30\).
+
+we need to find integers \(n\) such that there exists an \(x\) in \([n, n+1)\) with \(29 \leq x \cdot n < 30\).
+
+1. for \(n = 5\):
+   - \(x\) is in \([5, 6)\).
+   - \(x \cdot 5\) is in \([25, 30)\).
+   - to satisfy \(29 \leq x \cdot 5 < 30\), \(x\) must be in \([5.8, 6)\).
+
+2. for other integer values of \(n\):
+   - \(n = 6\): \(x \cdot 6\) is in \([36, 42)\), which is greater than 30.
+   - \(n = 4\): \(x \cdot 4\) is in \([16, 20)\), which is less than 29.
+   - similarly, for \(n = 3, 2, 1, 0, -1, -2, -3, \ldots\), the product \(x \cdot n\) does not satisfy \(29 \leq x \cdot n < 30\).
+
+therefore, the only possible integer \(n\) is 5, and the corresponding \(x\) is in \([5.8, 6)\).
+
+thus, the solution is:
+
+\[
+\boxed{5.8 \leq x < 6}
+\]

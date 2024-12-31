@@ -1,1 +1,30 @@
-Answer: 
+Answer: To find the probability that at most 2 out of 8 flipped coins show heads, we use the binomial probability formula:
+
+\[ p(k) = c(n, k) \times p^k \times (1-p)^{n-k} \]
+
+where:
+- \( n = 8 \) (number of trials),
+- \( k \) is the number of successes (0, 1, or 2 heads),
+- \( p = 0.5 \) (probability of heads).
+
+we calculate the probabilities for \( k = 0, 1, \) and \( 2 \) and sum them up.
+
+first, for \( k = 0 \):
+
+\[ p(0) = c(8, 0) \times (0.5)^0 \times (0.5)^8 = 1 \times 1 \times \frac{1}{256} = \frac{1}{256} \]
+
+next, for \( k = 1 \):
+
+\[ p(1) = c(8, 1) \times (0.5)^1 \times (0.5)^7 = 8 \times 0.5 \times \frac{1}{128} = 8 \times \frac{1}{256} = \frac{8}{256} \]
+
+then, for \( k = 2 \):
+
+\[ p(2) = c(8, 2) \times (0.5)^2 \times (0.5)^6 = 28 \times 0.25 \times \frac{1}{64} = 28 \times \frac{1}{256} = \frac{28}{256} \]
+
+adding these probabilities together:
+
+\[ p(0) + p(1) + p(2) = \frac{1}{256} + \frac{8}{256} + \frac{28}{256} = \frac{37}{256} \]
+
+therefore, the probability that at most 2 of the 8 coins show heads is:
+
+\boxed{\dfrac{37}{256}}

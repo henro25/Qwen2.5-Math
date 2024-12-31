@@ -1,1 +1,23 @@
-Answer: 
+Answer: To compute \(54 \times 46\) in your head, you can use the distributive property.
+
+1. Break down 46 into 40 and 6:
+   \[
+   54 \times 46 = 54 \times (40 + 6)
+   \]
+
+2. Calculate \(54 \times 40\):
+   \[
+   54 \times 40 = 54 \times 4 \times 10 = 216 \times 10 = 2160
+   \]
+
+3. Calculate \(54 \times 6\):
+   \[
+   54 \times 6 = (50 \times 6) + (4 \times 6) = 300 + 24 = 324
+   \]
+
+4. Add the two results together:
+   \[
+   2160 + 324 = 2484
+   \]
+
+Therefore, \(54 \times 46 = 2484\).

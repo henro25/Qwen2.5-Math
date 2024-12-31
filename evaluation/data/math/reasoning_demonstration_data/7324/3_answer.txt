@@ -1,1 +1,49 @@
-Answer: 
+Answer: To solve the equation \(\frac{x^2 + 2x + 3}{x + 4} = x + 5\) for \(x\), we start by eliminating the denominator by multiplying both sides by \(x + 4\), assuming \(x \neq -4\):
+
+\[
+x^2 + 2x + 3 = (x + 5)(x + 4)
+\]
+
+expanding the right side:
+
+\[
+(x + 5)(x + 4) = x^2 + 9x + 20
+\]
+
+this simplifies to:
+
+\[
+x^2 + 2x + 3 = x^2 + 9x + 20
+\]
+
+subtracting \(x^2\) from both sides:
+
+\[
+2x + 3 = 9x + 20
+\]
+
+subtracting \(2x\) from both sides:
+
+\[
+3 = 7x + 20
+\]
+
+subtracting 20 from both sides:
+
+\[
+-17 = 7x
+\]
+
+dividing both sides by 7:
+
+\[
+x = -\frac{17}{7}
+\]
+
+we verify that \(x = -\frac{17}{7}\) is not equal to \(-4\) and check the solution by substituting back into the original equation. both sides equal \(\frac{18}{7}\), confirming the solution is correct.
+
+thus, the final answer is:
+
+\[
+\boxed{-\frac{17}{7}}
+\]

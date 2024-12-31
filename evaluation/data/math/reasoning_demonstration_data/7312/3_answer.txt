@@ -1,1 +1,49 @@
-Answer: 
+Answer: Given the ratio of the areas of two squares is \(\frac{32}{63}\), we need to find the ratio of their side lengths, rationalize the denominator, and express it in the form \(\frac{a\sqrt{b}}{c}\) where \(a\), \(b\), and \(c\) are integers, and then find the sum \(a + b + c\).
+
+first, we start with the ratio of the areas:
+
+\[
+\frac{s^2}{t^2} = \frac{32}{63}
+\]
+
+taking the square root of both sides to find the ratio of the side lengths:
+
+\[
+\frac{s}{t} = \sqrt{\frac{32}{63}}
+\]
+
+separating the square roots of the numerator and the denominator:
+
+\[
+\sqrt{\frac{32}{63}} = \frac{\sqrt{32}}{\sqrt{63}}
+\]
+
+simplifying the square roots:
+
+\[
+\sqrt{32} = 4\sqrt{2} \quad \text{and} \quad \sqrt{63} = 3\sqrt{7}
+\]
+
+thus, the ratio becomes:
+
+\[
+\frac{s}{t} = \frac{4\sqrt{2}}{3\sqrt{7}}
+\]
+
+rationalizing the denominator by multiplying the numerator and the denominator by \(\sqrt{7}\):
+
+\[
+\frac{4\sqrt{2}}{3\sqrt{7}} \times \frac{\sqrt{7}}{\sqrt{7}} = \frac{4\sqrt{14}}{21}
+\]
+
+the ratio of the side lengths is now in the form \(\frac{a\sqrt{b}}{c}\) where \(a = 4\), \(b = 14\), and \(c = 21\).
+
+finally, the sum \(a + b + c\) is:
+
+\[
+4 + 14 + 21 = 39
+\]
+
+\[
+\boxed{39}
+\]

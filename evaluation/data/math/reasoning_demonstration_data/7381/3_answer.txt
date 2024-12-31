@@ -1,1 +1,21 @@
-Answer: 
+Answer: To determine the total distance brenda travels from $(-4, 5)$ to $(5, -4)$ with a stop at the origin $(0,0)$, we use the distance formula for each segment of her journey.
+
+first, we calculate the distance from $a(-4, 5)$ to $o(0, 0)$:
+\[
+\text{distance from } a \text{ to } o = \sqrt{(0 - (-4))^2 + (0 - 5)^2} = \sqrt{4^2 + (-5)^2} = \sqrt{16 + 25} = \sqrt{41}
+\]
+
+next, we calculate the distance from $o(0, 0)$ to $b(5, -4)$:
+\[
+\text{distance from } o \text{ to } b = \sqrt{(5 - 0)^2 + (-4 - 0)^2} = \sqrt{5^2 + (-4)^2} = \sqrt{25 + 16} = \sqrt{41}
+\]
+
+the total distance brenda travels is the sum of these two distances:
+\[
+\text{total distance} = \sqrt{41} + \sqrt{41} = 2\sqrt{41}
+\]
+
+thus, the total distance brenda has to travel is:
+\[
+\boxed{2\sqrt{41}}
+\]

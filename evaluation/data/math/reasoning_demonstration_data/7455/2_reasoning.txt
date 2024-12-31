@@ -1,1 +1,148 @@
-Reasoning: 
+Reasoning: So i have this problem here: "the product of two consecutive page numbers is 18,360. what is the sum of the two page numbers?" okay, let's see how to approach this.
+
+first, i need to understand what "two consecutive page numbers" means. if i think about a book, the pages are numbered sequentially, like 100 and 101, or 150 and 151. so, if i call the first page number "n," then the next one would be "n + 1." got it.
+
+so, the product of these two pages is n times (n + 1), and that's equal to 18,360. so, i can write that as:
+
+n(n + 1) = 18,360
+
+my goal is to find the sum of these two page numbers, which would be n + (n + 1) = 2n + 1.
+
+but before i can find the sum, i need to find the value of n first. so, let's work on solving for n.
+
+starting with the equation:
+
+n(n + 1) = 18,360
+
+if i expand the left side, it becomes:
+
+n² + n = 18,360
+
+now, this looks like a quadratic equation. to solve for n, i can set it to zero:
+
+n² + n - 18,360 = 0
+
+alright, now i have a quadratic equation in the form of an² + bn + c = 0, where a = 1, b = 1, and c = -18,360.
+
+i can solve this quadratic equation using the quadratic formula:
+
+n = [-b ± √(b² - 4ac)] / (2a)
+
+plugging in the values:
+
+n = [-1 ± √(1² - 4*1*(-18,360))] / (2*1)
+
+simplify inside the square root:
+
+n = [-1 ± √(1 + 73,440)] / 2
+
+n = [-1 ± √73,441] / 2
+
+now, i need to find the square root of 73,441. hmm, i don't know that off the top of my head, but maybe i can estimate it.
+
+i know that 270 squared is 72,900 because 270*270 = 72,900.
+
+and 271 squared is 271*271. let's calculate that:
+
+271*271:
+
+270*270 = 72,900
+
+270*1 = 270
+
+1*270 = 270
+
+1*1 = 1
+
+so, 72,900 + 270 + 270 + 1 = 73,441
+
+oh, that's perfect! so, √73,441 = 271
+
+therefore, n = [-1 ± 271] / 2
+
+now, i have two possible solutions:
+
+n = (-1 + 271) / 2 = 270 / 2 = 135
+
+or
+
+n = (-1 - 271) / 2 = -272 / 2 = -136
+
+but page numbers can't be negative, so n = 135.
+
+therefore, the two consecutive page numbers are 135 and 136.
+
+now, the sum of these two numbers is 135 + 136 = 271.
+
+wait a minute, that seems straightforward, but let me double-check my work to make sure i didn't make any mistakes.
+
+first, i set up the equation correctly: n(n + 1) = 18,360.
+
+expanding gives n² + n - 18,360 = 0.
+
+using the quadratic formula, n = [-1 ± √(1 + 4*18,360)] / 2
+
+wait, in the quadratic formula, it should be b² - 4ac, which in this case is 1² - 4*1*(-18,360) = 1 + 73,440 = 73,441.
+
+and the square root of 73,441 is indeed 271, as i calculated earlier.
+
+so, n = (-1 ± 271)/2.
+
+discarding the negative solution, n = 135.
+
+therefore, the two consecutive page numbers are 135 and 136, and their sum is 271.
+
+just to be extra sure, let me check the product:
+
+135 * 136 = ?
+
+135 * 100 = 13,500
+
+135 * 30 = 4,050
+
+135 * 6 = 810
+
+adding them up: 13,500 + 4,050 = 17,550 + 810 = 18,360
+
+yes, that matches the given product.
+
+so, the sum of the two page numbers is indeed 271.
+
+alternatively, i could have approached this problem by estimating the square root of 18,360, since n(n + 1) is approximately n² when n is large.
+
+so, n² is approximately 18,360.
+
+then, n is approximately √18,360.
+
+let's calculate that.
+
+√16,000 = 126.491, but wait, actually, √16,000 is 126.491? wait, no, that's not right.
+
+wait, √16,000 = √(16 * 1,000) = 4 * √1,000 ≈ 4 * 31.622 ≈ 126.488.
+
+but that seems low compared to earlier calculations.
+
+wait, but in my earlier calculation, n was 135, which squared is 18,225, and 135*136=18,360.
+
+so, maybe estimating √18,360.
+
+wait, 135 squared is 18,225.
+
+136 squared is 18,496.
+
+so, √18,360 is between 135 and 136, which makes sense.
+
+but since n(n + 1) is 18,360, and n is 135, that checks out.
+
+alternatively, if i consider that the sum of two consecutive numbers is always odd because one is even and one is odd, and their sum is 2n + 1.
+
+in this case, 2n + 1 = 271, which is indeed odd.
+
+so, that also makes sense.
+
+i think i've covered all the bases here, and my answer seems correct.
+
+**final answer**
+
+271
+ 

@@ -1,1 +1,28 @@
-Answer: 
+Answer: To find the largest integer \( n \) for which \( 12^n \) evenly divides \( 20! \), we start by expressing \( 12 \) in its prime factorization: \( 12 = 2^2 \times 3 \). thus, \( 12^n = 2^{2n} \times 3^n \).
+
+we need to determine the highest powers of 2 and 3 in \( 20! \) using legendre's formula.
+
+for the exponent of 2 in \( 20! \):
+\[
+\left\lfloor \frac{20}{2} \right\rfloor + \left\lfloor \frac{20}{4} \right\rfloor + \left\lfloor \frac{20}{8} \right\rfloor + \left\lfloor \frac{20}{16} \right\rfloor = 10 + 5 + 2 + 1 = 18
+\]
+
+for the exponent of 3 in \( 20! \):
+\[
+\left\lfloor \frac{20}{3} \right\rfloor + \left\lfloor \frac{20}{9} \right\rfloor = 6 + 2 = 8
+\]
+
+we need \( 2^{2n} \) and \( 3^n \) to be factors of \( 20! \). therefore, we have:
+\[
+2n \leq 18 \quad \text{and} \quad n \leq 8
+\]
+
+solving these inequalities:
+\[
+n \leq 9 \quad \text{and} \quad n \leq 8
+\]
+
+thus, the largest integer \( n \) is:
+\[
+\boxed{8}
+\]

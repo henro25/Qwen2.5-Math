@@ -1,1 +1,21 @@
-Answer: 
+Answer: Given the equation \(2^8 = 16^x\), we need to find the value of \(x\).
+
+first, we express 16 as a power of 2:
+\[ 16 = 2^4 \]
+
+substituting this into the equation, we get:
+\[ 2^8 = (2^4)^x \]
+
+using the property of exponents \((a^m)^n = a^{mn}\), we can rewrite the right-hand side:
+\[ 2^8 = 2^{4x} \]
+
+since the bases are the same, we can set the exponents equal to each other:
+\[ 8 = 4x \]
+
+solving for \(x\), we divide both sides by 4:
+\[ x = \frac{8}{4} = 2 \]
+
+thus, the value of \(x\) is:
+\[
+\boxed{2}
+\]

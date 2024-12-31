@@ -1,1 +1,9 @@
-Reasoning: 
+Reasoning: Alright, so I've got this equation to solve: 3y + 7y = 282 - 8(y - 3). Let's see how to tackle this. First off, I need to simplify both sides of the equation as much as possible. On the left side, I have 3y plus 7y, which should be straightforward to combine. So, 3y plus 7y equals 10y. That simplifies the left side nicely.
+
+Now, looking at the right side: 282 minus 8 times (y minus 3). I need to handle the parentheses first because of the distributive property. So, 8 times (y minus 3) is 8y minus 24. Therefore, 282 minus (8y minus 24) would be 282 minus 8y plus 24, since subtracting a negative is like adding. Adding 282 and 24 gives me 306, so the right side simplifies to 306 minus 8y.
+
+So now, my equation looks like this: 10y = 306 - 8y. I need to solve for y. To do that, I should get all the y terms on one side and the constants on the other side. Let's add 8y to both sides to get rid of the -8y on the right. That gives me 10y + 8y = 306, which simplifies to 18y = 306.
+
+Now, to isolate y, I need to divide both sides of the equation by 18. So, y equals 306 divided by 18. Let me calculate that. 18 times 17 is 306, so y equals 17.
+
+Wait a minute, did I do that right? Let me double-check. If y is 17, plugging it back into the original equation: 3 times 17 is 51, plus 7 times 17 is 119. So, 51 plus 119 is 170. On the right side, 282 minus 8 times (17 minus 3) is 282 minus 8 times 14, which is 282 minus 112, equaling 170. Both sides are equal, so y = 17 is correct.

@@ -1,1 +1,272 @@
-Reasoning: 
+Reasoning: So i need to figure out how many integer values of 
+n
+n satisfy the inequality 
+−
+50
+<
+n
+3
+<
+50
+−50<n 
+3
+ <50. hmm, let's see.
+
+first, i know that 
+n
+n is an integer, and 
+n
+3
+n 
+3
+  means 
+n
+n multiplied by itself three times. so, i need to find all integers 
+n
+n where the cube of 
+n
+n is greater than -50 and less than 50.
+
+maybe i should start by finding the cube roots of -50 and 50 to get an idea of the range for 
+n
+n.
+
+the cube root of -50 is approximately -3.684, and the cube root of 50 is approximately 3.684. so, 
+n
+3
+n 
+3
+  is between -50 and 50 when 
+n
+n is between -3.684 and 3.684.
+
+but since 
+n
+n has to be an integer, i should look for integer values of 
+n
+n that fall within this range. so, what integers are between -3.684 and 3.684?
+
+well, integers are whole numbers, so starting from the smallest integer greater than -3.684, which is -3, up to the largest integer less than 3.684, which is 3. so, possible integer values for 
+n
+n are -3, -2, -1, 0, 1, 2, and 3.
+
+let me check each of these to make sure they satisfy the original inequality.
+
+first, 
+n
+=
+−
+3
+n=−3: 
+(
+−
+3
+)
+3
+=
+−
+27
+(−3) 
+3
+ =−27. is -27 greater than -50? yes. is -27 less than 50? yes. so, -3 works.
+
+next, 
+n
+=
+−
+2
+n=−2: 
+(
+−
+2
+)
+3
+=
+−
+8
+(−2) 
+3
+ =−8. -8 is greater than -50 and less than 50. so, -2 works.
+
+then, 
+n
+=
+−
+1
+n=−1: 
+(
+−
+1
+)
+3
+=
+−
+1
+(−1) 
+3
+ =−1. -1 is greater than -50 and less than 50. so, -1 works.
+
+now, 
+n
+=
+0
+n=0: 
+0
+3
+=
+0
+0 
+3
+ =0. 0 is greater than -50 and less than 50. so, 0 works.
+
+next, 
+n
+=
+1
+n=1: 
+1
+3
+=
+1
+1 
+3
+ =1. 1 is greater than -50 and less than 50. so, 1 works.
+
+then, 
+n
+=
+2
+n=2: 
+2
+3
+=
+8
+2 
+3
+ =8. 8 is greater than -50 and less than 50. so, 2 works.
+
+finally, 
+n
+=
+3
+n=3: 
+3
+3
+=
+27
+3 
+3
+ =27. 27 is greater than -50 and less than 50. so, 3 works.
+
+wait a minute, but earlier i thought about the cube roots being approximately -3.684 and 3.684. but, what if there are integers outside this range that still satisfy the inequality?
+
+let me check 
+n
+=
+−
+4
+n=−4: 
+(
+−
+4
+)
+3
+=
+−
+64
+(−4) 
+3
+ =−64. is -64 greater than -50? no, it's -64 < -50, so it doesn't satisfy the inequality.
+
+similarly, 
+n
+=
+4
+n=4: 
+4
+3
+=
+64
+4 
+3
+ =64. 64 is greater than 50, so it doesn't satisfy the inequality.
+
+okay, so -4 and 4 are out of the range. what about 
+n
+=
+−
+5
+n=−5: 
+(
+−
+5
+)
+3
+=
+−
+125
+(−5) 
+3
+ =−125. that's even smaller, so definitely less than -50.
+
+and 
+n
+=
+5
+n=5: 
+5
+3
+=
+125
+5 
+3
+ =125. that's greater than 50.
+
+so, indeed, only 
+n
+=
+−
+3
+,
+−
+2
+,
+−
+1
+,
+0
+,
+1
+,
+2
+,
+3
+n=−3,−2,−1,0,1,2,3 satisfy the inequality.
+
+let me count them: that's 7 integer values.
+
+wait, but i should make sure there are no other integers i'm missing. are there any other integers between -3.684 and 3.684 besides -3, -2, -1, 0, 1, 2, and 3?
+
+no, because between -3 and -4, the only integer is -3, and between 3 and 4, it's 3. so, i think i've covered all possible integer values of 
+n
+n that satisfy 
+−
+50
+<
+n
+3
+<
+50
+−50<n 
+3
+ <50.
+
+therefore, the number of integer values of 
+n
+n that satisfy the inequality is 7.
+
+**final answer**
+
+7
+​	
+ 

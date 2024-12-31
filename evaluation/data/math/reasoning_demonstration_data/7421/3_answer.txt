@@ -1,1 +1,38 @@
-Answer: 
+Answer: To find the greatest common divisor (gcd) of \( f(100) \) and \( f(101) \) for the function \( f(x) = x^2 - x + 2010 \), we first compute \( f(100) \) and \( f(101) \):
+
+\[
+f(100) = 100^2 - 100 + 2010 = 10000 - 100 + 2010 = 11910
+\]
+
+\[
+f(101) = 101^2 - 101 + 2010 = 10201 - 101 + 2010 = 12110
+\]
+
+next, we use the euclidean algorithm to find the gcd of 11910 and 12110:
+
+1. \( 12110 \div 11910 = 1 \) with remainder \( 200 \)
+2. \( 11910 \div 200 = 59 \) with remainder \( 110 \)
+3. \( 200 \div 110 = 1 \) with remainder \( 90 \)
+4. \( 110 \div 90 = 1 \) with remainder \( 20 \)
+5. \( 90 \div 20 = 4 \) with remainder \( 10 \)
+6. \( 20 \div 10 = 2 \) with remainder \( 0 \)
+
+the last non-zero remainder is 10, so the gcd is 10.
+
+to confirm, we factorize 11910 and 12110:
+
+\[
+11910 = 2 \times 5 \times 3 \times 397
+\]
+
+\[
+12110 = 2 \times 5 \times 7 \times 173
+\]
+
+the common prime factors are 2 and 5, thus:
+
+\[
+\text{gcd} = 2 \times 5 = 10
+\]
+
+therefore, the greatest common divisor of \( f(100) \) and \( f(101) \) is \(\boxed{10}\).

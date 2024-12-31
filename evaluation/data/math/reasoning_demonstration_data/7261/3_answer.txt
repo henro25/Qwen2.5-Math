@@ -1,1 +1,20 @@
-Answer: 
+Answer: To calculate $(243)^{\frac{3}{5}}$, follow these steps:
+
+1. **Understand the expression**: The expression $(243)^{\frac{3}{5}}$ means taking the fifth root of 243 and then raising the result to the third power.
+
+2. **Simplify the base**: Recognize that 243 is a power of 3:
+   \[
+   243 = 3^5
+   \]
+
+3. **Apply exponent rules**: Use the rule $(a^m)^n = a^{m \cdot n}$:
+   \[
+   (3^5)^{\frac{3}{5}} = 3^{5 \cdot \frac{3}{5}} = 3^3
+   \]
+
+4. **Calculate the final exponentiation**:
+   \[
+   3^3 = 3 \times 3 \times 3 = 27
+   \]
+
+**Answer**: $(243)^{\frac{3}{5}} = 27$

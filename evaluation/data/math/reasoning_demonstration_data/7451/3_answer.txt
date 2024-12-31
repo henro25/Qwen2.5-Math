@@ -1,1 +1,32 @@
-Answer: 
+Answer: Given the conditions \( |z| = |w| = 1 \) and \( z \overline{w} + \overline{z} w = 1 \), we aim to find the largest possible value of the real part of \( z + w \).
+
+first, we express \( z \) and \( w \) in their exponential forms:
+\[ z = e^{i\theta}, \quad w = e^{i\phi} \]
+
+given \( z \overline{w} + \overline{z} w = 1 \), we have:
+\[ e^{i(\theta - \phi)} + e^{-i(\theta - \phi)} = 1 \]
+\[ 2 \cos(\theta - \phi) = 1 \]
+\[ \cos(\theta - \phi) = \frac{1}{2} \]
+thus, \( \theta - \phi = \pm \frac{\pi}{3} + 2k\pi \) for some integer \( k \).
+
+we need to maximize:
+\[ \text{re}(z + w) = \cos\theta + \cos\phi \]
+
+using the identity for the sum of cosines:
+\[ \cos\theta + \cos\phi = 2 \cos\left(\frac{\theta + \phi}{2}\right) \cos\left(\frac{\theta - \phi}{2}\right) \]
+
+given \( \cos(\theta - \phi) = \frac{1}{2} \), we have:
+\[ \cos\left(\frac{\theta - \phi}{2}\right) = \cos\left(\pm \frac{\pi}{6}\right) = \frac{\sqrt{3}}{2} \]
+
+thus:
+\[ \cos\theta + \cos\phi = 2 \cos\left(\frac{\theta + \phi}{2}\right) \cdot \frac{\sqrt{3}}{2} = \sqrt{3} \cos\left(\frac{\theta + \phi}{2}\right) \]
+
+to maximize this, we set:
+\[ \cos\left(\frac{\theta + \phi}{2}\right) = 1 \]
+which is achievable when \( \frac{\theta + \phi}{2} = 0 \), i.e., \( \theta + \phi = 0 \).
+
+therefore, the maximum value of \( \text{re}(z + w) \) is:
+\[ \sqrt{3} \]
+
+thus, the largest possible value of the real part of \( z + w \) is:
+\[ \boxed{\sqrt{3}} \]

@@ -1,1 +1,55 @@
-Answer: 
+Answer: Given the equation \(\arccos 2x - \arccos x = \frac{\pi}{3}\), we start by letting \(\alpha = \arccos x\) and \(\beta = \arccos 2x\). this gives us \(\beta - \alpha = \frac{\pi}{3}\).
+
+since \(\beta = \alpha + \frac{\pi}{3}\), we can use the cosine addition formula:
+
+\[
+\cos \left( \alpha + \frac{\pi}{3} \right) = \cos \alpha \cos \frac{\pi}{3} - \sin \alpha \sin \frac{\pi}{3}
+\]
+
+given \(\cos \frac{\pi}{3} = \frac{1}{2}\) and \(\sin \frac{\pi}{3} = \frac{\sqrt{3}}{2}\), we have:
+
+\[
+\cos \left( \alpha + \frac{\pi}{3} \right) = \frac{1}{2} \cos \alpha - \frac{\sqrt{3}}{2} \sin \alpha
+\]
+
+since \(\cos \beta = 2x\) and \(\cos \alpha = x\), we substitute:
+
+\[
+2x = \frac{1}{2} x - \frac{\sqrt{3}}{2} \sin \alpha
+\]
+
+rearranging and solving for \(\sin \alpha\):
+
+\[
+\frac{3}{2} x = - \frac{\sqrt{3}}{2} \sin \alpha \implies 3x = -\sqrt{3} \sin \alpha \implies \sin \alpha = -\sqrt{3} x
+\]
+
+using \(\sin (\arccos x) = \sqrt{1 - x^2}\):
+
+\[
+\sqrt{1 - x^2} = -\sqrt{3} x
+\]
+
+squaring both sides:
+
+\[
+1 - x^2 = 3x^2 \implies 1 = 4x^2 \implies x^2 = \frac{1}{4} \implies x = \pm \frac{1}{2}
+\]
+
+checking \(x = \frac{1}{2}\):
+
+\[
+\arccos (2 \cdot \frac{1}{2}) - \arccos \left( \frac{1}{2} \right) = \arccos (1) - \arccos \left( \frac{1}{2} \right) = 0 - \frac{\pi}{3} = -\frac{\pi}{3} \neq \frac{\pi}{3}
+\]
+
+checking \(x = -\frac{1}{2}\):
+
+\[
+\arccos (2 \cdot -\frac{1}{2}) - \arccos \left( -\frac{1}{2} \right) = \arccos (-1) - \arccos \left( -\frac{1}{2} \right) = \pi - \frac{2\pi}{3} = \frac{\pi}{3}
+\]
+
+thus, the only solution is:
+
+\[
+\boxed{-\frac{1}{2}}
+\]

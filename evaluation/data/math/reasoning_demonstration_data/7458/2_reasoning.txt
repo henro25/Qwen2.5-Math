@@ -1,1 +1,618 @@
-Reasoning: 
+Reasoning: So i need to find the largest value of 
+c
+c such that 
+1
+1 is in the range of the function 
+f
+(
+x
+)
+=
+x
+2
+−
+5
+x
++
+c
+f(x)=x 
+2
+ −5x+c. hmm, okay, let's start by understanding what it means for 
+1
+1 to be in the range of this function.
+
+the range of a function is all the possible output values (y-values) that the function can produce. so, if 
+1
+1 is in the range of 
+f
+(
+x
+)
+f(x), that means there exists some 
+x
+x such that 
+f
+(
+x
+)
+=
+1
+f(x)=1. in other words, the equation 
+x
+2
+−
+5
+x
++
+c
+=
+1
+x 
+2
+ −5x+c=1 has at least one real solution for 
+x
+x.
+
+alright, so i need to solve the equation 
+x
+2
+−
+5
+x
++
+c
+=
+1
+x 
+2
+ −5x+c=1 for 
+x
+x, and i want this equation to have real solutions. i know that for a quadratic equation 
+a
+x
+2
++
+b
+x
++
+c
+=
+0
+ax 
+2
+ +bx+c=0, the discriminant 
+d
+=
+b
+2
+−
+4
+a
+c
+d=b 
+2
+ −4ac determines the nature of the roots. if 
+d
+≥
+0
+d≥0, then the equation has real solutions.
+
+so, let's rewrite the equation 
+x
+2
+−
+5
+x
++
+c
+=
+1
+x 
+2
+ −5x+c=1 in the standard quadratic form:
+
+x
+2
+−
+5
+x
++
+(
+c
+−
+1
+)
+=
+0
+x 
+2
+ −5x+(c−1)=0
+
+here, 
+a
+=
+1
+a=1, 
+b
+=
+−
+5
+b=−5, and 
+c
+=
+c
+−
+1
+c=c−1. the discriminant is:
+
+d
+=
+(
+−
+5
+)
+2
+−
+4
+(
+1
+)
+(
+c
+−
+1
+)
+=
+25
+−
+4
+(
+c
+−
+1
+)
+=
+25
+−
+4
+c
++
+4
+=
+29
+−
+4
+c
+d=(−5) 
+2
+ −4(1)(c−1)=25−4(c−1)=25−4c+4=29−4c
+
+for the equation to have real solutions, we need 
+d
+≥
+0
+d≥0:
+
+29
+−
+4
+c
+≥
+0
+29−4c≥0
+
+now, let's solve for 
+c
+c:
+
+29
+−
+4
+c
+≥
+0
+29−4c≥0
+
+−
+4
+c
+≥
+−
+29
+−4c≥−29
+
+c
+≤
+29
+4
+c≤ 
+4
+29
+​	
+   (remember, when we divide by a negative number, the inequality sign flips)
+
+so, the largest possible value of 
+c
+c is 
+29
+4
+4
+29
+​	
+ , because if 
+c
+c is larger than that, the discriminant becomes negative, and there are no real solutions, meaning 
+1
+1 is not in the range of 
+f
+(
+x
+)
+f(x).
+
+let me double-check this reasoning. if 
+c
+=
+29
+4
+c= 
+4
+29
+​	
+ , then the discriminant is:
+
+d
+=
+29
+−
+4
+(
+29
+4
+)
+=
+29
+−
+29
+=
+0
+d=29−4( 
+4
+29
+​	
+ )=29−29=0
+
+a discriminant of zero means there's exactly one real solution, which still satisfies the condition that 
+1
+1 is in the range.
+
+if 
+c
+c is less than 
+29
+4
+4
+29
+​	
+ , the discriminant is positive, meaning there are two distinct real solutions, which also means 
+1
+1 is in the range.
+
+if 
+c
+c is greater than 
+29
+4
+4
+29
+​	
+ , the discriminant is negative, and there are no real solutions, so 
+1
+1 is not in the range.
+
+therefore, the largest value of 
+c
+c for which 
+1
+1 is in the range of 
+f
+(
+x
+)
+=
+x
+2
+−
+5
+x
++
+c
+f(x)=x 
+2
+ −5x+c is indeed 
+29
+4
+4
+29
+​	
+ .
+
+wait a minute, just to be thorough, let's plug 
+c
+=
+29
+4
+c= 
+4
+29
+​	
+  back into the original function and see if 
+f
+(
+x
+)
+=
+1
+f(x)=1 has a solution.
+
+so, 
+f
+(
+x
+)
+=
+x
+2
+−
+5
+x
++
+29
+4
+f(x)=x 
+2
+ −5x+ 
+4
+29
+​	
+ , and we set this equal to 1:
+
+x
+2
+−
+5
+x
++
+29
+4
+=
+1
+x 
+2
+ −5x+ 
+4
+29
+​	
+ =1
+
+subtract 1 from both sides:
+
+x
+2
+−
+5
+x
++
+29
+4
+−
+1
+=
+0
+x 
+2
+ −5x+ 
+4
+29
+​	
+ −1=0
+
+x
+2
+−
+5
+x
++
+25
+4
+=
+0
+x 
+2
+ −5x+ 
+4
+25
+​	
+ =0
+
+this can be rewritten as:
+
+(
+x
+−
+5
+2
+)
+2
+=
+0
+(x− 
+2
+5
+​	
+ ) 
+2
+ =0
+
+so, 
+x
+=
+5
+2
+x= 
+2
+5
+​	
+  is the only solution, which confirms that when 
+c
+=
+29
+4
+c= 
+4
+29
+​	
+ , 
+f
+(
+x
+)
+=
+1
+f(x)=1 has exactly one real solution.
+
+if i choose a value of 
+c
+c larger than 
+29
+4
+4
+29
+​	
+ , say 
+c
+=
+8
+c=8, then:
+
+f
+(
+x
+)
+=
+x
+2
+−
+5
+x
++
+8
+f(x)=x 
+2
+ −5x+8
+
+set this equal to 1:
+
+x
+2
+−
+5
+x
++
+8
+=
+1
+x 
+2
+ −5x+8=1
+
+x
+2
+−
+5
+x
++
+7
+=
+0
+x 
+2
+ −5x+7=0
+
+the discriminant here is:
+
+d
+=
+(
+−
+5
+)
+2
+−
+4
+(
+1
+)
+(
+7
+)
+=
+25
+−
+28
+=
+−
+3
+d=(−5) 
+2
+ −4(1)(7)=25−28=−3
+
+since 
+d
+<
+0
+d<0, there are no real solutions, meaning 
+1
+1 is not in the range of 
+f
+(
+x
+)
+f(x) when 
+c
+=
+8
+c=8, which aligns with our earlier conclusion.
+
+therefore, the largest value of 
+c
+c such that 
+1
+1 is in the range of 
+f
+(
+x
+)
+=
+x
+2
+−
+5
+x
++
+c
+f(x)=x 
+2
+ −5x+c is 
+29
+4
+4
+29
+​	
+ .
+
+**final answer**
+
+29
+4	
+ 

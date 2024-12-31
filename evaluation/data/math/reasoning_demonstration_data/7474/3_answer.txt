@@ -1,1 +1,40 @@
-Answer: 
+Answer: To find the volume of pyramid \( pabed \) with a rectangular base \( abcd \), we start by determining the area of the base and the height of the pyramid.
+
+given:
+- \( ab = 8 \)
+- \( bc = 4 \)
+- \( \overline{pa} \perp \overline{ad} \)
+- \( \overline{pa} \perp \overline{ab} \)
+- \( pb = 17 \)
+
+the base area of the rectangle \( abcd \) is:
+\[
+\text{base area} = ab \times bc = 8 \times 4 = 32
+\]
+
+since \( \overline{pa} \) is perpendicular to both \( \overline{ab} \) and \( \overline{ad} \), \( pa \) is perpendicular to the plane of the base \( abcd \), making \( pa \) the height of the pyramid.
+
+to find the height \( h \), we use the coordinates:
+- \( a = (0, 0, 0) \)
+- \( b = (8, 0, 0) \)
+- \( p = (0, 0, h) \)
+
+using the distance formula for \( pb \):
+\[
+pb = \sqrt{(8-0)^2 + (0-0)^2 + (0-h)^2} = \sqrt{64 + h^2} = 17
+\]
+
+solving for \( h \):
+\[
+\sqrt{64 + h^2} = 17 \implies 64 + h^2 = 289 \implies h^2 = 225 \implies h = 15
+\]
+
+the volume \( v \) of the pyramid is:
+\[
+v = \frac{1}{3} \times \text{base area} \times \text{height} = \frac{1}{3} \times 32 \times 15 = \frac{1}{3} \times 480 = 160
+\]
+
+thus, the volume of pyramid \( pabcd \) is:
+\[
+\boxed{160}
+\]

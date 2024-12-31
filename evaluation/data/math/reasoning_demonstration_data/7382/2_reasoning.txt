@@ -1,1 +1,92 @@
-Reasoning: 
+Reasoning: Let's see. i've got this problem here. it says that a is congruent to 18 mod 42, and b is congruent to 73 mod 42. i need to find an integer n between 100 and 141 inclusive such that a minus b is congruent to n mod 42. okay, so first things first, i need to understand what a - b being congruent to n mod 42 means.
+
+so, a ≡ 18 mod 42 means that when you divide a by 42, the remainder is 18. similarly, b ≡ 73 mod 42 means that when you divide b by 42, the remainder is 73. but wait, 73 is larger than 42, so i think i should reduce that modulo 42 to make it simpler. let's do that.
+
+73 divided by 42 is 1 with a remainder of 31, because 42*1 = 42, and 73 - 42 = 31. so, b ≡ 31 mod 42. that makes it easier to work with.
+
+now, a - b ≡ 18 - 31 mod 42. let's calculate 18 - 31. that's -13. so, a - b ≡ -13 mod 42.
+
+but negative numbers can be a bit confusing in modular arithmetic. i know that -13 mod 42 is the same as 42 - 13, which is 29. so, a - b ≡ 29 mod 42.
+
+alright, so a - b is congruent to 29 mod 42. now, i need to find an integer n in the set from 100 to 141 inclusive such that n is congruent to 29 mod 42.
+
+this means that n ≡ 29 mod 42, which can be written as n = 42k + 29 for some integer k.
+
+my task is to find k such that n is between 100 and 141 inclusive.
+
+so, i need to solve for k in the inequality 100 ≤ 42k + 29 ≤ 141.
+
+let's solve the lower bound first: 42k + 29 ≥ 100.
+
+subtract 29 from both sides: 42k ≥ 71.
+
+now, divide both sides by 42: k ≥ 71 / 42. let's calculate that. 71 divided by 42 is approximately 1.690.
+
+since k has to be an integer, k must be at least 2.
+
+now, the upper bound: 42k + 29 ≤ 141.
+
+subtract 29 from both sides: 42k ≤ 112.
+
+divide both sides by 42: k ≤ 112 / 42, which is approximately 2.666.
+
+again, since k is an integer, k can be at most 2.
+
+so, k must be exactly 2.
+
+now, plug k = 2 back into n = 42k + 29.
+
+n = 42*2 + 29 = 84 + 29 = 113.
+
+so, n = 113 is the integer in the set from 100 to 141 that satisfies a - b ≡ n mod 42.
+
+let me double-check that.
+
+first, confirm that a ≡ 18 mod 42 and b ≡ 73 mod 42.
+
+then, a - b ≡ 18 - 73 mod 42.
+
+18 - 73 = -55.
+
+-55 mod 42 is the same as 42 - (55 % 42). 55 divided by 42 is 1 with a remainder of 13, so 42 - 13 = 29.
+
+so, a - b ≡ 29 mod 42.
+
+now, n ≡ 29 mod 42, and n is between 100 and 141.
+
+we found n = 113.
+
+let's check if 113 is indeed ≡ 29 mod 42.
+
+113 - 29 = 84, which is divisible by 42 (84 / 42 = 2), so yes, 113 ≡ 29 mod 42.
+
+also, 113 is within the range 100 to 141.
+
+so, n = 113 is the correct answer.
+
+wait a minute, maybe there are other values of n in that range that also satisfy n ≡ 29 mod 42.
+
+let's see, the general solution is n = 29 + 42m, where m is an integer.
+
+we need to find all m such that n is between 100 and 141.
+
+so, 100 ≤ 29 + 42m ≤ 141.
+
+subtract 29: 71 ≤ 42m ≤ 112.
+
+divide by 42: 71/42 ≤ m ≤ 112/42.
+
+71/42 is approximately 1.69, and 112/42 is approximately 2.666.
+
+since m has to be an integer, m can be 2.
+
+therefore, m=2, giving n=29+42*2=29+84=113.
+
+so, only one value in that range, which is 113.
+
+therefore, n=113 is the only integer in the set from 100 to 141 that satisfies a - b ≡ n mod 42.
+
+**final answer**
+
+113
+ 

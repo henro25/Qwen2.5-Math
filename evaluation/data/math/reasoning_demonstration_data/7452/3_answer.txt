@@ -1,1 +1,24 @@
-Answer: 
+Answer: To solve the problem, we need to find a two-digit positive integer \( N \) that is one more than a multiple of 2, 3, 4, 5, and 6. This means \( N - 1 \) must be divisible by these numbers, i.e., \( N - 1 \) is a common multiple of 2, 3, 4, 5, and 6.
+
+1. **Find the LCM of 2, 3, 4, 5, and 6:**
+   - Prime factorization:
+     - 2 is prime.
+     - 3 is prime.
+     - 4 = \( 2^2 \).
+     - 5 is prime.
+     - 6 = \( 2 \times 3 \).
+   - The LCM is the product of the highest powers of all primes: \( 2^2 \times 3 \times 5 = 60 \).
+
+2. **Determine \( N \):**
+   - \( N - 1 = 60 \), so \( N = 61 \).
+
+3. **Verify \( N = 61 \) satisfies all conditions:**
+   - \( 61 \div 2 = 30 \) remainder 1.
+   - \( 61 \div 3 = 20 \) remainder 1.
+   - \( 61 \div 4 = 15 \) remainder 1.
+   - \( 61 \div 5 = 12 \) remainder 1.
+   - \( 61 \div 6 = 10 \) remainder 1.
+
+Since 61 is a two-digit number and satisfies all the conditions, the answer is:
+
+**61**.

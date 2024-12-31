@@ -1,1 +1,55 @@
-Answer: 
+Answer: To solve the equation \(\frac{x^2 + x + 1}{x + 1} = x + 2\) for \(x\), we start by eliminating the fraction. we multiply both sides by \(x + 1\) (noting that \(x \neq -1\)):
+
+\[
+x^2 + x + 1 = (x + 2)(x + 1)
+\]
+
+next, we expand the right-hand side:
+
+\[
+(x + 2)(x + 1) = x^2 + 3x + 2
+\]
+
+this gives us the equation:
+
+\[
+x^2 + x + 1 = x^2 + 3x + 2
+\]
+
+we subtract \(x^2\) from both sides:
+
+\[
+x + 1 = 3x + 2
+\]
+
+then, we isolate \(x\) by subtracting \(x\) and 2 from both sides:
+
+\[
+1 - 2 = 2x \implies -1 = 2x \implies x = -\frac{1}{2}
+\]
+
+we verify that \(x = -\frac{1}{2}\) does not make the denominator zero in the original equation:
+
+\[
+-\frac{1}{2} + 1 = \frac{1}{2} \neq 0
+\]
+
+finally, we check the solution by substituting \(x = -\frac{1}{2}\) back into the original equation:
+
+left side:
+
+\[
+\frac{(-\frac{1}{2})^2 + (-\frac{1}{2}) + 1}{-\frac{1}{2} + 1} = \frac{\frac{1}{4} - \frac{1}{2} + 1}{\frac{1}{2}} = \frac{\frac{3}{4}}{\frac{1}{2}} = \frac{3}{4} \times \frac{2}{1} = \frac{3}{2}
+\]
+
+right side:
+
+\[
+-\frac{1}{2} + 2 = \frac{3}{2}
+\]
+
+both sides are equal, confirming that \(x = -\frac{1}{2}\) is the correct solution.
+
+\[
+\boxed{-\frac{1}{2}}
+\]

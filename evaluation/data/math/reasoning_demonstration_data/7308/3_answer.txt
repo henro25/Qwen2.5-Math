@@ -1,1 +1,35 @@
-Answer: 
+Answer: The given series is \(1 + 2 + 4 + 8 + 16 + \cdots + 1024\), which is a geometric series with the first term \(a = 1\) and common ratio \(r = 2\).
+
+to find the number of terms \(n\), we use the formula for the \(n\)-th term of a geometric series:
+\[
+a \cdot r^{n-1} = 1024
+\]
+\[
+1 \cdot 2^{n-1} = 1024
+\]
+\[
+2^{n-1} = 2^{10}
+\]
+\[
+n-1 = 10 \implies n = 11
+\]
+
+the sum of the first \(n\) terms of a geometric series is given by:
+\[
+s = a \cdot \frac{r^n - 1}{r - 1}
+\]
+substituting the values:
+\[
+s = 1 \cdot \frac{2^{11} - 1}{2 - 1}
+\]
+\[
+s = 2^{11} - 1
+\]
+\[
+s = 2048 - 1 = 2047
+\]
+
+thus, the sum of the series is:
+\[
+\boxed{2047}
+\]

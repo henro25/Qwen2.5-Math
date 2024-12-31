@@ -1,1 +1,23 @@
-Answer: 
+Answer: First, we are given the function \( f(x) = 3x^2 - 7 \) and the information that \( g(f(4)) = 9 \). we need to find \( g(f(-4)) \).
+
+we start by calculating \( f(4) \):
+\[
+f(4) = 3(4)^2 - 7 = 3(16) - 7 = 48 - 7 = 41
+\]
+
+next, we calculate \( f(-4) \):
+\[
+f(-4) = 3(-4)^2 - 7 = 3(16) - 7 = 48 - 7 = 41
+\]
+
+since both \( f(4) \) and \( f(-4) \) equal 41, we have:
+\[
+g(f(4)) = g(41) = 9
+\]
+
+therefore, \( g(f(-4)) = g(41) = 9 \).
+
+the final answer is:
+\[
+\boxed{9}
+\]

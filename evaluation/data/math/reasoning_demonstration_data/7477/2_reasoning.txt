@@ -1,1 +1,315 @@
-Reasoning: 
+Reasoning: So i have this problem: "what is the slope of a line parallel to the line 
+2
+x
+−
+4
+y
+=
+9
+2x−4y=9? express your answer as a common fraction." alright, let's break this down. i need to find the slope of a line that's parallel to the given line. i know that parallel lines have the same slope, so if i can find the slope of the given line, that will be the answer.
+
+first, i should probably get the equation of the line into a form where i can easily identify the slope. the standard form of a linear equation is 
+y
+=
+m
+x
++
+b
+y=mx+b, where 
+m
+m is the slope and 
+b
+b is the y-intercept. so, i need to solve for 
+y
+y in terms of 
+x
+x in the equation 
+2
+x
+−
+4
+y
+=
+9
+2x−4y=9.
+
+let me try that. starting with:
+
+2
+x
+−
+4
+y
+=
+9
+2x−4y=9
+i want to isolate 
+y
+y, so i'll first subtract 
+2
+x
+2x from both sides:
+
+−
+4
+y
+=
+−
+2
+x
++
+9
+−4y=−2x+9
+now, i need to get rid of the coefficient 
+−
+4
+−4 in front of 
+y
+y. i'll divide every term by 
+−
+4
+−4:
+
+y
+=
+−
+2
+x
++
+9
+−
+4
+y= 
+−4
+−2x+9
+​	
+ 
+simplifying that, i can split the fraction:
+
+y
+=
+−
+2
+x
+−
+4
++
+9
+−
+4
+y= 
+−4
+−2x
+​	
+ + 
+−4
+9
+​	
+ 
+the negatives in the numerator and denominator of the first term cancel out:
+
+y
+=
+1
+2
+x
+−
+9
+4
+y= 
+2
+1
+​	
+ x− 
+4
+9
+​	
+ 
+so, the equation is now in the form 
+y
+=
+m
+x
++
+b
+y=mx+b, where 
+m
+=
+1
+2
+m= 
+2
+1
+​	
+  and 
+b
+=
+−
+9
+4
+b=− 
+4
+9
+​	
+ . therefore, the slope of the original line is 
+1
+2
+2
+1
+​	
+ .
+
+since parallel lines have identical slopes, any line parallel to the given line will also have a slope of 
+1
+2
+2
+1
+​	
+ .
+
+wait a minute, let me double-check my steps to make sure i didn't make any mistakes. starting from:
+
+2
+x
+−
+4
+y
+=
+9
+2x−4y=9
+subtracting 
+2
+x
+2x from both sides:
+
+−
+4
+y
+=
+−
+2
+x
++
+9
+−4y=−2x+9
+dividing by 
+−
+4
+−4:
+
+y
+=
+−
+2
+x
++
+9
+−
+4
+=
+1
+2
+x
+−
+9
+4
+y= 
+−4
+−2x+9
+​	
+ = 
+2
+1
+​	
+ x− 
+4
+9
+​	
+ 
+yes, that looks correct. the slope is indeed 
+1
+2
+2
+1
+​	
+ .
+
+alternatively, i could use the general form of a linear equation, 
+a
+x
++
+b
+y
++
+c
+=
+0
+ax+by+c=0, and recall that the slope 
+m
+m is 
+−
+a
+b
+− 
+b
+a
+​	
+ . in this equation, 
+a
+=
+2
+a=2 and 
+b
+=
+−
+4
+b=−4, so:
+
+m
+=
+−
+2
+−
+4
+=
+2
+4
+=
+1
+2
+m=− 
+−4
+2
+​	
+ = 
+4
+2
+​	
+ = 
+2
+1
+​	
+ 
+again, i get the same result, which is reassuring.
+
+i think i've got it. the slope of any line parallel to 
+2
+x
+−
+4
+y
+=
+9
+2x−4y=9 is 
+1
+2
+2
+1
+​	
+ .
+
+**final answer**
+
+1
+2	
+ 

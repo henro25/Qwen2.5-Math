@@ -1,1 +1,26 @@
-Answer: 
+Answer: To find the sum of all three-digit positive integers with three distinct digits and the remainder when that sum is divided by 1000, we proceed as follows:
+
+1. **counting the numbers:**
+   - the hundreds place can be any digit from 1 to 9 (9 choices).
+   - the tens place can be any digit from 0 to 9 except the hundreds digit (9 choices).
+   - the units place can be any digit from 0 to 9 except the hundreds and tens digits (8 choices).
+   - total number of such numbers: \( 9 \times 9 \times 8 = 648 \).
+
+2. **summing the numbers:**
+   - **hundreds place contribution:**
+     - each digit from 1 to 9 appears 72 times in the hundreds place.
+     - sum contribution: \( 45 \times 72 \times 100 = 324,000 \).
+   - **tens place contribution:**
+     - each digit from 1 to 9 appears 64 times in the tens place.
+     - sum contribution: \( 64 \times 45 \times 10 = 28,800 \).
+   - **units place contribution:**
+     - each digit from 1 to 9 appears 64 times in the units place.
+     - sum contribution: \( 64 \times 45 \times 1 = 2,880 \).
+
+3. **total sum:**
+   - \( s = 324,000 + 28,800 + 2,880 = 355,680 \).
+
+4. **finding the remainder:**
+   - the remainder when \( 355,680 \) is divided by 1000 is the last three digits of \( 355,680 \), which is 680.
+
+thus, the remainder when \( s \) is divided by 1000 is \(\boxed{680}\).

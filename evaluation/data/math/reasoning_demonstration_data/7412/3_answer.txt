@@ -1,1 +1,19 @@
-Answer: 
+Answer: To find the determinant of the \(2 \times 2\) matrix corresponding to a dilation centered at the origin with a scale factor of 7, we start by identifying the matrix representation of the dilation. a dilation with scale factor 7 transforms any point \((x, y)\) to \((7x, 7y)\), which corresponds to the matrix:
+
+\[
+\mathbf{d} = \begin{pmatrix} 7 & 0 \\ 0 & 7 \end{pmatrix}
+\]
+
+the determinant of a \(2 \times 2\) matrix \(\begin{pmatrix} a & b \\ c & d \end{pmatrix}\) is calculated as \(ad - bc\). applying this to our matrix \(\mathbf{d}\):
+
+\[
+\det \mathbf{d} = (7)(7) - (0)(0) = 49 - 0 = 49
+\]
+
+additionally, the determinant can be interpreted as the scaling factor of the area, which for a dilation with scale factor 7 is \(7^2 = 49\). this confirms our calculation.
+
+thus, the determinant of the matrix \(\mathbf{d}\) is:
+
+\[
+\boxed{49}
+\]

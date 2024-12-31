@@ -1,1 +1,31 @@
-Answer: 
+Answer: Given that angle \( a \) lies in the second quadrant and \(\sin a = \frac{3}{4}\), we need to find \(\cos a\).
+
+first, we use the pythagorean identity:
+\[
+\sin^2 a + \cos^2 a = 1
+\]
+given \(\sin a = \frac{3}{4}\), we have:
+\[
+\sin^2 a = \left(\frac{3}{4}\right)^2 = \frac{9}{16}
+\]
+substituting this into the identity:
+\[
+\frac{9}{16} + \cos^2 a = 1
+\]
+solving for \(\cos^2 a\):
+\[
+\cos^2 a = 1 - \frac{9}{16} = \frac{16}{16} - \frac{9}{16} = \frac{7}{16}
+\]
+taking the square root of both sides:
+\[
+\cos a = \pm \sqrt{\frac{7}{16}} = \pm \frac{\sqrt{7}}{4}
+\]
+since angle \( a \) is in the second quadrant, where cosine is negative, we have:
+\[
+\cos a = -\frac{\sqrt{7}}{4}
+\]
+
+thus, the final answer is:
+\[
+\boxed{-\frac{\sqrt{7}}{4}}
+\]

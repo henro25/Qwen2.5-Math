@@ -1,1 +1,18 @@
-Answer: 
+Answer: To simplify $(\sqrt{5})^4$, we can use exponent rules.
+
+1. **Express the square root as an exponent:**
+   \[
+   \sqrt{5} = 5^{1/2}
+   \]
+
+2. **Apply the power rule for exponents:**
+   \[
+   (5^{1/2})^4 = 5^{(1/2) \times 4} = 5^2
+   \]
+
+3. **Simplify the exponentiation:**
+   \[
+   5^2 = 25
+   \]
+
+Thus, $(\sqrt{5})^4$ simplifies to $25$.

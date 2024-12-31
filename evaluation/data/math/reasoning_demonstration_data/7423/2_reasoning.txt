@@ -1,1 +1,215 @@
-Reasoning: 
+Reasoning: So i've got this problem here. there are two arithmetic sequences, a and b, both starting with 30. they have common differences of absolute value 10, but sequence a is increasing and sequence b is decreasing. i need to find the absolute value of the difference between the 51st term of sequence a and the 51st term of sequence b.
+
+first, i need to recall what an arithmetic sequence is. an arithmetic sequence is a sequence of numbers where the difference between consecutive terms is constant. this constant difference is called the common difference.
+
+for sequence a, since it's increasing and has a common difference of absolute value 10, that means the common difference is +10.
+
+for sequence b, since it's decreasing and has a common difference of absolute value 10, that means the common difference is -10.
+
+now, both sequences start with 30.
+
+let me write down the general formula for the nth term of an arithmetic sequence.
+
+the nth term of an arithmetic sequence is given by:
+
+a_n = a_1 + (n - 1)d
+
+where:
+
+- a_n is the nth term
+
+- a_1 is the first term
+
+- d is the common difference
+
+- n is the term number
+
+so, for sequence a:
+
+a_n = 30 + (n - 1)*10
+
+and for sequence b:
+
+b_n = 30 + (n - 1)*(-10) = 30 - 10(n - 1)
+
+i need to find the 51st term of each sequence.
+
+first, let's find the 51st term of sequence a:
+
+a_51 = 30 + (51 - 1)*10 = 30 + 50*10 = 30 + 500 = 530
+
+now, the 51st term of sequence b:
+
+b_51 = 30 - 10*(51 - 1) = 30 - 10*50 = 30 - 500 = -470
+
+now, i need the absolute value of the difference between these two terms.
+
+so, |a_51 - b_51| = |530 - (-470)| = |530 + 470| = |1000| = 1000
+
+wait, that seems straightforward. but let me double-check my calculations to make sure i didn't make any mistakes.
+
+first, sequence a:
+
+a_n = 30 + (n - 1)*10
+
+for n=51:
+
+a_51 = 30 + 50*10 = 30 + 500 = 530
+
+that seems correct.
+
+sequence b:
+
+b_n = 30 - 10*(n - 1)
+
+for n=51:
+
+b_51 = 30 - 10*50 = 30 - 500 = -470
+
+that also looks correct.
+
+difference:
+
+530 - (-470) = 530 + 470 = 1000
+
+absolute value is 1000.
+
+is there another way to approach this problem to confirm the answer?
+
+let me think about the general difference between the nth terms of the two sequences.
+
+a_n = 30 + (n - 1)*10
+
+b_n = 30 - 10*(n - 1)
+
+so, the difference a_n - b_n = [30 + 10(n - 1)] - [30 - 10(n - 1)] = 30 + 10n - 10 - 30 + 10n - 10 = wait, that doesn't look right.
+
+let me recalculate that:
+
+a_n - b_n = [30 + 10(n - 1)] - [30 - 10(n - 1)] = 30 + 10n - 10 - 30 + 10n - (-10) ?
+
+wait, no, better to distribute the negative sign properly.
+
+a_n - b_n = 30 + 10(n - 1) - 30 + 10(n - 1)
+
+wait, no.
+
+wait, b_n is 30 - 10(n - 1), so when subtracting b_n, it's minus (30 - 10(n - 1)) which is -30 + 10(n - 1).
+
+so, a_n - b_n = [30 + 10(n - 1)] - [30 - 10(n - 1)] = 30 + 10n - 10 - 30 + 10n - (-10)? wait, that's confusing.
+
+let me do it step by step.
+
+a_n = 30 + 10(n - 1)
+
+b_n = 30 - 10(n - 1)
+
+so, a_n - b_n = [30 + 10(n - 1)] - [30 - 10(n - 1)] = 30 + 10n - 10 - 30 + 10n - (-10)?
+
+wait, no. actually, it's:
+
+a_n - b_n = (30 + 10(n - 1)) - (30 - 10(n - 1)) = 30 + 10n - 10 - 30 + 10n - (-10)?
+
+wait, that can't be right. let me carefully distribute the subtraction.
+
+= 30 + 10(n - 1) - 30 + 10(n - 1)
+
+wait, no.
+
+wait, no. it's (30 + 10(n - 1)) - (30 - 10(n - 1)) = 30 + 10(n - 1) - 30 + 10(n - 1)
+
+because subtracting a negative is adding.
+
+so, it's 30 + 10(n - 1) - 30 + 10(n - 1) = [30 - 30] + [10(n - 1) + 10(n - 1)] = 0 + 20(n - 1) = 20(n - 1)
+
+therefore, a_n - b_n = 20(n - 1)
+
+so, for n=51, the difference is 20*(51 - 1) = 20*50 = 1000
+
+and the absolute value is 1000.
+
+this matches my earlier calculation.
+
+alternatively, i can think about the sequences.
+
+sequence a is increasing by 10 each time, starting at 30.
+
+sequence b is decreasing by 10 each time, starting at 30.
+
+so, for each term beyond the first, sequence a is moving away from sequence b by 20 per term.
+
+wait, let me think about that.
+
+wait, for each term, sequence a increases by 10, and sequence b decreases by 10, so the difference between corresponding terms increases by 20 each time.
+
+wait, but actually, since one is increasing by 10 and the other is decreasing by 10, the difference between them increases by 20 each term.
+
+wait, is that correct?
+
+let's see.
+
+first term: both are 30, so difference is 0.
+
+second term: a is 40, b is 20, difference is 20.
+
+third term: a is 50, b is 10, difference is 40.
+
+fourth term: a is 60, b is 0, difference is 60.
+
+wait, no, sequence b starts at 30 and decreases by 10 each time.
+
+so, first term: 30
+
+second term: 30 - 10 = 20
+
+third term: 20 - 10 = 10
+
+fourth term: 10 - 10 = 0
+
+and sequence a:
+
+first term: 30
+
+second term: 30 + 10 = 40
+
+third term: 40 + 10 = 50
+
+fourth term: 50 + 10 = 60
+
+so, differences:
+
+term 1: 30 - 30 = 0
+
+term 2: 40 - 20 = 20
+
+term 3: 50 - 10 = 40
+
+term 4: 60 - 0 = 60
+
+so, the difference increases by 20 each time.
+
+so, the difference between the nth terms is 20*(n - 1)
+
+which matches what i found earlier.
+
+therefore, for n=51, difference is 20*(51-1) = 20*50 = 1000
+
+absolute value is 1000.
+
+alternatively, i can think about the sequences converging or diverging.
+
+but in this case, since one is increasing and the other is decreasing with the same rate, they are moving away from each other at a constant rate per term.
+
+wait, no, actually, the difference increases by 20 per term, as seen in the earlier example.
+
+so, for the first term, difference is 0.
+
+second term, difference is 20.
+
+third term, difference is 40.
+
+and so on, up to the 51st term, difference is 20*(51 - 1) = 1000.
+
+therefore, the absolute value of the difference is 1000.
+
+i think that's the answer.

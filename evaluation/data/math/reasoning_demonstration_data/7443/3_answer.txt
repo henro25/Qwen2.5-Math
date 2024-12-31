@@ -1,1 +1,35 @@
-Answer: 
+Answer: Given the problem, we need to find the positive value of \( t \) that satisfies \( ab = t - 2i \) given \( |a| = 2 \) and \( |b| = \sqrt{26} \).
+
+first, we use the property of magnitudes of complex numbers: \( |ab| = |a| \cdot |b| \).
+
+given:
+\[ |a| = 2 \]
+\[ |b| = \sqrt{26} \]
+
+thus:
+\[ |ab| = 2 \times \sqrt{26} = 2\sqrt{26} \]
+
+the magnitude of \( ab \) is also given by:
+\[ |t - 2i| = \sqrt{t^2 + (-2)^2} = \sqrt{t^2 + 4} \]
+
+equating the magnitudes:
+\[ \sqrt{t^2 + 4} = 2\sqrt{26} \]
+
+squaring both sides:
+\[ t^2 + 4 = (2\sqrt{26})^2 \]
+\[ t^2 + 4 = 4 \times 26 \]
+\[ t^2 + 4 = 104 \]
+
+subtracting 4 from both sides:
+\[ t^2 = 100 \]
+
+taking the square root:
+\[ t = \pm 10 \]
+
+since we need the positive value:
+\[ t = 10 \]
+
+therefore, the positive value of \( t \) is:
+\[
+\boxed{10}
+\]
